@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Spycamera on Sensr.net Blog | Watch your Stuff!</title>
-    <link>https://sblog.sensr.net/tags/spycamera/</link>
+    <link>https://sensrnet.github.io/tags/spycamera/</link>
     <description>Recent content in Spycamera on Sensr.net Blog | Watch your Stuff!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 25 Feb 2014 06:05:58 +0000</lastBuildDate>
-    <atom:link href="https://sblog.sensr.net/tags/spycamera/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sensrnet.github.io/tags/spycamera/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Android Security Camera</title>
-      <link>https://sblog.sensr.net/2014/02/24/android-security-camera/</link>
+      <link>https://sensrnet.github.io/2014/02/24/android-security-camera/</link>
       <pubDate>Tue, 25 Feb 2014 06:05:58 +0000</pubDate>
       
-      <guid>https://sblog.sensr.net/2014/02/24/android-security-camera/</guid>
+      <guid>https://sensrnet.github.io/2014/02/24/android-security-camera/</guid>
       <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
   &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
     &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/02/24/android-security-camera/&#34; data-text=&#34;Android Security Camera&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
