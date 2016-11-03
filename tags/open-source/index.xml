@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Source on Sensr.net Blog | Watch your Stuff!</title>
+    <link>https://sblog.sensr.net/tags/open-source/</link>
+    <description>Recent content in Open Source on Sensr.net Blog | Watch your Stuff!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Jul 2014 16:21:14 +0000</lastBuildDate>
+    <atom:link href="https://sblog.sensr.net/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Download Images From Sensr.net</title>
+      <link>https://sblog.sensr.net/2014/07/08/download-images-from-sensr-net/</link>
+      <pubDate>Tue, 08 Jul 2014 16:21:14 +0000</pubDate>
+      
+      <guid>https://sblog.sensr.net/2014/07/08/download-images-from-sensr-net/</guid>
+      <description>
+
+&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
+  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
+    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/&#34; data-text=&#34;Download Images From Sensr.net &#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
+  &lt;/div&gt;
+  
+
+&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://flic.kr/p/5Yrhye&#34;&gt;&lt;img class=&#34;alignleft  wp-image-2923&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&#34; alt=&#34;Full Moon Mystery&#34; width=&#34;245&#34; height=&#34;368&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&#34; sizes=&#34;(max-width: 245px) 100vw, 245px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;#8217;ve marked them as a favorite or &lt;a href=&#34;http://sensr.net/blog/2014/04/29/making-clips-on-sensr-net/&#34; title=&#34;Making Clips on Sensr.net&#34;&gt;made a clip&lt;/a&gt;. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.&lt;/p&gt;
+
+&lt;p&gt;To use this approach you&amp;#8217;ll need a few things:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Access to the command line&lt;/li&gt;
+&lt;li&gt;The ability to run Ruby programs&lt;/li&gt;
+&lt;li&gt;The ability to install Ruby Gems&lt;/li&gt;
+&lt;li&gt;A Sensr.net account&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I&amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.&lt;/p&gt;
+
+&lt;p&gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ruby -v&lt;/code&gt; command. The output should looks something like this:&lt;/p&gt;
+
+&lt;p&gt;``&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
+  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
+    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/&#34; data-text=&#34;Download Images From Sensr.net &#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
+  &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://flic.kr/p/5Yrhye&#34;&gt;&lt;img class=&#34;alignleft  wp-image-2923&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&#34; alt=&#34;Full Moon Mystery&#34; width=&#34;245&#34; height=&#34;368&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&#34; sizes=&#34;(max-width: 245px) 100vw, 245px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;#8217;ve marked them as a favorite or &lt;a href=&#34;http://sensr.net/blog/2014/04/29/making-clips-on-sensr-net/&#34; title=&#34;Making Clips on Sensr.net&#34;&gt;made a clip&lt;/a&gt;. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.&lt;/p&gt;
+
+&lt;p&gt;To use this approach you&amp;#8217;ll need a few things:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Access to the command line&lt;/li&gt;
+&lt;li&gt;The ability to run Ruby programs&lt;/li&gt;
+&lt;li&gt;The ability to install Ruby Gems&lt;/li&gt;
+&lt;li&gt;A Sensr.net account&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I&amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.&lt;/p&gt;
+
+&lt;p&gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ruby -v&lt;/code&gt; command. The output should looks something like this:&lt;/p&gt;
+
+&lt;p&gt;``&lt;/p&gt;
+
+&lt;p&gt;If you don&amp;#8217;t have Ruby installed you&amp;#8217;ll have to Google around to find out how to install it on your machine.  I recommend starting with &lt;a href=&#34;https://rvm.io/&#34; title=&#34;RVM: Ruby Version Manager&#34;&gt;RVM&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;install-sensr-net-gem:11d25cbabffb760c658b727d27109ba8&#34;&gt;Install Sensr.net Gem&lt;/h2&gt;
+
+&lt;p&gt;Now you  need to install the Sensr.net gem. This will let you run Ruby programs that interact with the &lt;a href=&#34;http://sensr.net/blog/2013/02/07/new-sensr-net-api-v3/&#34; title=&#34;New Sensr.net IP Camera API &amp;amp; SDK Release&#34;&gt;Sensr.net APIs&lt;/a&gt;. The program that downloads images from Sensr.net also uses this gem. Just run &lt;code&gt;gem install sensr&lt;/code&gt; from the command line and you&amp;#8217;ll be good to go. It should look something like this:&lt;/p&gt;
+
+&lt;pre&gt;$ gem install sensr
+Successfully installed sensr-1.0.2
+1 gem installed
+$&lt;/pre&gt;
+
+&lt;h2 id=&#34;install-get-images-rb:11d25cbabffb760c658b727d27109ba8&#34;&gt;Install get-images.rb&lt;/h2&gt;
+
+&lt;p&gt;Next you&amp;#8217;ll need to get the get-images.rb program. If you&amp;#8217;re comfortable with git, you can just run &lt;code&gt;git clone &lt;a href=&#34;https://github.com/adamb/Sensr-utils.git&#34;&gt;https://github.com/adamb/Sensr-utils.git&lt;/a&gt;&lt;/code&gt; and you&amp;#8217;ll have the entire &lt;a href=&#34;https://github.com/adamb/Sensr-utils&#34; title=&#34;Sensr-utils Repository&#34;&gt;Sensr-utils repository&lt;/a&gt;. If you just want the get-images.rb program, you can find it &lt;a href=&#34;https://raw.githubusercontent.com/adamb/Sensr-utils/master/get-images.rb&#34; title=&#34;get-images.rb source code&#34;&gt;here&lt;/a&gt;. Just save a copy of it to your local disk where you can get at it from the command line.&lt;/p&gt;
+
+&lt;h2 id=&#34;find-your-sensr-net-token:11d25cbabffb760c658b727d27109ba8&#34;&gt;Find Your Sensr.net Token&lt;/h2&gt;
+
+&lt;p&gt;To use the Sensr.net API you need a secret token.  This is so only you can access the images stored in Sensr.net.  To get a token, you can follow the instructions on the &lt;a href=&#34;http://yacc.github.io/sensrapi-tutorials/&#34; title=&#34;Sensr.net API Tutorial&#34;&gt;API Tutorial&lt;/a&gt;.  Basically you log into Sensr.net and go to &lt;a href=&#34;https://sensr.net/account/applications&#34; title=&#34;Register an application&#34;&gt;Developer Applications&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You&amp;#8217;ll need the crazy long string that the site generates called &lt;strong&gt;Client Secret&lt;/strong&gt;. Here&amp;#8217;s one for an account that I just created.  This account doesn&amp;#8217;t have any cameras, but you could use this token to access public cameras.&lt;/p&gt;
+
+&lt;p&gt;Edit the line in &lt;code&gt;get-images.rb&lt;/code&gt; so it uses your token. The change will look something like this:&lt;/p&gt;
+
+&lt;p&gt;```&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
+  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
+    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/&#34; data-text=&#34;Download Images From Sensr.net &#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
+  &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://flic.kr/p/5Yrhye&#34;&gt;&lt;img class=&#34;alignleft  wp-image-2923&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&#34; alt=&#34;Full Moon Mystery&#34; width=&#34;245&#34; height=&#34;368&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&#34; sizes=&#34;(max-width: 245px) 100vw, 245px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;#8217;ve marked them as a favorite or &lt;a href=&#34;http://sensr.net/blog/2014/04/29/making-clips-on-sensr-net/&#34; title=&#34;Making Clips on Sensr.net&#34;&gt;made a clip&lt;/a&gt;. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.&lt;/p&gt;
+
+&lt;p&gt;To use this approach you&amp;#8217;ll need a few things:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Access to the command line&lt;/li&gt;
+&lt;li&gt;The ability to run Ruby programs&lt;/li&gt;
+&lt;li&gt;The ability to install Ruby Gems&lt;/li&gt;
+&lt;li&gt;A Sensr.net account&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I&amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.&lt;/p&gt;
+
+&lt;p&gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ruby -v&lt;/code&gt; command. The output should looks something like this:&lt;/p&gt;
+
+&lt;p&gt;``&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
+  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
+    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/&#34; data-text=&#34;Download Images From Sensr.net &#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
+  &lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://flic.kr/p/5Yrhye&#34;&gt;&lt;img class=&#34;alignleft  wp-image-2923&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&#34; alt=&#34;Full Moon Mystery&#34; width=&#34;245&#34; height=&#34;368&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&#34; sizes=&#34;(max-width: 245px) 100vw, 245px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;#8217;ve marked them as a favorite or &lt;a href=&#34;http://sensr.net/blog/2014/04/29/making-clips-on-sensr-net/&#34; title=&#34;Making Clips on Sensr.net&#34;&gt;made a clip&lt;/a&gt;. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.&lt;/p&gt;
+
+&lt;p&gt;To use this approach you&amp;#8217;ll need a few things:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Access to the command line&lt;/li&gt;
+&lt;li&gt;The ability to run Ruby programs&lt;/li&gt;
+&lt;li&gt;The ability to install Ruby Gems&lt;/li&gt;
+&lt;li&gt;A Sensr.net account&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I&amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.&lt;/p&gt;
+
+&lt;p&gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ruby -v&lt;/code&gt; command. The output should looks something like this:&lt;/p&gt;
+
+&lt;p&gt;``&lt;/p&gt;
+
+&lt;p&gt;If you don&amp;#8217;t have Ruby installed you&amp;#8217;ll have to Google around to find out how to install it on your machine.  I recommend starting with &lt;a href=&#34;https://rvm.io/&#34; title=&#34;RVM: Ruby Version Manager&#34;&gt;RVM&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;install-sensr-net-gem-1:11d25cbabffb760c658b727d27109ba8&#34;&gt;Install Sensr.net Gem&lt;/h2&gt;
+
+&lt;p&gt;Now you  need to install the Sensr.net gem. This will let you run Ruby programs that interact with the &lt;a href=&#34;http://sensr.net/blog/2013/02/07/new-sensr-net-api-v3/&#34; title=&#34;New Sensr.net IP Camera API &amp;amp; SDK Release&#34;&gt;Sensr.net APIs&lt;/a&gt;. The program that downloads images from Sensr.net also uses this gem. Just run &lt;code&gt;gem install sensr&lt;/code&gt; from the command line and you&amp;#8217;ll be good to go. It should look something like this:&lt;/p&gt;
+
+&lt;pre&gt;$ gem install sensr
+Successfully installed sensr-1.0.2
+1 gem installed
+$&lt;/pre&gt;
+
+&lt;h2 id=&#34;install-get-images-rb-1:11d25cbabffb760c658b727d27109ba8&#34;&gt;Install get-images.rb&lt;/h2&gt;
+
+&lt;p&gt;Next you&amp;#8217;ll need to get the get-images.rb program. If you&amp;#8217;re comfortable with git, you can just run &lt;code&gt;git clone &lt;a href=&#34;https://github.com/adamb/Sensr-utils.git&#34;&gt;https://github.com/adamb/Sensr-utils.git&lt;/a&gt;&lt;/code&gt; and you&amp;#8217;ll have the entire &lt;a href=&#34;https://github.com/adamb/Sensr-utils&#34; title=&#34;Sensr-utils Repository&#34;&gt;Sensr-utils repository&lt;/a&gt;. If you just want the get-images.rb program, you can find it &lt;a href=&#34;https://raw.githubusercontent.com/adamb/Sensr-utils/master/get-images.rb&#34; title=&#34;get-images.rb source code&#34;&gt;here&lt;/a&gt;. Just save a copy of it to your local disk where you can get at it from the command line.&lt;/p&gt;
+
+&lt;h2 id=&#34;find-your-sensr-net-token-1:11d25cbabffb760c658b727d27109ba8&#34;&gt;Find Your Sensr.net Token&lt;/h2&gt;
+
+&lt;p&gt;To use the Sensr.net API you need a secret token.  This is so only you can access the images stored in Sensr.net.  To get a token, you can follow the instructions on the &lt;a href=&#34;http://yacc.github.io/sensrapi-tutorials/&#34; title=&#34;Sensr.net API Tutorial&#34;&gt;API Tutorial&lt;/a&gt;.  Basically you log into Sensr.net and go to &lt;a href=&#34;https://sensr.net/account/applications&#34; title=&#34;Register an application&#34;&gt;Developer Applications&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You&amp;#8217;ll need the crazy long string that the site generates called &lt;strong&gt;Client Secret&lt;/strong&gt;. Here&amp;#8217;s one for an account that I just created.  This account doesn&amp;#8217;t have any cameras, but you could use this token to access public cameras.&lt;/p&gt;
+
+&lt;p&gt;Edit the line in &lt;code&gt;get-images.rb&lt;/code&gt; so it uses your token. The change will look something like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+becomes
+
+`Sensr.oauth_token = &#39;201148a20b5468d2bca75a71e36e9f0086034037b7d341142daf84a6a2f2fba5&#39;`
+
+Alternatively you could create a file called `mytoken.rb` that has just this line.
+
+## Run get-images.rb
+
+Finally you can run the program! Run it like this. The &amp;amp;#8211;help parameter shows you the options.
+
+ ````&amp;lt;div class=&amp;quot;share_buttons_simple_use_buttons&amp;quot; style=&amp;quot;padding: 10px 0; display: inline-block&amp;quot;&amp;gt;
+  &amp;lt;div class=&amp;quot;tweet_button&amp;quot; style=&amp;quot;float: left; vertical-align: top&amp;quot;&amp;gt;
+    &amp;lt;a href=&amp;quot;http://twitter.com/share&amp;quot; class=&amp;quot;twitter-share-button&amp;quot; data-url=&amp;quot;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/&amp;quot; data-text=&amp;quot;Download Images From Sensr.net &amp;quot; data-count=&amp;quot;none&amp;quot;&amp;gt;Tweet&amp;lt;/a&amp;gt;
+  &amp;lt;/div&amp;gt;
+  
+  &amp;lt;div class=&amp;quot;facebook_like_button&amp;quot; style=&amp;quot;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&amp;quot;&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+
+Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
+
+To use this approach you&amp;amp;#8217;ll need a few things:
+
+  * Access to the command line
+  * The ability to run Ruby programs
+  * The ability to install Ruby Gems
+  * A Sensr.net account
+
+I&amp;amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
+
+Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+
+`ruby -v` command. The output should looks something like this:
+
+ ``&amp;lt;div class=&amp;quot;share_buttons_simple_use_buttons&amp;quot; style=&amp;quot;padding: 10px 0; display: inline-block&amp;quot;&amp;gt;
+  &amp;lt;div class=&amp;quot;tweet_button&amp;quot; style=&amp;quot;float: left; vertical-align: top&amp;quot;&amp;gt;
+    &amp;lt;a href=&amp;quot;http://twitter.com/share&amp;quot; class=&amp;quot;twitter-share-button&amp;quot; data-url=&amp;quot;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/&amp;quot; data-text=&amp;quot;Download Images From Sensr.net &amp;quot; data-count=&amp;quot;none&amp;quot;&amp;gt;Tweet&amp;lt;/a&amp;gt;
+  &amp;lt;/div&amp;gt;
+  
+  &amp;lt;div class=&amp;quot;facebook_like_button&amp;quot; style=&amp;quot;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&amp;quot;&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+
+Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
+
+To use this approach you&amp;amp;#8217;ll need a few things:
+
+  * Access to the command line
+  * The ability to run Ruby programs
+  * The ability to install Ruby Gems
+  * A Sensr.net account
+
+I&amp;amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
+
+Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+
+`ruby -v` command. The output should looks something like this:
+
+`` 
+
+If you don&amp;amp;#8217;t have Ruby installed you&amp;amp;#8217;ll have to Google around to find out how to install it on your machine.  I recommend starting with [RVM][3].
+
+## Install Sensr.net Gem
+
+Now you  need to install the Sensr.net gem. This will let you run Ruby programs that interact with the [Sensr.net APIs][4]. The program that downloads images from Sensr.net also uses this gem. Just run `gem install sensr` from the command line and you&amp;amp;#8217;ll be good to go. It should look something like this:
+
+&amp;lt;pre&amp;gt;$ gem install sensr
+Successfully installed sensr-1.0.2
+1 gem installed
+$&amp;lt;/pre&amp;gt;
+
+## Install get-images.rb
+
+Next you&amp;amp;#8217;ll need to get the get-images.rb program. If you&amp;amp;#8217;re comfortable with git, you can just run &amp;lt;code&amp;gt;git clone https://github.com/adamb/Sensr-utils.git&amp;lt;/code&amp;gt; and you&amp;amp;#8217;ll have the entire [Sensr-utils repository][5]. If you just want the get-images.rb program, you can find it [here][6]. Just save a copy of it to your local disk where you can get at it from the command line.
+
+## Find Your Sensr.net Token
+
+To use the Sensr.net API you need a secret token.  This is so only you can access the images stored in Sensr.net.  To get a token, you can follow the instructions on the [API Tutorial][7].  Basically you log into Sensr.net and go to [Developer Applications][8].
+
+You&amp;amp;#8217;ll need the crazy long string that the site generates called **Client Secret**. Here&amp;amp;#8217;s one for an account that I just created.  This account doesn&amp;amp;#8217;t have any cameras, but you could use this token to access public cameras.
+
+Edit the line in `get-images.rb` so it uses your token. The change will look something like this:
+
+```&amp;lt;div class=&amp;quot;share_buttons_simple_use_buttons&amp;quot; style=&amp;quot;padding: 10px 0; display: inline-block&amp;quot;&amp;gt;
+  &amp;lt;div class=&amp;quot;tweet_button&amp;quot; style=&amp;quot;float: left; vertical-align: top&amp;quot;&amp;gt;
+    &amp;lt;a href=&amp;quot;http://twitter.com/share&amp;quot; class=&amp;quot;twitter-share-button&amp;quot; data-url=&amp;quot;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/&amp;quot; data-text=&amp;quot;Download Images From Sensr.net &amp;quot; data-count=&amp;quot;none&amp;quot;&amp;gt;Tweet&amp;lt;/a&amp;gt;
+  &amp;lt;/div&amp;gt;
+  
+  &amp;lt;div class=&amp;quot;facebook_like_button&amp;quot; style=&amp;quot;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&amp;quot;&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+
+Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
+
+To use this approach you&amp;amp;#8217;ll need a few things:
+
+  * Access to the command line
+  * The ability to run Ruby programs
+  * The ability to install Ruby Gems
+  * A Sensr.net account
+
+I&amp;amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
+
+Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+
+`ruby -v` command. The output should looks something like this:
+
+ ``&amp;lt;div class=&amp;quot;share_buttons_simple_use_buttons&amp;quot; style=&amp;quot;padding: 10px 0; display: inline-block&amp;quot;&amp;gt;
+  &amp;lt;div class=&amp;quot;tweet_button&amp;quot; style=&amp;quot;float: left; vertical-align: top&amp;quot;&amp;gt;
+    &amp;lt;a href=&amp;quot;http://twitter.com/share&amp;quot; class=&amp;quot;twitter-share-button&amp;quot; data-url=&amp;quot;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/&amp;quot; data-text=&amp;quot;Download Images From Sensr.net &amp;quot; data-count=&amp;quot;none&amp;quot;&amp;gt;Tweet&amp;lt;/a&amp;gt;
+  &amp;lt;/div&amp;gt;
+  
+  &amp;lt;div class=&amp;quot;facebook_like_button&amp;quot; style=&amp;quot;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&amp;quot;&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+
+Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
+
+To use this approach you&amp;amp;#8217;ll need a few things:
+
+  * Access to the command line
+  * The ability to run Ruby programs
+  * The ability to install Ruby Gems
+  * A Sensr.net account
+
+I&amp;amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
+
+Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+
+`ruby -v` command. The output should looks something like this:
+
+`` 
+
+If you don&amp;amp;#8217;t have Ruby installed you&amp;amp;#8217;ll have to Google around to find out how to install it on your machine.  I recommend starting with [RVM][3].
+
+## Install Sensr.net Gem
+
+Now you  need to install the Sensr.net gem. This will let you run Ruby programs that interact with the [Sensr.net APIs][4]. The program that downloads images from Sensr.net also uses this gem. Just run `gem install sensr` from the command line and you&amp;amp;#8217;ll be good to go. It should look something like this:
+
+&amp;lt;pre&amp;gt;$ gem install sensr
+Successfully installed sensr-1.0.2
+1 gem installed
+$&amp;lt;/pre&amp;gt;
+
+## Install get-images.rb
+
+Next you&amp;amp;#8217;ll need to get the get-images.rb program. If you&amp;amp;#8217;re comfortable with git, you can just run &amp;lt;code&amp;gt;git clone https://github.com/adamb/Sensr-utils.git&amp;lt;/code&amp;gt; and you&amp;amp;#8217;ll have the entire [Sensr-utils repository][5]. If you just want the get-images.rb program, you can find it [here][6]. Just save a copy of it to your local disk where you can get at it from the command line.
+
+## Find Your Sensr.net Token
+
+To use the Sensr.net API you need a secret token.  This is so only you can access the images stored in Sensr.net.  To get a token, you can follow the instructions on the [API Tutorial][7].  Basically you log into Sensr.net and go to [Developer Applications][8].
+
+You&amp;amp;#8217;ll need the crazy long string that the site generates called **Client Secret**. Here&amp;amp;#8217;s one for an account that I just created.  This account doesn&amp;amp;#8217;t have any cameras, but you could use this token to access public cameras.
+
+Edit the line in `get-images.rb` so it uses your token. The change will look something like this:
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;becomes&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Sensr.oauth_token = &#39;201148a20b5468d2bca75a71e36e9f0086034037b7d341142daf84a6a2f2fba5&#39;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Alternatively you could create a file called &lt;code&gt;mytoken.rb&lt;/code&gt; that has just this line.&lt;/p&gt;
+
+&lt;h2 id=&#34;run-get-images-rb:11d25cbabffb760c658b727d27109ba8&#34;&gt;Run get-images.rb&lt;/h2&gt;
+
+&lt;p&gt;Finally you can run the program! Run it like this. The &amp;#8211;help parameter shows you the options.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+To grab the images from a specific day, say May 1, 2014 on camera 5 and drop the images into a directory called `mayday`, you would run the program like this:
+
+ `````&amp;lt;div class=&amp;quot;share_buttons_simple_use_buttons&amp;quot; style=&amp;quot;padding: 10px 0; display: inline-block&amp;quot;&amp;gt;
+  &amp;lt;div class=&amp;quot;tweet_button&amp;quot; style=&amp;quot;float: left; vertical-align: top&amp;quot;&amp;gt;
+    &amp;lt;a href=&amp;quot;http://twitter.com/share&amp;quot; class=&amp;quot;twitter-share-button&amp;quot; data-url=&amp;quot;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/&amp;quot; data-text=&amp;quot;Download Images From Sensr.net &amp;quot; data-count=&amp;quot;none&amp;quot;&amp;gt;Tweet&amp;lt;/a&amp;gt;
+  &amp;lt;/div&amp;gt;
+  
+  &amp;lt;div class=&amp;quot;facebook_like_button&amp;quot; style=&amp;quot;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&amp;quot;&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+
+Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
+
+To use this approach you&amp;amp;#8217;ll need a few things:
+
+  * Access to the command line
+  * The ability to run Ruby programs
+  * The ability to install Ruby Gems
+  * A Sensr.net account
+
+I&amp;amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
+
+Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+
+`ruby -v` command. The output should looks something like this:
+
+ ``&amp;lt;div class=&amp;quot;share_buttons_simple_use_buttons&amp;quot; style=&amp;quot;padding: 10px 0; display: inline-block&amp;quot;&amp;gt;
+  &amp;lt;div class=&amp;quot;tweet_button&amp;quot; style=&amp;quot;float: left; vertical-align: top&amp;quot;&amp;gt;
+    &amp;lt;a href=&amp;quot;http://twitter.com/share&amp;quot; class=&amp;quot;twitter-share-button&amp;quot; data-url=&amp;quot;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/&amp;quot; data-text=&amp;quot;Download Images From Sensr.net &amp;quot; data-count=&amp;quot;none&amp;quot;&amp;gt;Tweet&amp;lt;/a&amp;gt;
+  &amp;lt;/div&amp;gt;
+  
+  &amp;lt;div class=&amp;quot;facebook_like_button&amp;quot; style=&amp;quot;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&amp;quot;&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+
+Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
+
+To use this approach you&amp;amp;#8217;ll need a few things:
+
+  * Access to the command line
+  * The ability to run Ruby programs
+  * The ability to install Ruby Gems
+  * A Sensr.net account
+
+I&amp;amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
+
+Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+
+`ruby -v` command. The output should looks something like this:
+
+`` 
+
+If you don&amp;amp;#8217;t have Ruby installed you&amp;amp;#8217;ll have to Google around to find out how to install it on your machine.  I recommend starting with [RVM][3].
+
+## Install Sensr.net Gem
+
+Now you  need to install the Sensr.net gem. This will let you run Ruby programs that interact with the [Sensr.net APIs][4]. The program that downloads images from Sensr.net also uses this gem. Just run `gem install sensr` from the command line and you&amp;amp;#8217;ll be good to go. It should look something like this:
+
+&amp;lt;pre&amp;gt;$ gem install sensr
+Successfully installed sensr-1.0.2
+1 gem installed
+$&amp;lt;/pre&amp;gt;
+
+## Install get-images.rb
+
+Next you&amp;amp;#8217;ll need to get the get-images.rb program. If you&amp;amp;#8217;re comfortable with git, you can just run &amp;lt;code&amp;gt;git clone https://github.com/adamb/Sensr-utils.git&amp;lt;/code&amp;gt; and you&amp;amp;#8217;ll have the entire [Sensr-utils repository][5]. If you just want the get-images.rb program, you can find it [here][6]. Just save a copy of it to your local disk where you can get at it from the command line.
+
+## Find Your Sensr.net Token
+
+To use the Sensr.net API you need a secret token.  This is so only you can access the images stored in Sensr.net.  To get a token, you can follow the instructions on the [API Tutorial][7].  Basically you log into Sensr.net and go to [Developer Applications][8].
+
+You&amp;amp;#8217;ll need the crazy long string that the site generates called **Client Secret**. Here&amp;amp;#8217;s one for an account that I just created.  This account doesn&amp;amp;#8217;t have any cameras, but you could use this token to access public cameras.
+
+Edit the line in `get-images.rb` so it uses your token. The change will look something like this:
+
+```&amp;lt;div class=&amp;quot;share_buttons_simple_use_buttons&amp;quot; style=&amp;quot;padding: 10px 0; display: inline-block&amp;quot;&amp;gt;
+  &amp;lt;div class=&amp;quot;tweet_button&amp;quot; style=&amp;quot;float: left; vertical-align: top&amp;quot;&amp;gt;
+    &amp;lt;a href=&amp;quot;http://twitter.com/share&amp;quot; class=&amp;quot;twitter-share-button&amp;quot; data-url=&amp;quot;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/&amp;quot; data-text=&amp;quot;Download Images From Sensr.net &amp;quot; data-count=&amp;quot;none&amp;quot;&amp;gt;Tweet&amp;lt;/a&amp;gt;
+  &amp;lt;/div&amp;gt;
+  
+  &amp;lt;div class=&amp;quot;facebook_like_button&amp;quot; style=&amp;quot;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&amp;quot;&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+
+Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
+
+To use this approach you&amp;amp;#8217;ll need a few things:
+
+  * Access to the command line
+  * The ability to run Ruby programs
+  * The ability to install Ruby Gems
+  * A Sensr.net account
+
+I&amp;amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
+
+Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+
+`ruby -v` command. The output should looks something like this:
+
+ ``&amp;lt;div class=&amp;quot;share_buttons_simple_use_buttons&amp;quot; style=&amp;quot;padding: 10px 0; display: inline-block&amp;quot;&amp;gt;
+  &amp;lt;div class=&amp;quot;tweet_button&amp;quot; style=&amp;quot;float: left; vertical-align: top&amp;quot;&amp;gt;
+    &amp;lt;a href=&amp;quot;http://twitter.com/share&amp;quot; class=&amp;quot;twitter-share-button&amp;quot; data-url=&amp;quot;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/&amp;quot; data-text=&amp;quot;Download Images From Sensr.net &amp;quot; data-count=&amp;quot;none&amp;quot;&amp;gt;Tweet&amp;lt;/a&amp;gt;
+  &amp;lt;/div&amp;gt;
+  
+  &amp;lt;div class=&amp;quot;facebook_like_button&amp;quot; style=&amp;quot;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&amp;quot;&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+
+Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
+
+To use this approach you&amp;amp;#8217;ll need a few things:
+
+  * Access to the command line
+  * The ability to run Ruby programs
+  * The ability to install Ruby Gems
+  * A Sensr.net account
+
+I&amp;amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
+
+Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+
+`ruby -v` command. The output should looks something like this:
+
+`` 
+
+If you don&amp;amp;#8217;t have Ruby installed you&amp;amp;#8217;ll have to Google around to find out how to install it on your machine.  I recommend starting with [RVM][3].
+
+## Install Sensr.net Gem
+
+Now you  need to install the Sensr.net gem. This will let you run Ruby programs that interact with the [Sensr.net APIs][4]. The program that downloads images from Sensr.net also uses this gem. Just run `gem install sensr` from the command line and you&amp;amp;#8217;ll be good to go. It should look something like this:
+
+&amp;lt;pre&amp;gt;$ gem install sensr
+Successfully installed sensr-1.0.2
+1 gem installed
+$&amp;lt;/pre&amp;gt;
+
+## Install get-images.rb
+
+Next you&amp;amp;#8217;ll need to get the get-images.rb program. If you&amp;amp;#8217;re comfortable with git, you can just run &amp;lt;code&amp;gt;git clone https://github.com/adamb/Sensr-utils.git&amp;lt;/code&amp;gt; and you&amp;amp;#8217;ll have the entire [Sensr-utils repository][5]. If you just want the get-images.rb program, you can find it [here][6]. Just save a copy of it to your local disk where you can get at it from the command line.
+
+## Find Your Sensr.net Token
+
+To use the Sensr.net API you need a secret token.  This is so only you can access the images stored in Sensr.net.  To get a token, you can follow the instructions on the [API Tutorial][7].  Basically you log into Sensr.net and go to [Developer Applications][8].
+
+You&amp;amp;#8217;ll need the crazy long string that the site generates called **Client Secret**. Here&amp;amp;#8217;s one for an account that I just created.  This account doesn&amp;amp;#8217;t have any cameras, but you could use this token to access public cameras.
+
+Edit the line in `get-images.rb` so it uses your token. The change will look something like this:
+
+``` 
+
+becomes
+
+`Sensr.oauth_token = &#39;201148a20b5468d2bca75a71e36e9f0086034037b7d341142daf84a6a2f2fba5&#39;`
+
+Alternatively you could create a file called `mytoken.rb` that has just this line.
+
+## Run get-images.rb
+
+Finally you can run the program! Run it like this. The &amp;amp;#8211;help parameter shows you the options.
+
+ ````&amp;lt;div class=&amp;quot;share_buttons_simple_use_buttons&amp;quot; style=&amp;quot;padding: 10px 0; display: inline-block&amp;quot;&amp;gt;
+  &amp;lt;div class=&amp;quot;tweet_button&amp;quot; style=&amp;quot;float: left; vertical-align: top&amp;quot;&amp;gt;
+    &amp;lt;a href=&amp;quot;http://twitter.com/share&amp;quot; class=&amp;quot;twitter-share-button&amp;quot; data-url=&amp;quot;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/&amp;quot; data-text=&amp;quot;Download Images From Sensr.net &amp;quot; data-count=&amp;quot;none&amp;quot;&amp;gt;Tweet&amp;lt;/a&amp;gt;
+  &amp;lt;/div&amp;gt;
+  
+  &amp;lt;div class=&amp;quot;facebook_like_button&amp;quot; style=&amp;quot;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&amp;quot;&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+
+Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
+
+To use this approach you&amp;amp;#8217;ll need a few things:
+
+  * Access to the command line
+  * The ability to run Ruby programs
+  * The ability to install Ruby Gems
+  * A Sensr.net account
+
+I&amp;amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
+
+Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+
+`ruby -v` command. The output should looks something like this:
+
+ ``&amp;lt;div class=&amp;quot;share_buttons_simple_use_buttons&amp;quot; style=&amp;quot;padding: 10px 0; display: inline-block&amp;quot;&amp;gt;
+  &amp;lt;div class=&amp;quot;tweet_button&amp;quot; style=&amp;quot;float: left; vertical-align: top&amp;quot;&amp;gt;
+    &amp;lt;a href=&amp;quot;http://twitter.com/share&amp;quot; class=&amp;quot;twitter-share-button&amp;quot; data-url=&amp;quot;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/&amp;quot; data-text=&amp;quot;Download Images From Sensr.net &amp;quot; data-count=&amp;quot;none&amp;quot;&amp;gt;Tweet&amp;lt;/a&amp;gt;
+  &amp;lt;/div&amp;gt;
+  
+  &amp;lt;div class=&amp;quot;facebook_like_button&amp;quot; style=&amp;quot;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&amp;quot;&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+
+Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
+
+To use this approach you&amp;amp;#8217;ll need a few things:
+
+  * Access to the command line
+  * The ability to run Ruby programs
+  * The ability to install Ruby Gems
+  * A Sensr.net account
+
+I&amp;amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
+
+Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+
+`ruby -v` command. The output should looks something like this:
+
+`` 
+
+If you don&amp;amp;#8217;t have Ruby installed you&amp;amp;#8217;ll have to Google around to find out how to install it on your machine.  I recommend starting with [RVM][3].
+
+## Install Sensr.net Gem
+
+Now you  need to install the Sensr.net gem. This will let you run Ruby programs that interact with the [Sensr.net APIs][4]. The program that downloads images from Sensr.net also uses this gem. Just run `gem install sensr` from the command line and you&amp;amp;#8217;ll be good to go. It should look something like this:
+
+&amp;lt;pre&amp;gt;$ gem install sensr
+Successfully installed sensr-1.0.2
+1 gem installed
+$&amp;lt;/pre&amp;gt;
+
+## Install get-images.rb
+
+Next you&amp;amp;#8217;ll need to get the get-images.rb program. If you&amp;amp;#8217;re comfortable with git, you can just run &amp;lt;code&amp;gt;git clone https://github.com/adamb/Sensr-utils.git&amp;lt;/code&amp;gt; and you&amp;amp;#8217;ll have the entire [Sensr-utils repository][5]. If you just want the get-images.rb program, you can find it [here][6]. Just save a copy of it to your local disk where you can get at it from the command line.
+
+## Find Your Sensr.net Token
+
+To use the Sensr.net API you need a secret token.  This is so only you can access the images stored in Sensr.net.  To get a token, you can follow the instructions on the [API Tutorial][7].  Basically you log into Sensr.net and go to [Developer Applications][8].
+
+You&amp;amp;#8217;ll need the crazy long string that the site generates called **Client Secret**. Here&amp;amp;#8217;s one for an account that I just created.  This account doesn&amp;amp;#8217;t have any cameras, but you could use this token to access public cameras.
+
+Edit the line in `get-images.rb` so it uses your token. The change will look something like this:
+
+```&amp;lt;div class=&amp;quot;share_buttons_simple_use_buttons&amp;quot; style=&amp;quot;padding: 10px 0; display: inline-block&amp;quot;&amp;gt;
+  &amp;lt;div class=&amp;quot;tweet_button&amp;quot; style=&amp;quot;float: left; vertical-align: top&amp;quot;&amp;gt;
+    &amp;lt;a href=&amp;quot;http://twitter.com/share&amp;quot; class=&amp;quot;twitter-share-button&amp;quot; data-url=&amp;quot;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/&amp;quot; data-text=&amp;quot;Download Images From Sensr.net &amp;quot; data-count=&amp;quot;none&amp;quot;&amp;gt;Tweet&amp;lt;/a&amp;gt;
+  &amp;lt;/div&amp;gt;
+  
+  &amp;lt;div class=&amp;quot;facebook_like_button&amp;quot; style=&amp;quot;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&amp;quot;&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+
+Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
+
+To use this approach you&amp;amp;#8217;ll need a few things:
+
+  * Access to the command line
+  * The ability to run Ruby programs
+  * The ability to install Ruby Gems
+  * A Sensr.net account
+
+I&amp;amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
+
+Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+
+`ruby -v` command. The output should looks something like this:
+
+ ``&amp;lt;div class=&amp;quot;share_buttons_simple_use_buttons&amp;quot; style=&amp;quot;padding: 10px 0; display: inline-block&amp;quot;&amp;gt;
+  &amp;lt;div class=&amp;quot;tweet_button&amp;quot; style=&amp;quot;float: left; vertical-align: top&amp;quot;&amp;gt;
+    &amp;lt;a href=&amp;quot;http://twitter.com/share&amp;quot; class=&amp;quot;twitter-share-button&amp;quot; data-url=&amp;quot;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/&amp;quot; data-text=&amp;quot;Download Images From Sensr.net &amp;quot; data-count=&amp;quot;none&amp;quot;&amp;gt;Tweet&amp;lt;/a&amp;gt;
+  &amp;lt;/div&amp;gt;
+  
+  &amp;lt;div class=&amp;quot;facebook_like_button&amp;quot; style=&amp;quot;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&amp;quot;&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+
+Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
+
+To use this approach you&amp;amp;#8217;ll need a few things:
+
+  * Access to the command line
+  * The ability to run Ruby programs
+  * The ability to install Ruby Gems
+  * A Sensr.net account
+
+I&amp;amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
+
+Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+
+`ruby -v` command. The output should looks something like this:
+
+`` 
+
+If you don&amp;amp;#8217;t have Ruby installed you&amp;amp;#8217;ll have to Google around to find out how to install it on your machine.  I recommend starting with [RVM][3].
+
+## Install Sensr.net Gem
+
+Now you  need to install the Sensr.net gem. This will let you run Ruby programs that interact with the [Sensr.net APIs][4]. The program that downloads images from Sensr.net also uses this gem. Just run `gem install sensr` from the command line and you&amp;amp;#8217;ll be good to go. It should look something like this:
+
+&amp;lt;pre&amp;gt;$ gem install sensr
+Successfully installed sensr-1.0.2
+1 gem installed
+$&amp;lt;/pre&amp;gt;
+
+## Install get-images.rb
+
+Next you&amp;amp;#8217;ll need to get the get-images.rb program. If you&amp;amp;#8217;re comfortable with git, you can just run &amp;lt;code&amp;gt;git clone https://github.com/adamb/Sensr-utils.git&amp;lt;/code&amp;gt; and you&amp;amp;#8217;ll have the entire [Sensr-utils repository][5]. If you just want the get-images.rb program, you can find it [here][6]. Just save a copy of it to your local disk where you can get at it from the command line.
+
+## Find Your Sensr.net Token
+
+To use the Sensr.net API you need a secret token.  This is so only you can access the images stored in Sensr.net.  To get a token, you can follow the instructions on the [API Tutorial][7].  Basically you log into Sensr.net and go to [Developer Applications][8].
+
+You&amp;amp;#8217;ll need the crazy long string that the site generates called **Client Secret**. Here&amp;amp;#8217;s one for an account that I just created.  This account doesn&amp;amp;#8217;t have any cameras, but you could use this token to access public cameras.
+
+Edit the line in `get-images.rb` so it uses your token. The change will look something like this:
+
+``` 
+
+becomes
+
+`Sensr.oauth_token = &#39;201148a20b5468d2bca75a71e36e9f0086034037b7d341142daf84a6a2f2fba5&#39;`
+
+Alternatively you could create a file called `mytoken.rb` that has just this line.
+
+## Run get-images.rb
+
+Finally you can run the program! Run it like this. The &amp;amp;#8211;help parameter shows you the options.
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To grab the images from a specific day, say May 1, 2014 on camera 5 and drop the images into a directory called &lt;code&gt;mayday&lt;/code&gt;, you would run the program like this:&lt;/p&gt;
+
+&lt;p&gt;`````&lt;/p&gt;
+
+&lt;p&gt;Of course you won&amp;#8217;t want to use camera 5, but the camera number for your camera. The camera number can be found by going to the camera settings page. The camera number comes from the login information. Camera 5 uses cam5 as the login. You can also go to cameras by using their camera number. For instance, &lt;a href=&#34;https://sensr.net/cameras/88&#34; title=&#34;Sample Public Camera&#34;&gt;https://sensr.net/cameras/88&lt;/a&gt; is a public camera that uses cam88 for it&amp;#8217;s login.&lt;/p&gt;
+
+&lt;h2 id=&#34;help-us-improve:11d25cbabffb760c658b727d27109ba8&#34;&gt;Help Us Improve&lt;/h2&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://github.com/adamb/Sensr-utils&#34; title=&#34;Sensr-utils Git Repository&#34;&gt;Sensr-utils&lt;/a&gt; repository is open source, so feel free to add your own code or help us improve it.&lt;/p&gt;
+
+&lt;div class=&#34;trackable_sharing&#34;&gt;
+  &lt;a href=&#34;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F08%2Fdownload-images-from-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Facebook&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Facebook&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png&#34; alt=&#34;Facebook&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F08%2Fdownload-images-from-sensr-net%2F&amp;text=Download+Images+From+Sensr.net&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Twitter&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Twitter&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png&#34; alt=&#34;Twitter&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F08%2Fdownload-images-from-sensr-net%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F08%2Fdownload-images-from-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Reddit&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Reddit&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=700,height=500&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png&#34; alt=&#34;Reddit&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://digg.com/submit?partner=addthis&amp;url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F08%2Fdownload-images-from-sensr-net%2F&amp;title=Download+Images+From+Sensr.net&amp;bodytext=&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Digg&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Digg&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png&#34; alt=&#34;Digg&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F08%2Fdownload-images-from-sensr-net%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F08%2Fdownload-images-from-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Stumbleupon&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Stumbleupon&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png&#34; alt=&#34;Stumbleupon&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F08%2Fdownload-images-from-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Email&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Email&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/&#39;]); &#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png&#34; alt=&#34;Email&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

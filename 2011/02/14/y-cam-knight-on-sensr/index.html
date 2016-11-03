@@ -1,0 +1,115 @@
+<!DOCTYPE html> 
+<head>
+<title>Y-Cam Knight on Sensr.net</title>	
+<link rel="stylesheet" type="text/css" media="all" href="/css/style.css">
+<link href="/img/sensr-favicon.png" rel="icon" type="image/png">
+</head>
+
+<body>
+<div id="header">
+  <div id="masthead">
+    <div id="branding" role="banner">
+	  <h1 id="site-title">
+        <span><a href="/" title="Sensr.net Blog" rel="home">Sensr.net Blog</a></span>
+      </h1>
+	  <div id="site-description">Watch your Stuff!</div>
+	</div>
+	<div id="access" role="navigation">
+	  <div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+	  <div class="menu-header">
+		  <ul id="menu-menu-test" class="menu">
+			  <li id="menu-item-124" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-124"><a href="http://sensr.net/">Home</a></li>
+			  <li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125"><a href="/archives/">Archives</a></li>
+			  <li id="menu-item-126" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-126"><a href="http://sensr.net/about">About</a></li>
+			  <li id="menu-item-127" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-127"><a href="http://sensr.net/faq">FAQ</a></li>
+		  </ul>
+	  </div>			
+    </div>
+  </div>
+  <div id="sensr_banner"></div>
+</div>
+<div id="main">
+
+  <h1>Y-Cam Knight on Sensr.net</h1>
+  <h2>Tue, Feb 15, 2011</h2>
+  <div class="share_buttons_simple_use_buttons" style="padding: 10px 0; display: inline-block">
+  <div class="tweet_button" style="float: left; vertical-align: top">
+    <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/14/y-cam-knight-on-sensr/" data-text="Y-Cam Knight on Sensr.net" data-count="none">Tweet</a>
+  </div>
+  
+
+<p><div class="facebook_like_button" style="float: left; vertical-align: top; margin-left: 10px; max-width: 255px">
+  </div>
+</div></p>
+
+<p><a style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" href="http://www.amazon.com/Y-cam-Black-Wifi-Network-Camera/dp/B002JM2BAY?ie=UTF8&tag=sensr-20&link_code=bil&camp=213689&creative=392969" target="_blank"><img title="Y-Cam Knight for Sensr.net" src="http://ws.amazon.com/widgets/q?MarketPlace=US&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL160_&ASIN=B002JM2BAY&tag=sensr-20" alt="Y-cam Black SD Wifi IP Network Camera works great on Sensr.net." width="151" height="200" /></a><img style="border: none !important; margin: 0px !important; padding: 0px !important;" src="http://www.assoc-amazon.com/e/ir?t=sensr-20&l=bil&camp=213689&creative=392969&o=1&a=B002JM2BAY" border="0" alt="" width="1" height="1" />The <a href="http://www.amazon.com/Y-cam-Knight-Wifi-Network-Camera/dp/B002JM2BA4?ie=UTF8&tag=sensr-20&link_code=btl&camp=213689&creative=392969" target="_blank">Y-Cam Knight</a> <img style="border: none !important; margin: 0px !important; padding: 0px !important;" src="http://www.assoc-amazon.com/e/ir?t=sensr-20&l=btl&camp=213689&creative=392969&o=1&a=B002JM2BA4" border="0" alt="" width="1" height="1" />is a very nice camera with built in night vision.  There are several models with support for either WiFi or POE (power over ethernet).  The SD models also support using an SD card as additional storage.  One of the things I like about the Y-Cam  Knight is the night vision and the wide angle of the lens.</p>
+
+<p>In this article I&#8217;m going to assume you can get the camera up and running on your network, and just cover the settings for getting your camera to work with <a href="https://sensr.net">Sensr.net</a>.</p>
+
+<p>Basically you need to connect to your camera&#8217;s web interface and tell the camera to send images to Sensr via FTP.</p>
+
+<p>In our example, the Y-Cam is on our local network at the address 10.1.1.12.  You point your browser to that address and you&#8217;ll see a page that looks like this:</p>
+
+<div style="width: 438px" class="wp-caption aligncenter">
+  <img title="Y-Cam Knight Splash" src="http://1.bp.blogspot.com/-SDOdYfnMyJk/TVoYCIRHctI/AAAAAAAACYk/_3qv8AexEP0/s1600/y-camsplash.png" alt="Y-Cam Splash installation screen for internet security" width="428" height="356" />
+  
+  <p class="wp-caption-text">
+    Y-Cam Splash Screen
+  </p>
+</div>
+
+<p>Next select the Alarm Server &gt; FTP Server link and you&#8217;ll see a page like this:</p>
+
+<div style="width: 438px" class="wp-caption aligncenter">
+  <a href="http://2.bp.blogspot.com/-fweIJ3PuBUM/TVoYBdM-2HI/AAAAAAAACYg/y-952N6qzec/s1600/y-camftpsetup.png"><img class=" " title="Y-Cam FTP Settings - Server Page" src="http://2.bp.blogspot.com/-fweIJ3PuBUM/TVoYBdM-2HI/AAAAAAAACYg/y-952N6qzec/s1600/y-camftpsetup.png" alt="Y-Cam FTP Settings - Server Page" width="428" height="356" /></a>
+  
+  <p class="wp-caption-text">
+    FTP Server Page
+  </p>
+</div>
+
+<p>On this page, you enter the server name, user name, and password you got from the Sensr site when you clicked the &#8220;Add Camera&#8221; link.  The Y-Cam sets the default port to 21 and the default mode to Passive, leave these unchanged.  Note the server ID  is 1 in this case.  The Y-Cam allows you to setup 4 different FTP servers.  We&#8217;ll just stick with one.  Make sure to click &#8220;Apply&#8221; when you&#8217;ve finished.</p>
+
+<p>&nbsp;</p>
+
+<p>Next select Alarm &gt; Periodic Sending from the menu on the right.  We&#8217;re going to tell the Y-Cam to send images to Sensr once per second.  Select &#8220;Enable&#8221; at the top to enable this feature.  For the interval time, select 1 second.  Leave FTP server ID set to 1, this is the server we setup in the previous step.  You can leave the rest of the settings along.  The image file name defaults to &#8220;P&#8221; for some reason, which is fine.  For &#8220;Suffix of file name&#8221; make sure &#8220;Date time&#8221; is selected.  This means each image uploaded will have a timestamp in the filename.  This works well with the way Sensr processes images.  Select &#8220;Always&#8221; for the &#8220;Effective period&#8221; and click &#8220;Apply&#8221;.  At this point the Y-Cam should start sending images to Sensr.</p>
+
+<div style="width: 550px" class="wp-caption aligncenter">
+  <a href="http://2.bp.blogspot.com/-Tw524IOdAV4/TVoYA0FvfzI/AAAAAAAACYc/z_6e_kzMI98/s1600/y-camschedule.png"><img title="Y-Cam Periodic Sending Setup" src="http://2.bp.blogspot.com/-Tw524IOdAV4/TVoYA0FvfzI/AAAAAAAACYc/z_6e_kzMI98/s1600/y-camschedule.png" alt="Y-Cam Periodic Sending Setup" width="540" height="399" /></a>
+  
+  <p class="wp-caption-text">
+    Periodic Sending Setup
+  </p>
+</div>
+
+<div class="separator" style="clear: both; text-align: center;">
+  <a style="margin-left: 1em; margin-right: 1em;" href="http://2.bp.blogspot.com/-fweIJ3PuBUM/TVoYBdM-2HI/AAAAAAAACYg/y-952N6qzec/s1600/y-camftpsetup.png"></a>
+</div>
+
+<p>Now you should be able to see your camera on the <a href="https://sensr.net">Sensr.net</a>.</p>
+
+<p>&nbsp;</p>
+
+<div class="trackable_sharing">
+  <a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F14%2Fy-cam-knight-on-sensr%2F" style="text-decoration: none; white-space: nowrap;" title="Facebook" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Facebook','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/14/y-cam-knight-on-sensr/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png" alt="Facebook" width="0" height="0" /></a> <a href="http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F14%2Fy-cam-knight-on-sensr%2F&text=Y-Cam+Knight+on+Sensr.net" style="text-decoration: none; white-space: nowrap;" title="Twitter" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Twitter','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/14/y-cam-knight-on-sensr/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png" alt="Twitter" width="0" height="0" /></a> <a href="http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F14%2Fy-cam-knight-on-sensr%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F14%2Fy-cam-knight-on-sensr%2F" style="text-decoration: none; white-space: nowrap;" title="Reddit" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Reddit','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/14/y-cam-knight-on-sensr/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=700,height=500'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png" alt="Reddit" width="0" height="0" /></a> <a href="http://digg.com/submit?partner=addthis&url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F14%2Fy-cam-knight-on-sensr%2F&title=Y-Cam+Knight+on+Sensr.net&bodytext=" style="text-decoration: none; white-space: nowrap;" title="Digg" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Digg','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/14/y-cam-knight-on-sensr/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png" alt="Digg" width="0" height="0" /></a> <a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F14%2Fy-cam-knight-on-sensr%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F14%2Fy-cam-knight-on-sensr%2F" style="text-decoration: none; white-space: nowrap;" title="Stumbleupon" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Stumbleupon','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/14/y-cam-knight-on-sensr/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png" alt="Stumbleupon" width="0" height="0" /></a> <a href="mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F14%2Fy-cam-knight-on-sensr%2F" style="text-decoration: none; white-space: nowrap;" title="Email" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Email','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/14/y-cam-knight-on-sensr/']); "><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png" alt="Email" width="0" height="0" /></a>
+</div>
+
+  
+
+<div id="footer" role="contentinfo">
+	<div id="colophon">
+		<div id="site-info">
+			<ul id="copyright">
+				<li class="company-name">
+					<em>Sensr.net, Inc. © 2009-2016</em>
+				</li>
+				<li class="company-networks">Follow us on <a id="icon-twitter" href="http://www.twitter.com/sensr" target="_blank" title="Follow Sensr on Twitter" name="icon-twitter">Twitter</a> <a id="icon-facebook" href="http://www.facebook.com/sensrnet" target="_blank" title="Like Sensr on Facebook" name="icon-facebook">Facebook</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+	</body>
+</html>
+

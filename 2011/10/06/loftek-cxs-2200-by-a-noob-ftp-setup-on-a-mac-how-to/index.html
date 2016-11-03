@@ -1,0 +1,152 @@
+<!DOCTYPE html> 
+<head>
+<title>LOFTEK CXS 2200 by a Noob: How I Failed and then Succeeded to Setup FTP on a Mac</title>	
+<link rel="stylesheet" type="text/css" media="all" href="/css/style.css">
+<link href="/img/sensr-favicon.png" rel="icon" type="image/png">
+</head>
+
+<body>
+<div id="header">
+  <div id="masthead">
+    <div id="branding" role="banner">
+	  <h1 id="site-title">
+        <span><a href="/" title="Sensr.net Blog" rel="home">Sensr.net Blog</a></span>
+      </h1>
+	  <div id="site-description">Watch your Stuff!</div>
+	</div>
+	<div id="access" role="navigation">
+	  <div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+	  <div class="menu-header">
+		  <ul id="menu-menu-test" class="menu">
+			  <li id="menu-item-124" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-124"><a href="http://sensr.net/">Home</a></li>
+			  <li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125"><a href="/archives/">Archives</a></li>
+			  <li id="menu-item-126" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-126"><a href="http://sensr.net/about">About</a></li>
+			  <li id="menu-item-127" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-127"><a href="http://sensr.net/faq">FAQ</a></li>
+		  </ul>
+	  </div>			
+    </div>
+  </div>
+  <div id="sensr_banner"></div>
+</div>
+<div id="main">
+
+  <h1>LOFTEK CXS 2200 by a Noob: How I Failed and then Succeeded to Setup FTP on a Mac</h1>
+  <h2>Thu, Oct 6, 2011</h2>
+  
+
+<div class="share_buttons_simple_use_buttons" style="padding: 10px 0; display: inline-block">
+  <div class="tweet_button" style="float: left; vertical-align: top">
+    <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/10/06/loftek-cxs-2200-by-a-noob-ftp-setup-on-a-mac-how-to/" data-text="LOFTEK CXS 2200 by a Noob: How I Failed and then Succeeded to Setup FTP on a Mac " data-count="none">Tweet</a>
+  </div>
+  
+
+<p><div class="facebook_like_button" style="float: left; vertical-align: top; margin-left: 10px; max-width: 255px">
+  </div>
+</div></p>
+
+<p><a href="http://blog.sensr.net/wp-content/uploads/2011/10/Sensr.net-+-LOFTEK-CXS-2200.png"><img class="aligncenter size-full wp-image-790" title="Sensr.net + LOFTEK CXS 2200" src="http://blog.sensr.net/wp-content/uploads/2011/10/Sensr.net-+-LOFTEK-CXS-2200.png" alt="Sensr.net + LOFTEK CXS 2200" width="486" height="175" srcset="http://sensr.net/blog/wp-content/uploads/2011/10/Sensr.net-+-LOFTEK-CXS-2200.png 486w, http://sensr.net/blog/wp-content/uploads/2011/10/Sensr.net-+-LOFTEK-CXS-2200-300x108.png 300w" sizes="(max-width: 486px) 100vw, 486px" /></a></p>
+
+<h5 id="i-8217-m-a-network-camera-noob-2-and-this-was-my-first-time-going-through-a-setup-process-by-myself-while-everyone-else-at-sensr-net-is-an-ip-camera-genius-i-am-not-this-8220-how-not-to-8221-is-intended-to-be-helpful-or-at-least-somewhat-encouraging-for-those-of-us-with-limited-experience-in-setting-up-network-cameras-but-if-you-8217-re-a-netcam-master-and-still-having-trouble-getting-a-loftek-cxs-2200-configured-this-might-still-help-you-if-not-you-can-call-me-names-in-the-comments-section:7b0b1f917561060dd87e3f66beea4683"><em>I&#8217;m a network camera <a href="http://en.wikipedia.org/wiki/Newbie">noob</a>, and this was my first time going through a setup process by myself. While everyone else at Sensr.net is an IP camera genius, I am not. This &#8220;How Not To,&#8221; is intended to be helpful, or at least somewhat encouraging, for those of us with limited experience in setting up network cameras. But if you&#8217;re a netcam master and still having trouble getting a LOFTEK CXS 2200 configured, this might still help you. If not, you can call me names in the comments section.</em></h5>
+
+<p>I just finished setting up the LOFTEK CXS 2200 on my Mac and put it up on <a href="http://sensr.net">Sensr.net</a>. I hate to admit it, but it took me a couple hours. It wasn&#8217;t the camera or the router&#8217;s fault &#8211; it was at least 95% user error. While getting everything configured, I managed to:</p>
+
+<ul>
+<li>Make my wireless network undetectable by any device</li>
+<li>Make my router impossible to log into</li>
+<li>Wipe my router to factory default settings</li>
+<li>Crash my new MacBook Air for the first time</li>
+</ul>
+
+<p>But in the end, I prevailed! And it was worth the trouble. Partnered with <a href="http://sensr.net">Sensr.net</a>, the camera is really fun to use. I already want another, despite not having anything particularly interesting to point this first one at. Maybe I&#8217;ll discover which of my neighbors is letting their dog empty its bowels on my yard without cleaning it up. First thing&#8217;s first, though. Let me start at the beginning of my misadventures in the setup process.</p>
+
+<p><em>In a hurry to get your camera setup? Go to the bottom for the &#8220;TL;DR&#8221; (too long; didn&#8217;t read) version.</em></p>
+
+<h2 id="misadventures-stuff-you-shouldn-8217-t-do:7b0b1f917561060dd87e3f66beea4683">Misadventures (Stuff You Shouldn&#8217;t Do)</h2>
+
+<p>First I find my router&#8217;s IP adress &#8211; it <em>was</em> 192.168.1.2. Pretty standard. <em>(To check your router&#8217;s IP address on a Mac, go into System Preferences -&gt; Networks -&gt; Advanced -&gt;TCP/IP. You&#8217;ll see an IP Address following Router:)</em><a href="http://blog.sensr.net/wp-content/uploads/2011/10/How-To-Find-Router-IP-Address-on-Mac.png"><img class="aligncenter size-full wp-image-819" title="How To Find Router IP Address on Mac" src="http://blog.sensr.net/wp-content/uploads/2011/10/How-To-Find-Router-IP-Address-on-Mac.png" alt="How To Find Router IP Address on Mac" width="633" height="217" srcset="http://sensr.net/blog/wp-content/uploads/2011/10/How-To-Find-Router-IP-Address-on-Mac.png 633w, http://sensr.net/blog/wp-content/uploads/2011/10/How-To-Find-Router-IP-Address-on-Mac-300x102.png 300w" sizes="(max-width: 633px) 100vw, 633px" /></a>Then I plug in my shiny, fresh out of the box LOFTEK CXS 2200 straight into the router via ethernet, log into my router&#8217;s settings, and refresh my DHCP Client List expecting to see a new IP address. Meanwhile, the light on my camera is blinking once every second or so, which, according to the manual, means that it has found a network! Huzzah! &#8230;Nothing new on the list. Hm, weird. Refresh. Nothing?!</p>
+
+<p><a href="http://blog.sensr.net/wp-content/uploads/2011/10/Sad-Panda-LOFTEK-CXS-2200.png"><img class="aligncenter size-full wp-image-807" title="Sad Panda LOFTEK CXS 2200" src="http://blog.sensr.net/wp-content/uploads/2011/10/Sad-Panda-LOFTEK-CXS-2200.png" alt="LOFTEK CXS 2200 Sad Panda on Sensr.net" width="635" height="292" srcset="http://sensr.net/blog/wp-content/uploads/2011/10/Sad-Panda-LOFTEK-CXS-2200.png 635w, http://sensr.net/blog/wp-content/uploads/2011/10/Sad-Panda-LOFTEK-CXS-2200-300x137.png 300w" sizes="(max-width: 635px) 100vw, 635px" /></a></p>
+
+<p>So I open up Network Utility, check the Netstat to see if there are any other connected devices the router just isn&#8217;t displaying. There are loads! I start trying to browse to all the IP addresses ranging from 192.168.1.3 &#8211; .15. Nothing, still!</p>
+
+<p><a href="http://blog.sensr.net/wp-content/uploads/2011/10/Still-no-work-IP.png"><img class="aligncenter size-full wp-image-810" title="Still no work IP" src="http://blog.sensr.net/wp-content/uploads/2011/10/Still-no-work-IP.png" alt="No working IP for Loftek CXS 2200 on Sensr.net" width="912" height="97" srcset="http://sensr.net/blog/wp-content/uploads/2011/10/Still-no-work-IP.png 912w, http://sensr.net/blog/wp-content/uploads/2011/10/Still-no-work-IP-300x31.png 300w" sizes="(max-width: 912px) 100vw, 912px" /></a></p>
+
+<p>I&#8217;m not really sure what I&#8217;m doing wrong at this point. The ethernet cable connecting the camera to the router works fine; I had just tested it on an Xbox 360. So rather than Googling to see if other people have had the same issue with getting a LOFTEK CXS 2200 set up, I begin furiously tinkering with router settings. <strong>I&#8217;M A MAN, I&#8217;LL FIGURE IT OUT BY MYSELF!</strong> Seemed like a good idea at the time, at least. (<em>WARNING: Seriously, back up your router settings before you start randomly changing stuff.</em>)</p>
+
+<p>First I update the firmware &#8211; no problems there, but it doesn&#8217;t resolve anything. Still no new devices, and no IP address in my lists connect me to my camera. So I figure it&#8217;s probably best to alter/disable a bunch of settings I won&#8217;t get into here, and then my connection drops and the wireless network is no where to be found.</p>
+
+<p><img class="alignleft" title="Broken Internets" src="http://t1.gstatic.com/images?q=tbn:ANd9GcTKyvH4TmHD4VUFnXnHj7QqJmQLB5l5s2KChbnppGxNTEfkoZHrjl2nve01" alt="I broke the internet" width="134" height="135" />I check to see if it&#8217;s detectable on my iPhone &#8211; nope. Restart the router. Still no visible network. Now I&#8217;m wondering how I&#8217;m going to explain to my girlfriend that I broke our internets and she won&#8217;t be able to watch the latest episode of House tonight. So I start thinking like House, and diagnose the router with lupus&#8230;or is it? <img class="alignright" title="It's NOT LUPUS! On Sensr.net, at least." src="http://images.tabulas.com/2/r/its-not-lupus.png" alt="It's NOT LUPUS! On Sensr.net, at least." width="135" height="228" /></p>
+
+<p>Okay, guess <a href="http://knowyourmeme.com/memes/its-not-lupus#.To3kAJwu6TY">it&#8217;s not lupus</a> again. Now I&#8217;ve got to dig around for a toothpick to push the ridiculously tiny red reset button on my router to get back online. Fortunately I had saved my router&#8217;s settings before I started. TheFlooNetwork (yeah that&#8217;s my RFID. I&#8217;m cool like that) is back, and I&#8217;m no longer faced with potential girlfriend-wrath. Whew. <a href="http://en.wikipedia.org/wiki/Hugh_Laurie">Hugh Laurie</a> is so brooding and mysterious though, can you blame her?</p>
+
+<p><span style="color: #000000; font-size: 23px; line-height: 35px;">Figuring It Out</span></p>
+
+<p>After a brush with internet death, I surrender manly pride and turn to my good friend Google for answers. Naturally, the resolution is easily uncovered; it&#8217;s one of the first search results in an Amazon review of the camera. I see that the CXS 2200&#8217;s default IP is fixed at 192.168.0.178, meaning it&#8217;s stuck on the .0.x range without the setup disc. As I mentioned, my router&#8217;s IP address <em>was</em> 192.168.1.2. So I change the IP to 192.168.0.2, browse into the camera&#8217;s default 192.168.0.178, and presto! I get a login/password prompt, and I&#8217;m in business!</p>
+
+<p style="text-align: left;">
+  <a href="http://blog.sensr.net/wp-content/uploads/2011/10/LOFTEK-CXS-2200-Sample-Image.png"></a><a href="http://blog.sensr.net/wp-content/uploads/2011/10/LOFTEK-CXS-2200-Sample-Image1.png"><img class="aligncenter size-full wp-image-852" title="LOFTEK CXS 2200 Sample Image" src="http://blog.sensr.net/wp-content/uploads/2011/10/LOFTEK-CXS-2200-Sample-Image1.png" alt="LOFTEK CXS 2200 Sample Image" width="595" height="451" srcset="http://sensr.net/blog/wp-content/uploads/2011/10/LOFTEK-CXS-2200-Sample-Image1.png 850w, http://sensr.net/blog/wp-content/uploads/2011/10/LOFTEK-CXS-2200-Sample-Image1-300x227.png 300w" sizes="(max-width: 595px) 100vw, 595px" /></a><span style="color: #000000; font-size: 23px; line-height: 35px;"> </span>
+</p>
+
+<p style="text-align: left;">
+  Two hours down and a few router resets, but it works! Now to add the camera to Sensr.net.
+</p>
+
+<p style="text-align: left;">
+  <span style="color: #000000; font-size: 23px; line-height: 35px;">FTP Configuration/Adding to Sensr.net</span>
+</p>
+
+<p>I log into Sensr.net and go to &#8220;My Cameras,&#8221; as seen below.</p>
+
+<p>[][9]<a href="http://blog.sensr.net/wp-content/uploads/2011/10/Add-LOFTEK-CXS-2200-1.png"><img class="aligncenter size-medium wp-image-876" title="Add LOFTEK CXS 2200 1" src="http://blog.sensr.net/wp-content/uploads/2011/10/Add-LOFTEK-CXS-2200-1-300x129.png" alt="Add LOFTEK CXS 2200 to Sensr.net" width="300" height="129" srcset="http://sensr.net/blog/wp-content/uploads/2011/10/Add-LOFTEK-CXS-2200-1-300x129.png 300w, http://sensr.net/blog/wp-content/uploads/2011/10/Add-LOFTEK-CXS-2200-1.png 970w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+
+<p>Then I &#8220;Add A Camera,&#8221; because I&#8217;ve clearly displayed I know what I&#8217;m doing. I&#8217;m ready!</p>
+
+<p><a href="http://blog.sensr.net/wp-content/uploads/2011/10/Add-a-Camera-on-Sensr.net_.png"><img class="aligncenter size-medium wp-image-877" title="Add a Camera on Sensr.net" src="http://blog.sensr.net/wp-content/uploads/2011/10/Add-a-Camera-on-Sensr.net_-300x154.png" alt="Add a Camera on Sensr.net" width="300" height="154" srcset="http://sensr.net/blog/wp-content/uploads/2011/10/Add-a-Camera-on-Sensr.net_-300x154.png 300w, http://sensr.net/blog/wp-content/uploads/2011/10/Add-a-Camera-on-Sensr.net_.png 1013w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+
+<p>Now I&#8217;m at the page with my camera&#8217;s FTP login credentials, which looks like:</p>
+
+<p><a href="http://blog.sensr.net/wp-content/uploads/2011/10/Camera-Creds1.png"><img class="aligncenter size-medium wp-image-885" title="Camera Credentials" src="http://blog.sensr.net/wp-content/uploads/2011/10/Camera-Creds1-300x151.png" alt="LOFTEK CXS 2200 Camera Credentials o Sensr.net for FTP" width="300" height="151" srcset="http://sensr.net/blog/wp-content/uploads/2011/10/Camera-Creds1-300x151.png 300w, http://sensr.net/blog/wp-content/uploads/2011/10/Camera-Creds1-1024x515.png 1024w, http://sensr.net/blog/wp-content/uploads/2011/10/Camera-Creds1.png 1031w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+
+<p>At this point I fumble around on the LOFTEK configuration for 5 minutes like a dummy, until I see their FTP Settings are clearly labeled as&#8230;FTP Settings. They&#8217;re under the Alarm tab. So I copy the server, username, and password from the Sensr.net page, and set the FTP Mode to PASV.</p>
+
+<p>[<img class="aligncenter size-medium wp-image-887" title="LOFTEK CXS 2200 Setup on Sensr.net" src="http://blog.sensr.net/wp-content/uploads/2011/10/LOFTEK-CXS-2200-Setup-on-Sensr.net_-300x227.png" alt="LOFTEK CXS 2200 FTP Setup on Sensr.net" width="300" height="227" srcset="http://sensr.net/blog/wp-content/uploads/2011/10/LOFTEK-CXS-2200-Setup-on-Sensr.net_-300x227.png 300w, http://sensr.net/blog/wp-content/uploads/2011/10/LOFTEK-CXS-2200-Setup-on-Sensr.net_.png 850w" sizes="(max-width: 300px) 100vw, 300px" />][13]</p>
+
+<p>I check &#8220;Upload Image Periodically,&#8221; and set the interval to 1 second, and submit all the info. I run the test, it&#8217;s successful, and I&#8217;m like&#8230; YEAH I&#8217;M GOING TO FIND OUT WHO IS LETTING THEIR DOG DEFECATE ON MY YARD TODAY! Then my new MacBook Air crashes for the first time ever. Weak. Not sure why either, but whatever. I turn it back on, and at least all my FTP settings were saved on the camera configuration.</p>
+
+<p>So I log back into the Sensr.net page, and see images from my camera and a nice &#8220;Success!&#8221; below! Finally done! I have my camera set to private right now because I don&#8217;t really have anything fun to point it at. But once I find something consistant to point it at, I&#8217;ll make it public and post a link. Or, if I do actually manage to capture the doggie-poo culprit, I&#8217;ll make a clip and we can all join in shaming them online. That&#8217;s what the internet is for, right?</p>
+
+<p>If you made it this far, thanks for reading about my misadventures in setting up my first network camera. It was fun, and if you haven&#8217;t tried it yet, you should. If I can do it, anyone can!</p>
+
+<p>I&#8217;ll have a more detailed review of the LOFTEK CXS 2200 with sample videos after I&#8217;ve played with it some more. Also, I&#8217;ll be making a straight forward guide to setting up the LOFTEK CXS 2200 on a Mac after this. It&#8217;s not hard at all, I just committed a whole bunch of fails.</p>
+
+<p><span style="color: #000000; font-size: 23px; line-height: 35px;">TL;DR Version (too long; didn&#8217;t read)</span></p>
+
+<p>The LOFTEK CXS 2200&#8217;s default IP address (192.168.0.178) is hard coded, and it expects to see your router&#8217;s IP in the 192.168.0.x range. Mine was 192.168.2.x. Rather than Googling for help and finding a solution on the first Amazon review, I screwed with my router and broke stuff for two hours. You can configure this on a PC without changing your router&#8217;s IP address if you use their setup disk. I&#8217;m on a Mac so I just changed to a 192.168.0.x and then it worked. Tah-dah!</p>
+
+<p>&nbsp;</p>
+
+<div class="trackable_sharing">
+  <a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F10%2F06%2Floftek-cxs-2200-by-a-noob-ftp-setup-on-a-mac-how-to%2F" style="text-decoration: none; white-space: nowrap;" title="Facebook" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Facebook','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/10/06/loftek-cxs-2200-by-a-noob-ftp-setup-on-a-mac-how-to/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png" alt="Facebook" width="0" height="0" /></a> <a href="http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F10%2F06%2Floftek-cxs-2200-by-a-noob-ftp-setup-on-a-mac-how-to%2F&text=LOFTEK+CXS+2200+by+a+Noob%3A+How+I+Failed+and+then+Succeeded+to+Setup+FTP+on+a+Mac" style="text-decoration: none; white-space: nowrap;" title="Twitter" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Twitter','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/10/06/loftek-cxs-2200-by-a-noob-ftp-setup-on-a-mac-how-to/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png" alt="Twitter" width="0" height="0" /></a> <a href="http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F10%2F06%2Floftek-cxs-2200-by-a-noob-ftp-setup-on-a-mac-how-to%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F10%2F06%2Floftek-cxs-2200-by-a-noob-ftp-setup-on-a-mac-how-to%2F" style="text-decoration: none; white-space: nowrap;" title="Reddit" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Reddit','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/10/06/loftek-cxs-2200-by-a-noob-ftp-setup-on-a-mac-how-to/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=700,height=500'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png" alt="Reddit" width="0" height="0" /></a> <a href="http://digg.com/submit?partner=addthis&url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F10%2F06%2Floftek-cxs-2200-by-a-noob-ftp-setup-on-a-mac-how-to%2F&title=LOFTEK+CXS+2200+by+a+Noob%3A+How+I+Failed+and+then+Succeeded+to+Setup+FTP+on+a+Mac&bodytext=" style="text-decoration: none; white-space: nowrap;" title="Digg" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Digg','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/10/06/loftek-cxs-2200-by-a-noob-ftp-setup-on-a-mac-how-to/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png" alt="Digg" width="0" height="0" /></a> <a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F10%2F06%2Floftek-cxs-2200-by-a-noob-ftp-setup-on-a-mac-how-to%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F10%2F06%2Floftek-cxs-2200-by-a-noob-ftp-setup-on-a-mac-how-to%2F" style="text-decoration: none; white-space: nowrap;" title="Stumbleupon" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Stumbleupon','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/10/06/loftek-cxs-2200-by-a-noob-ftp-setup-on-a-mac-how-to/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png" alt="Stumbleupon" width="0" height="0" /></a> <a href="mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F10%2F06%2Floftek-cxs-2200-by-a-noob-ftp-setup-on-a-mac-how-to%2F" style="text-decoration: none; white-space: nowrap;" title="Email" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Email','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/10/06/loftek-cxs-2200-by-a-noob-ftp-setup-on-a-mac-how-to/']); "><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png" alt="Email" width="0" height="0" /></a>
+</div>
+
+<p>[13]: <a href="http://blog.sensr.net/wp-content/uploads/2011/10/LOFTEK-CXS-2200-Setup-on-Sensr.net_.png">http://blog.sensr.net/wp-content/uploads/2011/10/LOFTEK-CXS-2200-Setup-on-Sensr.net_.png</a></p>
+
+  
+
+<div id="footer" role="contentinfo">
+	<div id="colophon">
+		<div id="site-info">
+			<ul id="copyright">
+				<li class="company-name">
+					<em>Sensr.net, Inc. © 2009-2016</em>
+				</li>
+				<li class="company-networks">Follow us on <a id="icon-twitter" href="http://www.twitter.com/sensr" target="_blank" title="Follow Sensr on Twitter" name="icon-twitter">Twitter</a> <a id="icon-facebook" href="http://www.facebook.com/sensrnet" target="_blank" title="Like Sensr on Facebook" name="icon-facebook">Facebook</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+	</body>
+</html>
+

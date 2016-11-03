@@ -1,0 +1,131 @@
+<!DOCTYPE html> 
+<head>
+<title>Using the Cisco WVC80N on sensr.net</title>	
+<link rel="stylesheet" type="text/css" media="all" href="/css/style.css">
+<link href="/img/sensr-favicon.png" rel="icon" type="image/png">
+</head>
+
+<body>
+<div id="header">
+  <div id="masthead">
+    <div id="branding" role="banner">
+	  <h1 id="site-title">
+        <span><a href="/" title="Sensr.net Blog" rel="home">Sensr.net Blog</a></span>
+      </h1>
+	  <div id="site-description">Watch your Stuff!</div>
+	</div>
+	<div id="access" role="navigation">
+	  <div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+	  <div class="menu-header">
+		  <ul id="menu-menu-test" class="menu">
+			  <li id="menu-item-124" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-124"><a href="http://sensr.net/">Home</a></li>
+			  <li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125"><a href="/archives/">Archives</a></li>
+			  <li id="menu-item-126" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-126"><a href="http://sensr.net/about">About</a></li>
+			  <li id="menu-item-127" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-127"><a href="http://sensr.net/faq">FAQ</a></li>
+		  </ul>
+	  </div>			
+    </div>
+  </div>
+  <div id="sensr_banner"></div>
+</div>
+<div id="main">
+
+  <h1>Using the Cisco WVC80N on sensr.net</h1>
+  <h2>Thu, Mar 17, 2011</h2>
+  <div class="share_buttons_simple_use_buttons" style="padding: 10px 0; display: inline-block">
+  <div class="tweet_button" style="float: left; vertical-align: top">
+    <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/03/16/using-the-cisco-wvc80n-on-sensr-net/" data-text="Using the Cisco WVC80N on sensr.net" data-count="none">Tweet</a>
+  </div>
+  
+
+<p><div class="facebook_like_button" style="float: left; vertical-align: top; margin-left: 10px; max-width: 255px">
+  </div>
+</div></p>
+
+<div class="separator" style="clear: both; text-align: center;">
+  <a style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" href="http://www.amazon.com/gp/product/B002OHDFOA/ref=as_li_ss_tl?ie=UTF8&tag=sensr-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B002OHDFOA"><img src="https://lh3.googleusercontent.com/-M-PsQojVEmw/TYFUXyH-ibI/AAAAAAAACcQ/fitpusHjkBk/s1600/wvc80n.jpg" border="0" alt="" /></a>
+</div>
+
+<p>The Cisco <a href="http://www.amazon.com/gp/product/B002OHDFOA/ref=as_li_ss_tl?ie=UTF8&amp;tag=sensr-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B002OHDFOA">WVC80N</a> <img style="border: none !important; margin: 0px !important;" src="http://www.assoc-amazon.com/e/ir?t=&l=as2&o=1&a=B002OHDFOA" border="0" alt="" width="1" height="1" />has it&#8217;s issues, but it still works with [sensr.net][2].  The main drawback to this camera is that it doesn&#8217;t support timed FTP uploads.  It will only upload when the camera detects motion.  The second drawback to this camera is that it uses ActiveX to adjust the motion detection.  This means you need a Windows PC with IE to fully configure the camera.</p>
+
+<p>Ok, enough griping.  If you already have this camera and want to use it with sensr.net, here&#8217;s the best way to get going.</p>
+
+<p><a name="more"></a></p>
+
+<p>Go to sensr.net and login with your Facebook account.    Click <strong>my cameras</strong> and this should get you to the page where you can add a camera.  The page should look something like this.  You can read about adding a camera and when you&#8217;re ready, click the <strong>add camera</strong> button.</p>
+
+<div style="width: 330px" class="wp-caption aligncenter">
+  <a href="https://lh5.googleusercontent.com/-790wEZiSX30/TVGfePHTPDI/AAAAAAAACXI/xKk01rOdNdU/s1600/sensradd.png"><img title="Sensr.net Add Camera Page" src="https://lh5.googleusercontent.com/-790wEZiSX30/TVGfePHTPDI/AAAAAAAACXI/xKk01rOdNdU/s320/sensradd.png" alt="Sensr.net Add Camera Page" width="320" height="203" /></a>
+  
+  <p class="wp-caption-text">
+    Add camera page
+  </p>
+</div>
+
+<div class="separator" style="clear: both; text-align: left;">
+  Next you&#8217;ll see a page where you can name your camera and get the FTP credentials for it.  The page will look something like this:
+</div>
+
+<div class="separator" style="clear: both; text-align: left;">
+  <div style="width: 330px" class="wp-caption aligncenter">
+    <a href="https://lh3.googleusercontent.com/-BMKfIYI0yP0/TVGgUQAE8iI/AAAAAAAACXM/Fj52VHV1BPI/s1600/sesnraddname.png"><img title="Sensr.net FTP Credentials and Image Scanner" src="https://lh3.googleusercontent.com/-BMKfIYI0yP0/TVGgUQAE8iI/AAAAAAAACXM/Fj52VHV1BPI/s320/sesnraddname.png" alt="Sensr.net FTP Credentials and Image Scanner" width="320" height="203" /></a>
+    
+    <p class="wp-caption-text">
+      FTP Credentials and Image Scanner
+    </p>
+  </div>
+</div>
+
+<p>You can then take the credentials and put them into your WVC80N and tell it to FTP to sensr.net when it detects motion.  The sensr.net page above will keep waiting for images to arrive.  Once they do, you will see the image show up in the page like this:</p>
+
+<div style="width: 330px" class="wp-caption aligncenter">
+  <a href="https://lh5.googleusercontent.com/-1V0mdPM3Y8o/TVGg0nyNAtI/AAAAAAAACXQ/Utpbkv7YcEw/s1600/sensrsuccess.png"><img title="Success!" src="https://lh5.googleusercontent.com/-1V0mdPM3Y8o/TVGg0nyNAtI/AAAAAAAACXQ/Utpbkv7YcEw/s320/sensrsuccess.png" alt="Success!" width="320" height="203" /></a>
+  
+  <p class="wp-caption-text">
+    Success!
+  </p>
+</div>
+
+<p>By default, sensr.net will process the images we get and detect motion.   Since your WVC80N is doing it&#8217;s own motion detection, you&#8217;ll want to turn off the sensr.net motion detection.  You can find that under the edit page for your camera.  The setting looks like this:</p>
+
+<p style="text-align: center;">
+  &nbsp;
+</p>
+
+<div style="width: 330px" class="wp-caption aligncenter">
+  <a href="https://lh6.googleusercontent.com/-v9oqMMRcMp4/TYFh2s4eUsI/AAAAAAAACcU/wvERa4-Fu5A/s1600/motion+off.png"><img title="Turning off Sensr.net motion detection under a camera's edit page" src="https://lh6.googleusercontent.com/-v9oqMMRcMp4/TYFh2s4eUsI/AAAAAAAACcU/wvERa4-Fu5A/s320/motion+off.png" alt="Turning off Sensr.net motion detection under a camera's edit page" width="320" height="283" /></a>
+  
+  <p class="wp-caption-text">
+    Turning off Sensr.net motion detection under a camera's edit page
+  </p>
+</div>
+
+<p>Alternatively, you can leave the sensr.net motion detection on, and simply set the camera to very sensitive.  This will result in a better &#8216;live view&#8217; on the sensr.net site.  One advantage of using the camera to do the motion detection, is that it uses less of your bandwidth.  If you&#8217;re finding your camera is hogging too much bandwidth, you can fix this by adjusting the motion detection sensitivy settings on your WVC80N.</p>
+
+<p>Have fun!</p>
+
+<div class="trackable_sharing">
+  <a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F03%2F16%2Fusing-the-cisco-wvc80n-on-sensr-net%2F" style="text-decoration: none; white-space: nowrap;" title="Facebook" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Facebook','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/03/16/using-the-cisco-wvc80n-on-sensr-net/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png" alt="Facebook" width="0" height="0" /></a> <a href="http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F03%2F16%2Fusing-the-cisco-wvc80n-on-sensr-net%2F&text=Using+the+Cisco+WVC80N+on+sensr.net" style="text-decoration: none; white-space: nowrap;" title="Twitter" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Twitter','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/03/16/using-the-cisco-wvc80n-on-sensr-net/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png" alt="Twitter" width="0" height="0" /></a> <a href="http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F03%2F16%2Fusing-the-cisco-wvc80n-on-sensr-net%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F03%2F16%2Fusing-the-cisco-wvc80n-on-sensr-net%2F" style="text-decoration: none; white-space: nowrap;" title="Reddit" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Reddit','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/03/16/using-the-cisco-wvc80n-on-sensr-net/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=700,height=500'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png" alt="Reddit" width="0" height="0" /></a> <a href="http://digg.com/submit?partner=addthis&url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F03%2F16%2Fusing-the-cisco-wvc80n-on-sensr-net%2F&title=Using+the+Cisco+WVC80N+on+sensr.net&bodytext=" style="text-decoration: none; white-space: nowrap;" title="Digg" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Digg','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/03/16/using-the-cisco-wvc80n-on-sensr-net/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png" alt="Digg" width="0" height="0" /></a> <a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F03%2F16%2Fusing-the-cisco-wvc80n-on-sensr-net%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F03%2F16%2Fusing-the-cisco-wvc80n-on-sensr-net%2F" style="text-decoration: none; white-space: nowrap;" title="Stumbleupon" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Stumbleupon','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/03/16/using-the-cisco-wvc80n-on-sensr-net/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png" alt="Stumbleupon" width="0" height="0" /></a> <a href="mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F03%2F16%2Fusing-the-cisco-wvc80n-on-sensr-net%2F" style="text-decoration: none; white-space: nowrap;" title="Email" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Email','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/03/16/using-the-cisco-wvc80n-on-sensr-net/']); "><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png" alt="Email" width="0" height="0" /></a>
+</div>
+
+<p>[2]: <a href="http://sensr.net/">http://sensr.net/</a></p>
+
+  
+
+<div id="footer" role="contentinfo">
+	<div id="colophon">
+		<div id="site-info">
+			<ul id="copyright">
+				<li class="company-name">
+					<em>Sensr.net, Inc. © 2009-2016</em>
+				</li>
+				<li class="company-networks">Follow us on <a id="icon-twitter" href="http://www.twitter.com/sensr" target="_blank" title="Follow Sensr on Twitter" name="icon-twitter">Twitter</a> <a id="icon-facebook" href="http://www.facebook.com/sensrnet" target="_blank" title="Like Sensr on Facebook" name="icon-facebook">Facebook</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+	</body>
+</html>
+

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobile on Sensr.net Blog | Watch your Stuff!</title>
+    <link>https://sblog.sensr.net/tags/mobile/</link>
+    <description>Recent content in Mobile on Sensr.net Blog | Watch your Stuff!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Feb 2011 19:19:00 +0000</lastBuildDate>
+    <atom:link href="https://sblog.sensr.net/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Sensr.net on your Touch Device: iPhone, iPad, Android</title>
+      <link>https://sblog.sensr.net/2011/02/16/sensr-on-your-touch-device-iphone-ipad-android/</link>
+      <pubDate>Wed, 16 Feb 2011 19:19:00 +0000</pubDate>
+      
+      <guid>https://sblog.sensr.net/2011/02/16/sensr-on-your-touch-device-iphone-ipad-android/</guid>
+      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
+  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
+    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/16/sensr-on-your-touch-device-iphone-ipad-android/&#34; data-text=&#34;Sensr.net on your Touch Device: iPhone, iPad, Android&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
+  &lt;/div&gt;
+  
+
+&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;div style=&#34;text-align: left;&#34; dir=&#34;ltr&#34;&gt;
+  &lt;div style=&#34;text-align: left;&#34; dir=&#34;ltr&#34;&gt;
+    &lt;p&gt;
+      This week, Sensr released a Touch interface for iPhone, iPad and Android. Now you can Watch Your Stuff on your mobile device over 3G or WiFi no matter where you are.  Sensr Touch allows you to browse cameras, and to view the images from a camera by hour, day or month.
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      &lt;img class=&#34;alignleft&#34; title=&#34;Sensr.net on iPhone, iPad, Android&#34; src=&#34;http://3.bp.blogspot.com/-xayg79fcf30/TVskWhNjesI/AAAAAAAAAAk/0jFObTRqVwc/s1600/iPhoneHome.png&#34; alt=&#34;How to configure Sensr.net on iPhone, iPad, Android&#34; width=&#34;222&#34; height=&#34;333&#34; /&gt;
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      This article will show you how to install the icon for Sensr Touch on your iPhone or Android. That way you can launch Sensr Touch directly from your home screen. We will also give you a little overview of some of the Sensr Touch App functionality to get you started.
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      Some background information first: the Sensr Touch App is HTML5 and Javascript. It is optimized for WebKit browsers and uses Touch gestures available on mobile devices. The home URL for the Sensr Touch App is:
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      &lt;a href=&#34;http://sensr.net/touch/webapp&#34;&gt;http://sensr.net/touch/webapp&lt;/a&gt;
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      No software installation is required.
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      &lt;span style=&#34;font-size: large;&#34;&gt;&lt;strong&gt;iPhone and iPad &lt;/strong&gt;&lt;/span&gt;
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      To install a Home screen icon on iPhone or iPad, you first navigate to the URL above.  In the browser bar, click on the &amp;#8220;+&amp;#8221; icon and select &amp;#8220;Add To Home Screen.&amp;#8221;  This will take you to the &amp;#8220;Add To Home&amp;#8221; dialog box where you can give a meaningful name for your icon.  I like to name it &amp;#8220;Sensr Touch.&amp;#8221;  Save the icon and then close your browser.
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      You should now see the Sensr Touch icon on your home screen.  Click on it to start the app.  If you are happy with anonymous access to the site, you need not login with Facebook.  If you want to look at your private cameras, you will need to login by pressing the &amp;#8220;Login&amp;#8221; button in the top right.
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      On the iPhone, you can leave Sensr Touch to go to other applications.  To return to Sensr Touch, use the icon on the home screen to take you back to the running App.  You will return to the home screen of Sensr Touch in the same session you left.  If you were logged in before, you will remain logged in.
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      &lt;span style=&#34;font-size: large;&#34;&gt;&lt;strong&gt;Android &lt;/strong&gt;&lt;/span&gt;
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      &lt;span style=&#34;font-size: large;&#34;&gt;&lt;strong&gt;&lt;img class=&#34;alignleft&#34; title=&#34;Sensr.net on Android&#34; src=&#34;http://2.bp.blogspot.com/-ks3_azsKds4/TVsrfpR6oOI/AAAAAAAAAAs/gSlEiZwN_fc/s1600/AndroidHome.jpg&#34; alt=&#34;How to set up Sensr.net on Android&#34; width=&#34;269&#34; height=&#34;457&#34; /&gt;&lt;/strong&gt;&lt;/span&gt;Installing a Home screen icon on your Android device is a two-step process.  First, navigate to
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      &lt;a href=&#34;http://sensr.net/touch/webapp&#34;&gt;http://sensr.net/touch/webapp&lt;/a&gt;
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      to start Sensr Touch.
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      In your browser, select &amp;#8220;Add Bookmark&amp;#8221; from the menu options and give it a name.  I like to call it &amp;#8220;Sensr Touch.&amp;#8221;  This step registers a bookmark with your Android browser, but does not yet put an icon on the Home screen.
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      Now, exit the browser and go to the Home screen.  Press the &amp;#8220;menu&amp;#8221; button (the left-most of the four buttons on the bottom) and select the &amp;#8220;(+) Add&amp;#8221; menu item.  Here, you will select what to add to your home screen.  Select &amp;#8220;Shortcuts&amp;#8221; and then &amp;#8220;Bookmark&amp;#8221;.  In the list of bookmarks you should see the &amp;#8220;Sensr Touch&amp;#8221; bookmark you created for the browser.  Select it.  This bookmark will now be stored as an icon on your home screen.
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      On Android, you can use the Sensr Touch home-screen icon to get back to a Sensr Touch session if one is already running.   Leave your Sensr Touch page to visit other sites or run other Apps.  The Sensr Touch icon will return you to the home screen of Sensr Touch in the same session you left.  If you were logged in before, you will remain logged in.
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      &lt;span style=&#34;font-size: large;&#34;&gt;&lt;strong&gt;Using Sensr.net Touch&lt;/strong&gt;&lt;/span&gt;
+    &lt;/p&gt;
+    
+    &lt;div style=&#34;width: 268px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+      &lt;img title=&#34;How to use Sensr.net Touch&#34; src=&#34;http://4.bp.blogspot.com/-IGjIIbOMcxQ/TVtBEuetvMI/AAAAAAAAAAw/OhJLvBEhro4/s1600/iPhoneFront.png&#34; alt=&#34;How to use Sensr.net Touch app on iPhone, Android, iPad&#34; width=&#34;258&#34; height=&#34;386&#34; /&gt;
+      
+      &lt;p class=&#34;wp-caption-text&#34;&gt;
+        Camera List
+      &lt;/p&gt;
+    &lt;/div&gt;
+    
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;
+  &amp;lt;span style=&amp;quot;font-size: large;&amp;quot;&amp;gt;&amp;lt;strong&amp;gt; &amp;lt;/strong&amp;gt;&amp;lt;/span&amp;gt;The Sensr Touch app is similar to the main Sensr web site.  You can list cameras, and you can show the images for a particular camera by hour, or summarized for a day or an entire month.
+&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;
+  The front page for Sensr Touch is a list of public cameras.  The &amp;amp;#8220;Browse&amp;amp;#8221; button exposes &amp;amp;#8220;public&amp;amp;#8221;, &amp;amp;#8220;friend&amp;amp;#8221; and &amp;amp;#8220;my cameras&amp;amp;#8221; categories.  Select &amp;amp;#8220;my cameras&amp;amp;#8221; to find your own cameras, or &amp;amp;#8220;friend&amp;amp;#8221; to see the cameras belonging to your Facebook friends.  You can see more pages of cameras by selecting the &amp;amp;#8220;Next Page&amp;amp;#8221; link at the bottom of the page.
+&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;
+  &amp;amp;nbsp;
+&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;
+  &amp;amp;nbsp;
+&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;
+  &amp;amp;nbsp;
+&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;
+  &amp;amp;nbsp;
+&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;
+  &amp;amp;nbsp;
+&amp;lt;/p&amp;gt;
+
+&amp;lt;div style=&amp;quot;width: 268px&amp;quot; class=&amp;quot;wp-caption alignleft&amp;quot;&amp;gt;
+  &amp;lt;img class=&amp;quot; &amp;quot; title=&amp;quot;Sensr.net on iPhone&amp;quot; src=&amp;quot;http://3.bp.blogspot.com/-GGBlU9Edsew/TVvXlZjFWqI/AAAAAAAAAA0/4sWE0XWLnx0/s1600/iPhoneMansfield.png&amp;quot; alt=&amp;quot;Sensr.net on iPhone&amp;quot; width=&amp;quot;258&amp;quot; height=&amp;quot;386&amp;quot; /&amp;gt;
+
+  &amp;lt;p class=&amp;quot;wp-caption-text&amp;quot;&amp;gt;
+    Hour View &amp;quot;Scrub&amp;quot; Control
+  &amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;p&amp;gt;
+  Selecting a camera takes you to the viewer controls where you can scroll through the images of the current hour.  Press the &amp;amp;#8220;Play&amp;amp;#8221; button at the bottom to animate the view of the images.
+&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;
+  Drag your finger over the image to invoke the &amp;amp;#8220;scrub&amp;amp;#8221; control to move forward or backward rapidly through the images.
+&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;
+  Choose the &amp;amp;#8220;day&amp;amp;#8221; or &amp;amp;#8220;month&amp;amp;#8221; views to show a grid view of the hours of the day or the days of the month.  Use the &amp;amp;#8220;&amp;lt;&amp;amp;#8221; and &amp;amp;#8220;&amp;gt;&amp;amp;#8221; buttons to move to the next or previous day, month, or hour.
+&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;
+  The &amp;amp;#8220;now&amp;amp;#8221; button takes you to the most recent hour to show you the most recent activity on your camera.
+&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;
+  &amp;amp;nbsp;
+&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;
+  &amp;amp;nbsp;
+&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;
+  &amp;amp;nbsp;
+&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;
+  &amp;lt;span style=&amp;quot;font-size: large;&amp;quot;&amp;gt;&amp;lt;strong&amp;gt;What&amp;amp;#8217;s Next?&amp;lt;/strong&amp;gt;&amp;lt;/span&amp;gt;
+&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;
+  Sensr Touch lets you take access to camera feeds with you anywhere you go.  In its current form, it is an App focused on viewing content.  In coming months we&amp;amp;#8217;ll be adding features for sharing images and scenes through Facebook, Twitter and Youtube.  HTML5 is the future of the web, and Touch devices are becoming preferred  for consuming and sharing web content.  Sensr Touch leverages these technologies to make your Sensr experience truly portable.
+&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;
+  &amp;amp;nbsp;
+&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;
+    &amp;nbsp;
+  &lt;/p&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;div class=&#34;trackable_sharing&#34;&gt;
+  &lt;a href=&#34;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F16%2Fsensr-on-your-touch-device-iphone-ipad-android%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Facebook&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Facebook&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/16/sensr-on-your-touch-device-iphone-ipad-android/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png&#34; alt=&#34;Facebook&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F16%2Fsensr-on-your-touch-device-iphone-ipad-android%2F&amp;text=Sensr.net+on+your+Touch+Device%3A+iPhone%2C+iPad%2C+Android&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Twitter&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Twitter&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/16/sensr-on-your-touch-device-iphone-ipad-android/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png&#34; alt=&#34;Twitter&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F16%2Fsensr-on-your-touch-device-iphone-ipad-android%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F16%2Fsensr-on-your-touch-device-iphone-ipad-android%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Reddit&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Reddit&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/16/sensr-on-your-touch-device-iphone-ipad-android/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=700,height=500&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png&#34; alt=&#34;Reddit&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://digg.com/submit?partner=addthis&amp;url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F16%2Fsensr-on-your-touch-device-iphone-ipad-android%2F&amp;title=Sensr.net+on+your+Touch+Device%3A+iPhone%2C+iPad%2C+Android&amp;bodytext=&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Digg&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Digg&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/16/sensr-on-your-touch-device-iphone-ipad-android/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png&#34; alt=&#34;Digg&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F16%2Fsensr-on-your-touch-device-iphone-ipad-android%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F16%2Fsensr-on-your-touch-device-iphone-ipad-android%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Stumbleupon&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Stumbleupon&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/16/sensr-on-your-touch-device-iphone-ipad-android/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png&#34; alt=&#34;Stumbleupon&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F16%2Fsensr-on-your-touch-device-iphone-ipad-android%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Email&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Email&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/16/sensr-on-your-touch-device-iphone-ipad-android/&#39;]); &#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png&#34; alt=&#34;Email&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

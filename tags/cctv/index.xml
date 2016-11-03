@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cctv on Sensr.net Blog | Watch your Stuff!</title>
+    <link>https://sblog.sensr.net/tags/cctv/</link>
+    <description>Recent content in Cctv on Sensr.net Blog | Watch your Stuff!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Jun 2014 17:43:48 +0000</lastBuildDate>
+    <atom:link href="https://sblog.sensr.net/tags/cctv/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to upgrade your CCTV system with the SRV-EPX8 and Sensr.net</title>
+      <link>https://sblog.sensr.net/2014/06/26/how-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net/</link>
+      <pubDate>Thu, 26 Jun 2014 17:43:48 +0000</pubDate>
+      
+      <guid>https://sblog.sensr.net/2014/06/26/how-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net/</guid>
+      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
+  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
+    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/26/how-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net/&#34; data-text=&#34;How to upgrade your CCTV system with the SRV-EPX8 and Sensr.net&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
+  &lt;/div&gt;
+  
+
+&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2860&#34; style=&#34;width: 295px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+  &lt;a href=&#34;http://shop.sensr.net/products/srv-exp8-eight-port-standalone-video-server-with-built-in-web-server-ethernet-serial-ports-alarm-inputs&#34;&gt;&lt;img class=&#34; wp-image-2860&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/SRV-EXP8.jpg&#34; alt=&#34;Imagine cape blowing in the wind&#34; width=&#34;285&#34; height=&#34;91&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/SRV-EXP8.jpg 820w, http://sensr.net/blog/wp-content/uploads/2014/06/SRV-EXP8-300x95.jpg 300w&#34; sizes=&#34;(max-width: 285px) 100vw, 285px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Imagine cape blowing in the wind
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;A lot of us have old closed circuit based camera systems that save data to a local hard drive and are looking to upgrade to a newer, internet based, system so they can view their cameras when they are away or still look at footage if the hard drive is stolen. If you fall into this category you may think all is lost and you will never get your old CCTV system hooked up to Sensr.net but never fear! The &lt;a href=&#34;http://shop.sensr.net/products/srv-exp8-eight-port-standalone-video-server-with-built-in-web-server-ethernet-serial-ports-alarm-inputs&#34;&gt;SRV-EXP8&lt;/a&gt; video server is here to save the day! In this tutorial I will show you how to set up your &lt;a href=&#34;http://shop.sensr.net/products/srv-exp8-eight-port-standalone-video-server-with-built-in-web-server-ethernet-serial-ports-alarm-inputs&#34;&gt;SRV-EXP8&lt;/a&gt; and how to start uploading to Sensr.net (if you don&amp;#8217;t have an account it’s free to setup an account with Sensr.net. Camera monitoring starts at $9.95/month after your one week free trial is up.)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 1: Setup your  &lt;a href=&#34;http://shop.sensr.net/products/srv-exp8-eight-port-standalone-video-server-with-built-in-web-server-ethernet-serial-ports-alarm-inputs&#34;&gt;SRV-EXP8&lt;/a&gt;  &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;http://shop.sensr.net/products/srv-exp8-eight-port-standalone-video-server-with-built-in-web-server-ethernet-serial-ports-alarm-inputs&#34;&gt;SRV-EXP8&lt;/a&gt; allows you to hook up 8 CCTV cameras to it&amp;#8217;s stand alone video server and connect to Sensr.net. First you can go ahead and plug &lt;a href=&#34;http://shop.sensr.net/products/srv-exp8-eight-port-standalone-video-server-with-built-in-web-server-ethernet-serial-ports-alarm-inputs&#34;&gt;SRV-EXP8&lt;/a&gt; into both a power source and your router. Then plug all your CCTV cameras into the &lt;a href=&#34;http://shop.sensr.net/products/srv-exp8-eight-port-standalone-video-server-with-built-in-web-server-ethernet-serial-ports-alarm-inputs&#34;&gt;SRV-EXP8&lt;/a&gt;&amp;#8216;s video ports. Here they are labeled in this diagram:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2862&#34; style=&#34;width: 459px&#34; class=&#34;wp-caption alignnone&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/Screen-Shot-2014-06-25-at-12.37.16-PM.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2862&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/Screen-Shot-2014-06-25-at-12.37.16-PM.png&#34; alt=&#34;Nicely Labeled&#34; width=&#34;449&#34; height=&#34;227&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/Screen-Shot-2014-06-25-at-12.37.16-PM.png 449w, http://sensr.net/blog/wp-content/uploads/2014/06/Screen-Shot-2014-06-25-at-12.37.16-PM-300x151.png 300w&#34; sizes=&#34;(max-width: 449px) 100vw, 449px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Nicely Labeled
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Once you&amp;#8217;ve done that you can skip installing their software onto your PC (they don&amp;#8217;t include any software for mac OS X) as the &lt;a href=&#34;http://shop.sensr.net/products/srv-exp8-eight-port-standalone-video-server-with-built-in-web-server-ethernet-serial-ports-alarm-inputs&#34;&gt;SRV-EXP8&lt;/a&gt; will automatically assign it&amp;#8217;s self an IP address using DCHP. Go onto your router and find the server&amp;#8217;s IP address by looking for the item with the MAC address starting with 00:30:F4 (if you aren&amp;#8217;t sure how to access your router their is a nice guide in step two of &lt;a href=&#34;http://sensr.net/blog/2014/05/01/how-to-configure-a-foscam-fi9826w/#more-2808&#34;&gt;this post&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Now that you have the &lt;a href=&#34;http://shop.sensr.net/products/srv-exp8-eight-port-standalone-video-server-with-built-in-web-server-ethernet-serial-ports-alarm-inputs&#34;&gt;SRV-EXP8&lt;/a&gt;&amp;#8216;s IP address you can go ahead and type it into your browse to get to the network access window and ask you for a user name and a password. The username is admin and the password is admin. You should change that. After providing the username and password you will get to a page which should look something like this:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2863&#34; style=&#34;width: 353px&#34; class=&#34;wp-caption alignnone&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/Screen-Shot-2014-06-25-at-12.44.17-PM.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2863&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/Screen-Shot-2014-06-25-at-12.44.17-PM.png&#34; alt=&#34;Network Interface&#34; width=&#34;343&#34; height=&#34;338&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/Screen-Shot-2014-06-25-at-12.44.17-PM.png 343w, http://sensr.net/blog/wp-content/uploads/2014/06/Screen-Shot-2014-06-25-at-12.44.17-PM-300x295.png 300w&#34; sizes=&#34;(max-width: 343px) 100vw, 343px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Network Interface
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Once you get to this page you have passed the hard part and we are on to&amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step two: add a new camera on Sensr.net&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You are going to need to do each of your camera&amp;#8217;s separately so if you have more than one camera just come back up to step two and repeat for each camera.&lt;/p&gt;
+
+&lt;p&gt;1. Simply log into your Sensr.net account click the &lt;strong&gt;Add Camera&lt;/strong&gt; button. Sensr.net has a free one week trial, so give it a go and see if it works for you.  (It’s free to setup an account with Sensr.net. Camera monitoring starts at $9.95/month after your free trial is up.)  Once you login you’ll see a page like this:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2714&#34; style=&#34;width: 1013px&#34; class=&#34;wp-caption alignnone&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2714&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png&#34; alt=&#34;Add new camera page&#34; width=&#34;1003&#34; height=&#34;339&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png 1003w, http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera-300x101.png 300w&#34; sizes=&#34;(max-width: 1003px) 100vw, 1003px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Add new camera page
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;2. Next you’ll see a page like this where you can set the timezone for your camera, give it a name, and tell us the model.  Cameras default to private but you can make them public if you want to share them with the world.&lt;/p&gt;
+
+&lt;p&gt;[&lt;img class=&#34;size-full wp-image-2713&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details.png&#34; alt=&#34;Note this is for a different device&#34; width=&#34;999&#34; height=&#34;491&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details.png 999w, http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details-300x147.png 300w&#34; sizes=&#34;(max-width: 999px) 100vw, 999px&#34; /&gt;][3]&lt;/p&gt;
+
+&lt;p&gt;3.&lt;/p&gt;
+
+&lt;p&gt;After that, we’ll generate some FTP credentials for your server. This generates a login for your  &lt;a href=&#34;http://shop.sensr.net/products/srv-exp8-eight-port-standalone-video-server-with-built-in-web-server-ethernet-serial-ports-alarm-inputs&#34;&gt;SRV-EXP8&lt;/a&gt; to where it can upload images via FTP. This tells your camera where to upload the images. The important information here is:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;FTP Server&lt;/li&gt;
+&lt;li&gt;FTP User name&lt;/li&gt;
+&lt;li&gt;FTP Password&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Save these so we can add them to your camera later.&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2607&#34; style=&#34;width: 1151px&#34; class=&#34;wp-caption alignnone&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2607&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png&#34; alt=&#34;FTP credentials&#34; width=&#34;1141&#34; height=&#34;790&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png 1141w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-1024x708.png 1024w&#34; sizes=&#34;(max-width: 1141px) 100vw, 1141px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    FTP credentials
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now that you&amp;#8217;ve got all this information you are ready to move onto the third and final step.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step three: point your server towards Sensr.net&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;All that is left to do is to give your server Sensr.net&amp;#8217;s FTP information so it can start to upload your video. Go to the server&amp;#8217;s network access page, which we accessed earlier, and click on the FTP tab. It should look something like this:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2864&#34; style=&#34;width: 412px&#34; class=&#34;wp-caption alignnone&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/Screen-Shot-2014-06-25-at-12.58.18-PM.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2864&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/Screen-Shot-2014-06-25-at-12.58.18-PM.png&#34; alt=&#34; SRV-EXP8&#39;s FTP page&#34; width=&#34;402&#34; height=&#34;381&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/Screen-Shot-2014-06-25-at-12.58.18-PM.png 402w, http://sensr.net/blog/wp-content/uploads/2014/06/Screen-Shot-2014-06-25-at-12.58.18-PM-300x284.png 300w&#34; sizes=&#34;(max-width: 402px) 100vw, 402px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    SRV-EXP8&amp;#8217;s FTP page
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Copy and paste the three items from before, FTP Server, FTP User name, and FTP Password, onto this new page. Copy FTP sever onto the hostname section. We suggest uploading at one image per second so you can have real time live view so you can change the delay in the schedule section to &lt;strong&gt;1&lt;/strong&gt;. Leave everything else the same so your camera will upload &lt;sup&gt;24&lt;/sup&gt;&amp;frasl;&lt;sub&gt;7&lt;/sub&gt;.&lt;/p&gt;
+
+&lt;p&gt;Once you are done with that your server should start uploading to Sensr.net. Your page will go from this:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2611&#34; style=&#34;width: 1151px&#34; class=&#34;wp-caption alignnone&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2611&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3.png&#34; alt=&#34;Waiting for upload&#34; width=&#34;1141&#34; height=&#34;790&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3.png 1141w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3-1024x708.png 1024w&#34; sizes=&#34;(max-width: 1141px) 100vw, 1141px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Waiting for upload
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;To this:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2618&#34; style=&#34;width: 997px&#34; class=&#34;wp-caption alignnone&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2618&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success.png&#34; alt=&#34;Success!&#34; width=&#34;987&#34; height=&#34;793&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success.png 987w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success-300x241.png 300w&#34; sizes=&#34;(max-width: 987px) 100vw, 987px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Success!
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If you have more camera&amp;#8217;s just click on the Cam 2 tab in the top right corner, than Cam 3, Cam 4 and so on. Repeat the add cam step on Sensr.net each time to get new FTP credentials for each Camera. The add camera tap looks like this:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2869&#34; style=&#34;width: 693px&#34; class=&#34;wp-caption alignnone&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/image.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2869&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/image.png&#34; alt=&#34;Cam tabs in the top right corner&#34; width=&#34;683&#34; height=&#34;664&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/image.png 683w, http://sensr.net/blog/wp-content/uploads/2014/06/image-300x291.png 300w&#34; sizes=&#34;(max-width: 683px) 100vw, 683px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Cam tabs in the top right corner
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;And there you have it. You setup your &lt;a href=&#34;http://shop.sensr.net/products/srv-exp8-eight-port-standalone-video-server-with-built-in-web-server-ethernet-serial-ports-alarm-inputs&#34;&gt;SRV-EXP8&lt;/a&gt; and brought your CCTV system to the future.  We’ll archive all the motion events, giving you 30 days of archives, SMS and email alerts, guest access, and a whole lot more.  You can view the live stream on our website or in our apps.  No firewall configuration is needed.  No PC in the basement required.&lt;/p&gt;
+
+&lt;p&gt;If you have any problems, send email to info @ sensr.net and we’ll try to help you out!&lt;/p&gt;
+
+&lt;div class=&#34;trackable_sharing&#34;&gt;
+  &lt;a href=&#34;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F26%2Fhow-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Facebook&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Facebook&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/26/how-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png&#34; alt=&#34;Facebook&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F26%2Fhow-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net%2F&amp;text=How+to+upgrade+your+CCTV+system+with+the+SRV-EPX8%C2%A0and+Sensr.net&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Twitter&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Twitter&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/26/how-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png&#34; alt=&#34;Twitter&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F26%2Fhow-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F26%2Fhow-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Reddit&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Reddit&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/26/how-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=700,height=500&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png&#34; alt=&#34;Reddit&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://digg.com/submit?partner=addthis&amp;url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F26%2Fhow-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net%2F&amp;title=How+to+upgrade+your+CCTV+system+with+the+SRV-EPX8%C2%A0and+Sensr.net&amp;bodytext=&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Digg&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Digg&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/26/how-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png&#34; alt=&#34;Digg&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F26%2Fhow-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F26%2Fhow-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Stumbleupon&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Stumbleupon&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/26/how-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png&#34; alt=&#34;Stumbleupon&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F26%2Fhow-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Email&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Email&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/26/how-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net/&#39;]); &#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png&#34; alt=&#34;Email&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;[3]: &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details.png&#34;&gt;http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details.png&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

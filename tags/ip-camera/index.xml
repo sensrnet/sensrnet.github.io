@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ip Camera on Sensr.net Blog | Watch your Stuff!</title>
+    <link>https://sblog.sensr.net/tags/ip-camera/</link>
+    <description>Recent content in Ip Camera on Sensr.net Blog | Watch your Stuff!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Oct 2016 18:47:58 +0000</lastBuildDate>
+    <atom:link href="https://sblog.sensr.net/tags/ip-camera/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Is your security camera hacking someone else?</title>
+      <link>https://sblog.sensr.net/2016/10/19/is-your-security-camera-hacking-someone-else/</link>
+      <pubDate>Wed, 19 Oct 2016 18:47:58 +0000</pubDate>
+      
+      <guid>https://sblog.sensr.net/2016/10/19/is-your-security-camera-hacking-someone-else/</guid>
+      <description>
+
+&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
+  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
+    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2016/10/19/is-your-security-camera-hacking-someone-else/&#34; data-text=&#34;Is your security camera hacking someone else?&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
+  &lt;/div&gt;
+  
+
+&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;div id=&#34;attachment_3207&#34; style=&#34;width: 768px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2016/10/wsjscreenshot-1024x5741.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-3207&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2016/10/wsjscreenshot-1024x5741.jpg&#34; alt=&#34;Who watches the watchers?&#34; width=&#34;758&#34; height=&#34;562&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2016/10/wsjscreenshot-1024x5741.jpg 758w, http://sensr.net/blog/wp-content/uploads/2016/10/wsjscreenshot-1024x5741-300x222.jpg 300w&#34; sizes=&#34;(max-width: 758px) 100vw, 758px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Who watches the watchers?
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Last month the Wall Street Journal reported:&lt;/p&gt;
+
+&lt;h1 class=&#34;wsj-article-headline&#34; style=&#34;font-weight: bold; color: #333333;&#34;&gt;
+  &lt;a title=&#34;Hackers Infect Army of Cameras, DVRs...&#34; href=&#34;http://www.wsj.com/articles/hackers-infect-army-of-cameras-dvrs-for-massive-internet-attacks-1475179428&#34;&gt;Hackers Infect Army of Cameras, DVRs for Massive Internet Attacks&lt;/a&gt;
+&lt;/h1&gt;
+
+&lt;p&gt;How can something like this happen?  It turns out security cameras and DVRs are just network connected computers, and they can be hacked just like any other computer.  However, it&amp;#8217;s worse than that, a large number of these systems ship with default passwords, so anyone who can connect to them can get into the system and install any software they want.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-about-my-firewall:fb6a7bc2a62d1b26a3805da8a3116d9b&#34;&gt;What about my firewall?&lt;/h2&gt;
+
+&lt;p&gt;But wait, what does it matter that there are default passwords on these systems?  These devices are normally behind a firewall, right?  Maybe, but most DVRs and IP cameras are configured so you can view and configure them from outside your firewall.  When these systems are installed, most of them instruct you to set up port forwarding.  This is where you can get into trouble.  If you configure your firewall for port forwarding, you&amp;#8217;re allowing anyone on the internet to connect to your device.  If you setup port forwarding but don&amp;#8217;t bother to change the default passwords, then you&amp;#8217;re asking for trouble.&lt;/p&gt;
+
+&lt;h2 id=&#34;you-are-your-own-it-guy:fb6a7bc2a62d1b26a3805da8a3116d9b&#34;&gt;You are your own IT guy&lt;/h2&gt;
+
+&lt;p&gt;If you do setup port forwarding, make sure you change all the default passwords and keep your firmware up to date.  Yes, this is a hassle.  Updating firmware on wireless security cameras is error prone and confusing.  You have to make sure you have the right firmware for your camera.  Sometimes there are slightly different hardware versions and if you install the wrong firmware on the wrong hardware, you&amp;#8217;ll brick your device.  Another hassle is that most manufacturers insist that you do the upgrade over a wired connection.  This sounds easy until you realize that the camera is mounted somewhere and now you have to get your toolbox and a ladder just to upgrade your firmware.  No wonder these devices are not getting updated.&lt;/p&gt;
+
+&lt;h2 id=&#34;can-sensr-net-help:fb6a7bc2a62d1b26a3805da8a3116d9b&#34;&gt;Can Sensr.net help?&lt;/h2&gt;
+
+&lt;p&gt;Yes, using &lt;a href=&#34;https://sensr.net&#34; title=&#34;Sensr.net: Watch your stuff &#34;&gt;Sensr.net&lt;/a&gt; doesn&amp;#8217;t require port forwarding (cameras push to our servers, nothing reaches back into your network).  This means if you&amp;#8217;re using security cameras or network attached DVRs don&amp;#8217;t need to be accessible from the internet at large.&lt;/p&gt;
+
+&lt;h2 id=&#34;try-sensr-net-for-free:fb6a7bc2a62d1b26a3805da8a3116d9b&#34;&gt;Try Sensr.net for free&lt;/h2&gt;
+
+&lt;p&gt;If you have an IP camera, give us a try.  Sign up for our &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34; title=&#34;Sensr.net Free Trial&#34;&gt;one week free trial&lt;/a&gt;, no credit card required.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;div class=&#34;trackable_sharing&#34;&gt;
+  &lt;a href=&#34;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2016%2F10%2F19%2Fis-your-security-camera-hacking-someone-else%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Facebook&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Facebook&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2016/10/19/is-your-security-camera-hacking-someone-else/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png&#34; alt=&#34;Facebook&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2016%2F10%2F19%2Fis-your-security-camera-hacking-someone-else%2F&amp;text=Is+your+security+camera+hacking+someone+else%3F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Twitter&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Twitter&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2016/10/19/is-your-security-camera-hacking-someone-else/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png&#34; alt=&#34;Twitter&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2016%2F10%2F19%2Fis-your-security-camera-hacking-someone-else%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2016%2F10%2F19%2Fis-your-security-camera-hacking-someone-else%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Reddit&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Reddit&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2016/10/19/is-your-security-camera-hacking-someone-else/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=700,height=500&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png&#34; alt=&#34;Reddit&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://digg.com/submit?partner=addthis&amp;url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2016%2F10%2F19%2Fis-your-security-camera-hacking-someone-else%2F&amp;title=Is+your+security+camera+hacking+someone+else%3F&amp;bodytext=&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Digg&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Digg&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2016/10/19/is-your-security-camera-hacking-someone-else/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png&#34; alt=&#34;Digg&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2016%2F10%2F19%2Fis-your-security-camera-hacking-someone-else%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2016%2F10%2F19%2Fis-your-security-camera-hacking-someone-else%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Stumbleupon&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Stumbleupon&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2016/10/19/is-your-security-camera-hacking-someone-else/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png&#34; alt=&#34;Stumbleupon&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2016%2F10%2F19%2Fis-your-security-camera-hacking-someone-else%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Email&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Email&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2016/10/19/is-your-security-camera-hacking-someone-else/&#39;]); &#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png&#34; alt=&#34;Email&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to Setup the Foscam FI8919W with Cloud Recording</title>
+      <link>https://sblog.sensr.net/2014/07/23/how-to-setup-the-foscam-fi8919w-with-cloud-recording/</link>
+      <pubDate>Wed, 23 Jul 2014 18:24:08 +0000</pubDate>
+      
+      <guid>https://sblog.sensr.net/2014/07/23/how-to-setup-the-foscam-fi8919w-with-cloud-recording/</guid>
+      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
+  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
+    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/23/how-to-setup-the-foscam-fi8919w-with-cloud-recording/&#34; data-text=&#34;How to Setup the Foscam FI8919W with Cloud Recording&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
+  &lt;/div&gt;
+  
+
+&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2985&#34; style=&#34;width: 428px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/61WjJXq7PlL._SL1500_.jpg&#34;&gt;&lt;img class=&#34; wp-image-2985&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/61WjJXq7PlL._SL1500_.jpg&#34; alt=&#34;Foscam FI8919W&#34; width=&#34;418&#34; height=&#34;395&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/61WjJXq7PlL._SL1500_.jpg 1500w, http://sensr.net/blog/wp-content/uploads/2014/07/61WjJXq7PlL._SL1500_-300x283.jpg 300w, http://sensr.net/blog/wp-content/uploads/2014/07/61WjJXq7PlL._SL1500_-1024x967.jpg 1024w&#34; sizes=&#34;(max-width: 418px) 100vw, 418px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Foscam FI8919W
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Foscam&amp;#8217;s are a very trusty brand of IP camera and sometimes you need something that is a little less orthodox.  The [Foscam FI819W][1] has a great shape for outdoor use and the dome gives it a wider range of view than your average bullet cam.  This tutorial will show you how to get your [Foscam FI819W][1]  setup with cloud recording.&lt;/p&gt;
+
+&lt;p&gt;First you need to get all your hardware setup. Plug your camera into both your router and a power source. Remember where you setup your camera is super important. You want a good view of high traffic areas, and remember zoom here is digital not optical so don&amp;#8217;t put it to far from things you want to see; since this is an outdoor cam I suggest facing it towards your drive way.&lt;/p&gt;
+
+&lt;p&gt;Once you&amp;#8217;ve got it plugged in you are going to need to find the camera&amp;#8217;s IP address. You can do this either by going through your router or buy using the software included with your camera. I suggest going through your router because the software can be a bit of a pain and learning how to access your router is a good skill anyways.&lt;/p&gt;
+
+&lt;p&gt;I will show you how to do this on a mac (because I am writing from a mac) but it is also very easy to do from a PC (the PC process is outlined in &lt;a style=&#34;color: #888888;&#34; href=&#34;http://blogs.computerworld.com/network-security/22777/find-ip-address-your-home-router&#34;&gt;this article&lt;/a&gt;). On my mac it is under system preferences&amp;gt;Network&amp;gt;Advanced…&amp;gt;TCP/IP. The page looks like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2597&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png&#34; alt=&#34;Router IP address shown on second line&#34; width=&#34;782&#34; height=&#34;694&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png 782w, http://sensr.net/blog/wp-content/uploads/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM-300x266.png 300w&#34; sizes=&#34;(max-width: 782px) 100vw, 782px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you have the IP address just enter it into your browser and it should bring you to a network access page. Everyone’s looks different depending on the make and model of their browser. Mine, for example, looks like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/netgear-attached-devices.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2599&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/netgear-attached-devices.png&#34; alt=&#34;My router&#39;s Network Access portal&#34; width=&#34;932&#34; height=&#34;780&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/netgear-attached-devices.png 932w, http://sensr.net/blog/wp-content/uploads/2013/12/netgear-attached-devices-300x251.png 300w&#34; sizes=&#34;(max-width: 932px) 100vw, 932px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you aren’t sure which device is new you can always unplug your camera then plug it back in to see which one disappears and comes back.&lt;/p&gt;
+
+&lt;p&gt;Now that you&amp;#8217;ve got your camera&amp;#8217;s IP address you need to open a new tab on your browser and type it in. You will be brought to a page asking you for a username and password. The default username is admin with no password. You will come to a page that looks like this:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2986&#34; style=&#34;width: 717px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-23-at-2.10.06-PM.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2986&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-23-at-2.10.06-PM.png&#34; alt=&#34;Pick the one that matches your system&#34; width=&#34;707&#34; height=&#34;471&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-23-at-2.10.06-PM.png 707w, http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-23-at-2.10.06-PM-300x199.png 300w&#34; sizes=&#34;(max-width: 707px) 100vw, 707px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Pick the one that matches your system
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You will need to choose one of the three modes based of of what browser you are using. I use chrome so I used server push mode. Once you select one you will get to the network access page. If it prompts you to run the Active-X add on make sure to say yes. Finally you will end up on this page:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2987&#34; style=&#34;width: 614px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-23-at-2.12.19-PM.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2987&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-23-at-2.12.19-PM.png&#34; alt=&#34;Main Control Page&#34; width=&#34;604&#34; height=&#34;424&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-23-at-2.12.19-PM.png 604w, http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-23-at-2.12.19-PM-300x210.png 300w&#34; sizes=&#34;(max-width: 604px) 100vw, 604px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Main Control Page
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now you have total control over the camera and you can make it do anything you like. Since we have control over the camera it is time to go setup the cloud side of things through Sensr.net.&lt;/p&gt;
+
+&lt;p&gt;Simply log into your Sensr.net account click the &lt;strong&gt;Add Camera&lt;/strong&gt; button. Sensr.net has a free one week trial, so give it a go and see if it works for you.  (It’s free to setup an account with Sensr.net. Camera monitoring starts at $9.95/month after your free trial is up.)  Once you login you’ll see a page like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-new-user.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2603&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-new-user-1024x708.png&#34; alt=&#34;Add new camera page&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-new-user-1024x708.png 1024w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-new-user-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-new-user.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Next you’ll see a page like this where you can set the timezone for your camera, give it a name, and tell us the model.  Cameras default to private but you can make them public if you want to share them with the world.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://sensr.net/blog/wp-content/uploads/2014/05/FI9826W-Name.png&#34;&gt;&lt;img class=&#34;wp-image-2812 size-full&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/05/FI9826W-Name.png&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;639&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/05/FI9826W-Name.png 1024w, http://sensr.net/blog/wp-content/uploads/2014/05/FI9826W-Name-300x187.png 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;After that, we’ll generate some FTP credentials for your camera. This generates a login for your [FI819W][1]   to where it can upload images via FTP. This tells your camera where to upload the images. The important information here is:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;FTP Server&lt;/li&gt;
+&lt;li&gt;FTP User name&lt;/li&gt;
+&lt;li&gt;FTP Password&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Save these so we can add them to your camera later.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2607&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-1024x708.png&#34; alt=&#34;FTP credentials&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-1024x708.png 1024w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Now head back to the network access window for your camera so you can point it to Sensr.net. Click the bar &amp;#8220;Device Management&amp;#8221; and you will come to a page like this:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2988&#34; style=&#34;width: 694px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-23-at-2.18.48-PM.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2988&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-23-at-2.18.48-PM.png&#34; alt=&#34;Device Management&#34; width=&#34;684&#34; height=&#34;417&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-23-at-2.18.48-PM.png 684w, http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-23-at-2.18.48-PM-300x182.png 300w&#34; sizes=&#34;(max-width: 684px) 100vw, 684px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Device Management
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now click on the tab FTP service settings. It will look like this:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2989&#34; style=&#34;width: 623px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-23-at-2.19.36-PM.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2989&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-23-at-2.19.36-PM.png&#34; alt=&#34;FTP settings &#34; width=&#34;613&#34; height=&#34;391&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-23-at-2.19.36-PM.png 613w, http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-23-at-2.19.36-PM-300x191.png 300w&#34; sizes=&#34;(max-width: 613px) 100vw, 613px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    FTP settings
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now you just need to copy and paste the credentials you got earlier into thier respective fields. Change the FTP mode to Passive and the upload interval to 1. Now you should be streaming video to Senser.net. Go back to the Sensr.net tab and hit the green button. Your page should go from this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;size-large wp-image-2611&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3-1024x708.png&#34; alt=&#34;Waiting for upload&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3-1024x708.png 1024w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;To a page that shows the image your camera uploaded.  Something like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2618&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success.png&#34; alt=&#34;Success!&#34; width=&#34;987&#34; height=&#34;793&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success.png 987w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success-300x241.png 300w&#34; sizes=&#34;(max-width: 987px) 100vw, 987px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Congratulations, now you’re done with the camera config. You’re camera is now on Sensr.net. We’ll archive all the motion events, giving you 30 days of archives, SMS and email alerts, guest access, and a whole lot more.  You can view the live stream on our website or in our apps.  No firewall configuration is needed.  No PC in the basement required.&lt;/p&gt;
+
+&lt;p&gt;If you have any problems, send email to info @ sensr.net and we’ll try to help you out!&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;div class=&#34;trackable_sharing&#34;&gt;
+  &lt;a href=&#34;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F23%2Fhow-to-setup-the-foscam-fi8919w-with-cloud-recording%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Facebook&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Facebook&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/23/how-to-setup-the-foscam-fi8919w-with-cloud-recording/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png&#34; alt=&#34;Facebook&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F23%2Fhow-to-setup-the-foscam-fi8919w-with-cloud-recording%2F&amp;text=How+to+Setup+the+Foscam+FI8919W+with+Cloud+Recording&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Twitter&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Twitter&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/23/how-to-setup-the-foscam-fi8919w-with-cloud-recording/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png&#34; alt=&#34;Twitter&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F23%2Fhow-to-setup-the-foscam-fi8919w-with-cloud-recording%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F23%2Fhow-to-setup-the-foscam-fi8919w-with-cloud-recording%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Reddit&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Reddit&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/23/how-to-setup-the-foscam-fi8919w-with-cloud-recording/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=700,height=500&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png&#34; alt=&#34;Reddit&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://digg.com/submit?partner=addthis&amp;url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F23%2Fhow-to-setup-the-foscam-fi8919w-with-cloud-recording%2F&amp;title=How+to+Setup+the+Foscam+FI8919W+with+Cloud+Recording&amp;bodytext=&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Digg&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Digg&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/23/how-to-setup-the-foscam-fi8919w-with-cloud-recording/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png&#34; alt=&#34;Digg&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F23%2Fhow-to-setup-the-foscam-fi8919w-with-cloud-recording%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F23%2Fhow-to-setup-the-foscam-fi8919w-with-cloud-recording%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Stumbleupon&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Stumbleupon&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/23/how-to-setup-the-foscam-fi8919w-with-cloud-recording/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png&#34; alt=&#34;Stumbleupon&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F23%2Fhow-to-setup-the-foscam-fi8919w-with-cloud-recording%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Email&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Email&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/23/how-to-setup-the-foscam-fi8919w-with-cloud-recording/&#39;]); &#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png&#34; alt=&#34;Email&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;[1]: &lt;a href=&#34;http://www.amazon.com/Foscam-FI8919W-Outdoor-Wireless-Camera/forum/Fx33WF23J8DE1GY/-/1/ref=cm_cd_dp_aar_ql?_encoding=UTF8&amp;amp;asin=B008O5BIWW&amp;amp;cdSort=best/sensr-20&#34;&gt;http://www.amazon.com/Foscam-FI8919W-Outdoor-Wireless-Camera/forum/Fx33WF23J8DE1GY/-/1/ref=cm_cd_dp_aar_ql?_encoding=UTF8&amp;amp;asin=B008O5BIWW&amp;amp;cdSort=best/sensr-20&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to Setup the Wansview NC541 and Record to the Cloud</title>
+      <link>https://sblog.sensr.net/2014/07/17/how-to-setup-the-wansview-nc541-and-record-to-the-cloud/</link>
+      <pubDate>Thu, 17 Jul 2014 20:39:26 +0000</pubDate>
+      
+      <guid>https://sblog.sensr.net/2014/07/17/how-to-setup-the-wansview-nc541-and-record-to-the-cloud/</guid>
+      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
+  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
+    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/17/how-to-setup-the-wansview-nc541-and-record-to-the-cloud/&#34; data-text=&#34;How to Setup the Wansview NC541 and Record to the Cloud&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
+  &lt;/div&gt;
+  
+
+&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2971&#34; style=&#34;width: 460px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/41O6pBStAbL._SX450_.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-2971&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/41O6pBStAbL._SX450_.jpg&#34; alt=&#34;Wansview NC541&#34; width=&#34;450&#34; height=&#34;348&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/41O6pBStAbL._SX450_.jpg 450w, http://sensr.net/blog/wp-content/uploads/2014/07/41O6pBStAbL._SX450_-300x232.jpg 300w&#34; sizes=&#34;(max-width: 450px) 100vw, 450px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Wansview NC541
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;[The Wainsview NC541][1] is a fairly popular camera on amazon. It has a whole slew of features and gets pretty favorable reviews from amazon so it is defiantly a competitive option. The largest complaint in the reviews is that setup is very difficult. We have puzzled through the process ourselves and put together this guide so you don&amp;#8217;t have to struggle. This camera is not ideal for use with Sensr.net as it does not support FTP streaming but it will still work with some Sensr.net features.&lt;/p&gt;
+
+&lt;p&gt;We have broken this tutorial up it to 3 easy steps to its easier to follow along.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Step one: Setup hardware and find camera IP&lt;/li&gt;
+&lt;li&gt;Step two: Get FTP credentials from Sensr.net&lt;/li&gt;
+&lt;li&gt;Step three: Tell your [Wainsview NC541][1] about your new credentials&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Step one: Setup hardware and find camera IP&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Setting up the hardware is pretty self explanatory. Just plug your camera into your router and a wall outlet. Please note that if you want to connect your camera to  the internet wirelessly you need to set up the camera with a wired connection first then switch it to wireless (I&amp;#8217;ll show you how to do this later). Next you need to find your camera&amp;#8217;s IP address.  You can do this a two ways, either by installing and running the software they include or by looking on your router’s network access window. I prefer going through my router because it saves time. Type the IP address of your router into your internet browser. If you don’t know the IP address to your router its pretty easy to find it. On my mac it is under system preferences&amp;gt;Network&amp;gt;Advanced…&amp;gt;TCP/IP. The page looks like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2597&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png&#34; alt=&#34;Router IP address shown on second line&#34; width=&#34;782&#34; height=&#34;694&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png 782w, http://sensr.net/blog/wp-content/uploads/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM-300x266.png 300w&#34; sizes=&#34;(max-width: 782px) 100vw, 782px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you have the IP address just enter it into your browser and it should bring you to a network access page. Everyone’s looks different depending on the make and model of their browser. Mine, for example, looks like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/netgear-attached-devices.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2599&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/netgear-attached-devices.png&#34; alt=&#34;My router&#39;s Network Access portal&#34; width=&#34;932&#34; height=&#34;780&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/netgear-attached-devices.png 932w, http://sensr.net/blog/wp-content/uploads/2013/12/netgear-attached-devices-300x251.png 300w&#34; sizes=&#34;(max-width: 932px) 100vw, 932px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you aren’t sure which device is new you can always unplug your camera then plug it back in to see which one disappears and comes back. Once you have your camera’s IP address just write it down, you’ll need it later. Now you are ready to setup stuff from the Sensr.net side of things.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step two: Get FTP credentials from Sensr.net&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We will store all your recorded data in the cloud so you can access it from any device, anywhere. We have a number of different plans but the first week is always free so just set it up and give it a try. If you don’t like it you don’t need to continue to a payed plan. Log into your Sensr.net account click the &lt;strong&gt;Add Camera&lt;/strong&gt; button. Once you login you’ll see a page like this: &lt;a style=&#34;color: #888888;&#34; href=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2714&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png&#34; alt=&#34;Add new camera page&#34; width=&#34;1003&#34; height=&#34;339&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png 1003w, http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera-300x101.png 300w&#34; sizes=&#34;(max-width: 1003px) 100vw, 1003px&#34; /&gt;&lt;/a&gt;Next you’ll see a page like this where you can set the timezone for your camera, give it a name, and tell us the model.  Cameras default to private but you can make them public if you want to share them with the world. &lt;a style=&#34;color: #888888;&#34; href=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2713&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details.png&#34; alt=&#34;Note this is for a different device&#34; width=&#34;999&#34; height=&#34;491&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details.png 999w, http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details-300x147.png 300w&#34; sizes=&#34;(max-width: 999px) 100vw, 999px&#34; /&gt;&lt;/a&gt;After that, we’ll generate some FTP credentials for your server. This generates a login for your  Hikvision to where it can upload images via FTP. This tells your camera where to upload the images. The important information here is:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;FTP Server&lt;/li&gt;
+&lt;li&gt;FTP User name&lt;/li&gt;
+&lt;li&gt;FTP Password&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Save these so we can add them to your camera later. &lt;a style=&#34;color: #888888;&#34; href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2607&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png&#34; alt=&#34;FTP credentials&#34; width=&#34;1141&#34; height=&#34;790&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png 1141w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-1024x708.png 1024w&#34; sizes=&#34;(max-width: 1141px) 100vw, 1141px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step three: Tell your camera about your new FTP credentials&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Now that you have the FTP credentials you need to let you camera know about them. Open a new tab in your browser and type in the camera IP address that you wrote down earlier. This should bring you to the camera&amp;#8217;s network access page. It will prompt you for a username and password. The defaults are admin and 123456. Make sure you change these later. At this point you should be prompted with a box asking you if you would like to connect to wifi. Go ahead and choose a wifi network if you want this camera connected to wifi. You will need to install a plug in before you can view the page but once you have installed the plug in and entered your password the page should look like this:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2972&#34; style=&#34;width: 568px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-17-at-4.26.47-PM.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2972&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-17-at-4.26.47-PM.png&#34; alt=&#34;Camera feed shown &#34; width=&#34;558&#34; height=&#34;438&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-17-at-4.26.47-PM.png 558w, http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-17-at-4.26.47-PM-300x235.png 300w&#34; sizes=&#34;(max-width: 558px) 100vw, 558px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Camera feed shown
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If you didn&amp;#8217;t set up wifi earlier you can do so by going to the network tab and do that anytime you like. Click on alarm then check the box Upload image to FTP. Then go to the FTP section and copy and paste your credentials in. Leave the port at 21 but change the mode to passive. This camera does not have an FTP streaming option, which is totally annoying so right now your camera will only upload when it detects motion or sound so that is a bit of a pain. I would check the upload image periodically box as well just to get more photos uploaded.  FTP settings is shown below:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2973&#34; style=&#34;width: 568px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-17-at-4.38.21-PM.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2973&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-17-at-4.38.21-PM.png&#34; alt=&#34;FTP settings&#34; width=&#34;558&#34; height=&#34;252&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-17-at-4.38.21-PM.png 558w, http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-17-at-4.38.21-PM-300x135.png 300w&#34; sizes=&#34;(max-width: 558px) 100vw, 558px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    FTP settings
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now that you’re on Sensr.net we’ll archive all the motion events, giving you 30 days of archives, SMS and email alerts, guest access, and a whole lot more.  You can view the live stream on our website or in our apps.&lt;/p&gt;
+
+&lt;p&gt;As always let me know if you have any questions. Shoot me an email at info@sensr.net or click the feedback button on the right of the page!&lt;/p&gt;
+
+&lt;div class=&#34;trackable_sharing&#34;&gt;
+  &lt;a href=&#34;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F17%2Fhow-to-setup-the-wansview-nc541-and-record-to-the-cloud%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Facebook&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Facebook&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/17/how-to-setup-the-wansview-nc541-and-record-to-the-cloud/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png&#34; alt=&#34;Facebook&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F17%2Fhow-to-setup-the-wansview-nc541-and-record-to-the-cloud%2F&amp;text=How+to+Setup+the+Wansview+NC541+and+Record+to+the+Cloud&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Twitter&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Twitter&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/17/how-to-setup-the-wansview-nc541-and-record-to-the-cloud/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png&#34; alt=&#34;Twitter&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F17%2Fhow-to-setup-the-wansview-nc541-and-record-to-the-cloud%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F17%2Fhow-to-setup-the-wansview-nc541-and-record-to-the-cloud%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Reddit&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Reddit&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/17/how-to-setup-the-wansview-nc541-and-record-to-the-cloud/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=700,height=500&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png&#34; alt=&#34;Reddit&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://digg.com/submit?partner=addthis&amp;url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F17%2Fhow-to-setup-the-wansview-nc541-and-record-to-the-cloud%2F&amp;title=How+to+Setup+the+Wansview+NC541+and+Record+to+the+Cloud&amp;bodytext=&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Digg&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Digg&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/17/how-to-setup-the-wansview-nc541-and-record-to-the-cloud/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png&#34; alt=&#34;Digg&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F17%2Fhow-to-setup-the-wansview-nc541-and-record-to-the-cloud%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F17%2Fhow-to-setup-the-wansview-nc541-and-record-to-the-cloud%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Stumbleupon&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Stumbleupon&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/17/how-to-setup-the-wansview-nc541-and-record-to-the-cloud/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png&#34; alt=&#34;Stumbleupon&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F17%2Fhow-to-setup-the-wansview-nc541-and-record-to-the-cloud%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Email&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Email&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/17/how-to-setup-the-wansview-nc541-and-record-to-the-cloud/&#39;]); &#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png&#34; alt=&#34;Email&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;[1]: &lt;a href=&#34;http://www.amazon.com/Wansview-Wireless-Surveillance-Microphone-monitoring/dp/B003JLPWAK/ref=sr_1_15?ie=UTF8&amp;amp;qid=1405625116&amp;amp;sr=8-15&amp;amp;keywords=IP+cam/sensr-20&#34;&gt;http://www.amazon.com/Wansview-Wireless-Surveillance-Microphone-monitoring/dp/B003JLPWAK/ref=sr_1_15?ie=UTF8&amp;amp;qid=1405625116&amp;amp;sr=8-15&amp;amp;keywords=IP+cam/sensr-20&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why You Should Change Your IP Camera’s Password</title>
+      <link>https://sblog.sensr.net/2014/07/11/why-you-should-change-your-ip-cameras-password/</link>
+      <pubDate>Fri, 11 Jul 2014 19:29:28 +0000</pubDate>
+      
+      <guid>https://sblog.sensr.net/2014/07/11/why-you-should-change-your-ip-cameras-password/</guid>
+      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
+  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
+    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/11/why-you-should-change-your-ip-cameras-password/&#34; data-text=&#34;Why You Should Change Your IP Camera&#39;s Password&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
+  &lt;/div&gt;
+  
+
+&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2933&#34; style=&#34;width: 285px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/images.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-2933&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/images.jpg&#34; alt=&#34;I&#39;ll be watching you&#34; width=&#34;275&#34; height=&#34;183&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Meet the Fockers
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Here is a &lt;a href=&#34;https://www.youtube.com/watch?v=CUx8_JNNKsM&#34; target=&#34;_blank&#34;&gt;video&lt;/a&gt; from youtube showing an IP camera get &amp;#8220;hacked&amp;#8221;. This user never changed his username and password from the default so some opportunistic fellow decided to play some mind games with the camera&amp;#8217;s owner. He used the camera&amp;#8217;s network access to play music through the camera and record the owner. THIS IS SUPER SCARY! let this be a warning to all of us who are too lazy to change passwords. After watching this video I changed my routers password and all my IP camera&amp;#8217;s passwords from their defaults. Luckily something like this would never happen to you on Sensr.net because we don&amp;#8217;t have default passwords and our site is incredibly secure.&lt;/p&gt;
+
+&lt;div class=&#34;trackable_sharing&#34;&gt;
+  &lt;a href=&#34;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F11%2Fwhy-you-should-change-your-ip-cameras-password%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Facebook&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Facebook&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/11/why-you-should-change-your-ip-cameras-password/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png&#34; alt=&#34;Facebook&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F11%2Fwhy-you-should-change-your-ip-cameras-password%2F&amp;text=Why+You+Should+Change+Your+IP+Camera%26%238217%3Bs+Password&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Twitter&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Twitter&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/11/why-you-should-change-your-ip-cameras-password/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png&#34; alt=&#34;Twitter&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F11%2Fwhy-you-should-change-your-ip-cameras-password%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F11%2Fwhy-you-should-change-your-ip-cameras-password%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Reddit&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Reddit&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/11/why-you-should-change-your-ip-cameras-password/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=700,height=500&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png&#34; alt=&#34;Reddit&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://digg.com/submit?partner=addthis&amp;url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F11%2Fwhy-you-should-change-your-ip-cameras-password%2F&amp;title=Why+You+Should+Change+Your+IP+Camera%26%238217%3Bs+Password&amp;bodytext=&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Digg&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Digg&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/11/why-you-should-change-your-ip-cameras-password/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png&#34; alt=&#34;Digg&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F11%2Fwhy-you-should-change-your-ip-cameras-password%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F11%2Fwhy-you-should-change-your-ip-cameras-password%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Stumbleupon&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Stumbleupon&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/11/why-you-should-change-your-ip-cameras-password/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png&#34; alt=&#34;Stumbleupon&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F11%2Fwhy-you-should-change-your-ip-cameras-password%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Email&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Email&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/11/why-you-should-change-your-ip-cameras-password/&#39;]); &#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png&#34; alt=&#34;Email&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to Setup the TENVIS IPROBOT3 with Cloud recording</title>
+      <link>https://sblog.sensr.net/2014/07/03/how-to-setup-the-tenvis-iprobot3-with-cloud-recording/</link>
+      <pubDate>Thu, 03 Jul 2014 17:22:11 +0000</pubDate>
+      
+      <guid>https://sblog.sensr.net/2014/07/03/how-to-setup-the-tenvis-iprobot3-with-cloud-recording/</guid>
+      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
+  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
+    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/03/how-to-setup-the-tenvis-iprobot3-with-cloud-recording/&#34; data-text=&#34;How to Setup the TENVIS IPROBOT3 with Cloud recording &#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
+  &lt;/div&gt;
+  
+
+&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2909&#34; style=&#34;width: 370px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/817nvhSq4OL._SL1500_.jpg&#34;&gt;&lt;img class=&#34; wp-image-2909&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/817nvhSq4OL._SL1500_.jpg&#34; alt=&#34;TENVIS IPROBOT3&#34; width=&#34;360&#34; height=&#34;360&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/817nvhSq4OL._SL1500_.jpg 1500w, http://sensr.net/blog/wp-content/uploads/2014/07/817nvhSq4OL._SL1500_-150x150.jpg 150w, http://sensr.net/blog/wp-content/uploads/2014/07/817nvhSq4OL._SL1500_-300x300.jpg 300w, http://sensr.net/blog/wp-content/uploads/2014/07/817nvhSq4OL._SL1500_-1024x1024.jpg 1024w&#34; sizes=&#34;(max-width: 360px) 100vw, 360px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    TENVIS IPROBOT3
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The &lt;a href=&#34;http://www.amazon.com/TENVIS-IPROBOT3-Wirelss-Network-Two-Way/dp/B00FWD090Q/ref=sr_1_4?s=security-surveillance&amp;amp;ie=UTF8&amp;amp;qid=1404404395&amp;amp;sr=1-4&amp;amp;keywords=ip+camera/sensr-20&#34;&gt;Tenvis IPROBOT3&lt;/a&gt; is another Tenvis IP camera that gets great reviews. This camera sells for about $80 bucks on amazon so it won&amp;#8217;t break the bank compared to other IP cameras (IP cameras can get really expensive). It also has a four and half star rating so users are clearly pretty happy with the product. The best part of the product, of course, is that it works perfectly with Sensr.net&amp;#8217;s cloud recording software!&lt;/p&gt;
+
+&lt;p&gt;Setting this up can be a little but of a pain but follow this tutorial and you&amp;#8217;ll be watching your stuff from anywhere in the world with Sensr.net in no time. The first step is to just get your Tenvis hooked up to the internet and to a power source. That&amp;#8217;s pretty self explanatory but getting hooked up to wifi can be hard. If you can&amp;#8217;t get hooked up to wifi just plug into ethernet, you can always use the network access page to get to wifi later.&lt;/p&gt;
+
+&lt;p&gt;Once you are on wifi just type your camera&amp;#8217;s IP address into your computer&amp;#8217;s internet browser and it will take you to the network access page. If you don&amp;#8217;t know how to find your camera&amp;#8217;s IP address just follow the steps in [this tutorial][2]. If the network access page asks you for a username and password the username is admin and there is no password. You should probably change those for obvious reasons. Once you get onto the access page it will look like this:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2910&#34; style=&#34;width: 560px&#34; class=&#34;wp-caption alignnone&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-03-at-12.49.45-PM.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2910&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-03-at-12.49.45-PM.png&#34; alt=&#34;Network access page &#34; width=&#34;550&#34; height=&#34;310&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-03-at-12.49.45-PM.png 550w, http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-03-at-12.49.45-PM-300x169.png 300w&#34; sizes=&#34;(max-width: 550px) 100vw, 550px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Network access page
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Once you get here you have full control over the camera. One weird and important thing to note is that you only get access to all of the camera&amp;#8217;s features if you use IE. I don&amp;#8217;t like IE because its IE and no one likes it so I just skipped those features. Once you&amp;#8217;ve gotten to the network access page you are ready to add a new camera on Sensr.net.&lt;/p&gt;
+
+&lt;p&gt;Simply log into your Sensr.net account click the &lt;strong&gt;Add Camera&lt;/strong&gt; button. Sensr.net has a free one week trial, so give it a go and see if it works for you.  (It’s free to setup an account with Sensr.net. Camera monitoring starts at $9.95/month after your free trial is up.)  Once you login you’ll see a page like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2714&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png&#34; alt=&#34;Add new camera page&#34; width=&#34;1003&#34; height=&#34;339&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png 1003w, http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera-300x101.png 300w&#34; sizes=&#34;(max-width: 1003px) 100vw, 1003px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2. Next you’ll see a page like this where you can set the timezone for your camera, give it a name, and tell us the model.  Cameras default to private but you can make them public if you want to share them with the world.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2713&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details.png&#34; alt=&#34;Note this is for a different device&#34; width=&#34;999&#34; height=&#34;491&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details.png 999w, http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details-300x147.png 300w&#34; sizes=&#34;(max-width: 999px) 100vw, 999px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;3.&lt;/p&gt;
+
+&lt;p&gt;After that, we’ll generate some FTP credentials for your server. This generates a login for your  &lt;a style=&#34;color: #888888;&#34; href=&#34;http://www.amazon.com/gp/product/B006I0KL6Y/ref=olp_product_details?ie=UTF8&amp;me=/sensr-20&#34;&gt;Tenvis JPT3815W&lt;/a&gt; to where it can upload images via FTP. This tells your camera where to upload the images. The important information here is:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;FTP Server&lt;/li&gt;
+&lt;li&gt;FTP User name&lt;/li&gt;
+&lt;li&gt;FTP Password&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Save these so we can add them to your camera later.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2607&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png&#34; alt=&#34;FTP credentials&#34; width=&#34;1141&#34; height=&#34;790&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png 1141w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-1024x708.png 1024w&#34; sizes=&#34;(max-width: 1141px) 100vw, 1141px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Now that you have your FTP credentials head back to the network access page. Click on the settings button and head over to FTP settings. The page should look like this:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2911&#34; style=&#34;width: 559px&#34; class=&#34;wp-caption alignnone&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-03-at-1.16.32-PM.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2911&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-03-at-1.16.32-PM.png&#34; alt=&#34;FTP settings page &#34; width=&#34;549&#34; height=&#34;204&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-03-at-1.16.32-PM.png 549w, http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-03-at-1.16.32-PM-300x111.png 300w&#34; sizes=&#34;(max-width: 549px) 100vw, 549px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    FTP settings page
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Copy and paste the credentials you got from Sensr.net into the fields here so you don&amp;#8217;t make any mistakes. Save that and go back to the main network access page. Change the video FPS to one. Boom! You&amp;#8217;ve just setup cloud recording. Go back to Sensr.net and your page should look like this:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2612&#34; style=&#34;width: 1151px&#34; class=&#34;wp-caption alignnone&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-done.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2612&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-done.png&#34; alt=&#34;Success!&#34; width=&#34;1141&#34; height=&#34;790&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-done.png 1141w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-done-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-done-1024x708.png 1024w&#34; sizes=&#34;(max-width: 1141px) 100vw, 1141px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Success!
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Now that you’re on Sensr.net we’ll archive all the motion events, giving you 30 days of archives, SMS and email alerts, guest access, and a whole lot more.  You can view the live stream on our website or in our apps.&lt;/p&gt;
+
+&lt;p&gt;As always let me know if you have any questions. Shoot me an email at info@sensr.net or click the feedback button on the right of the page!&lt;/p&gt;
+
+&lt;div class=&#34;trackable_sharing&#34;&gt;
+  &lt;a href=&#34;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F03%2Fhow-to-setup-the-tenvis-iprobot3-with-cloud-recording%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Facebook&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Facebook&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/03/how-to-setup-the-tenvis-iprobot3-with-cloud-recording/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png&#34; alt=&#34;Facebook&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F03%2Fhow-to-setup-the-tenvis-iprobot3-with-cloud-recording%2F&amp;text=How+to+Setup+the+TENVIS+IPROBOT3+with+Cloud+recording&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Twitter&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Twitter&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/03/how-to-setup-the-tenvis-iprobot3-with-cloud-recording/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png&#34; alt=&#34;Twitter&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F03%2Fhow-to-setup-the-tenvis-iprobot3-with-cloud-recording%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F03%2Fhow-to-setup-the-tenvis-iprobot3-with-cloud-recording%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Reddit&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Reddit&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/03/how-to-setup-the-tenvis-iprobot3-with-cloud-recording/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=700,height=500&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png&#34; alt=&#34;Reddit&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://digg.com/submit?partner=addthis&amp;url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F03%2Fhow-to-setup-the-tenvis-iprobot3-with-cloud-recording%2F&amp;title=How+to+Setup+the+TENVIS+IPROBOT3+with+Cloud+recording&amp;bodytext=&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Digg&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Digg&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/03/how-to-setup-the-tenvis-iprobot3-with-cloud-recording/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png&#34; alt=&#34;Digg&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F03%2Fhow-to-setup-the-tenvis-iprobot3-with-cloud-recording%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F03%2Fhow-to-setup-the-tenvis-iprobot3-with-cloud-recording%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Stumbleupon&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Stumbleupon&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/03/how-to-setup-the-tenvis-iprobot3-with-cloud-recording/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png&#34; alt=&#34;Stumbleupon&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F03%2Fhow-to-setup-the-tenvis-iprobot3-with-cloud-recording%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Email&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Email&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/03/how-to-setup-the-tenvis-iprobot3-with-cloud-recording/&#39;]); &#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png&#34; alt=&#34;Email&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;[2]: &lt;a href=&#34;http://sensr.net/blog/2014/07/01/how-to-setup-the-tenvis-jpt3815w/#more-2901&#34;&gt;http://sensr.net/blog/2014/07/01/how-to-setup-the-tenvis-jpt3815w/#more-2901&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to setup the Tenvis JPT3815W</title>
+      <link>https://sblog.sensr.net/2014/07/01/how-to-setup-the-tenvis-jpt3815w/</link>
+      <pubDate>Tue, 01 Jul 2014 18:18:32 +0000</pubDate>
+      
+      <guid>https://sblog.sensr.net/2014/07/01/how-to-setup-the-tenvis-jpt3815w/</guid>
+      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
+  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
+    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/01/how-to-setup-the-tenvis-jpt3815w/&#34; data-text=&#34;How to setup the Tenvis JPT3815W&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
+  &lt;/div&gt;
+  
+
+&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2902&#34; style=&#34;width: 428px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+  &lt;a href=&#34;http://www.amazon.com/gp/product/B006I0KL6Y/ref=olp_product_details?ie=UTF8&amp;me=/sensr-20&#34;&gt;&lt;img class=&#34; wp-image-2902&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/61w0ENL28uL._SL1500_.jpg&#34; alt=&#34;The TENVIS JPT3815W &#34; width=&#34;418&#34; height=&#34;418&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/61w0ENL28uL._SL1500_.jpg 1000w, http://sensr.net/blog/wp-content/uploads/2014/07/61w0ENL28uL._SL1500_-150x150.jpg 150w, http://sensr.net/blog/wp-content/uploads/2014/07/61w0ENL28uL._SL1500_-300x300.jpg 300w&#34; sizes=&#34;(max-width: 418px) 100vw, 418px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    The TENVIS JPT3815W
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The [Tenvis JPT3815W][1] is a great little IP camera with a ton of features that&amp;#8217;s prefect for cloud recording. Some people complain that the user interface for the Tenvis products isn&amp;#8217;t as sleek or easy to use as Foscam which may be true but it doesn&amp;#8217;t really matter if you are using Sensr.net because our interface is breath taking no matter what camera you use!&lt;/p&gt;
+
+&lt;p&gt;Setting up this camera won&amp;#8217;t be too difficult if you just follow these steps:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Get out your [Tenvis JPT3815W][1]  and connect it to the internet and a power source&lt;/li&gt;
+&lt;li&gt;Navigate to the camera&amp;#8217;s network access page and Log in&lt;/li&gt;
+&lt;li&gt;Go to Sensr.net and add a new camera&lt;/li&gt;
+&lt;li&gt;Go back to the camera&amp;#8217;s network access page and add your new FTP credentials.&lt;/li&gt;
+&lt;li&gt;Take a victory lap&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Take out your [Tenvis JPT3815W][1] and hook it up. I&amp;#8217;m going to assume you can do this without instruction but sometimes this stuff gets confusing (especially with wireless setup) so if you need any help just send an email to info@sensr.net and I will be sure to help you hook it up.&lt;/p&gt;
+
+&lt;p&gt;Once you&amp;#8217;ve got it hooked up you are going to need to find the IP address so you can get to the network access window. To do this you have to go your router&amp;#8217;s network access page by typing your routers IP address into your internet browser. On a mac you can find this information in system preferences.&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2903&#34; style=&#34;width: 678px&#34; class=&#34;wp-caption alignnone&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-01-at-1.56.24-PM.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2903&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-01-at-1.56.24-PM.png&#34; alt=&#34;My router&#39;s IP address shown on my mac&#34; width=&#34;668&#34; height=&#34;580&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-01-at-1.56.24-PM.png 668w, http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-01-at-1.56.24-PM-300x260.png 300w&#34; sizes=&#34;(max-width: 668px) 100vw, 668px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    My router&amp;#8217;s IP address shown on my mac
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Head to your router&amp;#8217;s network access page. When you plug in your camera look for the new IP address, your camera&amp;#8217;s IP address. Now that you have your camera&amp;#8217;s IP address the world is your oyster. Type it into your internet browser and the page will look like this:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2904&#34; style=&#34;width: 734px&#34; class=&#34;wp-caption alignnone&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-01-at-2.00.41-PM.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2904&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-01-at-2.00.41-PM.png&#34; alt=&#34;So much control&#34; width=&#34;724&#34; height=&#34;352&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-01-at-2.00.41-PM.png 724w, http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-01-at-2.00.41-PM-300x145.png 300w&#34; sizes=&#34;(max-width: 724px) 100vw, 724px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    So much control
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The default username is admin with no password. You should probably change that for obvious reasons. Now that you have signed in you are ready to move onto the Sensr.net part of the process!&lt;/p&gt;
+
+&lt;p&gt;Simply log into your Sensr.net account click the &lt;strong&gt;Add Camera&lt;/strong&gt; button. Sensr.net has a free one week trial, so give it a go and see if it works for you.  (It’s free to setup an account with Sensr.net. Camera monitoring starts at $9.95/month after your free trial is up.)  Once you login you’ll see a page like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&#34;color: #888888&#34; href=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2714&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png&#34; alt=&#34;Add new camera page&#34; width=&#34;1003&#34; height=&#34;339&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png 1003w, http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera-300x101.png 300w&#34; sizes=&#34;(max-width: 1003px) 100vw, 1003px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2. Next you’ll see a page like this where you can set the timezone for your camera, give it a name, and tell us the model.  Cameras default to private but you can make them public if you want to share them with the world.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&#34;color: #888888&#34; href=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2713&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details.png&#34; alt=&#34;Note this is for a different device&#34; width=&#34;999&#34; height=&#34;491&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details.png 999w, http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details-300x147.png 300w&#34; sizes=&#34;(max-width: 999px) 100vw, 999px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;3.&lt;/p&gt;
+
+&lt;p&gt;After that, we’ll generate some FTP credentials for your server. This generates a login for your  [Tenvis JPT3815W][1] to where it can upload images via FTP. This tells your camera where to upload the images. The important information here is:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;FTP Server&lt;/li&gt;
+&lt;li&gt;FTP User name&lt;/li&gt;
+&lt;li&gt;FTP Password&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Save these so we can add them to your camera later.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&#34;color: #888888&#34; href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2607&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png&#34; alt=&#34;FTP credentials&#34; width=&#34;1141&#34; height=&#34;790&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png 1141w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-1024x708.png 1024w&#34; sizes=&#34;(max-width: 1141px) 100vw, 1141px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Now go back to the camera&amp;#8217;s network access page (in the other tab) and get to the FTP setup page. Make sure you are logged on as an administrator or this setup is impossible. When you log in as the administrator on this camera there will be a navigation menu on the left with FTP services as an option. Click on that and it will take you here:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2905&#34; style=&#34;width: 702px&#34; class=&#34;wp-caption alignnone&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-01-at-2.08.21-PM.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2905&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-01-at-2.08.21-PM.png&#34; alt=&#34;FTP controls &#34; width=&#34;692&#34; height=&#34;458&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-01-at-2.08.21-PM.png 692w, http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-01-at-2.08.21-PM-300x198.png 300w&#34; sizes=&#34;(max-width: 692px) 100vw, 692px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    FTP controls
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Copy and paste the FTP server, username, and password you got from earlier from Sensr.net. Make sure the port is set to 21, mode is set to passive, and have the intervals set to 1. Once you&amp;#8217;ve got those entered in you should be uploading to Sensr.net. Go back to the Sensr.net tab and click next step. Your page should look like this:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2612&#34; style=&#34;width: 1151px&#34; class=&#34;wp-caption alignnone&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-done.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2612&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-done.png&#34; alt=&#34;Success!&#34; width=&#34;1141&#34; height=&#34;790&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-done.png 1141w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-done-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-done-1024x708.png 1024w&#34; sizes=&#34;(max-width: 1141px) 100vw, 1141px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Success!
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now take that victory lap. You&amp;#8217;ve earned it. Tell everyone you know your tech savy and have automated your home.&lt;/p&gt;
+
+&lt;p&gt;Now that you&amp;#8217;re on Sensr.net we’ll archive all the motion events, giving you 30 days of archives, SMS and email alerts, guest access, and a whole lot more.  You can view the live stream on our website or in our apps.&lt;/p&gt;
+
+&lt;p&gt;As always let me know if you have any questions. Shoot me an email at info@sensr.net or click the feedback button on the right of the page!&lt;/p&gt;
+
+&lt;div class=&#34;trackable_sharing&#34;&gt;
+  &lt;a href=&#34;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F01%2Fhow-to-setup-the-tenvis-jpt3815w%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Facebook&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Facebook&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/01/how-to-setup-the-tenvis-jpt3815w/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png&#34; alt=&#34;Facebook&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F01%2Fhow-to-setup-the-tenvis-jpt3815w%2F&amp;text=How+to+setup+the+Tenvis+JPT3815W&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Twitter&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Twitter&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/01/how-to-setup-the-tenvis-jpt3815w/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png&#34; alt=&#34;Twitter&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F01%2Fhow-to-setup-the-tenvis-jpt3815w%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F01%2Fhow-to-setup-the-tenvis-jpt3815w%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Reddit&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Reddit&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/01/how-to-setup-the-tenvis-jpt3815w/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=700,height=500&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png&#34; alt=&#34;Reddit&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://digg.com/submit?partner=addthis&amp;url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F01%2Fhow-to-setup-the-tenvis-jpt3815w%2F&amp;title=How+to+setup+the+Tenvis+JPT3815W&amp;bodytext=&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Digg&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Digg&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/01/how-to-setup-the-tenvis-jpt3815w/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png&#34; alt=&#34;Digg&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F01%2Fhow-to-setup-the-tenvis-jpt3815w%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F01%2Fhow-to-setup-the-tenvis-jpt3815w%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Stumbleupon&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Stumbleupon&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/01/how-to-setup-the-tenvis-jpt3815w/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png&#34; alt=&#34;Stumbleupon&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F01%2Fhow-to-setup-the-tenvis-jpt3815w%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Email&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Email&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/01/how-to-setup-the-tenvis-jpt3815w/&#39;]); &#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png&#34; alt=&#34;Email&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;[1]: &lt;a href=&#34;http://www.amazon.com/gp/product/B006I0KL6Y/ref=olp_product_details?ie=UTF8&amp;amp;me=/sensr-20&#34;&gt;http://www.amazon.com/gp/product/B006I0KL6Y/ref=olp_product_details?ie=UTF8&amp;amp;me=/sensr-20&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

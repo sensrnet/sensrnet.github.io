@@ -1,0 +1,214 @@
+<!DOCTYPE html> 
+<head>
+<title>Configure Foscam FI8905W for Sensr.net FTP</title>	
+<link rel="stylesheet" type="text/css" media="all" href="/css/style.css">
+<link href="/img/sensr-favicon.png" rel="icon" type="image/png">
+</head>
+
+<body>
+<div id="header">
+  <div id="masthead">
+    <div id="branding" role="banner">
+	  <h1 id="site-title">
+        <span><a href="/" title="Sensr.net Blog" rel="home">Sensr.net Blog</a></span>
+      </h1>
+	  <div id="site-description">Watch your Stuff!</div>
+	</div>
+	<div id="access" role="navigation">
+	  <div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+	  <div class="menu-header">
+		  <ul id="menu-menu-test" class="menu">
+			  <li id="menu-item-124" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-124"><a href="http://sensr.net/">Home</a></li>
+			  <li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125"><a href="/archives/">Archives</a></li>
+			  <li id="menu-item-126" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-126"><a href="http://sensr.net/about">About</a></li>
+			  <li id="menu-item-127" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-127"><a href="http://sensr.net/faq">FAQ</a></li>
+		  </ul>
+	  </div>			
+    </div>
+  </div>
+  <div id="sensr_banner"></div>
+</div>
+<div id="main">
+
+  <h1>Configure Foscam FI8905W for Sensr.net FTP</h1>
+  <h2>Sun, Feb 20, 2011</h2>
+  <div class="share_buttons_simple_use_buttons" style="padding: 10px 0; display: inline-block">
+  <div class="tweet_button" style="float: left; vertical-align: top">
+    <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/19/configure-foscam-fi8905w-for-sensr-net-ftp/" data-text="Configure Foscam FI8905W for Sensr.net FTP" data-count="none">Tweet</a>
+  </div>
+  
+
+<p><div class="facebook_like_button" style="float: left; vertical-align: top; margin-left: 10px; max-width: 255px">
+  </div>
+</div></p>
+
+<div class="separator" style="clear: both; text-align: center;">
+  <a style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" href="http://www.amazon.com/gp/product/B003YUEF0E?ie=UTF8&tag=sensr-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B003YUEF0E"><img class="alignleft" style="border: 0pt none;" title="Foscam FI8905W on Sensr.net" src="http://ecx.images-amazon.com/images/I/417HbyuzGLL._SL500_AA300_.jpg" border="0" alt="Foscam FI8905W on Sensr.net via Amazon" width="200" height="200" /></a>
+</div>
+
+<p>The <a href="http://www.amazon.com/gp/product/B003YUEF0E?ie=UTF8&amp;tag=sensr-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B003YUEF0E">Foscam FI8905W</a> is a funky looking IP camera that lists for around $100 on <a href="http://www.amazon.com/gp/product/B003YUEF0E?ie=UTF8&amp;tag=sensr-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B003YUEF0E">Amazon</a> these days.  It&#8217;s one of the cheapest outdoor cameras around.  Frankly it&#8217;s pretty amazing that you can get WiFi and night vision and weatherproof for this price.</p>
+
+<p>As with most of these cameras, you can set them up without installing the software that comes with the camera.  I&#8217;m going to show you how to configure the camera without the software and also set it up to use the [sensr.net][2] site, so you can take advantage of all the cool sensr.net features like archiving, sharing, and alerting that our site provides.</p>
+
+<p><a name="more"></a></p>
+
+<p><strong>Overview</strong></p>
+
+<ol>
+<li>Connect the camera to power and ethernet</li>
+<li>Go to your router and find the IP address of the camera</li>
+<li>Point your browser at the camera&#8217;s IP address and configure it</li>
+<li>Tell Sensr.net about your camera</li>
+<li>Tell your camera about Sensr.net</li>
+</ol>
+
+<p><strong>Details</strong></p>
+
+<p>As with most netcams, you need to connect the camera to your network.  This model Foscam supports both wired and wireless connections.  Before you can use the wireless connection, you need to first configure the camera over the wired connection.</p>
+
+<p>For <strong>Step 1</strong>, make sure your camera is plugged directly into an ethernet port on your router and make sure the camera&#8217;s power is turned on.  The Foscam does a neat little dance when you plug in the power so sit back and enjoy.</p>
+
+<p><strong>Step 2</strong> means you&#8217;re going to need to know how to log into your router.  You can find this from your computer&#8217;s settings.  On a Mac you go to Network Settings &gt; Advanced &gt; TCP/IP.  For my computer it looks like this:</p>
+
+<div style="width: 330px" class="wp-caption aligncenter">
+  <a href="http://3.bp.blogspot.com/_yVvkcbKGc_g/TVGXBkgIWqI/AAAAAAAACW0/e-It-176Hgc/s1600/networksettingsmac.png"><img title="Network Settings Control Panel" src="http://3.bp.blogspot.com/_yVvkcbKGc_g/TVGXBkgIWqI/AAAAAAAACW0/e-It-176Hgc/s320/networksettingsmac.png" alt="Network Settings Control Panel" width="320" height="250" /></a>
+  
+  <p class="wp-caption-text">
+    Network Settings Control Panel
+  </p>
+</div>
+
+<p>This means my network router is at the IP address 10.1.10.1.  A more common setting is 192.168.1.1.  Once you find this, you can go to your browser and log into your router&#8217;s web page.  For me this is <a href="http://10.1.10.1">http://10.1.10.1</a> but you should use the router setting from your control panel.  You will probably need to log into your router with a user name and password.  Routers differ widely.</p>
+
+<p>Once you log into your router, look for a page that shows the attached devices.  Here&#8217;s what that page looks like on my router.</p>
+
+<div style="width: 330px" class="wp-caption aligncenter">
+  <a href="http://4.bp.blogspot.com/_yVvkcbKGc_g/TVGYLEsbfYI/AAAAAAAACW8/e21Wt-fIQVI/s1600/routeripinfo.png"><img title="Attached Devices Page with MAC address highlighted" src="http://4.bp.blogspot.com/_yVvkcbKGc_g/TVGYLEsbfYI/AAAAAAAACW8/e21Wt-fIQVI/s320/routeripinfo.png" alt="Attached Devices Page with MAC address highlighted" width="320" height="286" /></a>
+  
+  <p class="wp-caption-text">
+    Attached Devices Page with MAC address highlighted.
+  </p>
+</div>
+
+<p>You can see from the above page that there are no devices named Foscam.  We&#8217;re trying to find the IP address for your camera.  The easiest way to do that is to look for the MAC address on the bottom of the camera.  For my Foscam the MAC address is 00:0d:c5:d1:70:20.  This tells me the local IP address for my Foscam is 10.1.10.31.  Once you find the IP address for your camera, simply point your browser to that address, <a href="http://10.1.10.31">http://10.1.10.31</a> (in my case) and configure your camera.  You&#8217;ll need to log in with the user name &#8220;admin&#8221; and leave the password blank.  (This is also indicated on the bottom of your Foscam.)  You should see a page like this:</p>
+
+<div style="width: 330px" class="wp-caption aligncenter">
+  <a href="http://3.bp.blogspot.com/-_5iqCdumL2I/TWBt5-5JlhI/AAAAAAAACZw/HbzAYneIJQ0/s1600/Screen+shot+2011-02-19+at+5.15.17+PM.png"><img title="Foscam FI8905W Admin Page" src="http://3.bp.blogspot.com/-_5iqCdumL2I/TWBt5-5JlhI/AAAAAAAACZw/HbzAYneIJQ0/s320/Screen+shot+2011-02-19+at+5.15.17+PM.png" alt="Foscam FI8905W Admin Page" width="320" height="250" /></a>
+  
+  <p class="wp-caption-text">
+    Foscam FI8905W Admin Page
+  </p>
+</div>
+
+<p>Now you can change your camera&#8217;s configuration through your browser.  You don&#8217;t need to do anything else if you just want to view the camera from inside your home.  However, if you want to view it from outside, you can setup the camera to work with sensr.net.  (There are other configs like wireless and image size, all of which you can get to through the web interface, I&#8217;m not going to cover them here.)</p>
+
+<p><strong>Add a New Camera to your Sensr.net Account</strong></p>
+
+<p>Login to Sensr.net using your Facebook user name and password.  Select the &#8220;add a camera&#8221; link link at the top of the page next to your picture.</p>
+
+<div style="width: 330px" class="wp-caption aligncenter">
+  <a href="http://3.bp.blogspot.com/_yVvkcbKGc_g/TUhhVeaxr7I/AAAAAAAACV4/Jxk5j-p1SKk/s1600/Screen+shot+2011-02-01+at+11.32.09+AM.png"><img title="Click 'add a camera' to get started with Sensr" src="http://3.bp.blogspot.com/_yVvkcbKGc_g/TUhhVeaxr7I/AAAAAAAACV4/Jxk5j-p1SKk/s320/Screen+shot+2011-02-01+at+11.32.09+AM.png" alt="Click 'add a camera' to get started with Sensr" width="320" height="263" /></a>
+  
+  <p class="wp-caption-text">
+    Click 'add a camera' to get started with Sensr.net
+  </p>
+</div>
+
+<div style="margin: 0px; text-align: left;">
+  <p>
+    You should then see this page where you can read more about cameras or if you&#8217;re ready to add your camera to Sensr.net, then click the &#8220;add a camera&#8221; button.
+  </p>
+  
+  <div style="width: 330px" class="wp-caption aligncenter">
+    <a href="http://1.bp.blogspot.com/_yVvkcbKGc_g/TVGfePHTPDI/AAAAAAAACXI/vjpckBjy8wI/s1600/sensradd.png"><img title="Sensr.net Add a camera page." src="http://1.bp.blogspot.com/_yVvkcbKGc_g/TVGfePHTPDI/AAAAAAAACXI/vjpckBjy8wI/s320/sensradd.png" alt="Sensr.net Add a camera page." width="320" height="203" /></a>
+    
+    <p class="wp-caption-text">
+      Add a camera page.
+    </p>
+  </div>
+  
+
+<p><p>
+    Next you&#8217;ll see this page, which allows you to name your camera and set it&#8217;s timezone.  It also gives you the FTP credentials for your Foscam.
+  </p></p>
+
+<p><div style="width: 410px" class="wp-caption aligncenter">
+    <a href="http://4.bp.blogspot.com/_yVvkcbKGc_g/TVGgUQAE8iI/AAAAAAAACXM/p6DF2JJ6mFA/s1600/sesnraddname.png"><img title="Camera credentials and image scanner." src="http://4.bp.blogspot.com/_yVvkcbKGc_g/TVGgUQAE8iI/AAAAAAAACXM/p6DF2JJ6mFA/s400/sesnraddname.png" alt="Camera credentials and image scanner." width="400" height="254" /></a></p>
+
+<pre><code>&lt;p class=&quot;wp-caption-text&quot;&gt;
+  Camera credentials and image scanner.
+&lt;/p&gt;
+</code></pre>
+
+<p></div></p>
+
+<p><p>
+    The above page will continue to scan for images on the Sensr.net server.  Leave that window open and go to your Foscam configuration page in a new browser window.  For the Foscam it looks like this:
+  </p></p>
+
+<p><div style="width: 410px" class="wp-caption aligncenter">
+    <a href="http://1.bp.blogspot.com/_yVvkcbKGc_g/TVGiCvcufiI/AAAAAAAACXc/hBI-t3aNkMs/s1600/foscamftp.png"><img title="Foscam FTP settings." src="http://1.bp.blogspot.com/_yVvkcbKGc_g/TVGiCvcufiI/AAAAAAAACXc/hBI-t3aNkMs/s400/foscamftp.png" alt="Foscam FTP settings." width="400" height="300" /></a></p>
+
+<pre><code>&lt;p class=&quot;wp-caption-text&quot;&gt;
+  Foscam FTP settings.
+&lt;/p&gt;
+</code></pre>
+
+<p></div></p>
+
+<p><p>
+    In the above page, copy the server, user, and password from the Sensr.net site.  Make sure to select PASV mode.  Once this is done, select the Uplaod Now box and set the upload interval to 1.  After you do this, the Foscam should start uploading images to Sensr.net every second.
+  </p></p>
+
+<p><p>
+    If you go back to the previous Sensr.net page, you should see an image from your camera.  It should look something like this:
+  </p></p>
+
+<p><div style="width: 410px" class="wp-caption aligncenter">
+    <a href="http://3.bp.blogspot.com/_yVvkcbKGc_g/TVGid4uibnI/AAAAAAAACXg/wo1AJ7gfaCs/s1600/sensrsuccess.png"><img title="Sensr.net Success!" src="http://3.bp.blogspot.com/_yVvkcbKGc_g/TVGid4uibnI/AAAAAAAACXg/wo1AJ7gfaCs/s400/sensrsuccess.png" alt="Sensr.net Success!" width="400" height="254" /></a></p>
+
+<pre><code>&lt;p class=&quot;wp-caption-text&quot;&gt;
+  Success!
+&lt;/p&gt;
+</code></pre>
+
+<p></div></p>
+
+<p><p>
+    At this point you are done. You can close the browser window pointed at your camera and go back to Sensr.net. Click on the &#8220;Take Me To My Camera&#8221; button to see the Gallery view of images coming from your camera.
+  </p></p>
+
+<p><p>
+    Now you can share your camera and its images with your friends on Facebook, Twitter, and YouTube.
+  </p></p>
+
+<p><p>
+    Have fun!
+  </p>
+</div></p>
+
+<div class="trackable_sharing">
+  <a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F19%2Fconfigure-foscam-fi8905w-for-sensr-net-ftp%2F" style="text-decoration: none; white-space: nowrap;" title="Facebook" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Facebook','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/19/configure-foscam-fi8905w-for-sensr-net-ftp/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png" alt="Facebook" width="0" height="0" /></a> <a href="http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F19%2Fconfigure-foscam-fi8905w-for-sensr-net-ftp%2F&text=Configure+Foscam+FI8905W+for+Sensr.net+FTP" style="text-decoration: none; white-space: nowrap;" title="Twitter" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Twitter','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/19/configure-foscam-fi8905w-for-sensr-net-ftp/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png" alt="Twitter" width="0" height="0" /></a> <a href="http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F19%2Fconfigure-foscam-fi8905w-for-sensr-net-ftp%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F19%2Fconfigure-foscam-fi8905w-for-sensr-net-ftp%2F" style="text-decoration: none; white-space: nowrap;" title="Reddit" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Reddit','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/19/configure-foscam-fi8905w-for-sensr-net-ftp/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=700,height=500'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png" alt="Reddit" width="0" height="0" /></a> <a href="http://digg.com/submit?partner=addthis&url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F19%2Fconfigure-foscam-fi8905w-for-sensr-net-ftp%2F&title=Configure+Foscam+FI8905W+for+Sensr.net+FTP&bodytext=" style="text-decoration: none; white-space: nowrap;" title="Digg" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Digg','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/19/configure-foscam-fi8905w-for-sensr-net-ftp/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png" alt="Digg" width="0" height="0" /></a> <a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F19%2Fconfigure-foscam-fi8905w-for-sensr-net-ftp%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F19%2Fconfigure-foscam-fi8905w-for-sensr-net-ftp%2F" style="text-decoration: none; white-space: nowrap;" title="Stumbleupon" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Stumbleupon','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/19/configure-foscam-fi8905w-for-sensr-net-ftp/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png" alt="Stumbleupon" width="0" height="0" /></a> <a href="mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F19%2Fconfigure-foscam-fi8905w-for-sensr-net-ftp%2F" style="text-decoration: none; white-space: nowrap;" title="Email" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Email','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/19/configure-foscam-fi8905w-for-sensr-net-ftp/']); "><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png" alt="Email" width="0" height="0" /></a>
+</div>
+
+<p>[2]: <a href="http://sensr.net/">http://sensr.net/</a></p>
+
+  
+
+<div id="footer" role="contentinfo">
+	<div id="colophon">
+		<div id="site-info">
+			<ul id="copyright">
+				<li class="company-name">
+					<em>Sensr.net, Inc. © 2009-2016</em>
+				</li>
+				<li class="company-networks">Follow us on <a id="icon-twitter" href="http://www.twitter.com/sensr" target="_blank" title="Follow Sensr on Twitter" name="icon-twitter">Twitter</a> <a id="icon-facebook" href="http://www.facebook.com/sensrnet" target="_blank" title="Like Sensr on Facebook" name="icon-facebook">Facebook</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+	</body>
+</html>
+

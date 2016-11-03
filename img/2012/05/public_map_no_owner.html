@@ -1,0 +1,555 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="noindex">
+  <title>Sensr.Net Public Cameras</title>
+  <script src="http://mapquestapi.com/sdk/js/v6.0.0/mqa.toolkit.js?key=Fmjtd%7Cluu22q6yn5%2Cra%3Do5-h620d"></script>
+
+<script type="text/javascript">
+  MQA.EventUtil.observe(window, 'load', function() {
+
+    window.map = new MQA.TileMap(
+      document.getElementById('map'),
+      1,
+      {lat:0.0, lng:0.0},
+      'map');
+
+    MQA.withModule('zoomcontrol3', function() {
+      map.addControl(
+        new MQA.LargeZoomControl3(),
+        new MQA.MapCornerPlacement(MQA.MapCorner.TOP_LEFT)
+      );
+
+      var cam_0 = new MQA.Poi({lat:37.5081, lng:-122.301});
+      cam_0.setInfoTitleHTML('Belmont, CA, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/32">cam32</a> active<br>Name: Rat Cam<br>Description: Trying to catch critters of the night.');
+      map.addShape(cam_0);
+
+      var cam_1 = new MQA.Poi({lat:15.5, lng:-90.25});
+      cam_1.setInfoTitleHTML('GT<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/16789">cam16789</a> active<br>Name: Carretera a el Salvador 2');
+      map.addShape(cam_1);
+
+      var cam_2 = new MQA.Poi({lat:51.5002, lng:-0.1262});
+      cam_2.setInfoTitleHTML('London, GB<br>Count: 2<br><hr>Camera: <a href="https://sensr.net/cameras/5095">cam5095</a> inactive<br>Name: North Weald Airfield<br><hr>Camera: <a href="https://sensr.net/cameras/10647">cam10647</a> inactive<br>Name: plaztikman&apos;s Camera');
+      map.addShape(cam_2);
+
+      var cam_3 = new MQA.Poi({lat:10.1806, lng:-68.0039});
+      cam_3.setInfoTitleHTML('Valencia, VE<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/14270">cam14270</a> inactive<br>Name: SALA');
+      map.addShape(cam_3);
+
+      var cam_4 = new MQA.Poi({lat:-37.8167, lng:144.967});
+      cam_4.setInfoTitleHTML('Melbourne, AU<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/10555">cam10555</a> active<br>Name: Railpage Australia - Bunbury Street RailCam 1<br>Description: This camera is located on the exit to the Bunbury Street Rail Tunnel in Melbourne Australia.  http://www.railpage.com.au');
+      map.addShape(cam_4);
+
+      var cam_5 = new MQA.Poi({lat:54, lng:-2});
+      cam_5.setInfoTitleHTML('GB<br>Count: 4<br><hr>Camera: <a href="https://sensr.net/cameras/8668">cam8668</a> active<br>Name: Prestwich Webcam<br>Description: Live from Prestwich http://bleasdale.info/pwch/links.htm<br><hr>Camera: <a href="https://sensr.net/cameras/10494">cam10494</a> active<br>Name: Wales Entrance Camera<br><hr>Camera: <a href="https://sensr.net/cameras/10497">cam10497</a> active<br>Name: Chicken Cam<br>Description: Sam on the Chickens roof<br><hr>Camera: <a href="https://sensr.net/cameras/17019">cam17019</a> active<br>Name: Raystede Webcam');
+      map.addShape(cam_5);
+
+      var cam_6 = new MQA.Poi({lat:40.3333, lng:15.65});
+      cam_6.setInfoTitleHTML('Padula, IT<br>Count: 2<br><hr>Camera: <a href="https://sensr.net/cameras/7781">cam7781</a> active<br>Name: Piazzale lato cancello<br>Description: JKJ S.r.l.<br><hr>Camera: <a href="https://sensr.net/cameras/7801">cam7801</a> active<br>Name: Piazzale<br>Description: JKJ S.r.l.');
+      map.addShape(cam_6);
+
+      var cam_7 = new MQA.Poi({lat:44.0033, lng:-72.1619});
+      cam_7.setInfoTitleHTML('Bradford, VT, US<br>Count: 3<br><hr>Camera: <a href="https://sensr.net/cameras/15004">cam15004</a> active<br>Name: KCDA Camera<br>Description: CDA Office<br><hr>Camera: <a href="https://sensr.net/cameras/16431">cam16431</a> active<br>Name: vpa&apos;s Camera<br><hr>Camera: <a href="https://sensr.net/cameras/16428">cam16428</a> active<br>Name: CDA Parking Lot');
+      map.addShape(cam_7);
+
+      var cam_8 = new MQA.Poi({lat:19.4601, lng:-155.025});
+      cam_8.setInfoTitleHTML('Pahoa, HI, US<br>Count: 2<br><hr>Camera: <a href="https://sensr.net/cameras/13914">cam13914</a> active<br>Name: Aiden Cam<br><hr>Camera: <a href="https://sensr.net/cameras/13213">cam13213</a> active<br>Name: AllieCam');
+      map.addShape(cam_8);
+
+      var cam_9 = new MQA.Poi({lat:34.0416, lng:-118.299});
+      cam_9.setInfoTitleHTML('Los Angeles, CA, US<br>Count: 2<br><hr>Camera: <a href="https://sensr.net/cameras/8595">cam8595</a> active<br>Name: HersHey-StitcheZ FrenCHie CaM<br>Description: keeping an eye on our Frenchie puppy<br><hr>Camera: <a href="https://sensr.net/cameras/11492">cam11492</a> inactive<br>Name: ParduchoTelecamera');
+      map.addShape(cam_9);
+
+      var cam_10 = new MQA.Poi({lat:35.3798, lng:-97.7598});
+      cam_10.setInfoTitleHTML('Mustang, OK, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/11071">cam11071</a> active<br>Name: Oklahoma USA - Motion Triggered');
+      map.addShape(cam_10);
+
+      var cam_11 = new MQA.Poi({lat:-34, lng:-64});
+      cam_11.setInfoTitleHTML('AR<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/18057">cam18057</a> inactive<br>Name: Mirolo2');
+      map.addShape(cam_11);
+
+      var cam_12 = new MQA.Poi({lat:43.6833, lng:-79.7667});
+      cam_12.setInfoTitleHTML('Brampton, ON, CA<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/14495">cam14495</a> active<br>Name: erelfarms&apos;s Camera');
+      map.addShape(cam_12);
+
+      var cam_13 = new MQA.Poi({lat:36.4617, lng:-80.6191});
+      cam_13.setInfoTitleHTML('Mount Airy, NC, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/8617">cam8617</a> inactive<br>Name: Downtown Cherokee NC');
+      map.addShape(cam_13);
+
+      var cam_14 = new MQA.Poi({lat:49.7333, lng:16.85});
+      cam_14.setInfoTitleHTML('Veselí, CZ<br>Count: 2<br><hr>Camera: <a href="https://sensr.net/cameras/9342">cam9342</a> inactive<br>Name: ladakoca&apos;s Camera<br>Description: pellet boiler control<br><hr>Camera: <a href="https://sensr.net/cameras/7441">cam7441</a> active<br>Name: ladakoca&apos;s Camera on garden');
+      map.addShape(cam_14);
+
+      var cam_15 = new MQA.Poi({lat:42.018, lng:-97.4543});
+      cam_15.setInfoTitleHTML('Norfolk, NE, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/17742">cam17742</a> active<br>Name: Tess&apos;s Puppy Camera');
+      map.addShape(cam_15);
+
+      var cam_16 = new MQA.Poi({lat:1.3667, lng:103.8});
+      cam_16.setInfoTitleHTML('SG<br>Count: 4<br><hr>Camera: <a href="https://sensr.net/cameras/3976">cam3976</a> active<br>Name: Paw Camera<br><hr>Camera: <a href="https://sensr.net/cameras/13998">cam13998</a> active<br>Name: paw-yan&apos;s Camera<br>Description: left-front<br><hr>Camera: <a href="https://sensr.net/cameras/13999">cam13999</a> active<br>Name: paw-yan&apos;s Camera<br><hr>Camera: <a href="https://sensr.net/cameras/4069">cam4069</a> active<br>Name: Passage<br>Description: paw- kitchen');
+      map.addShape(cam_16);
+
+      var cam_17 = new MQA.Poi({lat:41.0917, lng:-73.4316});
+      cam_17.setInfoTitleHTML('Norwalk, CT, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/1463">cam1463</a> active<br>Name: ticketpro-dot-com<br>Description: TicketPro.com Norwalk, CT');
+      map.addShape(cam_17);
+
+      var cam_18 = new MQA.Poi({lat:27.7788, lng:-82.6823});
+      cam_18.setInfoTitleHTML('Saint Petersburg, FL, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/15245">cam15245</a> inactive<br>Name: The Beach Drive Inn');
+      map.addShape(cam_18);
+
+      var cam_19 = new MQA.Poi({lat:30.6262, lng:-97.1648});
+      cam_19.setInfoTitleHTML('Thorndale, TX, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/567">cam567</a> active<br>Name: EagleEye Deer Cams 2<br>Description: High Fence Ranch');
+      map.addShape(cam_19);
+
+      var cam_20 = new MQA.Poi({lat:38.8522, lng:-105.318});
+      cam_20.setInfoTitleHTML('Florissant, CO, US<br>Count: 2<br><hr>Camera: <a href="https://sensr.net/cameras/11066">cam11066</a> active<br>Name: La Veta Rear Camera<br>Description: Camera near La Veta, Colorado looking for wildlife in the backyard.<br><hr>Camera: <a href="https://sensr.net/cameras/11068">cam11068</a> active<br>Name: La Veta Front Cam<br>Description: Camera looking up the Huajatola Valley to West Peak near La Veta, Colorado');
+      map.addShape(cam_20);
+
+      var cam_21 = new MQA.Poi({lat:44.0744, lng:-121.257});
+      cam_21.setInfoTitleHTML('Bend, OR, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/14234">cam14234</a> active<br>Name: BarnHaus Camera');
+      map.addShape(cam_21);
+
+      var cam_22 = new MQA.Poi({lat:39.004, lng:-77.3031});
+      cam_22.setInfoTitleHTML('Great Falls, VA, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/2347">cam2347</a> inactive<br>Name: Electronics Workbench');
+      map.addShape(cam_22);
+
+      var cam_23 = new MQA.Poi({lat:35.1025, lng:-106.612});
+      cam_23.setInfoTitleHTML('Albuquerque, NM, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/15764">cam15764</a> active<br>Name: BK backyard ');
+      map.addShape(cam_23);
+
+      var cam_24 = new MQA.Poi({lat:37.7645, lng:-122.429});
+      cam_24.setInfoTitleHTML('San Francisco, CA, US<br>Count: 3<br><hr>Camera: <a href="https://sensr.net/cameras/128">cam128</a> inactive<br>Name: Mansfield<br>Description: Front Window<br><hr>Camera: <a href="https://sensr.net/cameras/453">cam453</a> active<br>Name: Sunfire Offices<br>Description: The kitchen at Sunfire.<br><hr>Camera: <a href="https://sensr.net/cameras/13436">cam13436</a> active<br>Name: Sunfire Office Door');
+      map.addShape(cam_24);
+
+      var cam_25 = new MQA.Poi({lat:-19.9167, lng:-43.9333});
+      cam_25.setInfoTitleHTML('Belo Horizonte, BR<br>Count: 2<br><hr>Camera: <a href="https://sensr.net/cameras/6815">cam6815</a> active<br>Name: Emporio Giardino<br>Description: Emporio Giardino<br><hr>Camera: <a href="https://sensr.net/cameras/6816">cam6816</a> active<br>Name: Emporio Giardino<br>Description: Emporio Giardino');
+      map.addShape(cam_25);
+
+      var cam_26 = new MQA.Poi({lat:39.0972, lng:-84.1225});
+      cam_26.setInfoTitleHTML('Batavia, OH, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/11984">cam11984</a> active<br>Name: Daisy Dog');
+      map.addShape(cam_26);
+
+      var cam_27 = new MQA.Poi({lat:43.8, lng:-79.4167});
+      cam_27.setInfoTitleHTML('Thornhill, ON, CA<br>Count: 3<br><hr>Camera: <a href="https://sensr.net/cameras/5103">cam5103</a> active<br>Name: tekCAMzz<br><hr>Camera: <a href="https://sensr.net/cameras/4781">cam4781</a> active<br>Name: netCamZ<br><hr>Camera: <a href="https://sensr.net/cameras/18622">cam18622</a> inactive<br>Name: webCAMz');
+      map.addShape(cam_27);
+
+      var cam_28 = new MQA.Poi({lat:13, lng:122});
+      cam_28.setInfoTitleHTML('PH<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/5700">cam5700</a> active<br>Name: Jonahboys&apos; Cam<br>Description: Garahe at Bilyaran po namin to');
+      map.addShape(cam_28);
+
+      var cam_29 = new MQA.Poi({lat:68.8025, lng:16.5456});
+      cam_29.setInfoTitleHTML('Harstad, NO<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/18699">cam18699</a> inactive<br>Name: Kattebakken Vaerstasjon<br>Description: Utsikten fra vaerstasjonen');
+      map.addShape(cam_29);
+
+      var cam_30 = new MQA.Poi({lat:46, lng:2});
+      cam_30.setInfoTitleHTML('FR<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/16200">cam16200</a> active<br>Name: nauticlub01&apos;s Camera');
+      map.addShape(cam_30);
+
+      var cam_31 = new MQA.Poi({lat:36.9251, lng:-93.9197});
+      cam_31.setInfoTitleHTML('Monett, MO, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/11567">cam11567</a> active<br>Name: jhawk&apos;s Camera');
+      map.addShape(cam_31);
+
+      var cam_32 = new MQA.Poi({lat:52.2167, lng:-0.2667});
+      cam_32.setInfoTitleHTML('Saint Neots, GB<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/11489">cam11489</a> active<br>Name: Val&apos;s Critter Cam');
+      map.addShape(cam_32);
+
+      var cam_33 = new MQA.Poi({lat:42.1973, lng:-71.441});
+      cam_33.setInfoTitleHTML('Holliston, MA, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/11838">cam11838</a> active<br>Name: Porchcam');
+      map.addShape(cam_33);
+
+      var cam_34 = new MQA.Poi({lat:39.1023, lng:-96.5246});
+      cam_34.setInfoTitleHTML('Manhattan, KS, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/2158">cam2158</a> active<br>Name: Homestead Trail Cam<br>Description: Overlooking a spring and section of the Homestead Trail ');
+      map.addShape(cam_34);
+
+      var cam_35 = new MQA.Poi({lat:37.174, lng:-119.71});
+      cam_35.setInfoTitleHTML('Coarsegold, CA, US<br>Count: 2<br><hr>Camera: <a href="https://sensr.net/cameras/6">cam6</a> active<br>Name: CVcam<br>Description: The cabin that WebVan bought...<br><hr>Camera: <a href="https://sensr.net/cameras/3432">cam3432</a> active<br>Name: CVcam 2<br>Description: Cedar Valley rodent cam');
+      map.addShape(cam_35);
+
+      var cam_36 = new MQA.Poi({lat:51.9833, lng:9.1167});
+      cam_36.setInfoTitleHTML('Barntrup, DE<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/16425">cam16425</a> inactive<br>Name: Samsung<br>Description: My mobile webcam..');
+      map.addShape(cam_36);
+
+      var cam_37 = new MQA.Poi({lat:14.6211, lng:-90.5269});
+      cam_37.setInfoTitleHTML('Guatemala City, GT<br>Count: 7<br><hr>Camera: <a href="https://sensr.net/cameras/17189">cam17189</a> active<br>Name: Atanasio Tzul - 29 calle<br><hr>Camera: <a href="https://sensr.net/cameras/17030">cam17030</a> active<br>Name: Muxbal - 20 Calle Zona 10<br><hr>Camera: <a href="https://sensr.net/cameras/14202">cam14202</a> inactive<br>Name: Carretera a El Salvador<br><hr>Camera: <a href="https://sensr.net/cameras/17029">cam17029</a> active<br>Name: Aguilar Batres<br><hr>Camera: <a href="https://sensr.net/cameras/16613">cam16613</a> active<br>Name: 20 Calle Zona 10<br><hr>Camera: <a href="https://sensr.net/cameras/16732">cam16732</a> active<br>Name: Paso a Desnivel Proceres Zona 10<br><hr>Camera: <a href="https://sensr.net/cameras/16720">cam16720</a> active<br>Name: 19 y 20 Calle Zona 10');
+      map.addShape(cam_37);
+
+      var cam_38 = new MQA.Poi({lat:29.9607, lng:-95.7409});
+      cam_38.setInfoTitleHTML('Cypress, TX, US<br>Count: 2<br><hr>Camera: <a href="https://sensr.net/cameras/13002">cam13002</a> inactive<br>Name: Gizmo&apos;s Kennel Cam<br><hr>Camera: <a href="https://sensr.net/cameras/13003">cam13003</a> inactive<br>Name: Gizmo&apos;s Feeding Area<br>Description: Gizmo is just a puppy still (DOB July 2011) and here I can watch to see how much water she drinks, which seems to me to be a lot, but it is ');
+      map.addShape(cam_38);
+
+      var cam_39 = new MQA.Poi({lat:35.7821, lng:-78.8177});
+      cam_39.setInfoTitleHTML('Cary, NC, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/6925">cam6925</a> active<br>Name: Nest Cam');
+      map.addShape(cam_39);
+
+      var cam_40 = new MQA.Poi({lat:48.35, lng:0.3833});
+      cam_40.setInfoTitleHTML('Mamers, FR<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/18629">cam18629</a> inactive<br>Name: jeremiegboss&apos;s Camera');
+      map.addShape(cam_40);
+
+      var cam_41 = new MQA.Poi({lat:4.6, lng:-74.0833});
+      cam_41.setInfoTitleHTML('Bogotá, CO<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/8498">cam8498</a> active<br>Name: PaseoGeneral');
+      map.addShape(cam_41);
+
+      var cam_42 = new MQA.Poi({lat:32.8594, lng:-117.207});
+      cam_42.setInfoTitleHTML('San Diego, CA, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/10250">cam10250</a> active<br>Name: Bobs Cat Cam<br>Description: Watch Spike and Savannah soak up some rays.');
+      map.addShape(cam_42);
+
+      var cam_43 = new MQA.Poi({lat:53, lng:28});
+      cam_43.setInfoTitleHTML('BY<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/15919">cam15919</a> active<br>Name: Suharevo 14');
+      map.addShape(cam_43);
+
+      var cam_44 = new MQA.Poi({lat:38, lng:-97});
+      cam_44.setInfoTitleHTML('US<br>Count: 18<br><hr>Camera: <a href="https://sensr.net/cameras/548">cam548</a> inactive<br>Name: EagleEye Deer Cams<br>Description: Deer Pens<br><hr>Camera: <a href="https://sensr.net/cameras/16370">cam16370</a> active<br>Name: EagleEye Deer Cams 4<br><hr>Camera: <a href="https://sensr.net/cameras/12391">cam12391</a> active<br>Name: DeerCam<br>Description: Deer cam in backyard<br><hr>Camera: <a href="https://sensr.net/cameras/5928">cam5928</a> active<br>Name: Old Lahaina Luau Webcam<br><hr>Camera: <a href="https://sensr.net/cameras/88">cam88</a> active<br>Name: Garage POE<br>Description: Incline village driveway<br><hr>Camera: <a href="https://sensr.net/cameras/13250">cam13250</a> active<br>Name: EagleEye Deer Cams 3<br>Description: High Fence Ranch<br><hr>Camera: <a href="https://sensr.net/cameras/9465">cam9465</a> active<br>Name: bill-disney&apos;s Camera<br><hr>Camera: <a href="https://sensr.net/cameras/10834">cam10834</a> active<br>Name: Tugalo Storage Room<br><hr>Camera: <a href="https://sensr.net/cameras/10360">cam10360</a> inactive<br>Name: RH Mobile Cam - Shock Sensor<br>Description: Images here are trigger by the camera&apos;s shock sensor, Images are before &amp; post from the time the shock sensor is triggered. So, if it is bum<br><hr>Camera: <a href="https://sensr.net/cameras/10908">cam10908</a> active<br>Name: Tugalo Back of House<br><hr>Camera: <a href="https://sensr.net/cameras/10892">cam10892</a> active<br>Name: Tugalo Back Yard from Bedroom<br><hr>Camera: <a href="https://sensr.net/cameras/16955">cam16955</a> active<br>Name: newengland&apos;s Camera<br><hr>Camera: <a href="https://sensr.net/cameras/12494">cam12494</a> active<br>Name: bwaler&apos;s Camera<br><hr>Camera: <a href="https://sensr.net/cameras/8203">cam8203</a> active<br>Name: Massachusetts Camera<br>Description: Massachusetts Camera<br><hr>Camera: <a href="https://sensr.net/cameras/11361">cam11361</a> active<br>Name: Tugalo Front of House<br><hr>Camera: <a href="https://sensr.net/cameras/11363">cam11363</a> active<br>Name: Tugalo Dock<br><hr>Camera: <a href="https://sensr.net/cameras/8741">cam8741</a> active<br>Name: Aaron&apos;s Critter Cam<br><hr>Camera: <a href="https://sensr.net/cameras/8393">cam8393</a> active<br>Name: Otis Reservoir<br>Description: Live Weather Cam');
+      map.addShape(cam_44);
+
+      var cam_45 = new MQA.Poi({lat:53, lng:-1.1333});
+      cam_45.setInfoTitleHTML('Arnold, GB<br>Count: 2<br><hr>Camera: <a href="https://sensr.net/cameras/18496">cam18496</a> active<br>Name: spare foscam<br><hr>Camera: <a href="https://sensr.net/cameras/15017">cam15017</a> active<br>Name: markp foscam');
+      map.addShape(cam_45);
+
+      var cam_46 = new MQA.Poi({lat:37.459, lng:-122.178});
+      cam_46.setInfoTitleHTML('Menlo Park, CA, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/5967">cam5967</a> active<br>Name: Puppy Cam<br>Description: Watch my dog!');
+      map.addShape(cam_46);
+
+      var cam_47 = new MQA.Poi({lat:34.8725, lng:-87.7004});
+      cam_47.setInfoTitleHTML('Florence, AL, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/10976">cam10976</a> active<br>Name: Josie&apos;s Camera<br>Description: Live video of Josie');
+      map.addShape(cam_47);
+
+      var cam_48 = new MQA.Poi({lat:22.2833, lng:114.15});
+      cam_48.setInfoTitleHTML('Central District, HK<br>Count: 2<br><hr>Camera: <a href="https://sensr.net/cameras/10542">cam10542</a> active<br>Name: Manor Temperatory Use Camera<br>Description: Temperatory for Flooding<br><hr>Camera: <a href="https://sensr.net/cameras/18383">cam18383</a> active<br>Name: Manor 3 1B and 1C<br>Description: Back door platform');
+      map.addShape(cam_48);
+
+      var cam_49 = new MQA.Poi({lat:30.3037, lng:-97.7696});
+      cam_49.setInfoTitleHTML('Austin, TX, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/10252">cam10252</a> active<br>Name: Lower Yard<br>Description: The view of Lake Travis near Austin, Texas from the main deck of Luna Azul.');
+      map.addShape(cam_49);
+
+      var cam_50 = new MQA.Poi({lat:41.5738, lng:-90.4582});
+      cam_50.setInfoTitleHTML('Bettendorf, IA, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/15828">cam15828</a> inactive<br>Name: morter01&apos;s Camera');
+      map.addShape(cam_50);
+
+      var cam_51 = new MQA.Poi({lat:14.1789, lng:121.226});
+      cam_51.setInfoTitleHTML('Los Baños, PH<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/3176">cam3176</a> inactive<br>Name: Barrio Fiesta - SM City Sta Rosa');
+      map.addShape(cam_51);
+
+      var cam_52 = new MQA.Poi({lat:40.6617, lng:-73.9855});
+      cam_52.setInfoTitleHTML('Brooklyn, NY, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/10806">cam10806</a> active<br>Name: Mookie&apos;s Rabbit Cam<br>Description: just a rabbit in her playroom...');
+      map.addShape(cam_52);
+
+      var cam_53 = new MQA.Poi({lat:43.286, lng:-77.6843});
+      cam_53.setInfoTitleHTML('Rochester, NY, US<br>Count: 2<br><hr>Camera: <a href="https://sensr.net/cameras/3468">cam3468</a> active<br>Name: Garden Cam<br>Description: Garden Cam<br><hr>Camera: <a href="https://sensr.net/cameras/11039">cam11039</a> active<br>Name: Front Drive');
+      map.addShape(cam_53);
+
+      var cam_54 = new MQA.Poi({lat:47.6727, lng:-122.187});
+      cam_54.setInfoTitleHTML('Kirkland, WA, US<br>Count: 2<br><hr>Camera: <a href="https://sensr.net/cameras/804">cam804</a> active<br>Name: Northport 1<br><hr>Camera: <a href="https://sensr.net/cameras/807">cam807</a> active<br>Name: Northport 2');
+      map.addShape(cam_54);
+
+      var cam_55 = new MQA.Poi({lat:-45.8667, lng:170.5});
+      cam_55.setInfoTitleHTML('Dunedin, NZ<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/5111">cam5111</a> inactive<br>Name: Oldwood St Cam<br>Description: Pretty boring but it serves a purpose');
+      map.addShape(cam_55);
+
+      var cam_56 = new MQA.Poi({lat:37.9761, lng:-81.1397});
+      cam_56.setInfoTitleHTML('Oak Hill, WV, US<br>Count: 2<br><hr>Camera: <a href="https://sensr.net/cameras/6656">cam6656</a> active<br>Name: Quail Cam<br><hr>Camera: <a href="https://sensr.net/cameras/6264">cam6264</a> inactive<br>Name: Baby Ducks<br>Description: Baby Quail');
+      map.addShape(cam_56);
+
+      var cam_57 = new MQA.Poi({lat:29.7755, lng:-95.4152});
+      cam_57.setInfoTitleHTML('Houston, TX, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/15929">cam15929</a> active<br>Name: Driveway<br>Description: Driveway');
+      map.addShape(cam_57);
+
+      var cam_58 = new MQA.Poi({lat:40.7517, lng:-73.8832});
+      cam_58.setInfoTitleHTML('Jackson Heights, NY, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/16071">cam16071</a> active<br>Name: MakeSI Garage Camera');
+      map.addShape(cam_58);
+
+      var cam_59 = new MQA.Poi({lat:44.0715, lng:-92.5279});
+      cam_59.setInfoTitleHTML('Rochester, MN, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/5844">cam5844</a> active<br>Name: r-jeff-smith&apos;s Camera');
+      map.addShape(cam_59);
+
+      var cam_60 = new MQA.Poi({lat:2.5, lng:112.5});
+      cam_60.setInfoTitleHTML('MY<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/13497">cam13497</a> active<br>Name: CWSB Camera');
+      map.addShape(cam_60);
+
+      var cam_61 = new MQA.Poi({lat:56, lng:10});
+      cam_61.setInfoTitleHTML('DK<br>Count: 3<br><hr>Camera: <a href="https://sensr.net/cameras/10082">cam10082</a> active<br>Name: vagn-hansen&apos;s Camera<br>Description: Garage,Agerskov,Denmark<br><hr>Camera: <a href="https://sensr.net/cameras/10135">cam10135</a> active<br>Name: vagn-hansen&apos;s Camera<br><hr>Camera: <a href="https://sensr.net/cameras/10137">cam10137</a> active<br>Name: vagn-hansen&apos;s Camera');
+      map.addShape(cam_61);
+
+      var cam_62 = new MQA.Poi({lat:36.1445, lng:-115.226});
+      cam_62.setInfoTitleHTML('Las Vegas, NV, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/3974">cam3974</a> active<br>Name: Front Camera<br>Description: Camera from front DOOR');
+      map.addShape(cam_62);
+
+      var cam_63 = new MQA.Poi({lat:-5, lng:120});
+      cam_63.setInfoTitleHTML('ID<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/12548">cam12548</a> active<br>Name: AP_CAM1');
+      map.addShape(cam_63);
+
+      var cam_64 = new MQA.Poi({lat:-10, lng:-55});
+      cam_64.setInfoTitleHTML('BR<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/6034">cam6034</a> active<br>Name: cameradoprince');
+      map.addShape(cam_64);
+
+      var cam_65 = new MQA.Poi({lat:35.8869, lng:14.4025});
+      cam_65.setInfoTitleHTML('Melita, MT<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/14138">cam14138</a> active<br>Name: Outdoor Cam');
+      map.addShape(cam_65);
+
+      var cam_66 = new MQA.Poi({lat:35.7847, lng:-105.875});
+      cam_66.setInfoTitleHTML('Santa Fe, NM, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/14369">cam14369</a> active<br>Name: Mi Amor Cafe Camera<br>Description: Click on the LIVE button to open the camera');
+      map.addShape(cam_66);
+
+      var cam_67 = new MQA.Poi({lat:32.7448, lng:-117.17});
+      cam_67.setInfoTitleHTML('San Diego, CA, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/15647">cam15647</a> active<br>Name: Pedestrian Bridge Cam');
+      map.addShape(cam_67);
+
+      var cam_68 = new MQA.Poi({lat:37.8781, lng:-122.271});
+      cam_68.setInfoTitleHTML('Berkeley, CA, US<br>Count: 2<br><hr>Camera: <a href="https://sensr.net/cameras/1627">cam1627</a> active<br>Name: Melted Panasonic<br><hr>Camera: <a href="https://sensr.net/cameras/1415">cam1415</a> active<br>Name: SF Bay Porch CAM<br>Description: Looking towards the Golden Gate Bridge from the East Bay hills.    Testing a solar charging setup so I can run the system remotely.  Current');
+      map.addShape(cam_68);
+
+      var cam_69 = new MQA.Poi({lat:30.4134, lng:-85.0678});
+      cam_69.setInfoTitleHTML('Blountstown, FL, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/1656">cam1656</a> inactive<br>Name: RVP');
+      map.addShape(cam_69);
+
+      var cam_70 = new MQA.Poi({lat:33.5054, lng:-86.7987});
+      cam_70.setInfoTitleHTML('Birmingham, AL, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/12935">cam12935</a> active<br>Name: Lake View');
+      map.addShape(cam_70);
+
+      var cam_71 = new MQA.Poi({lat:40.9151, lng:-73.7818});
+      cam_71.setInfoTitleHTML('New Rochelle, NY, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/3405">cam3405</a> inactive<br>Name: France Street<br>Description: France');
+      map.addShape(cam_71);
+
+      var cam_72 = new MQA.Poi({lat:10.75, lng:106.667});
+      cam_72.setInfoTitleHTML('Ho Chi Minh City, VN<br>Count: 4<br><hr>Camera: <a href="https://sensr.net/cameras/9290">cam9290</a> active<br>Name: s3 - storage<br><hr>Camera: <a href="https://sensr.net/cameras/9287">cam9287</a> active<br>Name: s3 - studio hall<br><hr>Camera: <a href="https://sensr.net/cameras/9288">cam9288</a> active<br>Name: s3 - motorbike<br><hr>Camera: <a href="https://sensr.net/cameras/9289">cam9289</a> active<br>Name: s3 - entrance');
+      map.addShape(cam_72);
+
+      var cam_73 = new MQA.Poi({lat:47.2389, lng:-123.206});
+      cam_73.setInfoTitleHTML('Shelton, WA, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/13844">cam13844</a> inactive<br>Name: johnandrachel1&apos;s Camera<br>Description: Driveway Test');
+      map.addShape(cam_73);
+
+      var cam_74 = new MQA.Poi({lat:34.2436, lng:-116.772});
+      cam_74.setInfoTitleHTML('Big Bear City, CA, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/3326">cam3326</a> inactive<br>Name: Snow Cam - Big Bear<br>Description: IP Cam #2');
+      map.addShape(cam_74);
+
+      var cam_75 = new MQA.Poi({lat:44.9556, lng:-93.3841});
+      cam_75.setInfoTitleHTML('Minneapolis, MN, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/18863">cam18863</a> inactive<br>Name: thatwizzla');
+      map.addShape(cam_75);
+
+      var cam_76 = new MQA.Poi({lat:51.05, lng:3.7167});
+      cam_76.setInfoTitleHTML('Ghent, BE<br>Count: 2<br><hr>Camera: <a href="https://sensr.net/cameras/18798">cam18798</a> active<br>Name: Urgent fm 2<br>Description: Zicht op technicus en presentator<br><hr>Camera: <a href="https://sensr.net/cameras/18797">cam18797</a> active<br>Name: Urgent fm 1<br>Description: Zicht op DJ');
+      map.addShape(cam_76);
+
+      var cam_77 = new MQA.Poi({lat:59.2, lng:17.6167});
+      cam_77.setInfoTitleHTML('Södertälje, SE<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/6185">cam6185</a> active<br>Name: Bernercam');
+      map.addShape(cam_77);
+
+      var cam_78 = new MQA.Poi({lat:43.715, lng:-70.3452});
+      cam_78.setInfoTitleHTML('Westbrook, ME, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/10547">cam10547</a> active<br>Name: Maine Temp Camera');
+      map.addShape(cam_78);
+
+      var cam_79 = new MQA.Poi({lat:37.5981, lng:-122.402});
+      cam_79.setInfoTitleHTML('Millbrae, CA, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/1128">cam1128</a> active<br>Name: Primrose Rooftop');
+      map.addShape(cam_79);
+
+      var cam_80 = new MQA.Poi({lat:62, lng:15});
+      cam_80.setInfoTitleHTML('SE<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/17242">cam17242</a> inactive<br>Name: Husqvarna Automover 230CXA Felmeddelande - klippmotor defekt');
+      map.addShape(cam_80);
+
+      var cam_81 = new MQA.Poi({lat:36.762, lng:-82.0388});
+      cam_81.setInfoTitleHTML('Abingdon, VA, US<br>Count: 4<br><hr>Camera: <a href="https://sensr.net/cameras/1841">cam1841</a> active<br>Name: CatCave<br>Description: Mission: Cats- A Unique Cat Only Boarding Experience<br><hr>Camera: <a href="https://sensr.net/cameras/1843">cam1843</a> active<br>Name: Jungle<br>Description: Mission: Cats- A Unique Cat Only Boarding Experience<br><hr>Camera: <a href="https://sensr.net/cameras/2488">cam2488</a> active<br>Name: Study<br>Description: Mission: Cats- A Unique Cat Only Boarding Experience<br><hr>Camera: <a href="https://sensr.net/cameras/1801">cam1801</a> active<br>Name: Lounge<br>Description: Mission: Cats- A Unique Cat Only Boarding Experience');
+      map.addShape(cam_81);
+
+      var cam_82 = new MQA.Poi({lat:40.7849, lng:-77.847});
+      cam_82.setInfoTitleHTML('State College, PA, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/6861">cam6861</a> active<br>Name: Front Yard');
+      map.addShape(cam_82);
+
+      var cam_83 = new MQA.Poi({lat:50.8333, lng:4.3333});
+      cam_83.setInfoTitleHTML('Brussels, BE<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/11367">cam11367</a> inactive<br>Name: Le Hain - Moulin des Marottes - Rogissart - Clabecq - Tubize<br>Description: Vue du niveau du Hain � l&apos;entr�e de Tubize');
+      map.addShape(cam_83);
+
+      var cam_84 = new MQA.Poi({lat:32.8098, lng:-96.7993});
+      cam_84.setInfoTitleHTML('Dallas, TX, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/1456">cam1456</a> active<br>Name: Front Yard<br>Description: Front Yard');
+      map.addShape(cam_84);
+
+      var cam_85 = new MQA.Poi({lat:41.65, lng:-8.4333});
+      cam_85.setInfoTitleHTML('Vila Verde, PT<br>Count: 2<br><hr>Camera: <a href="https://sensr.net/cameras/12419">cam12419</a> inactive<br>Name: Casa Colmeia gate<br>Description: New Cam 2<br><hr>Camera: <a href="https://sensr.net/cameras/12665">cam12665</a> inactive<br>Name: Casa Colmeia Garden');
+      map.addShape(cam_85);
+
+      var cam_86 = new MQA.Poi({lat:38.35, lng:-0.4833});
+      cam_86.setInfoTitleHTML('Alicante, ES<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/11347">cam11347</a> active<br>Name: meteobanyeres webcam2');
+      map.addShape(cam_86);
+
+      var cam_87 = new MQA.Poi({lat:29.7709, lng:-95.4072});
+      cam_87.setInfoTitleHTML('Houston, TX, US<br>Count: 3<br><hr>Camera: <a href="https://sensr.net/cameras/10653">cam10653</a> active<br>Name: Lake Pointe Entrance Gate<br>Description: Lake Pointe<br><hr>Camera: <a href="https://sensr.net/cameras/10755">cam10755</a> inactive<br>Name: Lake Pointe Cam2<br><hr>Camera: <a href="https://sensr.net/cameras/10756">cam10756</a> active<br>Name: Lake Pointe Entrance Gate2');
+      map.addShape(cam_87);
+
+      var cam_88 = new MQA.Poi({lat:23, lng:-102});
+      cam_88.setInfoTitleHTML('MX<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/9222">cam9222</a> active<br>Name: PlantaCadena<br>Description: SALA DE VENTAS');
+      map.addShape(cam_88);
+
+      var cam_89 = new MQA.Poi({lat:42.3122, lng:-83.2815});
+      cam_89.setInfoTitleHTML('Dearborn Heights, MI, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/6556">cam6556</a> active<br>Name: Piggie Cam');
+      map.addShape(cam_89);
+
+      var cam_90 = new MQA.Poi({lat:41.1343, lng:-81.8559});
+      cam_90.setInfoTitleHTML('Medina, OH, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/12785">cam12785</a> active<br>Name: csstefanescu&apos;s Camera');
+      map.addShape(cam_90);
+
+      var cam_91 = new MQA.Poi({lat:25.7615, lng:-80.2939});
+      cam_91.setInfoTitleHTML('Miami, FL, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/5739">cam5739</a> inactive<br>Name: Davids Cam<br>Description: Front Door');
+      map.addShape(cam_91);
+
+      var cam_92 = new MQA.Poi({lat:37.5488, lng:-122.312});
+      cam_92.setInfoTitleHTML('San Mateo, CA, US<br>Count: 2<br><hr>Camera: <a href="https://sensr.net/cameras/15">cam15</a> active<br>Name: Primrose Hallway<br>Description: Camera outside suite 201<br><hr>Camera: <a href="https://sensr.net/cameras/17747">cam17747</a> active<br>Name: Primrose Hallway 2');
+      map.addShape(cam_92);
+
+      var cam_93 = new MQA.Poi({lat:-22.9, lng:-43.2333});
+      cam_93.setInfoTitleHTML('Rio De Janeiro, BR<br>Count: 4<br><hr>Camera: <a href="https://sensr.net/cameras/6585">cam6585</a> active<br>Name: Surftec<br><hr>Camera: <a href="https://sensr.net/cameras/12889">cam12889</a> active<br>Name: vortec-bodyboard&apos;s Camera<br><hr>Camera: <a href="https://sensr.net/cameras/17301">cam17301</a> active<br>Name: Boardtec2 Camera<br><hr>Camera: <a href="https://sensr.net/cameras/12892">cam12892</a> active<br>Name: Boardtec - Vortec');
+      map.addShape(cam_93);
+
+      var cam_94 = new MQA.Poi({lat:10.8167, lng:106.683});
+      cam_94.setInfoTitleHTML('Go Vap, VN<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/115">cam115</a> inactive<br>Name: usa books');
+      map.addShape(cam_94);
+
+      var cam_95 = new MQA.Poi({lat:41.8167, lng:3.0667});
+      cam_95.setInfoTitleHTML('Playa De Aro, ES<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/9448">cam9448</a> active<br>Name: juanmariego&apos;s Camera<br>Description: www.zoquing.com    www.zoquing.es');
+      map.addShape(cam_95);
+
+      var cam_96 = new MQA.Poi({lat:30.1955, lng:-85.6377});
+      cam_96.setInfoTitleHTML('Panama City, FL, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/18247">cam18247</a> active<br>Name: JAMSFARM<br>Description: Bunnies');
+      map.addShape(cam_96);
+
+      var cam_97 = new MQA.Poi({lat:28.1407, lng:-82.7163});
+      cam_97.setInfoTitleHTML('Tarpon Springs, FL, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/1225">cam1225</a> active<br>Name: Pet Safari Sloth Cam');
+      map.addShape(cam_97);
+
+      var cam_98 = new MQA.Poi({lat:32.6289, lng:-95.2482});
+      cam_98.setInfoTitleHTML('Hawkins, TX, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/2796">cam2796</a> inactive<br>Name: Michael&apos;s Mobile Camera<br>Description: Fish Tank Failed Camera is, for now, in Front Yard');
+      map.addShape(cam_98);
+
+      var cam_99 = new MQA.Poi({lat:42.2061, lng:-83.6228});
+      cam_99.setInfoTitleHTML('Ypsilanti, MI, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/14368">cam14368</a> active<br>Name: CodeMonkey-Cam');
+      map.addShape(cam_99);
+
+      var cam_100 = new MQA.Poi({lat:41.9, lng:12.4833});
+      cam_100.setInfoTitleHTML('Rome, IT<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/3473">cam3473</a> active<br>Name: Garage');
+      map.addShape(cam_100);
+
+      var cam_101 = new MQA.Poi({lat:43.9647, lng:-121.341});
+      cam_101.setInfoTitleHTML('Bend, OR, US<br>Count: 3<br><hr>Camera: <a href="https://sensr.net/cameras/4925">cam4925</a> active<br>Name: Cascade Flyers 2<br>Description: Cascade Flyers #2<br><hr>Camera: <a href="https://sensr.net/cameras/4915">cam4915</a> active<br>Name: Cascade Flyers Field<br>Description: Cascade Flyers<br><hr>Camera: <a href="https://sensr.net/cameras/15567">cam15567</a> active<br>Name: Cascade Flyers 3');
+      map.addShape(cam_101);
+
+      var cam_102 = new MQA.Poi({lat:45.4667, lng:9.2});
+      cam_102.setInfoTitleHTML('Milan, IT<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/4081">cam4081</a> inactive<br>Name: alessandro-nodari--2&apos;s Camera');
+      map.addShape(cam_102);
+
+      var cam_103 = new MQA.Poi({lat:40.7324, lng:-73.3256});
+      cam_103.setInfoTitleHTML('North Babylon, NY, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/15062">cam15062</a> active<br>Name: srgntbaker&apos;s Camera');
+      map.addShape(cam_103);
+
+      var cam_104 = new MQA.Poi({lat:39.9668, lng:-105.209});
+      cam_104.setInfoTitleHTML('Boulder, CO, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/2798">cam2798</a> active<br>Name: Bldr Backyard');
+      map.addShape(cam_104);
+
+      var cam_105 = new MQA.Poi({lat:43.9, lng:12.9167});
+      cam_105.setInfoTitleHTML('Pesaro, IT<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/12144">cam12144</a> active<br>Name: ecoteam');
+      map.addShape(cam_105);
+
+      var cam_106 = new MQA.Poi({lat:41.6167, lng:0.6333});
+      cam_106.setInfoTitleHTML('Lleida, ES<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/8975">cam8975</a> active<br>Name: Alamo-Camera');
+      map.addShape(cam_106);
+
+      var cam_107 = new MQA.Poi({lat:33.2581, lng:-116.982});
+      cam_107.setInfoTitleHTML('Valley Center, CA, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/1585">cam1585</a> active<br>Name: Llama Camera');
+      map.addShape(cam_107);
+
+      var cam_108 = new MQA.Poi({lat:37.668, lng:-121.004});
+      cam_108.setInfoTitleHTML('Modesto, CA, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/12808">cam12808</a> active<br>Name: Cross BV camera');
+      map.addShape(cam_108);
+
+      var cam_109 = new MQA.Poi({lat:-33.8167, lng:151.1});
+      cam_109.setInfoTitleHTML('Ryde, AU<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/18781">cam18781</a> active<br>Name: Harris Cam');
+      map.addShape(cam_109);
+
+      var cam_110 = new MQA.Poi({lat:44.9355, lng:-93.2505});
+      cam_110.setInfoTitleHTML('Minneapolis, MN, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/9660">cam9660</a> active<br>Name: harrisbankmn&apos;s Camera');
+      map.addShape(cam_110);
+
+      var cam_111 = new MQA.Poi({lat:46.0553, lng:14.5144});
+      cam_111.setInfoTitleHTML('Ljubljana, SI<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/14484">cam14484</a> inactive<br>Name: Bled<br>Description: Bled');
+      map.addShape(cam_111);
+
+      var cam_112 = new MQA.Poi({lat:36.9512, lng:-121.724});
+      cam_112.setInfoTitleHTML('Watsonville, CA, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/14361">cam14361</a> active<br>Name: Lake Nacimiento<br>Description: x');
+      map.addShape(cam_112);
+
+      var cam_113 = new MQA.Poi({lat:39.0747, lng:-84.4792});
+      cam_113.setInfoTitleHTML('Newport, KY, US<br>Count: 2<br><hr>Camera: <a href="https://sensr.net/cameras/13182">cam13182</a> active<br>Name: 1208 Entrance<br>Description: Camera #2<br><hr>Camera: <a href="https://sensr.net/cameras/15835">cam15835</a> active<br>Name: 1208 Laundry Room ');
+      map.addShape(cam_113);
+
+      var cam_114 = new MQA.Poi({lat:46.6608, lng:-94.1036});
+      cam_114.setInfoTitleHTML('Crosslake, MN, US<br>Count: 1<br><hr>Camera: <a href="https://sensr.net/cameras/11674">cam11674</a> active<br>Name: Crosslake Outside');
+      map.addShape(cam_114);
+
+    });
+  });
+</script>
+
+<script type="text/javascript">
+  function getHostName()  {
+    var url = window.location.href;
+    var noprotocol = url.split('//')[1];
+    var host = noprotocol .split('/')[0]
+    return host;
+  }
+
+  function getURLFileName() {
+    var subDir = window.location.href.replace((window.location.protocol + "//" + getHostName()+"/"),"");
+    subDir=(subDir.indexOf("?")>=0)?subDir.substring(0, subDir.indexOf("?")):subDir;
+    return subDir.toLowerCase();
+  }
+
+  function getPageName()  {
+    var pageName=getURLFileName().replace(///g,".");
+    return "devnet."+((pageName)?pageName:"home");
+  }
+
+  var s_accountCL = 'aolwpmq';
+  var s_account = s_accountCL + ",aolsvc";
+</script>
+<script type="text/javascript" src="http://o.aolcdn.com/omniunih.js"></script>
+<script type="text/javascript">
+   /*<![CDATA[*/
+      /* Disable Omniture optional features */
+      s_265.trackDownloadLinks=false
+      s_265.trackExternalLinks=false
+      s_265.trackInlineStats=false
+      s_265.linkLeaveQueryString=false
+      s_265.trackFormList=false
+      s_265.trackPageName=false
+      s_265.useCommerce=false
+
+      s_265.pfxID = "map";
+      s_265.server = "";
+      s_265.channel = "mq.mq";
+      s_265.pageType = "";
+      s_265.linkInternalFilters = "javascript:,mapquest.com,mqcdn.com";
+      s_265.prop1 = s_265.pfxID + " : " + "MQPlatformAPI";
+      s_265.prop2 = s_265.pfxID + " : " + "platformapi";
+      s_265.prop20 = "none";
+      s_265.prop21 = null;
+      s_265.pageName = s_265.pfxID + " : " +getPageName();
+      s_265.prop12 = window.location.protocol + "//" +getHostName()+"/"+getURLFileName();
+      s_265.mmxgo = true;
+      //s_265.mmxtitle="MQDevnet";
+
+      if((!s_265.prop16) || (s_265.prop16 == "")){s_265.prop16 = s_265.getQueryParam('cid');}
+      var s = s_gi(s_account);
+      if (s) {
+         s.linkTrackVars = "None";
+         s.linkTrackEvents= "None";
+         s.t();
+      }
+   /*]]>*/
+</script>
+</head>
+<body>
+
+<h1>Sensr.Net Public Cameras</h1>
+<!-- div id="map" style="width:750px; height:475px;"></div -->
+<div id="map" style="width:1030px; height:570px;"></div>
+
+</body>
+</html>

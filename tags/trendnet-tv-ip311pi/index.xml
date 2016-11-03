@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trendnet Tv Ip311pi on Sensr.net Blog | Watch your Stuff!</title>
+    <link>https://sblog.sensr.net/tags/trendnet-tv-ip311pi/</link>
+    <description>Recent content in Trendnet Tv Ip311pi on Sensr.net Blog | Watch your Stuff!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Aug 2014 16:55:56 +0000</lastBuildDate>
+    <atom:link href="https://sblog.sensr.net/tags/trendnet-tv-ip311pi/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to setup the TRENDnet TV-IP311PI  With Cloud Recording</title>
+      <link>https://sblog.sensr.net/2014/08/07/how-to-setup-the-trendnet-tv-ip311pi-with-cloud-recording/</link>
+      <pubDate>Thu, 07 Aug 2014 16:55:56 +0000</pubDate>
+      
+      <guid>https://sblog.sensr.net/2014/08/07/how-to-setup-the-trendnet-tv-ip311pi-with-cloud-recording/</guid>
+      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
+  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
+    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/08/07/how-to-setup-the-trendnet-tv-ip311pi-with-cloud-recording/&#34; data-text=&#34;How to setup the TRENDnet TV-IP311PI  With Cloud Recording&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
+  &lt;/div&gt;
+  
+
+&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;div id=&#34;attachment_3018&#34; style=&#34;width: 356px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/08/818nv6Sd1hL._SL1500_.jpg&#34;&gt;&lt;img class=&#34; wp-image-3018&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/08/818nv6Sd1hL._SL1500_.jpg&#34; alt=&#34;TRENDnet Outdoor 3 MP PoE Dome Network Surveillance Camera with Night Vision, TV-IP311PI&#34; width=&#34;346&#34; height=&#34;370&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/08/818nv6Sd1hL._SL1500_.jpg 1398w, http://sensr.net/blog/wp-content/uploads/2014/08/818nv6Sd1hL._SL1500_-954x1024.jpg 954w&#34; sizes=&#34;(max-width: 346px) 100vw, 346px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    TRENDnet Outdoor 3 MP PoE Dome Network Surveillance Camera with Night Vision, TV-IP311PI
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  The &lt;a href=&#34;http://www.amazon.com/TRENDnet-Outdoor-Network-Surveillance-TV-IP311PI/dp/B00I3GKMC4/sensr-20&#34;&gt;TRENDnet TV-IP311PI&lt;/a&gt; network camera is a nice solution if you want an outdoor camera that supports Power Over Ethernet (POE). To get started with this camera on &lt;a style=&#34;color: #888888;&#34; title=&#34;Cloud recording on Sensr.net&#34; href=&#34;https://sensr.net/&#34;&gt;Sensr.net&lt;/a&gt;, just plug it into a POE router and it will grab an IP address via DHCP. To find the IP address, you can use the included software or just look at the attached devices on your router’s admin page. Look for the MAC address of the camera in the list and you’ll be good to go. In my case the camera was using 10.1.1.113.
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  
+&lt;/p&gt;
+
+&lt;p style=&#34;text-align: left;&#34;&gt;
+  Next point your browser at that IP address and it will ask you to login. &lt;strong&gt;The default login and password for the&lt;a href=&#34;http://www.amazon.com/TRENDnet-Outdoor-Network-Surveillance-TV-IP311PI/dp/B00I3GKMC4/sensr-20&#34;&gt; TV-IP311PI&lt;/a&gt;  is admin and admin&lt;/strong&gt;.  You’ll probably want to change that.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;span id=&#34;more-2826&#34;&gt;&lt;/span&gt;To get this camera working with Sensr.net just have it upload to Sensr.net at 1 frame per second.  Here are the details…&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Add a New Camera to your Sensr.net account&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Simply log into your &lt;a style=&#34;color: #888888;&#34; title=&#34;Free Sensr.net account sign up&#34; href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt;Sensr.net account &lt;/a&gt;click the &lt;strong&gt;Add Camera&lt;/strong&gt; button. Sensr.net has a free one week trial, so give it a go and see if it works for you.  (It’s free to setup an account with Sensr.net. Camera monitoring starts at $9.95/month after your free trial is up.)  Once you login you’ll see a page like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-new-user.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2603&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-new-user-1024x708.png&#34; alt=&#34;Add new camera page&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-new-user-1024x708.png 1024w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-new-user-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-new-user.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Next you’ll see a page like this where you can set the timezone for your camera, give it a name, and tell us the model.  Cameras default to private but you can make them public if you want to share them with the world.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://sensr.net/blog/wp-content/uploads/2014/05/FI9826W-Name.png&#34;&gt;&lt;img class=&#34;wp-image-2812 size-full&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/05/FI9826W-Name.png&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;639&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/05/FI9826W-Name.png 1024w, http://sensr.net/blog/wp-content/uploads/2014/05/FI9826W-Name-300x187.png 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;After that, we’ll generate some FTP credentials for your camera. This generates a login for your [TRENDnet TV-IP311PI][1]  to where it can upload images via FTP. This tells your camera where to upload the images. The important information here is:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;FTP Server&lt;/li&gt;
+&lt;li&gt;FTP User name&lt;/li&gt;
+&lt;li&gt;FTP Password&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Save these so we can add them to your camera later.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2607&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-1024x708.png&#34; alt=&#34;FTP credentials&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-1024x708.png 1024w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tell your camera about Sensr.net&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Now you need to configure your camera so it will upload images to Sensr.net. Go back to the camera config page using the IP address we discovered above.  Get to the Snapshot settings page by clicking:&lt;/p&gt;
+
+&lt;p&gt;Advanced &amp;gt; Events &amp;gt; Snapshot&lt;/p&gt;
+
+&lt;p&gt;The Snapshot Settings. It will look like this.  You’ll want to set the camera to upload continuously, which TRENDnet calls CONTENTIOUS, but we’ll forgive them.  Note the upload interval is set to 1,000 milliseconds.  That’s the fastest upload the [TRENDnet TV-IP311PI][1]  will support, but 1 FPS is fine for use with Sensr.net.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/TV-IP310PI-Snapshot-Settings.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2830&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/TV-IP310PI-Snapshot-Settings-1024x651.png&#34; alt=&#34;TV-IP310PI Snapshot Setting Enable continuous uploads at 1000 milliseconds&#34; width=&#34;640&#34; height=&#34;406&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/TV-IP310PI-Snapshot-Settings-1024x651.png 1024w, http://sensr.net/blog/wp-content/uploads/2014/06/TV-IP310PI-Snapshot-Settings-300x190.png 300w, http://sensr.net/blog/wp-content/uploads/2014/06/TV-IP310PI-Snapshot-Settings.png 1554w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Next we need to configure where those snapshots will be uploaded.  Go to the FTP Server page by clicking:&lt;/p&gt;
+
+&lt;p&gt;Advanced &amp;gt; Storage &amp;gt; FTP Server&lt;/p&gt;
+
+&lt;p&gt;The FTP Server page will look like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/TV-IP310PI-FTP-Settings.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2829&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/TV-IP310PI-FTP-Settings-1024x630.png&#34; alt=&#34;TV-IP310PI FTP Settings&#34; width=&#34;640&#34; height=&#34;393&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/TV-IP310PI-FTP-Settings-1024x630.png 1024w, http://sensr.net/blog/wp-content/uploads/2014/06/TV-IP310PI-FTP-Settings-300x184.png 300w, http://sensr.net/blog/wp-content/uploads/2014/06/TV-IP310PI-FTP-Settings.png 1468w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For some reason the TRENDnet camera won’t take a hostname, so we need to use an IP address.  To get the IP address for your server, you can use the command &lt;strong&gt;nslookup&lt;/strong&gt; or just ping the address.  Currently we have two IP addresses per hostname.  For example, nslookup for f9.sensr.net will return:&lt;/p&gt;
+
+&lt;pre&gt;$ nslookup f9.sensr.net
+Server: 208.67.222.222
+Address: 208.67.222.222#53
+Non-authoritative answer:
+Name: f9.sensr.net
+Address: 96.126.101.33
+Name: f9.sensr.net
+Address: 74.207.245.42&lt;/pre&gt;
+
+&lt;p&gt;This means we can use either 96.126.101.33 or 74.207.245.42 for the Server Address.  The drawback to this is your camera is tied to a specific server.  We occasionally reboot servers or take them offline for maintenance.  If the camera was connecting to a hostname, it would simply reconnect to another server.  So by using an IP address, the [TRENDnet TV-IP311PI][1]  isn’t as fault tolerant as it should be.&lt;/p&gt;
+
+&lt;p&gt;The port should stay 21. The username is unique to your camera so use whatever you got from Sensr.net’s add camera flow. Ditto for the password. Best to copy and paste it so you don’t make a mistake. You can leave the other options as they are.  We ignore them on our side.  Click the Save button and the [TRENDnet TV-IP311PI][1]  should start uploading to Sensr.net.&lt;/p&gt;
+
+&lt;p&gt;On the Sensr.net side the page should go from this:&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2611&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3-1024x708.png&#34; alt=&#34;Waiting for upload&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3-1024x708.png 1024w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;To a page that shows the image your camera uploaded.  Something like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2618&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success.png&#34; alt=&#34;Success!&#34; width=&#34;987&#34; height=&#34;793&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success.png 987w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success-300x241.png 300w&#34; sizes=&#34;(max-width: 987px) 100vw, 987px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Congratulations, now you’re done with the camera config. You’re camera is now on Sensr.net. We’ll archive all the motion events, giving you 30 days of archives, SMS and email alerts, guest access, and a whole lot more.  You can view the live stream on our website or in our apps.  No firewall configuration is needed.  No PC in the basement required.&lt;/p&gt;
+
+&lt;p&gt;If you have any problems, send email to info @ sensr.net and we’ll try to help you out!&lt;/p&gt;
+
+&lt;div class=&#34;trackable_sharing&#34;&gt;
+  &lt;a href=&#34;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F08%2F07%2Fhow-to-setup-the-trendnet-tv-ip311pi-with-cloud-recording%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Facebook&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Facebook&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/08/07/how-to-setup-the-trendnet-tv-ip311pi-with-cloud-recording/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png&#34; alt=&#34;Facebook&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F08%2F07%2Fhow-to-setup-the-trendnet-tv-ip311pi-with-cloud-recording%2F&amp;text=How+to+setup+the+TRENDnet+TV-IP311PI++With+Cloud+Recording&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Twitter&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Twitter&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/08/07/how-to-setup-the-trendnet-tv-ip311pi-with-cloud-recording/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png&#34; alt=&#34;Twitter&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F08%2F07%2Fhow-to-setup-the-trendnet-tv-ip311pi-with-cloud-recording%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F08%2F07%2Fhow-to-setup-the-trendnet-tv-ip311pi-with-cloud-recording%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Reddit&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Reddit&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/08/07/how-to-setup-the-trendnet-tv-ip311pi-with-cloud-recording/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=700,height=500&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png&#34; alt=&#34;Reddit&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://digg.com/submit?partner=addthis&amp;url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F08%2F07%2Fhow-to-setup-the-trendnet-tv-ip311pi-with-cloud-recording%2F&amp;title=How+to+setup+the+TRENDnet+TV-IP311PI++With+Cloud+Recording&amp;bodytext=&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Digg&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Digg&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/08/07/how-to-setup-the-trendnet-tv-ip311pi-with-cloud-recording/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png&#34; alt=&#34;Digg&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F08%2F07%2Fhow-to-setup-the-trendnet-tv-ip311pi-with-cloud-recording%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F08%2F07%2Fhow-to-setup-the-trendnet-tv-ip311pi-with-cloud-recording%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Stumbleupon&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Stumbleupon&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/08/07/how-to-setup-the-trendnet-tv-ip311pi-with-cloud-recording/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png&#34; alt=&#34;Stumbleupon&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F08%2F07%2Fhow-to-setup-the-trendnet-tv-ip311pi-with-cloud-recording%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Email&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Email&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/08/07/how-to-setup-the-trendnet-tv-ip311pi-with-cloud-recording/&#39;]); &#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png&#34; alt=&#34;Email&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;[1]: &lt;a href=&#34;http://www.amazon.com/TRENDnet-Outdoor-Network-Surveillance-TV-IP311PI/dp/B00I3GKMC4/sensr-20&#34;&gt;http://www.amazon.com/TRENDnet-Outdoor-Network-Surveillance-TV-IP311PI/dp/B00I3GKMC4/sensr-20&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

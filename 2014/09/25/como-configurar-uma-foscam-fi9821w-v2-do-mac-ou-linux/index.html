@@ -1,0 +1,229 @@
+<!DOCTYPE html> 
+<head>
+<title>Como configurar uma Foscam FI9821W V2 do Mac ou Linux</title>	
+<link rel="stylesheet" type="text/css" media="all" href="/css/style.css">
+<link href="/img/sensr-favicon.png" rel="icon" type="image/png">
+</head>
+
+<body>
+<div id="header">
+  <div id="masthead">
+    <div id="branding" role="banner">
+	  <h1 id="site-title">
+        <span><a href="/" title="Sensr.net Blog" rel="home">Sensr.net Blog</a></span>
+      </h1>
+	  <div id="site-description">Watch your Stuff!</div>
+	</div>
+	<div id="access" role="navigation">
+	  <div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+	  <div class="menu-header">
+		  <ul id="menu-menu-test" class="menu">
+			  <li id="menu-item-124" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-124"><a href="http://sensr.net/">Home</a></li>
+			  <li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125"><a href="/archives/">Archives</a></li>
+			  <li id="menu-item-126" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-126"><a href="http://sensr.net/about">About</a></li>
+			  <li id="menu-item-127" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-127"><a href="http://sensr.net/faq">FAQ</a></li>
+		  </ul>
+	  </div>			
+    </div>
+  </div>
+  <div id="sensr_banner"></div>
+</div>
+<div id="main">
+
+  <h1>Como configurar uma Foscam FI9821W V2 do Mac ou Linux</h1>
+  <h2>Thu, Sep 25, 2014</h2>
+  <div class="share_buttons_simple_use_buttons" style="padding: 10px 0; display: inline-block">
+  <div class="tweet_button" style="float: left; vertical-align: top">
+    <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/09/25/como-configurar-uma-foscam-fi9821w-v2-do-mac-ou-linux/" data-text="Como configurar uma Foscam FI9821W V2 do Mac ou Linux" data-count="none">Tweet</a>
+  </div>
+  
+
+<p><div class="facebook_like_button" style="float: left; vertical-align: top; margin-left: 10px; max-width: 255px">
+  </div>
+</div></p>
+
+<p><a href="http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black.jpg"><img class="alignleft wp-image-2577 size-full" src="http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black.jpg" alt="Foscam FI9821W V2" width="160" height="160" srcset="http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black.jpg 160w, http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black-150x150.jpg 150w" sizes="(max-width: 160px) 100vw, 160px" /></a>A <a href="http://www.amazon.com/Foscam-FI9821W-Megapixel-Wireless-Camera/dp/B00F3KWZW8/sensr-20" title="Foscam FI9821W V2">Foscam FI9821W V2</a> é uma das câmeras IP mais populares atualmente. O seu valor ronda os $150 na <a href="http://www.amazon.com/Foscam-FI9821W-Megapixel-Wireless-Camera/dp/B00F3KWZW8/sensr-20" title="Compre Foscam FI9821W V2 na Amazon">Amazon</a>. As instruções incluem um software de configuração da câmera para Windows e Mac, mas ele não é realmente necessário. Nesse artigo, vou mostrar como configurar a câmera sem o software. <strong>Tenha em atenção que a porta padrão dessa câmera é a 88</strong>. Perdi 30 minutos para o perceber, e ainda mais tempo para entender o que isso significa.</p>
+
+<p>Também vou mostrar como enviar imagens para o</p>
+
+<p><a href="https://sensr.net/" title="Sensr.net">Sensr.net</a>, para que você possa tirar partido de todas as nossas funcionalidades, como 30 dias de armanezamento, <a href="http://sensr.net/blog/2013/10/24/ip-camera-no-firewall-config/" title="View IP Camera Remotely, No Firewall Config">sem configuração do firewall</a>, compartilhamento de vídeos, <a href="http://sensr.net/blog/2011/02/27/embed-your-sensr-net-cameras-live-view/" title="Embed your Sensr.net camera’s live view">streaming incorporável em tempo real</a>, <a href="http://sensr.net/blog/2012/04/11/guest-access-for-sensr-net-cameras/" title="Guest Access for Sensr.net Cameras">acesso compartilhado com lista de usuários convidados</a>, etc.</p>
+
+<p><strong>Resumo</strong></p>
+
+<ol>
+<li>Conecte a câmera ao seu roteador e ligue.</li>
+<li>No seu roteador, veja qual o endereço IP da câmera.</li>
+<li>Coloque o endereço IP da câmera no seu navegador e faça a sua configuração.</li>
+<li>Apresente a sua câmera ao Sensr.net.</li>
+<li>Apresente Sensr.net à sua câmera.</li>
+</ol>
+
+<p><strong>Detalhes</strong></p>
+
+<p>Estou assumindo que você conseguiu executar sem problemas o Passo 1.</p>
+
+<p><strong>Passo 2: Encontre o endereço de IP de seu roteador</strong></p>
+
+<p>Para executar o Passo 2, você necessita de fazer login no seu roteador. Você pode encontrar o endereço IP de seu roteador, consultando as configurações de seu computador. Num Mac você deve aceder a <strong>Network Settings &gt; Advanced &gt; TCP/IP</strong>. No meu MacBook Pro, com sistema operativo Lion, eu vejo isso:</p>
+
+<p><a href="http://sensr.net/blog/wp-content/uploads/2014/09/Screen-Shot1-PM.png"><img class="alignnone wp-image-3037 size-full" src="http://sensr.net/blog/wp-content/uploads/2014/09/Screen-Shot1-PM.png" alt="Screen-Shot1-PM" width="782" height="694" srcset="http://sensr.net/blog/wp-content/uploads/2014/09/Screen-Shot1-PM.png 782w, http://sensr.net/blog/wp-content/uploads/2014/09/Screen-Shot1-PM-300x266.png 300w" sizes="(max-width: 782px) 100vw, 782px" /></a>No Linux, você pode correr o comando <strong>ifconfig</strong> para obter essa informação. No meu caso, esse comando indica que o meu roteador é 10.1.1.1. Uma configuração mais comum é 192.168.1.1, mas pode ser qualquer outra. Assim que você encontrar essa informação, aceda ao seu roteador inserindo <a href="http://10.1.1.1">http://10.1.1.1</a> na barra de endereços de seu navegador (ou o endereço que você encontrou na sua rede). O mais provável é que você tenha de se conectar ao seu roteador. Os roteadores são muito diferentes entre si, vou mostrar as páginas do meu Netgear WPN824.</p>
+
+<p>Após efetuar o login no seu roteador, encontre a página que mostra todos os dispositivos conectados. Em baixo mostro a página de meu roteador, selecionei <strong>Attached Devices</strong>, à esquerda, e obtive essa lista.</p>
+
+<div id="attachment_3039" style="width: 942px" class="wp-caption alignnone">
+  <a href="http://sensr.net/blog/wp-content/uploads/2014/09/netgear-dispositivos-conectados.png"><img class="wp-image-3039 size-full" src="http://sensr.net/blog/wp-content/uploads/2014/09/netgear-dispositivos-conectados.png" alt="Lista de dispositivos conectados" width="932" height="780" srcset="http://sensr.net/blog/wp-content/uploads/2014/09/netgear-dispositivos-conectados.png 932w, http://sensr.net/blog/wp-content/uploads/2014/09/netgear-dispositivos-conectados-300x251.png 300w" sizes="(max-width: 932px) 100vw, 932px" /></a>
+  
+  <p class="wp-caption-text">
+    Lista de dispositivos conectados
+  </p>
+</div>
+
+<p>Para encontrar a sua câmera IP, você precisa de procurar o endereço MAC de sua câmera. (O endereço MAC está num adesivo na base da câmera). Como o endereço MAC de minha câmera acaba em 97, utilizei a pesquisa Chrome (CMD-F) e busquei por :97. O endereço IP nesse caso foi 10.1.1.26.</p>
+
+<p><strong>Passo 3: Direcione seu navegador para o endereço de IP da câmera e faça sua configuração</strong></p>
+
+<p>Para chegar à sua câmera, direcione seu navegador para o endereço IP que você encontrou. Nesse caso, <a href="http://10.1.1.26:88">http://10.1.1.26:88</a>. Não se esqueça de incluir a porta :88, como indiquei no início do artigo.</p>
+
+<p>Descobri que o Chrome, no Mac, não apresenta a página corretamente, mas o Safari consegue fazer um bom trabalho. Existem alguns plugins que você pode utilizar com o Chrome, mas é muito mais fácil usar o Safari.</p>
+
+<p>Quando você acessa à página de sua câmera, ela terá esse aspeto.</p>
+
+<div id="attachment_3040" style="width: 650px" class="wp-caption alignnone">
+  <a href="http://sensr.net/blog/wp-content/uploads/2014/09/fi9821wv2-pagina-configuracao.png"><img class="wp-image-3040 size-large" src="http://sensr.net/blog/wp-content/uploads/2014/09/fi9821wv2-pagina-configuracao-1024x708.png" alt="Página de Configuração da FI9821W V2" width="640" height="442" srcset="http://sensr.net/blog/wp-content/uploads/2014/09/fi9821wv2-pagina-configuracao-1024x708.png 1024w, http://sensr.net/blog/wp-content/uploads/2014/09/fi9821wv2-pagina-configuracao-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2014/09/fi9821wv2-pagina-configuracao.png 1141w" sizes="(max-width: 640px) 100vw, 640px" /></a>
+  
+  <p class="wp-caption-text">
+    Página de Configuração da FI9821W V2
+  </p>
+</div>
+
+<p>No Safari, você pode clicar no separador de Live Video e ver a sua câmera. A partir dessa página você pode rodar a sua câmera horizontal e verticalmente e assistir ao vídeo por streaming em tempo real a partir de sua rede doméstica. Hoje, algumas árvores estão sendo cortadas lá fora, por isso decidi instalar a câmera para observar o processo. É assim que você vai ver o vídeo:</p>
+
+<div id="attachment_3042" style="width: 650px" class="wp-caption aligncenter">
+  <a href="http://sensr.net/blog/wp-content/uploads/2014/09/fi9821wv2-live-video-pagina.png"><img class="size-large wp-image-3042" src="http://sensr.net/blog/wp-content/uploads/2014/09/fi9821wv2-live-video-pagina-1024x708.png" alt="Vídeo em tempo real no Safari" width="640" height="442" srcset="http://sensr.net/blog/wp-content/uploads/2014/09/fi9821wv2-live-video-pagina-1024x708.png 1024w, http://sensr.net/blog/wp-content/uploads/2014/09/fi9821wv2-live-video-pagina-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2014/09/fi9821wv2-live-video-pagina.png 1141w" sizes="(max-width: 640px) 100vw, 640px" /></a>
+  
+  <p class="wp-caption-text">
+    Vídeo em tempo real no Safari
+  </p>
+</div>
+
+<p>Você pode ver na tela anterior que estou correndo a última versão de firmware, 10.11.1.18.</p>
+
+<p><strong>Atualize o Firmware para a versão 1.11.1.18 ou superior</strong></p>
+
+<p>A última versão de firmware é a ideal para que sua câmera trabalhe na perfeição com o <a href="http://Sensr.net" title="Sensr.net">Sensr.net</a>. (Siga as instruções cuidadosamente. Se ainda não está correndo a versão 1.11.1.16, você precisa de fazer uma atualização para essa versão e só depois atualizar para a última versão 1.11.1.18. A minha câmera tinha a versão 1.11.1.15, por isso tive de fazer uma dupla atualização. A <a href="http://www.foscam.com/down3.aspx">última versão de firmware pode ser encontrada aqui</a> e o <a href="http://foscam.us/forum/new-firmware-for-fi9821w-v2-released-t7237.html" title="Comunicado versão 1.11.1.18 ">comunicado pode ser visto aqui</a>.</p>
+
+<p><strong>Passo 4: Apresente a sua câmera ao Sensr.net</strong></p>
+
+<p><strong>Adicione uma Câmera Nova à sua conta</strong> <strong>Sensr.net</strong></p>
+
+<p>Faça o login em sua conta Sensr.net e selecione <strong>Add Camera</strong>. Sensr.net tem um período de teste gratuito, por isso experimente e veja se é aquilo de que estava à procura. (Criar uma conta no Sensr.net. é gratuito. Após terminar o seu período de teste gratuito, o controlo da câmera custa desde $9.95/mês). Assim que você fizer o login, você vai ver uma página como essa:</p>
+
+<div id="attachment_3044" style="width: 1034px" class="wp-caption aligncenter">
+  <a href="http://sensr.net/blog/wp-content/uploads/2014/09/sensr-novo-usuario-1024x708.png"><img class="size-full wp-image-3044" src="http://sensr.net/blog/wp-content/uploads/2014/09/sensr-novo-usuario-1024x708.png" alt="Página para adicionar uma nova câmera" width="1024" height="708" srcset="http://sensr.net/blog/wp-content/uploads/2014/09/sensr-novo-usuario-1024x708.png 1024w, http://sensr.net/blog/wp-content/uploads/2014/09/sensr-novo-usuario-1024x708-300x207.png 300w" sizes="(max-width: 1024px) 100vw, 1024px" /></a>
+  
+  <p class="wp-caption-text">
+    Página para adicionar uma nova câmera
+  </p>
+</div>
+
+<p>A seguir, você vai ver essa página, onde você pode definir o fuso horário para a sua câmera, atribuir um nome, e indicar-nos o modelo. Todas as câmeras ficam predefinidas como privadas, mas você pode alterar sua privacidade para pública se você quiser compartilhar as filmagens.</p>
+
+<div id="attachment_3045" style="width: 1034px" class="wp-caption aligncenter">
+  <a href="http://sensr.net/blog/wp-content/uploads/2014/09/sensr-add-camera2-1024x708.png"><img class="size-full wp-image-3045" src="http://sensr.net/blog/wp-content/uploads/2014/09/sensr-add-camera2-1024x708.png" alt="Passo 1" width="1024" height="708" srcset="http://sensr.net/blog/wp-content/uploads/2014/09/sensr-add-camera2-1024x708.png 1024w, http://sensr.net/blog/wp-content/uploads/2014/09/sensr-add-camera2-1024x708-300x207.png 300w" sizes="(max-width: 1024px) 100vw, 1024px" /></a>
+  
+  <p class="wp-caption-text">
+    Passo 1
+  </p>
+</div>
+
+<p>Após você realizar esses passos, nós vamos gerar credenciais FTP para a sua câmera. Isso vai gerar um login para a sua FI9821W V2 para onde pode ser feito o upload de imagens por FTP. Esse dado diz à sua câmera para onde deve ser feito o upload. Os dados com mais importância são:</p>
+
+<ol>
+<li>Servidor FTP</li>
+<li>Nome de usuário FTP</li>
+<li>Senha FTP</li>
+</ol>
+
+<p>Guarde esses dados para que possamos incluí-los mais tarde.</p>
+
+<div id="attachment_3046" style="width: 1034px" class="wp-caption aligncenter">
+  <a href="http://sensr.net/blog/wp-content/uploads/2014/09/sensr-add-camera-ftp-1024x708.png"><img class="size-full wp-image-3046" src="http://sensr.net/blog/wp-content/uploads/2014/09/sensr-add-camera-ftp-1024x708.png" alt="Credenciais FTP" width="1024" height="708" srcset="http://sensr.net/blog/wp-content/uploads/2014/09/sensr-add-camera-ftp-1024x708.png 1024w, http://sensr.net/blog/wp-content/uploads/2014/09/sensr-add-camera-ftp-1024x708-300x207.png 300w" sizes="(max-width: 1024px) 100vw, 1024px" /></a>
+  
+  <p class="wp-caption-text">
+    Credenciais FTP
+  </p>
+</div>
+
+<p><strong>Passo 5: Apresente Sensr.net à sua câmera</strong></p>
+
+<p>Agora é necessário configurar a sua câmera para enviar imagens ao Sensr.net. Volte à página de configuração da câmera usando o endereço de IP que descobrimos anteriormente. Selecione Network e, depois, FTP Settings. A página apresentada será:</p>
+
+<div id="attachment_3047" style="width: 1034px" class="wp-caption aligncenter">
+  <a href="http://sensr.net/blog/wp-content/uploads/2014/09/fi9821wv2-ftp-pagina-1024x708.png"><img class="size-full wp-image-3047" src="http://sensr.net/blog/wp-content/uploads/2014/09/fi9821wv2-ftp-pagina-1024x708.png" alt="Configurar FTP" width="1024" height="708" srcset="http://sensr.net/blog/wp-content/uploads/2014/09/fi9821wv2-ftp-pagina-1024x708.png 1024w, http://sensr.net/blog/wp-content/uploads/2014/09/fi9821wv2-ftp-pagina-1024x708-300x207.png 300w" sizes="(max-width: 1024px) 100vw, 1024px" /></a>
+  
+  <p class="wp-caption-text">
+    Configurar FTP
+  </p>
+</div>
+
+<p>Introduza no primeiro campo o Servidor FTP da página de configuração do Sensr.net. Vai aparecer dessa forma <a href="ftp://f9.sensr.net/">ftp://f9.sensr.net/</a> ou qualquer outro servidor que o Sensr.net atribuiu à sua câmera. Atualmente os nossos servidores têm designação de f0.sensr.net a f9.sensr.net. Mantenha a porta 21 e o FTP mode como PASV. O nome de usuário é único para a sua câmera, por isso utilize o que foi atribuído pelo Sensr.net. O mesmo se aplica para a senha. O melhor é copiar e colar, para evitar erros no processo. Clique no botão de teste e a FI9821W vai verificar os dados de login. Se aparecer uma mensagem de <strong>Sucesso</strong>, o processo foi concluído. Caso contrário, verifique se os dados do servidor, nome de usuário e senha estão corretos.</p>
+
+<p>Sugerimos que configure a câmera para enviar uma imagem por segundo. Assim, você vai conseguir ver a gravação em tempo real a partir do Sensr.net. Para isso, acesse a página Video/Snapshot Settings:</p>
+
+<div id="attachment_3048" style="width: 1034px" class="wp-caption aligncenter">
+  <a href="http://sensr.net/blog/wp-content/uploads/2014/09/fi9821wv2-snapshot-pagina-1024x708.png"><img class="size-full wp-image-3048" src="http://sensr.net/blog/wp-content/uploads/2014/09/fi9821wv2-snapshot-pagina-1024x708.png" alt="Configuração Vídeo > Snapshots" width="1024" height="708" srcset="http://sensr.net/blog/wp-content/uploads/2014/09/fi9821wv2-snapshot-pagina-1024x708.png 1024w, http://sensr.net/blog/wp-content/uploads/2014/09/fi9821wv2-snapshot-pagina-1024x708-300x207.png 300w" sizes="(max-width: 1024px) 100vw, 1024px" /></a>
+  
+  <p class="wp-caption-text">
+    Configuração Vídeo > Snapshots
+  </p>
+</div>
+
+<p>Aqui você pode adicionar 1 como intervalo para que a câmera faça o upload contínuo de um frame por segundo. Selecione também todos os intervalos de tempo para que a câmera faça o upload 24h por dia, 7 dias por semana. Para salvar as configurações, não se esqueça de clicar no botão Save, no topo. Assim que terminar esses passos, a sua câmera FI9821WV2 começará a fazer o upload para o Sensr.net.</p>
+
+<p>No Sensr.net a página deve passar desse aspeto:</p>
+
+<div id="attachment_3049" style="width: 1034px" class="wp-caption aligncenter">
+  <a href="http://sensr.net/blog/wp-content/uploads/2014/09/sensr-add-camera3-1024x708.png"><img class="size-full wp-image-3049" src="http://sensr.net/blog/wp-content/uploads/2014/09/sensr-add-camera3-1024x708.png" alt="A aguardar o upload" width="1024" height="708" srcset="http://sensr.net/blog/wp-content/uploads/2014/09/sensr-add-camera3-1024x708.png 1024w, http://sensr.net/blog/wp-content/uploads/2014/09/sensr-add-camera3-1024x708-300x207.png 300w" sizes="(max-width: 1024px) 100vw, 1024px" /></a>
+  
+  <p class="wp-caption-text">
+    A aguardar o upload
+  </p>
+</div>
+
+<p>Para uma página que mostra a imagem que sua câmera enviou. Algo como:</p>
+
+<div id="attachment_3050" style="width: 997px" class="wp-caption aligncenter">
+  <a href="http://sensr.net/blog/wp-content/uploads/2014/09/sensr-add-camera-successo.png"><img class="size-full wp-image-3050" src="http://sensr.net/blog/wp-content/uploads/2014/09/sensr-add-camera-successo.png" alt="Sucesso!" width="987" height="793" srcset="http://sensr.net/blog/wp-content/uploads/2014/09/sensr-add-camera-successo.png 987w, http://sensr.net/blog/wp-content/uploads/2014/09/sensr-add-camera-successo-300x241.png 300w" sizes="(max-width: 987px) 100vw, 987px" /></a>
+  
+  <p class="wp-caption-text">
+    Sucesso!
+  </p>
+</div>
+
+<p>Muitos parabéns, acabou a configuração de sua câmera. A sua câmera está agora ligada ao Sensr.net. Vamos arquivar todos os movimentos, disponibilizando 30 dias de arquivos, SMS e alertas de email, acesso livre à sua lista de convidados e muito mais. Você pode assistir em tempo real ao streaming de vídeo a partir de nosso site ou dos nossos aplicativos. Não é necessário configurar um firewall, nem ter um PC na cave para observar as imagens de sua câmera.</p>
+
+<p>Se surgir alguma dificuldade, envie um email para info @ sensr.net e nós vamos tentar ajudar você!</p>
+
+<div class="trackable_sharing">
+  <a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F09%2F25%2Fcomo-configurar-uma-foscam-fi9821w-v2-do-mac-ou-linux%2F" style="text-decoration: none; white-space: nowrap;" title="Facebook" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Facebook','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/09/25/como-configurar-uma-foscam-fi9821w-v2-do-mac-ou-linux/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png" alt="Facebook" width="0" height="0" /></a> <a href="http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F09%2F25%2Fcomo-configurar-uma-foscam-fi9821w-v2-do-mac-ou-linux%2F&text=Como+configurar+uma+Foscam+FI9821W+V2+do+Mac+ou+Linux" style="text-decoration: none; white-space: nowrap;" title="Twitter" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Twitter','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/09/25/como-configurar-uma-foscam-fi9821w-v2-do-mac-ou-linux/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png" alt="Twitter" width="0" height="0" /></a> <a href="http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F09%2F25%2Fcomo-configurar-uma-foscam-fi9821w-v2-do-mac-ou-linux%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F09%2F25%2Fcomo-configurar-uma-foscam-fi9821w-v2-do-mac-ou-linux%2F" style="text-decoration: none; white-space: nowrap;" title="Reddit" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Reddit','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/09/25/como-configurar-uma-foscam-fi9821w-v2-do-mac-ou-linux/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=700,height=500'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png" alt="Reddit" width="0" height="0" /></a> <a href="http://digg.com/submit?partner=addthis&url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F09%2F25%2Fcomo-configurar-uma-foscam-fi9821w-v2-do-mac-ou-linux%2F&title=Como+configurar+uma+Foscam+FI9821W+V2+do+Mac+ou+Linux&bodytext=" style="text-decoration: none; white-space: nowrap;" title="Digg" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Digg','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/09/25/como-configurar-uma-foscam-fi9821w-v2-do-mac-ou-linux/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png" alt="Digg" width="0" height="0" /></a> <a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F09%2F25%2Fcomo-configurar-uma-foscam-fi9821w-v2-do-mac-ou-linux%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F09%2F25%2Fcomo-configurar-uma-foscam-fi9821w-v2-do-mac-ou-linux%2F" style="text-decoration: none; white-space: nowrap;" title="Stumbleupon" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Stumbleupon','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/09/25/como-configurar-uma-foscam-fi9821w-v2-do-mac-ou-linux/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png" alt="Stumbleupon" width="0" height="0" /></a> <a href="mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F09%2F25%2Fcomo-configurar-uma-foscam-fi9821w-v2-do-mac-ou-linux%2F" style="text-decoration: none; white-space: nowrap;" title="Email" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Email','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/09/25/como-configurar-uma-foscam-fi9821w-v2-do-mac-ou-linux/']); "><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png" alt="Email" width="0" height="0" /></a>
+</div>
+
+  
+
+<div id="footer" role="contentinfo">
+	<div id="colophon">
+		<div id="site-info">
+			<ul id="copyright">
+				<li class="company-name">
+					<em>Sensr.net, Inc. © 2009-2016</em>
+				</li>
+				<li class="company-networks">Follow us on <a id="icon-twitter" href="http://www.twitter.com/sensr" target="_blank" title="Follow Sensr on Twitter" name="icon-twitter">Twitter</a> <a id="icon-facebook" href="http://www.facebook.com/sensrnet" target="_blank" title="Like Sensr on Facebook" name="icon-facebook">Facebook</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+	</body>
+</html>
+

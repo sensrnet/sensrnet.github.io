@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security on Sensr.net Blog | Watch your Stuff!</title>
+    <link>https://sblog.sensr.net/tags/security/</link>
+    <description>Recent content in Security on Sensr.net Blog | Watch your Stuff!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Jul 2014 19:29:28 +0000</lastBuildDate>
+    <atom:link href="https://sblog.sensr.net/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Why You Should Change Your IP Camera’s Password</title>
+      <link>https://sblog.sensr.net/2014/07/11/why-you-should-change-your-ip-cameras-password/</link>
+      <pubDate>Fri, 11 Jul 2014 19:29:28 +0000</pubDate>
+      
+      <guid>https://sblog.sensr.net/2014/07/11/why-you-should-change-your-ip-cameras-password/</guid>
+      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
+  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
+    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/11/why-you-should-change-your-ip-cameras-password/&#34; data-text=&#34;Why You Should Change Your IP Camera&#39;s Password&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
+  &lt;/div&gt;
+  
+
+&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2933&#34; style=&#34;width: 285px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/images.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-2933&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/images.jpg&#34; alt=&#34;I&#39;ll be watching you&#34; width=&#34;275&#34; height=&#34;183&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Meet the Fockers
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Here is a &lt;a href=&#34;https://www.youtube.com/watch?v=CUx8_JNNKsM&#34; target=&#34;_blank&#34;&gt;video&lt;/a&gt; from youtube showing an IP camera get &amp;#8220;hacked&amp;#8221;. This user never changed his username and password from the default so some opportunistic fellow decided to play some mind games with the camera&amp;#8217;s owner. He used the camera&amp;#8217;s network access to play music through the camera and record the owner. THIS IS SUPER SCARY! let this be a warning to all of us who are too lazy to change passwords. After watching this video I changed my routers password and all my IP camera&amp;#8217;s passwords from their defaults. Luckily something like this would never happen to you on Sensr.net because we don&amp;#8217;t have default passwords and our site is incredibly secure.&lt;/p&gt;
+
+&lt;div class=&#34;trackable_sharing&#34;&gt;
+  &lt;a href=&#34;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F11%2Fwhy-you-should-change-your-ip-cameras-password%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Facebook&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Facebook&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/11/why-you-should-change-your-ip-cameras-password/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png&#34; alt=&#34;Facebook&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F11%2Fwhy-you-should-change-your-ip-cameras-password%2F&amp;text=Why+You+Should+Change+Your+IP+Camera%26%238217%3Bs+Password&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Twitter&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Twitter&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/11/why-you-should-change-your-ip-cameras-password/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png&#34; alt=&#34;Twitter&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F11%2Fwhy-you-should-change-your-ip-cameras-password%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F11%2Fwhy-you-should-change-your-ip-cameras-password%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Reddit&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Reddit&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/11/why-you-should-change-your-ip-cameras-password/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=700,height=500&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png&#34; alt=&#34;Reddit&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://digg.com/submit?partner=addthis&amp;url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F11%2Fwhy-you-should-change-your-ip-cameras-password%2F&amp;title=Why+You+Should+Change+Your+IP+Camera%26%238217%3Bs+Password&amp;bodytext=&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Digg&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Digg&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/11/why-you-should-change-your-ip-cameras-password/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png&#34; alt=&#34;Digg&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F11%2Fwhy-you-should-change-your-ip-cameras-password%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F11%2Fwhy-you-should-change-your-ip-cameras-password%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Stumbleupon&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Stumbleupon&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/11/why-you-should-change-your-ip-cameras-password/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png&#34; alt=&#34;Stumbleupon&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F11%2Fwhy-you-should-change-your-ip-cameras-password%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Email&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Email&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/11/why-you-should-change-your-ip-cameras-password/&#39;]); &#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png&#34; alt=&#34;Email&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to setup the D-Link DCS-5222L and use it with Sensr.net</title>
+      <link>https://sblog.sensr.net/2014/06/26/how-to-setup-the-d-link-dcs-5222l-and-use-it-with-sensr-net/</link>
+      <pubDate>Thu, 26 Jun 2014 17:21:57 +0000</pubDate>
+      
+      <guid>https://sblog.sensr.net/2014/06/26/how-to-setup-the-d-link-dcs-5222l-and-use-it-with-sensr-net/</guid>
+      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
+  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
+    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/26/how-to-setup-the-d-link-dcs-5222l-and-use-it-with-sensr-net/&#34; data-text=&#34;How to setup the D-Link DCS-5222L and use it with Sensr.net&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
+  &lt;/div&gt;
+  
+
+&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2867&#34; style=&#34;width: 374px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+  &lt;a href=&#34;http://www.amazon.com/D-Link-Wireless-Surveillance-mydlink-Enabled-DCS-5222L/dp/B008915L2O/sensr-20&#34;&gt;&lt;img class=&#34;size-full wp-image-2867&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/Screen-Shot-2014-06-25-at-2.31.35-PM.png&#34; alt=&#34;D-link DCS 522L&#34; width=&#34;364&#34; height=&#34;402&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/Screen-Shot-2014-06-25-at-2.31.35-PM.png 364w, http://sensr.net/blog/wp-content/uploads/2014/06/Screen-Shot-2014-06-25-at-2.31.35-PM-271x300.png 271w&#34; sizes=&#34;(max-width: 364px) 100vw, 364px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    D-link DCS 522L
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The &lt;a href=&#34;http://www.amazon.com/D-Link-Wireless-Surveillance-mydlink-Enabled-DCS-5222L/dp/B008915L2O/sensr-20&#34;&gt;D-Link DCS-522L&lt;/a&gt; is one of the most popular cameras on amazon and is great of use with Sensr.net. The &lt;a href=&#34;http://www.amazon.com/D-Link-Wireless-Surveillance-mydlink-Enabled-DCS-5222L/dp/B008915L2O/sensr-20&#34;&gt;DCS-522L&lt;/a&gt; has a ton of great features like night vision and pan/tilt. It also records HD video which is an awesome plus. Setup is pretty much the same as all of the DCS-5000 series so this will look a lot like some of our other posts.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;color: #000000&#34;&gt;&lt;b&gt;Why use Sensr.net?&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;D-Link has their own web-based viewing service called [MyDlink][2]. While this service does allow for remote viewing it does not record the feed. Sensr.net will automatically save up to a months worth of data on our servers so you can see what happens when you&amp;#8217;re not looking. Sensr.net also has a bunch of other cool features so you can&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Add motion alerts via SMS or email&lt;/li&gt;
+&lt;li&gt;&lt;a style=&#34;color: #888888&#34; title=&#34;Guest Access for private webcams&#34; href=&#34;http://sensr.net/blog/2012/04/11/guest-access-for-sensr-net-cameras/&#34;&gt;Invite guests to view your private camera&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a style=&#34;color: #888888&#34; title=&#34;Embed live webcam view&#34; href=&#34;http://sensr.net/blog/2011/02/27/embed-your-sensr-net-cameras-live-view/&#34;&gt;Embed the live stream on your blog&lt;/a&gt; or other website&lt;/li&gt;
+&lt;li&gt;Create a clip and share it on Facebook, Twitter, or YouTube&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Setup your &lt;a style=&#34;color: #888888&#34; title=&#34;MyDlink Service&#34; href=&#34;http://www.mydlink.com/&#34;&gt;MyDlink&lt;/a&gt; Service&lt;/li&gt;
+&lt;li&gt;Tell Sensr.net about your camera&lt;/li&gt;
+&lt;li&gt;Tell your camera about Sensr.net&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 1:  &lt;/strong&gt;To setup the camera out of the box, just use the CD and instructions that come with the camera. Basically you’ll need to connect the camera to your router and run some software from the CD.  You’ll end up creating an account on the MyDlink site that will let you log into your camera through their website or using the MyDlink apps.  Once you have that setup, you’ll be able to log into your camera and change it’s configurations.  You’ll be able to see the camera’s configuration page which looks something like this:&lt;/p&gt;
+
+&lt;div class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a style=&#34;color: #888888&#34; href=&#34;http://2.bp.blogspot.com/_yVvkcbKGc_g/TUg00C0d5tI/AAAAAAAACVw/pgWmy3nZ7dg/s1600/Screen+shot+2011-02-01+at+7.47.03+AM.png&#34;&gt;&lt;img title=&#34;D-Link DCS-930L Admin page&#34; src=&#34;http://2.bp.blogspot.com/_yVvkcbKGc_g/TUg00C0d5tI/AAAAAAAACVw/pgWmy3nZ7dg/s400/Screen+shot+2011-02-01+at+7.47.03+AM.png&#34; alt=&#34;D-Link DCS-930L Admin page configured on Sensr.net&#34; width=&#34;400&#34; height=&#34;289&#34; /&gt;&lt;/a&gt;&lt;/p&gt; 
+  
+  &lt;p class=&#34;wp-caption-text&#34; style=&#34;color: #888888&#34;&gt;
+    DCS-930L Admin page
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You can now make changes to your camera’s config through your browser. You don’t need to do anything else if you just want to view the camera live inside your home or through the MyDlink website. (There are other configs like wireless and image size, all of which you can get to through the web interface, I’m not going to cover them here.)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Add a New Camera to your Sensr.net Account&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 2 &lt;/strong&gt;Login to Sensr.net using your email and password.  If you don’t have an account, you can &lt;a style=&#34;color: #888888&#34; title=&#34;Free Sensr.net Account Signup&#34; href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt;add one for free on the sign up page&lt;/a&gt;.  Once you’re logged in, just click the &lt;strong&gt;Add Camera&lt;/strong&gt;button in green.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&#34;color: #888888&#34; href=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/sensr-add-camera.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2674&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/sensr-add-camera.png&#34; alt=&#34;Click the green button.&#34; width=&#34;1003&#34; height=&#34;339&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/sensr-add-camera.png 1003w, http://sensr.net/blog/wp-content/uploads/2014/01/sensr-add-camera-300x101.png 300w&#34; sizes=&#34;(max-width: 1003px) 100vw, 1003px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Next you’ll see a page where you can set the camera’s title, the time zone, privacy, and model.  The Title should give you some sort of idea where your camera is just to keep you organized should you add more cameras. The time zone is necessary because it is used to create the day view of the archives.  Cameras are private by default, meaning only you can see them.  If you want your camera to be public, you can change that setting here.  The camera model just tells us what kind of camera you’re setting up.  In this case it would be a DCS-5222L.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&#34;color: #888888&#34; href=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/add-camera-details.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2675&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/add-camera-details.png&#34; alt=&#34;Name your camera and give us some basic info about it.&#34; width=&#34;999&#34; height=&#34;491&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/add-camera-details.png 999w, http://sensr.net/blog/wp-content/uploads/2014/01/add-camera-details-300x147.png 300w&#34; sizes=&#34;(max-width: 999px) 100vw, 999px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you fill in the details and click the &lt;strong&gt;Next Step&lt;/strong&gt; link we’ll generate some FTP credentials for you. You’ll need to put these into your camera in the next step. You&amp;#8217;ll need the FTP Server, the Username, and the Password.&lt;/p&gt;
+
+&lt;p&gt;Keep this window open or copy and paste them somewhere since you’ll need them soon.  You can always find them later if you need them again or loose them.  They’ll be under the camera’s details page.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&#34;color: #888888&#34; href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2607&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-1024x708.png&#34; alt=&#34;FTP credentials&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-1024x708.png 1024w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tell your Camera about Sensr.net&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 3  &lt;/strong&gt;Now you just need to let your camera know to start uploading to Sensr.net.  Go back to the page for your DCS-5222L.  You can get here by logging into MyDlink and clicking on the configuration link.  Click on “SETUP” on the top menu and then “FTP” on the side.  The page should be something like this:&lt;/p&gt;
+
+&lt;div class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a style=&#34;color: #888888&#34; href=&#34;http://2.bp.blogspot.com/_yVvkcbKGc_g/TUhnqKDHeAI/AAAAAAAACV8/8t4NtG6Gav8/s1600/dcs930ftp.png&#34;&gt;&lt;img title=&#34;D-Link DCS-5020L FTP setup page&#34; src=&#34;http://2.bp.blogspot.com/_yVvkcbKGc_g/TUhnqKDHeAI/AAAAAAAACV8/8t4NtG6Gav8/s320/dcs930ftp.png&#34; alt=&#34;DCS-5020L FTP setup page configured on Sensr.net&#34; width=&#34;320&#34; height=&#34;298&#34; /&gt;&lt;/a&gt;&lt;/p&gt; 
+  
+  &lt;p class=&#34;wp-caption-text&#34; style=&#34;color: #888888&#34;&gt;
+    DCS-5020L FTP setup page
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The red arrows above show the settings you need to configure.  Under Host Name copy and paste the FTP server name you got from Sensr.net.  Copy the user name and password as well.  Make sure to select “Passive Mode”,  we only support passive FTP on Sensr.net.&lt;/p&gt;
+
+&lt;p&gt;You also need to tell your camera to send images to Sensr.net on a schedule.  You do this by selecting the check box “Enable uploading to the FTP server” and confirm that “Always” and “1 Frames/Second”&lt;/p&gt;
+
+&lt;p&gt;are selected.    These are the defaults and seem to work well.  The other default’s for the file name are also well supported, so no reason to change them.&lt;/p&gt;
+
+&lt;p&gt;Make sure to click the “Save Settings” button at the top of the page.  Once you’ve done this, your DCS-5222L should be sending images to Sensr.net.&lt;/p&gt;
+
+&lt;p&gt;Now you are done. If you click next step on the Sensr.net page you should get to a page showing you your camera feed like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&#34;color: #888888&#34; href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2618&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success.png&#34; alt=&#34;Success!&#34; width=&#34;987&#34; height=&#34;793&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success.png 987w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success-300x241.png 300w&#34; sizes=&#34;(max-width: 987px) 100vw, 987px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Now that you have the camera setup, you can do all sorts of things like:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Add motion alerts via SMS or email&lt;/li&gt;
+&lt;li&gt;&lt;a style=&#34;color: #888888&#34; title=&#34;Guest Access for private webcams&#34; href=&#34;http://sensr.net/blog/2012/04/11/guest-access-for-sensr-net-cameras/&#34;&gt;Invite guests to view your private camera&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a style=&#34;color: #888888&#34; title=&#34;Embed live webcam view&#34; href=&#34;http://sensr.net/blog/2011/02/27/embed-your-sensr-net-cameras-live-view/&#34;&gt;Embed the live stream on your blog&lt;/a&gt; or other website&lt;/li&gt;
+&lt;li&gt;Create a clip and share it on Facebook, Twitter, or YouTube&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you have any problems or questions, just click the Feedback button on the right side of every Sensr.net page or send an email to info@sensr.net and ask us a question.  We usually respond quickly and try hard to get back within 24 hours at the latest.&lt;/p&gt;
+
+&lt;p&gt;Have fun!&lt;/p&gt;
+
+&lt;div class=&#34;trackable_sharing&#34;&gt;
+  &lt;a href=&#34;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F26%2Fhow-to-setup-the-d-link-dcs-5222l-and-use-it-with-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Facebook&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Facebook&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/26/how-to-setup-the-d-link-dcs-5222l-and-use-it-with-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png&#34; alt=&#34;Facebook&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F26%2Fhow-to-setup-the-d-link-dcs-5222l-and-use-it-with-sensr-net%2F&amp;text=How+to+setup+the+D-Link+DCS-5222L+and+use+it+with+Sensr.net&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Twitter&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Twitter&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/26/how-to-setup-the-d-link-dcs-5222l-and-use-it-with-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png&#34; alt=&#34;Twitter&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F26%2Fhow-to-setup-the-d-link-dcs-5222l-and-use-it-with-sensr-net%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F26%2Fhow-to-setup-the-d-link-dcs-5222l-and-use-it-with-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Reddit&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Reddit&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/26/how-to-setup-the-d-link-dcs-5222l-and-use-it-with-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=700,height=500&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png&#34; alt=&#34;Reddit&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://digg.com/submit?partner=addthis&amp;url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F26%2Fhow-to-setup-the-d-link-dcs-5222l-and-use-it-with-sensr-net%2F&amp;title=How+to+setup+the+D-Link+DCS-5222L+and+use+it+with+Sensr.net&amp;bodytext=&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Digg&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Digg&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/26/how-to-setup-the-d-link-dcs-5222l-and-use-it-with-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png&#34; alt=&#34;Digg&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F26%2Fhow-to-setup-the-d-link-dcs-5222l-and-use-it-with-sensr-net%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F26%2Fhow-to-setup-the-d-link-dcs-5222l-and-use-it-with-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Stumbleupon&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Stumbleupon&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/26/how-to-setup-the-d-link-dcs-5222l-and-use-it-with-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png&#34; alt=&#34;Stumbleupon&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F26%2Fhow-to-setup-the-d-link-dcs-5222l-and-use-it-with-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Email&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Email&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/26/how-to-setup-the-d-link-dcs-5222l-and-use-it-with-sensr-net/&#39;]); &#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png&#34; alt=&#34;Email&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;[2]: www.mydlink.com&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to Embed a Live Camera in WordPress</title>
+      <link>https://sblog.sensr.net/2014/02/16/how-to-embed-a-live-camera-in-wordpress/</link>
+      <pubDate>Mon, 17 Feb 2014 05:31:36 +0000</pubDate>
+      
+      <guid>https://sblog.sensr.net/2014/02/16/how-to-embed-a-live-camera-in-wordpress/</guid>
+      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
+  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
+    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/02/16/how-to-embed-a-live-camera-in-wordpress/&#34; data-text=&#34;How to Embed a Live Camera in WordPress&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
+  &lt;/div&gt;
+  
+
+&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2721&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+  &lt;a href=&#34;http://kiteboardingmiamibeach.com/&#34;&gt;&lt;img alt=&#34;Miami Beach Kiteboarders Foundation live stream via Sensr.net&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/mbkf.png&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Miami Beach Kiteboarders Foundation live stream via Sensr.net
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;One popular feature we provide with Sensr.net is the ability to embed live streams into any website. At the left is a screenshot of the Miami Beach Kiteboarders Foundation website and their use of the Sensr.net embed widget.&lt;/p&gt;
+
+&lt;p&gt;If you have a camera on the Sensr.net site, its easy to do this with your camera. After you log in, hover the mouse over your name in the top right corner of the window. You&amp;#8217;ll see a drop down menu named &lt;a href=&#34;https://sensr.net/widgets&#34; title=&#34;Widgets&#34;&gt;Widgets&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can also just go to the link &lt;a href=&#34;https://sensr.net/widgets&#34; title=&#34;Widgets&#34;&gt;https://sensr.net/widgets&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Currently we support two kinds of embed widgets, one that shows the live stream for a single camera, like the Miami Beach camera shown above, and another one that shows a list of your public cameras. You can see both styles on the screenshots below.&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2716&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/single-camera-embed.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2716&#34; alt=&#34;Embed a single camera&#39;s live stream.&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/single-camera-embed-1024x808.png&#34; width=&#34;640&#34; height=&#34;505&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/single-camera-embed-1024x808.png 1024w, http://sensr.net/blog/wp-content/uploads/2014/02/single-camera-embed-300x236.png 300w, http://sensr.net/blog/wp-content/uploads/2014/02/single-camera-embed.png 1097w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Embed a single camera&amp;#8217;s live stream.
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;attachment_2715&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+  &lt;img class=&#34;size-large wp-image-2715&#34; alt=&#34;Embed a list of all your public cameras.&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/public-embed-1024x808.png&#34; width=&#34;640&#34; height=&#34;505&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/public-embed-1024x808.png 1024w, http://sensr.net/blog/wp-content/uploads/2014/02/public-embed-300x236.png 300w, http://sensr.net/blog/wp-content/uploads/2014/02/public-embed.png 1097w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Embed a list of all your public cameras.
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The code that gets generated for a public cameras widget will look something like this.&lt;/p&gt;
+
+&lt;pre&gt;&amp;lt;script type=&#34;text/javascript&#34; 
+src=&#34;https://sensr.net/widgets/user_cameras/21675d5e49&#34;&amp;gt;&amp;lt;/script&amp;gt;&lt;/pre&gt;
+
+&lt;p&gt;The code that is generated for a live camera widget will look like this.&lt;/p&gt;
+
+&lt;pre&gt;&amp;lt;script src=&#34;https://sensr.net/javascripts/swfobject.js&#34; 
+type=&#34;text/javascript&#34;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script type=&#34;text/javascript&#34; 
+src=&#34;https://sensr.net/widgets/live_view/21676d5e49/40694&#34;&amp;gt;
+&amp;lt;/script&amp;gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt; WordPress Embedding&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt; &lt;/strong&gt;If you have access to the source code for your site, you can just drop the embed widget script code directly into the HTML page and it should work. However, WordPress doesn&amp;#8217;t allow most users to just paste code like this into a post because it can lead to &lt;a href=&#34;http://en.support.wordpress.com/code/&#34; title=&#34;WordPress Code Security&#34;&gt;security issues&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Luckily you can create your own short code and put the embed code there. Thanks to WPBeginner for the nice &lt;a href=&#34;http://www.wpbeginner.com/wp-tutorials/how-to-add-a-shortcode-in-wordpress/&#34; title=&#34;WordPress shortcode tutorial&#34;&gt;WordPress shortcode tutorial&lt;/a&gt;. Log into WordPress and go to Appearance/Editor and then edit the functions.php file. You can create a new shortcode called [sensr] by adding lines like this:&lt;/p&gt;
+
+&lt;pre&gt;function get_sensr($atts) {
+return &#39;&amp;lt;script src=&#34;https://sensr.net/javascripts/swfobject.js&#34; 
+type=&#34;text/javascript&#34;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script type=&#34;text/javascript&#34; 
+src=&#34;https://sensr.net/widgets/live_view/8435abf934/39752&#34;&amp;gt;
+&amp;lt;/script&amp;gt;&#39;;
+}
+
+add_shortcode(&#39;sensr&#39;, &#39;get_sensr&#39;);&lt;/pre&gt;
+
+&lt;p&gt;Now when you use the shortcode [sensr] you&amp;#8217;ll see the embed widget in your post, here&amp;#8217;s the MBKF live widget embedded here:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Customize Widget Size&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you want to change the size of the widget, simply add a width and height parameter to the end.  For the Miami Beach Kiteboarders Foundation they are using a 640&amp;#215;480 widget size so their URL looks like this:&lt;/p&gt;
+
+&lt;p&gt;_&lt;a href=&#34;https://sensr.net/widgets/live_view/8435abf934/39752?width=640&amp;amp;height=480_&#34;&gt;https://sensr.net/widgets/live_view/8435abf934/39752?width=640&amp;amp;height=480_&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What about Custom Fields?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I tried using custom fields for this but it didn&amp;#8217;t work. I&amp;#8217;m guessing that this is also turned off for some reason on my WordPress configuration. I was able to create a custom field but when I used it, it didn&amp;#8217;t work.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Next Steps&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Eventually we should support the &lt;a href=&#34;http://codex.wordpress.org/Embeds&#34; title=&#34;WordPress Embed using oEmbed&#34;&gt;oEmbed&lt;/a&gt; standard to make this even easier.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thanks!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Tip of the hat to &lt;a href=&#34;http://www.undermyhat.org/blog/2012/05/how-to-properly-escape-shortcodes-in-wordpress/&#34; title=&#34;Escaping Shortcodes&#34;&gt;Under My Hat for ways of escaping shortcodes&lt;/a&gt;.  Once I finally got the [sensr] shortocde working I couldn&amp;#8217;t blog about it!&lt;/p&gt;
+
+&lt;div class=&#34;trackable_sharing&#34;&gt;
+  &lt;a href=&#34;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F02%2F16%2Fhow-to-embed-a-live-camera-in-wordpress%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Facebook&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Facebook&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/02/16/how-to-embed-a-live-camera-in-wordpress/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png&#34; alt=&#34;Facebook&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F02%2F16%2Fhow-to-embed-a-live-camera-in-wordpress%2F&amp;text=How+to+Embed+a+Live+Camera+in+WordPress&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Twitter&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Twitter&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/02/16/how-to-embed-a-live-camera-in-wordpress/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png&#34; alt=&#34;Twitter&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F02%2F16%2Fhow-to-embed-a-live-camera-in-wordpress%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F02%2F16%2Fhow-to-embed-a-live-camera-in-wordpress%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Reddit&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Reddit&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/02/16/how-to-embed-a-live-camera-in-wordpress/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=700,height=500&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png&#34; alt=&#34;Reddit&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://digg.com/submit?partner=addthis&amp;url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F02%2F16%2Fhow-to-embed-a-live-camera-in-wordpress%2F&amp;title=How+to+Embed+a+Live+Camera+in+WordPress&amp;bodytext=&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Digg&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Digg&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/02/16/how-to-embed-a-live-camera-in-wordpress/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png&#34; alt=&#34;Digg&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F02%2F16%2Fhow-to-embed-a-live-camera-in-wordpress%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F02%2F16%2Fhow-to-embed-a-live-camera-in-wordpress%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Stumbleupon&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Stumbleupon&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/02/16/how-to-embed-a-live-camera-in-wordpress/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png&#34; alt=&#34;Stumbleupon&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F02%2F16%2Fhow-to-embed-a-live-camera-in-wordpress%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Email&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Email&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/02/16/how-to-embed-a-live-camera-in-wordpress/&#39;]); &#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png&#34; alt=&#34;Email&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

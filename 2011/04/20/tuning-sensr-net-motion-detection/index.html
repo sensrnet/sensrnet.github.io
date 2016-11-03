@@ -1,0 +1,109 @@
+<!DOCTYPE html> 
+<head>
+<title>Tuning Sensr.net Motion Detection</title>	
+<link rel="stylesheet" type="text/css" media="all" href="/css/style.css">
+<link href="/img/sensr-favicon.png" rel="icon" type="image/png">
+</head>
+
+<body>
+<div id="header">
+  <div id="masthead">
+    <div id="branding" role="banner">
+	  <h1 id="site-title">
+        <span><a href="/" title="Sensr.net Blog" rel="home">Sensr.net Blog</a></span>
+      </h1>
+	  <div id="site-description">Watch your Stuff!</div>
+	</div>
+	<div id="access" role="navigation">
+	  <div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+	  <div class="menu-header">
+		  <ul id="menu-menu-test" class="menu">
+			  <li id="menu-item-124" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-124"><a href="http://sensr.net/">Home</a></li>
+			  <li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125"><a href="/archives/">Archives</a></li>
+			  <li id="menu-item-126" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-126"><a href="http://sensr.net/about">About</a></li>
+			  <li id="menu-item-127" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-127"><a href="http://sensr.net/faq">FAQ</a></li>
+		  </ul>
+	  </div>			
+    </div>
+  </div>
+  <div id="sensr_banner"></div>
+</div>
+<div id="main">
+
+  <h1>Tuning Sensr.net Motion Detection</h1>
+  <h2>Wed, Apr 20, 2011</h2>
+  <div class="share_buttons_simple_use_buttons" style="padding: 10px 0; display: inline-block">
+  <div class="tweet_button" style="float: left; vertical-align: top">
+    <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/04/20/tuning-sensr-net-motion-detection/" data-text="Tuning Sensr.net Motion Detection" data-count="none">Tweet</a>
+  </div>
+  
+
+<p><div class="facebook_like_button" style="float: left; vertical-align: top; margin-left: 10px; max-width: 255px">
+  </div>
+</div></p>
+
+<div style="width: 343px" class="wp-caption alignleft">
+  <a style="clear: left; margin-bottom: 1em; margin-left: auto; margin-right: auto;" title="Too much information by Violator3, on Flickr" href="http://www.flickr.com/photos/violator3/193968149/"><img src="http://farm1.static.flickr.com/78/193968149_b64b2c75ec.jpg" alt="Too much information" width="333" height="500" /></a>
+  
+  <p class="wp-caption-text">
+    Too much information
+  </p>
+</div>
+
+<p>At <a href="http://sensr.net/">Sensr.net</a> we&#8217;re trying to strike a balance between storing everything and storing what makes sense.</p>
+
+<p>A typical camera sends us a few frames per second.  Our servers process these images and when we detect motion, we save the related images and organize them into the camera view.</p>
+
+<p>Sometimes things can get out of whack if your camera has a lot of motion.  The way to fix this is to adjust the sensitivity of the motion detection algorithm that we use on your camera.  You can adjust the sensitivity of the motion detection by changing the setting in the edit page for your camera. (See the screenshot below.)</p>
+
+<p>If you&#8217;re getting too many images, say more than a 500 per hour, you should consider lowering the sensitivity of the motion detection.  For most cameras a setting in the 3-5 range seems to work well.</p>
+
+<p><strong>We have our limits.</strong> While we try to [save everything][2], we do limit cameras to 600 images per hour.  This means that if you set the motion sensitivity too high, you&#8217;ll blow through your quota of 600 images before the hour is up.  In this case you might miss some important motion events.  Say you use up all 600 images in the first 10 minutes, then Uncle Henry slips on a banana peel at 20 minutes into the hour, you&#8217;ll miss all the fun.</p>
+
+<div style="width: 314px" class="wp-caption alignleft">
+  <a style="clear: left; margin-bottom: 1em; margin-left: auto; margin-right: auto;" href="http://2.bp.blogspot.com/-XUpTkw4soTg/Ta9JUtnilnI/AAAAAAAACfM/wM6aFMZ9DWA/s1600/Screen+shot+2011-04-20+at+1.57.33+PM.png"><img class=" " style="border: 0pt none;" src="http://2.bp.blogspot.com/-XUpTkw4soTg/Ta9JUtnilnI/AAAAAAAACfM/wM6aFMZ9DWA/s320/Screen+shot+2011-04-20+at+1.57.33+PM.png" border="0" alt="Motion Detection configuration on Sensr.net" width="304" height="320" /></a>
+  
+  <p class="wp-caption-text">
+    Motion detection controls on camera edit page.
+  </p>
+</div>
+
+<p><strong>Other options.</strong> If you don&#8217;t want us to do the motion detection, you can simply configure your camera to send us images when it detects motion.  In this case, you&#8217;ll want to turn off the <em>Sensr.net Motion Detection</em> option in the edit camera page.  If you turn off the motion detection on our side, we&#8217;ll simply store all the images your camera sends us, assuming it&#8217;s doing the motion detection.  We still enforce the 600 images per hour limit, however.  So if your camera is sending us a lot of motion when there isn&#8217;t really motion (also called a false positive) then you&#8217;ll still have trouble catching Uncle Henry&#8217;s antics.</p>
+
+<p>The disadvantage of having your camera only send images on motion, is that the Live View of your camera on Sensr.net will be pretty boring.  The live view shows you all the images we get from your camera as they arrive.  If your camera is only sending images on motion, then the live view won&#8217;t show anything most of the time.</p>
+
+<p><a style="margin-left: auto; margin-right: auto;" href="http://4.bp.blogspot.com/-ahc-OHBbIMQ/Ta9bIcDbreI/AAAAAAAACfQ/z4nFwnvrDq0/s1600/Screen+shot+2011-04-20+at+3.13.25+PM.png"><img style="border: 0pt none;" src="http://4.bp.blogspot.com/-ahc-OHBbIMQ/Ta9bIcDbreI/AAAAAAAACfQ/z4nFwnvrDq0/s400/Screen+shot+2011-04-20+at+3.13.25+PM.png" border="0" alt="Sensr.net camera view - Melted Panasonic" width="400" height="267" /></a></p>
+
+<p>The disadvantage of sending a few images per second is that it can use up a lot of your bandwidth.  If you have a bunch of cameras at home and they are all constantly sending 2-3 images per second to Sensr.net, then you might be reach the limits of your DSL or cable modem service.</p>
+
+<p>One solution is to <strong>combine</strong> these approaches.  Some cameras let you send images periodically as well as on motion events.    In this case you can have your camera send a frame once every 10 seconds or so and send images on motion.  This will give you a slow frame rate live view on Sensr.net, but when there is motion, you&#8217;ll still capture it.  To make this work, you&#8217;ll still need to have the Sensr.net motion detection enabled.  Most of the images coming in at the 10 second intervals will be dropped, but when there is motion on your camera, the Sensr.net motion detection algorithm should also detect motion and save the images.</p>
+
+<p>To summarize, if you&#8217;re getting hundreds of motion events per hour on your camera, you should probably lower the <em>Motion Detection Sensitivity</em> setting on your camera&#8217;s edit page.  If you&#8217;re going over 600 images per hour, then you&#8217;re certainly missing events that you might want to catch, and lowering the sensitivity settings can help there as well.</p>
+
+<p><a style="margin-left: auto; margin-right: auto;" href="http://4.bp.blogspot.com/-YflwfhiLpL8/Ta9cAb7kt7I/AAAAAAAACfU/-uURYaqwZaM/s1600/Screen+shot+2011-04-20+at+3.18.35+PM.png"><img style="border: 0pt none;" src="http://4.bp.blogspot.com/-YflwfhiLpL8/Ta9cAb7kt7I/AAAAAAAACfU/-uURYaqwZaM/s400/Screen+shot+2011-04-20+at+3.18.35+PM.png" border="0" alt="Sensr.net camera view - Melted Panasonic 2" width="400" height="267" /></a></p>
+
+<div class="trackable_sharing">
+  <a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F04%2F20%2Ftuning-sensr-net-motion-detection%2F" style="text-decoration: none; white-space: nowrap;" title="Facebook" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Facebook','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/04/20/tuning-sensr-net-motion-detection/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png" alt="Facebook" width="0" height="0" /></a> <a href="http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F04%2F20%2Ftuning-sensr-net-motion-detection%2F&text=Tuning+Sensr.net+Motion+Detection" style="text-decoration: none; white-space: nowrap;" title="Twitter" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Twitter','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/04/20/tuning-sensr-net-motion-detection/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png" alt="Twitter" width="0" height="0" /></a> <a href="http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F04%2F20%2Ftuning-sensr-net-motion-detection%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F04%2F20%2Ftuning-sensr-net-motion-detection%2F" style="text-decoration: none; white-space: nowrap;" title="Reddit" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Reddit','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/04/20/tuning-sensr-net-motion-detection/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=700,height=500'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png" alt="Reddit" width="0" height="0" /></a> <a href="http://digg.com/submit?partner=addthis&url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F04%2F20%2Ftuning-sensr-net-motion-detection%2F&title=Tuning+Sensr.net+Motion+Detection&bodytext=" style="text-decoration: none; white-space: nowrap;" title="Digg" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Digg','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/04/20/tuning-sensr-net-motion-detection/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png" alt="Digg" width="0" height="0" /></a> <a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F04%2F20%2Ftuning-sensr-net-motion-detection%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F04%2F20%2Ftuning-sensr-net-motion-detection%2F" style="text-decoration: none; white-space: nowrap;" title="Stumbleupon" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Stumbleupon','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/04/20/tuning-sensr-net-motion-detection/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png" alt="Stumbleupon" width="0" height="0" /></a> <a href="mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F04%2F20%2Ftuning-sensr-net-motion-detection%2F" style="text-decoration: none; white-space: nowrap;" title="Email" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Email','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/04/20/tuning-sensr-net-motion-detection/']); "><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png" alt="Email" width="0" height="0" /></a>
+</div>
+
+<p>[2]: <a href="http://blog.sensr.net/2011/01/save-everything-share-what-you-want.html">http://blog.sensr.net/2011/01/save-everything-share-what-you-want.html</a></p>
+
+  
+
+<div id="footer" role="contentinfo">
+	<div id="colophon">
+		<div id="site-info">
+			<ul id="copyright">
+				<li class="company-name">
+					<em>Sensr.net, Inc. © 2009-2016</em>
+				</li>
+				<li class="company-networks">Follow us on <a id="icon-twitter" href="http://www.twitter.com/sensr" target="_blank" title="Follow Sensr on Twitter" name="icon-twitter">Twitter</a> <a id="icon-facebook" href="http://www.facebook.com/sensrnet" target="_blank" title="Like Sensr on Facebook" name="icon-facebook">Facebook</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+	</body>
+</html>
+

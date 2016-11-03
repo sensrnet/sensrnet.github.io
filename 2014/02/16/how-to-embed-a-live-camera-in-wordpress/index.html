@@ -1,0 +1,148 @@
+<!DOCTYPE html> 
+<head>
+<title>How to Embed a Live Camera in WordPress</title>	
+<link rel="stylesheet" type="text/css" media="all" href="/css/style.css">
+<link href="/img/sensr-favicon.png" rel="icon" type="image/png">
+</head>
+
+<body>
+<div id="header">
+  <div id="masthead">
+    <div id="branding" role="banner">
+	  <h1 id="site-title">
+        <span><a href="/" title="Sensr.net Blog" rel="home">Sensr.net Blog</a></span>
+      </h1>
+	  <div id="site-description">Watch your Stuff!</div>
+	</div>
+	<div id="access" role="navigation">
+	  <div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+	  <div class="menu-header">
+		  <ul id="menu-menu-test" class="menu">
+			  <li id="menu-item-124" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-124"><a href="http://sensr.net/">Home</a></li>
+			  <li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125"><a href="/archives/">Archives</a></li>
+			  <li id="menu-item-126" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-126"><a href="http://sensr.net/about">About</a></li>
+			  <li id="menu-item-127" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-127"><a href="http://sensr.net/faq">FAQ</a></li>
+		  </ul>
+	  </div>			
+    </div>
+  </div>
+  <div id="sensr_banner"></div>
+</div>
+<div id="main">
+
+  <h1>How to Embed a Live Camera in WordPress</h1>
+  <h2>Mon, Feb 17, 2014</h2>
+  <div class="share_buttons_simple_use_buttons" style="padding: 10px 0; display: inline-block">
+  <div class="tweet_button" style="float: left; vertical-align: top">
+    <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/02/16/how-to-embed-a-live-camera-in-wordpress/" data-text="How to Embed a Live Camera in WordPress" data-count="none">Tweet</a>
+  </div>
+  
+
+<p><div class="facebook_like_button" style="float: left; vertical-align: top; margin-left: 10px; max-width: 255px">
+  </div>
+</div></p>
+
+<div id="attachment_2721" style="width: 310px" class="wp-caption alignleft">
+  <a href="http://kiteboardingmiamibeach.com/"><img alt="Miami Beach Kiteboarders Foundation live stream via Sensr.net" src="http://sensr.net/blog/wp-content/uploads/2014/02/mbkf.png" width="300" /></a>
+  
+  <p class="wp-caption-text">
+    Miami Beach Kiteboarders Foundation live stream via Sensr.net
+  </p>
+</div>
+
+<p>One popular feature we provide with Sensr.net is the ability to embed live streams into any website. At the left is a screenshot of the Miami Beach Kiteboarders Foundation website and their use of the Sensr.net embed widget.</p>
+
+<p>If you have a camera on the Sensr.net site, its easy to do this with your camera. After you log in, hover the mouse over your name in the top right corner of the window. You&#8217;ll see a drop down menu named <a href="https://sensr.net/widgets" title="Widgets">Widgets</a>.</p>
+
+<p>You can also just go to the link <a href="https://sensr.net/widgets" title="Widgets">https://sensr.net/widgets</a>.</p>
+
+<p>Currently we support two kinds of embed widgets, one that shows the live stream for a single camera, like the Miami Beach camera shown above, and another one that shows a list of your public cameras. You can see both styles on the screenshots below.</p>
+
+<div id="attachment_2716" style="width: 650px" class="wp-caption alignleft">
+  <a href="http://sensr.net/blog/wp-content/uploads/2014/02/single-camera-embed.png"><img class="size-large wp-image-2716" alt="Embed a single camera's live stream." src="http://sensr.net/blog/wp-content/uploads/2014/02/single-camera-embed-1024x808.png" width="640" height="505" srcset="http://sensr.net/blog/wp-content/uploads/2014/02/single-camera-embed-1024x808.png 1024w, http://sensr.net/blog/wp-content/uploads/2014/02/single-camera-embed-300x236.png 300w, http://sensr.net/blog/wp-content/uploads/2014/02/single-camera-embed.png 1097w" sizes="(max-width: 640px) 100vw, 640px" /></a>
+  
+  <p class="wp-caption-text">
+    Embed a single camera&#8217;s live stream.
+  </p>
+</div>
+
+<div id="attachment_2715" style="width: 650px" class="wp-caption alignleft">
+  <img class="size-large wp-image-2715" alt="Embed a list of all your public cameras." src="http://sensr.net/blog/wp-content/uploads/2014/02/public-embed-1024x808.png" width="640" height="505" srcset="http://sensr.net/blog/wp-content/uploads/2014/02/public-embed-1024x808.png 1024w, http://sensr.net/blog/wp-content/uploads/2014/02/public-embed-300x236.png 300w, http://sensr.net/blog/wp-content/uploads/2014/02/public-embed.png 1097w" sizes="(max-width: 640px) 100vw, 640px" />
+  
+  <p class="wp-caption-text">
+    Embed a list of all your public cameras.
+  </p>
+</div>
+
+<p>The code that gets generated for a public cameras widget will look something like this.</p>
+
+<pre>&lt;script type="text/javascript" 
+src="https://sensr.net/widgets/user_cameras/21675d5e49"&gt;&lt;/script&gt;</pre>
+
+<p>The code that is generated for a live camera widget will look like this.</p>
+
+<pre>&lt;script src="https://sensr.net/javascripts/swfobject.js" 
+type="text/javascript"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" 
+src="https://sensr.net/widgets/live_view/21676d5e49/40694"&gt;
+&lt;/script&gt;</pre>
+
+<p><strong> WordPress Embedding</strong></p>
+
+<p><strong> </strong>If you have access to the source code for your site, you can just drop the embed widget script code directly into the HTML page and it should work. However, WordPress doesn&#8217;t allow most users to just paste code like this into a post because it can lead to <a href="http://en.support.wordpress.com/code/" title="WordPress Code Security">security issues</a>.</p>
+
+<p>Luckily you can create your own short code and put the embed code there. Thanks to WPBeginner for the nice <a href="http://www.wpbeginner.com/wp-tutorials/how-to-add-a-shortcode-in-wordpress/" title="WordPress shortcode tutorial">WordPress shortcode tutorial</a>. Log into WordPress and go to Appearance/Editor and then edit the functions.php file. You can create a new shortcode called [sensr] by adding lines like this:</p>
+
+<pre>function get_sensr($atts) {
+return '&lt;script src="https://sensr.net/javascripts/swfobject.js" 
+type="text/javascript"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" 
+src="https://sensr.net/widgets/live_view/8435abf934/39752"&gt;
+&lt;/script&gt;';
+}
+
+add_shortcode('sensr', 'get_sensr');</pre>
+
+<p>Now when you use the shortcode [sensr] you&#8217;ll see the embed widget in your post, here&#8217;s the MBKF live widget embedded here:</p>
+
+<p><strong>Customize Widget Size</strong></p>
+
+<p>If you want to change the size of the widget, simply add a width and height parameter to the end.  For the Miami Beach Kiteboarders Foundation they are using a 640&#215;480 widget size so their URL looks like this:</p>
+
+<p>_<a href="https://sensr.net/widgets/live_view/8435abf934/39752?width=640&amp;height=480_">https://sensr.net/widgets/live_view/8435abf934/39752?width=640&amp;height=480_</a></p>
+
+<p><strong>What about Custom Fields?</strong></p>
+
+<p>I tried using custom fields for this but it didn&#8217;t work. I&#8217;m guessing that this is also turned off for some reason on my WordPress configuration. I was able to create a custom field but when I used it, it didn&#8217;t work.</p>
+
+<p><strong>Next Steps</strong></p>
+
+<p>Eventually we should support the <a href="http://codex.wordpress.org/Embeds" title="WordPress Embed using oEmbed">oEmbed</a> standard to make this even easier.</p>
+
+<p><strong>Thanks!</strong></p>
+
+<p>Tip of the hat to <a href="http://www.undermyhat.org/blog/2012/05/how-to-properly-escape-shortcodes-in-wordpress/" title="Escaping Shortcodes">Under My Hat for ways of escaping shortcodes</a>.  Once I finally got the [sensr] shortocde working I couldn&#8217;t blog about it!</p>
+
+<div class="trackable_sharing">
+  <a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F02%2F16%2Fhow-to-embed-a-live-camera-in-wordpress%2F" style="text-decoration: none; white-space: nowrap;" title="Facebook" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Facebook','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/02/16/how-to-embed-a-live-camera-in-wordpress/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png" alt="Facebook" width="0" height="0" /></a> <a href="http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F02%2F16%2Fhow-to-embed-a-live-camera-in-wordpress%2F&text=How+to+Embed+a+Live+Camera+in+WordPress" style="text-decoration: none; white-space: nowrap;" title="Twitter" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Twitter','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/02/16/how-to-embed-a-live-camera-in-wordpress/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png" alt="Twitter" width="0" height="0" /></a> <a href="http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F02%2F16%2Fhow-to-embed-a-live-camera-in-wordpress%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F02%2F16%2Fhow-to-embed-a-live-camera-in-wordpress%2F" style="text-decoration: none; white-space: nowrap;" title="Reddit" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Reddit','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/02/16/how-to-embed-a-live-camera-in-wordpress/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=700,height=500'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png" alt="Reddit" width="0" height="0" /></a> <a href="http://digg.com/submit?partner=addthis&url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F02%2F16%2Fhow-to-embed-a-live-camera-in-wordpress%2F&title=How+to+Embed+a+Live+Camera+in+WordPress&bodytext=" style="text-decoration: none; white-space: nowrap;" title="Digg" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Digg','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/02/16/how-to-embed-a-live-camera-in-wordpress/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png" alt="Digg" width="0" height="0" /></a> <a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F02%2F16%2Fhow-to-embed-a-live-camera-in-wordpress%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F02%2F16%2Fhow-to-embed-a-live-camera-in-wordpress%2F" style="text-decoration: none; white-space: nowrap;" title="Stumbleupon" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Stumbleupon','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/02/16/how-to-embed-a-live-camera-in-wordpress/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png" alt="Stumbleupon" width="0" height="0" /></a> <a href="mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F02%2F16%2Fhow-to-embed-a-live-camera-in-wordpress%2F" style="text-decoration: none; white-space: nowrap;" title="Email" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Email','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/02/16/how-to-embed-a-live-camera-in-wordpress/']); "><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png" alt="Email" width="0" height="0" /></a>
+</div>
+
+  
+
+<div id="footer" role="contentinfo">
+	<div id="colophon">
+		<div id="site-info">
+			<ul id="copyright">
+				<li class="company-name">
+					<em>Sensr.net, Inc. © 2009-2016</em>
+				</li>
+				<li class="company-networks">Follow us on <a id="icon-twitter" href="http://www.twitter.com/sensr" target="_blank" title="Follow Sensr on Twitter" name="icon-twitter">Twitter</a> <a id="icon-facebook" href="http://www.facebook.com/sensrnet" target="_blank" title="Like Sensr on Facebook" name="icon-facebook">Facebook</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+	</body>
+</html>
+

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wireless Camera on Sensr.net Blog | Watch your Stuff!</title>
+    <link>https://sblog.sensr.net/tags/wireless-camera/</link>
+    <description>Recent content in Wireless Camera on Sensr.net Blog | Watch your Stuff!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Feb 2014 00:12:17 +0000</lastBuildDate>
+    <atom:link href="https://sblog.sensr.net/tags/wireless-camera/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>HOWTO Setup D-Link DCS-5010L Recording with FTP</title>
+      <link>https://sblog.sensr.net/2014/02/04/howto-setup-d-link-dcs-5010l-recording-with-ftp/</link>
+      <pubDate>Wed, 05 Feb 2014 00:12:17 +0000</pubDate>
+      
+      <guid>https://sblog.sensr.net/2014/02/04/howto-setup-d-link-dcs-5010l-recording-with-ftp/</guid>
+      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
+  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
+    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/02/04/howto-setup-d-link-dcs-5010l-recording-with-ftp/&#34; data-text=&#34;HOWTO Setup D-Link DCS-5010L Recording with FTP&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
+  &lt;/div&gt;
+  
+
+&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2694&#34; style=&#34;width: 386px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/DCS-5010L.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-2694&#34; alt=&#34;D-Link 5010L&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/DCS-5010L.jpg&#34; width=&#34;376&#34; height=&#34;450&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/DCS-5010L.jpg 376w, http://sensr.net/blog/wp-content/uploads/2014/02/DCS-5010L-250x300.jpg 250w&#34; sizes=&#34;(max-width: 376px) 100vw, 376px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    D-Link 5010L
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The &lt;a href=&#34;http://www.dlink.com/us/en/home-solutions/view/network-cameras/dcs-5010l-pan-tilt-day-night-network-camera&#34; title=&#34;DCS-5010L&#34;&gt;D-Link DCS 5010L&lt;/a&gt; is one of their most popular camera models with night vision, pan and tilt, WiFi and it works with the mydlink service.  &lt;a href=&#34;http://www.amazon.com/D-Link-Wireless-Surveillance-mydlink-Enabled-DCS-5010L/dp/B00CR0JAT8/sensr-20&#34; title=&#34;DCS 5010L on Amazon&#34;&gt;The DCS 5010L is also very affordable at around $75&lt;/a&gt; on Amazon these days. This camera compares to the DCS-5020L at almost twice the price.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Recording Needed&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;While the &lt;a href=&#34;http://www.mydlink.com&#34; title=&#34;My D-Link Camera Portal&#34;&gt;MyDlink&lt;/a&gt; service will let you view this camera remotely, it doesn&amp;#8217;t support any kind of recording or saving of images. That&amp;#8217;s where Sensr.net comes in.  We&amp;#8217;ll save up to a month of archives automatically.  This blog post will show you how to setup the DCS-5010L so you can see what happened while you weren&amp;#8217;t looking!&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;ll also show you how to configure the camera to push images to the Sensr.net site so you can take advantage of all the cool &lt;a href=&#34;http://sensr.net/&#34;&gt;Sensr.net&lt;/a&gt; features like archiving, sharing, and alerting that our site provides.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Setup your &lt;a href=&#34;http://www.mydlink.com&#34; title=&#34;MyDlink Service&#34;&gt;MyDlink&lt;/a&gt; Service&lt;/li&gt;
+&lt;li&gt;Tell Sensr.net about your camera&lt;/li&gt;
+&lt;li&gt;Tell your camera about Sensr.net&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Details&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 1:  &lt;/strong&gt;To setup the camera out of the box, just use the CD and instructions that come with the camera. Basically you&amp;#8217;ll need to connect the camera to your router and run some software from the CD.  You&amp;#8217;ll end up creating an account on the MyDlink site that will let you log into your camera through their website or using the MyDlink apps.  Once you have that setup, you&amp;#8217;ll be able to log into your camera and change it&amp;#8217;s configurations.  You&amp;#8217;ll be able to see the camera&amp;#8217;s configuration page which looks something like this:&lt;/p&gt;
+
+&lt;div style=&#34;width: 410px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://2.bp.blogspot.com/_yVvkcbKGc_g/TUg00C0d5tI/AAAAAAAACVw/pgWmy3nZ7dg/s1600/Screen+shot+2011-02-01+at+7.47.03+AM.png&#34;&gt;&lt;img class=&#34; &#34; title=&#34;D-Link DCS-5010L Admin page&#34; alt=&#34;D-Link DCS-5010L Admin page configured on Sensr.net&#34; src=&#34;http://2.bp.blogspot.com/_yVvkcbKGc_g/TUg00C0d5tI/AAAAAAAACVw/pgWmy3nZ7dg/s400/Screen+shot+2011-02-01+at+7.47.03+AM.png&#34; width=&#34;400&#34; height=&#34;289&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    DCS-5010L Admin page
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You can now make changes to your camera&amp;#8217;s config through your browser. You don&amp;#8217;t need to do anything else if you just want to view the camera live inside your home or through the MyDlink website. (There are other configs like wireless and image size, all of which you can get to through the web interface, I&amp;#8217;m not going to cover them here.)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Add a New Camera to your Sensr.net Account&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 2 &lt;/strong&gt;Login to Sensr.net using your email and password.  If you don&amp;#8217;t have an account, you can &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34; title=&#34;Free Sensr.net Account Signup&#34;&gt;add one for free on the sign up page&lt;/a&gt;.  Once you&amp;#8217;re logged in, just click the &lt;strong&gt;Add Camera&lt;/strong&gt; button in green.&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2674&#34; style=&#34;width: 1013px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/sensr-add-camera.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2674&#34; alt=&#34;Click the green button.&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/sensr-add-camera.png&#34; width=&#34;1003&#34; height=&#34;339&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/sensr-add-camera.png 1003w, http://sensr.net/blog/wp-content/uploads/2014/01/sensr-add-camera-300x101.png 300w&#34; sizes=&#34;(max-width: 1003px) 100vw, 1003px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Click the green button.
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Next you&amp;#8217;ll see a page where you can set the camera&amp;#8217;s title, the time zone, privacy, and model.  The title should be something that describes what the camera is pointing at.  The most popular camera title on Sensr.net is &lt;strong&gt;Front Door&lt;/strong&gt; so this gives you an idea of how folks are using our site. You can name the camera whatever you want though, we generate a generic name based on your login. The time zone is pretty important.  It&amp;#8217;s used to generate the day view of the archives.  Cameras are private by default, meaning only you can see them.  If you want your camera to be public, you can change that setting here.  The camera model just tells us what kind of camera you&amp;#8217;re setting up.  In this case it would be a DCS-5010L.&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2675&#34; style=&#34;width: 1009px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/add-camera-details.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2675&#34; alt=&#34;Name your camera and give us some basic info about it.&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/add-camera-details.png&#34; width=&#34;999&#34; height=&#34;491&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/add-camera-details.png 999w, http://sensr.net/blog/wp-content/uploads/2014/01/add-camera-details-300x147.png 300w&#34; sizes=&#34;(max-width: 999px) 100vw, 999px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Name your camera and give us some basic info about it.
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Once you fill in the details and click the &lt;strong&gt;Next Step&lt;/strong&gt; link we&amp;#8217;ll generate some FTP credentials for you. You&amp;#8217;ll need to put these into your camera in the next step.  The important things are:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;span style=&#34;line-height: 16px;&#34;&gt;FTP Server&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Username&lt;/li&gt;
+&lt;li&gt;Password&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Keep this window open or copy and paste them somewhere since you&amp;#8217;ll need them soon.  You can always get them back later if you need them again or loose them.  They&amp;#8217;ll be under the camera&amp;#8217;s details page.&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2607&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2607&#34; alt=&#34;FTP credentials&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-1024x708.png&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-1024x708.png 1024w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    FTP credentials
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tell your Camera about Sensr.net&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 3  &lt;/strong&gt;Now you need to configure your camera so it will send images to sensr.net.  Go back to the page for your DCS-5010L.  You can get here by logging into MyDlink and clicking on the configuration link.  Click on &amp;#8220;SETUP&amp;#8221; on the top menu and then &amp;#8220;FTP&amp;#8221; on the side.  You&amp;#8217;ll then be at a page that looks like this:&lt;/p&gt;
+
+&lt;div style=&#34;width: 330px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://2.bp.blogspot.com/_yVvkcbKGc_g/TUhnqKDHeAI/AAAAAAAACV8/8t4NtG6Gav8/s1600/dcs930ftp.png&#34;&gt;&lt;img class=&#34; &#34; title=&#34;D-Link DCS-5010L FTP setup page&#34; alt=&#34;DCS-5010L FTP setup page configured on Sensr.net&#34; src=&#34;http://2.bp.blogspot.com/_yVvkcbKGc_g/TUhnqKDHeAI/AAAAAAAACV8/8t4NtG6Gav8/s320/dcs930ftp.png&#34; width=&#34;320&#34; height=&#34;298&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    DCS-5010L FTP setup page
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The red arrows above show the settings you need to configure.  Under Host Name add the FTP server name you got from the add camera page on sensr.net.  Copy the user name and password as well.  Make sure to select &amp;#8220;Passive Mode&amp;#8221;,  we only support passive FTP on Sensr.net.&lt;/p&gt;
+
+&lt;p&gt;You also need to tell your camera to send images to Sensr.net on a schedule.  You do this by selecting the check box &amp;#8220;Enable uploading to the FTP server&amp;#8221; and confirm that &amp;#8220;Always&amp;#8221; and &amp;#8220;1 Frames/Second&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;are selected.    These are the defaults and seem to work well.  The other default&amp;#8217;s for the file name are also well supported, so no reason to change them.&lt;/p&gt;
+
+&lt;p&gt;Make sure to click the &amp;#8220;Save Settings&amp;#8221; button at the top of the page.  Once you&amp;#8217;ve done this, your DCS-5010L should be sending images to Sensr.net.&lt;/p&gt;
+
+&lt;p&gt;At this point you are done. You can close the browser window pointed at your camera and go back to Sensr.net. Click on the &lt;strong&gt;Next Step&lt;/strong&gt; button to see the images coming in from your camera. You should see a page something like this:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2618&#34; style=&#34;width: 997px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2618&#34; alt=&#34;Success!&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success.png&#34; width=&#34;987&#34; height=&#34;793&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success.png 987w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success-300x241.png 300w&#34; sizes=&#34;(max-width: 987px) 100vw, 987px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Success!
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now that you have the camera setup, here are some other things you can do:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;span style=&#34;line-height: 16px;&#34;&gt;Add motion alerts via SMS or email&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://sensr.net/blog/2012/04/11/guest-access-for-sensr-net-cameras/&#34; title=&#34;Guest Access for private webcams&#34;&gt;Invite guests to view your private camera&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://sensr.net/blog/2011/02/27/embed-your-sensr-net-cameras-live-view/&#34; title=&#34;Embed live webcam view&#34;&gt;Embed the live stream on your blog&lt;/a&gt; or other website&lt;/li&gt;
+&lt;li&gt;Create a clip and share it on Facebook, Twitter, or YouTube&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Note that you can view the camera live on the Sensr.net site or the MyDlink site. With MyDlink you&amp;#8217;ll be able to configure the camera and use the pan and tilt functions. On the Sensr.net site you&amp;#8217;ll see recorded archives and setup alerts, create clips for sharing, save images to a favorites gallery and a whole lot more.&lt;/p&gt;
+
+&lt;p&gt;If you have any problems or questions, just click the Feedback button on the right side of every Sensr.net page and ask us a question.  We usually respond quickly and try hard to get back within 24 hours at the latest.&lt;/p&gt;
+
+&lt;div class=&#34;trackable_sharing&#34;&gt;
+  &lt;a href=&#34;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F02%2F04%2Fhowto-setup-d-link-dcs-5010l-recording-with-ftp%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Facebook&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Facebook&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/02/04/howto-setup-d-link-dcs-5010l-recording-with-ftp/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png&#34; alt=&#34;Facebook&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F02%2F04%2Fhowto-setup-d-link-dcs-5010l-recording-with-ftp%2F&amp;text=HOWTO+Setup+D-Link+DCS-5010L+Recording+with+FTP&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Twitter&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Twitter&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/02/04/howto-setup-d-link-dcs-5010l-recording-with-ftp/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png&#34; alt=&#34;Twitter&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F02%2F04%2Fhowto-setup-d-link-dcs-5010l-recording-with-ftp%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F02%2F04%2Fhowto-setup-d-link-dcs-5010l-recording-with-ftp%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Reddit&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Reddit&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/02/04/howto-setup-d-link-dcs-5010l-recording-with-ftp/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=700,height=500&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png&#34; alt=&#34;Reddit&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://digg.com/submit?partner=addthis&amp;url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F02%2F04%2Fhowto-setup-d-link-dcs-5010l-recording-with-ftp%2F&amp;title=HOWTO+Setup+D-Link+DCS-5010L+Recording+with+FTP&amp;bodytext=&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Digg&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Digg&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/02/04/howto-setup-d-link-dcs-5010l-recording-with-ftp/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png&#34; alt=&#34;Digg&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F02%2F04%2Fhowto-setup-d-link-dcs-5010l-recording-with-ftp%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F02%2F04%2Fhowto-setup-d-link-dcs-5010l-recording-with-ftp%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Stumbleupon&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Stumbleupon&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/02/04/howto-setup-d-link-dcs-5010l-recording-with-ftp/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png&#34; alt=&#34;Stumbleupon&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F02%2F04%2Fhowto-setup-d-link-dcs-5010l-recording-with-ftp%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Email&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Email&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/02/04/howto-setup-d-link-dcs-5010l-recording-with-ftp/&#39;]); &#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png&#34; alt=&#34;Email&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Axis M1011 Firmware Upgrade for HTTP Upload</title>
+      <link>https://sblog.sensr.net/2011/06/24/axis-m1011-firmware-upgrade-for-http-upload/</link>
+      <pubDate>Fri, 24 Jun 2011 18:39:08 +0000</pubDate>
+      
+      <guid>https://sblog.sensr.net/2011/06/24/axis-m1011-firmware-upgrade-for-http-upload/</guid>
+      <description>
+
+&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
+  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
+    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/06/24/axis-m1011-firmware-upgrade-for-http-upload/&#34; data-text=&#34;Axis M1011 Firmware Upgrade for HTTP Upload&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
+  &lt;/div&gt;
+  
+
+&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;Though a little used feature, Sensr.net support upload of images via HTTP. (Most of the cameras connected to the site use FTP.)  One of the few cameras that supports this upload option is the Axis M1011.&lt;/p&gt;
+
+&lt;p&gt;We had an Axis M1011 in the office that was presenting intermittent errors.  The system log in the camera reported the cryptic error:&lt;/p&gt;
+
+&lt;pre&gt;Failed to read reply from server.&lt;/pre&gt;
+
+&lt;p&gt;After poking around for a while, we checked the firmware revision and noticed that our camera had revision  of 5.00.1 dated December 2009. It turns out that there is a much newer revision of 5.20.1.  Installing this Firmware revision fixed the stability problem we were observing.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;color: #000000; font-size: 23px; line-height: 35px;&#34;&gt;How to use HTTP Upload on the Axis M1011&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Under the &amp;#8220;Events&amp;#8221; menu, define a new Event Server of type HTTP.  You will then be presented with a screen for defining the upload server.  HTTP Upload uses the same Sensr.net credentials as FTP Upload (SERVER/USERNAME/PASSWORD), but they are used in a slightly different way.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The Name can be anything meaningful to you.&lt;/li&gt;
+&lt;li&gt;The URL of the camera upload specifies the sensr upload server and the camera username:  &lt;a href=&#34;http://SERVER/photo/USERNAME&#34;&gt;http://SERVER/photo/USERNAME&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The upload user name is the camera username: USERNAME&lt;/li&gt;
+&lt;li&gt;The upload password is the camera password: PASSWORD.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.sensr.net/wp-content/uploads/2011/06/Axis-M1011-HTTP-Upload.png&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-338&#34; title=&#34;Axis M1011 HTTP Upload&#34; src=&#34;http://blog.sensr.net/wp-content/uploads/2011/06/Axis-M1011-HTTP-Upload.png&#34; alt=&#34;&#34; width=&#34;597&#34; height=&#34;295&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2011/06/Axis-M1011-HTTP-Upload.png 597w, http://sensr.net/blog/wp-content/uploads/2011/06/Axis-M1011-HTTP-Upload-300x148.png 300w&#34; sizes=&#34;(max-width: 597px) 100vw, 597px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, define an event that will upload to this server.  I like to define an event to fire continuously at one-second intervals.  Use the Event Server name you created above to reference which server to connect to.  Notice how the event server called &amp;#8220;NewHTTPServer&amp;#8221; created above is reference here.&lt;/p&gt;
+
+&lt;p&gt;[&lt;img class=&#34;aligncenter size-full wp-image-340&#34; title=&#34;AxisEvent&#34; src=&#34;http://blog.sensr.net/wp-content/uploads/2011/06/AxisEvent1.png&#34; alt=&#34;&#34; width=&#34;645&#34; height=&#34;650&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2011/06/AxisEvent1.png 645w, http://sensr.net/blog/wp-content/uploads/2011/06/AxisEvent1-150x150.png 150w, http://sensr.net/blog/wp-content/uploads/2011/06/AxisEvent1-297x300.png 297w&#34; sizes=&#34;(max-width: 645px) 100vw, 645px&#34; /&gt;][2]&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusion:ed3337995fcf59e07d2420964f3b110a&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;HTTP Upload is a simpler protocol than FTP and traverses firewalls better in some cases.  If you are using an Axis camera, you might like giving this option a try, but be sure to upgrade your firmware first.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;div class=&#34;trackable_sharing&#34;&gt;
+  &lt;a href=&#34;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F06%2F24%2Faxis-m1011-firmware-upgrade-for-http-upload%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Facebook&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Facebook&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/06/24/axis-m1011-firmware-upgrade-for-http-upload/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png&#34; alt=&#34;Facebook&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F06%2F24%2Faxis-m1011-firmware-upgrade-for-http-upload%2F&amp;text=Axis+M1011+Firmware+Upgrade+for+HTTP+Upload&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Twitter&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Twitter&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/06/24/axis-m1011-firmware-upgrade-for-http-upload/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png&#34; alt=&#34;Twitter&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F06%2F24%2Faxis-m1011-firmware-upgrade-for-http-upload%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F06%2F24%2Faxis-m1011-firmware-upgrade-for-http-upload%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Reddit&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Reddit&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/06/24/axis-m1011-firmware-upgrade-for-http-upload/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=700,height=500&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png&#34; alt=&#34;Reddit&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://digg.com/submit?partner=addthis&amp;url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F06%2F24%2Faxis-m1011-firmware-upgrade-for-http-upload%2F&amp;title=Axis+M1011+Firmware+Upgrade+for+HTTP+Upload&amp;bodytext=&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Digg&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Digg&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/06/24/axis-m1011-firmware-upgrade-for-http-upload/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png&#34; alt=&#34;Digg&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F06%2F24%2Faxis-m1011-firmware-upgrade-for-http-upload%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F06%2F24%2Faxis-m1011-firmware-upgrade-for-http-upload%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Stumbleupon&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Stumbleupon&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/06/24/axis-m1011-firmware-upgrade-for-http-upload/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png&#34; alt=&#34;Stumbleupon&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F06%2F24%2Faxis-m1011-firmware-upgrade-for-http-upload%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Email&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Email&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/06/24/axis-m1011-firmware-upgrade-for-http-upload/&#39;]); &#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png&#34; alt=&#34;Email&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;[2]: &lt;a href=&#34;http://blog.sensr.net/wp-content/uploads/2011/06/AxisEvent1.png&#34;&gt;http://blog.sensr.net/wp-content/uploads/2011/06/AxisEvent1.png&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>HOWTO Make a Cheap Network Camera Enclosure</title>
+      <link>https://sblog.sensr.net/2011/05/26/howto-make-cheap-network-camera-enclosure/</link>
+      <pubDate>Fri, 27 May 2011 05:22:28 +0000</pubDate>
+      
+      <guid>https://sblog.sensr.net/2011/05/26/howto-make-cheap-network-camera-enclosure/</guid>
+      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
+  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
+    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/05/26/howto-make-cheap-network-camera-enclosure/&#34; data-text=&#34;HOWTO Make a Cheap Network Camera Enclosure&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
+  &lt;/div&gt;
+  
+
+&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;div id=&#39;gallery-1&#39; class=&#39;gallery galleryid-129 gallery-columns-3 gallery-size-thumbnail&#39;&gt;
+  &lt;dl class=&#39;gallery-item&#39;&gt;
+    &lt;dt class=&#39;gallery-icon portrait&#39;&gt;
+      &lt;a href=&#39;http://sensr.net/blog/wp-content/uploads/2011/05/IMG_0470-e1306471506960.jpg&#39;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2011/05/IMG_0470-e1306471506960-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;How To Make a Network Camera Enclosure on Sensr.net blog&#34; /&gt;&lt;/a&gt;
+    &lt;/dt&gt;
+  &lt;/dl&gt;
+  
+  &lt;dl class=&#39;gallery-item&#39;&gt;
+    &lt;dt class=&#39;gallery-icon portrait&#39;&gt;
+      &lt;a href=&#39;http://sensr.net/blog/wp-content/uploads/2011/05/IMG_0471-e1306471487210.jpg&#39;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2011/05/IMG_0471-e1306471487210-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;How To Make a Network Camera Enclosure on Sensr.net blog&#34; /&gt;&lt;/a&gt;
+    &lt;/dt&gt;
+  &lt;/dl&gt;
+  
+  &lt;dl class=&#39;gallery-item&#39;&gt;
+    &lt;dt class=&#39;gallery-icon portrait&#39;&gt;
+      &lt;a href=&#39;http://sensr.net/blog/wp-content/uploads/2011/05/IMG_0472-e1306471470976.jpg&#39;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2011/05/IMG_0472-e1306471470976-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Sensr.net shows how to make a cheap network camera enclosure&#34; /&gt;&lt;/a&gt;
+    &lt;/dt&gt;
+  &lt;/dl&gt;
+  
+  &lt;br style=&#34;clear: both&#34; /&gt;
+  
+  &lt;dl class=&#39;gallery-item&#39;&gt;
+    &lt;dt class=&#39;gallery-icon portrait&#39;&gt;
+      &lt;a href=&#39;http://sensr.net/blog/wp-content/uploads/2011/05/IMG_0473-e1306471452340.jpg&#39;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2011/05/IMG_0473-e1306471452340-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;How To Make a Network Camera Enclosure&#34; /&gt;&lt;/a&gt;
+    &lt;/dt&gt;
+  &lt;/dl&gt;
+  
+  &lt;dl class=&#39;gallery-item&#39;&gt;
+    &lt;dt class=&#39;gallery-icon portrait&#39;&gt;
+      &lt;a href=&#39;http://sensr.net/blog/wp-content/uploads/2011/05/IMG_0474-e1306471426467.jpg&#39;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2011/05/IMG_0474-e1306471426467-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Making a network camera enclosure on http://blog.sensr.net.&#34; /&gt;&lt;/a&gt;
+    &lt;/dt&gt;
+  &lt;/dl&gt;
+  
+  &lt;dl class=&#39;gallery-item&#39;&gt;
+    &lt;dt class=&#39;gallery-icon portrait&#39;&gt;
+      &lt;a href=&#39;http://sensr.net/blog/wp-content/uploads/2011/05/IMG_0475-e1306471400972.jpg&#39;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2011/05/IMG_0475-e1306471400972-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Finished network camera enclosure on http://blog.sensr.net&#34; /&gt;&lt;/a&gt;
+    &lt;/dt&gt;
+  &lt;/dl&gt;
+  
+  &lt;br style=&#34;clear: both&#34; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;When a network camera costs under $100 it doesn&amp;#8217;t make sense to spend $300+ on a &lt;a href=&#34;http://amzn.to/lG4qNS&#34; target=&#34;_blank&#34;&gt;fancy camera enclosure&lt;/a&gt; so you can mount the camera outside.    If you live in a temperate climate, you just need to keep the camera dry.  If you live where the temperatures stay below freezing for long periods of time, this hack probably won&amp;#8217;t work for you.  If you reside south of the Mason-Dixon Line or enjoy a Mediterranean climate like coastal California, this might be just the ticket.&lt;/p&gt;
+
+&lt;p&gt;Take your camera to your local hardware store and find a PVC pipe that it will fit into. I chose a nice black pipe with a small bend in it.  The black matched the trim on the house, so it was a good fit.  For a lot of homes, white might be a better choice.&lt;/p&gt;
+
+&lt;p&gt;In my case I was mounting the camera on our shed.  My power source (a 110v outlet) is on the inside of the shed, so I just drilled a hole in the wall big enough to snake the power cord through.  (See photo above.)&lt;/p&gt;
+
+&lt;p&gt;You can get fancy and actually use screws to mount the camera.  I decided to use super strong double sided tape.  Just slap a couple strips on the camera mount and you&amp;#8217;re good to go.&lt;/p&gt;
+
+&lt;p&gt;Next you need to mount the PVC pipe around the camera.  Again I opted for the lazy man&amp;#8217;s solution, more double sided tape.  I cut a bunch of small strips and stuck them around the circumference of the PVC pipe.  Initially I tried to get away with just two pieces of tape.  (See photo.)  The next morning I was unhappily greeted by PVC pipe on the ground.  Don&amp;#8217;t be &lt;em&gt;too&lt;/em&gt; lazy.  Cover the entire circumference of the  pipe with tape.&lt;/p&gt;
+
+&lt;p&gt;Word to the wise:  &lt;a href=&#34;http://www.vat19.com/dvds/joes-sticky-stuff-pressure-sensitive-tape.cfm&#34; target=&#34;_blank&#34;&gt;super strong double sided sticky tape&lt;/a&gt; is &lt;em&gt;super strong&lt;/em&gt;.  You want to practice mounting the PVC pipe with before removing the backing paper.  If you place the PVC pipe in the wrong location and have to move it, the tape will most likely leave ugly marks or remove the existing paint.   Don&amp;#8217;t forget to make sure the camera angle works for you before mounting the pipe.  In my case I tried several different rotation angles for the pipe to make sure the camera angle worked out.  (Setting up your camera on &lt;a title=&#34;Network Camera Monitoring in the Cloud&#34; href=&#34;http://sensr.net&#34; target=&#34;_blank&#34;&gt;Sensr.net&lt;/a&gt; first can help with this.  Just use the &amp;#8220;live view&amp;#8221; on your iPhone or Android to preview the camera angle.)&lt;/p&gt;
+
+&lt;p&gt;That&amp;#8217;s it!  Once you stick the PVC pipe over the camera, you should be good to go.  Sure, the camera is still stuck in the open air and if you get some torrential rains it might be ruined.  But hey, at that point you&amp;#8217;ll only be out the cost of the camera, between $50 and $150 most likely.  The cost of this mount and cover is negligible, about $5.  If the camera lasts a year or so you&amp;#8217;ll want to upgrade it anyway!&lt;/p&gt;
+
+&lt;p&gt;Once you get your camera mounted, make sure to register it with &lt;a title=&#34;Network Camera Monitoring&#34; href=&#34;http://sensr.net&#34; target=&#34;_blank&#34;&gt;Sensr.net&lt;/a&gt; so you can easily view, share, and archive it in the cloud.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;:  &lt;em&gt;There is a nice Instructables article on making an &lt;a href=&#34;http://www.instructables.com/id/Outdoor-IP-Camera-Housing-from-garden-lamps/&#34; title=&#34;IP Camera Housing from garden lamps&#34;&gt;IP camera housing from garden lamps&lt;/a&gt;.   There was also an article in &lt;a href=&#34;http://makezine.com/09/diyimaging_outdoorcam/&#34; title=&#34;makezine: Outdoor Webcam Enclosure&#34;&gt;Make Magazine&lt;/a&gt; back in 2009 on how to make a &lt;a href=&#34;http://www.komar.org/how-to/outdoor-webcams/&#34; title=&#34;Cheap Webcam Enclosure&#34;&gt;Cheap Webcam Enclosure&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&#34;trackable_sharing&#34;&gt;
+  &lt;a href=&#34;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F05%2F26%2Fhowto-make-cheap-network-camera-enclosure%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Facebook&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Facebook&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/05/26/howto-make-cheap-network-camera-enclosure/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png&#34; alt=&#34;Facebook&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F05%2F26%2Fhowto-make-cheap-network-camera-enclosure%2F&amp;text=HOWTO+Make+a+Cheap+Network+Camera+Enclosure&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Twitter&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Twitter&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/05/26/howto-make-cheap-network-camera-enclosure/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png&#34; alt=&#34;Twitter&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F05%2F26%2Fhowto-make-cheap-network-camera-enclosure%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F05%2F26%2Fhowto-make-cheap-network-camera-enclosure%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Reddit&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Reddit&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/05/26/howto-make-cheap-network-camera-enclosure/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=700,height=500&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png&#34; alt=&#34;Reddit&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://digg.com/submit?partner=addthis&amp;url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F05%2F26%2Fhowto-make-cheap-network-camera-enclosure%2F&amp;title=HOWTO+Make+a+Cheap+Network+Camera+Enclosure&amp;bodytext=&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Digg&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Digg&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/05/26/howto-make-cheap-network-camera-enclosure/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png&#34; alt=&#34;Digg&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F05%2F26%2Fhowto-make-cheap-network-camera-enclosure%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F05%2F26%2Fhowto-make-cheap-network-camera-enclosure%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Stumbleupon&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Stumbleupon&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/05/26/howto-make-cheap-network-camera-enclosure/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png&#34; alt=&#34;Stumbleupon&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F05%2F26%2Fhowto-make-cheap-network-camera-enclosure%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Email&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Email&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/05/26/howto-make-cheap-network-camera-enclosure/&#39;]); &#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png&#34; alt=&#34;Email&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dcs 5020l on Sensr.net Blog | Watch your Stuff!</title>
+    <link>https://sblog.sensr.net/tags/dcs-5020l/</link>
+    <description>Recent content in Dcs 5020l on Sensr.net Blog | Watch your Stuff!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Sep 2014 19:22:20 +0000</lastBuildDate>
+    <atom:link href="https://sblog.sensr.net/tags/dcs-5020l/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Como Configurar a Gravação da D-Link DCS-5020L com Uploads FTP</title>
+      <link>https://sblog.sensr.net/2014/09/26/como-configurar-a-gravacao-da-d-link-dcs-5020l-com-uploads-ftp/</link>
+      <pubDate>Fri, 26 Sep 2014 19:22:20 +0000</pubDate>
+      
+      <guid>https://sblog.sensr.net/2014/09/26/como-configurar-a-gravacao-da-d-link-dcs-5020l-com-uploads-ftp/</guid>
+      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
+  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
+    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/09/26/como-configurar-a-gravacao-da-d-link-dcs-5020l-com-uploads-ftp/&#34; data-text=&#34;Como Configurar a Gravação da D-Link DCS-5020L com Uploads FTP &#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
+  &lt;/div&gt;
+  
+
+&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;div id=&#34;attachment_3058&#34; style=&#34;width: 385px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/09/DCS-5020L-Dlink.jpg&#34;&gt;&lt;img class=&#34;wp-image-3058 size-full&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/09/DCS-5020L-Dlink.jpg&#34; alt=&#34;DCS-5020L da D-Link&#34; width=&#34;375&#34; height=&#34;450&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/09/DCS-5020L-Dlink.jpg 375w, http://sensr.net/blog/wp-content/uploads/2014/09/DCS-5020L-Dlink-250x300.jpg 250w&#34; sizes=&#34;(max-width: 375px) 100vw, 375px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    DCS-5020L da D-Link
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;A câmera &lt;a href=&#34;http://us.dlink.com/products/connected-home/pan-tilt-daynight-network-camera/&#34; title=&#34;DCS 5020L&#34;&gt;D-Link DCS 5020L&lt;/a&gt; é um dos modelos mais populares da D-Link. Ela dispõe de visão noturna, rotação horizontal e vertical, WiFi e funciona com o serviço MyDlink. O valor da DCS 5020L é também muito acessível: atualmente &lt;a href=&#34;http://www.amazon.com/D-Link-Wireless-Surveillance-mydlink-Enabled-DCS-5020L/dp/B00CL8F98W/sensr-20&#34; title=&#34;DCS 5020L na Amazon&#34;&gt;ela custa $135 na Amazon&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Necessidade de Gravação&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Apesar do serviço MyDlink permitir que você assista às filmagens da câmera remotamente, ele não suporta nenhum tipo de gravação ou armazenamento de imagens. É aqui que o Sensr.net entra. Nosso serviço permite armazenar automaticamente as imagens captadas no último mês. Este artigo vai ajudar você a configurar sua câmera DCS-5020L para que você veja tudo o que se passa com as suas coisas enquanto você não está olhando!&lt;/p&gt;
+
+&lt;p&gt;Também vou mostrar como configurar a câmera para enviar imagens para o site do&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sensr.net/&#34; title=&#34;Sensr.net&#34;&gt;Sensr.net&lt;/a&gt;, para que você tire partido de todas as funcionalidades do nosso serviço, como o armazenamento, o compartilhamento, e os alertas.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Resumo&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Configure o seu serviço &lt;a href=&#34;https://www.mydlink.com/entrance&#34; title=&#34;Serviço MyDlink&#34;&gt;MyDlink&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Apresente sua câmera ao Sensr.net&lt;/li&gt;
+&lt;li&gt;Apresente o Sensr.net à sua câmera&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Detalhes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Passo 1:&lt;/strong&gt; Para configurar a câmera, utilize o CD e as instruções disponibilizados em conjunto com o aparelho. Tudo o que você precisa de fazer é conectar a câmera ao seu roteador e correr o software do CD. Você vai acabar por criar uma conta no site do MyDlink que vai dar acesso à sua câmera a partir do site ou dos aplicativos MyDlink. Após este passo, você conseguirá acessar sua câmera e alterar suas configurações. A página de configuração de sua câmera vai ter mais ou menos esse aspeto:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_3060&#34; style=&#34;width: 410px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/09/DCS-930L-AdminPage.png&#34;&gt;&lt;img class=&#34;wp-image-3060 size-full&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/09/DCS-930L-AdminPage.png&#34; alt=&#34;Página de Admin da DCS-930L &#34; width=&#34;400&#34; height=&#34;289&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/09/DCS-930L-AdminPage.png 400w, http://sensr.net/blog/wp-content/uploads/2014/09/DCS-930L-AdminPage-300x216.png 300w&#34; sizes=&#34;(max-width: 400px) 100vw, 400px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Página de Admin da DCS-930L
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Agora você já consegue fazer alterações às configurações da câmera através do seu navegador. Se o que você pretende é assistir às filmagens em tempo real a partir de sua casa ou através do site MyDlink, então não será necessário fazer mais nada. (Existem outras configurações, como conexão sem fios e tamanho da imagem, que você pode alterar diretamente na interface, mas que eu não vou abordar nesse artigo.)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Adicione uma nova câmera à sua conta Sensr.net&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Passo 2:&lt;/strong&gt; Faça o login no Sensr.net, utilizando o seu email e a sua senha. Se ainda não possui uma conta, você pode &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34; title=&#34;Cadastro gratuito no Sensr.net  &#34;&gt;criar uma gratuitamente na página de inscrição&lt;/a&gt;. Depois de fazer login, clique no botão verde &lt;strong&gt;Add Camera&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div id=&#34;attachment_3061&#34; style=&#34;width: 1013px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/09/sensr-add-camerabr.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3061&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/09/sensr-add-camerabr.png&#34; alt=&#34;Clique no botão verde&#34; width=&#34;1003&#34; height=&#34;339&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/09/sensr-add-camerabr.png 1003w, http://sensr.net/blog/wp-content/uploads/2014/09/sensr-add-camerabr-300x101.png 300w&#34; sizes=&#34;(max-width: 1003px) 100vw, 1003px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Clique no botão verde
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Na página seguinte, você vai poder escolher o título (ou nome) da câmera, o fuso horário, a privacidade e o modelo. O título deve descrever o que a câmera está filmando. O título mais popular no Sensr.net é &lt;strong&gt;Porta da Frente&lt;/strong&gt;, que nos dá uma ideia de como os usuários utilizam o nosso site. Apesar de nós gerarmos um nome genérico para sua câmera baseado no login, você pode dar qualquer nome à sua câmera. O fuso horário é muito importante. Ele é utilizado para determinar a vista diária dos arquivos. Por padrão, as câmeras são privadas, o que significa que apenas você tem acesso a elas. Se quiser que sua câmera seja pública, você pode alterar essa configuração aqui. O modelo da câmera apenas indica qual o modelo que está sendo configurado. Nesse caso, o modelo é DCS-5020L.&lt;/p&gt;
+
+&lt;div id=&#34;attachment_3062&#34; style=&#34;width: 1009px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/09/add-camera-detailsbr.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3062&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/09/add-camera-detailsbr.png&#34; alt=&#34;Dê um nome à sua câmera e partilhe alguns detalhes&#34; width=&#34;999&#34; height=&#34;491&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/09/add-camera-detailsbr.png 999w, http://sensr.net/blog/wp-content/uploads/2014/09/add-camera-detailsbr-300x147.png 300w&#34; sizes=&#34;(max-width: 999px) 100vw, 999px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Dê um nome à sua câmera e compartilhe alguns detalhes
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Depois de preencher todos os detalhes e clicar no link &lt;strong&gt;Next Step&lt;/strong&gt;, nós vamos criar algumas credenciais FTP para você. Será necessário introduzir esses dados na sua câmera no próximo passo. Os dados com mais importância são:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Servidor FTP&lt;/li&gt;
+&lt;li&gt;Nome de usuário&lt;/li&gt;
+&lt;li&gt;Senha&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Mantenha essa janela aberta ou copie os dados, uma vez que você vai precisar deles em breve. Você pode recuperar esses dados, a qualquer momento, na página de detalhes da câmera.&lt;/p&gt;
+
+&lt;div id=&#34;attachment_3046&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/09/sensr-add-camera-ftp-1024x708.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3046&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/09/sensr-add-camera-ftp-1024x708.png&#34; alt=&#34;Credenciais FTP&#34; width=&#34;1024&#34; height=&#34;708&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/09/sensr-add-camera-ftp-1024x708.png 1024w, http://sensr.net/blog/wp-content/uploads/2014/09/sensr-add-camera-ftp-1024x708-300x207.png 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Credenciais FTP
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Apresente sua câmera ao Sensr.net&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Passo 3:&lt;/strong&gt; Agora é necessário configurar sua câmera para enviar imagens para o Sensr.net. Volte à página da DCS-5020L, fazendo o login no site MyDlink e clicando no link de configuração. Clique em “SETUP” no menu superior e, depois, em “FTP”, na lateral. Você vai ser encaminhado para essa página:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_3064&#34; style=&#34;width: 330px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/09/dcs930ftpbr.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3064&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/09/dcs930ftpbr.png&#34; alt=&#34;DCS-5020L Página de configuração FTP &#34; width=&#34;320&#34; height=&#34;298&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/09/dcs930ftpbr.png 320w, http://sensr.net/blog/wp-content/uploads/2014/09/dcs930ftpbr-300x279.png 300w&#34; sizes=&#34;(max-width: 320px) 100vw, 320px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    DCS-5020L Página de configuração FTP
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;As setas vermelhas mostram os parâmetros que devem ser configurados. No campo Host Name, introduza o servidor FTP que fornecemos na página “Add Camera” no Sensr.net. Copie também o usuário e a senha. Escolha “Passive Mode”, uma vez que o Sensr.net suporta apenas o modo FTP passivo.&lt;/p&gt;
+
+&lt;p&gt;É também necessário configurar sua câmera para enviar imagens para o Sensr.net periodicamente. Para isso, selecione “Enable uploading to the FTP server” e confirme que “Always” e “1 Frames/Second” estão também selecionados. Estas são as configurações padrão e funcionam bem com o Sensr.net. As configurações padrão para o nome do ficheiro também são bem suportadas pelo serviço, por isso não existe necessidade de alterar.&lt;/p&gt;
+
+&lt;p&gt;Não se esqueça de clicar no botão “Save Settings” localizado no topo da página. Após realizar este passo, a sua câmera DCS-5020L já estará enviando imagens para o Sensr.net.&lt;/p&gt;
+
+&lt;p&gt;Agora a configuração está terminada. Pode fechar a janela do navegador que mostra as configurações de sua câmera e voltar para o Sensr.net. Clique no botão &lt;strong&gt;Next Step&lt;/strong&gt; para ver as imagens enviadas pela sua câmera. Você verá uma página assim:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_3050&#34; style=&#34;width: 997px&#34; class=&#34;wp-caption alignnone&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/09/sensr-add-camera-successo.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3050&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/09/sensr-add-camera-successo.png&#34; alt=&#34;Sucesso!&#34; width=&#34;987&#34; height=&#34;793&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/09/sensr-add-camera-successo.png 987w, http://sensr.net/blog/wp-content/uploads/2014/09/sensr-add-camera-successo-300x241.png 300w&#34; sizes=&#34;(max-width: 987px) 100vw, 987px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Sucesso!
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Agora que a sua câmera já está configurada, existem outras coisas que você pode fazer:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Adicionar alertas de movimento por SMS ou email&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://sensr.net/blog/2012/04/11/guest-access-for-sensr-net-cameras/&#34; title=&#34;Acesso de outros usuários a uma câmera privada&#34;&gt;Convidar outros usuários para ver a sua câmera&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://sensr.net/blog/2011/02/27/embed-your-sensr-net-cameras-live-view/&#34; title=&#34;Incorporar o streaming de vídeo em tempo real&#34;&gt;Incorporar o streaming de vídeo em tempo real no seu blog ou outro site&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Criar um clipe de vídeo e compartilhar no Facebook, Twitter ou YouTube&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Se tiver alguma dificuldade ou pergunta, clique no botão de Feedback no lado direito de qualquer uma das páginas do Sensr.net e coloque a sua questão. Nós tentaremos responder no prazo máximo de 24h horas.&lt;/p&gt;
+
+&lt;p&gt;Divirta-se!&lt;/p&gt;
+
+&lt;div class=&#34;trackable_sharing&#34;&gt;
+  &lt;a href=&#34;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F09%2F26%2Fcomo-configurar-a-gravacao-da-d-link-dcs-5020l-com-uploads-ftp%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Facebook&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Facebook&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/09/26/como-configurar-a-gravacao-da-d-link-dcs-5020l-com-uploads-ftp/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png&#34; alt=&#34;Facebook&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F09%2F26%2Fcomo-configurar-a-gravacao-da-d-link-dcs-5020l-com-uploads-ftp%2F&amp;text=Como+Configurar+a+Grava%C3%A7%C3%A3o+da+D-Link+DCS-5020L+com+Uploads+FTP&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Twitter&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Twitter&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/09/26/como-configurar-a-gravacao-da-d-link-dcs-5020l-com-uploads-ftp/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png&#34; alt=&#34;Twitter&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F09%2F26%2Fcomo-configurar-a-gravacao-da-d-link-dcs-5020l-com-uploads-ftp%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F09%2F26%2Fcomo-configurar-a-gravacao-da-d-link-dcs-5020l-com-uploads-ftp%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Reddit&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Reddit&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/09/26/como-configurar-a-gravacao-da-d-link-dcs-5020l-com-uploads-ftp/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=700,height=500&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png&#34; alt=&#34;Reddit&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://digg.com/submit?partner=addthis&amp;url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F09%2F26%2Fcomo-configurar-a-gravacao-da-d-link-dcs-5020l-com-uploads-ftp%2F&amp;title=Como+Configurar+a+Grava%C3%A7%C3%A3o+da+D-Link+DCS-5020L+com+Uploads+FTP&amp;bodytext=&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Digg&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Digg&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/09/26/como-configurar-a-gravacao-da-d-link-dcs-5020l-com-uploads-ftp/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png&#34; alt=&#34;Digg&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F09%2F26%2Fcomo-configurar-a-gravacao-da-d-link-dcs-5020l-com-uploads-ftp%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F09%2F26%2Fcomo-configurar-a-gravacao-da-d-link-dcs-5020l-com-uploads-ftp%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Stumbleupon&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Stumbleupon&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/09/26/como-configurar-a-gravacao-da-d-link-dcs-5020l-com-uploads-ftp/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png&#34; alt=&#34;Stumbleupon&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F09%2F26%2Fcomo-configurar-a-gravacao-da-d-link-dcs-5020l-com-uploads-ftp%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Email&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Email&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/09/26/como-configurar-a-gravacao-da-d-link-dcs-5020l-com-uploads-ftp/&#39;]); &#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png&#34; alt=&#34;Email&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Setup D-Link DCS-5020L Recording with FTP Uploads HOWTO</title>
+      <link>https://sblog.sensr.net/2014/01/30/setup-d-link-dcs-5020l-recording-with-ftp-uploads-howto/</link>
+      <pubDate>Fri, 31 Jan 2014 00:37:16 +0000</pubDate>
+      
+      <guid>https://sblog.sensr.net/2014/01/30/setup-d-link-dcs-5020l-recording-with-ftp-uploads-howto/</guid>
+      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
+  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
+    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/01/30/setup-d-link-dcs-5020l-recording-with-ftp-uploads-howto/&#34; data-text=&#34;Setup D-Link DCS-5020L Recording with FTP Uploads HOWTO&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
+  &lt;/div&gt;
+  
+
+&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2669&#34; style=&#34;width: 385px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/DCS-5020L.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-2669&#34; alt=&#34;DCS-5020L from D-Link&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/DCS-5020L.jpg&#34; width=&#34;375&#34; height=&#34;450&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/DCS-5020L.jpg 375w, http://sensr.net/blog/wp-content/uploads/2014/01/DCS-5020L-250x300.jpg 250w&#34; sizes=&#34;(max-width: 375px) 100vw, 375px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    DCS-5020L from D-Link
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The &lt;a href=&#34;http://www.dlink.com/us/en/home-solutions/view/network-cameras/dcs-5020l-pan-tilt-day-night-network-camera&#34; title=&#34;DCS-5020L&#34;&gt;D-Link DCS 5020L&lt;/a&gt; is one of their more popular models of camera.  It has night vision, pan and tilt, WiFi and it works with the mydlink service.  &lt;a href=&#34;http://www.amazon.com/D-Link-Wireless-Surveillance-mydlink-Enabled-DCS-5020L/dp/B00CL8F98W/sensr-20&#34; title=&#34;DCS 5020L on Amazon&#34;&gt;The DCS 5020L is also pretty affordable at around $135&lt;/a&gt; on Amazon these days.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Recording Needed&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;While the MyDlink service will let you view this camera remotely, it doesn&amp;#8217;t support any kind of recording or saving of images. That&amp;#8217;s where Sensr.net comes in.  We&amp;#8217;ll save up to a month of archives automatically.  This blog post will show you how to setup the DCS-5020L so you can see what happened while you weren&amp;#8217;t looking!&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;ll also show you how to configure the camera to push images to the Sensr.net site so you can take advantage of all the cool &lt;a href=&#34;http://sensr.net/&#34;&gt;sensr.net&lt;/a&gt; features like archiving, sharing, and alerting that our site provides.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Setup your &lt;a href=&#34;http://www.mydlink.com&#34; title=&#34;MyDlink Service&#34;&gt;MyDlink&lt;/a&gt; Service&lt;/li&gt;
+&lt;li&gt;Tell Sensr.net about your camera&lt;/li&gt;
+&lt;li&gt;Tell your camera about Sensr.net&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Details&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 1:  &lt;/strong&gt;To setup the camera out of the box, just use the CD and instructions that come with the camera. Basically you&amp;#8217;ll need to connect the camera to your router and run some software from the CD.  You&amp;#8217;ll end up creating an account on the MyDlink site that will let you log into your camera through their website or using the MyDlink apps.  Once you have that setup, you&amp;#8217;ll be able to log into your camera and change it&amp;#8217;s configurations.  You&amp;#8217;ll be able to see the camera&amp;#8217;s configuration page which looks something like this:&lt;/p&gt;
+
+&lt;div style=&#34;width: 410px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://2.bp.blogspot.com/_yVvkcbKGc_g/TUg00C0d5tI/AAAAAAAACVw/pgWmy3nZ7dg/s1600/Screen+shot+2011-02-01+at+7.47.03+AM.png&#34;&gt;&lt;img title=&#34;D-Link DCS-930L Admin page&#34; alt=&#34;D-Link DCS-930L Admin page configured on Sensr.net&#34; src=&#34;http://2.bp.blogspot.com/_yVvkcbKGc_g/TUg00C0d5tI/AAAAAAAACVw/pgWmy3nZ7dg/s400/Screen+shot+2011-02-01+at+7.47.03+AM.png&#34; width=&#34;400&#34; height=&#34;289&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    DCS-930L Admin page
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You can now make changes to your camera&amp;#8217;s config through your browser. You don&amp;#8217;t need to do anything else if you just want to view the camera live inside your home or through the MyDlink website. (There are other configs like wireless and image size, all of which you can get to through the web interface, I&amp;#8217;m not going to cover them here.)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Add a New Camera to your Sensr.net Account&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 2 &lt;/strong&gt;Login to Sensr.net using your email and password.  If you don&amp;#8217;t have an account, you can &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34; title=&#34;Free Sensr.net Account Signup&#34;&gt;add one for free on the sign up page&lt;/a&gt;.  Once you&amp;#8217;re logged in, just click the &lt;strong&gt;Add Camera&lt;/strong&gt; button in green.&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2674&#34; style=&#34;width: 1013px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/sensr-add-camera.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2674&#34; alt=&#34;Click the green button.&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/sensr-add-camera.png&#34; width=&#34;1003&#34; height=&#34;339&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/sensr-add-camera.png 1003w, http://sensr.net/blog/wp-content/uploads/2014/01/sensr-add-camera-300x101.png 300w&#34; sizes=&#34;(max-width: 1003px) 100vw, 1003px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Click the green button.
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Next you&amp;#8217;ll see a page where you can set the camera&amp;#8217;s title, the time zone, privacy, and model.  The title should be something that describes what the camera is pointing at.  The most popular camera title on Sensr.net is &lt;strong&gt;Front Door&lt;/strong&gt; so this gives you an idea of how folks are using our site. You can name the camera whatever you want though, we generate a generic name based on your login. The time zone is pretty important.  It&amp;#8217;s used to generate the day view of the archives.  Cameras are private by default, meaning only you can see them.  If you want your camera to be public, you can change that setting here.  The camera model just tells us what kind of camera you&amp;#8217;re setting up.  In this case it would be a DCS-5020L.&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2675&#34; style=&#34;width: 1009px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/add-camera-details.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2675&#34; alt=&#34;Name your camera and give us some basic info about it.&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/add-camera-details.png&#34; width=&#34;999&#34; height=&#34;491&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/add-camera-details.png 999w, http://sensr.net/blog/wp-content/uploads/2014/01/add-camera-details-300x147.png 300w&#34; sizes=&#34;(max-width: 999px) 100vw, 999px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Name your camera and give us some basic info about it.
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Once you fill in the details and click the &lt;strong&gt;Next Step&lt;/strong&gt; link we&amp;#8217;ll generate some FTP credentials for you. You&amp;#8217;ll need to put these into your camera in the next step.  The important things are:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;span style=&#34;line-height: 16px;&#34;&gt;FTP Server&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Username&lt;/li&gt;
+&lt;li&gt;Password&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Keep this window open or copy and paste them somewhere since you&amp;#8217;ll need them soon.  You can always get them back later if you need them again or loose them.  They&amp;#8217;ll be under the camera&amp;#8217;s details page.&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2607&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2607&#34; alt=&#34;FTP credentials&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-1024x708.png&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-1024x708.png 1024w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    FTP credentials
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tell your Camera about Sensr.net&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 3  &lt;/strong&gt;Now you need to configure your camera so it will send images to sensr.net.  Go back to the page for your DCS-5020L.  You can get here by logging into MyDlink and clicking on the configuration link.  Click on &amp;#8220;SETUP&amp;#8221; on the top menu and then &amp;#8220;FTP&amp;#8221; on the side.  You&amp;#8217;ll then be at a page that looks like this:&lt;/p&gt;
+
+&lt;div style=&#34;width: 330px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://2.bp.blogspot.com/_yVvkcbKGc_g/TUhnqKDHeAI/AAAAAAAACV8/8t4NtG6Gav8/s1600/dcs930ftp.png&#34;&gt;&lt;img title=&#34;D-Link DCS-5020L FTP setup page&#34; alt=&#34;DCS-5020L FTP setup page configured on Sensr.net&#34; src=&#34;http://2.bp.blogspot.com/_yVvkcbKGc_g/TUhnqKDHeAI/AAAAAAAACV8/8t4NtG6Gav8/s320/dcs930ftp.png&#34; width=&#34;320&#34; height=&#34;298&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    DCS-5020L FTP setup page
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The red arrows above show the settings you need to configure.  Under Host Name add the FTP server name you got from the add camera page on sensr.net.  Copy the user name and password as well.  Make sure to select &amp;#8220;Passive Mode&amp;#8221;,  we only support passive FTP on Sensr.net.&lt;/p&gt;
+
+&lt;p&gt;You also need to tell your camera to send images to Sensr.net on a schedule.  You do this by selecting the check box &amp;#8220;Enable uploading to the FTP server&amp;#8221; and confirm that &amp;#8220;Always&amp;#8221; and &amp;#8220;1 Frames/Second&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;are selected.    These are the defaults and seem to work well.  The other default&amp;#8217;s for the file name are also well supported, so no reason to change them.&lt;/p&gt;
+
+&lt;p&gt;Make sure to click the &amp;#8220;Save Settings&amp;#8221; button at the top of the page.  Once you&amp;#8217;ve done this, your DCS-5020L should be sending images to Sensr.net.&lt;/p&gt;
+
+&lt;p&gt;At this point you are done. You can close the browser window pointed at your camera and go back to Sensr.net. Click on the &lt;strong&gt;Next Step&lt;/strong&gt; button to see the images coming in from your camera. You should see a page something like this:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2618&#34; style=&#34;width: 997px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2618&#34; alt=&#34;Success!&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success.png&#34; width=&#34;987&#34; height=&#34;793&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success.png 987w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success-300x241.png 300w&#34; sizes=&#34;(max-width: 987px) 100vw, 987px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Success!
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now that you have the camera setup, here are some other things you can do:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;span style=&#34;line-height: 16px;&#34;&gt;Add motion alerts via SMS or email&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://sensr.net/blog/2012/04/11/guest-access-for-sensr-net-cameras/&#34; title=&#34;Guest Access for private webcams&#34;&gt;Invite guests to view your private camera&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://sensr.net/blog/2011/02/27/embed-your-sensr-net-cameras-live-view/&#34; title=&#34;Embed live webcam view&#34;&gt;Embed the live stream on your blog&lt;/a&gt; or other website&lt;/li&gt;
+&lt;li&gt;Create a clip and share it on Facebook, Twitter, or YouTube&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you have any problems or questions, just click the Feedback button on the right side of every Sensr.net page and ask us a question.  We usually respond quickly and try hard to get back within 24 hours at the latest.&lt;/p&gt;
+
+&lt;p&gt;Have fun!&lt;/p&gt;
+
+&lt;div class=&#34;trackable_sharing&#34;&gt;
+  &lt;a href=&#34;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F01%2F30%2Fsetup-d-link-dcs-5020l-recording-with-ftp-uploads-howto%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Facebook&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Facebook&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/01/30/setup-d-link-dcs-5020l-recording-with-ftp-uploads-howto/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png&#34; alt=&#34;Facebook&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F01%2F30%2Fsetup-d-link-dcs-5020l-recording-with-ftp-uploads-howto%2F&amp;text=Setup+D-Link+DCS-5020L+Recording+with+FTP+Uploads+HOWTO&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Twitter&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Twitter&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/01/30/setup-d-link-dcs-5020l-recording-with-ftp-uploads-howto/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png&#34; alt=&#34;Twitter&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F01%2F30%2Fsetup-d-link-dcs-5020l-recording-with-ftp-uploads-howto%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F01%2F30%2Fsetup-d-link-dcs-5020l-recording-with-ftp-uploads-howto%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Reddit&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Reddit&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/01/30/setup-d-link-dcs-5020l-recording-with-ftp-uploads-howto/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=700,height=500&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png&#34; alt=&#34;Reddit&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://digg.com/submit?partner=addthis&amp;url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F01%2F30%2Fsetup-d-link-dcs-5020l-recording-with-ftp-uploads-howto%2F&amp;title=Setup+D-Link+DCS-5020L+Recording+with+FTP+Uploads+HOWTO&amp;bodytext=&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Digg&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Digg&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/01/30/setup-d-link-dcs-5020l-recording-with-ftp-uploads-howto/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png&#34; alt=&#34;Digg&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F01%2F30%2Fsetup-d-link-dcs-5020l-recording-with-ftp-uploads-howto%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F01%2F30%2Fsetup-d-link-dcs-5020l-recording-with-ftp-uploads-howto%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Stumbleupon&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Stumbleupon&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/01/30/setup-d-link-dcs-5020l-recording-with-ftp-uploads-howto/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png&#34; alt=&#34;Stumbleupon&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F01%2F30%2Fsetup-d-link-dcs-5020l-recording-with-ftp-uploads-howto%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Email&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Email&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/01/30/setup-d-link-dcs-5020l-recording-with-ftp-uploads-howto/&#39;]); &#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png&#34; alt=&#34;Email&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

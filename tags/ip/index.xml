@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ip on Sensr.net Blog | Watch your Stuff!</title>
+    <link>https://sblog.sensr.net/tags/ip/</link>
+    <description>Recent content in Ip on Sensr.net Blog | Watch your Stuff!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Jun 2014 18:47:39 +0000</lastBuildDate>
+    <atom:link href="https://sblog.sensr.net/tags/ip/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to Setup the D-Link DCS-933L and use it with Sensr.net</title>
+      <link>https://sblog.sensr.net/2014/06/27/how-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net/</link>
+      <pubDate>Fri, 27 Jun 2014 18:47:39 +0000</pubDate>
+      
+      <guid>https://sblog.sensr.net/2014/06/27/how-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net/</guid>
+      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
+  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
+    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/27/how-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net/&#34; data-text=&#34;How to Setup the D-Link DCS-933L and use it with Sensr.net&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
+  &lt;/div&gt;
+  
+
+&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2881&#34; style=&#34;width: 247px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/314KTXgcW9L._SY355_.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-2881&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/314KTXgcW9L._SY355_.jpg&#34; alt=&#34;The D-Link DCS-933L&#34; width=&#34;237&#34; height=&#34;355&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/314KTXgcW9L._SY355_.jpg 237w, http://sensr.net/blog/wp-content/uploads/2014/06/314KTXgcW9L._SY355_-200x300.jpg 200w&#34; sizes=&#34;(max-width: 237px) 100vw, 237px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    The D-Link DCS-933L
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The D-Link &lt;a href=&#34;http://www.amazon.com/D-Link-Wireless-Surveillance-mydlink-Enabled-DCS-933L/dp/B00CL8FA4A/ref=cm_cr_pr_product_top/sensr-20&#34; target=&#34;_blank&#34;&gt;DCS-933L&lt;/a&gt; is a great IP camera because of it&amp;#8217;s price. It doesn&amp;#8217;t pan or tilt  which means you have less options when you choose where to put it and you will have to go physically move the camera anytime you want to change where it is looking but you do save some money. The DCS-933L also has night vision which is obviously very important if you are hoping to use your camera for security purposes. The setup here is pretty similar to the rest of the DCS-900 series. We have a tutorial for setting up the &lt;a href=&#34;http://sensr.net/blog/2011/02/01/how-to-configure-a-dcs-930l-from-mac-or-linux/&#34; target=&#34;_blank&#34;&gt;DCS-930L&lt;/a&gt;. With this tutorial you should be able to get this camera set up quickly and easily.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;This setup involves four steps:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Plug in your &lt;a href=&#34;http://www.amazon.com/D-Link-Wireless-Surveillance-mydlink-Enabled-DCS-933L/dp/B00CL8FA4A/ref=cm_cr_pr_product_top/sensr-20&#34; target=&#34;_blank&#34;&gt;DCS-933L&lt;/a&gt;  and connect it to the internet.&lt;/li&gt;
+&lt;li&gt;Access your &lt;a href=&#34;http://www.amazon.com/D-Link-Wireless-Surveillance-mydlink-Enabled-DCS-933L/dp/B00CL8FA4A/ref=cm_cr_pr_product_top/sensr-20&#34; target=&#34;_blank&#34;&gt;DCS-933L&lt;/a&gt; through your web browser&lt;/li&gt;
+&lt;li&gt;Add a new Camera on Sensr.net&lt;/li&gt;
+&lt;li&gt;Enter your new FTP credentials into your &lt;a href=&#34;http://www.amazon.com/D-Link-Wireless-Surveillance-mydlink-Enabled-DCS-933L/dp/B00CL8FA4A/ref=cm_cr_pr_product_top/sensr-20&#34; target=&#34;_blank&#34;&gt;DCS-933L&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;When you are connecting your camera to the internet you have two choices: wired or wireless. Wireless is possible if your router supports WPS connections. To establish a wireless connection plug in your camera and hold down the WPS button on the back of your camera; the blue WPS status light will start blinking. You now have sixty seconds to press the WPS button on your wireless router which will be located either somewhere on the router or on the router&amp;#8217;s web access page.&lt;/p&gt;
+
+&lt;p&gt;If your router does not support WPS then you will need to plug in via an ethernet connection. Simply plug your camera&amp;#8217;s power cord into a normal wall outlet and ethernet port into a normal ethernet connection.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Access your &lt;a href=&#34;http://www.amazon.com/D-Link-Wireless-Surveillance-mydlink-Enabled-DCS-933L/dp/B00CL8FA4A/ref=cm_cr_pr_product_top/sensr-20&#34; target=&#34;_blank&#34;&gt;DCS-933L&lt;/a&gt; through your web browser:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you are hooked up to an internet connection just go to your routers access page by typing the IP address of your router into your internet browser. You can find the IP address of your router on your computers settings. On my mac I go to to Network Settings &amp;gt; Advanced &amp;gt; TCP/IP, and it looks like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png&#34;&gt;&lt;img class=&#34;alignnone size-full wp-image-2597&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png&#34; alt=&#34;Screen Shot 2013-12-09 at 6.02.37 PM&#34; width=&#34;782&#34; height=&#34;694&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png 782w, http://sensr.net/blog/wp-content/uploads/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM-300x266.png 300w&#34; sizes=&#34;(max-width: 782px) 100vw, 782px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you are on your router&amp;#8217;s access page just look for the new item and grab the IP address. This is the IP address of your &lt;a href=&#34;http://www.amazon.com/D-Link-Wireless-Surveillance-mydlink-Enabled-DCS-933L/dp/B00CL8FA4A/ref=cm_cr_pr_product_top/sensr-20&#34; target=&#34;_blank&#34;&gt;DCS-933L&lt;/a&gt;. Enter that into your browser and it will bring you to D-Link&amp;#8217;s network access page. It will ask you for a username and password which are admin and admin. You should change those. It should look something like this:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2882&#34; style=&#34;width: 410px&#34; class=&#34;wp-caption alignnone&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/Screen-shot-2011-02-01-at-7.47.03-AM.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2882&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/Screen-shot-2011-02-01-at-7.47.03-AM.png&#34; alt=&#34;DCS-930L&#39;s Admin page&#34; width=&#34;400&#34; height=&#34;289&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/Screen-shot-2011-02-01-at-7.47.03-AM.png 400w, http://sensr.net/blog/wp-content/uploads/2014/06/Screen-shot-2011-02-01-at-7.47.03-AM-300x216.png 300w&#34; sizes=&#34;(max-width: 400px) 100vw, 400px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    DCS-930L&amp;#8217;s Admin page
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;With access to this page you can make the changes to the camera you will need to use it with Sensr.net. Keep this page open and go to a new tab and open your Sensr.net account.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Add a new Camera on Sensr.net:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Login to Sensr.net using your email and password.  If you don’t have an account, you can &lt;a style=&#34;color: #888888&#34; title=&#34;Free Sensr.net Account Signup&#34; href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt;add one for free on the sign up page&lt;/a&gt;.  Once you’re logged in, just click the &lt;strong&gt;Add Camera &lt;/strong&gt;button in green:&lt;/p&gt;
+
+&lt;p&gt;[&lt;img class=&#34;alignnone size-full wp-image-2714&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png&#34; alt=&#34;sensr add camera&#34; width=&#34;1003&#34; height=&#34;339&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png 1003w, http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera-300x101.png 300w&#34; sizes=&#34;(max-width: 1003px) 100vw, 1003px&#34; /&gt;][2]&lt;/p&gt;
+
+&lt;p&gt;Next you will see a page asking you to give some information about the camera. Some of this stuff is important as it helps get the schedule right. The rest is important because it will help you know which camera is which should you choose to add more. It should look like this:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2675&#34; style=&#34;width: 1009px&#34; class=&#34;wp-caption alignnone&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/add-camera-details.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2675&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/add-camera-details.png&#34; alt=&#34;Name your camera and give us some basic info about it.&#34; width=&#34;999&#34; height=&#34;491&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/add-camera-details.png 999w, http://sensr.net/blog/wp-content/uploads/2014/01/add-camera-details-300x147.png 300w&#34; sizes=&#34;(max-width: 999px) 100vw, 999px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Name your camera and give us some basic info about it.
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Once you press next step it will take you to a page giving you your new FTP credentials. These are very important and make it so your camera will know to send the images to us. The page will look like this:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2607&#34; style=&#34;width: 1151px&#34; class=&#34;wp-caption alignnone&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2607&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png&#34; alt=&#34;FTP credentials&#34; width=&#34;1141&#34; height=&#34;790&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png 1141w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-1024x708.png 1024w&#34; sizes=&#34;(max-width: 1141px) 100vw, 1141px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    FTP credentials
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Keep this page open so you won&amp;#8217;t forget the credentials. Of course you can always open this page again should you accidentally close it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Enter your new FTP credentials into your &lt;a href=&#34;http://www.amazon.com/D-Link-Wireless-Surveillance-mydlink-Enabled-DCS-933L/dp/B00CL8FA4A/ref=cm_cr_pr_product_top/sensr-20&#34; target=&#34;_blank&#34;&gt;DCS-933L&lt;/a&gt;:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Go back to the Network Access page for your &lt;strong&gt;&lt;a href=&#34;http://www.amazon.com/D-Link-Wireless-Surveillance-mydlink-Enabled-DCS-933L/dp/B00CL8FA4A/ref=cm_cr_pr_product_top/sensr-20&#34; target=&#34;_blank&#34;&gt;DCS-933L&lt;/a&gt;. &lt;/strong&gt;Click on “SETUP” on the top menu and then “FTP” on the side.  You’ll then be at a page that looks like this:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2883&#34; style=&#34;width: 330px&#34; class=&#34;wp-caption alignnone&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/dcs930ftp.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2883&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/dcs930ftp.png&#34; alt=&#34;DCS-5010L FTP setup page&#34; width=&#34;320&#34; height=&#34;298&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/dcs930ftp.png 320w, http://sensr.net/blog/wp-content/uploads/2014/06/dcs930ftp-300x279.png 300w&#34; sizes=&#34;(max-width: 320px) 100vw, 320px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    DCS-5010L FTP setup page
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The red arrows above show the settings you need to configure.  Under Host Name add the FTP server name you got from the add camera page on sensr.net.  Copy the user name and password as well.  Make sure to select “Passive Mode”,  we only support passive FTP on Sensr.net.&lt;/p&gt;
+
+&lt;p&gt;You also need to tell your camera to send images to Sensr.net on a schedule.  You do this by selecting the check box “Enable uploading to the FTP server” and confirm that “Always” and “1 Frames/Second”&lt;/p&gt;
+
+&lt;p&gt;are selected.    These are the defaults and seem to work well.  The other default’s for the file name are also well supported, so no reason to change them.&lt;/p&gt;
+
+&lt;p&gt;Make sure to click the “Save Settings” button at the top of the page.&lt;/p&gt;
+
+&lt;p&gt;At this point you are done. You can close the browser window pointed at your camera and go back to Sensr.net. Click on the &lt;strong&gt;Next Step&lt;/strong&gt; button to see the images coming in from your camera. You should see a page something like this:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2611&#34; style=&#34;width: 1151px&#34; class=&#34;wp-caption alignnone&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2611&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3.png&#34; alt=&#34;Waiting for upload&#34; width=&#34;1141&#34; height=&#34;790&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3.png 1141w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3-1024x708.png 1024w&#34; sizes=&#34;(max-width: 1141px) 100vw, 1141px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Waiting for upload
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;To this:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2612&#34; style=&#34;width: 1151px&#34; class=&#34;wp-caption alignnone&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-done.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2612&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-done.png&#34; alt=&#34;Success!&#34; width=&#34;1141&#34; height=&#34;790&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-done.png 1141w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-done-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-done-1024x708.png 1024w&#34; sizes=&#34;(max-width: 1141px) 100vw, 1141px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Success!
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now that you have the camera setup, here are some other things you can do:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Add motion alerts via SMS or email&lt;/li&gt;
+&lt;li&gt;&lt;a style=&#34;color: #888888&#34; title=&#34;Guest Access for private webcams&#34; href=&#34;http://sensr.net/blog/2012/04/11/guest-access-for-sensr-net-cameras/&#34;&gt;Invite guests to view your private camera&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a style=&#34;color: #888888&#34; title=&#34;Embed live webcam view&#34; href=&#34;http://sensr.net/blog/2011/02/27/embed-your-sensr-net-cameras-live-view/&#34;&gt;Embed the live stream on your blog&lt;/a&gt; or other website&lt;/li&gt;
+&lt;li&gt;Create a clip and share it on Facebook, Twitter, or YouTube&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you have any problems or questions, just click the Feedback button on the right side of every Sensr.net page and ask us a question.  We usually respond quickly and try hard to get back within 24 hours at the latest.&lt;/p&gt;
+
+&lt;div class=&#34;trackable_sharing&#34;&gt;
+  &lt;a href=&#34;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F27%2Fhow-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Facebook&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Facebook&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/27/how-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png&#34; alt=&#34;Facebook&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F27%2Fhow-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net%2F&amp;text=How+to+Setup+the+D-Link+DCS-933L+and+use+it+with+Sensr.net&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Twitter&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Twitter&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/27/how-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png&#34; alt=&#34;Twitter&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F27%2Fhow-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F27%2Fhow-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Reddit&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Reddit&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/27/how-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=700,height=500&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png&#34; alt=&#34;Reddit&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://digg.com/submit?partner=addthis&amp;url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F27%2Fhow-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net%2F&amp;title=How+to+Setup+the+D-Link+DCS-933L+and+use+it+with+Sensr.net&amp;bodytext=&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Digg&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Digg&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/27/how-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png&#34; alt=&#34;Digg&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F27%2Fhow-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F27%2Fhow-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Stumbleupon&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Stumbleupon&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/27/how-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png&#34; alt=&#34;Stumbleupon&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F27%2Fhow-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Email&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Email&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/27/how-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net/&#39;]); &#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png&#34; alt=&#34;Email&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;[2]: &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png&#34;&gt;http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

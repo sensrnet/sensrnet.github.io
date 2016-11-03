@@ -1,0 +1,161 @@
+<!DOCTYPE html> 
+<head>
+<title>Simple Guide to Setting up a LOFTEK CXS 2200</title>	
+<link rel="stylesheet" type="text/css" media="all" href="/css/style.css">
+<link href="/img/sensr-favicon.png" rel="icon" type="image/png">
+</head>
+
+<body>
+<div id="header">
+  <div id="masthead">
+    <div id="branding" role="banner">
+	  <h1 id="site-title">
+        <span><a href="/" title="Sensr.net Blog" rel="home">Sensr.net Blog</a></span>
+      </h1>
+	  <div id="site-description">Watch your Stuff!</div>
+	</div>
+	<div id="access" role="navigation">
+	  <div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+	  <div class="menu-header">
+		  <ul id="menu-menu-test" class="menu">
+			  <li id="menu-item-124" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-124"><a href="http://sensr.net/">Home</a></li>
+			  <li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125"><a href="/archives/">Archives</a></li>
+			  <li id="menu-item-126" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-126"><a href="http://sensr.net/about">About</a></li>
+			  <li id="menu-item-127" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-127"><a href="http://sensr.net/faq">FAQ</a></li>
+		  </ul>
+	  </div>			
+    </div>
+  </div>
+  <div id="sensr_banner"></div>
+</div>
+<div id="main">
+
+  <h1>Simple Guide to Setting up a LOFTEK CXS 2200</h1>
+  <h2>Mon, Oct 17, 2011</h2>
+  <div class="share_buttons_simple_use_buttons" style="padding: 10px 0; display: inline-block">
+  <div class="tweet_button" style="float: left; vertical-align: top">
+    <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/10/17/simple-guide-to-setting-up-loftek-cxs-2200/" data-text="Simple Guide to Setting up a LOFTEK CXS 2200" data-count="none">Tweet</a>
+  </div>
+  
+
+<p><div class="facebook_like_button" style="float: left; vertical-align: top; margin-left: 10px; max-width: 255px">
+  </div>
+</div></p>
+
+<p><a href="http://blog.sensr.net/wp-content/uploads/2011/10/LOFTEKCXS2200-FTP-Setup.png"><img class="aligncenter size-full wp-image-1064" title="LOFTEKCXS2200 FTP Setup" src="http://blog.sensr.net/wp-content/uploads/2011/10/LOFTEKCXS2200-FTP-Setup.png" alt="LOFTEK CXS 2200 FTP Setup for Mac and Linux" width="481" height="213" srcset="http://sensr.net/blog/wp-content/uploads/2011/10/LOFTEKCXS2200-FTP-Setup.png 481w, http://sensr.net/blog/wp-content/uploads/2011/10/LOFTEKCXS2200-FTP-Setup-300x132.png 300w" sizes="(max-width: 481px) 100vw, 481px" /></a>Last week I wrote a <a href="http://blog.sensr.net/2011/10/06/loftek-cxs-2200-by-a-noob-ftp-setup-on-a-mac-how-to/">not-so-simple guide to setting up the LOFTEK CXS 2200</a>, which really just turned into a long rant about my lack of common sense. So I figured it may be helpful to write a more straightforward guide with real steps rather than pictures of Gregory House, M.D.</p>
+
+<p><strong>Overview</strong></p>
+
+<ol>
+<li><p> Connect LOFTEK CXS 2200 to router via ethernet</p></li>
+
+<li><p>Determine your router&#8217;s IP address &#8211; <em><strong>important</strong>.</em></p></li>
+
+<li><p>Browse to the camera&#8217;s IP address (<em>default: 192.168.0.178)</em></p></li>
+
+<li><p>Tell Sensr.net about your camera</p></li>
+
+<li><p>Tell your camera about Sensr.net via FTP settings</p></li>
+</ol>
+
+<p>Though the LOFTEK CXS 2200 is a wireless network camera, you have to plug it in via ethernet in order to configure its wifi settings. Make sure the camera&#8217;s connected to a power source, too. Duh.</p>
+
+<p>For <strong>Step 1</strong>, plug your camera directly into your router with an ethernet cable. The camera&#8217;s green light should start blinking, signaling its found your network. Woohoo!</p>
+
+<p>For <strong>Step 2,</strong> you&#8217;ll need to be able to figure out your router&#8217;s IP address. On a Mac, you can do this by going to <em>System Preferences -&gt; Network -&gt; Advanced -&gt; TCP/IP</em>, which will look like:</p>
+
+<p style="text-align: center;">
+  <a href="http://blog.sensr.net/wp-content/uploads/2011/10/HowToFindRouterIPonMac.jpg"><img class="aligncenter size-full wp-image-1072" title="HowToFindRouterIPonMac" src="http://blog.sensr.net/wp-content/uploads/2011/10/HowToFindRouterIPonMac.jpg" alt="How to find your router's IP address on a Mac" width="398" height="334" srcset="http://sensr.net/blog/wp-content/uploads/2011/10/HowToFindRouterIPonMac.jpg 664w, http://sensr.net/blog/wp-content/uploads/2011/10/HowToFindRouterIPonMac-300x251.jpg 300w" sizes="(max-width: 398px) 100vw, 398px" /></a>
+</p>
+
+<p style="text-align: left;">
+  My router&#8217;s IP address is 192.168.0.1. Your router&#8217;s IP may be 192.168.1.1, or something entirely different. Ordinarily at this point you would log into your router&#8217;s configuration settings and find the network camera&#8217;s IP address. But the LOFTEK CXS 2200&#8217;s IP address is a static 192.168.0.178, making that step unnecessary if your router&#8217;s IP is already in the 0.x range. This means your IP must end in 0.x, so 192.168.0.1 would work, but 192.168.1.1 will not.
+</p>
+
+<p style="text-align: left;">
+  <strong>If your router&#8217;s IP doesn&#8217;t end in .0.x </strong>you&#8217;ll need to change it. Enter http://yourrouter&#8217;sIPaddress into a browser &#8212; so for me it&#8217;s http://192.168.0.1. It varies from router to router, but you can typically change its IP address in the LAN Settings. (<strong><em>WARNING: BEFORE DOING THIS, PLEASE BACK UP YOUR ROUTER&#8217;S SETTINGS) </em></strong>Once your router&#8217;s IP has been changed, you should be able to browse to the LOFTEK&#8217;s default http://192.168.0.178.
+</p>
+
+<p style="text-align: left;">
+  <strong>If your router&#8217;s IP address DOES end in .0.x,</strong> you can already browse to the LOFTEK&#8217;s default http://192.168.0.178 &#8211; you should see this screen after logging in:
+</p>
+
+<p style="text-align: center;">
+  <a href="http://blog.sensr.net/wp-content/uploads/2011/10/LOFTEKCXS2200Login.jpg"><img class="aligncenter size-large wp-image-1078" title="LOFTEKCXS2200Login" src="http://blog.sensr.net/wp-content/uploads/2011/10/LOFTEKCXS2200Login-1024x449.jpg" alt="LOFTEK CXS 2200 Login Screen" width="384" height="168" srcset="http://sensr.net/blog/wp-content/uploads/2011/10/LOFTEKCXS2200Login-1024x449.jpg 1024w, http://sensr.net/blog/wp-content/uploads/2011/10/LOFTEKCXS2200Login-300x131.jpg 300w, http://sensr.net/blog/wp-content/uploads/2011/10/LOFTEKCXS2200Login.jpg 1261w" sizes="(max-width: 384px) 100vw, 384px" /></a>
+</p>
+
+<p style="text-align: left;">
+  Click &#8220;<em>Mode 2 to view (For Firefox, Safari, Browser, etc.)</em>&#8221; and you should be able to see your camera:
+</p>
+
+<p style="text-align: center;">
+  <a href="http://blog.sensr.net/wp-content/uploads/2011/10/LOFTEKCXS2200CameraView.jpg"><img class="aligncenter size-full wp-image-1079" title="LOFTEKCXS2200CameraView" src="http://blog.sensr.net/wp-content/uploads/2011/10/LOFTEKCXS2200CameraView.jpg" alt="LOFTEK CXS 2200 Camera View" width="409" height="308" srcset="http://sensr.net/blog/wp-content/uploads/2011/10/LOFTEKCXS2200CameraView.jpg 853w, http://sensr.net/blog/wp-content/uploads/2011/10/LOFTEKCXS2200CameraView-300x225.jpg 300w" sizes="(max-width: 409px) 100vw, 409px" /></a>
+</p>
+
+<p style="text-align: left;">
+  Hooray, your network camera is setup! Now it&#8217;s time to add it to <a href="sensr.net">Sensr.net</a>.
+</p>
+
+<p>For <strong>Step 4</strong>, log into into Sensr.net and go to “My Cameras,” as seen below.</p>
+
+<p><a href="http://blog.sensr.net/wp-content/uploads/2011/10/Add-LOFTEK-CXS-2200-1.png"><img class="aligncenter" title="Add LOFTEK CXS 2200 1" src="http://blog.sensr.net/wp-content/uploads/2011/10/Add-LOFTEK-CXS-2200-1-300x129.png" alt="Add LOFTEK CXS 2200 to Sensr.net" width="300" height="129" /></a></p>
+
+<p>Click “<em>Add A Camera</em>&#8221;</p>
+
+<p><a href="http://blog.sensr.net/wp-content/uploads/2011/10/Add-a-Camera-on-Sensr.net_.png"><img class="aligncenter" title="Add a Camera on Sensr.net" src="http://blog.sensr.net/wp-content/uploads/2011/10/Add-a-Camera-on-Sensr.net_-300x154.png" alt="Add a Camera on Sensr.net" width="300" height="154" /></a></p>
+
+<p>Now you&#8217;ll see a page with your camera’s FTP login credentials, which looks like:</p>
+
+<p><a href="http://blog.sensr.net/wp-content/uploads/2011/10/Camera-Creds1.png"><img class="aligncenter" title="Camera Credentials" src="http://blog.sensr.net/wp-content/uploads/2011/10/Camera-Creds1-300x151.png" alt="LOFTEK CXS 2200 Camera Credentials o Sensr.net for FTP" width="300" height="151" /></a></p>
+
+<p>Now you&#8217;ve got to tell your camera about Sensr.net. For <strong>Step 5</strong>, go to the &#8220;<em>Alarm</em>&#8221; tab. From here, go to &#8220;<em>FTP Settings</em>&#8221; on the right. Now just plug in all of the info from the Sensr.net FTP login credentials.  Make sure <em>FTP Mode</em> is set to <em>PASV</em>.</p>
+
+<p>[<img class="aligncenter" title="LOFTEK CXS 2200 Setup on Sensr.net" src="http://blog.sensr.net/wp-content/uploads/2011/10/LOFTEK-CXS-2200-Setup-on-Sensr.net_-300x227.png" alt="LOFTEK CXS 2200 FTP Setup on Sensr.net" width="300" height="227" />][6]</p>
+
+<p style="text-align: left;">
+  Now set the Upload Interval to 1 second, and hit submit. Go back to the Sensr.net page, and you should start seeing images from your camera, and a sweet, sweet Success! notification like this:
+</p>
+
+<p style="text-align: left;">
+  <a href="http://3.bp.blogspot.com/_yVvkcbKGc_g/TVGid4uibnI/AAAAAAAACXg/wo1AJ7gfaCs/s1600/sensrsuccess.png"><img class="aligncenter" title="Foscam successfully added to Sensr.net" src="http://3.bp.blogspot.com/_yVvkcbKGc_g/TVGid4uibnI/AAAAAAAACXg/wo1AJ7gfaCs/s1600/sensrsuccess.png" alt="Foscam successfully added to Sensr.net" width="522" height="428" /></a>
+</p>
+
+<p style="text-align: left;">
+  You&#8217;re done! Now you can start sharing your LOFTEK CXS 2200 on Sensr.net with your friends on Facebook, Twitter, and YouTube.
+</p>
+
+<p style="text-align: left;">
+  Have fun!
+</p>
+
+<p style="text-align: left;">
+  <em>Have more questions, or still having trouble getting the LOFTEK CXS 2200 setup? Let us know in the comments and we&#8217;ll try and get it working. </em>
+</p>
+
+<p>&nbsp;</p>
+
+<div class="trackable_sharing">
+  <a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F10%2F17%2Fsimple-guide-to-setting-up-loftek-cxs-2200%2F" style="text-decoration: none; white-space: nowrap;" title="Facebook" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Facebook','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/10/17/simple-guide-to-setting-up-loftek-cxs-2200/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png" alt="Facebook" width="0" height="0" /></a> <a href="http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F10%2F17%2Fsimple-guide-to-setting-up-loftek-cxs-2200%2F&text=Simple+Guide+to+Setting+up+a+LOFTEK+CXS+2200" style="text-decoration: none; white-space: nowrap;" title="Twitter" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Twitter','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/10/17/simple-guide-to-setting-up-loftek-cxs-2200/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png" alt="Twitter" width="0" height="0" /></a> <a href="http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F10%2F17%2Fsimple-guide-to-setting-up-loftek-cxs-2200%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F10%2F17%2Fsimple-guide-to-setting-up-loftek-cxs-2200%2F" style="text-decoration: none; white-space: nowrap;" title="Reddit" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Reddit','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/10/17/simple-guide-to-setting-up-loftek-cxs-2200/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=700,height=500'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png" alt="Reddit" width="0" height="0" /></a> <a href="http://digg.com/submit?partner=addthis&url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F10%2F17%2Fsimple-guide-to-setting-up-loftek-cxs-2200%2F&title=Simple+Guide+to+Setting+up+a+LOFTEK+CXS+2200&bodytext=" style="text-decoration: none; white-space: nowrap;" title="Digg" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Digg','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/10/17/simple-guide-to-setting-up-loftek-cxs-2200/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png" alt="Digg" width="0" height="0" /></a> <a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F10%2F17%2Fsimple-guide-to-setting-up-loftek-cxs-2200%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F10%2F17%2Fsimple-guide-to-setting-up-loftek-cxs-2200%2F" style="text-decoration: none; white-space: nowrap;" title="Stumbleupon" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Stumbleupon','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/10/17/simple-guide-to-setting-up-loftek-cxs-2200/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png" alt="Stumbleupon" width="0" height="0" /></a> <a href="mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F10%2F17%2Fsimple-guide-to-setting-up-loftek-cxs-2200%2F" style="text-decoration: none; white-space: nowrap;" title="Email" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Email','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/10/17/simple-guide-to-setting-up-loftek-cxs-2200/']); "><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png" alt="Email" width="0" height="0" /></a>
+</div>
+
+<p>[6]: <a href="http://blog.sensr.net/wp-content/uploads/2011/10/LOFTEK-CXS-2200-Setup-on-Sensr.net_.png">http://blog.sensr.net/wp-content/uploads/2011/10/LOFTEK-CXS-2200-Setup-on-Sensr.net_.png</a></p>
+
+  
+
+<div id="footer" role="contentinfo">
+	<div id="colophon">
+		<div id="site-info">
+			<ul id="copyright">
+				<li class="company-name">
+					<em>Sensr.net, Inc. © 2009-2016</em>
+				</li>
+				<li class="company-networks">Follow us on <a id="icon-twitter" href="http://www.twitter.com/sensr" target="_blank" title="Follow Sensr on Twitter" name="icon-twitter">Twitter</a> <a id="icon-facebook" href="http://www.facebook.com/sensrnet" target="_blank" title="Like Sensr on Facebook" name="icon-facebook">Facebook</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+	</body>
+</html>
+

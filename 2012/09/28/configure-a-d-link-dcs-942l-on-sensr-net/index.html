@@ -1,0 +1,129 @@
+<!DOCTYPE html> 
+<head>
+<title>Configure a D-Link DCS-942L on Sensr.net</title>	
+<link rel="stylesheet" type="text/css" media="all" href="/css/style.css">
+<link href="/img/sensr-favicon.png" rel="icon" type="image/png">
+</head>
+
+<body>
+<div id="header">
+  <div id="masthead">
+    <div id="branding" role="banner">
+	  <h1 id="site-title">
+        <span><a href="/" title="Sensr.net Blog" rel="home">Sensr.net Blog</a></span>
+      </h1>
+	  <div id="site-description">Watch your Stuff!</div>
+	</div>
+	<div id="access" role="navigation">
+	  <div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+	  <div class="menu-header">
+		  <ul id="menu-menu-test" class="menu">
+			  <li id="menu-item-124" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-124"><a href="http://sensr.net/">Home</a></li>
+			  <li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125"><a href="/archives/">Archives</a></li>
+			  <li id="menu-item-126" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-126"><a href="http://sensr.net/about">About</a></li>
+			  <li id="menu-item-127" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-127"><a href="http://sensr.net/faq">FAQ</a></li>
+		  </ul>
+	  </div>			
+    </div>
+  </div>
+  <div id="sensr_banner"></div>
+</div>
+<div id="main">
+
+  <h1>Configure a D-Link DCS-942L on Sensr.net</h1>
+  <h2>Sat, Sep 29, 2012</h2>
+  <div class="share_buttons_simple_use_buttons" style="padding: 10px 0; display: inline-block">
+  <div class="tweet_button" style="float: left; vertical-align: top">
+    <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2012/09/28/configure-a-d-link-dcs-942l-on-sensr-net/" data-text="Configure a D-Link DCS-942L on Sensr.net" data-count="none">Tweet</a>
+  </div>
+  
+
+<p><div class="facebook_like_button" style="float: left; vertical-align: top; margin-left: 10px; max-width: 255px">
+  </div>
+</div></p>
+
+<p><a href="http://blog.sensr.net/wp-content/uploads/2012/09/DCS-942L.jpg"><img class="aligncenter size-medium wp-image-2085" title="DCS-942L" src="http://blog.sensr.net/wp-content/uploads/2012/09/DCS-942L-300x300.jpg" alt="D-Link DCS-942L on Sensr.net" width="300" height="300" srcset="http://sensr.net/blog/wp-content/uploads/2012/09/DCS-942L-300x300.jpg 300w, http://sensr.net/blog/wp-content/uploads/2012/09/DCS-942L-150x150.jpg 150w, http://sensr.net/blog/wp-content/uploads/2012/09/DCS-942L-1024x1024.jpg 1024w, http://sensr.net/blog/wp-content/uploads/2012/09/DCS-942L.jpg 1224w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+
+<p>The D-Link DCS-942L is a nice little camera from D-Link, an upgrade from its predecessor, the <a href="https://sensr.net/dlink-932l" target="_blank">DCS-932L</a>.  It works pretty well with <a href="https://sensr.net" target="_blank">Sensr.net</a> if you know how to set it up.  For this camera you need to configure it to upload to Sensr.net on motion as it doesn&#8217;t support uploads at 1 FPS (frame per second).</p>
+
+<p>Go to the camera&#8217;s UI and login as </p>
+
+<p><strong>admin</strong>.  (By default the admin password isn&#8217;t set, so just hit return.)  Then go to the <strong>Setup</strong> page for <strong>Motion Detection</strong>, which should look something like this.  I put a red circle around the settings you want to choose.  Basically you want to select the <strong>Enable Video Motion</strong> option and tell the camera which part of the frame to use when detecting motion.</p>
+
+<p>[<img class="aligncenter size-full wp-image-2072" title="Setup Motion Detection" src="http://blog.sensr.net/wp-content/uploads/2012/09/Screen-Shot-2012-09-28-at-6.41.45-PM.png" alt="" width="873" height="739" srcset="http://sensr.net/blog/wp-content/uploads/2012/09/Screen-Shot-2012-09-28-at-6.41.45-PM.png 873w, http://sensr.net/blog/wp-content/uploads/2012/09/Screen-Shot-2012-09-28-at-6.41.45-PM-300x253.png 300w" sizes="(max-width: 873px) 100vw, 873px" />][2]</p>
+
+<p>Next you need to tell the camera to FTP snapshots (JPEG images) to Sensr.net.  You&#8217;ll need the FTP credentials from your Sensr.net account for this camera.  You can get those by logging into Sensr.net and going to the settings page for your camera.</p>
+
+<div id="attachment_2073" style="width: 972px" class="wp-caption aligncenter">
+  <a href="http://blog.sensr.net/wp-content/uploads/2012/09/942l-ftp-sensr.png"><img class="size-full wp-image-2073" title="Sensr.net FTP Credentials" src="http://blog.sensr.net/wp-content/uploads/2012/09/942l-ftp-sensr.png" alt="" width="962" height="561" srcset="http://sensr.net/blog/wp-content/uploads/2012/09/942l-ftp-sensr.png 962w, http://sensr.net/blog/wp-content/uploads/2012/09/942l-ftp-sensr-300x174.png 300w" sizes="(max-width: 962px) 100vw, 962px" /></a>
+  
+  <p class="wp-caption-text">
+    Get the FTP credentials from Sensr.net
+  </p>
+</div>
+
+<p>Once you have the credentials, go to your DCS-942l page under <strong>Setup</strong> and then <strong>Snapshot</strong> and put the credentials in there.   Select the <strong>Snapshot</strong> mode and <strong>Trigger by Motion.</strong>  The path doesn&#8217;t really matter, but the port should be 21 and the Passive Mode should be selected, both of these are the defaults.  The screen on the camera side will look like this.</p>
+
+<div id="attachment_2075" style="width: 881px" class="wp-caption aligncenter">
+  <a href="http://blog.sensr.net/wp-content/uploads/2012/09/942lftp.png"><img class="size-full wp-image-2075" title="Snapshot Upload on Motion" src="http://blog.sensr.net/wp-content/uploads/2012/09/942lftp.png" alt="" width="871" height="828" srcset="http://sensr.net/blog/wp-content/uploads/2012/09/942lftp.png 871w, http://sensr.net/blog/wp-content/uploads/2012/09/942lftp-300x285.png 300w" sizes="(max-width: 871px) 100vw, 871px" /></a>
+  
+  <p class="wp-caption-text">
+    Tell your DSC-942l to upload snapshots on motion
+  </p>
+</div>
+
+<p>Once you have your camera pushing snapshots to Sensr.net, you&#8217;ll be able to view the archives in our lovely cloud DVR view, where we organize them by month, day, and hour. Now you can easily find out what happened last night or last week with just a few clicks.</p>
+
+<div id="attachment_2076" style="width: 1047px" class="wp-caption aligncenter">
+  <a href="http://blog.sensr.net/wp-content/uploads/2012/09/Screen-Shot-2012-09-28-at-7.13.35-PM.png"><img class="size-full wp-image-2076" title="DCS-942l on Sensr.net" src="http://blog.sensr.net/wp-content/uploads/2012/09/Screen-Shot-2012-09-28-at-7.13.35-PM.png" alt="" width="1037" height="651" srcset="http://sensr.net/blog/wp-content/uploads/2012/09/Screen-Shot-2012-09-28-at-7.13.35-PM.png 1037w, http://sensr.net/blog/wp-content/uploads/2012/09/Screen-Shot-2012-09-28-at-7.13.35-PM-300x188.png 300w, http://sensr.net/blog/wp-content/uploads/2012/09/Screen-Shot-2012-09-28-at-7.13.35-PM-1024x642.png 1024w" sizes="(max-width: 1037px) 100vw, 1037px" /></a>
+  
+  <p class="wp-caption-text">
+    DVR View of DCS-942L
+  </p>
+</div>
+
+<p>One drawback to the upload on motion is that the live view on Sensr.net won&#8217;t work, it will just show the last image we retrieved.  In the day view you&#8217;ll see missing images in the hours where there was no motion.   Not a big deal really, but it looks a little odd.  Here&#8217;s an example of the day view, you can see that nothing happened between midnight and 4am and that no images were stored between 8pm and midnight.</p>
+
+<div id="attachment_2079" style="width: 1149px" class="wp-caption aligncenter">
+  <a href="http://blog.sensr.net/wp-content/uploads/2012/09/Screen-Shot-2012-09-28-at-7.23.25-PM.png"><img class="size-full wp-image-2079" title="DCS0942l in DVR" src="http://blog.sensr.net/wp-content/uploads/2012/09/Screen-Shot-2012-09-28-at-7.23.25-PM.png" alt="" width="1139" height="775" srcset="http://sensr.net/blog/wp-content/uploads/2012/09/Screen-Shot-2012-09-28-at-7.23.25-PM.png 1139w, http://sensr.net/blog/wp-content/uploads/2012/09/Screen-Shot-2012-09-28-at-7.23.25-PM-300x204.png 300w, http://sensr.net/blog/wp-content/uploads/2012/09/Screen-Shot-2012-09-28-at-7.23.25-PM-1024x696.png 1024w" sizes="(max-width: 1139px) 100vw, 1139px" /></a>
+  
+  <p class="wp-caption-text">
+    Day view example shows hours without motion.
+  </p>
+</div>
+
+<p>Generally the DCS-942L is a decent camera and works pretty well with Sensr.net.  If you want the live view, you can always use the MyDlink site for that.</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<div class="trackable_sharing">
+  <a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2012%2F09%2F28%2Fconfigure-a-d-link-dcs-942l-on-sensr-net%2F" style="text-decoration: none; white-space: nowrap;" title="Facebook" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Facebook','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2012/09/28/configure-a-d-link-dcs-942l-on-sensr-net/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png" alt="Facebook" width="0" height="0" /></a> <a href="http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2012%2F09%2F28%2Fconfigure-a-d-link-dcs-942l-on-sensr-net%2F&text=Configure+a+D-Link+DCS-942L+on+Sensr.net" style="text-decoration: none; white-space: nowrap;" title="Twitter" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Twitter','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2012/09/28/configure-a-d-link-dcs-942l-on-sensr-net/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png" alt="Twitter" width="0" height="0" /></a> <a href="http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2012%2F09%2F28%2Fconfigure-a-d-link-dcs-942l-on-sensr-net%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2012%2F09%2F28%2Fconfigure-a-d-link-dcs-942l-on-sensr-net%2F" style="text-decoration: none; white-space: nowrap;" title="Reddit" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Reddit','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2012/09/28/configure-a-d-link-dcs-942l-on-sensr-net/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=700,height=500'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png" alt="Reddit" width="0" height="0" /></a> <a href="http://digg.com/submit?partner=addthis&url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2012%2F09%2F28%2Fconfigure-a-d-link-dcs-942l-on-sensr-net%2F&title=Configure+a+D-Link+DCS-942L+on+Sensr.net&bodytext=" style="text-decoration: none; white-space: nowrap;" title="Digg" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Digg','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2012/09/28/configure-a-d-link-dcs-942l-on-sensr-net/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png" alt="Digg" width="0" height="0" /></a> <a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2012%2F09%2F28%2Fconfigure-a-d-link-dcs-942l-on-sensr-net%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2012%2F09%2F28%2Fconfigure-a-d-link-dcs-942l-on-sensr-net%2F" style="text-decoration: none; white-space: nowrap;" title="Stumbleupon" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Stumbleupon','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2012/09/28/configure-a-d-link-dcs-942l-on-sensr-net/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png" alt="Stumbleupon" width="0" height="0" /></a> <a href="mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2012%2F09%2F28%2Fconfigure-a-d-link-dcs-942l-on-sensr-net%2F" style="text-decoration: none; white-space: nowrap;" title="Email" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Email','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2012/09/28/configure-a-d-link-dcs-942l-on-sensr-net/']); "><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png" alt="Email" width="0" height="0" /></a>
+</div>
+
+<p>[2]: <a href="http://blog.sensr.net/wp-content/uploads/2012/09/Screen-Shot-2012-09-28-at-6.41.45-PM.png">http://blog.sensr.net/wp-content/uploads/2012/09/Screen-Shot-2012-09-28-at-6.41.45-PM.png</a></p>
+
+  
+
+<div id="footer" role="contentinfo">
+	<div id="colophon">
+		<div id="site-info">
+			<ul id="copyright">
+				<li class="company-name">
+					<em>Sensr.net, Inc. © 2009-2016</em>
+				</li>
+				<li class="company-networks">Follow us on <a id="icon-twitter" href="http://www.twitter.com/sensr" target="_blank" title="Follow Sensr on Twitter" name="icon-twitter">Twitter</a> <a id="icon-facebook" href="http://www.facebook.com/sensrnet" target="_blank" title="Like Sensr on Facebook" name="icon-facebook">Facebook</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+	</body>
+</html>
+

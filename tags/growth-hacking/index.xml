@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Growth Hacking on Sensr.net Blog | Watch your Stuff!</title>
+    <link>https://sblog.sensr.net/tags/growth-hacking/</link>
+    <description>Recent content in Growth Hacking on Sensr.net Blog | Watch your Stuff!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Apr 2015 20:03:06 +0000</lastBuildDate>
+    <atom:link href="https://sblog.sensr.net/tags/growth-hacking/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Sensr.net Revenue Experiment</title>
+      <link>https://sblog.sensr.net/2015/04/04/sensr-net-revenue-experiment/</link>
+      <pubDate>Sat, 04 Apr 2015 20:03:06 +0000</pubDate>
+      
+      <guid>https://sblog.sensr.net/2015/04/04/sensr-net-revenue-experiment/</guid>
+      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
+  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
+    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2015/04/04/sensr-net-revenue-experiment/&#34; data-text=&#34;Sensr.net Revenue Experiment&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
+  &lt;/div&gt;
+  
+
+&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;div id=&#34;attachment_3158&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2015/04/Screenshot-2015-04-04-12.56.41.png&#34;&gt;&lt;img class=&#34;size-large wp-image-3158&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2015/04/Screenshot-2015-04-04-12.56.41-1024x488.png&#34; alt=&#34;Look at growth from new users versus growth from existing users.&#34; width=&#34;640&#34; height=&#34;305&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2015/04/Screenshot-2015-04-04-12.56.41-1024x488.png 1024w, http://sensr.net/blog/wp-content/uploads/2015/04/Screenshot-2015-04-04-12.56.41-300x143.png 300w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Look at growth from new users versus growth from existing users.
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;At Sensr.net we use &lt;a href=&#34;https://stripe.com&#34; title=&#34;Stripe&#34;&gt;Stripe&lt;/a&gt; to handle all the credit card charges. Recently I started using &lt;a href=&#34;http://home.profitwell.com/&#34; title=&#34;ProfitWell, a free tool for SaaS metrics&#34;&gt;Profitwell, a free tool for SaaS metrics&lt;/a&gt;, to try to understand better where we are making money and where we are losing it.&lt;/p&gt;
+
+&lt;p&gt;Most of our growth today comes from new users. Wouldn&amp;#8217;t it be great if we could convince existing users to spend more? For us, that means users with an existing camera might be enticed to add another camera. After all, if you&amp;#8217;re paying $9.95 for one camera, adding a second for only $4.95 should seem attractive.&lt;/p&gt;
+
+&lt;p&gt;I decided to try an incentive. I looked for all users who have a single camera on the site, are in good standing, and have logged in recently. That turned out to be 138 users. This morning I sent them &lt;a href=&#34;http://us2.campaign-archive1.com/?u=180d5f24fadceaa24de070d6f&amp;amp;id=8a5f29a15e&#34; title=&#34;April Sensr.net Offer&#34;&gt;an offer that I hope they can&amp;#8217;t refuse&lt;/a&gt;. If they add a second camera by April 26th, I&amp;#8217;ll give them a credit of $14.90, or one month&amp;#8217;s service.&lt;/p&gt;
+
+&lt;p&gt;I have no idea if this will work or not, but I&amp;#8217;ll report back and we&amp;#8217;ll see!&lt;/p&gt;
+
+&lt;p&gt;BTW, I used &lt;a title=&#34;Mail Chimp&#34; href=&#34;http://mailchimp.com&#34; target=&#34;_blank&#34;&gt;Mail Chimp&lt;/a&gt; to do the email campaign.  The most difficult part of this was building the SQL query to gather the emails.    Now that I have that, I may try to integrate an ongoing campaign using &lt;a href=&#34;http://customer.io/&#34; title=&#34;Targeted Human Emails&#34;&gt;Customer.io&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I must say that this experiment is also inspired by the book &lt;a title=&#34;Predictably Irrational&#34; href=&#34;http://www.amazon.com/Predictably-Irrational-Revised-Expanded-Decisions-ebook/dp/B002C949KE/sensr-20&#34; target=&#34;_blank&#34;&gt;Predictably Irrational&lt;/a&gt; by &lt;a title=&#34;Dan Ariely&#34; href=&#34;http://danariely.com/&#34; target=&#34;_blank&#34;&gt;Dan Ariely&lt;/a&gt;.  Reading about how people make decisions is pretty interesting!&lt;/p&gt;
+
+&lt;div class=&#34;trackable_sharing&#34;&gt;
+  &lt;a href=&#34;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2015%2F04%2F04%2Fsensr-net-revenue-experiment%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Facebook&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Facebook&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2015/04/04/sensr-net-revenue-experiment/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png&#34; alt=&#34;Facebook&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2015%2F04%2F04%2Fsensr-net-revenue-experiment%2F&amp;text=Sensr.net+Revenue+Experiment&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Twitter&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Twitter&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2015/04/04/sensr-net-revenue-experiment/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png&#34; alt=&#34;Twitter&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2015%2F04%2F04%2Fsensr-net-revenue-experiment%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2015%2F04%2F04%2Fsensr-net-revenue-experiment%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Reddit&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Reddit&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2015/04/04/sensr-net-revenue-experiment/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=700,height=500&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png&#34; alt=&#34;Reddit&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://digg.com/submit?partner=addthis&amp;url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2015%2F04%2F04%2Fsensr-net-revenue-experiment%2F&amp;title=Sensr.net+Revenue+Experiment&amp;bodytext=&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Digg&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Digg&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2015/04/04/sensr-net-revenue-experiment/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png&#34; alt=&#34;Digg&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2015%2F04%2F04%2Fsensr-net-revenue-experiment%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2015%2F04%2F04%2Fsensr-net-revenue-experiment%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Stumbleupon&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Stumbleupon&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2015/04/04/sensr-net-revenue-experiment/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png&#34; alt=&#34;Stumbleupon&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2015%2F04%2F04%2Fsensr-net-revenue-experiment%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Email&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Email&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2015/04/04/sensr-net-revenue-experiment/&#39;]); &#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png&#34; alt=&#34;Email&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

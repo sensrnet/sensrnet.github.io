@@ -1,0 +1,214 @@
+<!DOCTYPE html> 
+<head>
+<title>How to setup the Y-cam Bullet HD 1080 with Cloud Recording</title>	
+<link rel="stylesheet" type="text/css" media="all" href="/css/style.css">
+<link href="/img/sensr-favicon.png" rel="icon" type="image/png">
+</head>
+
+<body>
+<div id="header">
+  <div id="masthead">
+    <div id="branding" role="banner">
+	  <h1 id="site-title">
+        <span><a href="/" title="Sensr.net Blog" rel="home">Sensr.net Blog</a></span>
+      </h1>
+	  <div id="site-description">Watch your Stuff!</div>
+	</div>
+	<div id="access" role="navigation">
+	  <div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+	  <div class="menu-header">
+		  <ul id="menu-menu-test" class="menu">
+			  <li id="menu-item-124" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-124"><a href="http://sensr.net/">Home</a></li>
+			  <li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125"><a href="/archives/">Archives</a></li>
+			  <li id="menu-item-126" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-126"><a href="http://sensr.net/about">About</a></li>
+			  <li id="menu-item-127" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-127"><a href="http://sensr.net/faq">FAQ</a></li>
+		  </ul>
+	  </div>			
+    </div>
+  </div>
+  <div id="sensr_banner"></div>
+</div>
+<div id="main">
+
+  <h1>How to setup the Y-cam Bullet HD 1080 with Cloud Recording</h1>
+  <h2>Mon, Jul 14, 2014</h2>
+  <div class="share_buttons_simple_use_buttons" style="padding: 10px 0; display: inline-block">
+  <div class="tweet_button" style="float: left; vertical-align: top">
+    <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/14/how-to-setup-the-y-cam-bullet-hd-with-cloud-recording/" data-text="How to setup the Y-cam Bullet HD 1080 with Cloud Recording" data-count="none">Tweet</a>
+  </div>
+  
+
+<p><div class="facebook_like_button" style="float: left; vertical-align: top; margin-left: 10px; max-width: 255px">
+  </div>
+</div></p>
+
+<p>&nbsp;</p>
+
+<div id="attachment_2967" style="width: 444px" class="wp-caption alignleft">
+  <a href="http://sensr.net/blog/wp-content/uploads/2014/07/Y-cam-Bullet-HD-1080-1.jpg"><img class=" wp-image-2967" src="http://sensr.net/blog/wp-content/uploads/2014/07/Y-cam-Bullet-HD-1080-1.jpg" alt="Absolutely stunning" width="434" height="434" srcset="http://sensr.net/blog/wp-content/uploads/2014/07/Y-cam-Bullet-HD-1080-1.jpg 1500w, http://sensr.net/blog/wp-content/uploads/2014/07/Y-cam-Bullet-HD-1080-1-150x150.jpg 150w, http://sensr.net/blog/wp-content/uploads/2014/07/Y-cam-Bullet-HD-1080-1-300x300.jpg 300w, http://sensr.net/blog/wp-content/uploads/2014/07/Y-cam-Bullet-HD-1080-1-1024x1024.jpg 1024w" sizes="(max-width: 434px) 100vw, 434px" /></a>
+  
+  <p class="wp-caption-text">
+    Absolutely stunning
+  </p>
+</div>
+
+<p>The <a href="http://www.amazon.com/Y-cam-Bullet-1080-2nd-Gen/dp/B00I4PJKGI/ref=sr_1_4?s=electronics&amp;ie=UTF8&amp;qid=1405353547&amp;sr=1-4&amp;keywords=y-cam/sensr-20">Y-cam bullet HD 1080</a> (y-cam YCBLHD7) pretty awesome camera. It comes with more features than nearly any other camera out there with POE (power over internet), infrared night vision, 1080p recording capability, NAS compatibility, a micro SD card slot, ONVIF, weather proof casing, and more. Of course all these features come at a price; the <a href="http://www.amazon.com/Y-cam-Bullet-1080-2nd-Gen/dp/B00I4PJKGI/ref=sr_1_4?s=electronics&amp;ie=UTF8&amp;qid=1405353547&amp;sr=1-4&amp;keywords=y-cam/sensr-20">Y-cam bullet HD 1080</a> costs $424.99 on <a href="http://www.amazon.com/Y-cam-Bullet-1080-2nd-Gen/dp/B00I4PJKGI/ref=sr_1_4?s=electronics&amp;ie=UTF8&amp;qid=1405353547&amp;sr=1-4&amp;keywords=y-cam/sensr-20">amazon</a>. That being said I think this camera is definitely worth your money. It&#8217;s got more features then just about other camera we&#8217;ve reviewed and is really top of the line. It would be a shame to buy such a nice camera and not be able to set it up, which is why we (being the wonderful and good looking people that we are) have created this tutorial to show you how to get your <a href="http://www.amazon.com/Y-cam-Bullet-1080-2nd-Gen/dp/B00I4PJKGI/ref=sr_1_4?s=electronics&amp;ie=UTF8&amp;qid=1405353547&amp;sr=1-4&amp;keywords=y-cam/sensr-20">Y-cam bullet HD 1080</a> set up, connected to the internet and hooked up to Sensr.net&#8217;s cloud recording.</p>
+
+<p>You just need to follow these steps:</p>
+
+<ol>
+<li>Plug in your camera</li>
+<li>Find your camera&#8217;s IP address</li>
+<li>Get FTP credentials from Sensr.net</li>
+<li>Tell you camera about your fancy new FTP credentials</li>
+<li>Victory Dance</li>
+</ol>
+
+<p><span style="color: #000000;"><b>1. Plug in your camera:</b></span></p>
+
+<p>This step is pretty self explanatory. Just plug your camera into your router and a wall outlet. The camera has to be connected via ethernet for setup but you can change the connection to wifi later.</p>
+
+<p><strong>2. Get your camera&#8217;s IP address. </strong></p>
+
+<p>There are a number of ways to do this. You can use the software that comes with the camera or just access your router&#8217;s network page. We tend to avoid installing new software on our computers just cause that is a pain in the butt and takes up space so this tutorial will show you the router way. Get your router&#8217;s IP address and enter it into your internet browser (if you don&#8217;t know where to find your router&#8217;s IP address you can just follow steps 1 in <a href="http://sensr.net/blog/2014/07/01/how-to-setup-the-tenvis-jpt3815w/#more-2901">this tutorial</a>). Once you are on your Router&#8217;s network page just look for the new device and write down the IP address; this is the IP address of your camera. Make sure you have it written down because you will need it later.</p>
+
+<p><strong>3. Get FTP credentials from Sensr.net</strong></p>
+
+<p>Simply log into your Sensr.net account click the <strong>Add Camera</strong> button. Sensr.net has a free one week trial, so give it a go and see if it works for you.  (It’s free to setup an account with Sensr.net. Camera monitoring starts at $9.95/month after your free trial is up.) Setting up with us will allow you to have cloud recording for your camera. Once you login you’ll see a page like this:</p>
+
+<p><a style="color: #888888;" href="http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png"><img class="size-full wp-image-2714" src="http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png" alt="Add new camera page" width="1003" height="339" srcset="http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png 1003w, http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera-300x101.png 300w" sizes="(max-width: 1003px) 100vw, 1003px" /></a></p>
+
+<p>Next you’ll see a page like this where you can set the timezone for your camera, give it a name, and tell us the model.  Cameras default to private but you can make them public if you want to share them with the world.</p>
+
+<p><a style="color: #888888;" href="http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details.png"><img class="size-full wp-image-2713" src="http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details.png" alt="Note this is for a different device" width="999" height="491" srcset="http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details.png 999w, http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details-300x147.png 300w" sizes="(max-width: 999px) 100vw, 999px" /></a></p>
+
+<p>After that, we’ll generate some FTP credentials for your server. This generates a login for your  <a href="http://www.amazon.com/Y-cam-Bullet-1080-2nd-Gen/dp/B00I4PJKGI/ref=sr_1_4?s=electronics&amp;ie=UTF8&amp;qid=1405353547&amp;sr=1-4&amp;keywords=y-cam/sensr-20">Y-cam bullet HD 1080</a> to where it can upload images via FTP. This tells your camera where to upload the images. The important information here is:</p>
+
+<ol>
+<li>FTP Server</li>
+<li>FTP User name</li>
+<li>FTP Password</li>
+</ol>
+
+<p>Save these so we can add them to your camera later.</p>
+
+<p><a style="color: #888888;" href="http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png"><img class="size-full wp-image-2607" src="http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png" alt="FTP credentials" width="1141" height="790" srcset="http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png 1141w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-1024x708.png 1024w" sizes="(max-width: 1141px) 100vw, 1141px" /></a></p>
+
+<p><strong>4. Tell your camera about your nifty credentials</strong></p>
+
+<p>Open a new tab and enter the IP address for your camera you wrote down earlier. This will bring you to the Camera&#8217;s network access page. It will ask you for a password. The defaults here are username: admin password: 1234. Change these! I made [<div class="share_buttons_simple_use_buttons" style="padding: 10px 0; display: inline-block">
+  <div class="tweet_button" style="float: left; vertical-align: top">
+    <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/14/how-to-setup-the-y-cam-bullet-hd-with-cloud-recording/" data-text="How to setup the Y-cam Bullet HD 1080 with Cloud Recording" data-count="none">Tweet</a>
+  </div></p>
+
+<p><div class="facebook_like_button" style="float: left; vertical-align: top; margin-left: 10px; max-width: 255px">
+  </div>
+</div></p>
+
+<p>&nbsp;</p>
+
+<div id="attachment_2967" style="width: 444px" class="wp-caption alignleft">
+  <a href="http://sensr.net/blog/wp-content/uploads/2014/07/Y-cam-Bullet-HD-1080-1.jpg"><img class=" wp-image-2967" src="http://sensr.net/blog/wp-content/uploads/2014/07/Y-cam-Bullet-HD-1080-1.jpg" alt="Absolutely stunning" width="434" height="434" srcset="http://sensr.net/blog/wp-content/uploads/2014/07/Y-cam-Bullet-HD-1080-1.jpg 1500w, http://sensr.net/blog/wp-content/uploads/2014/07/Y-cam-Bullet-HD-1080-1-150x150.jpg 150w, http://sensr.net/blog/wp-content/uploads/2014/07/Y-cam-Bullet-HD-1080-1-300x300.jpg 300w, http://sensr.net/blog/wp-content/uploads/2014/07/Y-cam-Bullet-HD-1080-1-1024x1024.jpg 1024w" sizes="(max-width: 434px) 100vw, 434px" /></a>
+  
+  <p class="wp-caption-text">
+    Absolutely stunning
+  </p>
+</div>
+
+<p>The <a href="http://www.amazon.com/Y-cam-Bullet-1080-2nd-Gen/dp/B00I4PJKGI/ref=sr_1_4?s=electronics&amp;ie=UTF8&amp;qid=1405353547&amp;sr=1-4&amp;keywords=y-cam/sensr-20">Y-cam bullet HD 1080</a> (y-cam YCBLHD7) pretty awesome camera. It comes with more features than nearly any other camera out there with POE (power over internet), infrared night vision, 1080p recording capability, NAS compatibility, a micro SD card slot, ONVIF, weather proof casing, and more. Of course all these features come at a price; the <a href="http://www.amazon.com/Y-cam-Bullet-1080-2nd-Gen/dp/B00I4PJKGI/ref=sr_1_4?s=electronics&amp;ie=UTF8&amp;qid=1405353547&amp;sr=1-4&amp;keywords=y-cam/sensr-20">Y-cam bullet HD 1080</a> costs $424.99 on <a href="http://www.amazon.com/Y-cam-Bullet-1080-2nd-Gen/dp/B00I4PJKGI/ref=sr_1_4?s=electronics&amp;ie=UTF8&amp;qid=1405353547&amp;sr=1-4&amp;keywords=y-cam/sensr-20">amazon</a>. That being said I think this camera is definitely worth your money. It&#8217;s got more features then just about other camera we&#8217;ve reviewed and is really top of the line. It would be a shame to buy such a nice camera and not be able to set it up, which is why we (being the wonderful and good looking people that we are) have created this tutorial to show you how to get your <a href="http://www.amazon.com/Y-cam-Bullet-1080-2nd-Gen/dp/B00I4PJKGI/ref=sr_1_4?s=electronics&amp;ie=UTF8&amp;qid=1405353547&amp;sr=1-4&amp;keywords=y-cam/sensr-20">Y-cam bullet HD 1080</a> set up, connected to the internet and hooked up to Sensr.net&#8217;s cloud recording.</p>
+
+<p>You just need to follow these steps:</p>
+
+<ol>
+<li>Plug in your camera</li>
+<li>Find your camera&#8217;s IP address</li>
+<li>Get FTP credentials from Sensr.net</li>
+<li>Tell you camera about your fancy new FTP credentials</li>
+<li>Victory Dance</li>
+</ol>
+
+<p><span style="color: #000000;"><b>1. Plug in your camera:</b></span></p>
+
+<p>This step is pretty self explanatory. Just plug your camera into your router and a wall outlet. The camera has to be connected via ethernet for setup but you can change the connection to wifi later.</p>
+
+<p><strong>2. Get your camera&#8217;s IP address. </strong></p>
+
+<p>There are a number of ways to do this. You can use the software that comes with the camera or just access your router&#8217;s network page. We tend to avoid installing new software on our computers just cause that is a pain in the butt and takes up space so this tutorial will show you the router way. Get your router&#8217;s IP address and enter it into your internet browser (if you don&#8217;t know where to find your router&#8217;s IP address you can just follow steps 1 in <a href="http://sensr.net/blog/2014/07/01/how-to-setup-the-tenvis-jpt3815w/#more-2901">this tutorial</a>). Once you are on your Router&#8217;s network page just look for the new device and write down the IP address; this is the IP address of your camera. Make sure you have it written down because you will need it later.</p>
+
+<p><strong>3. Get FTP credentials from Sensr.net</strong></p>
+
+<p>Simply log into your Sensr.net account click the <strong>Add Camera</strong> button. Sensr.net has a free one week trial, so give it a go and see if it works for you.  (It’s free to setup an account with Sensr.net. Camera monitoring starts at $9.95/month after your free trial is up.) Setting up with us will allow you to have cloud recording for your camera. Once you login you’ll see a page like this:</p>
+
+<p><a style="color: #888888;" href="http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png"><img class="size-full wp-image-2714" src="http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png" alt="Add new camera page" width="1003" height="339" srcset="http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png 1003w, http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera-300x101.png 300w" sizes="(max-width: 1003px) 100vw, 1003px" /></a></p>
+
+<p>Next you’ll see a page like this where you can set the timezone for your camera, give it a name, and tell us the model.  Cameras default to private but you can make them public if you want to share them with the world.</p>
+
+<p><a style="color: #888888;" href="http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details.png"><img class="size-full wp-image-2713" src="http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details.png" alt="Note this is for a different device" width="999" height="491" srcset="http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details.png 999w, http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details-300x147.png 300w" sizes="(max-width: 999px) 100vw, 999px" /></a></p>
+
+<p>After that, we’ll generate some FTP credentials for your server. This generates a login for your  <a href="http://www.amazon.com/Y-cam-Bullet-1080-2nd-Gen/dp/B00I4PJKGI/ref=sr_1_4?s=electronics&amp;ie=UTF8&amp;qid=1405353547&amp;sr=1-4&amp;keywords=y-cam/sensr-20">Y-cam bullet HD 1080</a> to where it can upload images via FTP. This tells your camera where to upload the images. The important information here is:</p>
+
+<ol>
+<li>FTP Server</li>
+<li>FTP User name</li>
+<li>FTP Password</li>
+</ol>
+
+<p>Save these so we can add them to your camera later.</p>
+
+<p><a style="color: #888888;" href="http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png"><img class="size-full wp-image-2607" src="http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png" alt="FTP credentials" width="1141" height="790" srcset="http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png 1141w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-1024x708.png 1024w" sizes="(max-width: 1141px) 100vw, 1141px" /></a></p>
+
+<p><strong>4. Tell your camera about your nifty credentials</strong></p>
+
+<p>Open a new tab and enter the IP address for your camera you wrote down earlier. This will bring you to the Camera&#8217;s network access page. It will ask you for a password. The defaults here are username: admin password: 1234. Change these! I made][3] about why the other day, watch [the video][3] and it will scare you straight. Once you enter the password you should find yourself on a page that looks has a feed of a camera and a umber of tabs.</p>
+
+<p>Choose the task tab then select FTP periodic sending setup. You should end up on a page that look like this:</p>
+
+<div id="attachment_2968" style="width: 690px" class="wp-caption aligncenter">
+  <a href="http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-17-at-2.24.38-PM.png"><img class="size-full wp-image-2968" src="http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-17-at-2.24.38-PM.png" alt="FTP upload settings" width="680" height="521" srcset="http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-17-at-2.24.38-PM.png 680w, http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-17-at-2.24.38-PM-300x229.png 300w" sizes="(max-width: 680px) 100vw, 680px" /></a>
+  
+  <p class="wp-caption-text">
+    FTP upload settings
+  </p>
+</div>
+
+<p>Copy and paste the credentials from before into the sections here. Make the period interval 7 24 0.  This should make it so your camera is always uploading the the video is smooth. Now that you are done go back to Sensr.net and your page should look like this:</p>
+
+<p><img class="size-full wp-image-2612" src="http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-done.png" alt="Success!" width="1141" height="790" srcset="http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-done.png 1141w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-done-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-done-1024x708.png 1024w" sizes="(max-width: 1141px) 100vw, 1141px" /></p>
+
+<p>&nbsp;</p>
+
+<p><strong>5. Victory dance</strong></p>
+
+<p>Cut a rug because you are a champion who now has cloud recording.</p>
+
+<p>Now that you’re on Sensr.net we’ll archive all the motion events, giving you 30 days of archives, SMS and email alerts, guest access, and a whole lot more.  You can view the live stream on our website or in our apps.</p>
+
+<p>As always let me know if you have any questions. Shoot me an email at info@sensr.net or click the feedback button on the right of the page!</p>
+
+<p>Ending note: I actually made a few errors when I first wrote this post and the guys at Y-cam were kind enough to reach out to me and help me fix the post. I&#8217;ve gotta admit how friendly and helpful they were just blew me away. I am really impressed by this company and their products and just wanted to let you guys know how great their service is.</p>
+
+<div class="trackable_sharing">
+  <a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F14%2Fhow-to-setup-the-y-cam-bullet-hd-with-cloud-recording%2F" style="text-decoration: none; white-space: nowrap;" title="Facebook" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Facebook','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/14/how-to-setup-the-y-cam-bullet-hd-with-cloud-recording/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png" alt="Facebook" width="0" height="0" /></a> <a href="http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F14%2Fhow-to-setup-the-y-cam-bullet-hd-with-cloud-recording%2F&text=How+to+setup+the+Y-cam+Bullet+HD+1080+with+Cloud+Recording" style="text-decoration: none; white-space: nowrap;" title="Twitter" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Twitter','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/14/how-to-setup-the-y-cam-bullet-hd-with-cloud-recording/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png" alt="Twitter" width="0" height="0" /></a> <a href="http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F14%2Fhow-to-setup-the-y-cam-bullet-hd-with-cloud-recording%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F14%2Fhow-to-setup-the-y-cam-bullet-hd-with-cloud-recording%2F" style="text-decoration: none; white-space: nowrap;" title="Reddit" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Reddit','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/14/how-to-setup-the-y-cam-bullet-hd-with-cloud-recording/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=700,height=500'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png" alt="Reddit" width="0" height="0" /></a> <a href="http://digg.com/submit?partner=addthis&url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F14%2Fhow-to-setup-the-y-cam-bullet-hd-with-cloud-recording%2F&title=How+to+setup+the+Y-cam+Bullet+HD+1080+with+Cloud+Recording&bodytext=" style="text-decoration: none; white-space: nowrap;" title="Digg" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Digg','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/14/how-to-setup-the-y-cam-bullet-hd-with-cloud-recording/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png" alt="Digg" width="0" height="0" /></a> <a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F14%2Fhow-to-setup-the-y-cam-bullet-hd-with-cloud-recording%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F14%2Fhow-to-setup-the-y-cam-bullet-hd-with-cloud-recording%2F" style="text-decoration: none; white-space: nowrap;" title="Stumbleupon" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Stumbleupon','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/14/how-to-setup-the-y-cam-bullet-hd-with-cloud-recording/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png" alt="Stumbleupon" width="0" height="0" /></a> <a href="mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F14%2Fhow-to-setup-the-y-cam-bullet-hd-with-cloud-recording%2F" style="text-decoration: none; white-space: nowrap;" title="Email" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Email','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/14/how-to-setup-the-y-cam-bullet-hd-with-cloud-recording/']); "><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png" alt="Email" width="0" height="0" /></a>
+</div>
+
+<p>[3]: <a href="http://sensr.net/blog/2014/07/11/why-you-should-change-your-ip-cameras-password/">http://sensr.net/blog/2014/07/11/why-you-should-change-your-ip-cameras-password/</a></p>
+
+  
+
+<div id="footer" role="contentinfo">
+	<div id="colophon">
+		<div id="site-info">
+			<ul id="copyright">
+				<li class="company-name">
+					<em>Sensr.net, Inc. © 2009-2016</em>
+				</li>
+				<li class="company-networks">Follow us on <a id="icon-twitter" href="http://www.twitter.com/sensr" target="_blank" title="Follow Sensr on Twitter" name="icon-twitter">Twitter</a> <a id="icon-facebook" href="http://www.facebook.com/sensrnet" target="_blank" title="Like Sensr on Facebook" name="icon-facebook">Facebook</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+	</body>
+</html>
+

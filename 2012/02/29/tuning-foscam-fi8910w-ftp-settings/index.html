@@ -1,0 +1,111 @@
+<!DOCTYPE html> 
+<head>
+<title>Tuning Foscam FI8910W FTP Settings</title>	
+<link rel="stylesheet" type="text/css" media="all" href="/css/style.css">
+<link href="/img/sensr-favicon.png" rel="icon" type="image/png">
+</head>
+
+<body>
+<div id="header">
+  <div id="masthead">
+    <div id="branding" role="banner">
+	  <h1 id="site-title">
+        <span><a href="/" title="Sensr.net Blog" rel="home">Sensr.net Blog</a></span>
+      </h1>
+	  <div id="site-description">Watch your Stuff!</div>
+	</div>
+	<div id="access" role="navigation">
+	  <div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+	  <div class="menu-header">
+		  <ul id="menu-menu-test" class="menu">
+			  <li id="menu-item-124" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-124"><a href="http://sensr.net/">Home</a></li>
+			  <li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125"><a href="/archives/">Archives</a></li>
+			  <li id="menu-item-126" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-126"><a href="http://sensr.net/about">About</a></li>
+			  <li id="menu-item-127" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-127"><a href="http://sensr.net/faq">FAQ</a></li>
+		  </ul>
+	  </div>			
+    </div>
+  </div>
+  <div id="sensr_banner"></div>
+</div>
+<div id="main">
+
+  <h1>Tuning Foscam FI8910W FTP Settings</h1>
+  <h2>Thu, Mar 1, 2012</h2>
+  <div class="share_buttons_simple_use_buttons" style="padding: 10px 0; display: inline-block">
+  <div class="tweet_button" style="float: left; vertical-align: top">
+    <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2012/02/29/tuning-foscam-fi8910w-ftp-settings/" data-text="Tuning Foscam FI8910W FTP Settings" data-count="none">Tweet</a>
+  </div>
+  
+
+<p><div class="facebook_like_button" style="float: left; vertical-align: top; margin-left: 10px; max-width: 255px">
+  </div>
+</div></p>
+
+<p><a href="https://sensr.net/clips/1315"><img class="aligncenter" title="Testing Foscam FI8910W" src="https://s3.amazonaws.com/sensrnet-cams/e0c7f165bd7f1a92dd2479b9e5829a4d7ce30106.jpg" alt="" width="640" height="480" /></a></p>
+
+<p>The <a href="http://www.amazon.com/Foscam-FI8910W-Wireless-Network-Camera/dp/B006ZP8UOW/sensr-20" title="FI8910W on Amazon">Foscam FI8910W</a> is the new model from Foscam with an IR Cut so the color of the daytime images are true to life. This is a nice improvement over the previous Foscam night vision models like the <a href="https://sensr.net/foscam-fi8918w" target="_blank">FI8918W</a>. (BTW, why does the newer model have a lower model number?)</p>
+
+<p>To use this camera with Sensr.net we recommend that you set the camera to upload jpegs at 1 frame per second. Navigate to the FTP Service Settings page on your FI8910W, which looks like this:</p>
+
+<div id="attachment_2054" style="width: 810px" class="wp-caption aligncenter">
+  <a href="http://blog.sensr.net/wp-content/uploads/2012/02/Screen-Shot-2012-09-19-at-1.43.02-PM.png"><img class="size-full wp-image-2054" title="Foscam FI8910W FTP Settings" src="http://blog.sensr.net/wp-content/uploads/2012/02/Screen-Shot-2012-09-19-at-1.43.02-PM.png" alt="Foscam FI8910W FTP Settings" width="800" height="675" srcset="http://sensr.net/blog/wp-content/uploads/2012/02/Screen-Shot-2012-09-19-at-1.43.02-PM.png 800w, http://sensr.net/blog/wp-content/uploads/2012/02/Screen-Shot-2012-09-19-at-1.43.02-PM-300x253.png 300w" sizes="(max-width: 800px) 100vw, 800px" /></a>
+  
+  <p class="wp-caption-text">
+    Note the 1 second interval
+  </p>
+</div>
+
+<p>Fill in the <strong>FTP Server</strong>, <strong>FTP User</strong>, and <strong>FTP Password</strong> with the values you get when adding your camera to Sensr.net.  The default values for <strong>FTP Upload Folder</strong> and <strong>FTP Mode</strong> are fine.  Make sure to select <strong>Upload Image Now</strong> and use 1 for the <strong>Upload Interval</strong>.</p>
+
+<p>With these settings, your camera will send Sensr.net a frame per second.  This will allow you to see a live view on the Sensr.net site without having to configure your firewall at all.  We&#8217;ll also store images when we detect motion.  This will allow you to go back in time to see what happened earlier in the day, last week or earlier in the month.</p>
+
+<p>By having the motion detection enabled on the Sensr.net side, we&#8217;ll still only store the interesting bits.  <a href="https://sensr.net/clips/1315">This clip shows me walking around</a> at about one pace per second and the Foscam settings are set as shown above.</p>
+
+<p><strong>Other Tips</strong></p>
+
+<p><strong>Set DNS Server</strong> if you&#8217;re using a static IP address for your camera, make sure you set the DNS Server in the Basic Network Settings page.  Here&#8217;s an example where the DNS Server is set to 75.75.75.75, which is the DNS Server for our Comcast Broadband connection.  If you don&#8217;t know your DNS server, you can use <a href="https://developers.google.com/speed/public-dns/">Google&#8217;s Public DNS Service</a> by putting in 8.8.8.8 or use 208.67.222.222 which is provided by <a href="http://www.opendns.com/" title="Open DNS">OpenDNS</a>.</p>
+
+<div id="attachment_2055" style="width: 810px" class="wp-caption aligncenter">
+  <a href="http://blog.sensr.net/wp-content/uploads/2012/02/Screen-Shot-2012-09-19-at-2.20.29-PM.png"><img class="size-full wp-image-2055" title="Foscam FI8910W Basic Network Settings" src="http://blog.sensr.net/wp-content/uploads/2012/02/Screen-Shot-2012-09-19-at-2.20.29-PM.png" alt="Foscam FI8910W Basic Network Settings" width="800" height="675" srcset="http://sensr.net/blog/wp-content/uploads/2012/02/Screen-Shot-2012-09-19-at-2.20.29-PM.png 800w, http://sensr.net/blog/wp-content/uploads/2012/02/Screen-Shot-2012-09-19-at-2.20.29-PM-300x253.png 300w" sizes="(max-width: 800px) 100vw, 800px" /></a>
+  
+  <p class="wp-caption-text">
+    Foscam FI8910W Basic Network Settings
+  </p>
+</div>
+
+<p><strong>Don&#8217;t Arm Motion Detection</strong> on the camera.  This conflicts with the upload per second we&#8217;re recommending above.   If you&#8217;re using the recommended settings, your Alarm Service Settings should look like this:</p>
+
+<div id="attachment_2056" style="width: 724px" class="wp-caption aligncenter">
+  <a href="http://blog.sensr.net/wp-content/uploads/2012/02/Screen-Shot-2012-09-19-at-2.26.56-PM.png"><img class="size-full wp-image-2056" title="Foscam FI8910W Alarm Service Settings" src="http://blog.sensr.net/wp-content/uploads/2012/02/Screen-Shot-2012-09-19-at-2.26.56-PM.png" alt="Foscam FI8910W Alarm Service Settings" width="714" height="591" srcset="http://sensr.net/blog/wp-content/uploads/2012/02/Screen-Shot-2012-09-19-at-2.26.56-PM.png 714w, http://sensr.net/blog/wp-content/uploads/2012/02/Screen-Shot-2012-09-19-at-2.26.56-PM-300x248.png 300w" sizes="(max-width: 714px) 100vw, 714px" /></a>
+  
+  <p class="wp-caption-text">
+    Foscam FI8910W Alarm Service Settings
+  </p>
+</div>
+
+<p>If you have problems getting your Foscam FI8910W working on Sensr.net, send us email, info at sensr.net, and we&#8217;ll give you a hand.</p>
+
+<div class="trackable_sharing">
+  <a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2012%2F02%2F29%2Ftuning-foscam-fi8910w-ftp-settings%2F" style="text-decoration: none; white-space: nowrap;" title="Facebook" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Facebook','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2012/02/29/tuning-foscam-fi8910w-ftp-settings/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png" alt="Facebook" width="0" height="0" /></a> <a href="http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2012%2F02%2F29%2Ftuning-foscam-fi8910w-ftp-settings%2F&text=Tuning+Foscam+FI8910W+FTP+Settings" style="text-decoration: none; white-space: nowrap;" title="Twitter" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Twitter','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2012/02/29/tuning-foscam-fi8910w-ftp-settings/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png" alt="Twitter" width="0" height="0" /></a> <a href="http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2012%2F02%2F29%2Ftuning-foscam-fi8910w-ftp-settings%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2012%2F02%2F29%2Ftuning-foscam-fi8910w-ftp-settings%2F" style="text-decoration: none; white-space: nowrap;" title="Reddit" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Reddit','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2012/02/29/tuning-foscam-fi8910w-ftp-settings/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=700,height=500'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png" alt="Reddit" width="0" height="0" /></a> <a href="http://digg.com/submit?partner=addthis&url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2012%2F02%2F29%2Ftuning-foscam-fi8910w-ftp-settings%2F&title=Tuning+Foscam+FI8910W+FTP+Settings&bodytext=" style="text-decoration: none; white-space: nowrap;" title="Digg" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Digg','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2012/02/29/tuning-foscam-fi8910w-ftp-settings/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png" alt="Digg" width="0" height="0" /></a> <a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2012%2F02%2F29%2Ftuning-foscam-fi8910w-ftp-settings%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2012%2F02%2F29%2Ftuning-foscam-fi8910w-ftp-settings%2F" style="text-decoration: none; white-space: nowrap;" title="Stumbleupon" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Stumbleupon','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2012/02/29/tuning-foscam-fi8910w-ftp-settings/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png" alt="Stumbleupon" width="0" height="0" /></a> <a href="mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2012%2F02%2F29%2Ftuning-foscam-fi8910w-ftp-settings%2F" style="text-decoration: none; white-space: nowrap;" title="Email" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Email','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2012/02/29/tuning-foscam-fi8910w-ftp-settings/']); "><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png" alt="Email" width="0" height="0" /></a>
+</div>
+
+  
+
+<div id="footer" role="contentinfo">
+	<div id="colophon">
+		<div id="site-info">
+			<ul id="copyright">
+				<li class="company-name">
+					<em>Sensr.net, Inc. © 2009-2016</em>
+				</li>
+				<li class="company-networks">Follow us on <a id="icon-twitter" href="http://www.twitter.com/sensr" target="_blank" title="Follow Sensr on Twitter" name="icon-twitter">Twitter</a> <a id="icon-facebook" href="http://www.facebook.com/sensrnet" target="_blank" title="Like Sensr on Facebook" name="icon-facebook">Facebook</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+	</body>
+</html>
+

@@ -1,0 +1,228 @@
+<!DOCTYPE html> 
+<head>
+<title>How to configure a D-Link DCS-930L from Mac or Linux</title>	
+<link rel="stylesheet" type="text/css" media="all" href="/css/style.css">
+<link href="/img/sensr-favicon.png" rel="icon" type="image/png">
+</head>
+
+<body>
+<div id="header">
+  <div id="masthead">
+    <div id="branding" role="banner">
+	  <h1 id="site-title">
+        <span><a href="/" title="Sensr.net Blog" rel="home">Sensr.net Blog</a></span>
+      </h1>
+	  <div id="site-description">Watch your Stuff!</div>
+	</div>
+	<div id="access" role="navigation">
+	  <div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+	  <div class="menu-header">
+		  <ul id="menu-menu-test" class="menu">
+			  <li id="menu-item-124" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-124"><a href="http://sensr.net/">Home</a></li>
+			  <li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125"><a href="/archives/">Archives</a></li>
+			  <li id="menu-item-126" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-126"><a href="http://sensr.net/about">About</a></li>
+			  <li id="menu-item-127" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-127"><a href="http://sensr.net/faq">FAQ</a></li>
+		  </ul>
+	  </div>			
+    </div>
+  </div>
+  <div id="sensr_banner"></div>
+</div>
+<div id="main">
+
+  <h1>How to configure a D-Link DCS-930L from Mac or Linux</h1>
+  <h2>Tue, Feb 1, 2011</h2>
+  <div class="share_buttons_simple_use_buttons" style="padding: 10px 0; display: inline-block">
+  <div class="tweet_button" style="float: left; vertical-align: top">
+    <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/01/how-to-configure-a-dcs-930l-from-mac-or-linux/" data-text="How to configure a D-Link DCS-930L from Mac or Linux" data-count="none">Tweet</a>
+  </div>
+  
+
+<p><div class="facebook_like_button" style="float: left; vertical-align: top; margin-left: 10px; max-width: 255px">
+  </div>
+</div></p>
+
+<div class="separator" style="clear: both; text-align: center;">
+  <a style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" href="http://www.amazon.com/gp/product/B00452V66G?ie=UTF8&tag=sensr-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B00452V66G"><img class="alignleft" style="border: 0pt none;" title="D-Link DCS-930L " src="http://4.bp.blogspot.com/_yVvkcbKGc_g/TUgvC3_Ce2I/AAAAAAAACVk/eomDocAHPyY/s200/dcs930l.jpg" border="0" alt="D-Link DCS-930L " width="184" height="200" /></a>
+</div>
+
+<p>The <a href="http://www.amazon.com/gp/product/B00452V66G?ie=UTF8&amp;amp;tag=sensr-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=B00452V66G">DCS-930L</a> is a decent little camera and only $79.99 from <a href="http://www.amazon.com/gp/product/B00452V66G?ie=UTF8&amp;tag=sensr-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00452V66G">Amazon</a> right now.  The instructions say you need a PC to set it up, but that&#8217;s not quite true.  You can skip the install of the setup CD and just connect to the camera directly with your browser.  In this blog post I&#8217;ll show you how to set up the camera without using the installed software.</p>
+
+<p>I&#8217;ll also show you how to configure the camera to push images to the sensr.net site so you can take advantage of all the cool [sensr.net][3] features like archiving, sharing, and alerting that our site provides.</p>
+
+<p><strong>Overview</strong></p>
+
+<ol>
+<li>Connect the camera to power and ethernet</li>
+<li>Go to your router and find the IP address for the camera</li>
+<li>Point your browser at the camera&#8217;s IP address and configure it</li>
+<li>Tell Sensr.net about your camera</li>
+<li>Tell your camera about Sensr.net</li>
+</ol>
+
+<p><strong>Details</strong></p>
+
+<p>Step 2 means you&#8217;re going to need to know how to log into your router.   You can find this from your computer&#8217;s settings.  On a Mac you go to Network Settings &gt; Advanced &gt; TCP/IP.  For my computer it looks like this:</p>
+
+<div style="width: 330px" class="wp-caption aligncenter">
+  <a href="http://2.bp.blogspot.com/_yVvkcbKGc_g/TUgy3mvtPqI/AAAAAAAACVo/bNgqgVtp_Cc/s1600/Screen+shot+2011-02-01+at+8.19.57+AM.png"><img title="Network Settings Control Panel" src="http://2.bp.blogspot.com/_yVvkcbKGc_g/TUgy3mvtPqI/AAAAAAAACVo/bNgqgVtp_Cc/s320/Screen+shot+2011-02-01+at+8.19.57+AM.png" alt="Network Settings Control Panel" width="320" height="250" /></a>
+  
+  <p class="wp-caption-text">
+    Network Settings Control Panel
+  </p>
+</div>
+
+<p>This means my network router is at the IP address 10.1.1.1.  A more common setting is 192.168.1.1.  Once you find this, you can go to your browser and log into your router&#8217;s web page.  For me this is <a href="http://10.1.1.1">http://10.1.1.1</a> but you should use the router setting from your control panel.  You will probably need to log into your router.  Routers differ widely.</p>
+
+<p>Once you log into your router, look for a page that shows the attached devices.  Here&#8217;s that page from my router.  I clicked on &#8220;Attached Devices&#8221; in the left hand column to get this view:</p>
+
+<div style="width: 410px" class="wp-caption aligncenter">
+  <a href="http://4.bp.blogspot.com/_yVvkcbKGc_g/TUg0EY-9iHI/AAAAAAAACVs/MP8HlMB06xc/s1600/Screen+shot+2011-02-01+at+8.24.45+AM.png"><img title="Attached Devices Page" src="http://4.bp.blogspot.com/_yVvkcbKGc_g/TUg0EY-9iHI/AAAAAAAACVs/MP8HlMB06xc/s400/Screen+shot+2011-02-01+at+8.24.45+AM.png" alt="Attached Devices Page" width="400" height="369" /></a>
+  
+  <p class="wp-caption-text">
+    Attached Devices Page
+  </p>
+</div>
+
+<p>You can see from the above page that my DCS-930L has the IP address 10.1.1.20.  Now you can simply point your browser to that address, <a href="http://10.1.1.20">http://10.1.1.20</a> and configure your camera.  You&#8217;ll need to log in with the user name &#8220;admin&#8221; and leave the password blank.  You should see a page like this:</p>
+
+<div style="width: 410px" class="wp-caption aligncenter">
+  <a href="http://2.bp.blogspot.com/_yVvkcbKGc_g/TUg00C0d5tI/AAAAAAAACVw/pgWmy3nZ7dg/s1600/Screen+shot+2011-02-01+at+7.47.03+AM.png"><img title="D-Link DCS-930L Admin page" src="http://2.bp.blogspot.com/_yVvkcbKGc_g/TUg00C0d5tI/AAAAAAAACVw/pgWmy3nZ7dg/s400/Screen+shot+2011-02-01+at+7.47.03+AM.png" alt="D-Link DCS-930L Admin page configured on Sensr.net" width="400" height="289" /></a>
+  
+  <p class="wp-caption-text">
+    DCS-930L Admin page
+  </p>
+</div>
+
+<p>You can now make changes to your camera&#8217;s config through your browser.  You don&#8217;t need to do anything else if you just want to view the camera from inside your home.  However, if you want to view it from outside, you can setup the camera to work with [sensr.net][3].  (There are other configs like wireless and image size, all of which you can get to through the web interface, I&#8217;m not going to cover them here.)</p>
+
+<p><strong>Add a New Camera to your Sensr.net Account</strong></p>
+
+<p>Login to Sensr.net using your Facebook username and password.  Select the &#8220;add a camera&#8221; link at the top of the page next to your picture.</p>
+
+<div style="width: 330px" class="wp-caption aligncenter">
+  <a href="http://3.bp.blogspot.com/_yVvkcbKGc_g/TUhhVeaxr7I/AAAAAAAACV4/Jxk5j-p1SKk/s1600/Screen+shot+2011-02-01+at+11.32.09+AM.png"><img title="Click 'add a camera' to get started with Sensr.net" src="http://3.bp.blogspot.com/_yVvkcbKGc_g/TUhhVeaxr7I/AAAAAAAACV4/Jxk5j-p1SKk/s320/Screen+shot+2011-02-01+at+11.32.09+AM.png" alt="Click 'add a camera' to get started with Sensr.net" width="320" height="263" /></a>
+  
+  <p class="wp-caption-text">
+    Click 'add a camera' to get started with Sensr.net
+  </p>
+</div>
+
+<p>Select the &#8220;Add New Camera&#8221; button on the &#8220;My Cameras&#8221; Page</p>
+
+<div style="text-align: left;">
+  <span style="font-size: 100%;"><strong>Tell Sensr.net About your Camera</strong></span>
+</div>
+
+<div style="margin: 0px;">
+  <p>
+    On the “Camera Info” page you can give your camera a name that you like. Select an appropriate timezone. When you are done, click the “Add Camera” button at the bottom.
+  </p>
+  
+  <div style="width: 330px" class="wp-caption aligncenter">
+    <a href="http://1.bp.blogspot.com/_yVvkcbKGc_g/TUhhTqre1eI/AAAAAAAACV0/E09ls5MJDh0/s1600/Screen+shot+2011-02-01+at+11.35.50+AM.png"><img title="Name your camera and tell Sens.net its timezone" src="http://1.bp.blogspot.com/_yVvkcbKGc_g/TUhhTqre1eI/AAAAAAAACV0/E09ls5MJDh0/s320/Screen+shot+2011-02-01+at+11.35.50+AM.png" alt="Name your camera and tell Sens.net its timezone" width="320" height="263" /></a>
+    
+    <p class="wp-caption-text">
+      Name your camera and tell Sens.net its timezone
+    </p>
+  </div>
+  
+
+<p><p>
+    <strong>&#8220;Add New Camera&#8221; Setup Page</strong>
+  </p></p>
+
+<p><div style="margin: 0px;">
+    The “Add Camera” step allocates a new Camera Server on Sensr.net to watch your DCS-930L. As part of creating a server, Sensr.net has created a new FTP account for your DCS-930L to use for uploading images. The FTP credentials are displayed on the following page. The important bits of information are
+  </div></p>
+
+<p><ol style="text-align: left;">
+    <li>
+      FTP server,
+    </li>
+    <li>
+      FTP Username, and
+    </li>
+    <li>
+      FTP Password.
+    </li>
+  </ol></p>
+
+<p><p>
+    Save these three items of information for later, they need to be entered into the camera.
+  </p></p>
+
+<p><div style="width: 410px" class="wp-caption aligncenter">
+    <a href="http://www.tsheffler.com/blog/wp-content/uploads/2010/04/cactivatex3.jpg"><img class=" " title="FTP Credentials for your camera" src="http://www.tsheffler.com/blog/wp-content/uploads/2010/04/cactivatex3.jpg" alt="FTP Credentials for your camera on Sensr.net" width="400" height="318" /></a></p>
+
+<pre><code>&lt;p class=&quot;wp-caption-text&quot;&gt;
+  FTP Credentials for your camera
+&lt;/p&gt;
+</code></pre>
+
+<p></div></p>
+
+<p><p>
+    <strong>Tell your Camera about Sensr.net</strong><br /> <strong> </strong><br /> Now you need to configure your camera so it will send images to sensr.net.  Go back to the page for your DCS-930L, this is the IP address we found at the beginning, <a href="http://10.1.1.20">http://10.1.1.20</a> in our example above.  Click on &#8220;SETUP&#8221; on the top menu and then &#8220;FTP&#8221; on the side.  You&#8217;ll then be at a page that looks like this:
+  </p></p>
+
+<p><div style="width: 330px" class="wp-caption aligncenter">
+    <a href="http://2.bp.blogspot.com/_yVvkcbKGc_g/TUhnqKDHeAI/AAAAAAAACV8/8t4NtG6Gav8/s1600/dcs930ftp.png"><img title="D-Link DCS-930L FTP setup page" src="http://2.bp.blogspot.com/_yVvkcbKGc_g/TUhnqKDHeAI/AAAAAAAACV8/8t4NtG6Gav8/s320/dcs930ftp.png" alt="DCS-930L FTP setup page configured on Sensr.net" width="320" height="298" /></a></p>
+
+<pre><code>&lt;p class=&quot;wp-caption-text&quot;&gt;
+  DCS-930L FTP setup page
+&lt;/p&gt;
+</code></pre>
+
+<p></div></p>
+
+<p><p>
+    The red arrows above show the settings you need to configure.  Under Host Name add the FTP server name you got from the add camera page on sensr.net.  Copy the user name and password as well.  Make sure to select &#8220;Passive Mode&#8221;,  we only support passive FTP on Sensr.net.
+  </p></p>
+
+<p><p>
+    You also need to tell your camera to send images to Sensr.net on a schedule.  You do this by selecting the check box &#8220;Enable uploading to the FTP server&#8221; and confirm that &#8220;Always&#8221; and &#8220;1 Frames/Second&#8221;<br /> are selected.    These are the defaults and seem to work well.  The other default&#8217;s for the file name are also well supported, so no reason to change them.
+  </p></p>
+
+<p><p>
+    Make sure to click the &#8220;Save Settings&#8221; button at the top of the page.  Once you&#8217;ve done this, your DCS-930L should be sending images to sensr.net.
+  </p></p>
+
+<p><p>
+    At this point you are done. You can close the browser window pointed at your camera and go back to Sensr.net. Click on the &#8220;Take Me To My Camera&#8221; button to see the Gallery view of images coming from your camera.
+  </p></p>
+
+<p><p>
+    Now you can share your camera and its images with your friends on Facebook, Twitter, and YouTube.
+  </p></p>
+
+<p><p>
+    Have fun!
+  </p>
+</div></p>
+
+<div class="trackable_sharing">
+  <a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F01%2Fhow-to-configure-a-dcs-930l-from-mac-or-linux%2F" style="text-decoration: none; white-space: nowrap;" title="Facebook" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Facebook','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/01/how-to-configure-a-dcs-930l-from-mac-or-linux/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png" alt="Facebook" width="0" height="0" /></a> <a href="http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F01%2Fhow-to-configure-a-dcs-930l-from-mac-or-linux%2F&text=How+to+configure+a+D-Link+DCS-930L+from+Mac+or+Linux" style="text-decoration: none; white-space: nowrap;" title="Twitter" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Twitter','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/01/how-to-configure-a-dcs-930l-from-mac-or-linux/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png" alt="Twitter" width="0" height="0" /></a> <a href="http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F01%2Fhow-to-configure-a-dcs-930l-from-mac-or-linux%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F01%2Fhow-to-configure-a-dcs-930l-from-mac-or-linux%2F" style="text-decoration: none; white-space: nowrap;" title="Reddit" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Reddit','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/01/how-to-configure-a-dcs-930l-from-mac-or-linux/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=700,height=500'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png" alt="Reddit" width="0" height="0" /></a> <a href="http://digg.com/submit?partner=addthis&url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F01%2Fhow-to-configure-a-dcs-930l-from-mac-or-linux%2F&title=How+to+configure+a+D-Link+DCS-930L+from+Mac+or+Linux&bodytext=" style="text-decoration: none; white-space: nowrap;" title="Digg" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Digg','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/01/how-to-configure-a-dcs-930l-from-mac-or-linux/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png" alt="Digg" width="0" height="0" /></a> <a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F01%2Fhow-to-configure-a-dcs-930l-from-mac-or-linux%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F01%2Fhow-to-configure-a-dcs-930l-from-mac-or-linux%2F" style="text-decoration: none; white-space: nowrap;" title="Stumbleupon" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Stumbleupon','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/01/how-to-configure-a-dcs-930l-from-mac-or-linux/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png" alt="Stumbleupon" width="0" height="0" /></a> <a href="mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F02%2F01%2Fhow-to-configure-a-dcs-930l-from-mac-or-linux%2F" style="text-decoration: none; white-space: nowrap;" title="Email" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Email','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/01/how-to-configure-a-dcs-930l-from-mac-or-linux/']); "><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png" alt="Email" width="0" height="0" /></a>
+</div>
+
+<p>[3]: <a href="http://sensr.net/">http://sensr.net/</a></p>
+
+  
+
+<div id="footer" role="contentinfo">
+	<div id="colophon">
+		<div id="site-info">
+			<ul id="copyright">
+				<li class="company-name">
+					<em>Sensr.net, Inc. © 2009-2016</em>
+				</li>
+				<li class="company-networks">Follow us on <a id="icon-twitter" href="http://www.twitter.com/sensr" target="_blank" title="Follow Sensr on Twitter" name="icon-twitter">Twitter</a> <a id="icon-facebook" href="http://www.facebook.com/sensrnet" target="_blank" title="Like Sensr on Facebook" name="icon-facebook">Facebook</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+	</body>
+</html>
+

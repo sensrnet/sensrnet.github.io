@@ -1,0 +1,143 @@
+<!DOCTYPE html> 
+<head>
+<title>How to setup all Hikivision Cameras with Cloud Recording</title>	
+<link rel="stylesheet" type="text/css" media="all" href="/css/style.css">
+<link href="/img/sensr-favicon.png" rel="icon" type="image/png">
+</head>
+
+<body>
+<div id="header">
+  <div id="masthead">
+    <div id="branding" role="banner">
+	  <h1 id="site-title">
+        <span><a href="/" title="Sensr.net Blog" rel="home">Sensr.net Blog</a></span>
+      </h1>
+	  <div id="site-description">Watch your Stuff!</div>
+	</div>
+	<div id="access" role="navigation">
+	  <div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+	  <div class="menu-header">
+		  <ul id="menu-menu-test" class="menu">
+			  <li id="menu-item-124" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-124"><a href="http://sensr.net/">Home</a></li>
+			  <li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125"><a href="/archives/">Archives</a></li>
+			  <li id="menu-item-126" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-126"><a href="http://sensr.net/about">About</a></li>
+			  <li id="menu-item-127" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-127"><a href="http://sensr.net/faq">FAQ</a></li>
+		  </ul>
+	  </div>			
+    </div>
+  </div>
+  <div id="sensr_banner"></div>
+</div>
+<div id="main">
+
+  <h1>How to setup all Hikivision Cameras with Cloud Recording</h1>
+  <h2>Wed, Jul 16, 2014</h2>
+  <div class="share_buttons_simple_use_buttons" style="padding: 10px 0; display: inline-block">
+  <div class="tweet_button" style="float: left; vertical-align: top">
+    <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/16/how-to-setup-all-hikivision-cameras-with-cloud-recording/" data-text="How to setup all Hikivision Cameras with Cloud Recording" data-count="none">Tweet</a>
+  </div>
+  
+
+<p><div class="facebook_like_button" style="float: left; vertical-align: top; margin-left: 10px; max-width: 255px">
+  </div>
+</div></p>
+
+<div id="attachment_2960" style="width: 510px" class="wp-caption alignleft">
+  <a href="http://sensr.net/blog/wp-content/uploads/2014/07/312gf5f7CNL.jpg"><img class="size-full wp-image-2960" src="http://sensr.net/blog/wp-content/uploads/2014/07/312gf5f7CNL.jpg" alt="Hikvision Bullet cam" width="500" height="369" srcset="http://sensr.net/blog/wp-content/uploads/2014/07/312gf5f7CNL.jpg 500w, http://sensr.net/blog/wp-content/uploads/2014/07/312gf5f7CNL-300x221.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" /></a>
+  
+  <p class="wp-caption-text">
+    Hikvision Bullet cam
+  </p>
+</div>
+
+<p>Hikvision has a number of camera&#8217;s but they all have the same setup. Shown to the left is their [outdoor bullet-cam][1]. Their cameras are all of a pretty good quality. Most record in HD and have infrared night recording. A bunch have some other nifty features like POE. The most common complaint in the reviews is that setup is difficult so we&#8217;ve made this step by step tutorial to show you how to setup Hikvision cameras in no time at all.  The first thing you  need to do is plug your camera into your router and a wall outlet. I assume you can do this step without much guidance. Once you&#8217;ve hooked up your hardware you are going to need to find the IP address for your camera. You can do this a two ways, either by installing and running the software they include or by looking on your router&#8217;s network access window. I prefer going through my router because it saves time. Type the IP address of your router into your internet browser. If you don&#8217;t know the IP address to your router its pretty easy to find it. On my mac it is under system preferences&gt;Network&gt;Advanced&#8230;&gt;TCP/IP. The page looks like this:</p>
+
+<div id="attachment_2597" style="width: 792px" class="wp-caption alignright">
+  <a href="http://sensr.net/blog/wp-content/uploads/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png"><img class="size-full wp-image-2597" src="http://sensr.net/blog/wp-content/uploads/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png" alt="Router IP address shown on second line" width="782" height="694" srcset="http://sensr.net/blog/wp-content/uploads/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png 782w, http://sensr.net/blog/wp-content/uploads/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM-300x266.png 300w" sizes="(max-width: 782px) 100vw, 782px" /></a>
+  
+  <p class="wp-caption-text">
+    Router IP address shown on Third line
+  </p>
+</div>
+
+<p>Once you have the IP address just enter it into your browser and it should bring you to a network access page. Everyone&#8217;s looks different depending on the make and model of their browser. Mine, for example, looks like this:</p>
+
+<div id="attachment_2599" style="width: 942px" class="wp-caption alignright">
+  <a href="http://sensr.net/blog/wp-content/uploads/2013/12/netgear-attached-devices.png"><img class="size-full wp-image-2599" src="http://sensr.net/blog/wp-content/uploads/2013/12/netgear-attached-devices.png" alt="My router's Network Access portal" width="932" height="780" srcset="http://sensr.net/blog/wp-content/uploads/2013/12/netgear-attached-devices.png 932w, http://sensr.net/blog/wp-content/uploads/2013/12/netgear-attached-devices-300x251.png 300w" sizes="(max-width: 932px) 100vw, 932px" /></a>
+  
+  <p class="wp-caption-text">
+    My router&#8217;s Network Access portal
+  </p>
+</div>
+
+<p>If you aren&#8217;t sure which device is new you can always unplug your camera then plug it back in to see which one disappears and comes back. Once you have your camera&#8217;s IP address just write it down, you&#8217;ll need it later. Now you are ready to setup stuff from the Sensr.net side of things. We will store all your recorded data in the cloud so you can access it from any device, anywhere. We have a number of different plans but the first week is always free so just set it up and give it a try. If you don&#8217;t like it you don&#8217;t need to continue to a payed plan. Log into your Sensr.net account click the <strong>Add Camera</strong> button. Once you login you’ll see a page like this: <a style="color: #888888;" href="http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png"><img class="size-full wp-image-2714" src="http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png" alt="Add new camera page" width="1003" height="339" srcset="http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png 1003w, http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera-300x101.png 300w" sizes="(max-width: 1003px) 100vw, 1003px" /></a> Next you’ll see a page like this where you can set the timezone for your camera, give it a name, and tell us the model.  Cameras default to private but you can make them public if you want to share them with the world. <a style="color: #888888;" href="http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details.png"><img class="size-full wp-image-2713" src="http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details.png" alt="Note this is for a different device" width="999" height="491" srcset="http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details.png 999w, http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details-300x147.png 300w" sizes="(max-width: 999px) 100vw, 999px" /></a> After that, we’ll generate some FTP credentials for your server. This generates a login for your  Hikvision to where it can upload images via FTP. This tells your camera where to upload the images. The important information here is:</p>
+
+<ol>
+<li>FTP Server</li>
+<li>FTP User name</li>
+<li>FTP Password</li>
+</ol>
+
+<p>Save these so we can add them to your camera later. <a style="color: #888888;" href="http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png"><img class="size-full wp-image-2607" src="http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png" alt="FTP credentials" width="1141" height="790" srcset="http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png 1141w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-1024x708.png 1024w" sizes="(max-width: 1141px) 100vw, 1141px" /></a> Now open a new tab and type in the camera IP address that you wrote down earlier. This will bring you to the Hikvision network access page. It will prompt you for a username and password. The defaults here are admin and 12345. Make sure you change these later. You may need to install a plugin before continuing. Once you&#8217;ve logged in and installed the plugin you&#8217;ll come to a page that looks like this:</p>
+
+<div id="attachment_2961" style="width: 468px" class="wp-caption aligncenter">
+  <a href="http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-16-at-1.17.03-PM.png"><img class="size-full wp-image-2961" src="http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-16-at-1.17.03-PM.png" alt="Your Camera's network access page" width="458" height="343" srcset="http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-16-at-1.17.03-PM.png 458w, http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-16-at-1.17.03-PM-300x224.png 300w" sizes="(max-width: 458px) 100vw, 458px" /></a>
+  
+  <p class="wp-caption-text">
+    Your Camera&#8217;s network access page
+  </p>
+</div>
+
+<p>Now you can view and control your camera. Be aware that your camera isn&#8217;t recording yet. You can view a live feed but you can&#8217;t look at things that have already happened. Luckily you setup a Sensr.net account so in about five minutes you&#8217;ll be recording. Click on Configuration &gt;Advanced Configuration &gt; Network &gt; FTP and you should come to a page that looks like this:</p>
+
+<div id="attachment_2962" style="width: 428px" class="wp-caption aligncenter">
+  <a href="http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-16-at-1.20.54-PM.png"><img class="size-full wp-image-2962" src="http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-16-at-1.20.54-PM.png" alt=" " width="418" height="183" srcset="http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-16-at-1.20.54-PM.png 418w, http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-16-at-1.20.54-PM-300x131.png 300w" sizes="(max-width: 418px) 100vw, 418px" /></a>
+  
+  <p class="wp-caption-text">
+    FTP setup page
+  </p>
+</div>
+
+<p>Now just copy and paste the credentials you got from Sensr.net into the respective fields on this page. Uncheck they anonymous box. Keep everything else the same. Finally go to configure video settings and change the frame rate to one.</p>
+
+<div id="attachment_2965" style="width: 496px" class="wp-caption aligncenter">
+  <a href="http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-16-at-1.26.14-PM1.png"><img class="size-full wp-image-2965" src="http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-16-at-1.26.14-PM1.png" alt="Configuring Video Settings" width="486" height="286" srcset="http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-16-at-1.26.14-PM1.png 486w, http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-16-at-1.26.14-PM1-300x176.png 300w" sizes="(max-width: 486px) 100vw, 486px" /></a>
+  
+  <p class="wp-caption-text">
+    Configuring Video Settings
+  </p>
+</div>
+
+<p>Now that you are done go back to Sensr.net and your page should look like this:</p>
+
+<p><img class="size-full wp-image-2612" src="http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-done.png" alt="Success!" width="1141" height="790" srcset="http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-done.png 1141w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-done-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-done-1024x708.png 1024w" sizes="(max-width: 1141px) 100vw, 1141px" /></p>
+
+<p>Now that you’re on Sensr.net we’ll archive all the motion events, giving you 30 days of archives, SMS and email alerts, guest access, and a whole lot more.  You can view the live stream on our website or in our apps.</p>
+
+<p>As always let me know if you have any questions. Shoot me an email at info@sensr.net or click the feedback button on the right of the page!</p>
+
+<div class="trackable_sharing">
+  <a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F16%2Fhow-to-setup-all-hikivision-cameras-with-cloud-recording%2F" style="text-decoration: none; white-space: nowrap;" title="Facebook" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Facebook','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/16/how-to-setup-all-hikivision-cameras-with-cloud-recording/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png" alt="Facebook" width="0" height="0" /></a> <a href="http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F16%2Fhow-to-setup-all-hikivision-cameras-with-cloud-recording%2F&text=How+to+setup+all+Hikivision+Cameras+with+Cloud+Recording" style="text-decoration: none; white-space: nowrap;" title="Twitter" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Twitter','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/16/how-to-setup-all-hikivision-cameras-with-cloud-recording/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png" alt="Twitter" width="0" height="0" /></a> <a href="http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F16%2Fhow-to-setup-all-hikivision-cameras-with-cloud-recording%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F16%2Fhow-to-setup-all-hikivision-cameras-with-cloud-recording%2F" style="text-decoration: none; white-space: nowrap;" title="Reddit" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Reddit','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/16/how-to-setup-all-hikivision-cameras-with-cloud-recording/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=700,height=500'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png" alt="Reddit" width="0" height="0" /></a> <a href="http://digg.com/submit?partner=addthis&url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F16%2Fhow-to-setup-all-hikivision-cameras-with-cloud-recording%2F&title=How+to+setup+all+Hikivision+Cameras+with+Cloud+Recording&bodytext=" style="text-decoration: none; white-space: nowrap;" title="Digg" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Digg','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/16/how-to-setup-all-hikivision-cameras-with-cloud-recording/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png" alt="Digg" width="0" height="0" /></a> <a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F16%2Fhow-to-setup-all-hikivision-cameras-with-cloud-recording%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F16%2Fhow-to-setup-all-hikivision-cameras-with-cloud-recording%2F" style="text-decoration: none; white-space: nowrap;" title="Stumbleupon" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Stumbleupon','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/16/how-to-setup-all-hikivision-cameras-with-cloud-recording/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png" alt="Stumbleupon" width="0" height="0" /></a> <a href="mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F16%2Fhow-to-setup-all-hikivision-cameras-with-cloud-recording%2F" style="text-decoration: none; white-space: nowrap;" title="Email" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Email','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/16/how-to-setup-all-hikivision-cameras-with-cloud-recording/']); "><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png" alt="Email" width="0" height="0" /></a>
+</div>
+
+<p>[1]: <a href="http://www.amazon.com/DS-2CD2032-I-Outdoor-Bullet-Security-Camera/dp/B00G7GMEOG/ref=cm_cr_pr_product_top/sensr-20">http://www.amazon.com/DS-2CD2032-I-Outdoor-Bullet-Security-Camera/dp/B00G7GMEOG/ref=cm_cr_pr_product_top/sensr-20</a></p>
+
+  
+
+<div id="footer" role="contentinfo">
+	<div id="colophon">
+		<div id="site-info">
+			<ul id="copyright">
+				<li class="company-name">
+					<em>Sensr.net, Inc. © 2009-2016</em>
+				</li>
+				<li class="company-networks">Follow us on <a id="icon-twitter" href="http://www.twitter.com/sensr" target="_blank" title="Follow Sensr on Twitter" name="icon-twitter">Twitter</a> <a id="icon-facebook" href="http://www.facebook.com/sensrnet" target="_blank" title="Like Sensr on Facebook" name="icon-facebook">Facebook</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+	</body>
+</html>
+
