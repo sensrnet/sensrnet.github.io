@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Technology on Sensr.net Blog | Watch your Stuff!</title>
-    <link>https://sensrnet.github.io/categories/technology/</link>
+    <link>https://sensr.net/blog/categories/technology/</link>
     <description>Recent content in Technology on Sensr.net Blog | Watch your Stuff!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 19 Oct 2016 20:46:21 +0000</lastBuildDate>
-    <atom:link href="https://sensrnet.github.io/categories/technology/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sensr.net/blog/categories/technology/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Why no open source IoT Firmware?</title>
-      <link>https://sensrnet.github.io/2016/10/19/why-no-open-source-iot-firmware/</link>
+      <link>https://sensr.net/blog/2016/10/19/why-no-open-source-iot-firmware/</link>
       <pubDate>Wed, 19 Oct 2016 20:46:21 +0000</pubDate>
       
-      <guid>https://sensrnet.github.io/2016/10/19/why-no-open-source-iot-firmware/</guid>
+      <guid>https://sensr.net/blog/2016/10/19/why-no-open-source-iot-firmware/</guid>
       <description>
 
 &lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
@@ -69,10 +69,10 @@
     
     <item>
       <title>Is your security camera hacking someone else?</title>
-      <link>https://sensrnet.github.io/2016/10/19/is-your-security-camera-hacking-someone-else/</link>
+      <link>https://sensr.net/blog/2016/10/19/is-your-security-camera-hacking-someone-else/</link>
       <pubDate>Wed, 19 Oct 2016 18:47:58 +0000</pubDate>
       
-      <guid>https://sensrnet.github.io/2016/10/19/is-your-security-camera-hacking-someone-else/</guid>
+      <guid>https://sensr.net/blog/2016/10/19/is-your-security-camera-hacking-someone-else/</guid>
       <description>
 
 &lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
@@ -129,10 +129,10 @@
     
     <item>
       <title>Stolen Camera Continues Uploading to Sensr.net</title>
-      <link>https://sensrnet.github.io/2014/01/24/stolen-camera-continues-uploading-to-sensr-net/</link>
+      <link>https://sensr.net/blog/2014/01/24/stolen-camera-continues-uploading-to-sensr-net/</link>
       <pubDate>Fri, 24 Jan 2014 23:01:29 +0000</pubDate>
       
-      <guid>https://sensrnet.github.io/2014/01/24/stolen-camera-continues-uploading-to-sensr-net/</guid>
+      <guid>https://sensr.net/blog/2014/01/24/stolen-camera-continues-uploading-to-sensr-net/</guid>
       <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
   &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
     &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/01/24/stolen-camera-continues-uploading-to-sensr-net/&#34; data-text=&#34;Stolen Camera Continues Uploading to Sensr.net&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
@@ -174,10 +174,10 @@
     
     <item>
       <title>Build a Raspberry Pi Security Camera</title>
-      <link>https://sensrnet.github.io/2014/01/19/build-a-raspberry-pi-security-camera/</link>
+      <link>https://sensr.net/blog/2014/01/19/build-a-raspberry-pi-security-camera/</link>
       <pubDate>Sun, 19 Jan 2014 19:00:42 +0000</pubDate>
       
-      <guid>https://sensrnet.github.io/2014/01/19/build-a-raspberry-pi-security-camera/</guid>
+      <guid>https://sensr.net/blog/2014/01/19/build-a-raspberry-pi-security-camera/</guid>
       <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
   &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
     &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/01/19/build-a-raspberry-pi-security-camera/&#34; data-text=&#34;Build a Raspberry Pi Security Camera&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
@@ -204,10 +204,10 @@
     
     <item>
       <title>Dashboard IP-Cameras Capture Meteor over Siberia</title>
-      <link>https://sensrnet.github.io/2013/02/15/dashboard-ip-cameras-capture-meteor-over-siberia/</link>
+      <link>https://sensr.net/blog/2013/02/15/dashboard-ip-cameras-capture-meteor-over-siberia/</link>
       <pubDate>Fri, 15 Feb 2013 20:11:24 +0000</pubDate>
       
-      <guid>https://sensrnet.github.io/2013/02/15/dashboard-ip-cameras-capture-meteor-over-siberia/</guid>
+      <guid>https://sensr.net/blog/2013/02/15/dashboard-ip-cameras-capture-meteor-over-siberia/</guid>
       <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
   &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
     &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2013/02/15/dashboard-ip-cameras-capture-meteor-over-siberia/&#34; data-text=&#34;Dashboard IP-Cameras Capture Meteor over Siberia&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;

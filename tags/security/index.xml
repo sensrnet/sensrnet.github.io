@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Security on Sensr.net Blog | Watch your Stuff!</title>
-    <link>https://sensrnet.github.io/tags/security/</link>
+    <link>https://sensr.net/blog/tags/security/</link>
     <description>Recent content in Security on Sensr.net Blog | Watch your Stuff!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 11 Jul 2014 19:29:28 +0000</lastBuildDate>
-    <atom:link href="https://sensrnet.github.io/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sensr.net/blog/tags/security/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Why You Should Change Your IP Camera’s Password</title>
-      <link>https://sensrnet.github.io/2014/07/11/why-you-should-change-your-ip-cameras-password/</link>
+      <link>https://sensr.net/blog/2014/07/11/why-you-should-change-your-ip-cameras-password/</link>
       <pubDate>Fri, 11 Jul 2014 19:29:28 +0000</pubDate>
       
-      <guid>https://sensrnet.github.io/2014/07/11/why-you-should-change-your-ip-cameras-password/</guid>
+      <guid>https://sensr.net/blog/2014/07/11/why-you-should-change-your-ip-cameras-password/</guid>
       <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
   &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
     &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/11/why-you-should-change-your-ip-cameras-password/&#34; data-text=&#34;Why You Should Change Your IP Camera&#39;s Password&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
@@ -43,10 +43,10 @@
     
     <item>
       <title>How to setup the D-Link DCS-5222L and use it with Sensr.net</title>
-      <link>https://sensrnet.github.io/2014/06/26/how-to-setup-the-d-link-dcs-5222l-and-use-it-with-sensr-net/</link>
+      <link>https://sensr.net/blog/2014/06/26/how-to-setup-the-d-link-dcs-5222l-and-use-it-with-sensr-net/</link>
       <pubDate>Thu, 26 Jun 2014 17:21:57 +0000</pubDate>
       
-      <guid>https://sensrnet.github.io/2014/06/26/how-to-setup-the-d-link-dcs-5222l-and-use-it-with-sensr-net/</guid>
+      <guid>https://sensr.net/blog/2014/06/26/how-to-setup-the-d-link-dcs-5222l-and-use-it-with-sensr-net/</guid>
       <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
   &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
     &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/26/how-to-setup-the-d-link-dcs-5222l-and-use-it-with-sensr-net/&#34; data-text=&#34;How to setup the D-Link DCS-5222L and use it with Sensr.net&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
@@ -163,10 +163,10 @@
     
     <item>
       <title>How to Embed a Live Camera in WordPress</title>
-      <link>https://sensrnet.github.io/2014/02/16/how-to-embed-a-live-camera-in-wordpress/</link>
+      <link>https://sensr.net/blog/2014/02/16/how-to-embed-a-live-camera-in-wordpress/</link>
       <pubDate>Mon, 17 Feb 2014 05:31:36 +0000</pubDate>
       
-      <guid>https://sensrnet.github.io/2014/02/16/how-to-embed-a-live-camera-in-wordpress/</guid>
+      <guid>https://sensr.net/blog/2014/02/16/how-to-embed-a-live-camera-in-wordpress/</guid>
       <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
   &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
     &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/02/16/how-to-embed-a-live-camera-in-wordpress/&#34; data-text=&#34;How to Embed a Live Camera in WordPress&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;

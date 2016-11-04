@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mydlink on Sensr.net Blog | Watch your Stuff!</title>
-    <link>https://sensrnet.github.io/tags/mydlink/</link>
+    <link>https://sensr.net/blog/tags/mydlink/</link>
     <description>Recent content in Mydlink on Sensr.net Blog | Watch your Stuff!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 Oct 2014 16:49:59 +0000</lastBuildDate>
-    <atom:link href="https://sensrnet.github.io/tags/mydlink/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sensr.net/blog/tags/mydlink/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Como Configurar a Gravação da D-Link DCS-5010L com FTP</title>
-      <link>https://sensrnet.github.io/2014/10/03/como-configurar-a-gravacao-da-d-link-dcs-5010l-com-ftp/</link>
+      <link>https://sensr.net/blog/2014/10/03/como-configurar-a-gravacao-da-d-link-dcs-5010l-com-ftp/</link>
       <pubDate>Fri, 03 Oct 2014 16:49:59 +0000</pubDate>
       
-      <guid>https://sensrnet.github.io/2014/10/03/como-configurar-a-gravacao-da-d-link-dcs-5010l-com-ftp/</guid>
+      <guid>https://sensr.net/blog/2014/10/03/como-configurar-a-gravacao-da-d-link-dcs-5010l-com-ftp/</guid>
       <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
   &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
     &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/10/03/como-configurar-a-gravacao-da-d-link-dcs-5010l-com-ftp/&#34; data-text=&#34;Como Configurar a Gravação da D-Link DCS-5010L com FTP &#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
@@ -150,10 +150,10 @@
     
     <item>
       <title>Como Configurar a Gravação da D-Link DCS-5020L com Uploads FTP</title>
-      <link>https://sensrnet.github.io/2014/09/26/como-configurar-a-gravacao-da-d-link-dcs-5020l-com-uploads-ftp/</link>
+      <link>https://sensr.net/blog/2014/09/26/como-configurar-a-gravacao-da-d-link-dcs-5020l-com-uploads-ftp/</link>
       <pubDate>Fri, 26 Sep 2014 19:22:20 +0000</pubDate>
       
-      <guid>https://sensrnet.github.io/2014/09/26/como-configurar-a-gravacao-da-d-link-dcs-5020l-com-uploads-ftp/</guid>
+      <guid>https://sensr.net/blog/2014/09/26/como-configurar-a-gravacao-da-d-link-dcs-5020l-com-uploads-ftp/</guid>
       <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
   &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
     &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/09/26/como-configurar-a-gravacao-da-d-link-dcs-5020l-com-uploads-ftp/&#34; data-text=&#34;Como Configurar a Gravação da D-Link DCS-5020L com Uploads FTP &#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
@@ -293,10 +293,10 @@
     
     <item>
       <title>HOWTO Setup D-Link DCS-5010L Recording with FTP</title>
-      <link>https://sensrnet.github.io/2014/02/04/howto-setup-d-link-dcs-5010l-recording-with-ftp/</link>
+      <link>https://sensr.net/blog/2014/02/04/howto-setup-d-link-dcs-5010l-recording-with-ftp/</link>
       <pubDate>Wed, 05 Feb 2014 00:12:17 +0000</pubDate>
       
-      <guid>https://sensrnet.github.io/2014/02/04/howto-setup-d-link-dcs-5010l-recording-with-ftp/</guid>
+      <guid>https://sensr.net/blog/2014/02/04/howto-setup-d-link-dcs-5010l-recording-with-ftp/</guid>
       <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
   &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
     &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/02/04/howto-setup-d-link-dcs-5010l-recording-with-ftp/&#34; data-text=&#34;HOWTO Setup D-Link DCS-5010L Recording with FTP&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
@@ -440,10 +440,10 @@
     
     <item>
       <title>Setup D-Link DCS-5020L Recording with FTP Uploads HOWTO</title>
-      <link>https://sensrnet.github.io/2014/01/30/setup-d-link-dcs-5020l-recording-with-ftp-uploads-howto/</link>
+      <link>https://sensr.net/blog/2014/01/30/setup-d-link-dcs-5020l-recording-with-ftp-uploads-howto/</link>
       <pubDate>Fri, 31 Jan 2014 00:37:16 +0000</pubDate>
       
-      <guid>https://sensrnet.github.io/2014/01/30/setup-d-link-dcs-5020l-recording-with-ftp-uploads-howto/</guid>
+      <guid>https://sensr.net/blog/2014/01/30/setup-d-link-dcs-5020l-recording-with-ftp-uploads-howto/</guid>
       <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
   &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
     &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/01/30/setup-d-link-dcs-5020l-recording-with-ftp-uploads-howto/&#34; data-text=&#34;Setup D-Link DCS-5020L Recording with FTP Uploads HOWTO&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
