@@ -25,11 +25,11 @@
 
 &lt;p&gt;At Sensr.net we use &lt;a href=&#34;https://stripe.com&#34; title=&#34;Stripe&#34;&gt;Stripe&lt;/a&gt; to handle all the credit card charges. Recently I started using &lt;a href=&#34;http://home.profitwell.com/&#34; title=&#34;ProfitWell, a free tool for SaaS metrics&#34;&gt;Profitwell, a free tool for SaaS metrics&lt;/a&gt;, to try to understand better where we are making money and where we are losing it.&lt;/p&gt;
 
-&lt;p&gt;Most of our growth today comes from new users. Wouldn&amp;#8217;t it be great if we could convince existing users to spend more? For us, that means users with an existing camera might be enticed to add another camera. After all, if you&amp;#8217;re paying $9.95 for one camera, adding a second for only $4.95 should seem attractive.&lt;/p&gt;
+&lt;p&gt;Most of our growth today comes from new users. Wouldn&amp;rsquo;t it be great if we could convince existing users to spend more? For us, that means users with an existing camera might be enticed to add another camera. After all, if you&amp;rsquo;re paying $9.95 for one camera, adding a second for only $4.95 should seem attractive.&lt;/p&gt;
 
-&lt;p&gt;I decided to try an incentive. I looked for all users who have a single camera on the site, are in good standing, and have logged in recently. That turned out to be 138 users. This morning I sent them &lt;a href=&#34;http://us2.campaign-archive1.com/?u=180d5f24fadceaa24de070d6f&amp;amp;id=8a5f29a15e&#34; title=&#34;April Sensr.net Offer&#34;&gt;an offer that I hope they can&amp;#8217;t refuse&lt;/a&gt;. If they add a second camera by April 26th, I&amp;#8217;ll give them a credit of $14.90, or one month&amp;#8217;s service.&lt;/p&gt;
+&lt;p&gt;I decided to try an incentive. I looked for all users who have a single camera on the site, are in good standing, and have logged in recently. That turned out to be 138 users. This morning I sent them &lt;a href=&#34;http://us2.campaign-archive1.com/?u=180d5f24fadceaa24de070d6f&amp;amp;id=8a5f29a15e&#34; title=&#34;April Sensr.net Offer&#34;&gt;an offer that I hope they can&amp;rsquo;t refuse&lt;/a&gt;. If they add a second camera by April 26th, I&amp;rsquo;ll give them a credit of $14.90, or one month&amp;rsquo;s service.&lt;/p&gt;
 
-&lt;p&gt;I have no idea if this will work or not, but I&amp;#8217;ll report back and we&amp;#8217;ll see!&lt;/p&gt;
+&lt;p&gt;I have no idea if this will work or not, but I&amp;rsquo;ll report back and we&amp;rsquo;ll see!&lt;/p&gt;
 
 &lt;p&gt;BTW, I used &lt;a title=&#34;Mail Chimp&#34; href=&#34;http://mailchimp.com&#34; target=&#34;_blank&#34;&gt;Mail Chimp&lt;/a&gt; to do the email campaign.  The most difficult part of this was building the SQL query to gather the emails.    Now that I have that, I may try to integrate an ongoing campaign using &lt;a href=&#34;http://customer.io/&#34; title=&#34;Targeted Human Emails&#34;&gt;Customer.io&lt;/a&gt;.&lt;/p&gt;
 
