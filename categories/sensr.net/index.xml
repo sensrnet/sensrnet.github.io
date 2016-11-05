@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sensr.Net on Sensr.net Blog | Watch your Stuff!</title>
-    <link>https://blog.sensr.net/categories/sensr/index.net/</link>
+    <link>http://blog.sensr.net/categories/sensr/index.net/</link>
     <description>Recent content in Sensr.Net on Sensr.net Blog | Watch your Stuff!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 28 Sep 2016 01:36:45 +0000</lastBuildDate>
-    <atom:link href="https://blog.sensr.net/categories/sensr.net/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.sensr.net/categories/sensr.net/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Legally Monitor your Airbnb with cheap Sensr.net security cameras</title>
-      <link>https://blog.sensr.net/2016/09/27/legally-monitor-your-airbnb-with-cheap-sensr-net-security-cameras/</link>
+      <link>http://blog.sensr.net/2016/09/27/legally-monitor-your-airbnb-with-cheap-sensr-net-security-cameras/</link>
       <pubDate>Wed, 28 Sep 2016 01:36:45 +0000</pubDate>
       
-      <guid>https://blog.sensr.net/2016/09/27/legally-monitor-your-airbnb-with-cheap-sensr-net-security-cameras/</guid>
+      <guid>http://blog.sensr.net/2016/09/27/legally-monitor-your-airbnb-with-cheap-sensr-net-security-cameras/</guid>
       <description>
 
 &lt;p&gt;We&amp;rsquo;ve been renting our place on &lt;a title=&#34;Airbnb&#34; href=&#34;https://www.airbnb.com/&#34; target=&#34;_blank&#34;&gt;Airbnb&lt;/a&gt; for about a year now and it&amp;rsquo;s been great to have &lt;a title=&#34;Sensr.net&#34; href=&#34;https://sensr.net&#34; target=&#34;_blank&#34;&gt;Sensr.net&lt;/a&gt; cameras monitoring our place while we aren&amp;rsquo;t there. Don&amp;rsquo;t get me wrong, we don&amp;rsquo;t have cameras &lt;em&gt;inside the private spaces of our home&lt;/em&gt;, we have exterior cameras that monitor the approaches to the house. Think &lt;strong&gt;Driveway Camera&lt;/strong&gt; and &lt;strong&gt;Front Door Camera,&lt;/strong&gt; etc. We only monitor the &lt;em&gt;public spaces&lt;/em&gt; around our home, with &lt;em&gt;one exception&lt;/em&gt;: owner only spaces.&lt;/p&gt;
@@ -55,28 +55,28 @@
 
 &lt;p&gt;If you&amp;rsquo;re an Airbnb host, you can give this a try for free.  If you&amp;rsquo;re not an Airbnb host, you can try it out too!  We have a one week free trial.  Grab a camera and give it a try.&lt;/p&gt;
 
-&lt;p&gt;Warning: setting up an IP camera can be a bit complex.  If you&amp;rsquo;re comfortable setting up a wifi router, then you&amp;rsquo;ll probably be fine.  One big advantage to using Sensr.net is that you don&amp;rsquo;t need to do any &lt;a href=&#34;https://blog.sensr.net/2013/10/24/ip-camera-no-firewall-config/&#34; title=&#34;View IP Camera Remotely, No Firewall Config&#34;&gt;port forwarding or complex firewall rules&lt;/a&gt;, so it&amp;rsquo;s a bit easier than you might expect if you&amp;rsquo;ve tried this kind of thing in the past.  If you get stuck, just drop us an email at support@sensr.net and we&amp;rsquo;ll give you a hand.&lt;/p&gt;
+&lt;p&gt;Warning: setting up an IP camera can be a bit complex.  If you&amp;rsquo;re comfortable setting up a wifi router, then you&amp;rsquo;ll probably be fine.  One big advantage to using Sensr.net is that you don&amp;rsquo;t need to do any &lt;a href=&#34;http://blog.sensr.net/2013/10/24/ip-camera-no-firewall-config/&#34; title=&#34;View IP Camera Remotely, No Firewall Config&#34;&gt;port forwarding or complex firewall rules&lt;/a&gt;, so it&amp;rsquo;s a bit easier than you might expect if you&amp;rsquo;ve tried this kind of thing in the past.  If you get stuck, just drop us an email at support@sensr.net and we&amp;rsquo;ll give you a hand.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Sensr.net Security Camera Offline</title>
-      <link>https://blog.sensr.net/2016/02/29/security-camera-offline/</link>
+      <link>http://blog.sensr.net/2016/02/29/security-camera-offline/</link>
       <pubDate>Mon, 29 Feb 2016 13:26:48 +0000</pubDate>
       
-      <guid>https://blog.sensr.net/2016/02/29/security-camera-offline/</guid>
+      <guid>http://blog.sensr.net/2016/02/29/security-camera-offline/</guid>
       <description>&lt;p&gt;Sensr.net shows cameras as offline if they haven&amp;rsquo;t uploaded an image in the last 5 minutes.&lt;/p&gt;
 
-&lt;p&gt;Why does this happen? We recommend that you have your camera upload images continuously to Sensr.net at 1 or 2 snapshots per second. This way you can view the live stream on our site &lt;a href=&#34;https://blog.sensr.net/2013/10/24/ip-camera-no-firewall-config/&#34; title=&#34;View IP Camera Remotely, No Firewall Config&#34;&gt;without opening your firewall&lt;/a&gt;. If you have your camera set to only upload images on motion, then when there is no motion, we&amp;rsquo;ll show your camera as offline.  See this post about &lt;a href=&#34;https://blog.sensr.net/2011/07/25/true-meaning-of-motion-detection-off/&#34; title=&#34;True meaning of motion detection off&#34;&gt;configuring cameras with motion detection&lt;/a&gt; for more details.&lt;/p&gt;
+&lt;p&gt;Why does this happen? We recommend that you have your camera upload images continuously to Sensr.net at 1 or 2 snapshots per second. This way you can view the live stream on our site &lt;a href=&#34;http://blog.sensr.net/2013/10/24/ip-camera-no-firewall-config/&#34; title=&#34;View IP Camera Remotely, No Firewall Config&#34;&gt;without opening your firewall&lt;/a&gt;. If you have your camera set to only upload images on motion, then when there is no motion, we&amp;rsquo;ll show your camera as offline.  See this post about &lt;a href=&#34;http://blog.sensr.net/2011/07/25/true-meaning-of-motion-detection-off/&#34; title=&#34;True meaning of motion detection off&#34;&gt;configuring cameras with motion detection&lt;/a&gt; for more details.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Security Camera Archiving and Clip Download</title>
-      <link>https://blog.sensr.net/2016/02/28/security-camera-archiving-and-clip-download/</link>
+      <link>http://blog.sensr.net/2016/02/28/security-camera-archiving-and-clip-download/</link>
       <pubDate>Sun, 28 Feb 2016 13:14:30 +0000</pubDate>
       
-      <guid>https://blog.sensr.net/2016/02/28/security-camera-archiving-and-clip-download/</guid>
+      <guid>http://blog.sensr.net/2016/02/28/security-camera-archiving-and-clip-download/</guid>
       <description>&lt;p&gt;With your Sensr.net account,  we save images for one month on our site. Images are deleted when they are 32 days old. If you want to keep the images longer just save them as favorites or make a clip. Favorites and clips are kept until you delete the camera from our service.&lt;/p&gt;
 
 &lt;p&gt;If you &lt;a href=&#34;http://sensr.net/blog/2014/04/29/making-clips-on-sensr-net/&#34; title=&#34;Making Clips on Sensr.net&#34;&gt;make a clip&lt;/a&gt;, we will generate an mpeg file and send you a link to download it. The link we send is good for 30 days.  Make sure your login email is correct and check your spam folder if you don&amp;#8217;t see the email.&lt;/p&gt;
@@ -89,12 +89,12 @@
     
     <item>
       <title>Sensr.net Revenue Experiment</title>
-      <link>https://blog.sensr.net/2015/04/04/sensr-net-revenue-experiment/</link>
+      <link>http://blog.sensr.net/2015/04/04/sensr-net-revenue-experiment/</link>
       <pubDate>Sat, 04 Apr 2015 20:03:06 +0000</pubDate>
       
-      <guid>https://blog.sensr.net/2015/04/04/sensr-net-revenue-experiment/</guid>
+      <guid>http://blog.sensr.net/2015/04/04/sensr-net-revenue-experiment/</guid>
       <description>&lt;div id=&#34;attachment_3158&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption alignleft&#34;&gt;
-  &lt;img class=&#34;size-large wp-image-3158&#34; src=&#34;https://blog.sensr.net/img/2015/04/Screenshot-2015-04-04-12.56.41-1024x488.png&#34; alt=&#34;Look at growth from new users versus growth from existing users.&#34; width=&#34;640&#34; height=&#34;305&#34; srcset=&#34;https://blog.sensr.net/img/2015/04/Screenshot-2015-04-04-12.56.41-1024x488.png 1024w, https://blog.sensr.net/img/2015/04/Screenshot-2015-04-04-12.56.41-300x143.png 300w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;
+  &lt;img class=&#34;size-large wp-image-3158&#34; src=&#34;http://blog.sensr.net/img/2015/04/Screenshot-2015-04-04-12.56.41-1024x488.png&#34; alt=&#34;Look at growth from new users versus growth from existing users.&#34; width=&#34;640&#34; height=&#34;305&#34; srcset=&#34;http://blog.sensr.net/img/2015/04/Screenshot-2015-04-04-12.56.41-1024x488.png 1024w, http://blog.sensr.net/img/2015/04/Screenshot-2015-04-04-12.56.41-300x143.png 300w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Look at growth from new users versus growth from existing users.
@@ -117,10 +117,10 @@
     
     <item>
       <title>Sensr.net Bitcoin Experiment</title>
-      <link>https://blog.sensr.net/2014/12/26/sensr-net-bitcoin-experiment/</link>
+      <link>http://blog.sensr.net/2014/12/26/sensr-net-bitcoin-experiment/</link>
       <pubDate>Fri, 26 Dec 2014 16:16:02 +0000</pubDate>
       
-      <guid>https://blog.sensr.net/2014/12/26/sensr-net-bitcoin-experiment/</guid>
+      <guid>http://blog.sensr.net/2014/12/26/sensr-net-bitcoin-experiment/</guid>
       <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
   &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
     &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/12/26/sensr-net-bitcoin-experiment/&#34; data-text=&#34;Sensr.net Bitcoin Experiment&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
@@ -147,10 +147,10 @@
     
     <item>
       <title>Sensr.net Patched Against Shellshock Bug</title>
-      <link>https://blog.sensr.net/2014/09/26/sensr-net-patched-against-shellshock-bug/</link>
+      <link>http://blog.sensr.net/2014/09/26/sensr-net-patched-against-shellshock-bug/</link>
       <pubDate>Fri, 26 Sep 2014 20:47:39 +0000</pubDate>
       
-      <guid>https://blog.sensr.net/2014/09/26/sensr-net-patched-against-shellshock-bug/</guid>
+      <guid>http://blog.sensr.net/2014/09/26/sensr-net-patched-against-shellshock-bug/</guid>
       <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
   &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
     &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/09/26/sensr-net-patched-against-shellshock-bug/&#34; data-text=&#34;Sensr.net Patched Against Shellshock Bug&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
@@ -173,10 +173,10 @@
     
     <item>
       <title>How to setup the Y-cam Bullet HD 1080 with Cloud Recording</title>
-      <link>https://blog.sensr.net/2014/07/14/how-to-setup-the-y-cam-bullet-hd-with-cloud-recording/</link>
+      <link>http://blog.sensr.net/2014/07/14/how-to-setup-the-y-cam-bullet-hd-with-cloud-recording/</link>
       <pubDate>Mon, 14 Jul 2014 16:52:22 +0000</pubDate>
       
-      <guid>https://blog.sensr.net/2014/07/14/how-to-setup-the-y-cam-bullet-hd-with-cloud-recording/</guid>
+      <guid>http://blog.sensr.net/2014/07/14/how-to-setup-the-y-cam-bullet-hd-with-cloud-recording/</guid>
       <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
   &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
     &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/14/how-to-setup-the-y-cam-bullet-hd-with-cloud-recording/&#34; data-text=&#34;How to setup the Y-cam Bullet HD 1080 with Cloud Recording&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
@@ -342,10 +342,10 @@
     
     <item>
       <title>Download Images From Sensr.net</title>
-      <link>https://blog.sensr.net/2014/07/08/download-images-from-sensr-net/</link>
+      <link>http://blog.sensr.net/2014/07/08/download-images-from-sensr-net/</link>
       <pubDate>Tue, 08 Jul 2014 16:21:14 +0000</pubDate>
       
-      <guid>https://blog.sensr.net/2014/07/08/download-images-from-sensr-net/</guid>
+      <guid>http://blog.sensr.net/2014/07/08/download-images-from-sensr-net/</guid>
       <description>
 
 &lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
@@ -1043,10 +1043,10 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
     
     <item>
       <title>How to Setup the TENVIS IPROBOT3 with Cloud recording</title>
-      <link>https://blog.sensr.net/2014/07/03/how-to-setup-the-tenvis-iprobot3-with-cloud-recording/</link>
+      <link>http://blog.sensr.net/2014/07/03/how-to-setup-the-tenvis-iprobot3-with-cloud-recording/</link>
       <pubDate>Thu, 03 Jul 2014 17:22:11 +0000</pubDate>
       
-      <guid>https://blog.sensr.net/2014/07/03/how-to-setup-the-tenvis-iprobot3-with-cloud-recording/</guid>
+      <guid>http://blog.sensr.net/2014/07/03/how-to-setup-the-tenvis-iprobot3-with-cloud-recording/</guid>
       <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
   &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
     &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/03/how-to-setup-the-tenvis-iprobot3-with-cloud-recording/&#34; data-text=&#34;How to Setup the TENVIS IPROBOT3 with Cloud recording &#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
@@ -1141,10 +1141,10 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
     
     <item>
       <title>How to setup the Tenvis JPT3815W</title>
-      <link>https://blog.sensr.net/2014/07/01/how-to-setup-the-tenvis-jpt3815w/</link>
+      <link>http://blog.sensr.net/2014/07/01/how-to-setup-the-tenvis-jpt3815w/</link>
       <pubDate>Tue, 01 Jul 2014 18:18:32 +0000</pubDate>
       
-      <guid>https://blog.sensr.net/2014/07/01/how-to-setup-the-tenvis-jpt3815w/</guid>
+      <guid>http://blog.sensr.net/2014/07/01/how-to-setup-the-tenvis-jpt3815w/</guid>
       <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
   &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
     &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/01/how-to-setup-the-tenvis-jpt3815w/&#34; data-text=&#34;How to setup the Tenvis JPT3815W&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
@@ -1257,10 +1257,10 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
     
     <item>
       <title>How to Setup the Swann ADS-445 Camera for cloud recording</title>
-      <link>https://blog.sensr.net/2014/06/30/how-to-setup-the-swann-ads-445-camera-for-cloud-recording/</link>
+      <link>http://blog.sensr.net/2014/06/30/how-to-setup-the-swann-ads-445-camera-for-cloud-recording/</link>
       <pubDate>Mon, 30 Jun 2014 18:30:38 +0000</pubDate>
       
-      <guid>https://blog.sensr.net/2014/06/30/how-to-setup-the-swann-ads-445-camera-for-cloud-recording/</guid>
+      <guid>http://blog.sensr.net/2014/06/30/how-to-setup-the-swann-ads-445-camera-for-cloud-recording/</guid>
       <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
   &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
     &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/30/how-to-setup-the-swann-ads-445-camera-for-cloud-recording/&#34; data-text=&#34;How to Setup the Swann ADS-445 Camera for cloud recording&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
@@ -1420,10 +1420,10 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
     
     <item>
       <title>How to Setup the D-Link DCS-933L and use it with Sensr.net</title>
-      <link>https://blog.sensr.net/2014/06/27/how-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net/</link>
+      <link>http://blog.sensr.net/2014/06/27/how-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net/</link>
       <pubDate>Fri, 27 Jun 2014 18:47:39 +0000</pubDate>
       
-      <guid>https://blog.sensr.net/2014/06/27/how-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net/</guid>
+      <guid>http://blog.sensr.net/2014/06/27/how-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net/</guid>
       <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
   &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
     &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/27/how-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net/&#34; data-text=&#34;How to Setup the D-Link DCS-933L and use it with Sensr.net&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
@@ -1566,10 +1566,10 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
     
     <item>
       <title>Check out our new Subreddit!</title>
-      <link>https://blog.sensr.net/2014/06/27/check-out-our-new-subreddit/</link>
+      <link>http://blog.sensr.net/2014/06/27/check-out-our-new-subreddit/</link>
       <pubDate>Fri, 27 Jun 2014 17:11:50 +0000</pubDate>
       
-      <guid>https://blog.sensr.net/2014/06/27/check-out-our-new-subreddit/</guid>
+      <guid>http://blog.sensr.net/2014/06/27/check-out-our-new-subreddit/</guid>
       <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
   &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
     &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/27/check-out-our-new-subreddit/&#34; data-text=&#34;Check out our new Subreddit!&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
@@ -1600,10 +1600,10 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
     
     <item>
       <title>How to upgrade your CCTV system with the SRV-EPX8 and Sensr.net</title>
-      <link>https://blog.sensr.net/2014/06/26/how-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net/</link>
+      <link>http://blog.sensr.net/2014/06/26/how-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net/</link>
       <pubDate>Thu, 26 Jun 2014 17:43:48 +0000</pubDate>
       
-      <guid>https://blog.sensr.net/2014/06/26/how-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net/</guid>
+      <guid>http://blog.sensr.net/2014/06/26/how-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net/</guid>
       <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
   &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
     &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/26/how-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net/&#34; data-text=&#34;How to upgrade your CCTV system with the SRV-EPX8 and Sensr.net&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
@@ -1750,10 +1750,10 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
     
     <item>
       <title>The Great Pacific Race on Sensr.net</title>
-      <link>https://blog.sensr.net/2014/06/24/the-great-pacific-race-on-sensr-net/</link>
+      <link>http://blog.sensr.net/2014/06/24/the-great-pacific-race-on-sensr-net/</link>
       <pubDate>Tue, 24 Jun 2014 15:40:32 +0000</pubDate>
       
-      <guid>https://blog.sensr.net/2014/06/24/the-great-pacific-race-on-sensr-net/</guid>
+      <guid>http://blog.sensr.net/2014/06/24/the-great-pacific-race-on-sensr-net/</guid>
       <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
   &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
     &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/24/the-great-pacific-race-on-sensr-net/&#34; data-text=&#34;The Great Pacific Race on Sensr.net&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;

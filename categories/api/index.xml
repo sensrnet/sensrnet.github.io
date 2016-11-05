@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Api on Sensr.net Blog | Watch your Stuff!</title>
-    <link>https://blog.sensr.net/categories/api/</link>
+    <link>http://blog.sensr.net/categories/api/</link>
     <description>Recent content in Api on Sensr.net Blog | Watch your Stuff!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 08 Jul 2014 16:21:14 +0000</lastBuildDate>
-    <atom:link href="https://blog.sensr.net/categories/api/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.sensr.net/categories/api/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Download Images From Sensr.net</title>
-      <link>https://blog.sensr.net/2014/07/08/download-images-from-sensr-net/</link>
+      <link>http://blog.sensr.net/2014/07/08/download-images-from-sensr-net/</link>
       <pubDate>Tue, 08 Jul 2014 16:21:14 +0000</pubDate>
       
-      <guid>https://blog.sensr.net/2014/07/08/download-images-from-sensr-net/</guid>
+      <guid>http://blog.sensr.net/2014/07/08/download-images-from-sensr-net/</guid>
       <description>
 
 &lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
@@ -712,10 +712,10 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
     
     <item>
       <title>New Sensr.net IP Camera API &amp; SDK Release</title>
-      <link>https://blog.sensr.net/2013/02/07/new-sensr-net-api-v3/</link>
+      <link>http://blog.sensr.net/2013/02/07/new-sensr-net-api-v3/</link>
       <pubDate>Thu, 07 Feb 2013 18:04:13 +0000</pubDate>
       
-      <guid>https://blog.sensr.net/2013/02/07/new-sensr-net-api-v3/</guid>
+      <guid>http://blog.sensr.net/2013/02/07/new-sensr-net-api-v3/</guid>
       <description>
 
 &lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;

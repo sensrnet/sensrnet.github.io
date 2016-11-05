@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Growth Hacking on Sensr.net Blog | Watch your Stuff!</title>
-    <link>https://blog.sensr.net/tags/growth-hacking/</link>
+    <link>http://blog.sensr.net/tags/growth-hacking/</link>
     <description>Recent content in Growth Hacking on Sensr.net Blog | Watch your Stuff!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 04 Apr 2015 20:03:06 +0000</lastBuildDate>
-    <atom:link href="https://blog.sensr.net/tags/growth-hacking/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.sensr.net/tags/growth-hacking/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Sensr.net Revenue Experiment</title>
-      <link>https://blog.sensr.net/2015/04/04/sensr-net-revenue-experiment/</link>
+      <link>http://blog.sensr.net/2015/04/04/sensr-net-revenue-experiment/</link>
       <pubDate>Sat, 04 Apr 2015 20:03:06 +0000</pubDate>
       
-      <guid>https://blog.sensr.net/2015/04/04/sensr-net-revenue-experiment/</guid>
+      <guid>http://blog.sensr.net/2015/04/04/sensr-net-revenue-experiment/</guid>
       <description>&lt;div id=&#34;attachment_3158&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption alignleft&#34;&gt;
-  &lt;img class=&#34;size-large wp-image-3158&#34; src=&#34;https://blog.sensr.net/img/2015/04/Screenshot-2015-04-04-12.56.41-1024x488.png&#34; alt=&#34;Look at growth from new users versus growth from existing users.&#34; width=&#34;640&#34; height=&#34;305&#34; srcset=&#34;https://blog.sensr.net/img/2015/04/Screenshot-2015-04-04-12.56.41-1024x488.png 1024w, https://blog.sensr.net/img/2015/04/Screenshot-2015-04-04-12.56.41-300x143.png 300w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;
+  &lt;img class=&#34;size-large wp-image-3158&#34; src=&#34;http://blog.sensr.net/img/2015/04/Screenshot-2015-04-04-12.56.41-1024x488.png&#34; alt=&#34;Look at growth from new users versus growth from existing users.&#34; width=&#34;640&#34; height=&#34;305&#34; srcset=&#34;http://blog.sensr.net/img/2015/04/Screenshot-2015-04-04-12.56.41-1024x488.png 1024w, http://blog.sensr.net/img/2015/04/Screenshot-2015-04-04-12.56.41-300x143.png 300w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Look at growth from new users versus growth from existing users.
