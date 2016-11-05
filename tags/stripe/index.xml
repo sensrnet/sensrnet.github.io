@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stripe on Sensr.net Blog | Watch your Stuff!</title>
-    <link>https://sensr.net/blog/tags/stripe/</link>
+    <link>https://blog.sensr.net/tags/stripe/</link>
     <description>Recent content in Stripe on Sensr.net Blog | Watch your Stuff!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 26 Dec 2014 16:16:02 +0000</lastBuildDate>
-    <atom:link href="https://sensr.net/blog/tags/stripe/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.sensr.net/tags/stripe/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Sensr.net Bitcoin Experiment</title>
-      <link>https://sensr.net/blog/2014/12/26/sensr-net-bitcoin-experiment/</link>
+      <link>https://blog.sensr.net/2014/12/26/sensr-net-bitcoin-experiment/</link>
       <pubDate>Fri, 26 Dec 2014 16:16:02 +0000</pubDate>
       
-      <guid>https://sensr.net/blog/2014/12/26/sensr-net-bitcoin-experiment/</guid>
+      <guid>https://blog.sensr.net/2014/12/26/sensr-net-bitcoin-experiment/</guid>
       <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
   &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
     &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/12/26/sensr-net-bitcoin-experiment/&#34; data-text=&#34;Sensr.net Bitcoin Experiment&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
