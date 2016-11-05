@@ -1,3 +1,0 @@
-# sensrnet.github.io
-
-Where we deploy our blog....
