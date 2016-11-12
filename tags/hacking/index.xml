@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hacking on Sensr.net Blog | Watch your Stuff!</title>
-    <link>http://blog.sensr.net/tags/hacking/</link>
-    <description>Recent content in Hacking on Sensr.net Blog | Watch your Stuff!</description>
+    <title>Sensr.net Blog | Watch your Stuff!</title>
+    <link>http://blog.sensr.net/tags/hacking/index.xml</link>
+    <description>Recent content on Sensr.net Blog | Watch your Stuff!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Oct 2016 18:47:58 +0000</lastBuildDate>
     <atom:link href="http://blog.sensr.net/tags/hacking/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -15,9 +14,7 @@
       <pubDate>Wed, 19 Oct 2016 18:47:58 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2016/10/19/is-your-security-camera-hacking-someone-else/</guid>
-      <description>
-
-&lt;div id=&#34;attachment_3207&#34; style=&#34;width: 768px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+      <description>&lt;div id=&#34;attachment_3207&#34; style=&#34;width: 768px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
       &lt;img class=&#34;size-full wp-image-3207&#34; src=&#34;http://blog.sensr.net/img/2016/10/wsjscreenshot-1024x5741.jpg&#34; alt=&#34;Who watches the watchers?&#34; width=&#34;758&#34; height=&#34;562&#34; sizes=&#34;(max-width: 758px) 100vw, 758px&#34; /&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
@@ -29,22 +26,23 @@
 
 &lt;p&gt;How can something like this happen?  It turns out security cameras and DVRs are just network connected computers, and they can be hacked just like any other computer.  However, it&amp;#8217;s worse than that, a large number of these systems ship with default passwords, so anyone who can connect to them can get into the system and install any software they want.&lt;/p&gt;
 
-&lt;h2 id=&#34;what-about-my-firewall:fb6a7bc2a62d1b26a3805da8a3116d9b&#34;&gt;What about my firewall?&lt;/h2&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;what-about-my-firewall&#34;&gt;What about my firewall?&lt;/h2&gt;
 
 &lt;p&gt;But wait, what does it matter that there are default passwords on these systems?  These devices are normally behind a firewall, right?  Maybe, but most DVRs and IP cameras are configured so you can view and configure them from outside your firewall.  When these systems are installed, most of them instruct you to set up port forwarding.  This is where you can get into trouble.  If you configure your firewall for port forwarding, you&amp;#8217;re allowing anyone on the internet to connect to your device.  If you setup port forwarding but don&amp;#8217;t bother to change the default passwords, then you&amp;#8217;re asking for trouble.&lt;/p&gt;
 
-&lt;h2 id=&#34;you-are-your-own-it-guy:fb6a7bc2a62d1b26a3805da8a3116d9b&#34;&gt;You are your own IT guy&lt;/h2&gt;
+&lt;h2 id=&#34;you-are-your-own-it-guy&#34;&gt;You are your own IT guy&lt;/h2&gt;
 
 &lt;p&gt;If you do setup port forwarding, make sure you change all the default passwords and keep your firmware up to date.  Yes, this is a hassle.  Updating firmware on wireless security cameras is error prone and confusing.  You have to make sure you have the right firmware for your camera.  Sometimes there are slightly different hardware versions and if you install the wrong firmware on the wrong hardware, you&amp;#8217;ll brick your device.  Another hassle is that most manufacturers insist that you do the upgrade over a wired connection.  This sounds easy until you realize that the camera is mounted somewhere and now you have to get your toolbox and a ladder just to upgrade your firmware.  No wonder these devices are not getting updated.&lt;/p&gt;
 
-&lt;h2 id=&#34;can-sensr-net-help:fb6a7bc2a62d1b26a3805da8a3116d9b&#34;&gt;Can Sensr.net help?&lt;/h2&gt;
+&lt;h2 id=&#34;can-sensr-net-help&#34;&gt;Can Sensr.net help?&lt;/h2&gt;
 
 &lt;p&gt;Yes, using &lt;a href=&#34;https://sensr.net&#34; title=&#34;Sensr.net: Watch your stuff &#34;&gt;Sensr.net&lt;/a&gt; doesn&amp;#8217;t require port forwarding (cameras push to our servers, nothing reaches back into your network).  This means if you&amp;#8217;re using security cameras or network attached DVRs don&amp;#8217;t need to be accessible from the internet at large.&lt;/p&gt;
 
-&lt;h2 id=&#34;try-sensr-net-for-free:fb6a7bc2a62d1b26a3805da8a3116d9b&#34;&gt;Try Sensr.net for free&lt;/h2&gt;
+&lt;h2 id=&#34;try-sensr-net-for-free&#34;&gt;Try Sensr.net for free&lt;/h2&gt;
 
-&lt;p&gt;If you have an IP camera, give us a try.  Sign up for our &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt;one week free trial&lt;/a&gt;, no credit card required.&lt;/p&gt;
-</description>
+&lt;p&gt;If you have an IP camera, give us a try.  Sign up for our &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt;one week free trial&lt;/a&gt;, no credit card required.&lt;/p&gt;</description>
     </item>
     
   </channel>

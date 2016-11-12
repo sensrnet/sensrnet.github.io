@@ -3,7 +3,7 @@
     <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="Hugo 0.15" />
+    <meta name="generator" content="Hugo 0.17" />
     <title>Why no open source IoT Firmware?</title>
     
     
@@ -72,9 +72,7 @@
     </ul>
 
 
-        
-
-<p><a title="Dans les entrailles urbaines / In the urban bowels" href="https://www.flickr.com/photos/m43photos/12239139316/in/photolist-jDwMHo-cxs18J-fAiNqu-dgqBrp-8JiYae-zJCUs-5hmBet-ciyJEf-aqSgjf-4zhcab-e6MK4D-3dqLhP-qP2FY-9u9Vmd-aqrFT2-6F34w2-5NAo8e-5M2nnt-cxt85q-2zrJy9-7aUP9A-5NEEK7-deB66G-bEtv1q-dksYJC-c7gy4E-rU8r9v-5S8j7P-bToeAP-6F7cKq-5NEEMf-6F7d5b-dNifDu-3bsbWr-6F7cUA-5NAoan-5NEEfh-ckh731-5NAod6-sNL1k-8DkNxR-skKu3-sGNzi-8B9Dfe-4Poqgd-cv5hA5-cvgpHu-iH8cKJ-jSg8jZ-dgSE9g" data-flickr-embed="true"><img src="https://c5.staticflickr.com/6/5524/12239139316_6e97104ce8_k.jpg" alt="Dans les entrailles urbaines / In the urban bowels" width="500" height="334" /></a></p>
+        <p><a title="Dans les entrailles urbaines / In the urban bowels" href="https://www.flickr.com/photos/m43photos/12239139316/in/photolist-jDwMHo-cxs18J-fAiNqu-dgqBrp-8JiYae-zJCUs-5hmBet-ciyJEf-aqSgjf-4zhcab-e6MK4D-3dqLhP-qP2FY-9u9Vmd-aqrFT2-6F34w2-5NAo8e-5M2nnt-cxt85q-2zrJy9-7aUP9A-5NEEK7-deB66G-bEtv1q-dksYJC-c7gy4E-rU8r9v-5S8j7P-bToeAP-6F7cKq-5NEEMf-6F7d5b-dNifDu-3bsbWr-6F7cUA-5NAoan-5NEEfh-ckh731-5NAod6-sNL1k-8DkNxR-skKu3-sGNzi-8B9Dfe-4Poqgd-cv5hA5-cvgpHu-iH8cKJ-jSg8jZ-dgSE9g" data-flickr-embed="true"><img src="https://c5.staticflickr.com/6/5524/12239139316_6e97104ce8_k.jpg" alt="Dans les entrailles urbaines / In the urban bowels" width="500" height="334" /></a></p>
 
 <p>The IoT (Internet of Things) is taking off. We&rsquo;re coming up with all kinds of internet connected devices. Many of these devices are simply computers with interesting sensors and controllers attached. At Sensr.net we think mostly about IP cameras, which are a specific kind of IoT device. But that <a href="https://nest.com/thermostat/meet-nest-thermostat/" title="Nest Thermostat">Nest thermostat</a> or the <a href="https://www.amazon.com/Amazon-Echo-Bluetooth-Speaker-with-WiFi-Alexa/dp/B00X4WHP5E" title="Amazon Echo">Amazon Echo speaker</a> are also examples of IoT devices.</p>
 
@@ -82,24 +80,24 @@
 
 <p>That nice P2P feature is pretty great, but it also means that there are servers out there on the net that can get inside your home network. Where are those servers running? Who&rsquo;s job is it to make sure they are secure? Who has access to those servers and thus your network and even your cameras?</p>
 
-<h2 id="all-your-cams-are-belong-to-us:d2acb2176bfa1cc058ffebeef7714d72">All your cams are belong to us</h2>
+<h2 id="all-your-cams-are-belong-to-us">All your cams are belong to us</h2>
 
-<p>Mostly we&rsquo;re pretty cavalier about connecting cool new gadgets to our networks. Maybe we shouldn&rsquo;t be. It seems like there ought to be some way to make sure the devices you trust are actually trustworthy. How can we be sure that our security cameras are actually secure? (Warning: <a href="http://sensr.net/blog/2016/10/19/is-your-security-camera-hacking-someone-else/" title="Cameras hacked into botnets">They probably aren&rsquo;t.</a>)</p>
+<p>
+Mostly we&rsquo;re pretty cavalier about connecting cool new gadgets to our networks. Maybe we shouldn&rsquo;t be. It seems like there ought to be some way to make sure the devices you trust are actually trustworthy. How can we be sure that our security cameras are actually secure? (Warning: <a href="http://sensr.net/blog/2016/10/19/is-your-security-camera-hacking-someone-else/" title="Cameras hacked into botnets">They probably aren&rsquo;t.</a>)</p>
 
-<h2 id="truthiness-in-our-firmware:d2acb2176bfa1cc058ffebeef7714d72">Truthiness in our firmware?</h2>
+<h2 id="truthiness-in-our-firmware">Truthiness in our firmware?</h2>
 
 <p>All these devices run an operating system of some kind embedded down in their firmware. What if we created an open source firmware that we could trust? We could buy fun cheap hardware from our friends in China but then install our own good old open source code on that hardware instead of trusting the glop that came on it. Don&rsquo;t want your camera connecting out some potentially compromised P2P jumphost somewhere? No problem! Just install your own firmware and configure your own jumphost or maybe one run by a company you trust. (This could be a new business opportunity for <a href="https://sensr.net" title="Sensr.net: Watch your stuff!">Sensr.net</a> maybe&#8230;)</p>
 
-<h2 id="you-say-tomato-6-8230:d2acb2176bfa1cc058ffebeef7714d72">You say <a href="https://en.wikipedia.org/wiki/Tomato_(firmware)" title="Tomato Firmware">tomato</a>&#8230;</h2>
+<h2 id="you-say-tomato-6-8230">You say <a href="https://en.wikipedia.org/wiki/Tomato_(firmware)" title="Tomato Firmware">tomato</a>&#8230;</h2>
 
 <p>There is one successful example of this, the <a href="http://www.dd-wrt.com/site/index" title="DD-WRT Site">DD-WRT software</a> that runs on a large number of routers.  There are a bunch of <a href="https://en.wikipedia.org/wiki/List_of_router_firmware_projects" title="Router Firmware">open source firmwares</a> out there. Why can&rsquo;t we have one for cameras? Or more generally IoT devices?</p>
 
-<h2 id="all-together-now:d2acb2176bfa1cc058ffebeef7714d72">All together now</h2>
+<h2 id="all-together-now">All together now</h2>
 
 <p>If you&rsquo;re interested in joining an effort along these lines, <a href="mailto:support@sensr.net?Subject=Open%20firmware" target="_top">drop me an email</a> or contribute to the project on Github: <a href="https://github.com/sensrnet/sensros" title="SensrOS: Open source IP Camera Firmware">https://github.com/sensrnet/sensros</a></p>
 
 <p>There are lots of cool things that could be built into this firmware.  Imagine the machine learning projects or advanced image recognition that could be built into something like this. More basic things could be done too, like reference designs for <a href="http://www.onvif.org/" title="ONVIF">ONVIF</a> or <a href="http://www.psialliance.org/" title="Physical Security Interoperability Alliance">PSIA</a>.</p>
-
         
     <ul class="list-inline tags" style="margin-top: 15px; margin-left: 0px">
         
@@ -181,9 +179,9 @@
                     
                         <li><a href="http://blog.sensr.net/categories/network-cameras">network-cameras</a></li>
                     
-                        <li><a href="http://blog.sensr.net/categories/social-networks">social-networks</a></li>
-                    
                         <li><a href="http://blog.sensr.net/categories/camera-setup">camera-setup</a></li>
+                    
+                        <li><a href="http://blog.sensr.net/categories/social-networks">social-networks</a></li>
                     
                 </ul>
             </div>

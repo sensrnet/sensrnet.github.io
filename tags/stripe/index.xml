@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Stripe on Sensr.net Blog | Watch your Stuff!</title>
-    <link>http://blog.sensr.net/tags/stripe/</link>
-    <description>Recent content in Stripe on Sensr.net Blog | Watch your Stuff!</description>
+    <title>Sensr.net Blog | Watch your Stuff!</title>
+    <link>http://blog.sensr.net/tags/stripe/index.xml</link>
+    <description>Recent content on Sensr.net Blog | Watch your Stuff!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Dec 2014 16:16:02 +0000</lastBuildDate>
     <atom:link href="http://blog.sensr.net/tags/stripe/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -17,10 +16,11 @@
       <guid>http://blog.sensr.net/2014/12/26/sensr-net-bitcoin-experiment/</guid>
       <description>&lt;p&gt;I had a user ask to pay his Sensr.net bill in &lt;a href=&#34;https://en.bitcoin.it/wiki/Main_Page&#34; title=&#34;Bitcoin Wiki&#34;&gt;Bitcoin&lt;/a&gt;. We use Stripe to process payments and &lt;a href=&#34;https://stripe.com/bitcoin&#34; title=&#34;Stripe and Bitcoin&#34;&gt;they don&amp;rsquo;t yet support Bitcoin&lt;/a&gt;. However a friend recommended Coinbase, so I set up a merchant page there where you can &lt;a href=&#34;https://www.coinbase.com/sensr&#34; title=&#34;Sensr.net Bitcoin Page&#34;&gt;pay Sensr.net in Bitcoin&lt;/a&gt;.&lt;/p&gt;
 
+&lt;p&gt;&lt;/p&gt;
+
 &lt;p&gt;If you&amp;rsquo;re interested in paying your Sensr.net bill using Bitcoin, just let us know. If you already have a Sensr.net account, just pay us in Bitcoin and we&amp;rsquo;ll add the credit to your account.&lt;/p&gt;
 
-&lt;p&gt;If you have any questions on this, just drop us an email to billing at Sensr.net.&lt;/p&gt;
-</description>
+&lt;p&gt;If you have any questions on this, just drop us an email to billing at Sensr.net.&lt;/p&gt;</description>
     </item>
     
   </channel>

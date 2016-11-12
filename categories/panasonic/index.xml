@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Panasonic on Sensr.net Blog | Watch your Stuff!</title>
-    <link>http://blog.sensr.net/categories/panasonic/</link>
-    <description>Recent content in Panasonic on Sensr.net Blog | Watch your Stuff!</description>
+    <title>Sensr.net Blog | Watch your Stuff!</title>
+    <link>http://blog.sensr.net/categories/panasonic/index.xml</link>
+    <description>Recent content on Sensr.net Blog | Watch your Stuff!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Aug 2014 16:39:02 +0000</lastBuildDate>
     <atom:link href="http://blog.sensr.net/categories/panasonic/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -104,8 +103,7 @@
 
 &lt;p&gt;Congratulations, now you’re done with the camera config. You’re camera is now on Sensr.net. We’ll archive all the motion events, giving you 30 days of archives, SMS and email alerts, guest access, and a whole lot more.  You can view the live stream on our website or in our apps.  No firewall configuration is needed.  No PC in the basement required.&lt;/p&gt;
 
-&lt;p&gt;If you have any problems, send email to info @ sensr.net and we’ll try to help you out!&lt;/p&gt;
-</description>
+&lt;p&gt;If you have any problems, send email to info @ sensr.net and we’ll try to help you out!&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Câmera De Segurança on Sensr.net Blog | Watch your Stuff!</title>
-    <link>http://blog.sensr.net/tags/c%C3%A2mera-de-seguran%C3%A7a/</link>
-    <description>Recent content in Câmera De Segurança on Sensr.net Blog | Watch your Stuff!</description>
+    <title>Sensr.net Blog | Watch your Stuff!</title>
+    <link>http://blog.sensr.net/tags/c%C3%A2mera-de-seguran%C3%A7a/index.xml</link>
+    <description>Recent content on Sensr.net Blog | Watch your Stuff!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Oct 2014 16:49:59 +0000</lastBuildDate>
     <atom:link href="http://blog.sensr.net/tags/c%C3%A2mera-de-seguran%C3%A7a/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -259,8 +258,7 @@
 
 &lt;p&gt;Se tiver alguma dificuldade ou pergunta, clique no botão de Feedback no lado direito de qualquer uma das páginas do Sensr.net e coloque a sua questão. Nós tentaremos responder no prazo máximo de 24h horas.&lt;/p&gt;
 
-&lt;p&gt;Divirta-se!&lt;/p&gt;
-</description>
+&lt;p&gt;Divirta-se!&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -429,8 +427,7 @@
 
 &lt;p&gt;Muitos parabéns, acabou a configuração de sua câmera. A sua câmera está agora ligada ao Sensr.net. Vamos arquivar todos os movimentos, disponibilizando 30 dias de arquivos, SMS e alertas de email, acesso livre à sua lista de convidados e muito mais. Você pode assistir em tempo real ao streaming de vídeo a partir de nosso site ou dos nossos aplicativos. Não é necessário configurar um firewall, nem ter um PC na cave para observar as imagens de sua câmera.&lt;/p&gt;
 
-&lt;p&gt;Se surgir alguma dificuldade, envie um email para info @ sensr.net e nós vamos tentar ajudar você!&lt;/p&gt;
-</description>
+&lt;p&gt;Se surgir alguma dificuldade, envie um email para info @ sensr.net e nós vamos tentar ajudar você!&lt;/p&gt;</description>
     </item>
     
   </channel>

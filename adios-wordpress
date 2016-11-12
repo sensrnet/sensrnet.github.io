@@ -1,0 +1,15 @@
++++
+author = "author"
+categories = ["category1", "category2"]
+date = "2016-11-06T23:11:09+09:00"
+description = "description"
+draft = true
+tags = ["tag1", "tag2"]
+title = "adios wordpress"
+
++++
+
+We finally moved the [Sensr.net](https://sensr.net) blog off of Wordpress. Frankly every time I looked at the 
+Wordpress console I was a bit worried that it had been hacked. There were updates pretty much constantly.  It
+felt like it was just a disaster waiting to happen.  We had spent a lot of time developing 
+

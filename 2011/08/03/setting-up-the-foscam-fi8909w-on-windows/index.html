@@ -3,7 +3,7 @@
     <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="Hugo 0.15" />
+    <meta name="generator" content="Hugo 0.17" />
     <title>Setting up the Foscam FI8909W on Windows</title>
     
     
@@ -72,9 +72,7 @@
     </ul>
 
 
-        
-
-<div class="share_buttons_simple_use_buttons" style="padding: 10px 0; display: inline-block">
+        <div class="share_buttons_simple_use_buttons" style="padding: 10px 0; display: inline-block">
   <div class="tweet_button" style="float: left; vertical-align: top">
     <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/08/03/setting-up-the-foscam-fi8909w-on-windows/" data-text="Setting up the Foscam FI8909W on Windows" data-count="none">Tweet</a>
   </div>
@@ -90,7 +88,7 @@
 
 <p>If you&#8217;re using Linux, you probably don&#8217;t need a tutorial.</p>
 
-<h3 id="overview:fb932bff528c6fc6f60cdd00e2e7ac91">Overview:</h3>
+<h3 id="overview">Overview:</h3>
 
 <ol>
 <li><p> Connect your camera to power and ethernet</p></li>
@@ -110,15 +108,15 @@
 <li> Enjoy</li>
 </ol>
 
-<h3 id="out-of-the-box:fb932bff528c6fc6f60cdd00e2e7ac91">Out of the box</h3>
+<h3 id="out-of-the-box">Out of the box</h3>
 
 <p>Your camera will come in a box. If it does not, then you probably shouldn&#8217;t have bought that $20 discount model shipped out of Timbuktu. Included are a CD, an instruction manual, a stand, an antenna, a power cable, and an Ethernet cable. Assemble it however you want, but if you&#8217;re not planning on using the wireless, I&#8217;d avoid screwing on the antenna, as it just gets in the way. Next, connect your camera to power and plug the Ethernet cable into your router. (This is important. Even if you want a wireless camera, you need the ethernet to be connected to be able to configure it.) Right now, placement doesn&#8217;t matter, so don&#8217;t worry if it&#8217;s pointed at a wall; we&#8217;ll deal with that once your camera is set up.</p>
 
-<h3 id="finding-the-ever-elusive-ip-address:fb932bff528c6fc6f60cdd00e2e7ac91">Finding the ever-elusive IP address</h3>
+<h3 id="finding-the-ever-elusive-ip-address">Finding the ever-elusive IP address</h3>
 
 <p>There are several ways to do this. You might prefer one over the other depending on your situation and personal preferneces, so I&#8217;ll outline all three.</p>
 
-<h4 id="using-foscam-8217-s-software:fb932bff528c6fc6f60cdd00e2e7ac91">Using Foscam&#8217;s software</h4>
+<h4 id="using-foscam-8217-s-software">Using Foscam&#8217;s software</h4>
 
 <p>This is probably the easiest way to find your camera&#8217;s IP address, but it does involve installing Foscam&#8217;s software and restarting your computer. If you&#8217;re not a fan of either of those options, go ahead and skip to the next section. Otherwise, pop the included CD-ROM into your disk drive. An autorun dialog should pop up;</p>
 
@@ -138,7 +136,7 @@
 
 <p>If there are no entries, simply right-click the window and refresh the list.  Your camera should be called &#8220;Anonymous.&#8221; Double-click this entry to go to the camera&#8217;s setup page.</p>
 
-<h4 id="using-your-router:fb932bff528c6fc6f60cdd00e2e7ac91">Using your router</h4>
+<h4 id="using-your-router">Using your router</h4>
 
 <p>The second method is using your router to find your camera&#8217;s IP address. For this, you&#8217;ll need to know your router&#8217;s IP and login information.  If you don&#8217;t know the IP, don&#8217;t panic, just read on.  If you don&#8217;t have access to your router&#8217;s admin page, consider one of the other two options.</p>
 
@@ -152,7 +150,7 @@
   Enter this address into your browser&#8217;s address bar.  (A typical router address is 192.168.1.1, or similar.)  A login screen should appear.  Don&#8217;t panic.  Enter your information.  Once in, there should be a page, or tab, or a link, or some kind of button, or a small prehistoric marsupial that displays all the devices on the network. (Probably not the marsupial.)  Unfortunately, routers are far from standardized, and their admin pages differ greatly. Therefore, I won&#8217;t be able to give specific instructions as to where to find this list, and you&#8217;ll just have to dig around a little.  Once you&#8217;ve uncovered it, look for a device marked as &#8220;unknown.&#8221; This should be your camera.  If there are several, compare the mac address to the one on the back of your camera. <a href="http://blog.sensr.net/wp-content/uploads/2011/08/list.jpg"><img class="aligncenter size-full wp-image-594" src="http://blog.sensr.net/wp-content/uploads/2011/08/list.jpg" alt="" width="615" height="505" srcset="http://sensr.net/blog/wp-content/uploads/2011/08/list.jpg 615w, http://sensr.net/blog/wp-content/uploads/2011/08/list-300x246.jpg 300w" sizes="(max-width: 615px) 100vw, 615px" /></a> Once you&#8217;ve found which IP belongs to your camera, simply enter it into your browser&#8217;s address bar.
 </p>
 
-<h4 id="using-just-the-command-prompt-the-fancy-way:fb932bff528c6fc6f60cdd00e2e7ac91">Using just the command prompt (the fancy way)</h4>
+<h4 id="using-just-the-command-prompt-the-fancy-way">Using just the command prompt (the fancy way)</h4>
 
 <p>If you don&#8217;t have access to your router and, for some reason, you don&#8217;t want to install Foscam&#8217;s software, never fear, we have a solution for you! First, disconnect your camera from the ethernet cable, then open your command prompt. (Start &gt; All Programs &gt; Accessories &gt; Command Prompt). Insert this line of DOS code:</p>
 
@@ -164,21 +162,21 @@
 
 <p>This could take a minute or two to run, and will fill your screen with a bunch of gibberish. Just twiddle your thumbs while you wait. Once it&#8217;s done, run the first script again. <a href="http://blog.sensr.net/wp-content/uploads/2011/08/arp-2.png"><img class="aligncenter size-full wp-image-595" src="http://blog.sensr.net/wp-content/uploads/2011/08/arp-2.png" alt="" width="712" height="362" srcset="http://sensr.net/blog/wp-content/uploads/2011/08/arp-2.png 712w, http://sensr.net/blog/wp-content/uploads/2011/08/arp-2-300x152.png 300w" sizes="(max-width: 712px) 100vw, 712px" /></a>This time make a note of the output. Perhaps copy it into a text file. Plug your camera&#8217;s Ethernet back in and repeat the process. There should be one more address in the list the second time around.<a href="http://blog.sensr.net/wp-content/uploads/2011/08/arp-3.png"><img class="alignnone size-full wp-image-596" src="http://blog.sensr.net/wp-content/uploads/2011/08/arp-3.png" alt="" width="708" height="349" srcset="http://sensr.net/blog/wp-content/uploads/2011/08/arp-3.png 708w, http://sensr.net/blog/wp-content/uploads/2011/08/arp-3-300x147.png 300w" sizes="(max-width: 708px) 100vw, 708px" /></a>This is your netcam. Simply enter this IP into your browser&#8217;s address bar and the hard part&#8217;s done.</p>
 
-<h4 id="span-style-font-size-18px-line-height-27px-setting-up-your-camera-span:fb932bff528c6fc6f60cdd00e2e7ac91"><span style="font-size: 18px;line-height: 27px">Setting up your camera</span></h4>
+<h4 id="span-style-font-size-18px-line-height-27px-setting-up-your-camera-span"><span style="font-size: 18px;line-height: 27px">Setting up your camera</span></h4>
 
 <p>Once you&#8217;ve opened your camera&#8217;s admin page, you will be shown a login screen. The default username is &#8220;admin&#8221; and the default password is blank. Choose the login for your browser (there are two options, IE and other), and you&#8217;ll be shown the &#8220;Device status&#8221; page. If you don&#8217;t want/need wireless, go ahead and ignore the next section.</p>
 
-<h4 id="how-to-set-up-the-wireless:fb932bff528c6fc6f60cdd00e2e7ac91">How to set up the Wireless</h4>
+<h4 id="how-to-set-up-the-wireless">How to set up the Wireless</h4>
 
 <p>Your camera&#8217;s page will have a <em>Device Management</em> tab (it&#8217;s called <em>For Administrator</em> in IE). Click on this, then on <em>Wireless Lan Settings</em>. Click the <em>Scan</em> button, then choose your network from the list that appears. Select the appropriate encryption, type in your password, and click <em>Submit</em>.<a href="http://blog.sensr.net/wp-content/uploads/2011/08/Wireless.jpg"><img class="aligncenter size-full wp-image-599" src="http://blog.sensr.net/wp-content/uploads/2011/08/Wireless.jpg" alt="" width="817" height="577" srcset="http://sensr.net/blog/wp-content/uploads/2011/08/Wireless.jpg 817w, http://sensr.net/blog/wp-content/uploads/2011/08/Wireless-300x211.jpg 300w" sizes="(max-width: 817px) 100vw, 817px" /></a> The good news is that your camera should now be connected to your wireless.  The bad news is that it now has a different IP address. So, if you want to connect to your camera wirelessly, you&#8217;re going to have to find out what it is.  But it&#8217;s okay, because you know how to do that now! (Or you can scroll up if you can&#8217;t be bothered to think back that far.)  Simply repeat step two and you&#8217;re golden.  You can now log on to your camera&#8217;s page through wireless. Go ahead and unplug that pesky Ethernet cable.</p>
 
-<h4 id="camera-placement:fb932bff528c6fc6f60cdd00e2e7ac91">Camera placement</h4>
+<h4 id="camera-placement">Camera placement</h4>
 
 <p>Mosey on over to the live view; this will show you the images transmitted by your camera.  These will probably look terrible and blurry, especially if you pointed it at yourself. (I kid.  We all know Sensr.net users look like Greek gods.) Adjust the focus by twisting the camera&#8217;s lens; there&#8217;s probably going to be a slight delay, so don&#8217;t go crazy if nothing seems to be happening. Don&#8217;t worry if the focus isn&#8217;t great, you&#8217;ll be moving your camera anyway. You just want to get a serviceable image, so you can see where it&#8217;s pointing.</p>
 
 <p>Now, this is the bit where you position your camera.  If you already have a place in mind, good for you; go stick it there. Otherwise, look for an area of interest (e.g.: your front door) and position it so you get a clear view. Make sure there&#8217;s an outlet nearby.  If you have an Ethernet plug within reach, I&#8217;d use that too as it tends to be slightly more reliable than wireless. Once your camera is pointing in the right direction, use the controls in the <em>Live Video</em> tab to adjust the brightness and contrast. You may want to mess with the focus again as well. When you&#8217;re happy with what you see, it&#8217;s time to connect to Sensr.net.</p>
 
-<h4 id="connecting-to-sensr-net:fb932bff528c6fc6f60cdd00e2e7ac91">Connecting to Sensr.net</h4>
+<h4 id="connecting-to-sensr-net">Connecting to Sensr.net</h4>
 
 <p style="text-align: left">
   Log in to <a href="http://sensr.net">Sensr.net</a>.  If you don&#8217;t have an account, simply enter your email and desired password, and we&#8217;ll send you a confirmation email.  It&#8217;s that easy.  Next, find an Add a Camera button.  They&#8217;re all over the site. You&#8217;ll find one. Continue on to the New Camera page, where you can name your camera and set its time zone.  It also gives you all the FTP information.  <a href="http://blog.sensr.net/wp-content/uploads/2011/08/newcam.jpg"><img class="aligncenter size-large wp-image-600" src="http://blog.sensr.net/wp-content/uploads/2011/08/newcam-1024x576.jpg" alt="Configuring your Foscam FI8909W on Sensr.net" width="640" height="360" srcset="http://sensr.net/blog/wp-content/uploads/2011/08/newcam-1024x576.jpg 1024w, http://sensr.net/blog/wp-content/uploads/2011/08/newcam-300x168.jpg 300w, http://sensr.net/blog/wp-content/uploads/2011/08/newcam.jpg 1200w" sizes="(max-width: 640px) 100vw, 640px" /></a> The above page will continue to scan for images on the Sensr.net server. Leave that window open and go to your Foscam configuration page in a new browser window. Take the FTP credentials and copy them into the <em> Device Management > FTP Service Settings</em> page of your camera&#8217;s admin page. <a href="http://blog.sensr.net/wp-content/uploads/2011/08/setup1.jpg"><img class="aligncenter size-full wp-image-591" src="http://blog.sensr.net/wp-content/uploads/2011/08/setup1.jpg" alt="" width="820" height="626" srcset="http://sensr.net/blog/wp-content/uploads/2011/08/setup1.jpg 820w, http://sensr.net/blog/wp-content/uploads/2011/08/setup1-300x229.jpg 300w" sizes="(max-width: 820px) 100vw, 820px" /></a> Make sure to select PASV mode. Once this is done, select the <em>Uplaod Now</em> box and set the upload interval to 1. After you do this, the Foscam should start uploading images to Sensr.net every second. Go back to the previous page. An image should appear in the box at the right. If after several minutes, the box remains gray, double-check the FTP settings. Once your image appears, you&#8217;re done; your camera is set up! You can now click on the <em>Take me to my camera</em> button to see your camera in action.
@@ -188,14 +186,11 @@
   Enjoying your camera
 </h3>
 
-<p>What is the use of having a camera on [Sensr.net][6] if you don&#8217;t take advantage of all the features? Go to the camera settings drawer (you can get there by clicking the little gear next to the share button on your camera&#8217;s page) and mess with the motion detection, change the privacy settings, enable alerts&#8230; Or click on the share button to show your camera to your friends. Create a clip, favorite an image, delete that frame of you walking around in your boxers&#8230; The world is your oyster!</p>
+<p>What is the use of having a camera on <a href="http://sensr.net">Sensr.net</a> if you don&#8217;t take advantage of all the features? Go to the camera settings drawer (you can get there by clicking the little gear next to the share button on your camera&#8217;s page) and mess with the motion detection, change the privacy settings, enable alerts&#8230; Or click on the share button to show your camera to your friends. Create a clip, favorite an image, delete that frame of you walking around in your boxers&#8230; The world is your oyster!</p>
 
 <div class="trackable_sharing">
   <a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F08%2F03%2Fsetting-up-the-foscam-fi8909w-on-windows%2F" style="text-decoration: none; white-space: nowrap;" title="Facebook" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Facebook','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/08/03/setting-up-the-foscam-fi8909w-on-windows/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png" alt="Facebook" width="0" height="0" /></a> <a href="http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F08%2F03%2Fsetting-up-the-foscam-fi8909w-on-windows%2F&text=Setting+up+the+Foscam+FI8909W+on+Windows" style="text-decoration: none; white-space: nowrap;" title="Twitter" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Twitter','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/08/03/setting-up-the-foscam-fi8909w-on-windows/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png" alt="Twitter" width="0" height="0" /></a> <a href="http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F08%2F03%2Fsetting-up-the-foscam-fi8909w-on-windows%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F08%2F03%2Fsetting-up-the-foscam-fi8909w-on-windows%2F" style="text-decoration: none; white-space: nowrap;" title="Reddit" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Reddit','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/08/03/setting-up-the-foscam-fi8909w-on-windows/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=700,height=500'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png" alt="Reddit" width="0" height="0" /></a> <a href="http://digg.com/submit?partner=addthis&url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F08%2F03%2Fsetting-up-the-foscam-fi8909w-on-windows%2F&title=Setting+up+the+Foscam+FI8909W+on+Windows&bodytext=" style="text-decoration: none; white-space: nowrap;" title="Digg" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Digg','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/08/03/setting-up-the-foscam-fi8909w-on-windows/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png" alt="Digg" width="0" height="0" /></a> <a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F08%2F03%2Fsetting-up-the-foscam-fi8909w-on-windows%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F08%2F03%2Fsetting-up-the-foscam-fi8909w-on-windows%2F" style="text-decoration: none; white-space: nowrap;" title="Stumbleupon" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Stumbleupon','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/08/03/setting-up-the-foscam-fi8909w-on-windows/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png" alt="Stumbleupon" width="0" height="0" /></a> <a href="mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F08%2F03%2Fsetting-up-the-foscam-fi8909w-on-windows%2F" style="text-decoration: none; white-space: nowrap;" title="Email" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Email','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/08/03/setting-up-the-foscam-fi8909w-on-windows/']); "><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png" alt="Email" width="0" height="0" /></a>
 </div>
-
-<p>[6]: <a href="http://sensr.net">http://sensr.net</a></p>
-
         
     <ul class="list-inline tags" style="margin-top: 15px; margin-left: 0px">
         

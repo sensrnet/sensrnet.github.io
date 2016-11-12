@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Trendnet Tv Ip311pi on Sensr.net Blog | Watch your Stuff!</title>
-    <link>http://blog.sensr.net/tags/trendnet-tv-ip311pi/</link>
-    <description>Recent content in Trendnet Tv Ip311pi on Sensr.net Blog | Watch your Stuff!</description>
+    <title>Sensr.net Blog | Watch your Stuff!</title>
+    <link>http://blog.sensr.net/tags/trendnet-tv-ip311pi/index.xml</link>
+    <description>Recent content on Sensr.net Blog | Watch your Stuff!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 Aug 2014 16:55:56 +0000</lastBuildDate>
     <atom:link href="http://blog.sensr.net/tags/trendnet-tv-ip311pi/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -15,8 +14,7 @@
       <pubDate>Thu, 07 Aug 2014 16:55:56 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/08/07/how-to-setup-the-trendnet-tv-ip311pi-with-cloud-recording/</guid>
-      <description>
-&lt;figure &gt;
+      <description>&lt;figure &gt;
     
         &lt;img src=&#34;http://blog.sensr.net/img/2014/08/818nv6Sd1hL._SL1500_.jpg&#34; /&gt;
     
@@ -53,7 +51,7 @@
 
 &lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://blog.sensr.net/img/2014/05/FI9826W-Name.png&#34;&gt;&lt;img class=&#34;wp-image-2812 size-full&#34; src=&#34;http://blog.sensr.net/img/2014/05/FI9826W-Name.png&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;639&#34; srcset=&#34;http://blog.sensr.net/img/2014/05/FI9826W-Name.png 1024w, http://blog.sensr.net/img/2014/05/FI9826W-Name-300x187.png 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;After that, we’ll generate some FTP credentials for your camera. This generates a login for your [TRENDnet TV-IP311PI][1]  to where it can upload images via FTP. This tells your camera where to upload the images. The important information here is:&lt;/p&gt;
+&lt;p&gt;After that, we’ll generate some FTP credentials for your camera. This generates a login for your &lt;a href=&#34;http://www.amazon.com/TRENDnet-Outdoor-Network-Surveillance-TV-IP311PI/dp/B00I3GKMC4/sensr-20&#34;&gt;TRENDnet TV-IP311PI&lt;/a&gt;  to where it can upload images via FTP. This tells your camera where to upload the images. The important information here is:&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;FTP Server&lt;/li&gt;
@@ -73,7 +71,7 @@
 
 &lt;p&gt;Advanced &amp;gt; Events &amp;gt; Snapshot&lt;/p&gt;
 
-&lt;p&gt;The Snapshot Settings. It will look like this.  You’ll want to set the camera to upload continuously, which TRENDnet calls CONTENTIOUS, but we’ll forgive them.  Note the upload interval is set to 1,000 milliseconds.  That’s the fastest upload the [TRENDnet TV-IP311PI][1]  will support, but 1 FPS is fine for use with Sensr.net.&lt;/p&gt;
+&lt;p&gt;The Snapshot Settings. It will look like this.  You’ll want to set the camera to upload continuously, which TRENDnet calls CONTENTIOUS, but we’ll forgive them.  Note the upload interval is set to 1,000 milliseconds.  That’s the fastest upload the &lt;a href=&#34;http://www.amazon.com/TRENDnet-Outdoor-Network-Surveillance-TV-IP311PI/dp/B00I3GKMC4/sensr-20&#34;&gt;TRENDnet TV-IP311PI&lt;/a&gt;  will support, but 1 FPS is fine for use with Sensr.net.&lt;/p&gt;
 
 &lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://blog.sensr.net/img/2014/06/TV-IP310PI-Snapshot-Settings.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2830&#34; src=&#34;http://blog.sensr.net/img/2014/06/TV-IP310PI-Snapshot-Settings-1024x651.png&#34; alt=&#34;TV-IP310PI Snapshot Setting Enable continuous uploads at 1000 milliseconds&#34; width=&#34;640&#34; height=&#34;406&#34; srcset=&#34;http://blog.sensr.net/img/2014/06/TV-IP310PI-Snapshot-Settings-1024x651.png 1024w, http://blog.sensr.net/img/2014/06/TV-IP310PI-Snapshot-Settings-300x190.png 300w, http://blog.sensr.net/img/2014/06/TV-IP310PI-Snapshot-Settings.png 1554w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -96,9 +94,9 @@ Address: 96.126.101.33
 Name: f9.sensr.net
 Address: 74.207.245.42&lt;/pre&gt;
 
-&lt;p&gt;This means we can use either 96.126.101.33 or 74.207.245.42 for the Server Address.  The drawback to this is your camera is tied to a specific server.  We occasionally reboot servers or take them offline for maintenance.  If the camera was connecting to a hostname, it would simply reconnect to another server.  So by using an IP address, the [TRENDnet TV-IP311PI][1]  isn’t as fault tolerant as it should be.&lt;/p&gt;
+&lt;p&gt;This means we can use either 96.126.101.33 or 74.207.245.42 for the Server Address.  The drawback to this is your camera is tied to a specific server.  We occasionally reboot servers or take them offline for maintenance.  If the camera was connecting to a hostname, it would simply reconnect to another server.  So by using an IP address, the &lt;a href=&#34;http://www.amazon.com/TRENDnet-Outdoor-Network-Surveillance-TV-IP311PI/dp/B00I3GKMC4/sensr-20&#34;&gt;TRENDnet TV-IP311PI&lt;/a&gt;  isn’t as fault tolerant as it should be.&lt;/p&gt;
 
-&lt;p&gt;The port should stay 21. The username is unique to your camera so use whatever you got from Sensr.net’s add camera flow. Ditto for the password. Best to copy and paste it so you don’t make a mistake. You can leave the other options as they are.  We ignore them on our side.  Click the Save button and the [TRENDnet TV-IP311PI][1]  should start uploading to Sensr.net.&lt;/p&gt;
+&lt;p&gt;The port should stay 21. The username is unique to your camera so use whatever you got from Sensr.net’s add camera flow. Ditto for the password. Best to copy and paste it so you don’t make a mistake. You can leave the other options as they are.  We ignore them on our side.  Click the Save button and the &lt;a href=&#34;http://www.amazon.com/TRENDnet-Outdoor-Network-Surveillance-TV-IP311PI/dp/B00I3GKMC4/sensr-20&#34;&gt;TRENDnet TV-IP311PI&lt;/a&gt;  should start uploading to Sensr.net.&lt;/p&gt;
 
 &lt;p&gt;On the Sensr.net side the page should go from this:&lt;/p&gt;
 
@@ -110,10 +108,7 @@ Address: 74.207.245.42&lt;/pre&gt;
 
 &lt;p&gt;Congratulations, now you’re done with the camera config. You’re camera is now on Sensr.net. We’ll archive all the motion events, giving you 30 days of archives, SMS and email alerts, guest access, and a whole lot more.  You can view the live stream on our website or in our apps.  No firewall configuration is needed.  No PC in the basement required.&lt;/p&gt;
 
-&lt;p&gt;If you have any problems, send email to info @ sensr.net and we’ll try to help you out!&lt;/p&gt;
-
-&lt;p&gt;[1]: &lt;a href=&#34;http://www.amazon.com/TRENDnet-Outdoor-Network-Surveillance-TV-IP311PI/dp/B00I3GKMC4/sensr-20&#34;&gt;http://www.amazon.com/TRENDnet-Outdoor-Network-Surveillance-TV-IP311PI/dp/B00I3GKMC4/sensr-20&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;If you have any problems, send email to info @ sensr.net and we’ll try to help you out!&lt;/p&gt;</description>
     </item>
     
   </channel>

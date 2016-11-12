@@ -3,7 +3,7 @@
     <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="Hugo 0.15" />
+    <meta name="generator" content="Hugo 0.17" />
     <title>How to Setup the Wansview NC541 and Record to the Cloud</title>
     
     
@@ -92,14 +92,16 @@
   </p>
 </div>
 
-<p>[The Wainsview NC541][1] is a fairly popular camera on amazon. It has a whole slew of features and gets pretty favorable reviews from amazon so it is defiantly a competitive option. The largest complaint in the reviews is that setup is very difficult. We have puzzled through the process ourselves and put together this guide so you don&#8217;t have to struggle. This camera is not ideal for use with Sensr.net as it does not support FTP streaming but it will still work with some Sensr.net features.</p>
+<p><a href="http://www.amazon.com/Wansview-Wireless-Surveillance-Microphone-monitoring/dp/B003JLPWAK/ref=sr_1_15?ie=UTF8&amp;qid=1405625116&amp;sr=8-15&amp;keywords=IP+cam/sensr-20">The Wainsview NC541</a> is a fairly popular camera on amazon. It has a whole slew of features and gets pretty favorable reviews from amazon so it is defiantly a competitive option. The largest complaint in the reviews is that setup is very difficult. We have puzzled through the process ourselves and put together this guide so you don&#8217;t have to struggle. This camera is not ideal for use with Sensr.net as it does not support FTP streaming but it will still work with some Sensr.net features.</p>
+
+<p></p>
 
 <p>We have broken this tutorial up it to 3 easy steps to its easier to follow along.</p>
 
 <ol>
 <li>Step one: Setup hardware and find camera IP</li>
 <li>Step two: Get FTP credentials from Sensr.net</li>
-<li>Step three: Tell your [Wainsview NC541][1] about your new credentials</li>
+<li>Step three: Tell your <a href="http://www.amazon.com/Wansview-Wireless-Surveillance-Microphone-monitoring/dp/B003JLPWAK/ref=sr_1_15?ie=UTF8&amp;qid=1405625116&amp;sr=8-15&amp;keywords=IP+cam/sensr-20">Wainsview NC541</a> about your new credentials</li>
 </ol>
 
 <p><strong>Step one: Setup hardware and find camera IP</strong></p>
@@ -157,9 +159,6 @@
 <div class="trackable_sharing">
   <a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F17%2Fhow-to-setup-the-wansview-nc541-and-record-to-the-cloud%2F" style="text-decoration: none; white-space: nowrap;" title="Facebook" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Facebook','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/17/how-to-setup-the-wansview-nc541-and-record-to-the-cloud/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png" alt="Facebook" width="0" height="0" /></a> <a href="http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F17%2Fhow-to-setup-the-wansview-nc541-and-record-to-the-cloud%2F&text=How+to+Setup+the+Wansview+NC541+and+Record+to+the+Cloud" style="text-decoration: none; white-space: nowrap;" title="Twitter" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Twitter','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/17/how-to-setup-the-wansview-nc541-and-record-to-the-cloud/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png" alt="Twitter" width="0" height="0" /></a> <a href="http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F17%2Fhow-to-setup-the-wansview-nc541-and-record-to-the-cloud%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F17%2Fhow-to-setup-the-wansview-nc541-and-record-to-the-cloud%2F" style="text-decoration: none; white-space: nowrap;" title="Reddit" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Reddit','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/17/how-to-setup-the-wansview-nc541-and-record-to-the-cloud/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=700,height=500'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png" alt="Reddit" width="0" height="0" /></a> <a href="http://digg.com/submit?partner=addthis&url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F17%2Fhow-to-setup-the-wansview-nc541-and-record-to-the-cloud%2F&title=How+to+Setup+the+Wansview+NC541+and+Record+to+the+Cloud&bodytext=" style="text-decoration: none; white-space: nowrap;" title="Digg" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Digg','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/17/how-to-setup-the-wansview-nc541-and-record-to-the-cloud/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png" alt="Digg" width="0" height="0" /></a> <a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F17%2Fhow-to-setup-the-wansview-nc541-and-record-to-the-cloud%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F17%2Fhow-to-setup-the-wansview-nc541-and-record-to-the-cloud%2F" style="text-decoration: none; white-space: nowrap;" title="Stumbleupon" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Stumbleupon','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/17/how-to-setup-the-wansview-nc541-and-record-to-the-cloud/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png" alt="Stumbleupon" width="0" height="0" /></a> <a href="mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F17%2Fhow-to-setup-the-wansview-nc541-and-record-to-the-cloud%2F" style="text-decoration: none; white-space: nowrap;" title="Email" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Email','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/17/how-to-setup-the-wansview-nc541-and-record-to-the-cloud/']); "><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png" alt="Email" width="0" height="0" /></a>
 </div>
-
-<p>[1]: <a href="http://www.amazon.com/Wansview-Wireless-Surveillance-Microphone-monitoring/dp/B003JLPWAK/ref=sr_1_15?ie=UTF8&amp;qid=1405625116&amp;sr=8-15&amp;keywords=IP+cam/sensr-20">http://www.amazon.com/Wansview-Wireless-Surveillance-Microphone-monitoring/dp/B003JLPWAK/ref=sr_1_15?ie=UTF8&amp;qid=1405625116&amp;sr=8-15&amp;keywords=IP+cam/sensr-20</a></p>
-
         
     <ul class="list-inline tags" style="margin-top: 15px; margin-left: 0px">
         
@@ -249,9 +248,9 @@
                     
                         <li><a href="http://blog.sensr.net/categories/network-cameras">network-cameras</a></li>
                     
-                        <li><a href="http://blog.sensr.net/categories/social-networks">social-networks</a></li>
-                    
                         <li><a href="http://blog.sensr.net/categories/camera-setup">camera-setup</a></li>
+                    
+                        <li><a href="http://blog.sensr.net/categories/social-networks">social-networks</a></li>
                     
                 </ul>
             </div>

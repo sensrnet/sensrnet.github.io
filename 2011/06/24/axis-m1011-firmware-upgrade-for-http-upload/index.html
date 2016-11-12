@@ -3,7 +3,7 @@
     <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="Hugo 0.15" />
+    <meta name="generator" content="Hugo 0.17" />
     <title>Axis M1011 Firmware Upgrade for HTTP Upload</title>
     
     
@@ -72,9 +72,7 @@
     </ul>
 
 
-        
-
-<div class="share_buttons_simple_use_buttons" style="padding: 10px 0; display: inline-block">
+        <div class="share_buttons_simple_use_buttons" style="padding: 10px 0; display: inline-block">
   <div class="tweet_button" style="float: left; vertical-align: top">
     <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/06/24/axis-m1011-firmware-upgrade-for-http-upload/" data-text="Axis M1011 Firmware Upgrade for HTTP Upload" data-count="none">Tweet</a>
   </div>
@@ -92,6 +90,8 @@
 
 <p>After poking around for a while, we checked the firmware revision and noticed that our camera had revision  of 5.00.1 dated December 2009. It turns out that there is a much newer revision of 5.20.1.  Installing this Firmware revision fixed the stability problem we were observing.</p>
 
+<p></p>
+
 <p><span style="color: #000000; font-size: 23px; line-height: 35px;">How to use HTTP Upload on the Axis M1011</span></p>
 
 <p>Under the &#8220;Events&#8221; menu, define a new Event Server of type HTTP.  You will then be presented with a screen for defining the upload server.  HTTP Upload uses the same Sensr.net credentials as FTP Upload (SERVER/USERNAME/PASSWORD), but they are used in a slightly different way.</p>
@@ -107,9 +107,9 @@
 
 <p>Now, define an event that will upload to this server.  I like to define an event to fire continuously at one-second intervals.  Use the Event Server name you created above to reference which server to connect to.  Notice how the event server called &#8220;NewHTTPServer&#8221; created above is reference here.</p>
 
-<p>[<img class="aligncenter size-full wp-image-340" title="AxisEvent" src="http://blog.sensr.net/wp-content/uploads/2011/06/AxisEvent1.png" alt="" width="645" height="650" srcset="http://sensr.net/blog/wp-content/uploads/2011/06/AxisEvent1.png 645w, http://sensr.net/blog/wp-content/uploads/2011/06/AxisEvent1-150x150.png 150w, http://sensr.net/blog/wp-content/uploads/2011/06/AxisEvent1-297x300.png 297w" sizes="(max-width: 645px) 100vw, 645px" />][2]</p>
+<p><a href="http://blog.sensr.net/wp-content/uploads/2011/06/AxisEvent1.png"><img class="aligncenter size-full wp-image-340" title="AxisEvent" src="http://blog.sensr.net/wp-content/uploads/2011/06/AxisEvent1.png" alt="" width="645" height="650" srcset="http://sensr.net/blog/wp-content/uploads/2011/06/AxisEvent1.png 645w, http://sensr.net/blog/wp-content/uploads/2011/06/AxisEvent1-150x150.png 150w, http://sensr.net/blog/wp-content/uploads/2011/06/AxisEvent1-297x300.png 297w" sizes="(max-width: 645px) 100vw, 645px" /></a></p>
 
-<h2 id="conclusion:ed3337995fcf59e07d2420964f3b110a">Conclusion</h2>
+<h2 id="conclusion">Conclusion</h2>
 
 <p>HTTP Upload is a simpler protocol than FTP and traverses firewalls better in some cases.  If you are using an Axis camera, you might like giving this option a try, but be sure to upgrade your firmware first.</p>
 
@@ -118,9 +118,6 @@
 <div class="trackable_sharing">
   <a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F06%2F24%2Faxis-m1011-firmware-upgrade-for-http-upload%2F" style="text-decoration: none; white-space: nowrap;" title="Facebook" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Facebook','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/06/24/axis-m1011-firmware-upgrade-for-http-upload/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png" alt="Facebook" width="0" height="0" /></a> <a href="http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F06%2F24%2Faxis-m1011-firmware-upgrade-for-http-upload%2F&text=Axis+M1011+Firmware+Upgrade+for+HTTP+Upload" style="text-decoration: none; white-space: nowrap;" title="Twitter" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Twitter','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/06/24/axis-m1011-firmware-upgrade-for-http-upload/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png" alt="Twitter" width="0" height="0" /></a> <a href="http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F06%2F24%2Faxis-m1011-firmware-upgrade-for-http-upload%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F06%2F24%2Faxis-m1011-firmware-upgrade-for-http-upload%2F" style="text-decoration: none; white-space: nowrap;" title="Reddit" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Reddit','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/06/24/axis-m1011-firmware-upgrade-for-http-upload/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=700,height=500'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png" alt="Reddit" width="0" height="0" /></a> <a href="http://digg.com/submit?partner=addthis&url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F06%2F24%2Faxis-m1011-firmware-upgrade-for-http-upload%2F&title=Axis+M1011+Firmware+Upgrade+for+HTTP+Upload&bodytext=" style="text-decoration: none; white-space: nowrap;" title="Digg" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Digg','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/06/24/axis-m1011-firmware-upgrade-for-http-upload/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png" alt="Digg" width="0" height="0" /></a> <a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F06%2F24%2Faxis-m1011-firmware-upgrade-for-http-upload%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F06%2F24%2Faxis-m1011-firmware-upgrade-for-http-upload%2F" style="text-decoration: none; white-space: nowrap;" title="Stumbleupon" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Stumbleupon','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/06/24/axis-m1011-firmware-upgrade-for-http-upload/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png" alt="Stumbleupon" width="0" height="0" /></a> <a href="mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F06%2F24%2Faxis-m1011-firmware-upgrade-for-http-upload%2F" style="text-decoration: none; white-space: nowrap;" title="Email" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Email','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/06/24/axis-m1011-firmware-upgrade-for-http-upload/']); "><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png" alt="Email" width="0" height="0" /></a>
 </div>
-
-<p>[2]: <a href="http://blog.sensr.net/wp-content/uploads/2011/06/AxisEvent1.png">http://blog.sensr.net/wp-content/uploads/2011/06/AxisEvent1.png</a></p>
-
         
     <ul class="list-inline tags" style="margin-top: 15px; margin-left: 0px">
         
@@ -214,9 +211,9 @@
                     
                         <li><a href="http://blog.sensr.net/categories/network-cameras">network-cameras</a></li>
                     
-                        <li><a href="http://blog.sensr.net/categories/social-networks">social-networks</a></li>
-                    
                         <li><a href="http://blog.sensr.net/categories/camera-setup">camera-setup</a></li>
+                    
+                        <li><a href="http://blog.sensr.net/categories/social-networks">social-networks</a></li>
                     
                 </ul>
             </div>

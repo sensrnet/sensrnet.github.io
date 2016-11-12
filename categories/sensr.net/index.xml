@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sensr.Net on Sensr.net Blog | Watch your Stuff!</title>
-    <link>http://blog.sensr.net/categories/sensr/index.net/</link>
-    <description>Recent content in Sensr.Net on Sensr.net Blog | Watch your Stuff!</description>
+    <title>Sensr.net Blog | Watch your Stuff!</title>
+    <link>http://blog.sensr.net/categories/sensr.net/index.xml</link>
+    <description>Recent content on Sensr.net Blog | Watch your Stuff!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Sep 2016 01:36:45 +0000</lastBuildDate>
     <atom:link href="http://blog.sensr.net/categories/sensr.net/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -15,48 +14,47 @@
       <pubDate>Wed, 28 Sep 2016 01:36:45 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2016/09/27/legally-monitor-your-airbnb-with-cheap-sensr-net-security-cameras/</guid>
-      <description>
+      <description>&lt;p&gt;We&amp;rsquo;ve been renting our place on &lt;a title=&#34;Airbnb&#34; href=&#34;https://www.airbnb.com/&#34; target=&#34;_blank&#34;&gt;Airbnb&lt;/a&gt; for about a year now and it&amp;rsquo;s been great to have &lt;a title=&#34;Sensr.net&#34; href=&#34;https://sensr.net&#34; target=&#34;_blank&#34;&gt;Sensr.net&lt;/a&gt; cameras monitoring our place while we aren&amp;rsquo;t there. Don&amp;rsquo;t get me wrong, we don&amp;rsquo;t have cameras &lt;em&gt;inside the private spaces of our home&lt;/em&gt;, we have exterior cameras that monitor the approaches to the house. Think &lt;strong&gt;Driveway Camera&lt;/strong&gt; and &lt;strong&gt;Front Door Camera,&lt;/strong&gt; etc. We only monitor the &lt;em&gt;public spaces&lt;/em&gt; around our home, with &lt;em&gt;one exception&lt;/em&gt;: owner only spaces.&lt;/p&gt;
 
-&lt;p&gt;We&amp;rsquo;ve been renting our place on &lt;a title=&#34;Airbnb&#34; href=&#34;https://www.airbnb.com/&#34; target=&#34;_blank&#34;&gt;Airbnb&lt;/a&gt; for about a year now and it&amp;rsquo;s been great to have &lt;a title=&#34;Sensr.net&#34; href=&#34;https://sensr.net&#34; target=&#34;_blank&#34;&gt;Sensr.net&lt;/a&gt; cameras monitoring our place while we aren&amp;rsquo;t there. Don&amp;rsquo;t get me wrong, we don&amp;rsquo;t have cameras &lt;em&gt;inside the private spaces of our home&lt;/em&gt;, we have exterior cameras that monitor the approaches to the house. Think &lt;strong&gt;Driveway Camera&lt;/strong&gt; and &lt;strong&gt;Front Door Camera,&lt;/strong&gt; etc. We only monitor the &lt;em&gt;public spaces&lt;/em&gt; around our home, with &lt;em&gt;one exception&lt;/em&gt;: owner only spaces.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;don-t-go-there:6d5c9371bd534ab56bcca1df37a2f723&#34;&gt;Don&amp;rsquo;t Go There&lt;/h3&gt;
+&lt;h3 id=&#34;don-t-go-there&#34;&gt;Don&amp;rsquo;t Go There&lt;/h3&gt;
 
 &lt;p&gt;When we rent our home on Airbnb we close off a handful of rooms, like the home office, garage, and basement storage rooms. We &lt;strong&gt;&lt;em&gt;do&lt;/em&gt;&lt;/strong&gt; have cameras in these spaces, where we &lt;em&gt;&lt;strong&gt;don&amp;rsquo;t allow&lt;/strong&gt;&lt;/em&gt; the Airbnb guest to go. These cameras are behind locked doors and should never record the guests unless they have picked the locks to get into the rooms.&lt;/p&gt;
 
-&lt;h3 id=&#34;party-zone:6d5c9371bd534ab56bcca1df37a2f723&#34;&gt;Party Zone&lt;/h3&gt;
+&lt;h3 id=&#34;party-zone&#34;&gt;Party Zone&lt;/h3&gt;
 
 &lt;p&gt;External cameras are great in letting you know when or if the guest arrived and if the correct number of guests arrived. Our home has a strict &amp;#8216;no parties&amp;rsquo; rule. We have found this violated a couple of times and it was obvious from the cameras that more than the max 8 guests were staying at the home.&lt;/p&gt;
 
-&lt;h3 id=&#34;neighbor-friendly:6d5c9371bd534ab56bcca1df37a2f723&#34;&gt;Neighbor Friendly&lt;/h3&gt;
+&lt;h3 id=&#34;neighbor-friendly&#34;&gt;Neighbor Friendly&lt;/h3&gt;
 
 &lt;p&gt;We share a driveway with our neighbors, and we make it very clear to our Airbnb guests that they are not to use the driveway.  This didn&amp;rsquo;t really work the first few times, but after we added &lt;em&gt;You will be fined for using the driveway&lt;/em&gt; to the directions with an additional &lt;em&gt;The driveway is monitor by security cameras&lt;/em&gt; this problem went away.&lt;/p&gt;
 
-&lt;h3 id=&#34;external-cameras:6d5c9371bd534ab56bcca1df37a2f723&#34;&gt;External Cameras&lt;/h3&gt;
+&lt;h3 id=&#34;external-cameras&#34;&gt;External Cameras&lt;/h3&gt;
 
 &lt;p&gt;Adding external cameras can be more difficult than adding an internal wifi camera.  There are lots of great solutions, and if you can run a wire to the location where you want the camera, a POE (Power Over Ethernet) camera can be a great solution.  You only need to run one wire but you need a special router that can also send power.  If you live in a temperate climate, you might try &lt;a title=&#34;HOWTO Make a Cheap Network Camera Enclosure&#34; href=&#34;http://sensr.net/blog/2011/05/26/howto-make-cheap-network-camera-enclosure/&#34; target=&#34;_blank&#34;&gt;this cheap camera cover solution&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id=&#34;internal-cameras:6d5c9371bd534ab56bcca1df37a2f723&#34;&gt;Internal Cameras&lt;/h3&gt;
+&lt;h3 id=&#34;internal-cameras&#34;&gt;Internal Cameras&lt;/h3&gt;
 
 &lt;p&gt;Internal cameras are pretty easy to setup and there are thousands of models to choose from.  Generally these are cheap and work with your wifi.  You only need a power outlet and access to your wifi.  Lately I&amp;rsquo;ve been using &lt;a title=&#34;How to Setup the TENVIS IPROBOT3 with Cloud recording&#34; href=&#34;http://sensr.net/blog/2014/07/03/how-to-setup-the-tenvis-iprobot3-with-cloud-recording/&#34; target=&#34;_blank&#34;&gt;Tenvis&lt;/a&gt; PTZ (pan, tilt, zoom) cameras.  I use their live viewing app to view the camera and change it&amp;rsquo;s positioning.  I use Sensr.net for recording, alerts, and sharing.&lt;/p&gt;
 
-&lt;h3 id=&#34;share-the-fun:6d5c9371bd534ab56bcca1df37a2f723&#34;&gt;Share the Fun&lt;/h3&gt;
+&lt;h3 id=&#34;share-the-fun&#34;&gt;Share the Fun&lt;/h3&gt;
 
 &lt;p&gt;We have a friend who keeps an eye on our home when we aren&amp;rsquo;t around.  With Sensr.net it&amp;rsquo;s easy to give him access to the exterior cameras.  When you have a camera on Sensr.net, you can give other&amp;rsquo;s &lt;a title=&#34;Guest Access for Sensr.net Cameras&#34; href=&#34;http://sensr.net/blog/2012/04/11/guest-access-for-sensr-net-cameras/&#34; target=&#34;_blank&#34;&gt;guest access to those cameras&lt;/a&gt;.  He helps out when we&amp;rsquo;re not around and manages the cleaning crew.&lt;/p&gt;
 
-&lt;h3 id=&#34;cost-effective:6d5c9371bd534ab56bcca1df37a2f723&#34;&gt;Cost Effective&lt;/h3&gt;
+&lt;h3 id=&#34;cost-effective&#34;&gt;Cost Effective&lt;/h3&gt;
 
 &lt;p&gt;With Sensr.net you can use almost any camera.  If your camera can upload JPEG images with FTP (like 98% of all security cameras), then it will work with Sensr.net.  We don&amp;rsquo;t sell cameras, so we&amp;rsquo;re _camera agnostic.  _You could even make your own camera with a Raspberry Pi and a USB cam and it would work with Sensr.net.&lt;/p&gt;
 
-&lt;h3 id=&#34;get-notified:6d5c9371bd534ab56bcca1df37a2f723&#34;&gt;Get Notified&lt;/h3&gt;
+&lt;h3 id=&#34;get-notified&#34;&gt;Get Notified&lt;/h3&gt;
 
 &lt;p&gt;With Sensr.net not only do we record in the cloud, but we can send you alerts when we detect motion.  This works great for the &lt;strong&gt;&lt;em&gt;owner only&lt;/em&gt; spaces.&lt;/strong&gt;  If you have a camera setup in your private space, you&amp;rsquo;ll appreciate a SMS or email when something starts moving around in there!&lt;/p&gt;
 
-&lt;h3 id=&#34;free-trial:6d5c9371bd534ab56bcca1df37a2f723&#34;&gt;Free Trial!&lt;/h3&gt;
+&lt;h3 id=&#34;free-trial&#34;&gt;Free Trial!&lt;/h3&gt;
 
 &lt;p&gt;If you&amp;rsquo;re an Airbnb host, you can give this a try for free.  If you&amp;rsquo;re not an Airbnb host, you can try it out too!  We have a one week free trial.  Grab a camera and give it a try.&lt;/p&gt;
 
-&lt;p&gt;Warning: setting up an IP camera can be a bit complex.  If you&amp;rsquo;re comfortable setting up a wifi router, then you&amp;rsquo;ll probably be fine.  One big advantage to using Sensr.net is that you don&amp;rsquo;t need to do any &lt;a href=&#34;http://blog.sensr.net/2013/10/24/ip-camera-no-firewall-config/&#34; title=&#34;View IP Camera Remotely, No Firewall Config&#34;&gt;port forwarding or complex firewall rules&lt;/a&gt;, so it&amp;rsquo;s a bit easier than you might expect if you&amp;rsquo;ve tried this kind of thing in the past.  If you get stuck, just drop us an email at support@sensr.net and we&amp;rsquo;ll give you a hand.&lt;/p&gt;
-</description>
+&lt;p&gt;Warning: setting up an IP camera can be a bit complex.  If you&amp;rsquo;re comfortable setting up a wifi router, then you&amp;rsquo;ll probably be fine.  One big advantage to using Sensr.net is that you don&amp;rsquo;t need to do any &lt;a href=&#34;http://blog.sensr.net/2013/10/24/ip-camera-no-firewall-config/&#34; title=&#34;View IP Camera Remotely, No Firewall Config&#34;&gt;port forwarding or complex firewall rules&lt;/a&gt;, so it&amp;rsquo;s a bit easier than you might expect if you&amp;rsquo;ve tried this kind of thing in the past.  If you get stuck, just drop us an email at support@sensr.net and we&amp;rsquo;ll give you a hand.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -67,8 +65,9 @@
       <guid>http://blog.sensr.net/2016/02/29/security-camera-offline/</guid>
       <description>&lt;p&gt;Sensr.net shows cameras as offline if they haven&amp;rsquo;t uploaded an image in the last 5 minutes.&lt;/p&gt;
 
-&lt;p&gt;Why does this happen? We recommend that you have your camera upload images continuously to Sensr.net at 1 or 2 snapshots per second. This way you can view the live stream on our site &lt;a href=&#34;http://blog.sensr.net/2013/10/24/ip-camera-no-firewall-config/&#34; title=&#34;View IP Camera Remotely, No Firewall Config&#34;&gt;without opening your firewall&lt;/a&gt;. If you have your camera set to only upload images on motion, then when there is no motion, we&amp;rsquo;ll show your camera as offline.  See this post about &lt;a href=&#34;http://blog.sensr.net/2011/07/25/true-meaning-of-motion-detection-off/&#34; title=&#34;True meaning of motion detection off&#34;&gt;configuring cameras with motion detection&lt;/a&gt; for more details.&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Why does this happen? We recommend that you have your camera upload images continuously to Sensr.net at 1 or 2 snapshots per second. This way you can view the live stream on our site &lt;a href=&#34;http://blog.sensr.net/2013/10/24/ip-camera-no-firewall-config/&#34; title=&#34;View IP Camera Remotely, No Firewall Config&#34;&gt;without opening your firewall&lt;/a&gt;. If you have your camera set to only upload images on motion, then when there is no motion, we&amp;rsquo;ll show your camera as offline.  See this post about &lt;a href=&#34;http://blog.sensr.net/2011/07/25/true-meaning-of-motion-detection-off/&#34; title=&#34;True meaning of motion detection off&#34;&gt;configuring cameras with motion detection&lt;/a&gt; for more details.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -79,12 +78,13 @@
       <guid>http://blog.sensr.net/2016/02/28/security-camera-archiving-and-clip-download/</guid>
       <description>&lt;p&gt;With your Sensr.net account,  we save images for one month on our site. Images are deleted when they are 32 days old. If you want to keep the images longer just save them as favorites or make a clip. Favorites and clips are kept until you delete the camera from our service.&lt;/p&gt;
 
+&lt;p&gt;&lt;/p&gt;
+
 &lt;p&gt;If you &lt;a href=&#34;http://sensr.net/blog/2014/04/29/making-clips-on-sensr-net/&#34; title=&#34;Making Clips on Sensr.net&#34;&gt;make a clip&lt;/a&gt;, we will generate an mpeg file and send you a link to download it. The link we send is good for 30 days.  Make sure your login email is correct and check your spam folder if you don&amp;rsquo;t see the email.&lt;/p&gt;
 
 &lt;p&gt;We&amp;rsquo;re working on some programs that will allow you to pull down images to your local hard drive. See the open source project here.  If you&amp;rsquo;re a coder, give it a try.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/adamb/Sensr-utils&#34; title=&#34;Sensr Utils&#34;&gt;https://github.com/adamb/Sensr-utils&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;a href=&#34;https://github.com/adamb/Sensr-utils&#34; title=&#34;Sensr Utils&#34;&gt;https://github.com/adamb/Sensr-utils&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -103,6 +103,8 @@
 
 &lt;p&gt;At Sensr.net we use &lt;a href=&#34;https://stripe.com&#34; title=&#34;Stripe&#34;&gt;Stripe&lt;/a&gt; to handle all the credit card charges. Recently I started using &lt;a href=&#34;http://home.profitwell.com/&#34; title=&#34;ProfitWell, a free tool for SaaS metrics&#34;&gt;Profitwell, a free tool for SaaS metrics&lt;/a&gt;, to try to understand better where we are making money and where we are losing it.&lt;/p&gt;
 
+&lt;p&gt;&lt;/p&gt;
+
 &lt;p&gt;Most of our growth today comes from new users. Wouldn&amp;rsquo;t it be great if we could convince existing users to spend more? For us, that means users with an existing camera might be enticed to add another camera. After all, if you&amp;rsquo;re paying $9.95 for one camera, adding a second for only $4.95 should seem attractive.&lt;/p&gt;
 
 &lt;p&gt;I decided to try an incentive. I looked for all users who have a single camera on the site, are in good standing, and have logged in recently. That turned out to be 138 users. This morning I sent them &lt;a href=&#34;http://us2.campaign-archive1.com/?u=180d5f24fadceaa24de070d6f&amp;amp;id=8a5f29a15e&#34; title=&#34;April Sensr.net Offer&#34;&gt;an offer that I hope they can&amp;rsquo;t refuse&lt;/a&gt;. If they add a second camera by April 26th, I&amp;rsquo;ll give them a credit of $14.90, or one month&amp;rsquo;s service.&lt;/p&gt;
@@ -111,8 +113,7 @@
 
 &lt;p&gt;BTW, I used &lt;a title=&#34;Mail Chimp&#34; href=&#34;http://mailchimp.com&#34; target=&#34;_blank&#34;&gt;Mail Chimp&lt;/a&gt; to do the email campaign.  The most difficult part of this was building the SQL query to gather the emails.    Now that I have that, I may try to integrate an ongoing campaign using &lt;a href=&#34;http://customer.io/&#34; title=&#34;Targeted Human Emails&#34;&gt;Customer.io&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;I must say that this experiment is also inspired by the book &lt;a title=&#34;Predictably Irrational&#34; href=&#34;http://www.amazon.com/Predictably-Irrational-Revised-Expanded-Decisions-ebook/dp/B002C949KE/sensr-20&#34; target=&#34;_blank&#34;&gt;Predictably Irrational&lt;/a&gt; by &lt;a title=&#34;Dan Ariely&#34; href=&#34;http://danariely.com/&#34; target=&#34;_blank&#34;&gt;Dan Ariely&lt;/a&gt;.  Reading about how people make decisions is pretty interesting!&lt;/p&gt;
-</description>
+&lt;p&gt;I must say that this experiment is also inspired by the book &lt;a title=&#34;Predictably Irrational&#34; href=&#34;http://www.amazon.com/Predictably-Irrational-Revised-Expanded-Decisions-ebook/dp/B002C949KE/sensr-20&#34; target=&#34;_blank&#34;&gt;Predictably Irrational&lt;/a&gt; by &lt;a title=&#34;Dan Ariely&#34; href=&#34;http://danariely.com/&#34; target=&#34;_blank&#34;&gt;Dan Ariely&lt;/a&gt;.  Reading about how people make decisions is pretty interesting!&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -123,10 +124,11 @@
       <guid>http://blog.sensr.net/2014/12/26/sensr-net-bitcoin-experiment/</guid>
       <description>&lt;p&gt;I had a user ask to pay his Sensr.net bill in &lt;a href=&#34;https://en.bitcoin.it/wiki/Main_Page&#34; title=&#34;Bitcoin Wiki&#34;&gt;Bitcoin&lt;/a&gt;. We use Stripe to process payments and &lt;a href=&#34;https://stripe.com/bitcoin&#34; title=&#34;Stripe and Bitcoin&#34;&gt;they don&amp;rsquo;t yet support Bitcoin&lt;/a&gt;. However a friend recommended Coinbase, so I set up a merchant page there where you can &lt;a href=&#34;https://www.coinbase.com/sensr&#34; title=&#34;Sensr.net Bitcoin Page&#34;&gt;pay Sensr.net in Bitcoin&lt;/a&gt;.&lt;/p&gt;
 
+&lt;p&gt;&lt;/p&gt;
+
 &lt;p&gt;If you&amp;rsquo;re interested in paying your Sensr.net bill using Bitcoin, just let us know. If you already have a Sensr.net account, just pay us in Bitcoin and we&amp;rsquo;ll add the credit to your account.&lt;/p&gt;
 
-&lt;p&gt;If you have any questions on this, just drop us an email to billing at Sensr.net.&lt;/p&gt;
-</description>
+&lt;p&gt;If you have any questions on this, just drop us an email to billing at Sensr.net.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -138,7 +140,8 @@
       <description>&lt;p&gt;Just a quick note to let you know that Sensr.net has been patched against the &lt;a href=&#34;http://www.engadget.com/2014/09/25/what-is-the-shellshock/&#34; title=&#34;Shellshock Bash Bug&#34;&gt;shellshock bug&lt;/a&gt;.  We run mostly CentOS servers which were vulnerable to the bug.  Our crack devops team patched all these servers on September 24, 2014.&lt;/p&gt;
 
 &lt;p&gt;Drop us an email if you have any questions.&lt;/p&gt;
-</description>
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -168,6 +171,8 @@
 &lt;/div&gt;
 
 &lt;p&gt;The &lt;a href=&#34;http://www.amazon.com/Y-cam-Bullet-1080-2nd-Gen/dp/B00I4PJKGI/ref=sr_1_4?s=electronics&amp;amp;ie=UTF8&amp;amp;qid=1405353547&amp;amp;sr=1-4&amp;amp;keywords=y-cam/sensr-20&#34;&gt;Y-cam bullet HD 1080&lt;/a&gt; (y-cam YCBLHD7) pretty awesome camera. It comes with more features than nearly any other camera out there with POE (power over internet), infrared night vision, 1080p recording capability, NAS compatibility, a micro SD card slot, ONVIF, weather proof casing, and more. Of course all these features come at a price; the &lt;a href=&#34;http://www.amazon.com/Y-cam-Bullet-1080-2nd-Gen/dp/B00I4PJKGI/ref=sr_1_4?s=electronics&amp;amp;ie=UTF8&amp;amp;qid=1405353547&amp;amp;sr=1-4&amp;amp;keywords=y-cam/sensr-20&#34;&gt;Y-cam bullet HD 1080&lt;/a&gt; costs $424.99 on &lt;a href=&#34;http://www.amazon.com/Y-cam-Bullet-1080-2nd-Gen/dp/B00I4PJKGI/ref=sr_1_4?s=electronics&amp;amp;ie=UTF8&amp;amp;qid=1405353547&amp;amp;sr=1-4&amp;amp;keywords=y-cam/sensr-20&#34;&gt;amazon&lt;/a&gt;. That being said I think this camera is definitely worth your money. It&amp;#8217;s got more features then just about other camera we&amp;#8217;ve reviewed and is really top of the line. It would be a shame to buy such a nice camera and not be able to set it up, which is why we (being the wonderful and good looking people that we are) have created this tutorial to show you how to get your &lt;a href=&#34;http://www.amazon.com/Y-cam-Bullet-1080-2nd-Gen/dp/B00I4PJKGI/ref=sr_1_4?s=electronics&amp;amp;ie=UTF8&amp;amp;qid=1405353547&amp;amp;sr=1-4&amp;amp;keywords=y-cam/sensr-20&#34;&gt;Y-cam bullet HD 1080&lt;/a&gt; set up, connected to the internet and hooked up to Sensr.net&amp;#8217;s cloud recording.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;You just need to follow these steps:&lt;/p&gt;
 
@@ -232,6 +237,8 @@
 
 &lt;p&gt;The &lt;a href=&#34;http://www.amazon.com/Y-cam-Bullet-1080-2nd-Gen/dp/B00I4PJKGI/ref=sr_1_4?s=electronics&amp;amp;ie=UTF8&amp;amp;qid=1405353547&amp;amp;sr=1-4&amp;amp;keywords=y-cam/sensr-20&#34;&gt;Y-cam bullet HD 1080&lt;/a&gt; (y-cam YCBLHD7) pretty awesome camera. It comes with more features than nearly any other camera out there with POE (power over internet), infrared night vision, 1080p recording capability, NAS compatibility, a micro SD card slot, ONVIF, weather proof casing, and more. Of course all these features come at a price; the &lt;a href=&#34;http://www.amazon.com/Y-cam-Bullet-1080-2nd-Gen/dp/B00I4PJKGI/ref=sr_1_4?s=electronics&amp;amp;ie=UTF8&amp;amp;qid=1405353547&amp;amp;sr=1-4&amp;amp;keywords=y-cam/sensr-20&#34;&gt;Y-cam bullet HD 1080&lt;/a&gt; costs $424.99 on &lt;a href=&#34;http://www.amazon.com/Y-cam-Bullet-1080-2nd-Gen/dp/B00I4PJKGI/ref=sr_1_4?s=electronics&amp;amp;ie=UTF8&amp;amp;qid=1405353547&amp;amp;sr=1-4&amp;amp;keywords=y-cam/sensr-20&#34;&gt;amazon&lt;/a&gt;. That being said I think this camera is definitely worth your money. It&amp;#8217;s got more features then just about other camera we&amp;#8217;ve reviewed and is really top of the line. It would be a shame to buy such a nice camera and not be able to set it up, which is why we (being the wonderful and good looking people that we are) have created this tutorial to show you how to get your &lt;a href=&#34;http://www.amazon.com/Y-cam-Bullet-1080-2nd-Gen/dp/B00I4PJKGI/ref=sr_1_4?s=electronics&amp;amp;ie=UTF8&amp;amp;qid=1405353547&amp;amp;sr=1-4&amp;amp;keywords=y-cam/sensr-20&#34;&gt;Y-cam bullet HD 1080&lt;/a&gt; set up, connected to the internet and hooked up to Sensr.net&amp;#8217;s cloud recording.&lt;/p&gt;
 
+&lt;!--more--&gt;
+
 &lt;p&gt;You just need to follow these steps:&lt;/p&gt;
 
 &lt;ol&gt;
@@ -274,7 +281,7 @@
 
 &lt;p&gt;&lt;strong&gt;4. Tell your camera about your nifty credentials&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Open a new tab and enter the IP address for your camera you wrote down earlier. This will bring you to the Camera&amp;#8217;s network access page. It will ask you for a password. The defaults here are username: admin password: 1234. Change these! I made][3] about why the other day, watch [the video][3] and it will scare you straight. Once you enter the password you should find yourself on a page that looks has a feed of a camera and a umber of tabs.&lt;/p&gt;
+&lt;p&gt;Open a new tab and enter the IP address for your camera you wrote down earlier. This will bring you to the Camera&amp;#8217;s network access page. It will ask you for a password. The defaults here are username: admin password: 1234. Change these! I made]&lt;a href=&#34;http://sensr.net/blog/2014/07/11/why-you-should-change-your-ip-cameras-password/&#34;&gt;3&lt;/a&gt; about why the other day, watch &lt;a href=&#34;http://sensr.net/blog/2014/07/11/why-you-should-change-your-ip-cameras-password/&#34;&gt;the video&lt;/a&gt; and it will scare you straight. Once you enter the password you should find yourself on a page that looks has a feed of a camera and a umber of tabs.&lt;/p&gt;
 
 &lt;p&gt;Choose the task tab then select FTP periodic sending setup. You should end up on a page that look like this:&lt;/p&gt;
 
@@ -304,10 +311,7 @@
 
 &lt;div class=&#34;trackable_sharing&#34;&gt;
   &lt;a href=&#34;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F14%2Fhow-to-setup-the-y-cam-bullet-hd-with-cloud-recording%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Facebook&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Facebook&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/14/how-to-setup-the-y-cam-bullet-hd-with-cloud-recording/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png&#34; alt=&#34;Facebook&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F14%2Fhow-to-setup-the-y-cam-bullet-hd-with-cloud-recording%2F&amp;text=How+to+setup+the+Y-cam+Bullet+HD+1080+with+Cloud+Recording&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Twitter&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Twitter&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/14/how-to-setup-the-y-cam-bullet-hd-with-cloud-recording/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png&#34; alt=&#34;Twitter&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F14%2Fhow-to-setup-the-y-cam-bullet-hd-with-cloud-recording%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F14%2Fhow-to-setup-the-y-cam-bullet-hd-with-cloud-recording%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Reddit&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Reddit&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/14/how-to-setup-the-y-cam-bullet-hd-with-cloud-recording/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=700,height=500&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png&#34; alt=&#34;Reddit&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://digg.com/submit?partner=addthis&amp;url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F14%2Fhow-to-setup-the-y-cam-bullet-hd-with-cloud-recording%2F&amp;title=How+to+setup+the+Y-cam+Bullet+HD+1080+with+Cloud+Recording&amp;bodytext=&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Digg&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Digg&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/14/how-to-setup-the-y-cam-bullet-hd-with-cloud-recording/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png&#34; alt=&#34;Digg&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F14%2Fhow-to-setup-the-y-cam-bullet-hd-with-cloud-recording%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F14%2Fhow-to-setup-the-y-cam-bullet-hd-with-cloud-recording%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Stumbleupon&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Stumbleupon&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/14/how-to-setup-the-y-cam-bullet-hd-with-cloud-recording/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png&#34; alt=&#34;Stumbleupon&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F14%2Fhow-to-setup-the-y-cam-bullet-hd-with-cloud-recording%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Email&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Email&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/14/how-to-setup-the-y-cam-bullet-hd-with-cloud-recording/&#39;]); &#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png&#34; alt=&#34;Email&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;p&gt;[3]: &lt;a href=&#34;http://sensr.net/blog/2014/07/11/why-you-should-change-your-ip-cameras-password/&#34;&gt;http://sensr.net/blog/2014/07/11/why-you-should-change-your-ip-cameras-password/&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -316,9 +320,7 @@
       <pubDate>Tue, 08 Jul 2014 16:21:14 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/07/08/download-images-from-sensr-net/</guid>
-      <description>
-
-&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
+      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
   &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
     &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/&#34; data-text=&#34;Download Images From Sensr.net &#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
   &lt;/div&gt;
@@ -371,7 +373,7 @@
 
 &lt;p&gt;I&amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.&lt;/p&gt;
 
-&lt;p&gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the&lt;/p&gt;
+&lt;p&gt;&lt;!--more--&gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;ruby -v&lt;/code&gt; command. The output should looks something like this:&lt;/p&gt;
 
@@ -379,7 +381,7 @@
 
 &lt;p&gt;If you don&amp;#8217;t have Ruby installed you&amp;#8217;ll have to Google around to find out how to install it on your machine.  I recommend starting with &lt;a href=&#34;https://rvm.io/&#34; title=&#34;RVM: Ruby Version Manager&#34;&gt;RVM&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;install-sensr-net-gem:11d25cbabffb760c658b727d27109ba8&#34;&gt;Install Sensr.net Gem&lt;/h2&gt;
+&lt;h2 id=&#34;install-sensr-net-gem&#34;&gt;Install Sensr.net Gem&lt;/h2&gt;
 
 &lt;p&gt;Now you  need to install the Sensr.net gem. This will let you run Ruby programs that interact with the &lt;a href=&#34;http://sensr.net/blog/2013/02/07/new-sensr-net-api-v3/&#34; title=&#34;New Sensr.net IP Camera API &amp;amp; SDK Release&#34;&gt;Sensr.net APIs&lt;/a&gt;. The program that downloads images from Sensr.net also uses this gem. Just run &lt;code&gt;gem install sensr&lt;/code&gt; from the command line and you&amp;#8217;ll be good to go. It should look something like this:&lt;/p&gt;
 
@@ -388,11 +390,11 @@ Successfully installed sensr-1.0.2
 1 gem installed
 $&lt;/pre&gt;
 
-&lt;h2 id=&#34;install-get-images-rb:11d25cbabffb760c658b727d27109ba8&#34;&gt;Install get-images.rb&lt;/h2&gt;
+&lt;h2 id=&#34;install-get-images-rb&#34;&gt;Install get-images.rb&lt;/h2&gt;
 
 &lt;p&gt;Next you&amp;#8217;ll need to get the get-images.rb program. If you&amp;#8217;re comfortable with git, you can just run &lt;code&gt;git clone &lt;a href=&#34;https://github.com/adamb/Sensr-utils.git&#34;&gt;https://github.com/adamb/Sensr-utils.git&lt;/a&gt;&lt;/code&gt; and you&amp;#8217;ll have the entire &lt;a href=&#34;https://github.com/adamb/Sensr-utils&#34; title=&#34;Sensr-utils Repository&#34;&gt;Sensr-utils repository&lt;/a&gt;. If you just want the get-images.rb program, you can find it &lt;a href=&#34;https://raw.githubusercontent.com/adamb/Sensr-utils/master/get-images.rb&#34; title=&#34;get-images.rb source code&#34;&gt;here&lt;/a&gt;. Just save a copy of it to your local disk where you can get at it from the command line.&lt;/p&gt;
 
-&lt;h2 id=&#34;find-your-sensr-net-token:11d25cbabffb760c658b727d27109ba8&#34;&gt;Find Your Sensr.net Token&lt;/h2&gt;
+&lt;h2 id=&#34;find-your-sensr-net-token&#34;&gt;Find Your Sensr.net Token&lt;/h2&gt;
 
 &lt;p&gt;To use the Sensr.net API you need a secret token.  This is so only you can access the images stored in Sensr.net.  To get a token, you can follow the instructions on the &lt;a href=&#34;http://yacc.github.io/sensrapi-tutorials/&#34; title=&#34;Sensr.net API Tutorial&#34;&gt;API Tutorial&lt;/a&gt;.  Basically you log into Sensr.net and go to &lt;a href=&#34;https://sensr.net/account/applications&#34; title=&#34;Register an application&#34;&gt;Developer Applications&lt;/a&gt;.&lt;/p&gt;
 
@@ -424,7 +426,7 @@ $&lt;/pre&gt;
 
 &lt;p&gt;I&amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.&lt;/p&gt;
 
-&lt;p&gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the&lt;/p&gt;
+&lt;p&gt;&lt;!--more--&gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;ruby -v&lt;/code&gt; command. The output should looks something like this:&lt;/p&gt;
 
@@ -452,7 +454,7 @@ $&lt;/pre&gt;
 
 &lt;p&gt;I&amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.&lt;/p&gt;
 
-&lt;p&gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the&lt;/p&gt;
+&lt;p&gt;&lt;!--more--&gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;ruby -v&lt;/code&gt; command. The output should looks something like this:&lt;/p&gt;
 
@@ -460,7 +462,7 @@ $&lt;/pre&gt;
 
 &lt;p&gt;If you don&amp;#8217;t have Ruby installed you&amp;#8217;ll have to Google around to find out how to install it on your machine.  I recommend starting with &lt;a href=&#34;https://rvm.io/&#34; title=&#34;RVM: Ruby Version Manager&#34;&gt;RVM&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;install-sensr-net-gem-1:11d25cbabffb760c658b727d27109ba8&#34;&gt;Install Sensr.net Gem&lt;/h2&gt;
+&lt;h2 id=&#34;install-sensr-net-gem-1&#34;&gt;Install Sensr.net Gem&lt;/h2&gt;
 
 &lt;p&gt;Now you  need to install the Sensr.net gem. This will let you run Ruby programs that interact with the &lt;a href=&#34;http://sensr.net/blog/2013/02/07/new-sensr-net-api-v3/&#34; title=&#34;New Sensr.net IP Camera API &amp;amp; SDK Release&#34;&gt;Sensr.net APIs&lt;/a&gt;. The program that downloads images from Sensr.net also uses this gem. Just run &lt;code&gt;gem install sensr&lt;/code&gt; from the command line and you&amp;#8217;ll be good to go. It should look something like this:&lt;/p&gt;
 
@@ -469,11 +471,11 @@ Successfully installed sensr-1.0.2
 1 gem installed
 $&lt;/pre&gt;
 
-&lt;h2 id=&#34;install-get-images-rb-1:11d25cbabffb760c658b727d27109ba8&#34;&gt;Install get-images.rb&lt;/h2&gt;
+&lt;h2 id=&#34;install-get-images-rb-1&#34;&gt;Install get-images.rb&lt;/h2&gt;
 
 &lt;p&gt;Next you&amp;#8217;ll need to get the get-images.rb program. If you&amp;#8217;re comfortable with git, you can just run &lt;code&gt;git clone &lt;a href=&#34;https://github.com/adamb/Sensr-utils.git&#34;&gt;https://github.com/adamb/Sensr-utils.git&lt;/a&gt;&lt;/code&gt; and you&amp;#8217;ll have the entire &lt;a href=&#34;https://github.com/adamb/Sensr-utils&#34; title=&#34;Sensr-utils Repository&#34;&gt;Sensr-utils repository&lt;/a&gt;. If you just want the get-images.rb program, you can find it &lt;a href=&#34;https://raw.githubusercontent.com/adamb/Sensr-utils/master/get-images.rb&#34; title=&#34;get-images.rb source code&#34;&gt;here&lt;/a&gt;. Just save a copy of it to your local disk where you can get at it from the command line.&lt;/p&gt;
 
-&lt;h2 id=&#34;find-your-sensr-net-token-1:11d25cbabffb760c658b727d27109ba8&#34;&gt;Find Your Sensr.net Token&lt;/h2&gt;
+&lt;h2 id=&#34;find-your-sensr-net-token-1&#34;&gt;Find Your Sensr.net Token&lt;/h2&gt;
 
 &lt;p&gt;To use the Sensr.net API you need a secret token.  This is so only you can access the images stored in Sensr.net.  To get a token, you can follow the instructions on the &lt;a href=&#34;http://yacc.github.io/sensrapi-tutorials/&#34; title=&#34;Sensr.net API Tutorial&#34;&gt;API Tutorial&lt;/a&gt;.  Basically you log into Sensr.net and go to &lt;a href=&#34;https://sensr.net/account/applications&#34; title=&#34;Register an application&#34;&gt;Developer Applications&lt;/a&gt;.&lt;/p&gt;
 
@@ -514,7 +516,7 @@ To use this approach you&amp;amp;#8217;ll need a few things:
 
 I&amp;amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
 
-Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+&amp;lt;!--more--&amp;gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
 
 `ruby -v` command. The output should looks something like this:
 
@@ -540,7 +542,7 @@ To use this approach you&amp;amp;#8217;ll need a few things:
 
 I&amp;amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
 
-Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+&amp;lt;!--more--&amp;gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
 
 `ruby -v` command. The output should looks something like this:
 
@@ -591,7 +593,7 @@ To use this approach you&amp;amp;#8217;ll need a few things:
 
 I&amp;amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
 
-Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+&amp;lt;!--more--&amp;gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
 
 `ruby -v` command. The output should looks something like this:
 
@@ -617,7 +619,7 @@ To use this approach you&amp;amp;#8217;ll need a few things:
 
 I&amp;amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
 
-Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+&amp;lt;!--more--&amp;gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
 
 `ruby -v` command. The output should looks something like this:
 
@@ -654,7 +656,7 @@ Edit the line in `get-images.rb` so it uses your token. The change will look som
 
 &lt;p&gt;Alternatively you could create a file called &lt;code&gt;mytoken.rb&lt;/code&gt; that has just this line.&lt;/p&gt;
 
-&lt;h2 id=&#34;run-get-images-rb:11d25cbabffb760c658b727d27109ba8&#34;&gt;Run get-images.rb&lt;/h2&gt;
+&lt;h2 id=&#34;run-get-images-rb&#34;&gt;Run get-images.rb&lt;/h2&gt;
 
 &lt;p&gt;Finally you can run the program! Run it like this. The &amp;#8211;help parameter shows you the options.&lt;/p&gt;
 
@@ -683,7 +685,7 @@ To use this approach you&amp;amp;#8217;ll need a few things:
 
 I&amp;amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
 
-Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+&amp;lt;!--more--&amp;gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
 
 `ruby -v` command. The output should looks something like this:
 
@@ -709,7 +711,7 @@ To use this approach you&amp;amp;#8217;ll need a few things:
 
 I&amp;amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
 
-Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+&amp;lt;!--more--&amp;gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
 
 `ruby -v` command. The output should looks something like this:
 
@@ -760,7 +762,7 @@ To use this approach you&amp;amp;#8217;ll need a few things:
 
 I&amp;amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
 
-Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+&amp;lt;!--more--&amp;gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
 
 `ruby -v` command. The output should looks something like this:
 
@@ -786,7 +788,7 @@ To use this approach you&amp;amp;#8217;ll need a few things:
 
 I&amp;amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
 
-Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+&amp;lt;!--more--&amp;gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
 
 `ruby -v` command. The output should looks something like this:
 
@@ -849,7 +851,7 @@ To use this approach you&amp;amp;#8217;ll need a few things:
 
 I&amp;amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
 
-Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+&amp;lt;!--more--&amp;gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
 
 `ruby -v` command. The output should looks something like this:
 
@@ -875,7 +877,7 @@ To use this approach you&amp;amp;#8217;ll need a few things:
 
 I&amp;amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
 
-Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+&amp;lt;!--more--&amp;gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
 
 `ruby -v` command. The output should looks something like this:
 
@@ -926,7 +928,7 @@ To use this approach you&amp;amp;#8217;ll need a few things:
 
 I&amp;amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
 
-Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+&amp;lt;!--more--&amp;gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
 
 `ruby -v` command. The output should looks something like this:
 
@@ -952,7 +954,7 @@ To use this approach you&amp;amp;#8217;ll need a few things:
 
 I&amp;amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
 
-Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+&amp;lt;!--more--&amp;gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
 
 `ruby -v` command. The output should looks something like this:
 
@@ -1001,14 +1003,13 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
 
 &lt;p&gt;Of course you won&amp;#8217;t want to use camera 5, but the camera number for your camera. The camera number can be found by going to the camera settings page. The camera number comes from the login information. Camera 5 uses cam5 as the login. You can also go to cameras by using their camera number. For instance, &lt;a href=&#34;https://sensr.net/cameras/88&#34; title=&#34;Sample Public Camera&#34;&gt;https://sensr.net/cameras/88&lt;/a&gt; is a public camera that uses cam88 for it&amp;#8217;s login.&lt;/p&gt;
 
-&lt;h2 id=&#34;help-us-improve:11d25cbabffb760c658b727d27109ba8&#34;&gt;Help Us Improve&lt;/h2&gt;
+&lt;h2 id=&#34;help-us-improve&#34;&gt;Help Us Improve&lt;/h2&gt;
 
 &lt;p&gt;The &lt;a href=&#34;https://github.com/adamb/Sensr-utils&#34; title=&#34;Sensr-utils Git Repository&#34;&gt;Sensr-utils&lt;/a&gt; repository is open source, so feel free to add your own code or help us improve it.&lt;/p&gt;
 
 &lt;div class=&#34;trackable_sharing&#34;&gt;
   &lt;a href=&#34;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F08%2Fdownload-images-from-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Facebook&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Facebook&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png&#34; alt=&#34;Facebook&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F08%2Fdownload-images-from-sensr-net%2F&amp;text=Download+Images+From+Sensr.net&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Twitter&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Twitter&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png&#34; alt=&#34;Twitter&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F08%2Fdownload-images-from-sensr-net%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F08%2Fdownload-images-from-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Reddit&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Reddit&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=700,height=500&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png&#34; alt=&#34;Reddit&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://digg.com/submit?partner=addthis&amp;url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F08%2Fdownload-images-from-sensr-net%2F&amp;title=Download+Images+From+Sensr.net&amp;bodytext=&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Digg&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Digg&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png&#34; alt=&#34;Digg&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F08%2Fdownload-images-from-sensr-net%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F08%2Fdownload-images-from-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Stumbleupon&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Stumbleupon&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png&#34; alt=&#34;Stumbleupon&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F08%2Fdownload-images-from-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Email&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Email&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/&#39;]); &#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png&#34; alt=&#34;Email&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-</description>
+&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -1037,9 +1038,11 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
 
 &lt;p&gt;The &lt;a href=&#34;http://www.amazon.com/TENVIS-IPROBOT3-Wirelss-Network-Two-Way/dp/B00FWD090Q/ref=sr_1_4?s=security-surveillance&amp;amp;ie=UTF8&amp;amp;qid=1404404395&amp;amp;sr=1-4&amp;amp;keywords=ip+camera/sensr-20&#34;&gt;Tenvis IPROBOT3&lt;/a&gt; is another Tenvis IP camera that gets great reviews. This camera sells for about $80 bucks on amazon so it won&amp;#8217;t break the bank compared to other IP cameras (IP cameras can get really expensive). It also has a four and half star rating so users are clearly pretty happy with the product. The best part of the product, of course, is that it works perfectly with Sensr.net&amp;#8217;s cloud recording software!&lt;/p&gt;
 
+&lt;p&gt;&lt;/p&gt;
+
 &lt;p&gt;Setting this up can be a little but of a pain but follow this tutorial and you&amp;#8217;ll be watching your stuff from anywhere in the world with Sensr.net in no time. The first step is to just get your Tenvis hooked up to the internet and to a power source. That&amp;#8217;s pretty self explanatory but getting hooked up to wifi can be hard. If you can&amp;#8217;t get hooked up to wifi just plug into ethernet, you can always use the network access page to get to wifi later.&lt;/p&gt;
 
-&lt;p&gt;Once you are on wifi just type your camera&amp;#8217;s IP address into your computer&amp;#8217;s internet browser and it will take you to the network access page. If you don&amp;#8217;t know how to find your camera&amp;#8217;s IP address just follow the steps in [this tutorial][2]. If the network access page asks you for a username and password the username is admin and there is no password. You should probably change those for obvious reasons. Once you get onto the access page it will look like this:&lt;/p&gt;
+&lt;p&gt;Once you are on wifi just type your camera&amp;#8217;s IP address into your computer&amp;#8217;s internet browser and it will take you to the network access page. If you don&amp;#8217;t know how to find your camera&amp;#8217;s IP address just follow the steps in &lt;a href=&#34;http://sensr.net/blog/2014/07/01/how-to-setup-the-tenvis-jpt3815w/#more-2901&#34;&gt;this tutorial&lt;/a&gt;. If the network access page asks you for a username and password the username is admin and there is no password. You should probably change those for obvious reasons. Once you get onto the access page it will look like this:&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2910&#34; style=&#34;width: 560px&#34; class=&#34;wp-caption alignnone&#34;&gt;
   &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-03-at-12.49.45-PM.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2910&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-03-at-12.49.45-PM.png&#34; alt=&#34;Network access page &#34; width=&#34;550&#34; height=&#34;310&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-03-at-12.49.45-PM.png 550w, http://sensr.net/blog/wp-content/uploads/2014/07/Screen-Shot-2014-07-03-at-12.49.45-PM-300x169.png 300w&#34; sizes=&#34;(max-width: 550px) 100vw, 550px&#34; /&gt;&lt;/a&gt;
@@ -1103,10 +1106,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
 
 &lt;div class=&#34;trackable_sharing&#34;&gt;
   &lt;a href=&#34;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F03%2Fhow-to-setup-the-tenvis-iprobot3-with-cloud-recording%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Facebook&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Facebook&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/03/how-to-setup-the-tenvis-iprobot3-with-cloud-recording/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png&#34; alt=&#34;Facebook&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F03%2Fhow-to-setup-the-tenvis-iprobot3-with-cloud-recording%2F&amp;text=How+to+Setup+the+TENVIS+IPROBOT3+with+Cloud+recording&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Twitter&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Twitter&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/03/how-to-setup-the-tenvis-iprobot3-with-cloud-recording/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png&#34; alt=&#34;Twitter&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F03%2Fhow-to-setup-the-tenvis-iprobot3-with-cloud-recording%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F03%2Fhow-to-setup-the-tenvis-iprobot3-with-cloud-recording%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Reddit&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Reddit&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/03/how-to-setup-the-tenvis-iprobot3-with-cloud-recording/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=700,height=500&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png&#34; alt=&#34;Reddit&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://digg.com/submit?partner=addthis&amp;url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F03%2Fhow-to-setup-the-tenvis-iprobot3-with-cloud-recording%2F&amp;title=How+to+Setup+the+TENVIS+IPROBOT3+with+Cloud+recording&amp;bodytext=&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Digg&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Digg&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/03/how-to-setup-the-tenvis-iprobot3-with-cloud-recording/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png&#34; alt=&#34;Digg&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F03%2Fhow-to-setup-the-tenvis-iprobot3-with-cloud-recording%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F03%2Fhow-to-setup-the-tenvis-iprobot3-with-cloud-recording%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Stumbleupon&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Stumbleupon&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/03/how-to-setup-the-tenvis-iprobot3-with-cloud-recording/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png&#34; alt=&#34;Stumbleupon&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F03%2Fhow-to-setup-the-tenvis-iprobot3-with-cloud-recording%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Email&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Email&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/03/how-to-setup-the-tenvis-iprobot3-with-cloud-recording/&#39;]); &#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png&#34; alt=&#34;Email&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;p&gt;[2]: &lt;a href=&#34;http://sensr.net/blog/2014/07/01/how-to-setup-the-tenvis-jpt3815w/#more-2901&#34;&gt;http://sensr.net/blog/2014/07/01/how-to-setup-the-tenvis-jpt3815w/#more-2901&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -1133,19 +1133,21 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
   &lt;/p&gt;
 &lt;/div&gt;
 
-&lt;p&gt;The [Tenvis JPT3815W][1] is a great little IP camera with a ton of features that&amp;#8217;s prefect for cloud recording. Some people complain that the user interface for the Tenvis products isn&amp;#8217;t as sleek or easy to use as Foscam which may be true but it doesn&amp;#8217;t really matter if you are using Sensr.net because our interface is breath taking no matter what camera you use!&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;http://www.amazon.com/gp/product/B006I0KL6Y/ref=olp_product_details?ie=UTF8&amp;amp;me=/sensr-20&#34;&gt;Tenvis JPT3815W&lt;/a&gt; is a great little IP camera with a ton of features that&amp;#8217;s prefect for cloud recording. Some people complain that the user interface for the Tenvis products isn&amp;#8217;t as sleek or easy to use as Foscam which may be true but it doesn&amp;#8217;t really matter if you are using Sensr.net because our interface is breath taking no matter what camera you use!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;Setting up this camera won&amp;#8217;t be too difficult if you just follow these steps:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Get out your [Tenvis JPT3815W][1]  and connect it to the internet and a power source&lt;/li&gt;
+&lt;li&gt;Get out your &lt;a href=&#34;http://www.amazon.com/gp/product/B006I0KL6Y/ref=olp_product_details?ie=UTF8&amp;amp;me=/sensr-20&#34;&gt;Tenvis JPT3815W&lt;/a&gt;  and connect it to the internet and a power source&lt;/li&gt;
 &lt;li&gt;Navigate to the camera&amp;#8217;s network access page and Log in&lt;/li&gt;
 &lt;li&gt;Go to Sensr.net and add a new camera&lt;/li&gt;
 &lt;li&gt;Go back to the camera&amp;#8217;s network access page and add your new FTP credentials.&lt;/li&gt;
 &lt;li&gt;Take a victory lap&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Take out your [Tenvis JPT3815W][1] and hook it up. I&amp;#8217;m going to assume you can do this without instruction but sometimes this stuff gets confusing (especially with wireless setup) so if you need any help just send an email to info@sensr.net and I will be sure to help you hook it up.&lt;/p&gt;
+&lt;p&gt;Take out your &lt;a href=&#34;http://www.amazon.com/gp/product/B006I0KL6Y/ref=olp_product_details?ie=UTF8&amp;amp;me=/sensr-20&#34;&gt;Tenvis JPT3815W&lt;/a&gt; and hook it up. I&amp;#8217;m going to assume you can do this without instruction but sometimes this stuff gets confusing (especially with wireless setup) so if you need any help just send an email to info@sensr.net and I will be sure to help you hook it up.&lt;/p&gt;
 
 &lt;p&gt;Once you&amp;#8217;ve got it hooked up you are going to need to find the IP address so you can get to the network access window. To do this you have to go your router&amp;#8217;s network access page by typing your routers IP address into your internet browser. On a mac you can find this information in system preferences.&lt;/p&gt;
 
@@ -1179,7 +1181,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
 
 &lt;p&gt;3.&lt;/p&gt;
 
-&lt;p&gt;After that, we’ll generate some FTP credentials for your server. This generates a login for your  [Tenvis JPT3815W][1] to where it can upload images via FTP. This tells your camera where to upload the images. The important information here is:&lt;/p&gt;
+&lt;p&gt;After that, we’ll generate some FTP credentials for your server. This generates a login for your  &lt;a href=&#34;http://www.amazon.com/gp/product/B006I0KL6Y/ref=olp_product_details?ie=UTF8&amp;amp;me=/sensr-20&#34;&gt;Tenvis JPT3815W&lt;/a&gt; to where it can upload images via FTP. This tells your camera where to upload the images. The important information here is:&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;FTP Server&lt;/li&gt;
@@ -1219,10 +1221,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
 
 &lt;div class=&#34;trackable_sharing&#34;&gt;
   &lt;a href=&#34;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F01%2Fhow-to-setup-the-tenvis-jpt3815w%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Facebook&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Facebook&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/01/how-to-setup-the-tenvis-jpt3815w/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png&#34; alt=&#34;Facebook&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F01%2Fhow-to-setup-the-tenvis-jpt3815w%2F&amp;text=How+to+setup+the+Tenvis+JPT3815W&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Twitter&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Twitter&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/01/how-to-setup-the-tenvis-jpt3815w/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png&#34; alt=&#34;Twitter&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F01%2Fhow-to-setup-the-tenvis-jpt3815w%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F01%2Fhow-to-setup-the-tenvis-jpt3815w%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Reddit&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Reddit&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/01/how-to-setup-the-tenvis-jpt3815w/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=700,height=500&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png&#34; alt=&#34;Reddit&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://digg.com/submit?partner=addthis&amp;url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F01%2Fhow-to-setup-the-tenvis-jpt3815w%2F&amp;title=How+to+setup+the+Tenvis+JPT3815W&amp;bodytext=&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Digg&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Digg&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/01/how-to-setup-the-tenvis-jpt3815w/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png&#34; alt=&#34;Digg&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F01%2Fhow-to-setup-the-tenvis-jpt3815w%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F01%2Fhow-to-setup-the-tenvis-jpt3815w%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Stumbleupon&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Stumbleupon&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/01/how-to-setup-the-tenvis-jpt3815w/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png&#34; alt=&#34;Stumbleupon&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F01%2Fhow-to-setup-the-tenvis-jpt3815w%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Email&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Email&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/01/how-to-setup-the-tenvis-jpt3815w/&#39;]); &#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png&#34; alt=&#34;Email&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;p&gt;[1]: &lt;a href=&#34;http://www.amazon.com/gp/product/B006I0KL6Y/ref=olp_product_details?ie=UTF8&amp;amp;me=/sensr-20&#34;&gt;http://www.amazon.com/gp/product/B006I0KL6Y/ref=olp_product_details?ie=UTF8&amp;amp;me=/sensr-20&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -1384,8 +1383,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
 
 &lt;p&gt;&lt;div class=&#34;trackable_sharing&#34;&gt;
     &lt;a href=&#34;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F30%2Fhow-to-setup-the-swann-ads-445-camera-for-cloud-recording%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Facebook&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Facebook&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/30/how-to-setup-the-swann-ads-445-camera-for-cloud-recording/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png&#34; alt=&#34;Facebook&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F30%2Fhow-to-setup-the-swann-ads-445-camera-for-cloud-recording%2F&amp;text=How+to+Setup+the+Swann+ADS-445+Camera+for+cloud+recording&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Twitter&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Twitter&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/30/how-to-setup-the-swann-ads-445-camera-for-cloud-recording/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png&#34; alt=&#34;Twitter&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F30%2Fhow-to-setup-the-swann-ads-445-camera-for-cloud-recording%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F30%2Fhow-to-setup-the-swann-ads-445-camera-for-cloud-recording%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Reddit&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Reddit&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/30/how-to-setup-the-swann-ads-445-camera-for-cloud-recording/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=700,height=500&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png&#34; alt=&#34;Reddit&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://digg.com/submit?partner=addthis&amp;url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F30%2Fhow-to-setup-the-swann-ads-445-camera-for-cloud-recording%2F&amp;title=How+to+Setup+the+Swann+ADS-445+Camera+for+cloud+recording&amp;bodytext=&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Digg&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Digg&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/30/how-to-setup-the-swann-ads-445-camera-for-cloud-recording/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png&#34; alt=&#34;Digg&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F30%2Fhow-to-setup-the-swann-ads-445-camera-for-cloud-recording%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F30%2Fhow-to-setup-the-swann-ads-445-camera-for-cloud-recording%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Stumbleupon&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Stumbleupon&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/30/how-to-setup-the-swann-ads-445-camera-for-cloud-recording/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png&#34; alt=&#34;Stumbleupon&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F30%2Fhow-to-setup-the-swann-ads-445-camera-for-cloud-recording%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Email&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Email&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/30/how-to-setup-the-swann-ads-445-camera-for-cloud-recording/&#39;]); &#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png&#34; alt=&#34;Email&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt;
-  &lt;/div&gt;&lt;/p&gt;
-</description>
+  &lt;/div&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1415,6 +1413,8 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
 &lt;p&gt;The D-Link &lt;a href=&#34;http://www.amazon.com/D-Link-Wireless-Surveillance-mydlink-Enabled-DCS-933L/dp/B00CL8FA4A/ref=cm_cr_pr_product_top/sensr-20&#34; target=&#34;_blank&#34;&gt;DCS-933L&lt;/a&gt; is a great IP camera because of it&amp;#8217;s price. It doesn&amp;#8217;t pan or tilt  which means you have less options when you choose where to put it and you will have to go physically move the camera anytime you want to change where it is looking but you do save some money. The DCS-933L also has night vision which is obviously very important if you are hoping to use your camera for security purposes. The setup here is pretty similar to the rest of the DCS-900 series. We have a tutorial for setting up the &lt;a href=&#34;http://sensr.net/blog/2011/02/01/how-to-configure-a-dcs-930l-from-mac-or-linux/&#34; target=&#34;_blank&#34;&gt;DCS-930L&lt;/a&gt;. With this tutorial you should be able to get this camera set up quickly and easily.&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;This setup involves four steps:&lt;/p&gt;
 
@@ -1451,7 +1451,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
 
 &lt;p&gt;Login to Sensr.net using your email and password.  If you don’t have an account, you can &lt;a style=&#34;color: #888888&#34; title=&#34;Free Sensr.net Account Signup&#34; href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt;add one for free on the sign up page&lt;/a&gt;.  Once you’re logged in, just click the &lt;strong&gt;Add Camera &lt;/strong&gt;button in green:&lt;/p&gt;
 
-&lt;p&gt;[&lt;img class=&#34;alignnone size-full wp-image-2714&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png&#34; alt=&#34;sensr add camera&#34; width=&#34;1003&#34; height=&#34;339&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png 1003w, http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera-300x101.png 300w&#34; sizes=&#34;(max-width: 1003px) 100vw, 1003px&#34; /&gt;][2]&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png&#34;&gt;&lt;img class=&#34;alignnone size-full wp-image-2714&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png&#34; alt=&#34;sensr add camera&#34; width=&#34;1003&#34; height=&#34;339&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png 1003w, http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera-300x101.png 300w&#34; sizes=&#34;(max-width: 1003px) 100vw, 1003px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Next you will see a page asking you to give some information about the camera. Some of this stuff is important as it helps get the schedule right. The rest is important because it will help you know which camera is which should you choose to add more. It should look like this:&lt;/p&gt;
 
@@ -1528,10 +1528,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
 
 &lt;div class=&#34;trackable_sharing&#34;&gt;
   &lt;a href=&#34;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F27%2Fhow-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Facebook&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Facebook&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/27/how-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png&#34; alt=&#34;Facebook&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F27%2Fhow-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net%2F&amp;text=How+to+Setup+the+D-Link+DCS-933L+and+use+it+with+Sensr.net&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Twitter&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Twitter&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/27/how-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png&#34; alt=&#34;Twitter&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F27%2Fhow-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F27%2Fhow-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Reddit&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Reddit&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/27/how-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=700,height=500&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png&#34; alt=&#34;Reddit&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://digg.com/submit?partner=addthis&amp;url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F27%2Fhow-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net%2F&amp;title=How+to+Setup+the+D-Link+DCS-933L+and+use+it+with+Sensr.net&amp;bodytext=&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Digg&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Digg&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/27/how-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png&#34; alt=&#34;Digg&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F27%2Fhow-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F27%2Fhow-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Stumbleupon&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Stumbleupon&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/27/how-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png&#34; alt=&#34;Stumbleupon&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F27%2Fhow-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Email&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Email&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/27/how-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net/&#39;]); &#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png&#34; alt=&#34;Email&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;p&gt;[2]: &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png&#34;&gt;http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -1558,13 +1555,11 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
   &lt;/p&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Sensr.net has started its own [subreddit][1]! We hope this will be a great place for our community to meet and share videos, and ideas. Got a funny video from your Sensr.net Feed of that time you left your dog at home alone and it ate everything in the house (including those hideous placemats your grandmother gave you last christmas)? Share it here! If you have any questions or suggestions for Sensr.net feel free to post them there as well as email them to info@sensr.net. Our subreddit is really all about sharing your Sensr.net experience and bringing our wonderful community of users close together. You can check it out &lt;a href=&#34;http://www.reddit.com/r/sensr&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; or at /r/sensr.&lt;/p&gt;
+&lt;p&gt;Sensr.net has started its own &lt;a href=&#34;http://www.reddit.com/r/sensr&#34;&gt;subreddit&lt;/a&gt;! We hope this will be a great place for our community to meet and share videos, and ideas. Got a funny video from your Sensr.net Feed of that time you left your dog at home alone and it ate everything in the house (including those hideous placemats your grandmother gave you last christmas)? Share it here! If you have any questions or suggestions for Sensr.net feel free to post them there as well as email them to info@sensr.net. Our subreddit is really all about sharing your Sensr.net experience and bringing our wonderful community of users close together. You can check it out &lt;a href=&#34;http://www.reddit.com/r/sensr&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; or at /r/sensr.&lt;/p&gt;
 
 &lt;div class=&#34;trackable_sharing&#34;&gt;
   &lt;a href=&#34;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F27%2Fcheck-out-our-new-subreddit%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Facebook&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Facebook&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/27/check-out-our-new-subreddit/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png&#34; alt=&#34;Facebook&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F27%2Fcheck-out-our-new-subreddit%2F&amp;text=Check+out+our+new+Subreddit%21&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Twitter&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Twitter&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/27/check-out-our-new-subreddit/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png&#34; alt=&#34;Twitter&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F27%2Fcheck-out-our-new-subreddit%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F27%2Fcheck-out-our-new-subreddit%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Reddit&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Reddit&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/27/check-out-our-new-subreddit/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=700,height=500&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png&#34; alt=&#34;Reddit&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://digg.com/submit?partner=addthis&amp;url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F27%2Fcheck-out-our-new-subreddit%2F&amp;title=Check+out+our+new+Subreddit%21&amp;bodytext=&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Digg&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Digg&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/27/check-out-our-new-subreddit/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png&#34; alt=&#34;Digg&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F27%2Fcheck-out-our-new-subreddit%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F27%2Fcheck-out-our-new-subreddit%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Stumbleupon&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Stumbleupon&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/27/check-out-our-new-subreddit/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png&#34; alt=&#34;Stumbleupon&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F27%2Fcheck-out-our-new-subreddit%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Email&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Email&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/27/check-out-our-new-subreddit/&#39;]); &#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png&#34; alt=&#34;Email&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt;
 &lt;/div&gt;
-
-&lt;p&gt;[1]: &lt;a href=&#34;http://www.reddit.com/r/sensr&#34;&gt;http://www.reddit.com/r/sensr&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -1593,6 +1588,8 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
 &lt;/div&gt;
 
 &lt;p&gt;A lot of us have old closed circuit based camera systems that save data to a local hard drive and are looking to upgrade to a newer, internet based, system so they can view their cameras when they are away or still look at footage if the hard drive is stolen. If you fall into this category you may think all is lost and you will never get your old CCTV system hooked up to Sensr.net but never fear! The &lt;a href=&#34;http://shop.sensr.net/products/srv-exp8-eight-port-standalone-video-server-with-built-in-web-server-ethernet-serial-ports-alarm-inputs&#34;&gt;SRV-EXP8&lt;/a&gt; video server is here to save the day! In this tutorial I will show you how to set up your &lt;a href=&#34;http://shop.sensr.net/products/srv-exp8-eight-port-standalone-video-server-with-built-in-web-server-ethernet-serial-ports-alarm-inputs&#34;&gt;SRV-EXP8&lt;/a&gt; and how to start uploading to Sensr.net (if you don&amp;#8217;t have an account it’s free to setup an account with Sensr.net. Camera monitoring starts at $9.95/month after your one week free trial is up.)&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Step 1: Setup your  &lt;a href=&#34;http://shop.sensr.net/products/srv-exp8-eight-port-standalone-video-server-with-built-in-web-server-ethernet-serial-ports-alarm-inputs&#34;&gt;SRV-EXP8&lt;/a&gt;  &lt;/strong&gt;&lt;/p&gt;
 
@@ -1636,7 +1633,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
 
 &lt;p&gt;2. Next you’ll see a page like this where you can set the timezone for your camera, give it a name, and tell us the model.  Cameras default to private but you can make them public if you want to share them with the world.&lt;/p&gt;
 
-&lt;p&gt;[&lt;img class=&#34;size-full wp-image-2713&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details.png&#34; alt=&#34;Note this is for a different device&#34; width=&#34;999&#34; height=&#34;491&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details.png 999w, http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details-300x147.png 300w&#34; sizes=&#34;(max-width: 999px) 100vw, 999px&#34; /&gt;][3]&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2713&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details.png&#34; alt=&#34;Note this is for a different device&#34; width=&#34;999&#34; height=&#34;491&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details.png 999w, http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details-300x147.png 300w&#34; sizes=&#34;(max-width: 999px) 100vw, 999px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;3.&lt;/p&gt;
 
@@ -1712,10 +1709,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
 
 &lt;div class=&#34;trackable_sharing&#34;&gt;
   &lt;a href=&#34;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F26%2Fhow-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Facebook&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Facebook&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/26/how-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png&#34; alt=&#34;Facebook&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F26%2Fhow-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net%2F&amp;text=How+to+upgrade+your+CCTV+system+with+the+SRV-EPX8%C2%A0and+Sensr.net&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Twitter&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Twitter&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/26/how-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png&#34; alt=&#34;Twitter&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F26%2Fhow-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F26%2Fhow-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Reddit&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Reddit&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/26/how-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=700,height=500&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png&#34; alt=&#34;Reddit&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://digg.com/submit?partner=addthis&amp;url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F26%2Fhow-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net%2F&amp;title=How+to+upgrade+your+CCTV+system+with+the+SRV-EPX8%C2%A0and+Sensr.net&amp;bodytext=&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Digg&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Digg&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/26/how-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png&#34; alt=&#34;Digg&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F26%2Fhow-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F26%2Fhow-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Stumbleupon&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Stumbleupon&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/26/how-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png&#34; alt=&#34;Stumbleupon&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F26%2Fhow-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Email&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Email&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/26/how-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net/&#39;]); &#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png&#34; alt=&#34;Email&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;p&gt;[3]: &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details.png&#34;&gt;http://sensr.net/blog/wp-content/uploads/2014/02/add-camera-details.png&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -1735,6 +1729,8 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
 &lt;/div&gt;&lt;/p&gt;
 
 &lt;p&gt;The biggest, baddest human endurance competition on the planet is sharing a &lt;span style=&#34;text-decoration: underline&#34;&gt;&lt;span style=&#34;color: #0000ff&#34;&gt;&lt;a href=&#34;https://sensr.net/users/22662/cameras/46167&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: #0000ff;text-decoration: underline&#34;&gt;camera on sensr.net&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;! The Great Pacific Race is an ocean rowing race from Monterey, California to Honolulu, Hawaii. The competitors have no sails or motors, only their bodies to row them across the biggest ocean in the world! The boats left on June 7th but as they were gearing up and preparing for their journey the Great Pacific Race setup a camera and shared the staging area with the world! You can check out their camera &lt;span style=&#34;text-decoration: underline&#34;&gt;&lt;span style=&#34;color: #0000ff&#34;&gt;&lt;a title=&#34;GPR staging area&#34; href=&#34;https://sensr.net/users/22662/cameras/46167&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: #0000ff;text-decoration: underline&#34;&gt;here&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;You can see the boats about to be launched here:&lt;/p&gt;
 
@@ -1760,8 +1756,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
 
 &lt;div class=&#34;trackable_sharing&#34;&gt;
   &lt;a href=&#34;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F24%2Fthe-great-pacific-race-on-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Facebook&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Facebook&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/24/the-great-pacific-race-on-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png&#34; alt=&#34;Facebook&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F24%2Fthe-great-pacific-race-on-sensr-net%2F&amp;text=The+Great+Pacific+Race+on+Sensr.net&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Twitter&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Twitter&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/24/the-great-pacific-race-on-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png&#34; alt=&#34;Twitter&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F24%2Fthe-great-pacific-race-on-sensr-net%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F24%2Fthe-great-pacific-race-on-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Reddit&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Reddit&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/24/the-great-pacific-race-on-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=700,height=500&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png&#34; alt=&#34;Reddit&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://digg.com/submit?partner=addthis&amp;url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F24%2Fthe-great-pacific-race-on-sensr-net%2F&amp;title=The+Great+Pacific+Race+on+Sensr.net&amp;bodytext=&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Digg&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Digg&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/24/the-great-pacific-race-on-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png&#34; alt=&#34;Digg&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F24%2Fthe-great-pacific-race-on-sensr-net%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F24%2Fthe-great-pacific-race-on-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Stumbleupon&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Stumbleupon&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/24/the-great-pacific-race-on-sensr-net/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png&#34; alt=&#34;Stumbleupon&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F06%2F24%2Fthe-great-pacific-race-on-sensr-net%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Email&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Email&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/24/the-great-pacific-race-on-sensr-net/&#39;]); &#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png&#34; alt=&#34;Email&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-</description>
+&lt;/div&gt;</description>
     </item>
     
   </channel>

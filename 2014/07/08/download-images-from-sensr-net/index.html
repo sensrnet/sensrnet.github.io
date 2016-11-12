@@ -3,7 +3,7 @@
     <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="Hugo 0.15" />
+    <meta name="generator" content="Hugo 0.17" />
     <title>Download Images From Sensr.net</title>
     
     
@@ -72,9 +72,7 @@
     </ul>
 
 
-        
-
-<div class="share_buttons_simple_use_buttons" style="padding: 10px 0; display: inline-block">
+        <div class="share_buttons_simple_use_buttons" style="padding: 10px 0; display: inline-block">
   <div class="tweet_button" style="float: left; vertical-align: top">
     <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/" data-text="Download Images From Sensr.net " data-count="none">Tweet</a>
   </div>
@@ -127,7 +125,7 @@
 
 <p>I&#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.</p>
 
-<p>Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the</p>
+<p><!--more-->Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the</p>
 
 <p><code>ruby -v</code> command. The output should looks something like this:</p>
 
@@ -135,7 +133,7 @@
 
 <p>If you don&#8217;t have Ruby installed you&#8217;ll have to Google around to find out how to install it on your machine.  I recommend starting with <a href="https://rvm.io/" title="RVM: Ruby Version Manager">RVM</a>.</p>
 
-<h2 id="install-sensr-net-gem:11d25cbabffb760c658b727d27109ba8">Install Sensr.net Gem</h2>
+<h2 id="install-sensr-net-gem">Install Sensr.net Gem</h2>
 
 <p>Now you  need to install the Sensr.net gem. This will let you run Ruby programs that interact with the <a href="http://sensr.net/blog/2013/02/07/new-sensr-net-api-v3/" title="New Sensr.net IP Camera API &amp; SDK Release">Sensr.net APIs</a>. The program that downloads images from Sensr.net also uses this gem. Just run <code>gem install sensr</code> from the command line and you&#8217;ll be good to go. It should look something like this:</p>
 
@@ -144,11 +142,11 @@ Successfully installed sensr-1.0.2
 1 gem installed
 $</pre>
 
-<h2 id="install-get-images-rb:11d25cbabffb760c658b727d27109ba8">Install get-images.rb</h2>
+<h2 id="install-get-images-rb">Install get-images.rb</h2>
 
 <p>Next you&#8217;ll need to get the get-images.rb program. If you&#8217;re comfortable with git, you can just run <code>git clone <a href="https://github.com/adamb/Sensr-utils.git">https://github.com/adamb/Sensr-utils.git</a></code> and you&#8217;ll have the entire <a href="https://github.com/adamb/Sensr-utils" title="Sensr-utils Repository">Sensr-utils repository</a>. If you just want the get-images.rb program, you can find it <a href="https://raw.githubusercontent.com/adamb/Sensr-utils/master/get-images.rb" title="get-images.rb source code">here</a>. Just save a copy of it to your local disk where you can get at it from the command line.</p>
 
-<h2 id="find-your-sensr-net-token:11d25cbabffb760c658b727d27109ba8">Find Your Sensr.net Token</h2>
+<h2 id="find-your-sensr-net-token">Find Your Sensr.net Token</h2>
 
 <p>To use the Sensr.net API you need a secret token.  This is so only you can access the images stored in Sensr.net.  To get a token, you can follow the instructions on the <a href="http://yacc.github.io/sensrapi-tutorials/" title="Sensr.net API Tutorial">API Tutorial</a>.  Basically you log into Sensr.net and go to <a href="https://sensr.net/account/applications" title="Register an application">Developer Applications</a>.</p>
 
@@ -180,7 +178,7 @@ $</pre>
 
 <p>I&#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.</p>
 
-<p>Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the</p>
+<p><!--more-->Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the</p>
 
 <p><code>ruby -v</code> command. The output should looks something like this:</p>
 
@@ -208,7 +206,7 @@ $</pre>
 
 <p>I&#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.</p>
 
-<p>Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the</p>
+<p><!--more-->Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the</p>
 
 <p><code>ruby -v</code> command. The output should looks something like this:</p>
 
@@ -216,7 +214,7 @@ $</pre>
 
 <p>If you don&#8217;t have Ruby installed you&#8217;ll have to Google around to find out how to install it on your machine.  I recommend starting with <a href="https://rvm.io/" title="RVM: Ruby Version Manager">RVM</a>.</p>
 
-<h2 id="install-sensr-net-gem-1:11d25cbabffb760c658b727d27109ba8">Install Sensr.net Gem</h2>
+<h2 id="install-sensr-net-gem-1">Install Sensr.net Gem</h2>
 
 <p>Now you  need to install the Sensr.net gem. This will let you run Ruby programs that interact with the <a href="http://sensr.net/blog/2013/02/07/new-sensr-net-api-v3/" title="New Sensr.net IP Camera API &amp; SDK Release">Sensr.net APIs</a>. The program that downloads images from Sensr.net also uses this gem. Just run <code>gem install sensr</code> from the command line and you&#8217;ll be good to go. It should look something like this:</p>
 
@@ -225,11 +223,11 @@ Successfully installed sensr-1.0.2
 1 gem installed
 $</pre>
 
-<h2 id="install-get-images-rb-1:11d25cbabffb760c658b727d27109ba8">Install get-images.rb</h2>
+<h2 id="install-get-images-rb-1">Install get-images.rb</h2>
 
 <p>Next you&#8217;ll need to get the get-images.rb program. If you&#8217;re comfortable with git, you can just run <code>git clone <a href="https://github.com/adamb/Sensr-utils.git">https://github.com/adamb/Sensr-utils.git</a></code> and you&#8217;ll have the entire <a href="https://github.com/adamb/Sensr-utils" title="Sensr-utils Repository">Sensr-utils repository</a>. If you just want the get-images.rb program, you can find it <a href="https://raw.githubusercontent.com/adamb/Sensr-utils/master/get-images.rb" title="get-images.rb source code">here</a>. Just save a copy of it to your local disk where you can get at it from the command line.</p>
 
-<h2 id="find-your-sensr-net-token-1:11d25cbabffb760c658b727d27109ba8">Find Your Sensr.net Token</h2>
+<h2 id="find-your-sensr-net-token-1">Find Your Sensr.net Token</h2>
 
 <p>To use the Sensr.net API you need a secret token.  This is so only you can access the images stored in Sensr.net.  To get a token, you can follow the instructions on the <a href="http://yacc.github.io/sensrapi-tutorials/" title="Sensr.net API Tutorial">API Tutorial</a>.  Basically you log into Sensr.net and go to <a href="https://sensr.net/account/applications" title="Register an application">Developer Applications</a>.</p>
 
@@ -270,7 +268,7 @@ To use this approach you&amp;#8217;ll need a few things:
 
 I&amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
 
-Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+&lt;!--more--&gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
 
 `ruby -v` command. The output should looks something like this:
 
@@ -296,7 +294,7 @@ To use this approach you&amp;#8217;ll need a few things:
 
 I&amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
 
-Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+&lt;!--more--&gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
 
 `ruby -v` command. The output should looks something like this:
 
@@ -347,7 +345,7 @@ To use this approach you&amp;#8217;ll need a few things:
 
 I&amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
 
-Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+&lt;!--more--&gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
 
 `ruby -v` command. The output should looks something like this:
 
@@ -373,7 +371,7 @@ To use this approach you&amp;#8217;ll need a few things:
 
 I&amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
 
-Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+&lt;!--more--&gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
 
 `ruby -v` command. The output should looks something like this:
 
@@ -410,7 +408,7 @@ Edit the line in `get-images.rb` so it uses your token. The change will look som
 
 <p>Alternatively you could create a file called <code>mytoken.rb</code> that has just this line.</p>
 
-<h2 id="run-get-images-rb:11d25cbabffb760c658b727d27109ba8">Run get-images.rb</h2>
+<h2 id="run-get-images-rb">Run get-images.rb</h2>
 
 <p>Finally you can run the program! Run it like this. The &#8211;help parameter shows you the options.</p>
 
@@ -439,7 +437,7 @@ To use this approach you&amp;#8217;ll need a few things:
 
 I&amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
 
-Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+&lt;!--more--&gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
 
 `ruby -v` command. The output should looks something like this:
 
@@ -465,7 +463,7 @@ To use this approach you&amp;#8217;ll need a few things:
 
 I&amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
 
-Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+&lt;!--more--&gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
 
 `ruby -v` command. The output should looks something like this:
 
@@ -516,7 +514,7 @@ To use this approach you&amp;#8217;ll need a few things:
 
 I&amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
 
-Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+&lt;!--more--&gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
 
 `ruby -v` command. The output should looks something like this:
 
@@ -542,7 +540,7 @@ To use this approach you&amp;#8217;ll need a few things:
 
 I&amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
 
-Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+&lt;!--more--&gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
 
 `ruby -v` command. The output should looks something like this:
 
@@ -605,7 +603,7 @@ To use this approach you&amp;#8217;ll need a few things:
 
 I&amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
 
-Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+&lt;!--more--&gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
 
 `ruby -v` command. The output should looks something like this:
 
@@ -631,7 +629,7 @@ To use this approach you&amp;#8217;ll need a few things:
 
 I&amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
 
-Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+&lt;!--more--&gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
 
 `ruby -v` command. The output should looks something like this:
 
@@ -682,7 +680,7 @@ To use this approach you&amp;#8217;ll need a few things:
 
 I&amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
 
-Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+&lt;!--more--&gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
 
 `ruby -v` command. The output should looks something like this:
 
@@ -708,7 +706,7 @@ To use this approach you&amp;#8217;ll need a few things:
 
 I&amp;#8217;ll assume you know how to get to the command line on your machine. Personally I use iTerm on the Mac but Terminal is installed by default.
 
-Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
+&lt;!--more--&gt;Ruby is installed on most Mac and Linux machines these days. To see if you have Ruby installed, just pop over to the command line and run the 
 
 `ruby -v` command. The output should looks something like this:
 
@@ -757,14 +755,13 @@ Finally you can run the program! Run it like this. The &amp;#8211;help parameter
 
 <p>Of course you won&#8217;t want to use camera 5, but the camera number for your camera. The camera number can be found by going to the camera settings page. The camera number comes from the login information. Camera 5 uses cam5 as the login. You can also go to cameras by using their camera number. For instance, <a href="https://sensr.net/cameras/88" title="Sample Public Camera">https://sensr.net/cameras/88</a> is a public camera that uses cam88 for it&#8217;s login.</p>
 
-<h2 id="help-us-improve:11d25cbabffb760c658b727d27109ba8">Help Us Improve</h2>
+<h2 id="help-us-improve">Help Us Improve</h2>
 
 <p>The <a href="https://github.com/adamb/Sensr-utils" title="Sensr-utils Git Repository">Sensr-utils</a> repository is open source, so feel free to add your own code or help us improve it.</p>
 
 <div class="trackable_sharing">
   <a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F08%2Fdownload-images-from-sensr-net%2F" style="text-decoration: none; white-space: nowrap;" title="Facebook" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Facebook','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png" alt="Facebook" width="0" height="0" /></a> <a href="http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F08%2Fdownload-images-from-sensr-net%2F&text=Download+Images+From+Sensr.net" style="text-decoration: none; white-space: nowrap;" title="Twitter" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Twitter','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=500,height=350'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png" alt="Twitter" width="0" height="0" /></a> <a href="http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F08%2Fdownload-images-from-sensr-net%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F08%2Fdownload-images-from-sensr-net%2F" style="text-decoration: none; white-space: nowrap;" title="Reddit" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Reddit','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=700,height=500'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png" alt="Reddit" width="0" height="0" /></a> <a href="http://digg.com/submit?partner=addthis&url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F08%2Fdownload-images-from-sensr-net%2F&title=Download+Images+From+Sensr.net&bodytext=" style="text-decoration: none; white-space: nowrap;" title="Digg" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Digg','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png" alt="Digg" width="0" height="0" /></a> <a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F08%2Fdownload-images-from-sensr-net%2F&title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F08%2Fdownload-images-from-sensr-net%2F" style="text-decoration: none; white-space: nowrap;" title="Stumbleupon" target="_blank" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Stumbleupon','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/']); _trackableshare_window = window.open(this.href,'share','menubar=0,resizable=1,width=750,height=450'); _trackableshare_window.focus(); return false;"><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png" alt="Stumbleupon" width="0" height="0" /></a> <a href="mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2014%2F07%2F08%2Fdownload-images-from-sensr-net%2F" style="text-decoration: none; white-space: nowrap;" title="Email" onclick="that=this;_gaq.push(['_trackEvent','SocialSharing','Email','http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/']); "><img align="absmiddle" src="http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png" alt="Email" width="0" height="0" /></a>
 </div>
-
         
     <ul class="list-inline tags" style="margin-top: 15px; margin-left: 0px">
         

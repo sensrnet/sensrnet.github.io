@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Api on Sensr.net Blog | Watch your Stuff!</title>
-    <link>http://blog.sensr.net/tags/api/</link>
-    <description>Recent content in Api on Sensr.net Blog | Watch your Stuff!</description>
+    <title>Sensr.net Blog | Watch your Stuff!</title>
+    <link>http://blog.sensr.net/tags/api/index.xml</link>
+    <description>Recent content on Sensr.net Blog | Watch your Stuff!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Aug 2011 18:40:21 +0000</lastBuildDate>
     <atom:link href="http://blog.sensr.net/tags/api/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -15,9 +14,7 @@
       <pubDate>Mon, 01 Aug 2011 18:40:21 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2011/08/01/how-to-upload-images-to-sensr/</guid>
-      <description>
-
-&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
+      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
   &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
     &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/08/01/how-to-upload-images-to-sensr/&#34; data-text=&#34;How to Upload Images to Sensr.net&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
   &lt;/div&gt;
@@ -54,7 +51,7 @@
     &#34;password&#34;:&#34;l4hqpy0ywm&#34;,
     ... }&lt;/pre&gt;
 
-&lt;h2 id=&#34;uploading-using-ftp:e839ecf4ba58c2bda474de5a919e9283&#34;&gt;Uploading using FTP&lt;/h2&gt;
+&lt;h2 id=&#34;uploading-using-ftp&#34;&gt;Uploading using FTP&lt;/h2&gt;
 
 &lt;p&gt;FTP Upload is the method Sensr.net recommends for most of the Netcams currently available.  When configuring a camera, you set the HOST, USERNAME and PASSWORD to the credentials obtained from the Sensr website.  For each frame, a netcam creates a JPG file and issues an FTP PUT command to transfer it to your Sensr.net upload host.&lt;/p&gt;
 
@@ -68,15 +65,15 @@
 &lt;li&gt;Re-use the FTP connection for successive image uploads if possible.  The camera-upload program EvoCam has a &amp;#8220;Stay Connected&amp;#8221; option, for example.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;ftp-a-linux-example:e839ecf4ba58c2bda474de5a919e9283&#34;&gt;FTP: A Linux Example&lt;/h3&gt;
+&lt;h3 id=&#34;ftp-a-linux-example&#34;&gt;FTP: A Linux Example&lt;/h3&gt;
 
 &lt;p&gt;You can experiment with FTP upload by building your own FTP-based &amp;#8220;Netcam&amp;#8221; on a Linux machine by using an external webcam, the program ffmpeg and a our shell script. After allocating a new camera on Sensr.net, you should gather the HOST, USERNAME and PASSWORD parameters and hard-code them into your copy of the script.&lt;/p&gt;
 
 &lt;p&gt;The script uses dov4l to set image capture parameters for the webcam.  The script then enters a loop where it uses ffmpeg to grab several frames from the camera and save them as JPG files.  One of these frames is selected for upload by FTP, and then the loop repeats.  You can interrupt the script by hitting `^C`.&lt;/p&gt;
 
-&lt;h2 id=&#34;uploading-using-http:e839ecf4ba58c2bda474de5a919e9283&#34;&gt;Uploading using HTTP&lt;/h2&gt;
+&lt;h2 id=&#34;uploading-using-http&#34;&gt;Uploading using HTTP&lt;/h2&gt;
 
-&lt;p&gt;HTTP Uploading avoids many problems that occur with the FTP Upload method.  First and foremost: HTTP gets through firewalls and proxies better than FTP.  Some cameras, like the [Axis M1011 Network Camera][3] support HTTP upload directly.  If you&amp;#8217;re a programmer creating an App on a mobile device like an iPhone or Android, there are simple ways to upload JPGs using HTTP in the appropriate SDK. HTTP Upload is a very simple protocol.  There is a single connection and the request contains all of the upload information.  FTP in contrast, opens and closes TCP connections, uses multiple ports, offers passive and active variants, and has pitfalls related to file naming.&lt;/p&gt;
+&lt;p&gt;HTTP Uploading avoids many problems that occur with the FTP Upload method.  First and foremost: HTTP gets through firewalls and proxies better than FTP.  Some cameras, like the &lt;a href=&#34;http://blog.sensr.net/2011/06/24/axis-m1011-firmware-upgrade-for-http-upload/&#34;&gt;Axis M1011 Network Camera&lt;/a&gt; support HTTP upload directly.  If you&amp;#8217;re a programmer creating an App on a mobile device like an iPhone or Android, there are simple ways to upload JPGs using HTTP in the appropriate SDK. HTTP Upload is a very simple protocol.  There is a single connection and the request contains all of the upload information.  FTP in contrast, opens and closes TCP connections, uses multiple ports, offers passive and active variants, and has pitfalls related to file naming.&lt;/p&gt;
 
 &lt;p&gt;Sensr.net&amp;#8217;s HTTP Upload protocol implements Basic Authentication with the same USERNAME and PASSWORD credentials as the FTP Upload option.  The single-photo upload URL for your HOST, USERNAME, PASSWORD credentials shown below.  Notice how the USERNAME parameter occurs twice: it is the name of the account and also identifies the camera.&lt;/p&gt;
 
@@ -84,7 +81,7 @@
 
 &lt;p&gt;Sensr.net&amp;#8217;s HTTP Basic Authentication requires the &amp;#8220;Authorization:&amp;#8221; header in the request.  A challenge will be returned to the client if the header is not present and it is not valid.  (See &lt;a title=&#34;Basic Access Authentication&#34; href=&#34;http://en.wikipedia.org/wiki/Basic_access_authentication&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Basic_access_authentication&#34;&gt;http://en.wikipedia.org/wiki/Basic_access_authentication&lt;/a&gt;&lt;/a&gt; for an overview of this method.)&lt;/p&gt;
 
-&lt;h3 id=&#34;http-request-in-detail:e839ecf4ba58c2bda474de5a919e9283&#34;&gt;HTTP Request in Detail&lt;/h3&gt;
+&lt;h3 id=&#34;http-request-in-detail&#34;&gt;HTTP Request in Detail&lt;/h3&gt;
 
 &lt;p&gt;A full HTTP request with authentication information is shown below.  The body of the request is the binary data of the uploaded JPEG image.  JPEG files begin with the bytes 0xFF, 0xD8 and end with the bytes 0xFF, 0xD9.&lt;/p&gt;
 
@@ -104,7 +101,7 @@ Content-Length: 484881
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
-&lt;h3 id=&#34;http-status-codes:e839ecf4ba58c2bda474de5a919e9283&#34;&gt;HTTP Status Codes&lt;/h3&gt;
+&lt;h3 id=&#34;http-status-codes&#34;&gt;HTTP Status Codes&lt;/h3&gt;
 
 &lt;p&gt;An HTTP Photo request will return one of the following status codes.&lt;/p&gt;
 
@@ -116,7 +113,7 @@ Content-Length: 484881
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
-&lt;h3 id=&#34;http-a-linux-example:e839ecf4ba58c2bda474de5a919e9283&#34;&gt;HTTP: A Linux Example&lt;/h3&gt;
+&lt;h3 id=&#34;http-a-linux-example&#34;&gt;HTTP: A Linux Example&lt;/h3&gt;
 
 &lt;p&gt;You can upload images from your computer to a Sensr.net camera using command line tools curl and wget.  The examples below show how to upload a single image called &amp;#8220;Rocketship.jpg&amp;#8221; to cam28. The &lt;a href=&#34;http://curl.haxx.se/docs/manpage.html&#34; target=&#34;_blank&#34;&gt;curl&lt;/a&gt; program accepts the USERNAME and PASSWORD as part of the upload URL.  By placing the authorization parameters in the URL, curl includes the Basic Authorization headers in the request.   The other parameters that we need to give are the upload filename and the Content-Type header.&lt;/p&gt;
 
@@ -126,7 +123,7 @@ Content-Length: 484881
 
 &lt;pre&gt;wget --auth-no-challenge --user=cam28 --password=l4hqpy0ywm  --post-file=Rocketship.jpg --header &#34;Content-Type: image/jpeg&#34; http://f7.sensr.net/photo/cam28&lt;/pre&gt;
 
-&lt;h2 id=&#34;streaming-upload-using-http-and-mjpeg:e839ecf4ba58c2bda474de5a919e9283&#34;&gt;Streaming Upload using HTTP and MJPEG&lt;/h2&gt;
+&lt;h2 id=&#34;streaming-upload-using-http-and-mjpeg&#34;&gt;Streaming Upload using HTTP and MJPEG&lt;/h2&gt;
 
 &lt;p&gt;Motion-JPEG (MJPEG) is a simple video format that consists of a stream of JPEG images, one after another.  MJPEG does not include time-code information.  Sensr accepts MJPEG Upload streams over HTTP.   Streaming uploads require HTTP Basic Authorization just the same as Sensr.net&amp;#8217;s Photo uploads:&lt;/p&gt;
 
@@ -154,20 +151,17 @@ Authorization: Basic Y2FtMTE6d2x6bzNwaGgxZQ==
 
 &lt;p&gt;Streams uploaded this way can keep connections open for a very long time.&lt;/p&gt;
 
-&lt;h3 id=&#34;mjpeg-a-linux-example:e839ecf4ba58c2bda474de5a919e9283&#34;&gt;MJPEG: a Linux Example&lt;/h3&gt;
+&lt;h3 id=&#34;mjpeg-a-linux-example&#34;&gt;MJPEG: a Linux Example&lt;/h3&gt;
 
 &lt;p&gt;You can experiment with HTTP MJPEG streaming uploads on your Linux computer with the ever-versatile ffmpeg and an external webcam.  The ffmpeg program knows about MJPEG URLs, making uploading trivial.  Use the script below and customize it with your own USERNAME and PASSWORD to upload streams to Sensr.&lt;/p&gt;
 
-&lt;h2 id=&#34;conclusion:e839ecf4ba58c2bda474de5a919e9283&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 
 &lt;p&gt;Sensr.net is a versatile upload service for JPEG images from all kinds of image sources.  The examples here show just how simple image upload clients can be.  If you are a developer, perhaps some of the resources shown here will inspire you use Sensr.net as an image repository for your own projects.&lt;/p&gt;
 
 &lt;div class=&#34;trackable_sharing&#34;&gt;
   &lt;a href=&#34;http://www.facebook.com/sharer.php?u=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F08%2F01%2Fhow-to-upload-images-to-sensr%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Facebook&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Facebook&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/08/01/how-to-upload-images-to-sensr/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//facebook.png&#34; alt=&#34;Facebook&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://twitter.com/share?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F08%2F01%2Fhow-to-upload-images-to-sensr%2F&amp;text=How+to+Upload+Images+to+Sensr.net&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Twitter&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Twitter&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/08/01/how-to-upload-images-to-sensr/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=500,height=350&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//twitter.png&#34; alt=&#34;Twitter&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.reddit.com/login?dest=%2Fsubmit%3Furl=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F08%2F01%2Fhow-to-upload-images-to-sensr%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F08%2F01%2Fhow-to-upload-images-to-sensr%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Reddit&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Reddit&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/08/01/how-to-upload-images-to-sensr/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=700,height=500&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//reddit.png&#34; alt=&#34;Reddit&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://digg.com/submit?partner=addthis&amp;url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F08%2F01%2Fhow-to-upload-images-to-sensr%2F&amp;title=How+to+Upload+Images+to+Sensr.net&amp;bodytext=&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Digg&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Digg&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/08/01/how-to-upload-images-to-sensr/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//digg.png&#34; alt=&#34;Digg&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.stumbleupon.com/submit?url=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F08%2F01%2Fhow-to-upload-images-to-sensr%2F&amp;title=http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F08%2F01%2Fhow-to-upload-images-to-sensr%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Stumbleupon&#34; target=&#34;_blank&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Stumbleupon&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/08/01/how-to-upload-images-to-sensr/&#39;]); _trackableshare_window = window.open(this.href,&#39;share&#39;,&#39;menubar=0,resizable=1,width=750,height=450&#39;); _trackableshare_window.focus(); return false;&#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//stumbleupon.png&#34; alt=&#34;Stumbleupon&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;mailto:?subject=Check out http%3A%2F%2Fec2-35-161-252-137.us-west-2.compute.amazonaws.com%2F2011%2F08%2F01%2Fhow-to-upload-images-to-sensr%2F&#34; style=&#34;text-decoration: none; white-space: nowrap;&#34; title=&#34;Email&#34; onclick=&#34;that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;SocialSharing&#39;,&#39;Email&#39;,&#39;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/08/01/how-to-upload-images-to-sensr/&#39;]); &#34;&gt;&lt;img align=&#34;absmiddle&#34; src=&#34;http://sensr.net/blog/wp-content/plugins/trackable-social-share-icons/buttons/f4//email.png&#34; alt=&#34;Email&#34; width=&#34;0&#34; height=&#34;0&#34; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;p&gt;[3]: &lt;a href=&#34;http://blog.sensr.net/2011/06/24/axis-m1011-firmware-upgrade-for-http-upload/&#34;&gt;http://blog.sensr.net/2011/06/24/axis-m1011-firmware-upgrade-for-http-upload/&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;/div&gt;</description>
     </item>
     
   </channel>

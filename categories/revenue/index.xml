@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Revenue on Sensr.net Blog | Watch your Stuff!</title>
-    <link>http://blog.sensr.net/categories/revenue/</link>
-    <description>Recent content in Revenue on Sensr.net Blog | Watch your Stuff!</description>
+    <title>Sensr.net Blog | Watch your Stuff!</title>
+    <link>http://blog.sensr.net/categories/revenue/index.xml</link>
+    <description>Recent content on Sensr.net Blog | Watch your Stuff!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Apr 2015 20:03:06 +0000</lastBuildDate>
     <atom:link href="http://blog.sensr.net/categories/revenue/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -25,6 +24,8 @@
 
 &lt;p&gt;At Sensr.net we use &lt;a href=&#34;https://stripe.com&#34; title=&#34;Stripe&#34;&gt;Stripe&lt;/a&gt; to handle all the credit card charges. Recently I started using &lt;a href=&#34;http://home.profitwell.com/&#34; title=&#34;ProfitWell, a free tool for SaaS metrics&#34;&gt;Profitwell, a free tool for SaaS metrics&lt;/a&gt;, to try to understand better where we are making money and where we are losing it.&lt;/p&gt;
 
+&lt;p&gt;&lt;/p&gt;
+
 &lt;p&gt;Most of our growth today comes from new users. Wouldn&amp;rsquo;t it be great if we could convince existing users to spend more? For us, that means users with an existing camera might be enticed to add another camera. After all, if you&amp;rsquo;re paying $9.95 for one camera, adding a second for only $4.95 should seem attractive.&lt;/p&gt;
 
 &lt;p&gt;I decided to try an incentive. I looked for all users who have a single camera on the site, are in good standing, and have logged in recently. That turned out to be 138 users. This morning I sent them &lt;a href=&#34;http://us2.campaign-archive1.com/?u=180d5f24fadceaa24de070d6f&amp;amp;id=8a5f29a15e&#34; title=&#34;April Sensr.net Offer&#34;&gt;an offer that I hope they can&amp;rsquo;t refuse&lt;/a&gt;. If they add a second camera by April 26th, I&amp;rsquo;ll give them a credit of $14.90, or one month&amp;rsquo;s service.&lt;/p&gt;
@@ -33,8 +34,7 @@
 
 &lt;p&gt;BTW, I used &lt;a title=&#34;Mail Chimp&#34; href=&#34;http://mailchimp.com&#34; target=&#34;_blank&#34;&gt;Mail Chimp&lt;/a&gt; to do the email campaign.  The most difficult part of this was building the SQL query to gather the emails.    Now that I have that, I may try to integrate an ongoing campaign using &lt;a href=&#34;http://customer.io/&#34; title=&#34;Targeted Human Emails&#34;&gt;Customer.io&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;I must say that this experiment is also inspired by the book &lt;a title=&#34;Predictably Irrational&#34; href=&#34;http://www.amazon.com/Predictably-Irrational-Revised-Expanded-Decisions-ebook/dp/B002C949KE/sensr-20&#34; target=&#34;_blank&#34;&gt;Predictably Irrational&lt;/a&gt; by &lt;a title=&#34;Dan Ariely&#34; href=&#34;http://danariely.com/&#34; target=&#34;_blank&#34;&gt;Dan Ariely&lt;/a&gt;.  Reading about how people make decisions is pretty interesting!&lt;/p&gt;
-</description>
+&lt;p&gt;I must say that this experiment is also inspired by the book &lt;a title=&#34;Predictably Irrational&#34; href=&#34;http://www.amazon.com/Predictably-Irrational-Revised-Expanded-Decisions-ebook/dp/B002C949KE/sensr-20&#34; target=&#34;_blank&#34;&gt;Predictably Irrational&lt;/a&gt; by &lt;a title=&#34;Dan Ariely&#34; href=&#34;http://danariely.com/&#34; target=&#34;_blank&#34;&gt;Dan Ariely&lt;/a&gt;.  Reading about how people make decisions is pretty interesting!&lt;/p&gt;</description>
     </item>
     
   </channel>

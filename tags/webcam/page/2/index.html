@@ -3,7 +3,7 @@
     <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="Hugo 0.15" />
+    <meta name="generator" content="Hugo 0.17" />
     <title>Webcam</title>
     
     
@@ -54,7 +54,9 @@
                                     <li><i class="fa fa-calendar"></i>January 27, 2014</li>
                                     <li><i class="fa fa-user"></i>Adam Beguelin</li>
                                 </ul>
-                                Tweet [ ]1The San Jose police are interested in getting access to security cameras from citizens who volunteer access, according to the San Jose Mercury News. I have a couple driveway cameras that I wouldn&#8217;t mind sharing with the police. In fact, I&#8217;ve considered making them public cameras. The cameras don&#8217;t show anything that you couldn&#8217;t see by driving by my house on a public street. Of course having archives is a more powerful thing than simply a live stream.
+                                Tweet   
+[
+]1The San Jose police are interested in getting access to security cameras from citizens who volunteer access, according to the San Jose Mercury News. I have a couple driveway cameras that I wouldn&#8217;t mind sharing with the police. In fact, I&#8217;ve considered making them public cameras. The cameras don&#8217;t show anything that you couldn&#8217;t see by driving by my house on a public street. Of course having archives is a more powerful thing than simply a live stream.
                                 <a class="btn btn-custom" href="http://blog.sensr.net/2014/01/27/share-your-camera-with-the-police/" role="button">Read More</a>
                             </div>
                         </div>
@@ -66,7 +68,10 @@
                                     <li><i class="fa fa-calendar"></i>January 19, 2014</li>
                                     <li><i class="fa fa-user"></i>Adam Beguelin</li>
                                 </ul>
-                                Tweet Our friend Bob Coggeshall wrote a nice post on [how to use a webcam and a Raspberry Pi to create a Sensr.net backed security camera][1]. Who doesn&#8217;t have an old webcam laying around? Now you can put it to good use. Thanks Bob! [1]: http://www.sudobob.com/raspberry-pi-web-cam-on-sensr-net/
+                                Tweet   
+Our friend Bob Coggeshall wrote a nice post on how to use a webcam and a Raspberry Pi to create a Sensr.net backed security camera. Who doesn&#8217;t have an old webcam laying around? Now you can put it to good use.
+Thanks Bob!
+       
                                 <a class="btn btn-custom" href="http://blog.sensr.net/2014/01/19/build-a-raspberry-pi-security-camera/" role="button">Read More</a>
                             </div>
                         </div>
@@ -88,11 +93,11 @@
   </div>
 </div></p>
 
-<p>[<img class="size-full wp-image-2577 alignleft" alt="Foscam FI9821W V2" src="http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black.jpg" width="160" height="160" srcset="http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black.jpg 160w, http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black-150x150.jpg 150w" sizes="(max-width: 160px) 100vw, 160px" />][1]</p>
+<p><a href="http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black.jpg"><img class="size-full wp-image-2577 alignleft" alt="Foscam FI9821W V2" src="http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black.jpg" width="160" height="160" srcset="http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black.jpg 160w, http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black-150x150.jpg 150w" sizes="(max-width: 160px) 100vw, 160px" /></a></p>
 
-<p>The [Foscam FI9821W V2 IP camera][2] is super popular these days. It&#8217;s about $150 on [Amazon right now][3]. The instructions come with Windows and Mac setup software, but you really don&#8217;t need it. In this post I&#8217;ll show you how to configure the webcam without the software. _<strong>Be aware that the camera&#8217;s default port is 88.</strong>_ I wasted 30 minutes figuring this out, more on what this means later.</p>
+<p>The <a href="http://www.amazon.com/Foscam-FI9821W-Megapixel-Wireless-Camera/dp/B00F3KWZW8/sensr-20" title="Foscam FI9821W V2">Foscam FI9821W V2 IP camera</a> is super popular these days. It&#8217;s about $150 on <a href="http://www.amazon.com/Foscam-FI9821W-Megapixel-Wireless-Camera/dp/B00F3KWZW8/sensr-20" title="Buy FI9821W V2 on Amazon">Amazon right now</a>. The instructions come with Windows and Mac setup software, but you really don&#8217;t need it. In this post I&#8217;ll show you how to configure the webcam without the software. _<strong>Be aware that the camera&#8217;s default port is 88.</strong>_ I wasted 30 minutes figuring this out, more on what this means later.</p>
 
-<p>I&#8217;ll also show you how to push images to [Sensr.net][4] so you can take advantage of all of our cool features, like 30 days archiving, [no firewall config][5], clip sharing, [embedable live streams][6], [guest access][7], etc.</p>
+<p>I&#8217;ll also show you how to push images to <a href="https://sensr.net">Sensr.net</a> so you can take advantage of all of our cool features, like 30 days archiving, <a href="http://sensr.net/blog/2013/10/24/ip-camera-no-firewall-config/" title="View IP Camera Remotely, No Firewall Config">no firewall config</a>, clip sharing, <a href="http://sensr.net/blog/2011/02/27/embed-your-sensr-net-cameras-live-view/" title="Embed your Sensr.net camera’s live view">embedable live streams</a>, <a href="http://sensr.net/blog/2012/04/11/guest-access-for-sensr-net-cameras/" title="Guest Access for Sensr.net Cameras">guest access</a>, etc.</p>
 
 <p><strong>Overview</strong></p>
 
@@ -104,6 +109,7 @@
 <li>Tell your camera about Sensr.net</li>
 </ol>
 
+<p></p>
                                 <a class="btn btn-custom" href="http://blog.sensr.net/2013/12/10/how-to-configure-a-foscam-fi9821w-v2-from-mac-or-linux/" role="button">Read More</a>
                             </div>
                         </div>
@@ -178,9 +184,9 @@
                     
                         <li><a href="http://blog.sensr.net/categories/network-cameras">network-cameras</a></li>
                     
-                        <li><a href="http://blog.sensr.net/categories/social-networks">social-networks</a></li>
-                    
                         <li><a href="http://blog.sensr.net/categories/camera-setup">camera-setup</a></li>
+                    
+                        <li><a href="http://blog.sensr.net/categories/social-networks">social-networks</a></li>
                     
                 </ul>
             </div>

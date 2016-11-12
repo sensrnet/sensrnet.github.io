@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Support on Sensr.net Blog | Watch your Stuff!</title>
-    <link>http://blog.sensr.net/categories/support/</link>
-    <description>Recent content in Support on Sensr.net Blog | Watch your Stuff!</description>
+    <title>Sensr.net Blog | Watch your Stuff!</title>
+    <link>http://blog.sensr.net/categories/support/index.xml</link>
+    <description>Recent content on Sensr.net Blog | Watch your Stuff!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Feb 2016 13:26:48 +0000</lastBuildDate>
     <atom:link href="http://blog.sensr.net/categories/support/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -17,8 +16,9 @@
       <guid>http://blog.sensr.net/2016/02/29/security-camera-offline/</guid>
       <description>&lt;p&gt;Sensr.net shows cameras as offline if they haven&amp;rsquo;t uploaded an image in the last 5 minutes.&lt;/p&gt;
 
-&lt;p&gt;Why does this happen? We recommend that you have your camera upload images continuously to Sensr.net at 1 or 2 snapshots per second. This way you can view the live stream on our site &lt;a href=&#34;http://blog.sensr.net/2013/10/24/ip-camera-no-firewall-config/&#34; title=&#34;View IP Camera Remotely, No Firewall Config&#34;&gt;without opening your firewall&lt;/a&gt;. If you have your camera set to only upload images on motion, then when there is no motion, we&amp;rsquo;ll show your camera as offline.  See this post about &lt;a href=&#34;http://blog.sensr.net/2011/07/25/true-meaning-of-motion-detection-off/&#34; title=&#34;True meaning of motion detection off&#34;&gt;configuring cameras with motion detection&lt;/a&gt; for more details.&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Why does this happen? We recommend that you have your camera upload images continuously to Sensr.net at 1 or 2 snapshots per second. This way you can view the live stream on our site &lt;a href=&#34;http://blog.sensr.net/2013/10/24/ip-camera-no-firewall-config/&#34; title=&#34;View IP Camera Remotely, No Firewall Config&#34;&gt;without opening your firewall&lt;/a&gt;. If you have your camera set to only upload images on motion, then when there is no motion, we&amp;rsquo;ll show your camera as offline.  See this post about &lt;a href=&#34;http://blog.sensr.net/2011/07/25/true-meaning-of-motion-detection-off/&#34; title=&#34;True meaning of motion detection off&#34;&gt;configuring cameras with motion detection&lt;/a&gt; for more details.&lt;/p&gt;</description>
     </item>
     
   </channel>
