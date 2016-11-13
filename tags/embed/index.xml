@@ -14,17 +14,7 @@
       <pubDate>Mon, 17 Feb 2014 05:31:36 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/02/16/how-to-embed-a-live-camera-in-wordpress/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/02/16/how-to-embed-a-live-camera-in-wordpress/&#34; data-text=&#34;How to Embed a Live Camera in WordPress&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;div id=&#34;attachment_2721&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+      <description>&lt;div id=&#34;attachment_2721&#34; style=&#34;width: 310px&#34; class=&#34;wp-caption alignleft&#34;&gt;
   &lt;a href=&#34;http://kiteboardingmiamibeach.com/&#34;&gt;&lt;img alt=&#34;Miami Beach Kiteboarders Foundation live stream via Sensr.net&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/mbkf.png&#34; width=&#34;300&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
@@ -112,17 +102,7 @@ add_shortcode(&#39;sensr&#39;, &#39;get_sensr&#39;);&lt;/pre&gt;
       <pubDate>Wed, 29 Jan 2014 09:56:29 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/01/29/chicken-cam-goes-live/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/01/29/chicken-cam-goes-live/&#34; data-text=&#34;Chickencam Goes Live&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://elizabethschickens.com/&#34; title=&#34;Elizabeths Chickens&#34;&gt;&lt;img class=&#34;alignleft size-full wp-image-2661&#34; alt=&#34;Chickencam&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/Screenshot-2014-01-29-11.53.15.png&#34; width=&#34;849&#34; height=&#34;752&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/Screenshot-2014-01-29-11.53.15.png 849w, http://sensr.net/blog/wp-content/uploads/2014/01/Screenshot-2014-01-29-11.53.15-300x265.png 300w&#34; sizes=&#34;(max-width: 849px) 100vw, 849px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://elizabethschickens.com/&#34; title=&#34;Elizabeths Chickens&#34;&gt;&lt;img class=&#34;alignleft size-full wp-image-2661&#34; alt=&#34;Chickencam&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/Screenshot-2014-01-29-11.53.15.png&#34; width=&#34;849&#34; height=&#34;752&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/Screenshot-2014-01-29-11.53.15.png 849w, http://sensr.net/blog/wp-content/uploads/2014/01/Screenshot-2014-01-29-11.53.15-300x265.png 300w&#34; sizes=&#34;(max-width: 849px) 100vw, 849px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 

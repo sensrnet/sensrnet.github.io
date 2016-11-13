@@ -183,17 +183,7 @@
       <pubDate>Wed, 23 Jul 2014 18:24:08 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/07/23/how-to-setup-the-foscam-fi8919w-with-cloud-recording/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/23/how-to-setup-the-foscam-fi8919w-with-cloud-recording/&#34; data-text=&#34;How to Setup the Foscam FI8919W with Cloud Recording&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;div id=&#34;attachment_2985&#34; style=&#34;width: 428px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+      <description>&lt;div id=&#34;attachment_2985&#34; style=&#34;width: 428px&#34; class=&#34;wp-caption alignleft&#34;&gt;
   &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/61WjJXq7PlL._SL1500_.jpg&#34;&gt;&lt;img class=&#34; wp-image-2985&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/61WjJXq7PlL._SL1500_.jpg&#34; alt=&#34;Foscam FI8919W&#34; width=&#34;418&#34; height=&#34;395&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/61WjJXq7PlL._SL1500_.jpg 1500w, http://sensr.net/blog/wp-content/uploads/2014/07/61WjJXq7PlL._SL1500_-300x283.jpg 300w, http://sensr.net/blog/wp-content/uploads/2014/07/61WjJXq7PlL._SL1500_-1024x967.jpg 1024w&#34; sizes=&#34;(max-width: 418px) 100vw, 418px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
@@ -306,17 +296,7 @@
       <pubDate>Fri, 02 May 2014 00:33:25 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/05/01/how-to-configure-a-foscam-fi9826w/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/05/01/how-to-configure-a-foscam-fi9826w/&#34; data-text=&#34;How to configure a Foscam FI9826W &#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/05/focsamfi9826W.jpg&#34;&gt;&lt;img class=&#34;alignleft wp-image-2809 size-medium&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/05/focsamfi9826W-300x300.jpg&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;300&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/05/focsamfi9826W-300x300.jpg 300w, http://sensr.net/blog/wp-content/uploads/2014/05/focsamfi9826W-150x150.jpg 150w, http://sensr.net/blog/wp-content/uploads/2014/05/focsamfi9826W.jpg 1000w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;The &lt;a href=&#34;http://foscam.us/products/foscam-fi9826w-black-megapixel-wireless-ip-camera.html&#34; title=&#34;Foscam FI9826W&#34;&gt;Foscam FI9826W&lt;/a&gt; is a fun HD night vision camera that goes for &lt;a href=&#34;http://www.amazon.com/Foscam-FI9826W-Megapixel-Wireless-Optical/dp/B00HJYQE8C/sensr-20&#34; title=&#34;FI9827W on Amazon&#34;&gt;about $250 these days on Amazon&lt;/a&gt;.  The instructions come with Windows and Mac setup software, but you really don&amp;#8217;t need it. In this post I&amp;#8217;ll show you how to configure the webcam without the software. _&lt;strong&gt;Be aware that the camera&amp;#8217;s default port is 88.&lt;/strong&gt;_ I wasted 30 minutes figuring this out, more on what this means later.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/05/focsamfi9826W.jpg&#34;&gt;&lt;img class=&#34;alignleft wp-image-2809 size-medium&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/05/focsamfi9826W-300x300.jpg&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;300&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/05/focsamfi9826W-300x300.jpg 300w, http://sensr.net/blog/wp-content/uploads/2014/05/focsamfi9826W-150x150.jpg 150w, http://sensr.net/blog/wp-content/uploads/2014/05/focsamfi9826W.jpg 1000w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;The &lt;a href=&#34;http://foscam.us/products/foscam-fi9826w-black-megapixel-wireless-ip-camera.html&#34; title=&#34;Foscam FI9826W&#34;&gt;Foscam FI9826W&lt;/a&gt; is a fun HD night vision camera that goes for &lt;a href=&#34;http://www.amazon.com/Foscam-FI9826W-Megapixel-Wireless-Optical/dp/B00HJYQE8C/sensr-20&#34; title=&#34;FI9827W on Amazon&#34;&gt;about $250 these days on Amazon&lt;/a&gt;.  The instructions come with Windows and Mac setup software, but you really don&amp;#8217;t need it. In this post I&amp;#8217;ll show you how to configure the webcam without the software. _&lt;strong&gt;Be aware that the camera&amp;#8217;s default port is 88.&lt;/strong&gt;_ I wasted 30 minutes figuring this out, more on what this means later.&lt;/p&gt;
 
 &lt;p&gt;I&amp;#8217;ll also show you how to push images to &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt; so you can take advantage of all of our cool features, like 30 days archiving, &lt;a href=&#34;http://sensr.net/blog/2013/10/24/ip-camera-no-firewall-config/&#34; title=&#34;View IP Camera Remotely, No Firewall Config&#34;&gt;no firewall config&lt;/a&gt;, &lt;a href=&#34;http://sensr.net/blog/2014/04/29/making-clips-on-sensr-net/&#34; title=&#34;Make and share clips&#34;&gt;clip sharing&lt;/a&gt;, &lt;a href=&#34;http://sensr.net/blog/2011/02/27/embed-your-sensr-net-cameras-live-view/&#34; title=&#34;Embed your Sensr.net camera’s live view&#34;&gt;embedable live streams&lt;/a&gt;, &lt;a href=&#34;http://sensr.net/blog/2012/04/11/guest-access-for-sensr-net-cameras/&#34; title=&#34;Guest Access for Sensr.net Cameras&#34;&gt;guest access&lt;/a&gt;, etc.&lt;/p&gt;
 
@@ -485,17 +465,7 @@
       <pubDate>Fri, 07 Mar 2014 16:53:21 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/03/07/video-how-to-get-your-foscam-fi8904-on-sensr-net/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/03/07/video-how-to-get-your-foscam-fi8904-on-sensr-net/&#34; data-text=&#34;Video How To:  Get your Foscam FI8904 on Sensr.net&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&#34;http://techytenor.com/&#34; title=&#34;Techy Tenor&#34;&gt;Techy Tenor&lt;/a&gt; shows how to connect the &lt;a href=&#34;http://www.amazon.com/Foscam-FI8910W-Network-Camera-Two-Way/dp/B006ZP8UOW/sensr-20&#34; title=&#34;Buy Foscam FI8910W on Amazon&#34;&gt;Foscam FI8904W&lt;/a&gt; outdoor wireless camera to &lt;a href=&#34;https://sensr.net&#34; title=&#34;Watch your stuff!&#34;&gt;Sensr.net&lt;/a&gt;. This is the same camera used in for the &lt;a href=&#34;http://elizabethschickens.com/&#34; title=&#34;Chickencam&#34;&gt;ChickenCam&lt;/a&gt; which we &lt;a href=&#34;http://sensr.net/blog/2014/01/29/chicken-cam-goes-live/&#34; title=&#34;ChickenCam comes to Sensr.net&#34;&gt;mentioned back in January&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;The &lt;a href=&#34;http://techytenor.com/&#34; title=&#34;Techy Tenor&#34;&gt;Techy Tenor&lt;/a&gt; shows how to connect the &lt;a href=&#34;http://www.amazon.com/Foscam-FI8910W-Network-Camera-Two-Way/dp/B006ZP8UOW/sensr-20&#34; title=&#34;Buy Foscam FI8910W on Amazon&#34;&gt;Foscam FI8904W&lt;/a&gt; outdoor wireless camera to &lt;a href=&#34;https://sensr.net&#34; title=&#34;Watch your stuff!&#34;&gt;Sensr.net&lt;/a&gt;. This is the same camera used in for the &lt;a href=&#34;http://elizabethschickens.com/&#34; title=&#34;Chickencam&#34;&gt;ChickenCam&lt;/a&gt; which we &lt;a href=&#34;http://sensr.net/blog/2014/01/29/chicken-cam-goes-live/&#34; title=&#34;ChickenCam comes to Sensr.net&#34;&gt;mentioned back in January&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;A big thanks to &lt;a href=&#34;http://techytenor.com/&#34; title=&#34;The Techy Tenor&#34;&gt;Christian the Techy Tenor&lt;/a&gt; for putting together this informative and fun video!&lt;/p&gt;
 
@@ -509,17 +479,7 @@
       <pubDate>Fri, 24 Jan 2014 23:01:29 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/01/24/stolen-camera-continues-uploading-to-sensr-net/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/01/24/stolen-camera-continues-uploading-to-sensr-net/&#34; data-text=&#34;Stolen Camera Continues Uploading to Sensr.net&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;[&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
+      <description>&lt;p&gt;[&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
   &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
     &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/01/24/stolen-camera-continues-uploading-to-sensr-net/&#34; data-text=&#34;Stolen Camera Continues Uploading to Sensr.net&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
   &lt;/div&gt;&lt;/p&gt;
@@ -548,17 +508,7 @@
       <pubDate>Tue, 10 Dec 2013 23:02:16 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2013/12/10/how-to-configure-a-foscam-fi9821w-v2-from-mac-or-linux/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2013/12/10/how-to-configure-a-foscam-fi9821w-v2-from-mac-or-linux/&#34; data-text=&#34;How to configure a Foscam FI9821W V2 from Mac or Linux&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-2577 alignleft&#34; alt=&#34;Foscam FI9821W V2&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black.jpg&#34; width=&#34;160&#34; height=&#34;160&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black.jpg 160w, http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black-150x150.jpg 150w&#34; sizes=&#34;(max-width: 160px) 100vw, 160px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-2577 alignleft&#34; alt=&#34;Foscam FI9821W V2&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black.jpg&#34; width=&#34;160&#34; height=&#34;160&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black.jpg 160w, http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black-150x150.jpg 150w&#34; sizes=&#34;(max-width: 160px) 100vw, 160px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;The &lt;a href=&#34;http://www.amazon.com/Foscam-FI9821W-Megapixel-Wireless-Camera/dp/B00F3KWZW8/sensr-20&#34; title=&#34;Foscam FI9821W V2&#34;&gt;Foscam FI9821W V2 IP camera&lt;/a&gt; is super popular these days. It&amp;#8217;s about $150 on &lt;a href=&#34;http://www.amazon.com/Foscam-FI9821W-Megapixel-Wireless-Camera/dp/B00F3KWZW8/sensr-20&#34; title=&#34;Buy FI9821W V2 on Amazon&#34;&gt;Amazon right now&lt;/a&gt;. The instructions come with Windows and Mac setup software, but you really don&amp;#8217;t need it. In this post I&amp;#8217;ll show you how to configure the webcam without the software. _&lt;strong&gt;Be aware that the camera&amp;#8217;s default port is 88.&lt;/strong&gt;_ I wasted 30 minutes figuring this out, more on what this means later.&lt;/p&gt;
 
@@ -735,17 +685,7 @@
       <pubDate>Sat, 30 Nov 2013 13:27:23 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2013/11/30/great-deal-foscam-fi9821w-v2/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2013/11/30/great-deal-foscam-fi9821w-v2/&#34; data-text=&#34;Great Deal on Foscam FI9821W V2 only $95&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.amazon.com/Foscam-FI9821W-Megapixel-Wireless-Camera/dp/B00F3KWZW8/sensr-20&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2577&#34; alt=&#34;Foscam FI9821W V2&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black.jpg&#34; width=&#34;160&#34; height=&#34;160&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black.jpg 160w, http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black-150x150.jpg 150w&#34; sizes=&#34;(max-width: 160px) 100vw, 160px&#34; /&gt;&lt;/a&gt;We usually buy our cameras from &lt;a href=&#34;http://www.amazon.com/Foscam-FI9821W-Megapixel-Wireless-Camera/dp/B00F3KWZW8/sensr-20&#34; target=&#34;_blank&#34;&gt;Amazon&lt;/a&gt; but &lt;a href=&#34;http://slickdeals.net/permadeal/107748/ebay---foscam-v2-720p-wireless-ip-surveillance-camera-black-or-white&#34; target=&#34;_blank&#34;&gt;this EBay deal &lt;/a&gt;seems too good to pass up.  You get a black or white version of the latest Foscam FI9821W V2 for only $95 including shipping.  This can&amp;#8217;t last.  Get em while they&amp;#8217;re hot.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.amazon.com/Foscam-FI9821W-Megapixel-Wireless-Camera/dp/B00F3KWZW8/sensr-20&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-2577&#34; alt=&#34;Foscam FI9821W V2&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black.jpg&#34; width=&#34;160&#34; height=&#34;160&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black.jpg 160w, http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black-150x150.jpg 150w&#34; sizes=&#34;(max-width: 160px) 100vw, 160px&#34; /&gt;&lt;/a&gt;We usually buy our cameras from &lt;a href=&#34;http://www.amazon.com/Foscam-FI9821W-Megapixel-Wireless-Camera/dp/B00F3KWZW8/sensr-20&#34; target=&#34;_blank&#34;&gt;Amazon&lt;/a&gt; but &lt;a href=&#34;http://slickdeals.net/permadeal/107748/ebay---foscam-v2-720p-wireless-ip-surveillance-camera-black-or-white&#34; target=&#34;_blank&#34;&gt;this EBay deal &lt;/a&gt;seems too good to pass up.  You get a black or white version of the latest Foscam FI9821W V2 for only $95 including shipping.  This can&amp;#8217;t last.  Get em while they&amp;#8217;re hot.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://slickdeals.net/permadeal/107748/ebay---foscam-v2-720p-wireless-ip-surveillance-camera-black-or-white&#34;&gt;http://slickdeals.net/permadeal/107748/ebay&amp;#8212;foscam-v2-720p-wireless-ip-surveillance-camera-black-or-white&lt;/a&gt;&lt;/p&gt;
 
@@ -759,17 +699,7 @@
       <pubDate>Mon, 18 Jun 2012 19:18:13 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2012/06/18/top-3-outdoor-network-cameras-for-home-business/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2012/06/18/top-3-outdoor-network-cameras-for-home-business/&#34; data-text=&#34;Top 3 Outdoor Network Cameras for Home &amp; Business&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;1-y-cam-bullet-hd-450-on-sale&#34;&gt;&lt;strong&gt;1. Y-Cam Bullet HD- ~$450 (on sale)&lt;/strong&gt;&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;1-y-cam-bullet-hd-450-on-sale&#34;&gt;&lt;strong&gt;1. Y-Cam Bullet HD- ~$450 (on sale)&lt;/strong&gt;&lt;/h2&gt;
 
 &lt;p style=&#34;text-align: center;&#34;&gt;
   &lt;a href=&#34;http://www.y-cam.com/y-cam-bullet-hd/&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;wp-image-1823 aligncenter&#34; title=&#34;y-cam bullet HD&#34; src=&#34;http://blog.sensr.net/wp-content/uploads/2012/06/y-cam-bullet-HD-1024x766.jpg&#34; alt=&#34;Y-Cam Bullet HD on Sensr.net&#34; width=&#34;512&#34; height=&#34;382&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2012/06/y-cam-bullet-HD-1024x766.jpg 1024w, http://sensr.net/blog/wp-content/uploads/2012/06/y-cam-bullet-HD-300x224.jpg 300w, http://sensr.net/blog/wp-content/uploads/2012/06/y-cam-bullet-HD.jpg 1301w&#34; sizes=&#34;(max-width: 512px) 100vw, 512px&#34; /&gt;&lt;/a&gt;
@@ -843,17 +773,7 @@
       <pubDate>Thu, 01 Mar 2012 01:49:49 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2012/02/29/tuning-foscam-fi8910w-ftp-settings/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2012/02/29/tuning-foscam-fi8910w-ftp-settings/&#34; data-text=&#34;Tuning Foscam FI8910W FTP Settings&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://sensr.net/clips/1315&#34;&gt;&lt;img class=&#34;aligncenter&#34; title=&#34;Testing Foscam FI8910W&#34; src=&#34;https://s3.amazonaws.com/sensrnet-cams/e0c7f165bd7f1a92dd2479b9e5829a4d7ce30106.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;480&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://sensr.net/clips/1315&#34;&gt;&lt;img class=&#34;aligncenter&#34; title=&#34;Testing Foscam FI8910W&#34; src=&#34;https://s3.amazonaws.com/sensrnet-cams/e0c7f165bd7f1a92dd2479b9e5829a4d7ce30106.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;480&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;The &lt;a href=&#34;http://www.amazon.com/Foscam-FI8910W-Wireless-Network-Camera/dp/B006ZP8UOW/sensr-20&#34; title=&#34;FI8910W on Amazon&#34;&gt;Foscam FI8910W&lt;/a&gt; is the new model from Foscam with an IR Cut so the color of the daytime images are true to life. This is a nice improvement over the previous Foscam night vision models like the &lt;a href=&#34;https://sensr.net/foscam-fi8918w&#34; target=&#34;_blank&#34;&gt;FI8918W&lt;/a&gt;. (BTW, why does the newer model have a lower model number?)&lt;/p&gt;
 
@@ -904,17 +824,7 @@
       <pubDate>Wed, 01 Feb 2012 23:55:19 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2012/02/01/new-foscam-fi8910w-available-on-amazon/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2012/02/01/new-foscam-fi8910w-available-on-amazon/&#34; data-text=&#34;New Foscam FI8910W Available on Amazon&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center;&#34;&gt;
+      <description>&lt;p style=&#34;text-align: center;&#34;&gt;
   &lt;a href=&#34;http://blog.sensr.net/wp-content/uploads/2012/02/FoscamFI8910W.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1333&#34; title=&#34;FoscamFI8910W&#34; src=&#34;http://blog.sensr.net/wp-content/uploads/2012/02/FoscamFI8910W.jpg&#34; alt=&#34;Foscam FI8910W&#34; width=&#34;270&#34; height=&#34;270&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2012/02/FoscamFI8910W.jpg 300w, http://sensr.net/blog/wp-content/uploads/2012/02/FoscamFI8910W-150x150.jpg 150w&#34; sizes=&#34;(max-width: 270px) 100vw, 270px&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 
@@ -934,17 +844,7 @@
       <pubDate>Tue, 18 Oct 2011 16:47:13 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2011/10/18/win-a-foscam-fi8918w-by-liking-sensr-net-on-facebook/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/10/18/win-a-foscam-fi8918w-by-liking-sensr-net-on-facebook/&#34; data-text=&#34;Win a Foscam FI8918W by Liking Sensr.net on Facebook&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;[][1]&lt;a href=&#34;http://blog.sensr.net/wp-content/uploads/2011/10/SensrFoscamFi8918WFacebook1.png&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1109&#34; title=&#34;SensrFoscamFi8918WFacebook&#34; src=&#34;http://blog.sensr.net/wp-content/uploads/2011/10/SensrFoscamFi8918WFacebook1.png&#34; alt=&#34;Foscam Fi8918W free from Sensr.net Facebook&#34; width=&#34;609&#34; height=&#34;163&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2011/10/SensrFoscamFi8918WFacebook1.png 609w, http://sensr.net/blog/wp-content/uploads/2011/10/SensrFoscamFi8918WFacebook1-300x80.png 300w&#34; sizes=&#34;(max-width: 609px) 100vw, 609px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;[][1]&lt;a href=&#34;http://blog.sensr.net/wp-content/uploads/2011/10/SensrFoscamFi8918WFacebook1.png&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1109&#34; title=&#34;SensrFoscamFi8918WFacebook&#34; src=&#34;http://blog.sensr.net/wp-content/uploads/2011/10/SensrFoscamFi8918WFacebook1.png&#34; alt=&#34;Foscam Fi8918W free from Sensr.net Facebook&#34; width=&#34;609&#34; height=&#34;163&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2011/10/SensrFoscamFi8918WFacebook1.png 609w, http://sensr.net/blog/wp-content/uploads/2011/10/SensrFoscamFi8918WFacebook1-300x80.png 300w&#34; sizes=&#34;(max-width: 609px) 100vw, 609px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;[]&lt;a href=&#34;http://blog.sensr.net/wp-content/uploads/2011/10/SensrFoscamFi8918WFacebook.png&#34;&gt;1&lt;/a&gt;&lt;/p&gt;
 
@@ -958,17 +858,7 @@
       <pubDate>Wed, 14 Sep 2011 23:11:47 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2011/09/14/foscam-fi8918w-2-pack-network-camera-deal-of-the-day/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/09/14/foscam-fi8918w-2-pack-network-camera-deal-of-the-day/&#34; data-text=&#34;Foscam FI8918W 2-Pack: Network Camera Deal of the Day&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p style=&#34;text-align: left;&#34;&gt;
+      <description>&lt;p style=&#34;text-align: left;&#34;&gt;
   &lt;a href=&#34;http://www.amazon.com/exec/obidos/ASIN/B0052VCQBS/sensr-20 &#34;&gt;&lt;img class=&#34;aligncenter&#34; title=&#34;Foscam FI8918W on Sale&#34; src=&#34;http://ecx.images-amazon.com/images/I/31TJjsiLrgL._SL500_AA300_.jpg&#34; alt=&#34;Sensr.net Network Camera Deal of the Day: Foscam FI8918W on sale @ Amazon&#34; width=&#34;234&#34; height=&#34;234&#34; /&gt;&lt;/a&gt;Right now you can pick up two Foscam Fi8918W&amp;#8217;s for $161, normally priced at $220. We&amp;#8217;ve got instructions on &lt;a href=&#34;http://blog.sensr.net/2011/02/08/configure-your-foscam-fi8918w-for-ftp/&#34;&gt;how to set up the Foscam FI8919W&lt;/a&gt; to your router, as well as &lt;a href=&#34;http://sensr.net&#34;&gt;Sensr.net&lt;/a&gt;. These Foscam&amp;#8217;s are a great starter kit for those becoming interested in network cameras &amp;#8211; they&amp;#8217;re cheap, not too hard to setup, wireless and have night vision. 
   
   &lt;strong&gt; &lt;/strong&gt;
@@ -1059,17 +949,7 @@
       <pubDate>Wed, 03 Aug 2011 21:35:44 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2011/08/03/setting-up-the-foscam-fi8909w-on-windows/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/08/03/setting-up-the-foscam-fi8909w-on-windows/&#34; data-text=&#34;Setting up the Foscam FI8909W on Windows&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;size-full wp-image-552 alignleft&#34; src=&#34;http://blog.sensr.net/wp-content/uploads/2011/08/foscam.jpg&#34; alt=&#34;Foscam FI8909W for PC on Sensr.net&#34; width=&#34;224&#34; height=&#34;224&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2011/08/foscam.jpg 400w, http://sensr.net/blog/wp-content/uploads/2011/08/foscam-150x150.jpg 150w, http://sensr.net/blog/wp-content/uploads/2011/08/foscam-300x300.jpg 300w&#34; sizes=&#34;(max-width: 224px) 100vw, 224px&#34; /&gt;&lt;span style=&#34;color: #444444;font-size: 16px;line-height: 24px&#34;&gt;Foscam&amp;#8217;s &lt;a href=&#34;http://t.co/ATs9Xvo&#34;&gt;FI8909W&lt;/a&gt; is a relatively inexpensive IP camera that offers a variety of features, including built-in motion detection and fairly good night-vision capabilities. It comes with a handy little CD-ROM which contains the user guide, installation manual and a program that detects all Foscam cameras on the network. As a bonus, the Foscam CD also includes setup software for Mac, and in a .jar file if you want it on your phone; a big step up from the Windows-only installers that abound in the IP camera world. Of course, it&amp;#8217;s entirely possible to set up your camera without using the provided software, if you&amp;#8217;re loath to install random bloatware on your machine. This blog post is here to guide you through whatever setup process you should decide to take.&lt;/span&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img class=&#34;size-full wp-image-552 alignleft&#34; src=&#34;http://blog.sensr.net/wp-content/uploads/2011/08/foscam.jpg&#34; alt=&#34;Foscam FI8909W for PC on Sensr.net&#34; width=&#34;224&#34; height=&#34;224&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2011/08/foscam.jpg 400w, http://sensr.net/blog/wp-content/uploads/2011/08/foscam-150x150.jpg 150w, http://sensr.net/blog/wp-content/uploads/2011/08/foscam-300x300.jpg 300w&#34; sizes=&#34;(max-width: 224px) 100vw, 224px&#34; /&gt;&lt;span style=&#34;color: #444444;font-size: 16px;line-height: 24px&#34;&gt;Foscam&amp;#8217;s &lt;a href=&#34;http://t.co/ATs9Xvo&#34;&gt;FI8909W&lt;/a&gt; is a relatively inexpensive IP camera that offers a variety of features, including built-in motion detection and fairly good night-vision capabilities. It comes with a handy little CD-ROM which contains the user guide, installation manual and a program that detects all Foscam cameras on the network. As a bonus, the Foscam CD also includes setup software for Mac, and in a .jar file if you want it on your phone; a big step up from the Windows-only installers that abound in the IP camera world. Of course, it&amp;#8217;s entirely possible to set up your camera without using the provided software, if you&amp;#8217;re loath to install random bloatware on your machine. This blog post is here to guide you through whatever setup process you should decide to take.&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;If you are using a Mac, see the blog post on &lt;a href=&#34;http://blog.sensr.net/2011/02/19/configure-foscam-fi8905w-for-sensr-net-ftp/&#34;&gt;configuring the Foscam FI8905W for Mac/OS X&lt;/a&gt;.&lt;/p&gt;
 
@@ -1182,17 +1062,7 @@
       <pubDate>Sun, 20 Feb 2011 02:59:00 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2011/02/19/configure-foscam-fi8905w-for-sensr-net-ftp/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/19/configure-foscam-fi8905w-for-sensr-net-ftp/&#34; data-text=&#34;Configure Foscam FI8905W for Sensr.net FTP&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
+      <description>&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
   &lt;a style=&#34;clear: left; float: left; margin-bottom: 1em; margin-right: 1em;&#34; href=&#34;http://www.amazon.com/gp/product/B003YUEF0E?ie=UTF8&amp;tag=sensr-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B003YUEF0E&#34;&gt;&lt;img class=&#34;alignleft&#34; style=&#34;border: 0pt none;&#34; title=&#34;Foscam FI8905W on Sensr.net&#34; src=&#34;http://ecx.images-amazon.com/images/I/417HbyuzGLL._SL500_AA300_.jpg&#34; border=&#34;0&#34; alt=&#34;Foscam FI8905W on Sensr.net via Amazon&#34; width=&#34;200&#34; height=&#34;200&#34; /&gt;&lt;/a&gt;
 &lt;/div&gt;
 

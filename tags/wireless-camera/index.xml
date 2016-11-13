@@ -14,17 +14,7 @@
       <pubDate>Wed, 05 Feb 2014 00:12:17 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/02/04/howto-setup-d-link-dcs-5010l-recording-with-ftp/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/02/04/howto-setup-d-link-dcs-5010l-recording-with-ftp/&#34; data-text=&#34;HOWTO Setup D-Link DCS-5010L Recording with FTP&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;div id=&#34;attachment_2694&#34; style=&#34;width: 386px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+      <description>&lt;div id=&#34;attachment_2694&#34; style=&#34;width: 386px&#34; class=&#34;wp-caption alignleft&#34;&gt;
   &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/DCS-5010L.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-2694&#34; alt=&#34;D-Link 5010L&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/DCS-5010L.jpg&#34; width=&#34;376&#34; height=&#34;450&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/DCS-5010L.jpg 376w, http://sensr.net/blog/wp-content/uploads/2014/02/DCS-5010L-250x300.jpg 250w&#34; sizes=&#34;(max-width: 376px) 100vw, 376px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
@@ -158,17 +148,7 @@
       <pubDate>Fri, 24 Jun 2011 18:39:08 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2011/06/24/axis-m1011-firmware-upgrade-for-http-upload/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/06/24/axis-m1011-firmware-upgrade-for-http-upload/&#34; data-text=&#34;Axis M1011 Firmware Upgrade for HTTP Upload&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;Though a little used feature, Sensr.net support upload of images via HTTP. (Most of the cameras connected to the site use FTP.)  One of the few cameras that supports this upload option is the Axis M1011.&lt;/p&gt;
+      <description>&lt;p&gt;Though a little used feature, Sensr.net support upload of images via HTTP. (Most of the cameras connected to the site use FTP.)  One of the few cameras that supports this upload option is the Axis M1011.&lt;/p&gt;
 
 &lt;p&gt;We had an Axis M1011 in the office that was presenting intermittent errors.  The system log in the camera reported the cryptic error:&lt;/p&gt;
 
@@ -208,17 +188,7 @@
       <pubDate>Fri, 27 May 2011 05:22:28 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2011/05/26/howto-make-cheap-network-camera-enclosure/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/05/26/howto-make-cheap-network-camera-enclosure/&#34; data-text=&#34;HOWTO Make a Cheap Network Camera Enclosure&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;div id=&#39;gallery-1&#39; class=&#39;gallery galleryid-129 gallery-columns-3 gallery-size-thumbnail&#39;&gt;
+      <description>&lt;div id=&#39;gallery-1&#39; class=&#39;gallery galleryid-129 gallery-columns-3 gallery-size-thumbnail&#39;&gt;
   &lt;dl class=&#39;gallery-item&#39;&gt;
     &lt;dt class=&#39;gallery-icon portrait&#39;&gt;
       &lt;a href=&#39;http://sensr.net/blog/wp-content/uploads/2011/05/IMG_0470-e1306471506960.jpg&#39;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2011/05/IMG_0470-e1306471506960-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;How To Make a Network Camera Enclosure on Sensr.net blog&#34; /&gt;&lt;/a&gt;

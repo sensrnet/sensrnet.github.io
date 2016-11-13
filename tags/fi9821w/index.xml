@@ -183,17 +183,7 @@
       <pubDate>Fri, 02 May 2014 00:33:25 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/05/01/how-to-configure-a-foscam-fi9826w/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/05/01/how-to-configure-a-foscam-fi9826w/&#34; data-text=&#34;How to configure a Foscam FI9826W &#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/05/focsamfi9826W.jpg&#34;&gt;&lt;img class=&#34;alignleft wp-image-2809 size-medium&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/05/focsamfi9826W-300x300.jpg&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;300&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/05/focsamfi9826W-300x300.jpg 300w, http://sensr.net/blog/wp-content/uploads/2014/05/focsamfi9826W-150x150.jpg 150w, http://sensr.net/blog/wp-content/uploads/2014/05/focsamfi9826W.jpg 1000w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;The &lt;a href=&#34;http://foscam.us/products/foscam-fi9826w-black-megapixel-wireless-ip-camera.html&#34; title=&#34;Foscam FI9826W&#34;&gt;Foscam FI9826W&lt;/a&gt; is a fun HD night vision camera that goes for &lt;a href=&#34;http://www.amazon.com/Foscam-FI9826W-Megapixel-Wireless-Optical/dp/B00HJYQE8C/sensr-20&#34; title=&#34;FI9827W on Amazon&#34;&gt;about $250 these days on Amazon&lt;/a&gt;.  The instructions come with Windows and Mac setup software, but you really don&amp;#8217;t need it. In this post I&amp;#8217;ll show you how to configure the webcam without the software. _&lt;strong&gt;Be aware that the camera&amp;#8217;s default port is 88.&lt;/strong&gt;_ I wasted 30 minutes figuring this out, more on what this means later.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/05/focsamfi9826W.jpg&#34;&gt;&lt;img class=&#34;alignleft wp-image-2809 size-medium&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/05/focsamfi9826W-300x300.jpg&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;300&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/05/focsamfi9826W-300x300.jpg 300w, http://sensr.net/blog/wp-content/uploads/2014/05/focsamfi9826W-150x150.jpg 150w, http://sensr.net/blog/wp-content/uploads/2014/05/focsamfi9826W.jpg 1000w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;The &lt;a href=&#34;http://foscam.us/products/foscam-fi9826w-black-megapixel-wireless-ip-camera.html&#34; title=&#34;Foscam FI9826W&#34;&gt;Foscam FI9826W&lt;/a&gt; is a fun HD night vision camera that goes for &lt;a href=&#34;http://www.amazon.com/Foscam-FI9826W-Megapixel-Wireless-Optical/dp/B00HJYQE8C/sensr-20&#34; title=&#34;FI9827W on Amazon&#34;&gt;about $250 these days on Amazon&lt;/a&gt;.  The instructions come with Windows and Mac setup software, but you really don&amp;#8217;t need it. In this post I&amp;#8217;ll show you how to configure the webcam without the software. _&lt;strong&gt;Be aware that the camera&amp;#8217;s default port is 88.&lt;/strong&gt;_ I wasted 30 minutes figuring this out, more on what this means later.&lt;/p&gt;
 
 &lt;p&gt;I&amp;#8217;ll also show you how to push images to &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt; so you can take advantage of all of our cool features, like 30 days archiving, &lt;a href=&#34;http://sensr.net/blog/2013/10/24/ip-camera-no-firewall-config/&#34; title=&#34;View IP Camera Remotely, No Firewall Config&#34;&gt;no firewall config&lt;/a&gt;, &lt;a href=&#34;http://sensr.net/blog/2014/04/29/making-clips-on-sensr-net/&#34; title=&#34;Make and share clips&#34;&gt;clip sharing&lt;/a&gt;, &lt;a href=&#34;http://sensr.net/blog/2011/02/27/embed-your-sensr-net-cameras-live-view/&#34; title=&#34;Embed your Sensr.net camera’s live view&#34;&gt;embedable live streams&lt;/a&gt;, &lt;a href=&#34;http://sensr.net/blog/2012/04/11/guest-access-for-sensr-net-cameras/&#34; title=&#34;Guest Access for Sensr.net Cameras&#34;&gt;guest access&lt;/a&gt;, etc.&lt;/p&gt;
 
@@ -362,17 +352,7 @@
       <pubDate>Tue, 10 Dec 2013 23:02:16 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2013/12/10/how-to-configure-a-foscam-fi9821w-v2-from-mac-or-linux/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2013/12/10/how-to-configure-a-foscam-fi9821w-v2-from-mac-or-linux/&#34; data-text=&#34;How to configure a Foscam FI9821W V2 from Mac or Linux&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-2577 alignleft&#34; alt=&#34;Foscam FI9821W V2&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black.jpg&#34; width=&#34;160&#34; height=&#34;160&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black.jpg 160w, http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black-150x150.jpg 150w&#34; sizes=&#34;(max-width: 160px) 100vw, 160px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-2577 alignleft&#34; alt=&#34;Foscam FI9821W V2&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black.jpg&#34; width=&#34;160&#34; height=&#34;160&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black.jpg 160w, http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black-150x150.jpg 150w&#34; sizes=&#34;(max-width: 160px) 100vw, 160px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;The &lt;a href=&#34;http://www.amazon.com/Foscam-FI9821W-Megapixel-Wireless-Camera/dp/B00F3KWZW8/sensr-20&#34; title=&#34;Foscam FI9821W V2&#34;&gt;Foscam FI9821W V2 IP camera&lt;/a&gt; is super popular these days. It&amp;#8217;s about $150 on &lt;a href=&#34;http://www.amazon.com/Foscam-FI9821W-Megapixel-Wireless-Camera/dp/B00F3KWZW8/sensr-20&#34; title=&#34;Buy FI9821W V2 on Amazon&#34;&gt;Amazon right now&lt;/a&gt;. The instructions come with Windows and Mac setup software, but you really don&amp;#8217;t need it. In this post I&amp;#8217;ll show you how to configure the webcam without the software. _&lt;strong&gt;Be aware that the camera&amp;#8217;s default port is 88.&lt;/strong&gt;_ I wasted 30 minutes figuring this out, more on what this means later.&lt;/p&gt;
 

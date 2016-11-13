@@ -14,17 +14,7 @@
       <pubDate>Fri, 24 Jun 2011 18:39:08 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2011/06/24/axis-m1011-firmware-upgrade-for-http-upload/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/06/24/axis-m1011-firmware-upgrade-for-http-upload/&#34; data-text=&#34;Axis M1011 Firmware Upgrade for HTTP Upload&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;Though a little used feature, Sensr.net support upload of images via HTTP. (Most of the cameras connected to the site use FTP.)  One of the few cameras that supports this upload option is the Axis M1011.&lt;/p&gt;
+      <description>&lt;p&gt;Though a little used feature, Sensr.net support upload of images via HTTP. (Most of the cameras connected to the site use FTP.)  One of the few cameras that supports this upload option is the Axis M1011.&lt;/p&gt;
 
 &lt;p&gt;We had an Axis M1011 in the office that was presenting intermittent errors.  The system log in the camera reported the cryptic error:&lt;/p&gt;
 

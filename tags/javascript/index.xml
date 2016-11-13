@@ -14,17 +14,7 @@
       <pubDate>Tue, 08 Mar 2011 14:53:00 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2011/03/08/build-your-own-sensr-apps-using-the-javascript-client/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/03/08/build-your-own-sensr-apps-using-the-javascript-client/&#34; data-text=&#34;Build your own Sensr Apps using the Javascript Client&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;div style=&#34;text-align: left;&#34; dir=&#34;ltr&#34;&gt;
+      <description>&lt;div style=&#34;text-align: left;&#34; dir=&#34;ltr&#34;&gt;
   &lt;div style=&#34;text-align: left;&#34; dir=&#34;ltr&#34;&gt;
     Sensr.net is committed to making your image data available to you for building your own apps and browser-based mash-ups.  To further this goal, we&amp;#8217;ve released our first version of the Javascript client for Sensr.net.  This package makes it easy to call Sensr.net functions from your own webpages.
   &lt;/div&gt;

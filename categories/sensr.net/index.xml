@@ -150,17 +150,7 @@
       <pubDate>Mon, 14 Jul 2014 16:52:22 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/07/14/how-to-setup-the-y-cam-bullet-hd-with-cloud-recording/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/14/how-to-setup-the-y-cam-bullet-hd-with-cloud-recording/&#34; data-text=&#34;How to setup the Y-cam Bullet HD 1080 with Cloud Recording&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+      <description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2967&#34; style=&#34;width: 444px&#34; class=&#34;wp-caption alignleft&#34;&gt;
   &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Y-cam-Bullet-HD-1080-1.jpg&#34;&gt;&lt;img class=&#34; wp-image-2967&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Y-cam-Bullet-HD-1080-1.jpg&#34; alt=&#34;Absolutely stunning&#34; width=&#34;434&#34; height=&#34;434&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/Y-cam-Bullet-HD-1080-1.jpg 1500w, http://sensr.net/blog/wp-content/uploads/2014/07/Y-cam-Bullet-HD-1080-1-150x150.jpg 150w, http://sensr.net/blog/wp-content/uploads/2014/07/Y-cam-Bullet-HD-1080-1-300x300.jpg 300w, http://sensr.net/blog/wp-content/uploads/2014/07/Y-cam-Bullet-HD-1080-1-1024x1024.jpg 1024w&#34; sizes=&#34;(max-width: 434px) 100vw, 434px&#34; /&gt;&lt;/a&gt;
@@ -316,17 +306,7 @@
       <pubDate>Tue, 08 Jul 2014 16:21:14 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/07/08/download-images-from-sensr-net/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/&#34; data-text=&#34;Download Images From Sensr.net &#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://flic.kr/p/5Yrhye&#34;&gt;&lt;img class=&#34;alignleft  wp-image-2923&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&#34; alt=&#34;Full Moon Mystery&#34; width=&#34;245&#34; height=&#34;368&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&#34; sizes=&#34;(max-width: 245px) 100vw, 245px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://flic.kr/p/5Yrhye&#34;&gt;&lt;img class=&#34;alignleft  wp-image-2923&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&#34; alt=&#34;Full Moon Mystery&#34; width=&#34;245&#34; height=&#34;368&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&#34; sizes=&#34;(max-width: 245px) 100vw, 245px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;#8217;ve marked them as a favorite or &lt;a href=&#34;http://sensr.net/blog/2014/04/29/making-clips-on-sensr-net/&#34; title=&#34;Making Clips on Sensr.net&#34;&gt;made a clip&lt;/a&gt;. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.&lt;/p&gt;
 
@@ -1010,17 +990,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
       <pubDate>Thu, 03 Jul 2014 17:22:11 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/07/03/how-to-setup-the-tenvis-iprobot3-with-cloud-recording/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/03/how-to-setup-the-tenvis-iprobot3-with-cloud-recording/&#34; data-text=&#34;How to Setup the TENVIS IPROBOT3 with Cloud recording &#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;div id=&#34;attachment_2909&#34; style=&#34;width: 370px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+      <description>&lt;div id=&#34;attachment_2909&#34; style=&#34;width: 370px&#34; class=&#34;wp-caption alignleft&#34;&gt;
   &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/817nvhSq4OL._SL1500_.jpg&#34;&gt;&lt;img class=&#34; wp-image-2909&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/817nvhSq4OL._SL1500_.jpg&#34; alt=&#34;TENVIS IPROBOT3&#34; width=&#34;360&#34; height=&#34;360&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/817nvhSq4OL._SL1500_.jpg 1500w, http://sensr.net/blog/wp-content/uploads/2014/07/817nvhSq4OL._SL1500_-150x150.jpg 150w, http://sensr.net/blog/wp-content/uploads/2014/07/817nvhSq4OL._SL1500_-300x300.jpg 300w, http://sensr.net/blog/wp-content/uploads/2014/07/817nvhSq4OL._SL1500_-1024x1024.jpg 1024w&#34; sizes=&#34;(max-width: 360px) 100vw, 360px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
@@ -1103,17 +1073,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
       <pubDate>Tue, 01 Jul 2014 18:18:32 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/07/01/how-to-setup-the-tenvis-jpt3815w/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/01/how-to-setup-the-tenvis-jpt3815w/&#34; data-text=&#34;How to setup the Tenvis JPT3815W&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;div id=&#34;attachment_2902&#34; style=&#34;width: 428px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+      <description>&lt;div id=&#34;attachment_2902&#34; style=&#34;width: 428px&#34; class=&#34;wp-caption alignleft&#34;&gt;
   &lt;a href=&#34;http://www.amazon.com/gp/product/B006I0KL6Y/ref=olp_product_details?ie=UTF8&amp;me=/sensr-20&#34;&gt;&lt;img class=&#34; wp-image-2902&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/61w0ENL28uL._SL1500_.jpg&#34; alt=&#34;The TENVIS JPT3815W &#34; width=&#34;418&#34; height=&#34;418&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/61w0ENL28uL._SL1500_.jpg 1000w, http://sensr.net/blog/wp-content/uploads/2014/07/61w0ENL28uL._SL1500_-150x150.jpg 150w, http://sensr.net/blog/wp-content/uploads/2014/07/61w0ENL28uL._SL1500_-300x300.jpg 300w&#34; sizes=&#34;(max-width: 418px) 100vw, 418px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
@@ -1214,17 +1174,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
       <pubDate>Mon, 30 Jun 2014 18:30:38 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/06/30/how-to-setup-the-swann-ads-445-camera-for-cloud-recording/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/30/how-to-setup-the-swann-ads-445-camera-for-cloud-recording/&#34; data-text=&#34;How to Setup the Swann ADS-445 Camera for cloud recording&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;div id=&#34;attachment_2895&#34; style=&#34;width: 410px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+      <description>&lt;div id=&#34;attachment_2895&#34; style=&#34;width: 410px&#34; class=&#34;wp-caption alignleft&#34;&gt;
   &lt;a href=&#34;http://www.swann.com/us/swads-445cam&#34;&gt;&lt;img class=&#34;size-full wp-image-2895&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/swads-445cam_1.jpg&#34; alt=&#34;ADS-445 SwannEye HD&#34; width=&#34;400&#34; height=&#34;400&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/swads-445cam_1.jpg 400w, http://sensr.net/blog/wp-content/uploads/2014/06/swads-445cam_1-150x150.jpg 150w, http://sensr.net/blog/wp-content/uploads/2014/06/swads-445cam_1-300x300.jpg 300w&#34; sizes=&#34;(max-width: 400px) 100vw, 400px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
@@ -1372,17 +1322,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
       <pubDate>Fri, 27 Jun 2014 18:47:39 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/06/27/how-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/27/how-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net/&#34; data-text=&#34;How to Setup the D-Link DCS-933L and use it with Sensr.net&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;div id=&#34;attachment_2881&#34; style=&#34;width: 247px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+      <description>&lt;div id=&#34;attachment_2881&#34; style=&#34;width: 247px&#34; class=&#34;wp-caption alignleft&#34;&gt;
   &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/314KTXgcW9L._SY355_.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-2881&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/314KTXgcW9L._SY355_.jpg&#34; alt=&#34;The D-Link DCS-933L&#34; width=&#34;237&#34; height=&#34;355&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/314KTXgcW9L._SY355_.jpg 237w, http://sensr.net/blog/wp-content/uploads/2014/06/314KTXgcW9L._SY355_-200x300.jpg 200w&#34; sizes=&#34;(max-width: 237px) 100vw, 237px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
@@ -1513,17 +1453,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
       <pubDate>Fri, 27 Jun 2014 17:11:50 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/06/27/check-out-our-new-subreddit/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/27/check-out-our-new-subreddit/&#34; data-text=&#34;Check out our new Subreddit!&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;div id=&#34;attachment_2878&#34; style=&#34;width: 370px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+      <description>&lt;div id=&#34;attachment_2878&#34; style=&#34;width: 370px&#34; class=&#34;wp-caption alignleft&#34;&gt;
   &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/images.jpg&#34;&gt;&lt;img class=&#34; wp-image-2878&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/images.jpg&#34; alt=&#34;all hail reddit&#34; width=&#34;360&#34; height=&#34;224&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
@@ -1541,17 +1471,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
       <pubDate>Thu, 26 Jun 2014 17:43:48 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/06/26/how-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/26/how-to-upgrade-your-cctv-system-with-the-srv-epx8-and-sensr-net/&#34; data-text=&#34;How to upgrade your CCTV system with the SRV-EPX8 and Sensr.net&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;div id=&#34;attachment_2860&#34; style=&#34;width: 295px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+      <description>&lt;div id=&#34;attachment_2860&#34; style=&#34;width: 295px&#34; class=&#34;wp-caption alignleft&#34;&gt;
   &lt;a href=&#34;http://shop.sensr.net/products/srv-exp8-eight-port-standalone-video-server-with-built-in-web-server-ethernet-serial-ports-alarm-inputs&#34;&gt;&lt;img class=&#34; wp-image-2860&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/SRV-EXP8.jpg&#34; alt=&#34;Imagine cape blowing in the wind&#34; width=&#34;285&#34; height=&#34;91&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/SRV-EXP8.jpg 820w, http://sensr.net/blog/wp-content/uploads/2014/06/SRV-EXP8-300x95.jpg 300w&#34; sizes=&#34;(max-width: 285px) 100vw, 285px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
@@ -1686,17 +1606,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
       <pubDate>Tue, 24 Jun 2014 15:40:32 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/06/24/the-great-pacific-race-on-sensr-net/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/06/24/the-great-pacific-race-on-sensr-net/&#34; data-text=&#34;The Great Pacific Race on Sensr.net&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;The biggest, baddest human endurance competition on the planet is sharing a &lt;span style=&#34;text-decoration: underline&#34;&gt;&lt;span style=&#34;color: #0000ff&#34;&gt;&lt;a href=&#34;https://sensr.net/users/22662/cameras/46167&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: #0000ff;text-decoration: underline&#34;&gt;camera on sensr.net&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;! The Great Pacific Race is an ocean rowing race from Monterey, California to Honolulu, Hawaii. The competitors have no sails or motors, only their bodies to row them across the biggest ocean in the world! The boats left on June 7th but as they were gearing up and preparing for their journey the Great Pacific Race setup a camera and shared the staging area with the world! You can check out their camera &lt;span style=&#34;text-decoration: underline&#34;&gt;&lt;span style=&#34;color: #0000ff&#34;&gt;&lt;a title=&#34;GPR staging area&#34; href=&#34;https://sensr.net/users/22662/cameras/46167&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: #0000ff;text-decoration: underline&#34;&gt;here&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;The biggest, baddest human endurance competition on the planet is sharing a &lt;span style=&#34;text-decoration: underline&#34;&gt;&lt;span style=&#34;color: #0000ff&#34;&gt;&lt;a href=&#34;https://sensr.net/users/22662/cameras/46167&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: #0000ff;text-decoration: underline&#34;&gt;camera on sensr.net&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;! The Great Pacific Race is an ocean rowing race from Monterey, California to Honolulu, Hawaii. The competitors have no sails or motors, only their bodies to row them across the biggest ocean in the world! The boats left on June 7th but as they were gearing up and preparing for their journey the Great Pacific Race setup a camera and shared the staging area with the world! You can check out their camera &lt;span style=&#34;text-decoration: underline&#34;&gt;&lt;span style=&#34;color: #0000ff&#34;&gt;&lt;a title=&#34;GPR staging area&#34; href=&#34;https://sensr.net/users/22662/cameras/46167&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: #0000ff;text-decoration: underline&#34;&gt;here&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
 

@@ -14,17 +14,7 @@
       <pubDate>Mon, 01 Aug 2011 18:40:21 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2011/08/01/how-to-upload-images-to-sensr/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/08/01/how-to-upload-images-to-sensr/&#34; data-text=&#34;How to Upload Images to Sensr.net&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;Sensr.net&amp;#8217;s server architecture is organized into two main parts.  There are &amp;#8220;Front-End&amp;#8221; webservers that handle browser and API requests and a large number of &amp;#8220;Back-End&amp;#8221; Camera processors that are dedicated to receiving images through a variety of mechanisms including&lt;/p&gt;
+      <description>&lt;p&gt;Sensr.net&amp;#8217;s server architecture is organized into two main parts.  There are &amp;#8220;Front-End&amp;#8221; webservers that handle browser and API requests and a large number of &amp;#8220;Back-End&amp;#8221; Camera processors that are dedicated to receiving images through a variety of mechanisms including&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;FTP Image Upload,&lt;/li&gt;

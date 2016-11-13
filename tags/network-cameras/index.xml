@@ -14,17 +14,7 @@
       <pubDate>Tue, 08 Jul 2014 16:21:14 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/07/08/download-images-from-sensr-net/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/07/08/download-images-from-sensr-net/&#34; data-text=&#34;Download Images From Sensr.net &#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://flic.kr/p/5Yrhye&#34;&gt;&lt;img class=&#34;alignleft  wp-image-2923&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&#34; alt=&#34;Full Moon Mystery&#34; width=&#34;245&#34; height=&#34;368&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&#34; sizes=&#34;(max-width: 245px) 100vw, 245px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://flic.kr/p/5Yrhye&#34;&gt;&lt;img class=&#34;alignleft  wp-image-2923&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&#34; alt=&#34;Full Moon Mystery&#34; width=&#34;245&#34; height=&#34;368&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&#34; sizes=&#34;(max-width: 245px) 100vw, 245px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;#8217;ve marked them as a favorite or &lt;a href=&#34;http://sensr.net/blog/2014/04/29/making-clips-on-sensr-net/&#34; title=&#34;Making Clips on Sensr.net&#34;&gt;made a clip&lt;/a&gt;. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.&lt;/p&gt;
 
@@ -708,17 +698,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
       <pubDate>Fri, 07 Mar 2014 16:53:21 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/03/07/video-how-to-get-your-foscam-fi8904-on-sensr-net/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/03/07/video-how-to-get-your-foscam-fi8904-on-sensr-net/&#34; data-text=&#34;Video How To:  Get your Foscam FI8904 on Sensr.net&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&#34;http://techytenor.com/&#34; title=&#34;Techy Tenor&#34;&gt;Techy Tenor&lt;/a&gt; shows how to connect the &lt;a href=&#34;http://www.amazon.com/Foscam-FI8910W-Network-Camera-Two-Way/dp/B006ZP8UOW/sensr-20&#34; title=&#34;Buy Foscam FI8910W on Amazon&#34;&gt;Foscam FI8904W&lt;/a&gt; outdoor wireless camera to &lt;a href=&#34;https://sensr.net&#34; title=&#34;Watch your stuff!&#34;&gt;Sensr.net&lt;/a&gt;. This is the same camera used in for the &lt;a href=&#34;http://elizabethschickens.com/&#34; title=&#34;Chickencam&#34;&gt;ChickenCam&lt;/a&gt; which we &lt;a href=&#34;http://sensr.net/blog/2014/01/29/chicken-cam-goes-live/&#34; title=&#34;ChickenCam comes to Sensr.net&#34;&gt;mentioned back in January&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;The &lt;a href=&#34;http://techytenor.com/&#34; title=&#34;Techy Tenor&#34;&gt;Techy Tenor&lt;/a&gt; shows how to connect the &lt;a href=&#34;http://www.amazon.com/Foscam-FI8910W-Network-Camera-Two-Way/dp/B006ZP8UOW/sensr-20&#34; title=&#34;Buy Foscam FI8910W on Amazon&#34;&gt;Foscam FI8904W&lt;/a&gt; outdoor wireless camera to &lt;a href=&#34;https://sensr.net&#34; title=&#34;Watch your stuff!&#34;&gt;Sensr.net&lt;/a&gt;. This is the same camera used in for the &lt;a href=&#34;http://elizabethschickens.com/&#34; title=&#34;Chickencam&#34;&gt;ChickenCam&lt;/a&gt; which we &lt;a href=&#34;http://sensr.net/blog/2014/01/29/chicken-cam-goes-live/&#34; title=&#34;ChickenCam comes to Sensr.net&#34;&gt;mentioned back in January&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;A big thanks to &lt;a href=&#34;http://techytenor.com/&#34; title=&#34;The Techy Tenor&#34;&gt;Christian the Techy Tenor&lt;/a&gt; for putting together this informative and fun video!&lt;/p&gt;
 
@@ -732,17 +712,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
       <pubDate>Tue, 25 Feb 2014 06:05:58 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/02/24/android-security-camera/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/02/24/android-security-camera/&#34; data-text=&#34;Android Security Camera&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;div id=&#34;attachment_2763&#34; style=&#34;width: 591px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+      <description>&lt;div id=&#34;attachment_2763&#34; style=&#34;width: 591px&#34; class=&#34;wp-caption alignleft&#34;&gt;
   &lt;a title=&#34;MobileWebCam App&#34; href=&#34;https://play.google.com/store/apps/details?id=com.dngames.mobilewebcam&#34;&gt;&lt;img class=&#34;size-full wp-image-2763&#34; alt=&#34;MobileWebCam app&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/Screenshot-2014-02-24-21.59.35.png&#34; width=&#34;581&#34; height=&#34;254&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/Screenshot-2014-02-24-21.59.35.png 581w, http://sensr.net/blog/wp-content/uploads/2014/02/Screenshot-2014-02-24-21.59.35-300x131.png 300w&#34; sizes=&#34;(max-width: 581px) 100vw, 581px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
@@ -762,17 +732,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
       <pubDate>Wed, 05 Feb 2014 00:12:17 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/02/04/howto-setup-d-link-dcs-5010l-recording-with-ftp/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/02/04/howto-setup-d-link-dcs-5010l-recording-with-ftp/&#34; data-text=&#34;HOWTO Setup D-Link DCS-5010L Recording with FTP&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;div id=&#34;attachment_2694&#34; style=&#34;width: 386px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+      <description>&lt;div id=&#34;attachment_2694&#34; style=&#34;width: 386px&#34; class=&#34;wp-caption alignleft&#34;&gt;
   &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/DCS-5010L.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-2694&#34; alt=&#34;D-Link 5010L&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/DCS-5010L.jpg&#34; width=&#34;376&#34; height=&#34;450&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/DCS-5010L.jpg 376w, http://sensr.net/blog/wp-content/uploads/2014/02/DCS-5010L-250x300.jpg 250w&#34; sizes=&#34;(max-width: 376px) 100vw, 376px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
@@ -906,17 +866,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
       <pubDate>Fri, 31 Jan 2014 00:37:16 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/01/30/setup-d-link-dcs-5020l-recording-with-ftp-uploads-howto/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2014/01/30/setup-d-link-dcs-5020l-recording-with-ftp-uploads-howto/&#34; data-text=&#34;Setup D-Link DCS-5020L Recording with FTP Uploads HOWTO&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;div id=&#34;attachment_2669&#34; style=&#34;width: 385px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+      <description>&lt;div id=&#34;attachment_2669&#34; style=&#34;width: 385px&#34; class=&#34;wp-caption alignleft&#34;&gt;
   &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/DCS-5020L.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-2669&#34; alt=&#34;DCS-5020L from D-Link&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/DCS-5020L.jpg&#34; width=&#34;375&#34; height=&#34;450&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/DCS-5020L.jpg 375w, http://sensr.net/blog/wp-content/uploads/2014/01/DCS-5020L-250x300.jpg 250w&#34; sizes=&#34;(max-width: 375px) 100vw, 375px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
@@ -1050,17 +1000,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
       <pubDate>Fri, 24 Jun 2011 18:39:08 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2011/06/24/axis-m1011-firmware-upgrade-for-http-upload/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/06/24/axis-m1011-firmware-upgrade-for-http-upload/&#34; data-text=&#34;Axis M1011 Firmware Upgrade for HTTP Upload&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;Though a little used feature, Sensr.net support upload of images via HTTP. (Most of the cameras connected to the site use FTP.)  One of the few cameras that supports this upload option is the Axis M1011.&lt;/p&gt;
+      <description>&lt;p&gt;Though a little used feature, Sensr.net support upload of images via HTTP. (Most of the cameras connected to the site use FTP.)  One of the few cameras that supports this upload option is the Axis M1011.&lt;/p&gt;
 
 &lt;p&gt;We had an Axis M1011 in the office that was presenting intermittent errors.  The system log in the camera reported the cryptic error:&lt;/p&gt;
 
@@ -1100,17 +1040,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
       <pubDate>Fri, 27 May 2011 05:22:28 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2011/05/26/howto-make-cheap-network-camera-enclosure/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/05/26/howto-make-cheap-network-camera-enclosure/&#34; data-text=&#34;HOWTO Make a Cheap Network Camera Enclosure&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;div id=&#39;gallery-1&#39; class=&#39;gallery galleryid-129 gallery-columns-3 gallery-size-thumbnail&#39;&gt;
+      <description>&lt;div id=&#39;gallery-1&#39; class=&#39;gallery galleryid-129 gallery-columns-3 gallery-size-thumbnail&#39;&gt;
   &lt;dl class=&#39;gallery-item&#39;&gt;
     &lt;dt class=&#39;gallery-icon portrait&#39;&gt;
       &lt;a href=&#39;http://sensr.net/blog/wp-content/uploads/2011/05/IMG_0470-e1306471506960.jpg&#39;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2011/05/IMG_0470-e1306471506960-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;How To Make a Network Camera Enclosure on Sensr.net blog&#34; /&gt;&lt;/a&gt;
@@ -1179,17 +1109,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
       <pubDate>Sat, 16 Apr 2011 01:31:00 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2011/04/15/dcs-932l-works-great-on-sensr-net/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/04/15/dcs-932l-works-great-on-sensr-net/&#34; data-text=&#34;D-Link DCS-932L Works Great on Sensr.net&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;div style=&#34;width: 210px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+      <description>&lt;div style=&#34;width: 210px&#34; class=&#34;wp-caption alignleft&#34;&gt;
   &lt;a style=&#34;margin-left: auto; margin-right: auto;&#34; href=&#34;http://sensr.net/clips/26&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34; &#34; style=&#34;border: 0pt none;&#34; src=&#34;http://s3.amazonaws.com/sensrnet-cams/c25c41471c0dae65f78eca54eada297c2a090252.jpg&#34; alt=&#34;The D-Link DCS-932L night vision camera is easily set up on Sensr.net, and has great daytime colors as well as night vision image quality.&#34; width=&#34;200&#34; height=&#34;150&#34; border=&#34;0&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
@@ -1222,17 +1142,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
       <pubDate>Thu, 07 Apr 2011 12:34:00 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2011/04/07/driving-techniques-captured/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/04/07/driving-techniques-captured/&#34; data-text=&#34;Y-Cam Bullet Captures Driving Techniques&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;As we&amp;#8217;ve &lt;a href=&#34;http://blog.sensr.net/2011/01/creating-youtube-videos-from-sensr.html&#34;&gt;pointed out before&lt;/a&gt;, one of the fun things you can do with sensr.net is to create YouTube videos. Here are three videos comparing different ways of backing out of a difficult driveway.&lt;/p&gt;
+      <description>&lt;p&gt;As we&amp;#8217;ve &lt;a href=&#34;http://blog.sensr.net/2011/01/creating-youtube-videos-from-sensr.html&#34;&gt;pointed out before&lt;/a&gt;, one of the fun things you can do with sensr.net is to create YouTube videos. Here are three videos comparing different ways of backing out of a difficult driveway.&lt;/p&gt;
 
 &lt;p&gt;These are super easy to create from a sensr.net camera.  Click the trim button and adjust the brackets then hit the &amp;#8216;Make YouTube Movie&amp;#8217; button.  (Note:  You&amp;#8217;ll have to link your YouTube account if you haven&amp;#8217;t already.  You can do that under settings.)&lt;/p&gt;
 
@@ -1247,17 +1157,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
       <pubDate>Thu, 17 Mar 2011 01:35:00 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2011/03/16/using-the-cisco-wvc80n-on-sensr-net/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/03/16/using-the-cisco-wvc80n-on-sensr-net/&#34; data-text=&#34;Using the Cisco WVC80N on sensr.net&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
+      <description>&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
   &lt;a style=&#34;clear: left; float: left; margin-bottom: 1em; margin-right: 1em;&#34; href=&#34;http://www.amazon.com/gp/product/B002OHDFOA/ref=as_li_ss_tl?ie=UTF8&amp;tag=sensr-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B002OHDFOA&#34;&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/-M-PsQojVEmw/TYFUXyH-ibI/AAAAAAAACcQ/fitpusHjkBk/s1600/wvc80n.jpg&#34; border=&#34;0&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;
 &lt;/div&gt;
 
@@ -1328,17 +1228,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
       <pubDate>Sun, 20 Feb 2011 02:59:00 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2011/02/19/configure-foscam-fi8905w-for-sensr-net-ftp/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/19/configure-foscam-fi8905w-for-sensr-net-ftp/&#34; data-text=&#34;Configure Foscam FI8905W for Sensr.net FTP&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
+      <description>&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
   &lt;a style=&#34;clear: left; float: left; margin-bottom: 1em; margin-right: 1em;&#34; href=&#34;http://www.amazon.com/gp/product/B003YUEF0E?ie=UTF8&amp;tag=sensr-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B003YUEF0E&#34;&gt;&lt;img class=&#34;alignleft&#34; style=&#34;border: 0pt none;&#34; title=&#34;Foscam FI8905W on Sensr.net&#34; src=&#34;http://ecx.images-amazon.com/images/I/417HbyuzGLL._SL500_AA300_.jpg&#34; border=&#34;0&#34; alt=&#34;Foscam FI8905W on Sensr.net via Amazon&#34; width=&#34;200&#34; height=&#34;200&#34; /&gt;&lt;/a&gt;
 &lt;/div&gt;
 
@@ -1492,17 +1382,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
       <pubDate>Sat, 19 Feb 2011 17:12:00 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2011/02/19/skyipcam500w-night-vision-camera-on-sensr/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/19/skyipcam500w-night-vision-camera-on-sensr/&#34; data-text=&#34;SkyIPCam500w Night Vision Camera on Sensr.net&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
+      <description>&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
   &lt;a style=&#34;clear: left; float: left; margin-bottom: 1em; margin-right: 1em;&#34; href=&#34;http://www.amazon.com/Airlink101-AICN500W-SkyIPCam500W-Wireless-Network/dp/B001UTCQKC?ie=UTF8&amp;tag=sensr-20&amp;link_code=btl&amp;camp=213689&amp;creative=392969&#34;&gt;&lt;img style=&#34;border: 0pt none;&#34; src=&#34;http://3.bp.blogspot.com/-T4V6jjII6c8/TV_fpvmPf_I/AAAAAAAACZE/ZsP_rVbHycE/s200/ipskycam500.jpg&#34; border=&#34;0&#34; alt=&#34;SkyIPCam500w Night Vision Camera on Sensr.net&#34; width=&#34;200&#34; height=&#34;200&#34; /&gt;&lt;/a&gt;
 &lt;/div&gt;
 
@@ -1611,17 +1491,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
       <pubDate>Tue, 15 Feb 2011 07:24:00 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2011/02/14/y-cam-knight-on-sensr/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/14/y-cam-knight-on-sensr/&#34; data-text=&#34;Y-Cam Knight on Sensr.net&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a style=&#34;clear: left; float: left; margin-bottom: 1em; margin-right: 1em;&#34; href=&#34;http://www.amazon.com/Y-cam-Black-Wifi-Network-Camera/dp/B002JM2BAY?ie=UTF8&amp;tag=sensr-20&amp;link_code=bil&amp;camp=213689&amp;creative=392969&#34; target=&#34;_blank&#34;&gt;&lt;img title=&#34;Y-Cam Knight for Sensr.net&#34; src=&#34;http://ws.amazon.com/widgets/q?MarketPlace=US&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL160_&amp;ASIN=B002JM2BAY&amp;tag=sensr-20&#34; alt=&#34;Y-cam Black SD Wifi IP Network Camera works great on Sensr.net.&#34; width=&#34;151&#34; height=&#34;200&#34; /&gt;&lt;/a&gt;&lt;img style=&#34;border: none !important; margin: 0px !important; padding: 0px !important;&#34; src=&#34;http://www.assoc-amazon.com/e/ir?t=sensr-20&amp;l=bil&amp;camp=213689&amp;creative=392969&amp;o=1&amp;a=B002JM2BAY&#34; border=&#34;0&#34; alt=&#34;&#34; width=&#34;1&#34; height=&#34;1&#34; /&gt;The &lt;a href=&#34;http://www.amazon.com/Y-cam-Knight-Wifi-Network-Camera/dp/B002JM2BA4?ie=UTF8&amp;tag=sensr-20&amp;link_code=btl&amp;camp=213689&amp;creative=392969&#34; target=&#34;_blank&#34;&gt;Y-Cam Knight&lt;/a&gt; &lt;img style=&#34;border: none !important; margin: 0px !important; padding: 0px !important;&#34; src=&#34;http://www.assoc-amazon.com/e/ir?t=sensr-20&amp;l=btl&amp;camp=213689&amp;creative=392969&amp;o=1&amp;a=B002JM2BA4&#34; border=&#34;0&#34; alt=&#34;&#34; width=&#34;1&#34; height=&#34;1&#34; /&gt;is a very nice camera with built in night vision.  There are several models with support for either WiFi or POE (power over ethernet).  The SD models also support using an SD card as additional storage.  One of the things I like about the Y-Cam  Knight is the night vision and the wide angle of the lens.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a style=&#34;clear: left; float: left; margin-bottom: 1em; margin-right: 1em;&#34; href=&#34;http://www.amazon.com/Y-cam-Black-Wifi-Network-Camera/dp/B002JM2BAY?ie=UTF8&amp;tag=sensr-20&amp;link_code=bil&amp;camp=213689&amp;creative=392969&#34; target=&#34;_blank&#34;&gt;&lt;img title=&#34;Y-Cam Knight for Sensr.net&#34; src=&#34;http://ws.amazon.com/widgets/q?MarketPlace=US&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL160_&amp;ASIN=B002JM2BAY&amp;tag=sensr-20&#34; alt=&#34;Y-cam Black SD Wifi IP Network Camera works great on Sensr.net.&#34; width=&#34;151&#34; height=&#34;200&#34; /&gt;&lt;/a&gt;&lt;img style=&#34;border: none !important; margin: 0px !important; padding: 0px !important;&#34; src=&#34;http://www.assoc-amazon.com/e/ir?t=sensr-20&amp;l=bil&amp;camp=213689&amp;creative=392969&amp;o=1&amp;a=B002JM2BAY&#34; border=&#34;0&#34; alt=&#34;&#34; width=&#34;1&#34; height=&#34;1&#34; /&gt;The &lt;a href=&#34;http://www.amazon.com/Y-cam-Knight-Wifi-Network-Camera/dp/B002JM2BA4?ie=UTF8&amp;tag=sensr-20&amp;link_code=btl&amp;camp=213689&amp;creative=392969&#34; target=&#34;_blank&#34;&gt;Y-Cam Knight&lt;/a&gt; &lt;img style=&#34;border: none !important; margin: 0px !important; padding: 0px !important;&#34; src=&#34;http://www.assoc-amazon.com/e/ir?t=sensr-20&amp;l=btl&amp;camp=213689&amp;creative=392969&amp;o=1&amp;a=B002JM2BA4&#34; border=&#34;0&#34; alt=&#34;&#34; width=&#34;1&#34; height=&#34;1&#34; /&gt;is a very nice camera with built in night vision.  There are several models with support for either WiFi or POE (power over ethernet).  The SD models also support using an SD card as additional storage.  One of the things I like about the Y-Cam  Knight is the night vision and the wide angle of the lens.&lt;/p&gt;
 
 &lt;p&gt;In this article I&amp;#8217;m going to assume you can get the camera up and running on your network, and just cover the settings for getting your camera to work with &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt;.&lt;/p&gt;
 
@@ -1678,17 +1548,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
       <pubDate>Sat, 12 Feb 2011 04:20:00 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2011/02/11/free-ftp-server-for-your-axis-m1011-camera/</guid>
-      <description>&lt;div class=&#34;share_buttons_simple_use_buttons&#34; style=&#34;padding: 10px 0; display: inline-block&#34;&gt;
-  &lt;div class=&#34;tweet_button&#34; style=&#34;float: left; vertical-align: top&#34;&gt;
-    &lt;a href=&#34;http://twitter.com/share&#34; class=&#34;twitter-share-button&#34; data-url=&#34;http://ec2-35-161-252-137.us-west-2.compute.amazonaws.com/2011/02/11/free-ftp-server-for-your-axis-m1011-camera/&#34; data-text=&#34;How to Set Up Axis M1011 on Sensr.net&#34; data-count=&#34;none&#34;&gt;Tweet&lt;/a&gt;
-  &lt;/div&gt;
-  
-
-&lt;p&gt;&lt;div class=&#34;facebook_like_button&#34; style=&#34;float: left; vertical-align: top; margin-left: 10px; max-width: 255px&#34;&gt;
-  &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a style=&#34;clear: left; float: left; margin-bottom: 1em; margin-right: 1em;&#34; href=&#34;http://www.amazon.com/Axis-0302-004-0302004-M1011-Camera/dp/B001PEY9SE?ie=UTF8&amp;tag=sensr-20&amp;link_code=bil&amp;camp=213689&amp;creative=392969&#34; target=&#34;_blank&#34;&gt;&lt;img title=&#34;Axis 0302004 M1011 Camera&#34; src=&#34;http://ws.amazon.com/widgets/q?MarketPlace=US&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL160_&amp;ASIN=B001PEY9SE&amp;tag=sensr-20&#34; alt=&#34;Axis 0302004 M1011 Camera on Sensr.net&#34; width=&#34;160&#34; height=&#34;160&#34; /&gt;&lt;/a&gt;&lt;img style=&#34;border: none !important; margin: 0px !important; padding: 0px !important;&#34; src=&#34;http://www.assoc-amazon.com/e/ir?t=sensr-20&amp;l=bil&amp;camp=213689&amp;creative=392969&amp;o=1&amp;a=B001PEY9SE&#34; border=&#34;0&#34; alt=&#34;&#34; width=&#34;1&#34; height=&#34;1&#34; /&gt;The &lt;a href=&#34;http://www.amazon.com/Axis-0302-004-0302004-M1011-Camera/dp/B001PEY9SE?ie=UTF8&amp;tag=sensr-20&amp;link_code=btl&amp;camp=213689&amp;creative=392969&#34; target=&#34;_blank&#34;&gt;Axis M1011&lt;/a&gt; &lt;img style=&#34;border: none !important; margin: 0px !important; padding: 0px !important;&#34; src=&#34;http://www.assoc-amazon.com/e/ir?t=sensr-20&amp;l=btl&amp;camp=213689&amp;creative=392969&amp;o=1&amp;a=B001PEY9SE&#34; border=&#34;0&#34; alt=&#34;&#34; width=&#34;1&#34; height=&#34;1&#34; /&gt;and it&amp;#8217;s wireless brethren the &lt;a href=&#34;http://www.amazon.com/Axis-0301-004-0301004-M1011-W-camera/dp/B001PF3SDA?ie=UTF8&amp;tag=sensr-20&amp;link_code=btl&amp;camp=213689&amp;creative=392969&#34; target=&#34;_blank&#34;&gt;M1011-W&lt;/a&gt; &lt;img style=&#34;border: none !important; margin: 0px !important; padding: 0px !important;&#34; src=&#34;http://www.assoc-amazon.com/e/ir?t=sensr-20&amp;l=btl&amp;camp=213689&amp;creative=392969&amp;o=1&amp;a=B001PF3SDA&#34; border=&#34;0&#34; alt=&#34;&#34; width=&#34;1&#34; height=&#34;1&#34; /&gt;are are very nice IP cameras.  If you are interested in viewing these cameras from outside your firewall, you can configure the camera to FTP images to &lt;a href=&#34;http://sensr.net/&#34;&gt;sensr.net&lt;/a&gt; and then view the cameras on the &lt;a href=&#34;http://sensr.net/&#34;&gt;sensr.net&lt;/a&gt; site.  Sensr will also do archiving, alerts, and give you mobile access for free.  If you have an Axis M1011 or M1011-W this article will describe how to set it up with Sensr.net.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a style=&#34;clear: left; float: left; margin-bottom: 1em; margin-right: 1em;&#34; href=&#34;http://www.amazon.com/Axis-0302-004-0302004-M1011-Camera/dp/B001PEY9SE?ie=UTF8&amp;tag=sensr-20&amp;link_code=bil&amp;camp=213689&amp;creative=392969&#34; target=&#34;_blank&#34;&gt;&lt;img title=&#34;Axis 0302004 M1011 Camera&#34; src=&#34;http://ws.amazon.com/widgets/q?MarketPlace=US&amp;ServiceVersion=20070822&amp;ID=AsinImage&amp;WS=1&amp;Format=_SL160_&amp;ASIN=B001PEY9SE&amp;tag=sensr-20&#34; alt=&#34;Axis 0302004 M1011 Camera on Sensr.net&#34; width=&#34;160&#34; height=&#34;160&#34; /&gt;&lt;/a&gt;&lt;img style=&#34;border: none !important; margin: 0px !important; padding: 0px !important;&#34; src=&#34;http://www.assoc-amazon.com/e/ir?t=sensr-20&amp;l=bil&amp;camp=213689&amp;creative=392969&amp;o=1&amp;a=B001PEY9SE&#34; border=&#34;0&#34; alt=&#34;&#34; width=&#34;1&#34; height=&#34;1&#34; /&gt;The &lt;a href=&#34;http://www.amazon.com/Axis-0302-004-0302004-M1011-Camera/dp/B001PEY9SE?ie=UTF8&amp;tag=sensr-20&amp;link_code=btl&amp;camp=213689&amp;creative=392969&#34; target=&#34;_blank&#34;&gt;Axis M1011&lt;/a&gt; &lt;img style=&#34;border: none !important; margin: 0px !important; padding: 0px !important;&#34; src=&#34;http://www.assoc-amazon.com/e/ir?t=sensr-20&amp;l=btl&amp;camp=213689&amp;creative=392969&amp;o=1&amp;a=B001PEY9SE&#34; border=&#34;0&#34; alt=&#34;&#34; width=&#34;1&#34; height=&#34;1&#34; /&gt;and it&amp;#8217;s wireless brethren the &lt;a href=&#34;http://www.amazon.com/Axis-0301-004-0301004-M1011-W-camera/dp/B001PF3SDA?ie=UTF8&amp;tag=sensr-20&amp;link_code=btl&amp;camp=213689&amp;creative=392969&#34; target=&#34;_blank&#34;&gt;M1011-W&lt;/a&gt; &lt;img style=&#34;border: none !important; margin: 0px !important; padding: 0px !important;&#34; src=&#34;http://www.assoc-amazon.com/e/ir?t=sensr-20&amp;l=btl&amp;camp=213689&amp;creative=392969&amp;o=1&amp;a=B001PF3SDA&#34; border=&#34;0&#34; alt=&#34;&#34; width=&#34;1&#34; height=&#34;1&#34; /&gt;are are very nice IP cameras.  If you are interested in viewing these cameras from outside your firewall, you can configure the camera to FTP images to &lt;a href=&#34;http://sensr.net/&#34;&gt;sensr.net&lt;/a&gt; and then view the cameras on the &lt;a href=&#34;http://sensr.net/&#34;&gt;sensr.net&lt;/a&gt; site.  Sensr will also do archiving, alerts, and give you mobile access for free.  If you have an Axis M1011 or M1011-W this article will describe how to set it up with Sensr.net.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
 
