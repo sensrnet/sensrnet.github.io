@@ -49,34 +49,19 @@
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://blog.sensr.net/2014/01/19/build-a-raspberry-pi-security-camera/">Build a Raspberry Pi Security Camera</a></h1>
+                                <h1><a href="http://blog.sensr.net/2014/05/01/how-to-configure-a-foscam-fi9826w/">How to configure a Foscam FI9826W</a></h1>
                                 <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>January 19, 2014</li>
+                                    <li><i class="fa fa-calendar"></i>May 2, 2014</li>
                                     <li><i class="fa fa-user"></i>Adam Beguelin</li>
                                 </ul>
-                                Our friend Bob Coggeshall wrote a nice post on how to use a webcam and a Raspberry Pi to create a Sensr.net backed security camera. Who doesn&#8217;t have an old webcam laying around? Now you can put it to good use.
-Thanks Bob!
-                                <a class="btn btn-custom" href="http://blog.sensr.net/2014/01/19/build-a-raspberry-pi-security-camera/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://blog.sensr.net/2013/12/10/how-to-configure-a-foscam-fi9821w-v2-from-mac-or-linux/">How to configure a Foscam FI9821W V2 from Mac or Linux</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>December 10, 2013</li>
-                                    <li><i class="fa fa-user"></i>Adam Beguelin</li>
-                                </ul>
-                                <p><a href="http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black.jpg"><img class="size-full wp-image-2577 alignleft" alt="Foscam FI9821W V2" src="http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black.jpg" width="160" height="160" srcset="http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black.jpg 160w, http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black-150x150.jpg 150w" sizes="(max-width: 160px) 100vw, 160px" /></a></p>
+                                <p><a href="http://sensr.net/blog/wp-content/uploads/2014/05/focsamfi9826W.jpg"><img class="alignleft wp-image-2809 size-medium" src="http://sensr.net/blog/wp-content/uploads/2014/05/focsamfi9826W-300x300.jpg" alt="" width="300" height="300" srcset="http://sensr.net/blog/wp-content/uploads/2014/05/focsamfi9826W-300x300.jpg 300w, http://sensr.net/blog/wp-content/uploads/2014/05/focsamfi9826W-150x150.jpg 150w, http://sensr.net/blog/wp-content/uploads/2014/05/focsamfi9826W.jpg 1000w" sizes="(max-width: 300px) 100vw, 300px" /></a>The <a href="http://foscam.us/products/foscam-fi9826w-black-megapixel-wireless-ip-camera.html" title="Foscam FI9826W">Foscam FI9826W</a> is a fun HD night vision camera that goes for <a href="http://www.amazon.com/Foscam-FI9826W-Megapixel-Wireless-Optical/dp/B00HJYQE8C/sensr-20" title="FI9827W on Amazon">about $250 these days on Amazon</a>.  The instructions come with Windows and Mac setup software, but you really don&#8217;t need it. In this post I&#8217;ll show you how to configure the webcam without the software. _<strong>Be aware that the camera&#8217;s default port is 88.</strong>_ I wasted 30 minutes figuring this out, more on what this means later.</p>
 
-<p>The <a href="http://www.amazon.com/Foscam-FI9821W-Megapixel-Wireless-Camera/dp/B00F3KWZW8/sensr-20" title="Foscam FI9821W V2">Foscam FI9821W V2 IP camera</a> is super popular these days. It&#8217;s about $150 on <a href="http://www.amazon.com/Foscam-FI9821W-Megapixel-Wireless-Camera/dp/B00F3KWZW8/sensr-20" title="Buy FI9821W V2 on Amazon">Amazon right now</a>. The instructions come with Windows and Mac setup software, but you really don&#8217;t need it. In this post I&#8217;ll show you how to configure the webcam without the software. _<strong>Be aware that the camera&#8217;s default port is 88.</strong>_ I wasted 30 minutes figuring this out, more on what this means later.</p>
-
-<p>I&#8217;ll also show you how to push images to <a href="https://sensr.net">Sensr.net</a> so you can take advantage of all of our cool features, like 30 days archiving, <a href="http://sensr.net/blog/2013/10/24/ip-camera-no-firewall-config/" title="View IP Camera Remotely, No Firewall Config">no firewall config</a>, clip sharing, <a href="http://sensr.net/blog/2011/02/27/embed-your-sensr-net-cameras-live-view/" title="Embed your Sensr.net camera’s live view">embedable live streams</a>, <a href="http://sensr.net/blog/2012/04/11/guest-access-for-sensr-net-cameras/" title="Guest Access for Sensr.net Cameras">guest access</a>, etc.</p>
+<p>I&#8217;ll also show you how to push images to <a href="https://sensr.net">Sensr.net</a> so you can take advantage of all of our cool features, like 30 days archiving, <a href="http://sensr.net/blog/2013/10/24/ip-camera-no-firewall-config/" title="View IP Camera Remotely, No Firewall Config">no firewall config</a>, <a href="http://sensr.net/blog/2014/04/29/making-clips-on-sensr-net/" title="Make and share clips">clip sharing</a>, <a href="http://sensr.net/blog/2011/02/27/embed-your-sensr-net-cameras-live-view/" title="Embed your Sensr.net camera’s live view">embedable live streams</a>, <a href="http://sensr.net/blog/2012/04/11/guest-access-for-sensr-net-cameras/" title="Guest Access for Sensr.net Cameras">guest access</a>, etc.</p>
 
 <p><strong>Overview</strong></p>
 
 <ol>
-<li><span style="line-height: 16px;">Connect camera to your router and power it up</span></li>
+<li><span style="line-height: 16px;">Connect camera to your router and plug it in</span></li>
 <li>Go to your router and find the camera&#8217;s IP address</li>
 <li>Point your browser at the camera&#8217;s IP address and configure it</li>
 <li>Tell Sensr.net about your camera</li>
@@ -84,7 +69,45 @@ Thanks Bob!
 </ol>
 
 <p></p>
-                                <a class="btn btn-custom" href="http://blog.sensr.net/2013/12/10/how-to-configure-a-foscam-fi9821w-v2-from-mac-or-linux/" role="button">Read More</a>
+                                <a class="btn btn-custom" href="http://blog.sensr.net/2014/05/01/how-to-configure-a-foscam-fi9826w/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://blog.sensr.net/2014/02/24/android-security-camera/">Android Security Camera</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>February 25, 2014</li>
+                                    <li><i class="fa fa-user"></i>Adam Beguelin</li>
+                                </ul>
+                                MobileWebCam app  Looking to turn your old Android device into a security camera? Try MobileWebCam and Sensr.net. Got that shiny new Nexus 5 and don&#8217;t know what to do with your old device? Use it to watch your stuff! Setup your Android device as a spy camera and watch it live on the Sensr.net site or see what happened when you weren&#8217;t watching because we save motion events for the last 30 days.
+                                <a class="btn btn-custom" href="http://blog.sensr.net/2014/02/24/android-security-camera/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://blog.sensr.net/2014/02/16/how-to-embed-a-live-camera-in-wordpress/">How to Embed a Live Camera in WordPress</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>February 17, 2014</li>
+                                    <li><i class="fa fa-user"></i>Adam Beguelin</li>
+                                </ul>
+                                <div id="attachment_2721" style="width: 310px" class="wp-caption alignleft">
+  <a href="http://kiteboardingmiamibeach.com/"><img alt="Miami Beach Kiteboarders Foundation live stream via Sensr.net" src="http://sensr.net/blog/wp-content/uploads/2014/02/mbkf.png" width="300" /></a>
+  
+  <p class="wp-caption-text">
+    Miami Beach Kiteboarders Foundation live stream via Sensr.net
+  </p>
+</div>
+
+<p>One popular feature we provide with Sensr.net is the ability to embed live streams into any website. At the left is a screenshot of the Miami Beach Kiteboarders Foundation website and their use of the Sensr.net embed widget.</p>
+
+<p>If you have a camera on the Sensr.net site, its easy to do this with your camera. After you log in, hover the mouse over your name in the top right corner of the window. You&#8217;ll see a drop down menu named <a href="https://sensr.net/widgets" title="Widgets">Widgets</a>.</p>
+
+<p>You can also just go to the link <a href="https://sensr.net/widgets" title="Widgets">https://sensr.net/widgets</a>.</p>
+
+<p>Currently we support two kinds of embed widgets, one that shows the live stream for a single camera, like the Miami Beach camera shown above, and another one that shows a list of your public cameras. You can see both styles on the screenshots below.</p>
+                                <a class="btn btn-custom" href="http://blog.sensr.net/2014/02/16/how-to-embed-a-live-camera-in-wordpress/" role="button">Read More</a>
                             </div>
                         </div>
                     
@@ -98,6 +121,8 @@ Thanks Bob!
                     
                 </div>
                 <div class="col-md-4 col-md-offset-4" style="text-align: right; padding-right: 0px">
+                    
+                        <a class="btn btn-default" href="/tags/security-camera/page/3/" role="button" style="border-radius: 0px; display: block">Older</a>
                     
                 </div>
             </div>
