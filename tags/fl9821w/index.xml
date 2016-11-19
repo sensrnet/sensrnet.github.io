@@ -183,7 +183,7 @@
       <pubDate>Fri, 02 May 2014 00:33:25 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/05/01/how-to-configure-a-foscam-fi9826w/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/05/focsamfi9826W.jpg&#34;&gt;&lt;img class=&#34;alignleft wp-image-2809 size-medium&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/05/focsamfi9826W-300x300.jpg&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;300&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/05/focsamfi9826W-300x300.jpg 300w, http://sensr.net/blog/wp-content/uploads/2014/05/focsamfi9826W-150x150.jpg 150w, http://sensr.net/blog/wp-content/uploads/2014/05/focsamfi9826W.jpg 1000w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;The &lt;a href=&#34;http://foscam.us/products/foscam-fi9826w-black-megapixel-wireless-ip-camera.html&#34; title=&#34;Foscam FI9826W&#34;&gt;Foscam FI9826W&lt;/a&gt; is a fun HD night vision camera that goes for &lt;a href=&#34;http://www.amazon.com/Foscam-FI9826W-Megapixel-Wireless-Optical/dp/B00HJYQE8C/sensr-20&#34; title=&#34;FI9827W on Amazon&#34;&gt;about $250 these days on Amazon&lt;/a&gt;.  The instructions come with Windows and Mac setup software, but you really don&amp;#8217;t need it. In this post I&amp;#8217;ll show you how to configure the webcam without the software. _&lt;strong&gt;Be aware that the camera&amp;#8217;s default port is 88.&lt;/strong&gt;_ I wasted 30 minutes figuring this out, more on what this means later.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://blog.sensr.net/img/2014/05/focsamfi9826W.jpg&#34;&gt;&lt;img class=&#34;alignleft wp-image-2809 size-medium&#34; src=&#34;http://blog.sensr.net/img/2014/05/focsamfi9826W-300x300.jpg&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;300&#34; srcset=&#34;http://blog.sensr.net/img/2014/05/focsamfi9826W-300x300.jpg 300w, http://blog.sensr.net/img/2014/05/focsamfi9826W-150x150.jpg 150w, http://blog.sensr.net/img/2014/05/focsamfi9826W.jpg 1000w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;The &lt;a href=&#34;http://foscam.us/products/foscam-fi9826w-black-megapixel-wireless-ip-camera.html&#34; title=&#34;Foscam FI9826W&#34;&gt;Foscam FI9826W&lt;/a&gt; is a fun HD night vision camera that goes for &lt;a href=&#34;http://www.amazon.com/Foscam-FI9826W-Megapixel-Wireless-Optical/dp/B00HJYQE8C/sensr-20&#34; title=&#34;FI9827W on Amazon&#34;&gt;about $250 these days on Amazon&lt;/a&gt;.  The instructions come with Windows and Mac setup software, but you really don&amp;#8217;t need it. In this post I&amp;#8217;ll show you how to configure the webcam without the software. _&lt;strong&gt;Be aware that the camera&amp;#8217;s default port is 88.&lt;/strong&gt;_ I wasted 30 minutes figuring this out, more on what this means later.&lt;/p&gt;
 
 &lt;p&gt;I&amp;#8217;ll also show you how to push images to &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt; so you can take advantage of all of our cool features, like 30 days archiving, &lt;a href=&#34;http://sensr.net/blog/2013/10/24/ip-camera-no-firewall-config/&#34; title=&#34;View IP Camera Remotely, No Firewall Config&#34;&gt;no firewall config&lt;/a&gt;, &lt;a href=&#34;http://sensr.net/blog/2014/04/29/making-clips-on-sensr-net/&#34; title=&#34;Make and share clips&#34;&gt;clip sharing&lt;/a&gt;, &lt;a href=&#34;http://sensr.net/blog/2011/02/27/embed-your-sensr-net-cameras-live-view/&#34; title=&#34;Embed your Sensr.net camera’s live view&#34;&gt;embedable live streams&lt;/a&gt;, &lt;a href=&#34;http://sensr.net/blog/2012/04/11/guest-access-for-sensr-net-cameras/&#34; title=&#34;Guest Access for Sensr.net Cameras&#34;&gt;guest access&lt;/a&gt;, etc.&lt;/p&gt;
 
@@ -208,7 +208,7 @@
 &lt;p&gt;For Step 2 you need to log into your router. You can find your router&amp;#8217;s IP address by going to your computer settings. On a Mac you go to &lt;strong&gt;Network Settings &amp;gt; Advanced &amp;gt; TCP/IP&lt;/strong&gt;. For my MacBook Pro running Lion, it looks like this:&lt;/p&gt;
 
 &lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2597&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png&#34; alt=&#34;Screen Shot 2013-12-09 at 6.02.37 PM&#34; width=&#34;626&#34; height=&#34;555&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png 782w, http://sensr.net/blog/wp-content/uploads/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM-300x266.png 300w&#34; sizes=&#34;(max-width: 626px) 100vw, 626px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2597&#34; src=&#34;http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png&#34; alt=&#34;Screen Shot 2013-12-09 at 6.02.37 PM&#34; width=&#34;626&#34; height=&#34;555&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png 782w, http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM-300x266.png 300w&#34; sizes=&#34;(max-width: 626px) 100vw, 626px&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 
 &lt;p&gt;On  Linux you can run the &lt;strong&gt;ifconfig&lt;/strong&gt; command to get this information. This is telling you that the router is 10.1.1.1 in my case. A more common setting is 192.168.1.1 but it could be almost anything. Once you find this, log into your router by pointing your browser to &lt;a href=&#34;http://10.1.1.1&#34;&gt;http://10.1.1.1&lt;/a&gt; (or whatever address you found on your network). You will probably need to log into your router.  Routers vary widely, I&amp;#8217;ll show you the pages for my Netgear WPN824.&lt;/p&gt;
@@ -216,7 +216,7 @@
 &lt;p&gt;Once you log in, find the page that shows the attached devices. Here&amp;#8217;s the page from my router, I clicked A&lt;strong&gt;ttached Devices&lt;/strong&gt; on the left and got this list.&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2599&#34; style=&#34;width: 607px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/netgear-attached-devices.png&#34;&gt;&lt;img class=&#34; wp-image-2599 &#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/netgear-attached-devices.png&#34; alt=&#34;netgear-attached-devices&#34; width=&#34;597&#34; height=&#34;499&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/netgear-attached-devices.png 932w, http://sensr.net/blog/wp-content/uploads/2013/12/netgear-attached-devices-300x251.png 300w&#34; sizes=&#34;(max-width: 597px) 100vw, 597px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/netgear-attached-devices.png&#34;&gt;&lt;img class=&#34; wp-image-2599 &#34; src=&#34;http://blog.sensr.net/img/2013/12/netgear-attached-devices.png&#34; alt=&#34;netgear-attached-devices&#34; width=&#34;597&#34; height=&#34;499&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/netgear-attached-devices.png 932w, http://blog.sensr.net/img/2013/12/netgear-attached-devices-300x251.png 300w&#34; sizes=&#34;(max-width: 597px) 100vw, 597px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Attached devices page
@@ -233,12 +233,12 @@
 
 &lt;p&gt;When you go to your camera&amp;#8217;s page, it will look something like this.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/05/FI9826W-Device-Status.png&#34;&gt;&lt;img class=&#34;alignleft wp-image-2810 size-large&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/05/FI9826W-Device-Status-1024x585.png&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;365&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/05/FI9826W-Device-Status-1024x585.png 1024w, http://sensr.net/blog/wp-content/uploads/2014/05/FI9826W-Device-Status-300x171.png 300w, http://sensr.net/blog/wp-content/uploads/2014/05/FI9826W-Device-Status.png 1274w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://blog.sensr.net/img/2014/05/FI9826W-Device-Status.png&#34;&gt;&lt;img class=&#34;alignleft wp-image-2810 size-large&#34; src=&#34;http://blog.sensr.net/img/2014/05/FI9826W-Device-Status-1024x585.png&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;365&#34; srcset=&#34;http://blog.sensr.net/img/2014/05/FI9826W-Device-Status-1024x585.png 1024w, http://blog.sensr.net/img/2014/05/FI9826W-Device-Status-300x171.png 300w, http://blog.sensr.net/img/2014/05/FI9826W-Device-Status.png 1274w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;In Safari you can click on the Live Video tab and watch your camera. From that page you can pan and tilt the camera and watch a live video stream from within your home network. Here&amp;#8217;s what it looks like in total darkness.  The cats don&amp;#8217;t even know they are being watched!&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2811&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption alignleft&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/05/FI9826W-Night-Live.png&#34;&gt;&lt;img class=&#34;wp-image-2811 size-large&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/05/FI9826W-Night-Live-1024x646.png&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;403&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/05/FI9826W-Night-Live-1024x646.png 1024w, http://sensr.net/blog/wp-content/uploads/2014/05/FI9826W-Night-Live-300x189.png 300w, http://sensr.net/blog/wp-content/uploads/2014/05/FI9826W-Night-Live.png 1390w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2014/05/FI9826W-Night-Live.png&#34;&gt;&lt;img class=&#34;wp-image-2811 size-large&#34; src=&#34;http://blog.sensr.net/img/2014/05/FI9826W-Night-Live-1024x646.png&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;403&#34; srcset=&#34;http://blog.sensr.net/img/2014/05/FI9826W-Night-Live-1024x646.png 1024w, http://blog.sensr.net/img/2014/05/FI9826W-Night-Live-300x189.png 300w, http://blog.sensr.net/img/2014/05/FI9826W-Night-Live.png 1390w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Cat lounging around on the couch. Night vision works great.
@@ -254,7 +254,7 @@
 &lt;p&gt;Simply log into your Sensr.net account click the &lt;strong&gt;Add Camera&lt;/strong&gt; button. Sensr.net has a free one week trial, so give it a go and see if it works for you.  (It&amp;#8217;s free to setup an account with Sensr.net. Camera monitoring starts at $9.95/month after your free trial is up.)  Once you login you&amp;#8217;ll see a page like this:&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2603&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-new-user.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2603&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-new-user-1024x708.png&#34; alt=&#34;Add new camera page&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-new-user-1024x708.png 1024w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-new-user-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-new-user.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/sensr-new-user.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2603&#34; src=&#34;http://blog.sensr.net/img/2013/12/sensr-new-user-1024x708.png&#34; alt=&#34;Add new camera page&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/sensr-new-user-1024x708.png 1024w, http://blog.sensr.net/img/2013/12/sensr-new-user-300x207.png 300w, http://blog.sensr.net/img/2013/12/sensr-new-user.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Add new camera page
@@ -264,7 +264,7 @@
 &lt;p&gt;Next you&amp;#8217;ll see a page like this where you can set the timezone for your camera, give it a name, and tell us the model.  Cameras default to private but you can make them public if you want to share them with the world.&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2812&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption alignleft&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/05/FI9826W-Name.png&#34;&gt;&lt;img class=&#34;wp-image-2812 size-full&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/05/FI9826W-Name.png&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;639&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/05/FI9826W-Name.png 1024w, http://sensr.net/blog/wp-content/uploads/2014/05/FI9826W-Name-300x187.png 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2014/05/FI9826W-Name.png&#34;&gt;&lt;img class=&#34;wp-image-2812 size-full&#34; src=&#34;http://blog.sensr.net/img/2014/05/FI9826W-Name.png&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;639&#34; srcset=&#34;http://blog.sensr.net/img/2014/05/FI9826W-Name.png 1024w, http://blog.sensr.net/img/2014/05/FI9826W-Name-300x187.png 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Give the camera a name and tell us what model you&amp;#8217;re using.
@@ -284,7 +284,7 @@
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2607&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2607&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-1024x708.png&#34; alt=&#34;FTP credentials&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-1024x708.png 1024w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2607&#34; src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2-1024x708.png&#34; alt=&#34;FTP credentials&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2-1024x708.png 1024w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s2-300x207.png 300w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s2.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     FTP credentials
@@ -296,7 +296,7 @@
 &lt;p&gt;Now you need to configure your camera so it will upload images to Sensr.net. Go back to the camera config page using the IP address we discovered above. Click on Network, then FTP Settings. It will look like this:&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2609&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/fi9821wv2-ftp-page.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2609&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/fi9821wv2-ftp-page-1024x708.png&#34; alt=&#34;Configure FTP Settings&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/fi9821wv2-ftp-page-1024x708.png 1024w, http://sensr.net/blog/wp-content/uploads/2013/12/fi9821wv2-ftp-page-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/fi9821wv2-ftp-page.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-ftp-page.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2609&#34; src=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-ftp-page-1024x708.png&#34; alt=&#34;Configure FTP Settings&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-ftp-page-1024x708.png 1024w, http://blog.sensr.net/img/2013/12/fi9821wv2-ftp-page-300x207.png 300w, http://blog.sensr.net/img/2013/12/fi9821wv2-ftp-page.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Configure FTP Settings
@@ -308,7 +308,7 @@
 &lt;p&gt;We recommend that you have the camera upload one image per second.  This way you get a live view when viewing your camera on Sensr.net.  To do this go to the Video/Snapshot Settings page:&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2610&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/fi9821wv2-snapshot-page.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2610&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/fi9821wv2-snapshot-page-1024x708.png&#34; alt=&#34;Video &gt; Snapshot Settings&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/fi9821wv2-snapshot-page-1024x708.png 1024w, http://sensr.net/blog/wp-content/uploads/2013/12/fi9821wv2-snapshot-page-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/fi9821wv2-snapshot-page.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-snapshot-page.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2610&#34; src=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-snapshot-page-1024x708.png&#34; alt=&#34;Video &gt; Snapshot Settings&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-snapshot-page-1024x708.png 1024w, http://blog.sensr.net/img/2013/12/fi9821wv2-snapshot-page-300x207.png 300w, http://blog.sensr.net/img/2013/12/fi9821wv2-snapshot-page.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Video &gt; Snapshot Settings
@@ -320,7 +320,7 @@
 &lt;p&gt;On the Sensr.net side the page should go from this:&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2611&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2611&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3-1024x708.png&#34; alt=&#34;Waiting for upload&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3-1024x708.png 1024w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s3.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2611&#34; src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s3-1024x708.png&#34; alt=&#34;Waiting for upload&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s3-1024x708.png 1024w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s3-300x207.png 300w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s3.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Waiting for upload
@@ -330,7 +330,7 @@
 &lt;p&gt;To a page that shows the image your camera uploaded.  Something like this:&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2618&#34; style=&#34;width: 997px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2618&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success.png&#34; alt=&#34;Success!&#34; width=&#34;987&#34; height=&#34;793&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success.png 987w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success-300x241.png 300w&#34; sizes=&#34;(max-width: 987px) 100vw, 987px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-success.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2618&#34; src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-success.png&#34; alt=&#34;Success!&#34; width=&#34;987&#34; height=&#34;793&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-success.png 987w, http://blog.sensr.net/img/2013/12/sensr-add-camera-success-300x241.png 300w&#34; sizes=&#34;(max-width: 987px) 100vw, 987px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Success!
@@ -352,7 +352,7 @@
       <pubDate>Tue, 10 Dec 2013 23:02:16 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2013/12/10/how-to-configure-a-foscam-fi9821w-v2-from-mac-or-linux/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-2577 alignleft&#34; alt=&#34;Foscam FI9821W V2&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black.jpg&#34; width=&#34;160&#34; height=&#34;160&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black.jpg 160w, http://sensr.net/blog/wp-content/uploads/2013/11/foscamfi9821wv2black-150x150.jpg 150w&#34; sizes=&#34;(max-width: 160px) 100vw, 160px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://blog.sensr.net/img/2013/11/foscamfi9821wv2black.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-2577 alignleft&#34; alt=&#34;Foscam FI9821W V2&#34; src=&#34;http://blog.sensr.net/img/2013/11/foscamfi9821wv2black.jpg&#34; width=&#34;160&#34; height=&#34;160&#34; srcset=&#34;http://blog.sensr.net/img/2013/11/foscamfi9821wv2black.jpg 160w, http://blog.sensr.net/img/2013/11/foscamfi9821wv2black-150x150.jpg 150w&#34; sizes=&#34;(max-width: 160px) 100vw, 160px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;The &lt;a href=&#34;http://www.amazon.com/Foscam-FI9821W-Megapixel-Wireless-Camera/dp/B00F3KWZW8/sensr-20&#34; title=&#34;Foscam FI9821W V2&#34;&gt;Foscam FI9821W V2 IP camera&lt;/a&gt; is super popular these days. It&amp;#8217;s about $150 on &lt;a href=&#34;http://www.amazon.com/Foscam-FI9821W-Megapixel-Wireless-Camera/dp/B00F3KWZW8/sensr-20&#34; title=&#34;Buy FI9821W V2 on Amazon&#34;&gt;Amazon right now&lt;/a&gt;. The instructions come with Windows and Mac setup software, but you really don&amp;#8217;t need it. In this post I&amp;#8217;ll show you how to configure the webcam without the software. _&lt;strong&gt;Be aware that the camera&amp;#8217;s default port is 88.&lt;/strong&gt;_ I wasted 30 minutes figuring this out, more on what this means later.&lt;/p&gt;
 
@@ -379,7 +379,7 @@
 &lt;p&gt;For Step 2 you need to log into your router. You can find your router&amp;#8217;s IP address by going to your computer settings. On a Mac you go to &lt;strong&gt;Network Settings &amp;gt; Advanced &amp;gt; TCP/IP&lt;/strong&gt;. For my MacBook Pro running Lion, it looks like this:&lt;/p&gt;
 
 &lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2597&#34; alt=&#34;Screen Shot 2013-12-09 at 6.02.37 PM&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png&#34; width=&#34;626&#34; height=&#34;555&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png 782w, http://sensr.net/blog/wp-content/uploads/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM-300x266.png 300w&#34; sizes=&#34;(max-width: 626px) 100vw, 626px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2597&#34; alt=&#34;Screen Shot 2013-12-09 at 6.02.37 PM&#34; src=&#34;http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png&#34; width=&#34;626&#34; height=&#34;555&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png 782w, http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM-300x266.png 300w&#34; sizes=&#34;(max-width: 626px) 100vw, 626px&#34; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 
 &lt;p&gt;On  Linux you can run the &lt;strong&gt;ifconfig&lt;/strong&gt; command to get this information. This is telling you that the router is 10.1.1.1 in my case. A more common setting is 192.168.1.1 but it could be almost anything. Once you find this, log into your router by pointing your browser to &lt;a href=&#34;http://10.1.1.1&#34;&gt;http://10.1.1.1&lt;/a&gt; (or whatever address you found on your network). You will probably need to log into your router.  Routers vary widely, I&amp;#8217;ll show you the pages for my Netgear WPN824.&lt;/p&gt;
@@ -387,7 +387,7 @@
 &lt;p&gt;Once you log in, find the page that shows the attached devices. Here&amp;#8217;s the page from my router, I clicked A&lt;strong&gt;ttached Devices&lt;/strong&gt; on the left and got this list.&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2599&#34; style=&#34;width: 607px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/netgear-attached-devices.png&#34;&gt;&lt;img class=&#34; wp-image-2599 &#34; alt=&#34;netgear-attached-devices&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/netgear-attached-devices.png&#34; width=&#34;597&#34; height=&#34;499&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/netgear-attached-devices.png 932w, http://sensr.net/blog/wp-content/uploads/2013/12/netgear-attached-devices-300x251.png 300w&#34; sizes=&#34;(max-width: 597px) 100vw, 597px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/netgear-attached-devices.png&#34;&gt;&lt;img class=&#34; wp-image-2599 &#34; alt=&#34;netgear-attached-devices&#34; src=&#34;http://blog.sensr.net/img/2013/12/netgear-attached-devices.png&#34; width=&#34;597&#34; height=&#34;499&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/netgear-attached-devices.png 932w, http://blog.sensr.net/img/2013/12/netgear-attached-devices-300x251.png 300w&#34; sizes=&#34;(max-width: 597px) 100vw, 597px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Attached devices page
@@ -405,7 +405,7 @@
 &lt;p&gt;When you go to your camera&amp;#8217;s page, it will look something like this.&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2600&#34; style=&#34;width: 1151px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/fi9821wv2-settings-page.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2600&#34; alt=&#34;FI9821W V2 Settings Page&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/fi9821wv2-settings-page.png&#34; width=&#34;1141&#34; height=&#34;790&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/fi9821wv2-settings-page.png 1141w, http://sensr.net/blog/wp-content/uploads/2013/12/fi9821wv2-settings-page-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/fi9821wv2-settings-page-1024x708.png 1024w&#34; sizes=&#34;(max-width: 1141px) 100vw, 1141px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-settings-page.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2600&#34; alt=&#34;FI9821W V2 Settings Page&#34; src=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-settings-page.png&#34; width=&#34;1141&#34; height=&#34;790&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-settings-page.png 1141w, http://blog.sensr.net/img/2013/12/fi9821wv2-settings-page-300x207.png 300w, http://blog.sensr.net/img/2013/12/fi9821wv2-settings-page-1024x708.png 1024w&#34; sizes=&#34;(max-width: 1141px) 100vw, 1141px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     FI9821W V2 Settings Page
@@ -415,7 +415,7 @@
 &lt;p&gt;In Safari you can click on the Live Video tab and watch your camera. From that page you can pan and tilt the camera and watch a live video stream from within your home network. We have some guys removing trees today so I setup the camera outside to watch. It will look like this:&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2601&#34; style=&#34;width: 1151px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/fi9821wv2-live-video-page.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2601&#34; alt=&#34;Safari Live Video FI9821W V2&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/fi9821wv2-live-video-page.png&#34; width=&#34;1141&#34; height=&#34;790&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/fi9821wv2-live-video-page.png 1141w, http://sensr.net/blog/wp-content/uploads/2013/12/fi9821wv2-live-video-page-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/fi9821wv2-live-video-page-1024x708.png 1024w&#34; sizes=&#34;(max-width: 1141px) 100vw, 1141px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-live-video-page.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2601&#34; alt=&#34;Safari Live Video FI9821W V2&#34; src=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-live-video-page.png&#34; width=&#34;1141&#34; height=&#34;790&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-live-video-page.png 1141w, http://blog.sensr.net/img/2013/12/fi9821wv2-live-video-page-300x207.png 300w, http://blog.sensr.net/img/2013/12/fi9821wv2-live-video-page-1024x708.png 1024w&#34; sizes=&#34;(max-width: 1141px) 100vw, 1141px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Safari Live Video FI9821W V2
@@ -435,7 +435,7 @@
 &lt;p&gt;Simply log into your Sensr.net account click the &lt;strong&gt;Add Camera&lt;/strong&gt; button. Sensr.net has a free one week trial, so give it a go and see if it works for you.  (It&amp;#8217;s free to setup an account with Sensr.net. Camera monitoring starts at $9.95/month after your free trial is up.)  Once you login you&amp;#8217;ll see a page like this:&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2603&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-new-user.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2603&#34; alt=&#34;Add new camera page&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-new-user-1024x708.png&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-new-user-1024x708.png 1024w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-new-user-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-new-user.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/sensr-new-user.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2603&#34; alt=&#34;Add new camera page&#34; src=&#34;http://blog.sensr.net/img/2013/12/sensr-new-user-1024x708.png&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/sensr-new-user-1024x708.png 1024w, http://blog.sensr.net/img/2013/12/sensr-new-user-300x207.png 300w, http://blog.sensr.net/img/2013/12/sensr-new-user.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Add new camera page
@@ -445,7 +445,7 @@
 &lt;p&gt;Next you&amp;#8217;ll see a page like this where you can set the timezone for your camera, give it a name, and tell us the model.  Cameras default to private but you can make them public if you want to share them with the world.&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2606&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s1.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2606&#34; alt=&#34;Step 1&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s1-1024x708.png&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s1-1024x708.png 1024w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s1-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s1.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s1.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2606&#34; alt=&#34;Step 1&#34; src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s1-1024x708.png&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s1-1024x708.png 1024w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s1-300x207.png 300w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s1.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Step 1
@@ -465,7 +465,7 @@
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2607&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2607&#34; alt=&#34;FTP credentials&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-1024x708.png&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-1024x708.png 1024w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2607&#34; alt=&#34;FTP credentials&#34; src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2-1024x708.png&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2-1024x708.png 1024w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s2-300x207.png 300w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s2.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     FTP credentials
@@ -477,7 +477,7 @@
 &lt;p&gt;Now you need to configure your camera so it will upload images to Sensr.net. Go back to the camera config page using the IP address we discovered above. Click on Network, then FTP Settings. It will look like this:&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2609&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/fi9821wv2-ftp-page.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2609&#34; alt=&#34;Configure FTP Settings&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/fi9821wv2-ftp-page-1024x708.png&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/fi9821wv2-ftp-page-1024x708.png 1024w, http://sensr.net/blog/wp-content/uploads/2013/12/fi9821wv2-ftp-page-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/fi9821wv2-ftp-page.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-ftp-page.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2609&#34; alt=&#34;Configure FTP Settings&#34; src=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-ftp-page-1024x708.png&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-ftp-page-1024x708.png 1024w, http://blog.sensr.net/img/2013/12/fi9821wv2-ftp-page-300x207.png 300w, http://blog.sensr.net/img/2013/12/fi9821wv2-ftp-page.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Configure FTP Settings
@@ -489,7 +489,7 @@
 &lt;p&gt;We recommend that you have the camera upload one image per second.  This way you get a live view when viewing your camera on Sensr.net.  To do this go to the Video/Snapshot Settings page:&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2610&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/fi9821wv2-snapshot-page.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2610&#34; alt=&#34;Video &gt; Snapshot Settings&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/fi9821wv2-snapshot-page-1024x708.png&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/fi9821wv2-snapshot-page-1024x708.png 1024w, http://sensr.net/blog/wp-content/uploads/2013/12/fi9821wv2-snapshot-page-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/fi9821wv2-snapshot-page.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-snapshot-page.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2610&#34; alt=&#34;Video &gt; Snapshot Settings&#34; src=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-snapshot-page-1024x708.png&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-snapshot-page-1024x708.png 1024w, http://blog.sensr.net/img/2013/12/fi9821wv2-snapshot-page-300x207.png 300w, http://blog.sensr.net/img/2013/12/fi9821wv2-snapshot-page.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Video &gt; Snapshot Settings
@@ -501,7 +501,7 @@
 &lt;p&gt;On the Sensr.net side the page should go from this:&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2611&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2611&#34; alt=&#34;Waiting for upload&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3-1024x708.png&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3-1024x708.png 1024w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s3.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2611&#34; alt=&#34;Waiting for upload&#34; src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s3-1024x708.png&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s3-1024x708.png 1024w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s3-300x207.png 300w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s3.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Waiting for upload
@@ -511,7 +511,7 @@
 &lt;p&gt;To a page that shows the image your camera uploaded.  Something like this:&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2618&#34; style=&#34;width: 997px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2618&#34; alt=&#34;Success!&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success.png&#34; width=&#34;987&#34; height=&#34;793&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success.png 987w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success-300x241.png 300w&#34; sizes=&#34;(max-width: 987px) 100vw, 987px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-success.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2618&#34; alt=&#34;Success!&#34; src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-success.png&#34; width=&#34;987&#34; height=&#34;793&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-success.png 987w, http://blog.sensr.net/img/2013/12/sensr-add-camera-success-300x241.png 300w&#34; sizes=&#34;(max-width: 987px) 100vw, 987px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Success!

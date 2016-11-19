@@ -24,7 +24,7 @@
 
 &lt;p&gt;If you&amp;#8217;re a developer, it may help you to think of &lt;a href=&#34;http://sensr.net&#34;&gt;Sensr.net&lt;/a&gt; as a service that allocates inexpensive FTP accounts optimized for image uploading, with a front-end for viewing, cataloging and sharing these images.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://blog.sensr.net/wp-content/uploads/2011/07/fx_arch1.png&#34;&gt;&lt;img class=&#34;size-full wp-image-475&#34; title=&#34;fx_arch1&#34; src=&#34;http://blog.sensr.net/wp-content/uploads/2011/07/fx_arch1.png&#34; alt=&#34;Sensr.net Architecture&#34; width=&#34;475&#34; height=&#34;285&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2011/07/fx_arch1.png 475w, http://sensr.net/blog/wp-content/uploads/2011/07/fx_arch1-300x180.png 300w&#34; sizes=&#34;(max-width: 475px) 100vw, 475px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://blog.sensr.net/wp-content/uploads/2011/07/fx_arch1.png&#34;&gt;&lt;img class=&#34;size-full wp-image-475&#34; title=&#34;fx_arch1&#34; src=&#34;http://blog.sensr.net/wp-content/uploads/2011/07/fx_arch1.png&#34; alt=&#34;Sensr.net Architecture&#34; width=&#34;475&#34; height=&#34;285&#34; srcset=&#34;http://blog.sensr.net/img/2011/07/fx_arch1.png 475w, http://blog.sensr.net/img/2011/07/fx_arch1-300x180.png 300w&#34; sizes=&#34;(max-width: 475px) 100vw, 475px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;The front-end and back-end implement different authorization mechanisms.  The front-end authenticates a Sensr User with their email and a password.  The back-ends have separate logins for each Camera.  The front-end can allocate and view logins on the back-ends, but not vice-versa.&lt;/p&gt;
 

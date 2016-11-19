@@ -14,7 +14,7 @@
       <pubDate>Tue, 08 Jul 2014 16:21:14 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/07/08/download-images-from-sensr-net/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://flic.kr/p/5Yrhye&#34;&gt;&lt;img class=&#34;alignleft  wp-image-2923&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&#34; alt=&#34;Full Moon Mystery&#34; width=&#34;245&#34; height=&#34;368&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&#34; sizes=&#34;(max-width: 245px) 100vw, 245px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://flic.kr/p/5Yrhye&#34;&gt;&lt;img class=&#34;alignleft  wp-image-2923&#34; src=&#34;http://blog.sensr.net/img/2014/07/3264084341_e851a2cf68_z.jpg&#34; alt=&#34;Full Moon Mystery&#34; width=&#34;245&#34; height=&#34;368&#34; srcset=&#34;http://blog.sensr.net/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://blog.sensr.net/img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&#34; sizes=&#34;(max-width: 245px) 100vw, 245px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;#8217;ve marked them as a favorite or &lt;a href=&#34;http://sensr.net/blog/2014/04/29/making-clips-on-sensr-net/&#34; title=&#34;Making Clips on Sensr.net&#34;&gt;made a clip&lt;/a&gt;. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.&lt;/p&gt;
 
@@ -42,7 +42,7 @@
   &lt;/div&gt;
 &lt;/div&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://flic.kr/p/5Yrhye&#34;&gt;&lt;img class=&#34;alignleft  wp-image-2923&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&#34; alt=&#34;Full Moon Mystery&#34; width=&#34;245&#34; height=&#34;368&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&#34; sizes=&#34;(max-width: 245px) 100vw, 245px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://flic.kr/p/5Yrhye&#34;&gt;&lt;img class=&#34;alignleft  wp-image-2923&#34; src=&#34;http://blog.sensr.net/img/2014/07/3264084341_e851a2cf68_z.jpg&#34; alt=&#34;Full Moon Mystery&#34; width=&#34;245&#34; height=&#34;368&#34; srcset=&#34;http://blog.sensr.net/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://blog.sensr.net/img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&#34; sizes=&#34;(max-width: 245px) 100vw, 245px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;#8217;ve marked them as a favorite or &lt;a href=&#34;http://sensr.net/blog/2014/04/29/making-clips-on-sensr-net/&#34; title=&#34;Making Clips on Sensr.net&#34;&gt;made a clip&lt;/a&gt;. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.&lt;/p&gt;
 
@@ -95,7 +95,7 @@ $&lt;/pre&gt;
   &lt;/div&gt;
 &lt;/div&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://flic.kr/p/5Yrhye&#34;&gt;&lt;img class=&#34;alignleft  wp-image-2923&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&#34; alt=&#34;Full Moon Mystery&#34; width=&#34;245&#34; height=&#34;368&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&#34; sizes=&#34;(max-width: 245px) 100vw, 245px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://flic.kr/p/5Yrhye&#34;&gt;&lt;img class=&#34;alignleft  wp-image-2923&#34; src=&#34;http://blog.sensr.net/img/2014/07/3264084341_e851a2cf68_z.jpg&#34; alt=&#34;Full Moon Mystery&#34; width=&#34;245&#34; height=&#34;368&#34; srcset=&#34;http://blog.sensr.net/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://blog.sensr.net/img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&#34; sizes=&#34;(max-width: 245px) 100vw, 245px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;#8217;ve marked them as a favorite or &lt;a href=&#34;http://sensr.net/blog/2014/04/29/making-clips-on-sensr-net/&#34; title=&#34;Making Clips on Sensr.net&#34;&gt;made a clip&lt;/a&gt;. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.&lt;/p&gt;
 
@@ -123,7 +123,7 @@ $&lt;/pre&gt;
   &lt;/div&gt;
 &lt;/div&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://flic.kr/p/5Yrhye&#34;&gt;&lt;img class=&#34;alignleft  wp-image-2923&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&#34; alt=&#34;Full Moon Mystery&#34; width=&#34;245&#34; height=&#34;368&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&#34; sizes=&#34;(max-width: 245px) 100vw, 245px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://flic.kr/p/5Yrhye&#34;&gt;&lt;img class=&#34;alignleft  wp-image-2923&#34; src=&#34;http://blog.sensr.net/img/2014/07/3264084341_e851a2cf68_z.jpg&#34; alt=&#34;Full Moon Mystery&#34; width=&#34;245&#34; height=&#34;368&#34; srcset=&#34;http://blog.sensr.net/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://blog.sensr.net/img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&#34; sizes=&#34;(max-width: 245px) 100vw, 245px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;#8217;ve marked them as a favorite or &lt;a href=&#34;http://sensr.net/blog/2014/04/29/making-clips-on-sensr-net/&#34; title=&#34;Making Clips on Sensr.net&#34;&gt;made a clip&lt;/a&gt;. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.&lt;/p&gt;
 
@@ -187,7 +187,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
   &amp;lt;/div&amp;gt;
 &amp;lt;/div&amp;gt;
 
-[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, /img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
 
 Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
 
@@ -213,7 +213,7 @@ I&amp;amp;#8217;ll assume you know how to get to the command line on your machin
   &amp;lt;/div&amp;gt;
 &amp;lt;/div&amp;gt;
 
-[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, /img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
 
 Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
 
@@ -264,7 +264,7 @@ Edit the line in `get-images.rb` so it uses your token. The change will look som
   &amp;lt;/div&amp;gt;
 &amp;lt;/div&amp;gt;
 
-[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, /img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
 
 Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
 
@@ -290,7 +290,7 @@ I&amp;amp;#8217;ll assume you know how to get to the command line on your machin
   &amp;lt;/div&amp;gt;
 &amp;lt;/div&amp;gt;
 
-[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, /img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
 
 Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
 
@@ -356,7 +356,7 @@ To grab the images from a specific day, say May 1, 2014 on camera 5 and drop the
   &amp;lt;/div&amp;gt;
 &amp;lt;/div&amp;gt;
 
-[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, /img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
 
 Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
 
@@ -382,7 +382,7 @@ I&amp;amp;#8217;ll assume you know how to get to the command line on your machin
   &amp;lt;/div&amp;gt;
 &amp;lt;/div&amp;gt;
 
-[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, /img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
 
 Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
 
@@ -433,7 +433,7 @@ Edit the line in `get-images.rb` so it uses your token. The change will look som
   &amp;lt;/div&amp;gt;
 &amp;lt;/div&amp;gt;
 
-[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, /img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
 
 Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
 
@@ -459,7 +459,7 @@ I&amp;amp;#8217;ll assume you know how to get to the command line on your machin
   &amp;lt;/div&amp;gt;
 &amp;lt;/div&amp;gt;
 
-[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, /img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
 
 Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
 
@@ -522,7 +522,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
   &amp;lt;/div&amp;gt;
 &amp;lt;/div&amp;gt;
 
-[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, /img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
 
 Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
 
@@ -548,7 +548,7 @@ I&amp;amp;#8217;ll assume you know how to get to the command line on your machin
   &amp;lt;/div&amp;gt;
 &amp;lt;/div&amp;gt;
 
-[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, /img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
 
 Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
 
@@ -599,7 +599,7 @@ Edit the line in `get-images.rb` so it uses your token. The change will look som
   &amp;lt;/div&amp;gt;
 &amp;lt;/div&amp;gt;
 
-[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, /img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
 
 Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
 
@@ -625,7 +625,7 @@ I&amp;amp;#8217;ll assume you know how to get to the command line on your machin
   &amp;lt;/div&amp;gt;
 &amp;lt;/div&amp;gt;
 
-[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, /img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
 
 Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
 
@@ -703,7 +703,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
 &lt;p&gt;The team at &lt;a href=&#34;https://sensr.net&#34; target=&#34;_blank&#34;&gt;Sensr.net&lt;/a&gt; is excited to announce that the latest version of our &lt;a href=&#34;https://sensr.net/api&#34; target=&#34;_blank&#34;&gt;API&lt;/a&gt;  is live and available for your use! Want to build your own iPad app? You can do that. Want to write a script to download images from your camera and generate a timelapse movie? You can do that too. Want to hack a custom IP camera with a &lt;a href=&#34;http://www.raspberrypi.org/&#34; target=&#34;_blank&#34;&gt;Raspberry Pi&lt;/a&gt; pushing to Sensr.net, bring it on!&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2370&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/02/Sensr-Api-Screenshot1.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2370&#34; title=&#34;Sensr-Api-Screenshot&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/02/Sensr-Api-Screenshot1-1024x490.png&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;306&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/02/Sensr-Api-Screenshot1-1024x490.png 1024w, http://sensr.net/blog/wp-content/uploads/2013/02/Sensr-Api-Screenshot1-300x143.png 300w, http://sensr.net/blog/wp-content/uploads/2013/02/Sensr-Api-Screenshot1.png 1110w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2013/02/Sensr-Api-Screenshot1.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2370&#34; title=&#34;Sensr-Api-Screenshot&#34; src=&#34;http://blog.sensr.net/img/2013/02/Sensr-Api-Screenshot1-1024x490.png&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;306&#34; srcset=&#34;http://blog.sensr.net/img/2013/02/Sensr-Api-Screenshot1-1024x490.png 1024w, http://blog.sensr.net/img/2013/02/Sensr-Api-Screenshot1-300x143.png 300w, http://blog.sensr.net/img/2013/02/Sensr-Api-Screenshot1.png 1110w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Access data with the Ruby Binding

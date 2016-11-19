@@ -15,7 +15,7 @@
       
       <guid>http://blog.sensr.net/2014/06/27/how-to-setup-the-d-link-dcs-933l-and-use-it-with-sensr-net/</guid>
       <description>&lt;div id=&#34;attachment_2881&#34; style=&#34;width: 247px&#34; class=&#34;wp-caption alignleft&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/314KTXgcW9L._SY355_.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-2881&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/314KTXgcW9L._SY355_.jpg&#34; alt=&#34;The D-Link DCS-933L&#34; width=&#34;237&#34; height=&#34;355&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/314KTXgcW9L._SY355_.jpg 237w, http://sensr.net/blog/wp-content/uploads/2014/06/314KTXgcW9L._SY355_-200x300.jpg 200w&#34; sizes=&#34;(max-width: 237px) 100vw, 237px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2014/06/314KTXgcW9L._SY355_.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-2881&#34; src=&#34;http://blog.sensr.net/img/2014/06/314KTXgcW9L._SY355_.jpg&#34; alt=&#34;The D-Link DCS-933L&#34; width=&#34;237&#34; height=&#34;355&#34; srcset=&#34;http://blog.sensr.net/img/2014/06/314KTXgcW9L._SY355_.jpg 237w, http://blog.sensr.net/img/2014/06/314KTXgcW9L._SY355_-200x300.jpg 200w&#34; sizes=&#34;(max-width: 237px) 100vw, 237px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     The D-Link DCS-933L
@@ -45,12 +45,12 @@
 
 &lt;p&gt;Once you are hooked up to an internet connection just go to your routers access page by typing the IP address of your router into your internet browser. You can find the IP address of your router on your computers settings. On my mac I go to to Network Settings &amp;gt; Advanced &amp;gt; TCP/IP, and it looks like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png&#34;&gt;&lt;img class=&#34;alignnone size-full wp-image-2597&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png&#34; alt=&#34;Screen Shot 2013-12-09 at 6.02.37 PM&#34; width=&#34;782&#34; height=&#34;694&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png 782w, http://sensr.net/blog/wp-content/uploads/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM-300x266.png 300w&#34; sizes=&#34;(max-width: 782px) 100vw, 782px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png&#34;&gt;&lt;img class=&#34;alignnone size-full wp-image-2597&#34; src=&#34;http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png&#34; alt=&#34;Screen Shot 2013-12-09 at 6.02.37 PM&#34; width=&#34;782&#34; height=&#34;694&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png 782w, http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM-300x266.png 300w&#34; sizes=&#34;(max-width: 782px) 100vw, 782px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Once you are on your router&amp;#8217;s access page just look for the new item and grab the IP address. This is the IP address of your &lt;a href=&#34;http://www.amazon.com/D-Link-Wireless-Surveillance-mydlink-Enabled-DCS-933L/dp/B00CL8FA4A/ref=cm_cr_pr_product_top/sensr-20&#34; target=&#34;_blank&#34;&gt;DCS-933L&lt;/a&gt;. Enter that into your browser and it will bring you to D-Link&amp;#8217;s network access page. It will ask you for a username and password which are admin and admin. You should change those. It should look something like this:&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2882&#34; style=&#34;width: 410px&#34; class=&#34;wp-caption alignnone&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/Screen-shot-2011-02-01-at-7.47.03-AM.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2882&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/Screen-shot-2011-02-01-at-7.47.03-AM.png&#34; alt=&#34;DCS-930L&#39;s Admin page&#34; width=&#34;400&#34; height=&#34;289&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/Screen-shot-2011-02-01-at-7.47.03-AM.png 400w, http://sensr.net/blog/wp-content/uploads/2014/06/Screen-shot-2011-02-01-at-7.47.03-AM-300x216.png 300w&#34; sizes=&#34;(max-width: 400px) 100vw, 400px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2014/06/Screen-shot-2011-02-01-at-7.47.03-AM.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2882&#34; src=&#34;http://blog.sensr.net/img/2014/06/Screen-shot-2011-02-01-at-7.47.03-AM.png&#34; alt=&#34;DCS-930L&#39;s Admin page&#34; width=&#34;400&#34; height=&#34;289&#34; srcset=&#34;http://blog.sensr.net/img/2014/06/Screen-shot-2011-02-01-at-7.47.03-AM.png 400w, http://blog.sensr.net/img/2014/06/Screen-shot-2011-02-01-at-7.47.03-AM-300x216.png 300w&#34; sizes=&#34;(max-width: 400px) 100vw, 400px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     DCS-930L&amp;#8217;s Admin page
@@ -63,12 +63,12 @@
 
 &lt;p&gt;Login to Sensr.net using your email and password.  If you don’t have an account, you can &lt;a style=&#34;color: #888888&#34; title=&#34;Free Sensr.net Account Signup&#34; href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt;add one for free on the sign up page&lt;/a&gt;.  Once you’re logged in, just click the &lt;strong&gt;Add Camera &lt;/strong&gt;button in green:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png&#34;&gt;&lt;img class=&#34;alignnone size-full wp-image-2714&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png&#34; alt=&#34;sensr add camera&#34; width=&#34;1003&#34; height=&#34;339&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera.png 1003w, http://sensr.net/blog/wp-content/uploads/2014/02/sensr-add-camera-300x101.png 300w&#34; sizes=&#34;(max-width: 1003px) 100vw, 1003px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://blog.sensr.net/img/2014/02/sensr-add-camera.png&#34;&gt;&lt;img class=&#34;alignnone size-full wp-image-2714&#34; src=&#34;http://blog.sensr.net/img/2014/02/sensr-add-camera.png&#34; alt=&#34;sensr add camera&#34; width=&#34;1003&#34; height=&#34;339&#34; srcset=&#34;http://blog.sensr.net/img/2014/02/sensr-add-camera.png 1003w, http://blog.sensr.net/img/2014/02/sensr-add-camera-300x101.png 300w&#34; sizes=&#34;(max-width: 1003px) 100vw, 1003px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Next you will see a page asking you to give some information about the camera. Some of this stuff is important as it helps get the schedule right. The rest is important because it will help you know which camera is which should you choose to add more. It should look like this:&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2675&#34; style=&#34;width: 1009px&#34; class=&#34;wp-caption alignnone&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/add-camera-details.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2675&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/add-camera-details.png&#34; alt=&#34;Name your camera and give us some basic info about it.&#34; width=&#34;999&#34; height=&#34;491&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/add-camera-details.png 999w, http://sensr.net/blog/wp-content/uploads/2014/01/add-camera-details-300x147.png 300w&#34; sizes=&#34;(max-width: 999px) 100vw, 999px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2014/01/add-camera-details.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2675&#34; src=&#34;http://blog.sensr.net/img/2014/01/add-camera-details.png&#34; alt=&#34;Name your camera and give us some basic info about it.&#34; width=&#34;999&#34; height=&#34;491&#34; srcset=&#34;http://blog.sensr.net/img/2014/01/add-camera-details.png 999w, http://blog.sensr.net/img/2014/01/add-camera-details-300x147.png 300w&#34; sizes=&#34;(max-width: 999px) 100vw, 999px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Name your camera and give us some basic info about it.
@@ -78,7 +78,7 @@
 &lt;p&gt;Once you press next step it will take you to a page giving you your new FTP credentials. These are very important and make it so your camera will know to send the images to us. The page will look like this:&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2607&#34; style=&#34;width: 1151px&#34; class=&#34;wp-caption alignnone&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2607&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png&#34; alt=&#34;FTP credentials&#34; width=&#34;1141&#34; height=&#34;790&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png 1141w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-1024x708.png 1024w&#34; sizes=&#34;(max-width: 1141px) 100vw, 1141px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2607&#34; src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2.png&#34; alt=&#34;FTP credentials&#34; width=&#34;1141&#34; height=&#34;790&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2.png 1141w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s2-300x207.png 300w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s2-1024x708.png 1024w&#34; sizes=&#34;(max-width: 1141px) 100vw, 1141px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     FTP credentials
@@ -92,7 +92,7 @@
 &lt;p&gt;Go back to the Network Access page for your &lt;strong&gt;&lt;a href=&#34;http://www.amazon.com/D-Link-Wireless-Surveillance-mydlink-Enabled-DCS-933L/dp/B00CL8FA4A/ref=cm_cr_pr_product_top/sensr-20&#34; target=&#34;_blank&#34;&gt;DCS-933L&lt;/a&gt;. &lt;/strong&gt;Click on “SETUP” on the top menu and then “FTP” on the side.  You’ll then be at a page that looks like this:&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2883&#34; style=&#34;width: 330px&#34; class=&#34;wp-caption alignnone&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/dcs930ftp.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2883&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/dcs930ftp.png&#34; alt=&#34;DCS-5010L FTP setup page&#34; width=&#34;320&#34; height=&#34;298&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/06/dcs930ftp.png 320w, http://sensr.net/blog/wp-content/uploads/2014/06/dcs930ftp-300x279.png 300w&#34; sizes=&#34;(max-width: 320px) 100vw, 320px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2014/06/dcs930ftp.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2883&#34; src=&#34;http://blog.sensr.net/img/2014/06/dcs930ftp.png&#34; alt=&#34;DCS-5010L FTP setup page&#34; width=&#34;320&#34; height=&#34;298&#34; srcset=&#34;http://blog.sensr.net/img/2014/06/dcs930ftp.png 320w, http://blog.sensr.net/img/2014/06/dcs930ftp-300x279.png 300w&#34; sizes=&#34;(max-width: 320px) 100vw, 320px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     DCS-5010L FTP setup page
@@ -110,7 +110,7 @@
 &lt;p&gt;At this point you are done. You can close the browser window pointed at your camera and go back to Sensr.net. Click on the &lt;strong&gt;Next Step&lt;/strong&gt; button to see the images coming in from your camera. You should see a page something like this:&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2611&#34; style=&#34;width: 1151px&#34; class=&#34;wp-caption alignnone&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2611&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3.png&#34; alt=&#34;Waiting for upload&#34; width=&#34;1141&#34; height=&#34;790&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3.png 1141w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s3-1024x708.png 1024w&#34; sizes=&#34;(max-width: 1141px) 100vw, 1141px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s3.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2611&#34; src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s3.png&#34; alt=&#34;Waiting for upload&#34; width=&#34;1141&#34; height=&#34;790&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s3.png 1141w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s3-300x207.png 300w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s3-1024x708.png 1024w&#34; sizes=&#34;(max-width: 1141px) 100vw, 1141px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Waiting for upload
@@ -120,7 +120,7 @@
 &lt;p&gt;To this:&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2612&#34; style=&#34;width: 1151px&#34; class=&#34;wp-caption alignnone&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-done.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2612&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-done.png&#34; alt=&#34;Success!&#34; width=&#34;1141&#34; height=&#34;790&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-done.png 1141w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-done-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-done-1024x708.png 1024w&#34; sizes=&#34;(max-width: 1141px) 100vw, 1141px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-done.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2612&#34; src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-done.png&#34; alt=&#34;Success!&#34; width=&#34;1141&#34; height=&#34;790&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-done.png 1141w, http://blog.sensr.net/img/2013/12/sensr-add-camera-done-300x207.png 300w, http://blog.sensr.net/img/2013/12/sensr-add-camera-done-1024x708.png 1024w&#34; sizes=&#34;(max-width: 1141px) 100vw, 1141px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Success!

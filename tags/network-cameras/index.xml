@@ -14,7 +14,7 @@
       <pubDate>Tue, 08 Jul 2014 16:21:14 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/07/08/download-images-from-sensr-net/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://flic.kr/p/5Yrhye&#34;&gt;&lt;img class=&#34;alignleft  wp-image-2923&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&#34; alt=&#34;Full Moon Mystery&#34; width=&#34;245&#34; height=&#34;368&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&#34; sizes=&#34;(max-width: 245px) 100vw, 245px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://flic.kr/p/5Yrhye&#34;&gt;&lt;img class=&#34;alignleft  wp-image-2923&#34; src=&#34;http://blog.sensr.net/img/2014/07/3264084341_e851a2cf68_z.jpg&#34; alt=&#34;Full Moon Mystery&#34; width=&#34;245&#34; height=&#34;368&#34; srcset=&#34;http://blog.sensr.net/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://blog.sensr.net/img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&#34; sizes=&#34;(max-width: 245px) 100vw, 245px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;#8217;ve marked them as a favorite or &lt;a href=&#34;http://sensr.net/blog/2014/04/29/making-clips-on-sensr-net/&#34; title=&#34;Making Clips on Sensr.net&#34;&gt;made a clip&lt;/a&gt;. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.&lt;/p&gt;
 
@@ -42,7 +42,7 @@
   &lt;/div&gt;
 &lt;/div&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://flic.kr/p/5Yrhye&#34;&gt;&lt;img class=&#34;alignleft  wp-image-2923&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&#34; alt=&#34;Full Moon Mystery&#34; width=&#34;245&#34; height=&#34;368&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&#34; sizes=&#34;(max-width: 245px) 100vw, 245px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://flic.kr/p/5Yrhye&#34;&gt;&lt;img class=&#34;alignleft  wp-image-2923&#34; src=&#34;http://blog.sensr.net/img/2014/07/3264084341_e851a2cf68_z.jpg&#34; alt=&#34;Full Moon Mystery&#34; width=&#34;245&#34; height=&#34;368&#34; srcset=&#34;http://blog.sensr.net/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://blog.sensr.net/img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&#34; sizes=&#34;(max-width: 245px) 100vw, 245px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;#8217;ve marked them as a favorite or &lt;a href=&#34;http://sensr.net/blog/2014/04/29/making-clips-on-sensr-net/&#34; title=&#34;Making Clips on Sensr.net&#34;&gt;made a clip&lt;/a&gt;. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.&lt;/p&gt;
 
@@ -95,7 +95,7 @@ $&lt;/pre&gt;
   &lt;/div&gt;
 &lt;/div&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://flic.kr/p/5Yrhye&#34;&gt;&lt;img class=&#34;alignleft  wp-image-2923&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&#34; alt=&#34;Full Moon Mystery&#34; width=&#34;245&#34; height=&#34;368&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&#34; sizes=&#34;(max-width: 245px) 100vw, 245px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://flic.kr/p/5Yrhye&#34;&gt;&lt;img class=&#34;alignleft  wp-image-2923&#34; src=&#34;http://blog.sensr.net/img/2014/07/3264084341_e851a2cf68_z.jpg&#34; alt=&#34;Full Moon Mystery&#34; width=&#34;245&#34; height=&#34;368&#34; srcset=&#34;http://blog.sensr.net/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://blog.sensr.net/img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&#34; sizes=&#34;(max-width: 245px) 100vw, 245px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;#8217;ve marked them as a favorite or &lt;a href=&#34;http://sensr.net/blog/2014/04/29/making-clips-on-sensr-net/&#34; title=&#34;Making Clips on Sensr.net&#34;&gt;made a clip&lt;/a&gt;. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.&lt;/p&gt;
 
@@ -123,7 +123,7 @@ $&lt;/pre&gt;
   &lt;/div&gt;
 &lt;/div&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://flic.kr/p/5Yrhye&#34;&gt;&lt;img class=&#34;alignleft  wp-image-2923&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&#34; alt=&#34;Full Moon Mystery&#34; width=&#34;245&#34; height=&#34;368&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&#34; sizes=&#34;(max-width: 245px) 100vw, 245px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://flic.kr/p/5Yrhye&#34;&gt;&lt;img class=&#34;alignleft  wp-image-2923&#34; src=&#34;http://blog.sensr.net/img/2014/07/3264084341_e851a2cf68_z.jpg&#34; alt=&#34;Full Moon Mystery&#34; width=&#34;245&#34; height=&#34;368&#34; srcset=&#34;http://blog.sensr.net/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://blog.sensr.net/img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&#34; sizes=&#34;(max-width: 245px) 100vw, 245px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;#8217;ve marked them as a favorite or &lt;a href=&#34;http://sensr.net/blog/2014/04/29/making-clips-on-sensr-net/&#34; title=&#34;Making Clips on Sensr.net&#34;&gt;made a clip&lt;/a&gt;. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.&lt;/p&gt;
 
@@ -187,7 +187,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
   &amp;lt;/div&amp;gt;
 &amp;lt;/div&amp;gt;
 
-[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, /img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
 
 Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
 
@@ -213,7 +213,7 @@ I&amp;amp;#8217;ll assume you know how to get to the command line on your machin
   &amp;lt;/div&amp;gt;
 &amp;lt;/div&amp;gt;
 
-[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, /img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
 
 Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
 
@@ -264,7 +264,7 @@ Edit the line in `get-images.rb` so it uses your token. The change will look som
   &amp;lt;/div&amp;gt;
 &amp;lt;/div&amp;gt;
 
-[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, /img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
 
 Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
 
@@ -290,7 +290,7 @@ I&amp;amp;#8217;ll assume you know how to get to the command line on your machin
   &amp;lt;/div&amp;gt;
 &amp;lt;/div&amp;gt;
 
-[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, /img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
 
 Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
 
@@ -356,7 +356,7 @@ To grab the images from a specific day, say May 1, 2014 on camera 5 and drop the
   &amp;lt;/div&amp;gt;
 &amp;lt;/div&amp;gt;
 
-[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, /img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
 
 Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
 
@@ -382,7 +382,7 @@ I&amp;amp;#8217;ll assume you know how to get to the command line on your machin
   &amp;lt;/div&amp;gt;
 &amp;lt;/div&amp;gt;
 
-[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, /img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
 
 Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
 
@@ -433,7 +433,7 @@ Edit the line in `get-images.rb` so it uses your token. The change will look som
   &amp;lt;/div&amp;gt;
 &amp;lt;/div&amp;gt;
 
-[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, /img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
 
 Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
 
@@ -459,7 +459,7 @@ I&amp;amp;#8217;ll assume you know how to get to the command line on your machin
   &amp;lt;/div&amp;gt;
 &amp;lt;/div&amp;gt;
 
-[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, /img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
 
 Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
 
@@ -522,7 +522,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
   &amp;lt;/div&amp;gt;
 &amp;lt;/div&amp;gt;
 
-[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, /img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
 
 Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
 
@@ -548,7 +548,7 @@ I&amp;amp;#8217;ll assume you know how to get to the command line on your machin
   &amp;lt;/div&amp;gt;
 &amp;lt;/div&amp;gt;
 
-[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, /img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
 
 Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
 
@@ -599,7 +599,7 @@ Edit the line in `get-images.rb` so it uses your token. The change will look som
   &amp;lt;/div&amp;gt;
 &amp;lt;/div&amp;gt;
 
-[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, /img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
 
 Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
 
@@ -625,7 +625,7 @@ I&amp;amp;#8217;ll assume you know how to get to the command line on your machin
   &amp;lt;/div&amp;gt;
 &amp;lt;/div&amp;gt;
 
-[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z.jpg 427w, http://sensr.net/blog/wp-content/uploads/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
+[&amp;lt;img class=&amp;quot;alignleft  wp-image-2923&amp;quot; src=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg&amp;quot; alt=&amp;quot;Full Moon Mystery&amp;quot; width=&amp;quot;245&amp;quot; height=&amp;quot;368&amp;quot; srcset=&amp;quot;/img/2014/07/3264084341_e851a2cf68_z.jpg 427w, /img/2014/07/3264084341_e851a2cf68_z-200x300.jpg 200w&amp;quot; sizes=&amp;quot;(max-width: 245px) 100vw, 245px&amp;quot; /&amp;gt;][1]
 
 Sensr.net will store images for up to a month. When your images get older than 31 days, we remove them unless you&amp;amp;#8217;ve marked them as a favorite or [made a clip][2]. If you want to pull down the images and store them on your local hard drive, we have some open source tools for that. This post shows how to use the get-images.rb program to pull images down from Sensr.net to your local machine.
 
@@ -713,7 +713,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
       
       <guid>http://blog.sensr.net/2014/02/24/android-security-camera/</guid>
       <description>&lt;div id=&#34;attachment_2763&#34; style=&#34;width: 591px&#34; class=&#34;wp-caption alignleft&#34;&gt;
-  &lt;a title=&#34;MobileWebCam App&#34; href=&#34;https://play.google.com/store/apps/details?id=com.dngames.mobilewebcam&#34;&gt;&lt;img class=&#34;size-full wp-image-2763&#34; alt=&#34;MobileWebCam app&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/Screenshot-2014-02-24-21.59.35.png&#34; width=&#34;581&#34; height=&#34;254&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/Screenshot-2014-02-24-21.59.35.png 581w, http://sensr.net/blog/wp-content/uploads/2014/02/Screenshot-2014-02-24-21.59.35-300x131.png 300w&#34; sizes=&#34;(max-width: 581px) 100vw, 581px&#34; /&gt;&lt;/a&gt;
+  &lt;a title=&#34;MobileWebCam App&#34; href=&#34;https://play.google.com/store/apps/details?id=com.dngames.mobilewebcam&#34;&gt;&lt;img class=&#34;size-full wp-image-2763&#34; alt=&#34;MobileWebCam app&#34; src=&#34;http://blog.sensr.net/img/2014/02/Screenshot-2014-02-24-21.59.35.png&#34; width=&#34;581&#34; height=&#34;254&#34; srcset=&#34;http://blog.sensr.net/img/2014/02/Screenshot-2014-02-24-21.59.35.png 581w, http://blog.sensr.net/img/2014/02/Screenshot-2014-02-24-21.59.35-300x131.png 300w&#34; sizes=&#34;(max-width: 581px) 100vw, 581px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     MobileWebCam app
@@ -733,7 +733,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
       
       <guid>http://blog.sensr.net/2014/02/04/howto-setup-d-link-dcs-5010l-recording-with-ftp/</guid>
       <description>&lt;div id=&#34;attachment_2694&#34; style=&#34;width: 386px&#34; class=&#34;wp-caption alignleft&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/DCS-5010L.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-2694&#34; alt=&#34;D-Link 5010L&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/DCS-5010L.jpg&#34; width=&#34;376&#34; height=&#34;450&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/02/DCS-5010L.jpg 376w, http://sensr.net/blog/wp-content/uploads/2014/02/DCS-5010L-250x300.jpg 250w&#34; sizes=&#34;(max-width: 376px) 100vw, 376px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2014/02/DCS-5010L.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-2694&#34; alt=&#34;D-Link 5010L&#34; src=&#34;http://blog.sensr.net/img/2014/02/DCS-5010L.jpg&#34; width=&#34;376&#34; height=&#34;450&#34; srcset=&#34;http://blog.sensr.net/img/2014/02/DCS-5010L.jpg 376w, http://blog.sensr.net/img/2014/02/DCS-5010L-250x300.jpg 250w&#34; sizes=&#34;(max-width: 376px) 100vw, 376px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     D-Link 5010L
@@ -777,7 +777,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
 &lt;p&gt;&lt;strong&gt;Step 2 &lt;/strong&gt;Login to Sensr.net using your email and password.  If you don&amp;#8217;t have an account, you can &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34; title=&#34;Free Sensr.net Account Signup&#34;&gt;add one for free on the sign up page&lt;/a&gt;.  Once you&amp;#8217;re logged in, just click the &lt;strong&gt;Add Camera&lt;/strong&gt; button in green.&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2674&#34; style=&#34;width: 1013px&#34; class=&#34;wp-caption alignleft&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/sensr-add-camera.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2674&#34; alt=&#34;Click the green button.&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/sensr-add-camera.png&#34; width=&#34;1003&#34; height=&#34;339&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/sensr-add-camera.png 1003w, http://sensr.net/blog/wp-content/uploads/2014/01/sensr-add-camera-300x101.png 300w&#34; sizes=&#34;(max-width: 1003px) 100vw, 1003px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2014/01/sensr-add-camera.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2674&#34; alt=&#34;Click the green button.&#34; src=&#34;http://blog.sensr.net/img/2014/01/sensr-add-camera.png&#34; width=&#34;1003&#34; height=&#34;339&#34; srcset=&#34;http://blog.sensr.net/img/2014/01/sensr-add-camera.png 1003w, http://blog.sensr.net/img/2014/01/sensr-add-camera-300x101.png 300w&#34; sizes=&#34;(max-width: 1003px) 100vw, 1003px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Click the green button.
@@ -787,7 +787,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
 &lt;p&gt;Next you&amp;#8217;ll see a page where you can set the camera&amp;#8217;s title, the time zone, privacy, and model.  The title should be something that describes what the camera is pointing at.  The most popular camera title on Sensr.net is &lt;strong&gt;Front Door&lt;/strong&gt; so this gives you an idea of how folks are using our site. You can name the camera whatever you want though, we generate a generic name based on your login. The time zone is pretty important.  It&amp;#8217;s used to generate the day view of the archives.  Cameras are private by default, meaning only you can see them.  If you want your camera to be public, you can change that setting here.  The camera model just tells us what kind of camera you&amp;#8217;re setting up.  In this case it would be a DCS-5010L.&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2675&#34; style=&#34;width: 1009px&#34; class=&#34;wp-caption alignleft&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/add-camera-details.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2675&#34; alt=&#34;Name your camera and give us some basic info about it.&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/add-camera-details.png&#34; width=&#34;999&#34; height=&#34;491&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/add-camera-details.png 999w, http://sensr.net/blog/wp-content/uploads/2014/01/add-camera-details-300x147.png 300w&#34; sizes=&#34;(max-width: 999px) 100vw, 999px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2014/01/add-camera-details.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2675&#34; alt=&#34;Name your camera and give us some basic info about it.&#34; src=&#34;http://blog.sensr.net/img/2014/01/add-camera-details.png&#34; width=&#34;999&#34; height=&#34;491&#34; srcset=&#34;http://blog.sensr.net/img/2014/01/add-camera-details.png 999w, http://blog.sensr.net/img/2014/01/add-camera-details-300x147.png 300w&#34; sizes=&#34;(max-width: 999px) 100vw, 999px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Name your camera and give us some basic info about it.
@@ -805,7 +805,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
 &lt;p&gt;Keep this window open or copy and paste them somewhere since you&amp;#8217;ll need them soon.  You can always get them back later if you need them again or loose them.  They&amp;#8217;ll be under the camera&amp;#8217;s details page.&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2607&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption alignleft&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2607&#34; alt=&#34;FTP credentials&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-1024x708.png&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-1024x708.png 1024w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2607&#34; alt=&#34;FTP credentials&#34; src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2-1024x708.png&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2-1024x708.png 1024w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s2-300x207.png 300w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s2.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     FTP credentials
@@ -839,7 +839,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
 &lt;p&gt;At this point you are done. You can close the browser window pointed at your camera and go back to Sensr.net. Click on the &lt;strong&gt;Next Step&lt;/strong&gt; button to see the images coming in from your camera. You should see a page something like this:&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2618&#34; style=&#34;width: 997px&#34; class=&#34;wp-caption alignleft&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2618&#34; alt=&#34;Success!&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success.png&#34; width=&#34;987&#34; height=&#34;793&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success.png 987w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success-300x241.png 300w&#34; sizes=&#34;(max-width: 987px) 100vw, 987px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-success.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2618&#34; alt=&#34;Success!&#34; src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-success.png&#34; width=&#34;987&#34; height=&#34;793&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-success.png 987w, http://blog.sensr.net/img/2013/12/sensr-add-camera-success-300x241.png 300w&#34; sizes=&#34;(max-width: 987px) 100vw, 987px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Success!
@@ -867,7 +867,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
       
       <guid>http://blog.sensr.net/2014/01/30/setup-d-link-dcs-5020l-recording-with-ftp-uploads-howto/</guid>
       <description>&lt;div id=&#34;attachment_2669&#34; style=&#34;width: 385px&#34; class=&#34;wp-caption alignleft&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/DCS-5020L.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-2669&#34; alt=&#34;DCS-5020L from D-Link&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/DCS-5020L.jpg&#34; width=&#34;375&#34; height=&#34;450&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/DCS-5020L.jpg 375w, http://sensr.net/blog/wp-content/uploads/2014/01/DCS-5020L-250x300.jpg 250w&#34; sizes=&#34;(max-width: 375px) 100vw, 375px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2014/01/DCS-5020L.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-2669&#34; alt=&#34;DCS-5020L from D-Link&#34; src=&#34;http://blog.sensr.net/img/2014/01/DCS-5020L.jpg&#34; width=&#34;375&#34; height=&#34;450&#34; srcset=&#34;http://blog.sensr.net/img/2014/01/DCS-5020L.jpg 375w, http://blog.sensr.net/img/2014/01/DCS-5020L-250x300.jpg 250w&#34; sizes=&#34;(max-width: 375px) 100vw, 375px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     DCS-5020L from D-Link
@@ -911,7 +911,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
 &lt;p&gt;&lt;strong&gt;Step 2 &lt;/strong&gt;Login to Sensr.net using your email and password.  If you don&amp;#8217;t have an account, you can &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34; title=&#34;Free Sensr.net Account Signup&#34;&gt;add one for free on the sign up page&lt;/a&gt;.  Once you&amp;#8217;re logged in, just click the &lt;strong&gt;Add Camera&lt;/strong&gt; button in green.&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2674&#34; style=&#34;width: 1013px&#34; class=&#34;wp-caption alignleft&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/sensr-add-camera.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2674&#34; alt=&#34;Click the green button.&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/sensr-add-camera.png&#34; width=&#34;1003&#34; height=&#34;339&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/sensr-add-camera.png 1003w, http://sensr.net/blog/wp-content/uploads/2014/01/sensr-add-camera-300x101.png 300w&#34; sizes=&#34;(max-width: 1003px) 100vw, 1003px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2014/01/sensr-add-camera.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2674&#34; alt=&#34;Click the green button.&#34; src=&#34;http://blog.sensr.net/img/2014/01/sensr-add-camera.png&#34; width=&#34;1003&#34; height=&#34;339&#34; srcset=&#34;http://blog.sensr.net/img/2014/01/sensr-add-camera.png 1003w, http://blog.sensr.net/img/2014/01/sensr-add-camera-300x101.png 300w&#34; sizes=&#34;(max-width: 1003px) 100vw, 1003px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Click the green button.
@@ -921,7 +921,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
 &lt;p&gt;Next you&amp;#8217;ll see a page where you can set the camera&amp;#8217;s title, the time zone, privacy, and model.  The title should be something that describes what the camera is pointing at.  The most popular camera title on Sensr.net is &lt;strong&gt;Front Door&lt;/strong&gt; so this gives you an idea of how folks are using our site. You can name the camera whatever you want though, we generate a generic name based on your login. The time zone is pretty important.  It&amp;#8217;s used to generate the day view of the archives.  Cameras are private by default, meaning only you can see them.  If you want your camera to be public, you can change that setting here.  The camera model just tells us what kind of camera you&amp;#8217;re setting up.  In this case it would be a DCS-5020L.&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2675&#34; style=&#34;width: 1009px&#34; class=&#34;wp-caption alignleft&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/add-camera-details.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2675&#34; alt=&#34;Name your camera and give us some basic info about it.&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/add-camera-details.png&#34; width=&#34;999&#34; height=&#34;491&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2014/01/add-camera-details.png 999w, http://sensr.net/blog/wp-content/uploads/2014/01/add-camera-details-300x147.png 300w&#34; sizes=&#34;(max-width: 999px) 100vw, 999px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2014/01/add-camera-details.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2675&#34; alt=&#34;Name your camera and give us some basic info about it.&#34; src=&#34;http://blog.sensr.net/img/2014/01/add-camera-details.png&#34; width=&#34;999&#34; height=&#34;491&#34; srcset=&#34;http://blog.sensr.net/img/2014/01/add-camera-details.png 999w, http://blog.sensr.net/img/2014/01/add-camera-details-300x147.png 300w&#34; sizes=&#34;(max-width: 999px) 100vw, 999px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Name your camera and give us some basic info about it.
@@ -939,7 +939,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
 &lt;p&gt;Keep this window open or copy and paste them somewhere since you&amp;#8217;ll need them soon.  You can always get them back later if you need them again or loose them.  They&amp;#8217;ll be under the camera&amp;#8217;s details page.&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2607&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption alignleft&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2607&#34; alt=&#34;FTP credentials&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-1024x708.png&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-1024x708.png 1024w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2-300x207.png 300w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-s2.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2607&#34; alt=&#34;FTP credentials&#34; src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2-1024x708.png&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2-1024x708.png 1024w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s2-300x207.png 300w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s2.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     FTP credentials
@@ -973,7 +973,7 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
 &lt;p&gt;At this point you are done. You can close the browser window pointed at your camera and go back to Sensr.net. Click on the &lt;strong&gt;Next Step&lt;/strong&gt; button to see the images coming in from your camera. You should see a page something like this:&lt;/p&gt;
 
 &lt;div id=&#34;attachment_2618&#34; style=&#34;width: 997px&#34; class=&#34;wp-caption alignleft&#34;&gt;
-  &lt;a href=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2618&#34; alt=&#34;Success!&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success.png&#34; width=&#34;987&#34; height=&#34;793&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success.png 987w, http://sensr.net/blog/wp-content/uploads/2013/12/sensr-add-camera-success-300x241.png 300w&#34; sizes=&#34;(max-width: 987px) 100vw, 987px&#34; /&gt;&lt;/a&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-success.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2618&#34; alt=&#34;Success!&#34; src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-success.png&#34; width=&#34;987&#34; height=&#34;793&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-success.png 987w, http://blog.sensr.net/img/2013/12/sensr-add-camera-success-300x241.png 300w&#34; sizes=&#34;(max-width: 987px) 100vw, 987px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Success!
@@ -1021,11 +1021,11 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
 &lt;li&gt;The upload password is the camera password: PASSWORD.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://blog.sensr.net/wp-content/uploads/2011/06/Axis-M1011-HTTP-Upload.png&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-338&#34; title=&#34;Axis M1011 HTTP Upload&#34; src=&#34;http://blog.sensr.net/wp-content/uploads/2011/06/Axis-M1011-HTTP-Upload.png&#34; alt=&#34;&#34; width=&#34;597&#34; height=&#34;295&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2011/06/Axis-M1011-HTTP-Upload.png 597w, http://sensr.net/blog/wp-content/uploads/2011/06/Axis-M1011-HTTP-Upload-300x148.png 300w&#34; sizes=&#34;(max-width: 597px) 100vw, 597px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://blog.sensr.net/wp-content/uploads/2011/06/Axis-M1011-HTTP-Upload.png&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-338&#34; title=&#34;Axis M1011 HTTP Upload&#34; src=&#34;http://blog.sensr.net/wp-content/uploads/2011/06/Axis-M1011-HTTP-Upload.png&#34; alt=&#34;&#34; width=&#34;597&#34; height=&#34;295&#34; srcset=&#34;http://blog.sensr.net/img/2011/06/Axis-M1011-HTTP-Upload.png 597w, http://blog.sensr.net/img/2011/06/Axis-M1011-HTTP-Upload-300x148.png 300w&#34; sizes=&#34;(max-width: 597px) 100vw, 597px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Now, define an event that will upload to this server.  I like to define an event to fire continuously at one-second intervals.  Use the Event Server name you created above to reference which server to connect to.  Notice how the event server called &amp;#8220;NewHTTPServer&amp;#8221; created above is reference here.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://blog.sensr.net/wp-content/uploads/2011/06/AxisEvent1.png&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-340&#34; title=&#34;AxisEvent&#34; src=&#34;http://blog.sensr.net/wp-content/uploads/2011/06/AxisEvent1.png&#34; alt=&#34;&#34; width=&#34;645&#34; height=&#34;650&#34; srcset=&#34;http://sensr.net/blog/wp-content/uploads/2011/06/AxisEvent1.png 645w, http://sensr.net/blog/wp-content/uploads/2011/06/AxisEvent1-150x150.png 150w, http://sensr.net/blog/wp-content/uploads/2011/06/AxisEvent1-297x300.png 297w&#34; sizes=&#34;(max-width: 645px) 100vw, 645px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://blog.sensr.net/wp-content/uploads/2011/06/AxisEvent1.png&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-340&#34; title=&#34;AxisEvent&#34; src=&#34;http://blog.sensr.net/wp-content/uploads/2011/06/AxisEvent1.png&#34; alt=&#34;&#34; width=&#34;645&#34; height=&#34;650&#34; srcset=&#34;http://blog.sensr.net/img/2011/06/AxisEvent1.png 645w, http://blog.sensr.net/img/2011/06/AxisEvent1-150x150.png 150w, http://blog.sensr.net/img/2011/06/AxisEvent1-297x300.png 297w&#34; sizes=&#34;(max-width: 645px) 100vw, 645px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 
@@ -1043,19 +1043,19 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
       <description>&lt;div id=&#39;gallery-1&#39; class=&#39;gallery galleryid-129 gallery-columns-3 gallery-size-thumbnail&#39;&gt;
   &lt;dl class=&#39;gallery-item&#39;&gt;
     &lt;dt class=&#39;gallery-icon portrait&#39;&gt;
-      &lt;a href=&#39;http://sensr.net/blog/wp-content/uploads/2011/05/IMG_0470-e1306471506960.jpg&#39;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2011/05/IMG_0470-e1306471506960-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;How To Make a Network Camera Enclosure on Sensr.net blog&#34; /&gt;&lt;/a&gt;
+      &lt;a href=&#39;http://blog.sensr.net/img/2011/05/IMG_0470-e1306471506960.jpg&#39;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://blog.sensr.net/img/2011/05/IMG_0470-e1306471506960-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;How To Make a Network Camera Enclosure on Sensr.net blog&#34; /&gt;&lt;/a&gt;
     &lt;/dt&gt;
   &lt;/dl&gt;
   
   &lt;dl class=&#39;gallery-item&#39;&gt;
     &lt;dt class=&#39;gallery-icon portrait&#39;&gt;
-      &lt;a href=&#39;http://sensr.net/blog/wp-content/uploads/2011/05/IMG_0471-e1306471487210.jpg&#39;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2011/05/IMG_0471-e1306471487210-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;How To Make a Network Camera Enclosure on Sensr.net blog&#34; /&gt;&lt;/a&gt;
+      &lt;a href=&#39;http://blog.sensr.net/img/2011/05/IMG_0471-e1306471487210.jpg&#39;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://blog.sensr.net/img/2011/05/IMG_0471-e1306471487210-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;How To Make a Network Camera Enclosure on Sensr.net blog&#34; /&gt;&lt;/a&gt;
     &lt;/dt&gt;
   &lt;/dl&gt;
   
   &lt;dl class=&#39;gallery-item&#39;&gt;
     &lt;dt class=&#39;gallery-icon portrait&#39;&gt;
-      &lt;a href=&#39;http://sensr.net/blog/wp-content/uploads/2011/05/IMG_0472-e1306471470976.jpg&#39;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2011/05/IMG_0472-e1306471470976-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Sensr.net shows how to make a cheap network camera enclosure&#34; /&gt;&lt;/a&gt;
+      &lt;a href=&#39;http://blog.sensr.net/img/2011/05/IMG_0472-e1306471470976.jpg&#39;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://blog.sensr.net/img/2011/05/IMG_0472-e1306471470976-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Sensr.net shows how to make a cheap network camera enclosure&#34; /&gt;&lt;/a&gt;
     &lt;/dt&gt;
   &lt;/dl&gt;
   
@@ -1063,19 +1063,19 @@ Finally you can run the program! Run it like this. The &amp;amp;#8211;help param
   
   &lt;dl class=&#39;gallery-item&#39;&gt;
     &lt;dt class=&#39;gallery-icon portrait&#39;&gt;
-      &lt;a href=&#39;http://sensr.net/blog/wp-content/uploads/2011/05/IMG_0473-e1306471452340.jpg&#39;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2011/05/IMG_0473-e1306471452340-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;How To Make a Network Camera Enclosure&#34; /&gt;&lt;/a&gt;
+      &lt;a href=&#39;http://blog.sensr.net/img/2011/05/IMG_0473-e1306471452340.jpg&#39;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://blog.sensr.net/img/2011/05/IMG_0473-e1306471452340-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;How To Make a Network Camera Enclosure&#34; /&gt;&lt;/a&gt;
     &lt;/dt&gt;
   &lt;/dl&gt;
   
   &lt;dl class=&#39;gallery-item&#39;&gt;
     &lt;dt class=&#39;gallery-icon portrait&#39;&gt;
-      &lt;a href=&#39;http://sensr.net/blog/wp-content/uploads/2011/05/IMG_0474-e1306471426467.jpg&#39;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2011/05/IMG_0474-e1306471426467-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Making a network camera enclosure on http://blog.sensr.net.&#34; /&gt;&lt;/a&gt;
+      &lt;a href=&#39;http://blog.sensr.net/img/2011/05/IMG_0474-e1306471426467.jpg&#39;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://blog.sensr.net/img/2011/05/IMG_0474-e1306471426467-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Making a network camera enclosure on http://blog.sensr.net.&#34; /&gt;&lt;/a&gt;
     &lt;/dt&gt;
   &lt;/dl&gt;
   
   &lt;dl class=&#39;gallery-item&#39;&gt;
     &lt;dt class=&#39;gallery-icon portrait&#39;&gt;
-      &lt;a href=&#39;http://sensr.net/blog/wp-content/uploads/2011/05/IMG_0475-e1306471400972.jpg&#39;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://sensr.net/blog/wp-content/uploads/2011/05/IMG_0475-e1306471400972-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Finished network camera enclosure on http://blog.sensr.net&#34; /&gt;&lt;/a&gt;
+      &lt;a href=&#39;http://blog.sensr.net/img/2011/05/IMG_0475-e1306471400972.jpg&#39;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://blog.sensr.net/img/2011/05/IMG_0475-e1306471400972-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Finished network camera enclosure on http://blog.sensr.net&#34; /&gt;&lt;/a&gt;
     &lt;/dt&gt;
   &lt;/dl&gt;
   
