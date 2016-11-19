@@ -1800,7 +1800,18 @@ add_shortcode(&#39;sensr&#39;, &#39;get_sensr&#39;);&lt;/pre&gt;
       <pubDate>Tue, 10 Dec 2013 23:02:16 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2013/12/10/how-to-configure-a-foscam-fi9821w-v2-from-mac-or-linux/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://blog.sensr.net/img/2013/11/foscamfi9821wv2black.jpg&#34;&gt;&lt;img class=&#34;size-full wp-image-2577 alignleft&#34; alt=&#34;Foscam FI9821W V2&#34; src=&#34;http://blog.sensr.net/img/2013/11/foscamfi9821wv2black.jpg&#34; width=&#34;160&#34; height=&#34;160&#34; srcset=&#34;http://blog.sensr.net/img/2013/11/foscamfi9821wv2black.jpg 160w, http://blog.sensr.net/img/2013/11/foscamfi9821wv2black-150x150.jpg 150w&#34; sizes=&#34;(max-width: 160px) 100vw, 160px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;figure &gt;
+    &lt;a href=&#34;https://www.amazon.com/Foscam-FI9821W-Megapixel-Wireless-Camera/dp/B01EVMF3I6/sensr-20&#34;&gt;
+        &lt;img src=&#34;http://blog.sensr.net/img/fi9821w-v2.jpg&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Foscam FI9821W V2&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
 
 &lt;p&gt;The &lt;a href=&#34;http://www.amazon.com/Foscam-FI9821W-Megapixel-Wireless-Camera/dp/B00F3KWZW8/sensr-20&#34; title=&#34;Foscam FI9821W V2&#34;&gt;Foscam FI9821W V2 IP camera&lt;/a&gt; is super popular these days. It&amp;#8217;s about $150 on &lt;a href=&#34;http://www.amazon.com/Foscam-FI9821W-Megapixel-Wireless-Camera/dp/B00F3KWZW8/sensr-20&#34; title=&#34;Buy FI9821W V2 on Amazon&#34;&gt;Amazon right now&lt;/a&gt;. The instructions come with Windows and Mac setup software, but you really don&amp;#8217;t need it. In this post I&amp;#8217;ll show you how to configure the webcam without the software. _&lt;strong&gt;Be aware that the camera&amp;#8217;s default port is 88.&lt;/strong&gt;_ I wasted 30 minutes figuring this out, more on what this means later.&lt;/p&gt;
 
@@ -1852,23 +1863,35 @@ add_shortcode(&#39;sensr&#39;, &#39;get_sensr&#39;);&lt;/pre&gt;
 
 &lt;p&gt;When you go to your camera&amp;#8217;s page, it will look something like this.&lt;/p&gt;
 
-&lt;div id=&#34;attachment_2600&#34; style=&#34;width: 1151px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-settings-page.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2600&#34; alt=&#34;FI9821W V2 Settings Page&#34; src=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-settings-page.png&#34; width=&#34;1141&#34; height=&#34;790&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-settings-page.png 1141w, http://blog.sensr.net/img/2013/12/fi9821wv2-settings-page-300x207.png 300w, http://blog.sensr.net/img/2013/12/fi9821wv2-settings-page-1024x708.png 1024w&#34; sizes=&#34;(max-width: 1141px) 100vw, 1141px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    FI9821W V2 Settings Page
-  &lt;/p&gt;
-&lt;/div&gt;
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-settings-page.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;FI9821W V2 Settings Page&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
 
 &lt;p&gt;In Safari you can click on the Live Video tab and watch your camera. From that page you can pan and tilt the camera and watch a live video stream from within your home network. We have some guys removing trees today so I setup the camera outside to watch. It will look like this:&lt;/p&gt;
 
-&lt;div id=&#34;attachment_2601&#34; style=&#34;width: 1151px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-live-video-page.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2601&#34; alt=&#34;Safari Live Video FI9821W V2&#34; src=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-live-video-page.png&#34; width=&#34;1141&#34; height=&#34;790&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-live-video-page.png 1141w, http://blog.sensr.net/img/2013/12/fi9821wv2-live-video-page-300x207.png 300w, http://blog.sensr.net/img/2013/12/fi9821wv2-live-video-page-1024x708.png 1024w&#34; sizes=&#34;(max-width: 1141px) 100vw, 1141px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Safari Live Video FI9821W V2
-  &lt;/p&gt;
-&lt;/div&gt;
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-live-video-page.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Safari Live Video FI9821W V2&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
 
 &lt;p&gt;You can see from the preceding screen shot that I&amp;#8217;m running  the latest firmware, 10.11.1.18.&lt;/p&gt;
 
@@ -1948,23 +1971,35 @@ add_shortcode(&#39;sensr&#39;, &#39;get_sensr&#39;);&lt;/pre&gt;
 
 &lt;p&gt;On the Sensr.net side the page should go from this:&lt;/p&gt;
 
-&lt;div id=&#34;attachment_2611&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s3.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2611&#34; alt=&#34;Waiting for upload&#34; src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s3-1024x708.png&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s3-1024x708.png 1024w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s3-300x207.png 300w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s3.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Waiting for upload
-  &lt;/p&gt;
-&lt;/div&gt;
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s3.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt; Waiting for upload&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
 
 &lt;p&gt;To a page that shows the image your camera uploaded.  Something like this:&lt;/p&gt;
 
-&lt;div id=&#34;attachment_2618&#34; style=&#34;width: 997px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-success.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2618&#34; alt=&#34;Success!&#34; src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-success.png&#34; width=&#34;987&#34; height=&#34;793&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-success.png 987w, http://blog.sensr.net/img/2013/12/sensr-add-camera-success-300x241.png 300w&#34; sizes=&#34;(max-width: 987px) 100vw, 987px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Success!
-  &lt;/p&gt;
-&lt;/div&gt;
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-success.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Success!&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
 
 &lt;p&gt;Congratulations, now you&amp;#8217;re done with the camera config. You&amp;#8217;re camera is now on Sensr.net. We&amp;#8217;ll archive all the motion events, giving you 30 days of archives, SMS and email alerts, guest access, and a whole lot more.  You can view the live stream on our website or in our apps.  No firewall configuration is needed.  No PC in the basement required.&lt;/p&gt;
 
