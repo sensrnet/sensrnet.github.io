@@ -6,8 +6,136 @@
     <description>Recent content on Sensr.net Blog | Watch your Stuff!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Oct 2016 20:46:21 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Nov 2016 21:59:35 -0400</lastBuildDate>
     <atom:link href="http://blog.sensr.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hikvision FTP Server IP address leads to Zombie Apocalypse</title>
+      <link>http://blog.sensr.net/2016/11/hikvision-ftp-server-ip-address-leads-to-zombie-apocalypse/</link>
+      <pubDate>Mon, 21 Nov 2016 21:59:35 -0400</pubDate>
+      
+      <guid>http://blog.sensr.net/2016/11/hikvision-ftp-server-ip-address-leads-to-zombie-apocalypse/</guid>
+      <description>
+
+
+&lt;figure &gt;
+    &lt;a href=&#34;https://www.amazon.com/Hikvision-DS-2CD2042WD-I-Network-English-Security/dp/B01DIKF4XG/sensr-20&#34;&gt;
+        &lt;img src=&#34;http://blog.sensr.net/img/DS-2CD2042WD-I.jpg&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Hikvision DS-2CD2042WD-I Bullet Camera&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Ok, these &lt;a href=&#34;https://www.amazon.com/Hikvision-DS-2CD2042WD-I-Network-English-Security/dp/B01DIKF4XG/sensr-20&#34;&gt;Hikvision cameras&lt;/a&gt; are pretty nice
+and seem like great quality for the price.  However, I have one major issue with them, they
+don&amp;rsquo;t let you use hostnames for the FTP server.  You have to use an IP address.&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://blog.sensr.net/img/hikvision-ftp-setup.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Hikvision FTP Setup&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Why would they require this?  I suppose for most cameras connect to a server on the local netwowork, so it won&amp;rsquo;t have a DNS name
+anyway, so why not just require an IP address? It means that when the camera does connect to the FTP server, that it doesn&amp;rsquo;t need to do
+a DNS lookup, but that seems like a pretty big trade off. You have to hardwire the IP address into the camera config.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-about-external-servers&#34;&gt;What about external servers?&lt;/h2&gt;
+
+&lt;p&gt;If you require an IP address, then you need to find the IP address of the server.  At &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt; we run FTP servers and we
+use hostnames like &lt;code&gt;f0.sensr.net&lt;/code&gt;. If you want to use the Hikvision with our service, you need to connect to one of our servers (currently f0 through f9).
+But to use the Hikvision, you&amp;rsquo;ll need to find out the IP address of our servers.  In the case of &lt;code&gt;f9.sensr.net&lt;/code&gt; you can run &lt;code&gt;nslookup&lt;/code&gt; like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ nslookup f9.sensr.net
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+Name:	f9.sensr.net
+Address: 74.207.245.42
+Name:	f9.sensr.net
+Address: 96.126.101.33
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;However, notice that it returns two different answers.  At Sensr.net we (currently) have two servers that serve as &lt;code&gt;f9.sensr.net&lt;/code&gt;.  We do this
+for redundancy.  If one of our servers fails, then the other one can take over for it.  Of course this redundancy won&amp;rsquo;t help you
+if you hard wire the IP address.  For the Hikvision, just pick one or the other IP addresses and it should work.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-about-loadbalancing-and-failover&#34;&gt;What about loadbalancing and failover?&lt;/h2&gt;
+
+&lt;p&gt;This kind of screws up our load balancing and failover.  But at least it works.  However, it only works as long as our servers keep the same IP
+address.  What if we upgrade or move a server?  It&amp;rsquo;s IP address will change and your camera won&amp;rsquo;t work anymore.&lt;/p&gt;
+
+&lt;h2 id=&#34;maybe-security-could-be-compromised-too&#34;&gt;Maybe security could be compromised too&lt;/h2&gt;
+
+&lt;p&gt;We use servers at &lt;a href=&#34;https://www.linode.com&#34;&gt;Linode&lt;/a&gt; and we might decide to upgrade and get a bigger server at Linode,
+or maybe move to &lt;a href=&#34;https://aws.amazon.com&#34;&gt;AWS&lt;/a&gt; or even &lt;a href=&#34;https://cloud.google.com/&#34;&gt;Google Cloud&lt;/a&gt;. In that case,
+the IP address that we used to use will get depricated.  This probably means your camera will stop working.  But it could mean that it starts
+uploading to a server that isn&amp;rsquo;t part of Sensr.net!  Let&amp;rsquo;s say we drop the server at Linode, it&amp;rsquo;s pretty likely that Linode will re-use that IP
+address for someone else.  That new owner might notice that there are cameras trying to connect to it.  That new owner might also decide to let
+those cameras connect and then they could start collecting images that are uploaded by your cameras.  Hmm, that seems like a bad idea.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-serious-is-this&#34;&gt;How serious is this?&lt;/h2&gt;
+
+&lt;p&gt;I think we have changed the IP addresses of our upload servers once in 6 years.  So it doesn&amp;rsquo;t happen often.  However, we are working on a
+major change and I expect the IP addresses will change in the next year.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-can-we-do-to-help&#34;&gt;What can we do to help?&lt;/h2&gt;
+
+&lt;p&gt;Before we change servers and drop the IP addresses for these machines,
+we can move over the DNS names (&lt;code&gt;f0.sensr.net .. f9.sensr.net&lt;/code&gt;) and see what cameras continue to connect. If all the cameras move over (they won&amp;rsquo;t)
+then we don&amp;rsquo;t need to worry.  I&amp;rsquo;m sure there will be cameras left connceting to the old IP addresses.  In this case we can warn our users that they need
+to update their cameras.  We&amp;rsquo;ll probably send out an email and give our users some time to make the change.&lt;/p&gt;
+
+&lt;h2 id=&#34;zombie-cameras&#34;&gt;Zombie cameras&lt;/h2&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://blog.sensr.net/img/zombiecam.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Never give up!&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;We have quite a few zombie cameras trying to connect to our servers.  Zombies are cameras that used to work with the service, but no longer
+are on paid accounts.  This means we don&amp;rsquo;t let them upload images, their logins fail.  But most zombies keep plugging away,  mindlessly attempting
+to upload to our servers even though we won&amp;rsquo;t let them.&lt;/p&gt;
+
+&lt;p&gt;In the case of these cameras, we may not be able to contact the owners, so after we finally decomission the servers, they may endup connecting to
+some new server deployed at &lt;a href=&#34;https://www.linode.com&#34;&gt;Linode&lt;/a&gt;.  If the owner of that new server decides to let the zombie connect, they could end up collecting
+lots of potentially private images.&lt;/p&gt;
+
+&lt;h2 id=&#34;iot-gone-mad&#34;&gt;IoT gone mad&lt;/h2&gt;
+
+&lt;p&gt;This is just one example of how the IoT world is leading to unintended consequences.  People setup cameras so they can be more secure, but
+through a sequence of perfectly normal events they end up with something they don&amp;rsquo;t expect.&lt;/p&gt;
+
+&lt;p&gt;Maybe we&amp;rsquo;ll ask Linode if they will decommision those IP addresses.  Maybe we&amp;rsquo;ll just keep paying for them.  One thing is for sure, we will
+warn users before we release the IP addresses back into the pool.  We&amp;rsquo;ll keep track of how much upload traffic we get to our deprecated
+servers.  It might lead to another interesting blog post!&lt;/p&gt;
+
+&lt;p&gt;Stay tuned, the Zombie Apocolypse is far from over.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Why no open source IoT Firmware?</title>
@@ -851,94 +979,6 @@ Address: 74.207.245.42&lt;/pre&gt;
 &lt;p&gt;Congratulations, now you’re done with the camera config. You’re camera is now on Sensr.net. We’ll archive all the motion events, giving you 30 days of archives, SMS and email alerts, guest access, and a whole lot more.  You can view the live stream on our website or in our apps.  No firewall configuration is needed.  No PC in the basement required.&lt;/p&gt;
 
 &lt;p&gt;If you have any problems, send email to info @ sensr.net and we’ll try to help you out!&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>How to setup the Linksys Wireless-N Camera with Cloud recording</title>
-      <link>http://blog.sensr.net/2014/07/31/how-to-setup-the-linksys-wireless-n-camera-with-cloud-recording/</link>
-      <pubDate>Thu, 31 Jul 2014 19:16:32 +0000</pubDate>
-      
-      <guid>http://blog.sensr.net/2014/07/31/how-to-setup-the-linksys-wireless-n-camera-with-cloud-recording/</guid>
-      <description>&lt;div id=&#34;attachment_3010&#34; style=&#34;width: 460px&#34; class=&#34;wp-caption alignleft&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/07/61fmuxQRcVL._SL1500_.jpg&#34;&gt;&lt;img class=&#34; wp-image-3010&#34; src=&#34;http://blog.sensr.net/img/2014/07/61fmuxQRcVL._SL1500_.jpg&#34; alt=&#34;Definitely good looking&#34; width=&#34;450&#34; height=&#34;450&#34; srcset=&#34;http://blog.sensr.net/img/2014/07/61fmuxQRcVL._SL1500_.jpg 1500w, http://blog.sensr.net/img/2014/07/61fmuxQRcVL._SL1500_-150x150.jpg 150w, http://blog.sensr.net/img/2014/07/61fmuxQRcVL._SL1500_-300x300.jpg 300w, http://blog.sensr.net/img/2014/07/61fmuxQRcVL._SL1500_-1024x1024.jpg 1024w&#34; sizes=&#34;(max-width: 450px) 100vw, 450px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Definitely good looking
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;The &lt;a href=&#34;http://www.amazon.com/Linksys-Wireless-N-Internet-Monitoring-Camera/dp/B002OHDFOA/sensr-20&#34;&gt;Linksys Wireless-N IP Cam&lt;/a&gt; is definitely in the more affordable range of IP cameras. It comes from a very reputable name, Linksys has been making electronics, since before I was born, and has plenty of great features not the least of which is FTP compatibility. It is important to note, however, that it does not support scheduled FTP uploads, only motion detection uploads. So you will not be able to get a &amp;#8220;live view&amp;#8221; on Sensr.net. This is pretty disappointing but that doesn&amp;#8217;t mean that if you have this camera all is lost. Be warned that the reviews on amazon are a little harsh (it only got three stars over all), but, a lot of those reviews revolve around how difficult it is to set up so that won&amp;#8217;t be a problem for you if you read and follow this tutorial!&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;This tutorial will follow these steps:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Hardware setup and finding the camera&amp;#8217;s IP address&lt;/li&gt;
-&lt;li&gt;Navigating to the camera&amp;#8217;s network access page&lt;/li&gt;
-&lt;li&gt;Getting FTP credentials from Sensr.net&lt;/li&gt;
-&lt;li&gt;Go to you camera and start cloud recording&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Step: Hardware setup and finding the camera&amp;#8217;s IP address&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Hardware setup, as always, is the easiest part here. Just plug your camera into both your router and a standard wall outlet. Make sure you put it in an inconspicuous place with a good line of view. If you want to connect it wirelessly you will have to setup with a wired connection and then change it to a wireless connection once you finish setup.&lt;/p&gt;
-
-&lt;p&gt;Next you will need to find your camera&amp;#8217;s IP address. There are two ways to do this: going through your router or going through the included software. The included software is very self explanatory and easy to follow so I will not include it in this tutorial instead I will focus on the other way.&lt;/p&gt;
-
-&lt;p&gt;I will show you how to do this on a mac (because I am writing from a mac) but it is also very easy to do from a PC (the PC process is outlined in &lt;a style=&#34;color: #888888;&#34; href=&#34;http://blogs.computerworld.com/network-security/22777/find-ip-address-your-home-router&#34;&gt;this article&lt;/a&gt;). On my mac it is under system preferences&amp;gt;Network&amp;gt;Advanced…&amp;gt;TCP/IP. The page looks like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2597&#34; src=&#34;http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png&#34; alt=&#34;Router IP address shown on second line&#34; width=&#34;782&#34; height=&#34;694&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png 782w, http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM-300x266.png 300w&#34; sizes=&#34;(max-width: 782px) 100vw, 782px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Once you have the IP address just enter it into your browser and it should bring you to a network access page. Everyone’s looks different depending on the make and model of their browser. Mine, for example, looks like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://blog.sensr.net/img/2013/12/netgear-attached-devices.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2599&#34; src=&#34;http://blog.sensr.net/img/2013/12/netgear-attached-devices.png&#34; alt=&#34;My router&#39;s Network Access portal&#34; width=&#34;932&#34; height=&#34;780&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/netgear-attached-devices.png 932w, http://blog.sensr.net/img/2013/12/netgear-attached-devices-300x251.png 300w&#34; sizes=&#34;(max-width: 932px) 100vw, 932px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;If you aren’t sure which device is new you can always unplug your camera then plug it back in to see which one disappears and comes back.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 2: Navigating to the Camera&amp;#8217;s Network Access page&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Type the IP address into your internet browser and you will come to a page asking you for a username and password. The defaults are admin and admin. Change these! Once you enter the username and password you will come to this page:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://blog.sensr.net/img/2014/07/Screen-Shot-2014-07-31-at-3.02.46-PM.png&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-3011&#34; src=&#34;http://blog.sensr.net/img/2014/07/Screen-Shot-2014-07-31-at-3.02.46-PM.png&#34; alt=&#34;Screen Shot 2014-07-31 at 3.02.46 PM&#34; width=&#34;321&#34; height=&#34;210&#34; srcset=&#34;http://blog.sensr.net/img/2014/07/Screen-Shot-2014-07-31-at-3.02.46-PM.png 321w, http://blog.sensr.net/img/2014/07/Screen-Shot-2014-07-31-at-3.02.46-PM-300x196.png 300w&#34; sizes=&#34;(max-width: 321px) 100vw, 321px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Sorry for the tiny picture.&lt;/p&gt;
-
-&lt;p&gt;From here you can control every aspect of your camera. Feel free to explore it when you have time.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Step three: Get FTP credentials from Sensr.net&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Simply log into your Sensr.net account click the &lt;strong&gt;Add Camera&lt;/strong&gt; button. Sensr.net has a free one week trial, so give it a go and see if it works for you.  (It’s free to setup an account with Sensr.net. Camera monitoring starts at $9.95/month after your free trial is up.)  Once you login you’ll see a page like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://blog.sensr.net/img/2013/12/sensr-new-user.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2603&#34; src=&#34;http://blog.sensr.net/img/2013/12/sensr-new-user-1024x708.png&#34; alt=&#34;Add new camera page&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/sensr-new-user-1024x708.png 1024w, http://blog.sensr.net/img/2013/12/sensr-new-user-300x207.png 300w, http://blog.sensr.net/img/2013/12/sensr-new-user.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Next you’ll see a page like this where you can set the timezone for your camera, give it a name, and tell us the model.  Cameras default to private but you can make them public if you want to share them with the world.&lt;/p&gt;
-
-&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://blog.sensr.net/img/2014/05/FI9826W-Name.png&#34;&gt;&lt;img class=&#34;wp-image-2812 size-full&#34; src=&#34;http://blog.sensr.net/img/2014/05/FI9826W-Name.png&#34; alt=&#34;&#34; width=&#34;1024&#34; height=&#34;639&#34; srcset=&#34;http://blog.sensr.net/img/2014/05/FI9826W-Name.png 1024w, http://blog.sensr.net/img/2014/05/FI9826W-Name-300x187.png 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;After that, we’ll generate some FTP credentials for your camera. This generates a login for your &lt;a href=&#34;http://www.amazon.com/Linksys-Wireless-N-Internet-Monitoring-Camera/dp/B002OHDFOA/sensr-20&#34;&gt;Linksys Wireless-N IP Cam&lt;/a&gt;  to where it can upload images via FTP. This tells your camera where to upload the images. The important information here is:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;FTP Server&lt;/li&gt;
-&lt;li&gt;FTP User name&lt;/li&gt;
-&lt;li&gt;FTP Password&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Save these so we can add them to your camera later.&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2607&#34; src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2-1024x708.png&#34; alt=&#34;FTP credentials&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2-1024x708.png 1024w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s2-300x207.png 300w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s2.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;Now onto the last step&amp;#8230;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Step four: Go to you camera and start cloud recording&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Go back to your camera&amp;#8217;s Network Access page. This camera does not support constant recording to FTP which is a shame but you can have it send clips when motion is detected. Choose setup&amp;gt;motion detection then copy and paste in your FTP credentials, Make sure the motion detection box is checked and the mode is set to passive. Set the port to 21. Change the precapture to 4, the post capture to 5, and the interval to one.&lt;/p&gt;
-
-&lt;p&gt;Now you are done. You should be recording to Sensr.net. For now the firmware only lets your camera send clips to use when it detects motion but hopefully they will change that soon. For now explore all our features and the features of your camera. As always if you have any questions shoot me an email at info @ sensr.net&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;</description>
     </item>
     
   </channel>
