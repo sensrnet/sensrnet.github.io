@@ -15,8 +15,24 @@
       <pubDate>Mon, 21 Nov 2016 21:59:35 -0400</pubDate>
       
       <guid>http://blog.sensr.net/2016/11/hikvision-ftp-server-ip-address-leads-to-zombie-apocalypse/</guid>
-      <description>
+      <description>&lt;figure &gt;
+    
+        &lt;img src=&#34;http://blog.sensr.net/img/zombie-ip-camera.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Never give up!&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
 
+
+&lt;p&gt;Ok, these &lt;a href=&#34;https://www.amazon.com/Hikvision-DS-2CD2042WD-I-Network-English-Security/dp/B01DIKF4XG/sensr-20&#34;&gt;Hikvision cameras&lt;/a&gt; are pretty nice
+and seem like great quality for the price.  However, I have one major issue with them, they
+don&amp;rsquo;t let you use hostnames for the FTP server.  You have to use an IP address.&lt;/p&gt;
+
+&lt;p&gt;
 
 &lt;figure &gt;
     &lt;a href=&#34;https://www.amazon.com/Hikvision-DS-2CD2042WD-I-Network-English-Security/dp/B01DIKF4XG/sensr-20&#34;&gt;
@@ -29,11 +45,7 @@
     &lt;/figcaption&gt;
     
 &lt;/figure&gt;
-
-
-&lt;p&gt;Ok, these &lt;a href=&#34;https://www.amazon.com/Hikvision-DS-2CD2042WD-I-Network-English-Security/dp/B01DIKF4XG/sensr-20&#34;&gt;Hikvision cameras&lt;/a&gt; are pretty nice
-and seem like great quality for the price.  However, I have one major issue with them, they
-don&amp;rsquo;t let you use hostnames for the FTP server.  You have to use an IP address.&lt;/p&gt;
+&lt;/p&gt;
 
 
 &lt;figure &gt;
@@ -133,8 +145,7 @@ through a sequence of perfectly normal events they end up with something they do
 warn users before we release the IP addresses back into the pool.  We&amp;rsquo;ll keep track of how much upload traffic we get to our deprecated
 servers.  It might lead to another interesting blog post!&lt;/p&gt;
 
-&lt;p&gt;Stay tuned, the Zombie Apocolypse is far from over.&lt;/p&gt;
-</description>
+&lt;p&gt;Stay tuned, the Zombie Apocolypse is far from over.&lt;/p&gt;</description>
     </item>
     
     <item>
