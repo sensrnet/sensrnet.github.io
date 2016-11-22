@@ -118,13 +118,13 @@ don&rsquo;t let you use hostnames for the FTP server.  You have to use an IP add
 </figure>
 
 
-<p>Why would they require this?  I suppose for most cameras connect to a server on the local netwowork, so it won&rsquo;t have a DNS name
-anyway, so why not just require an IP address? It means that when the camera does connect to the FTP server, that it doesn&rsquo;t need to do
+<p>Why would they require this?  I suppose for most cameras connect to a server on the local network, thus it won&rsquo;t have a DNS name
+anyway, why not just require an IP address? It means that when the camera does connect to the FTP server, it doesn&rsquo;t need to do
 a DNS lookup, but that seems like a pretty big trade off. You have to hardwire the IP address into the camera config.</p>
 
 <h2 id="what-about-external-servers">What about external servers?</h2>
 
-<p>If you require an IP address, then you need to find the IP address of the server.  At <a href="https://sensr.net">Sensr.net</a> we run FTP servers and we
+<p>If you require an IP address, then you need to find the IP address of the server. At <a href="https://sensr.net">Sensr.net</a> we run FTP servers and we
 use hostnames like <code>f0.sensr.net</code>. If you want to use the Hikvision with our service, you need to connect to one of our servers (currently f0 through f9).
 But to use the Hikvision, you&rsquo;ll need to find out the IP address of our servers.  In the case of <code>f9.sensr.net</code> you can run <code>nslookup</code> like this:</p>
 
@@ -189,8 +189,8 @@ to update their cameras.  We&rsquo;ll probably send out an email and give our us
 are on paid accounts.  This means we don&rsquo;t let them upload images, their logins fail.  But most zombies keep plugging away,  mindlessly attempting
 to upload to our servers even though we won&rsquo;t let them.</p>
 
-<p>In the case of these cameras, we may not be able to contact the owners, so after we finally decomission the servers, they may endup connecting to
-some new server deployed at <a href="https://www.linode.com">Linode</a>.  If the owner of that new server decides to let the zombie connect, they could end up collecting
+<p>In the case of these cameras, we may not be able to contact the owners, so after we finally decomission the servers, they may end up connecting to
+some new server deployed at <a href="https://www.linode.com">Linode</a>. If the owner of that new server decides to let the zombie connect, they could end up collecting
 lots of potentially private images.</p>
 
 <h2 id="iot-gone-mad">IoT gone mad</h2>
@@ -203,6 +203,11 @@ warn users before we release the IP addresses back into the pool.  We&rsquo;ll k
 servers.  It might lead to another interesting blog post!</p>
 
 <p>Stay tuned, the Zombie Apocolypse is far from over.</p>
+
+<h2 id="shameless-plug">Shameless plug</h2>
+
+<p>If you&rsquo;re still not afraid of the zombies, we would love to have you as a customer. <a href="https://sensr.net/auth/users/sign_up">Point your IP camera at us</a> and we&rsquo;ll do some useful stuff with what you send us. We have a free trial, so it won&rsquo;t cost you anything.  If you decide not to stick with us, please
+delete our FTP server from your camera. It will be as satisfiying as shooting a zombie in the head!</p>
         
     <ul class="list-inline tags" style="margin-top: 15px; margin-left: 0px">
         
