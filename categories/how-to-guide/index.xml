@@ -39,24 +39,24 @@ The box is much nicer than they used in the previous models. It&amp;rsquo;s a bi
 
 &lt;h1 id=&#34;it-speaks&#34;&gt;It speaks!&lt;/h1&gt;
 
-&lt;p&gt;The camera is easy to setup using the Foscsam app.  As a nice bonus they have added audio cues that come from the camera.  It says &amp;ldquo;&lt;em&gt;Hello Foscam&amp;rdquo;&lt;/em&gt; when it powers up. Its little head rotates around and the camera said &lt;em&gt;&amp;ldquo;Ethernet connecion succeeded&amp;rdquo;&lt;/em&gt;.  Later
+&lt;p&gt;The camera is easy to setup using the Foscam app.  As a nice bonus they have added audio cues that come from the camera.  It says &amp;ldquo;&lt;em&gt;Hello Foscam&amp;rdquo;&lt;/em&gt; when it powers up. Its little head rotates around and the camera said &lt;em&gt;&amp;ldquo;Ethernet connection succeeded&amp;rdquo;&lt;/em&gt;.  Later
 after I setup the wifi, it said &lt;em&gt;&amp;ldquo;Wireless connection succeeded&amp;rdquo;&lt;/em&gt;.  I have to admit this is a nice feature. No more wondering if the
 camera connected to the network or not.  I&amp;rsquo;m not sure I want the audio piping up when the power goes off and back on though.&lt;/p&gt;
 
 &lt;h1 id=&#34;interesting-features-in-the-foscam-app&#34;&gt;Interesting Features in the Foscam App&lt;/h1&gt;
 
 &lt;p&gt;The app mostly seems to work.  Sure, it&amp;rsquo;s filled with grammatical mistakes.  It let&amp;rsquo;s you share the images on &lt;strong&gt;WeChat&lt;/strong&gt; and
-&lt;strong&gt;Wechat Moments&lt;/strong&gt;, whatever that is. (Ok, it&amp;rsquo;s the Facebook &lt;a href=&#34;https://www.wechat.com/en/&#34;&gt;Messenger of China&lt;/a&gt;, but not really
+&lt;strong&gt;WeChat Moments&lt;/strong&gt;, whatever that is. (Ok, it&amp;rsquo;s the Facebook &lt;a href=&#34;https://www.wechat.com/en/&#34;&gt;Messenger of China&lt;/a&gt;, but not really
 very important to the non-Chinese market.)&lt;/p&gt;
 
-&lt;p&gt;&lt;img style=&#34;width:25%&#34; src=&#34;http://blog.sensr.net/img/FoscamWechat.png&#34; class=&#34;img-rounded&#34; alt=&#34;Wechat Foscam Wireless Security Camera 1920TVL&#34; width=&#34;50&#34; &gt;
-&lt;img style=&#34;width:25%&#34; src=&#34;http://blog.sensr.net/img/FoscamAmerica.png&#34; class=&#34;img-rounded&#34; alt=&#34;Country selection Foscam Wireless Security Camera 1920TVL&#34; width=&#34;50&#34; &gt;
-&lt;img style=&#34;width:25%&#34; src=&#34;http://blog.sensr.net/img/FoscamFirmware.png&#34; class=&#34;img-rounded&#34; alt=&#34;Firware upgrade Foscam Wireless Security Camera 1920TVL&#34; width=&#34;50&#34; &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img style=&#34;width:30%&#34; src=&#34;http://blog.sensr.net/img/FoscamAmerica.png&#34; class=&#34;img-rounded&#34; alt=&#34;Country selection Foscam Wireless Security Camera 1920TVL&#34; width=&#34;50&#34; &gt;
+&lt;img style=&#34;width:30%&#34; src=&#34;http://blog.sensr.net/img/FoscamWechat.png&#34; class=&#34;img-rounded&#34; alt=&#34;Wechat Foscam Wireless Security Camera 1920TVL&#34; width=&#34;50&#34; &gt;
+&lt;img style=&#34;width:30%&#34; src=&#34;http://blog.sensr.net/img/FoscamFirmware.png&#34; class=&#34;img-rounded&#34; alt=&#34;Firware upgrade Foscam Wireless Security Camera 1920TVL&#34; width=&#34;50&#34; &gt;&lt;/p&gt;
 
 &lt;p&gt;It doesn&amp;rsquo;t have a selection for United States but you can select &lt;em&gt;America&lt;/em&gt; which is kind of cute.  I&amp;rsquo;m pretty sure they mean France
-not French, but maybe it&amp;rsquo;s a lanugae selector as well as a location selector?&lt;/p&gt;
+not French, but maybe it&amp;rsquo;s a language selector as well as a location selector?&lt;/p&gt;
 
-&lt;p&gt;Maybe the best new feature is that you can upgrade the firmware in the app! Excellet! Now when there is a security issue in the firmware, the
+&lt;p&gt;Maybe the best new feature is that you can upgrade the firmware in the app! Excellent! Now when there is a security issue in the firmware, the
 app will make it simple to perform the upgrade.&lt;/p&gt;
 
 &lt;h1 id=&#34;what-s-missing&#34;&gt;What&amp;rsquo;s missing?&lt;/h1&gt;
@@ -77,7 +77,7 @@ to go to &lt;code&gt;http://IP:88/&lt;/code&gt; to get to the web interface. For
 
 &lt;p&gt;If you&amp;rsquo;re using a Mac, you&amp;rsquo;ll need to install plugins.  I really wish these camera manufacturers would just use web standards instead
 of making us install software.  I tried configuring the camera without the plugins, but it really seems to enforce this.  Maybe future
-versions of the app will support FTP configuration so we can skip the browswer all together.&lt;/p&gt;
+versions of the app will support FTP configuration so we can skip the browser all together.&lt;/p&gt;
 
 &lt;h1 id=&#34;configure-the-ftp-server&#34;&gt;Configure the FTP Server&lt;/h1&gt;
 
@@ -97,7 +97,7 @@ for your camera.&lt;/p&gt;
 &lt;h1 id=&#34;configure-snapshot-settings&#34;&gt;Configure Snapshot Settings&lt;/h1&gt;
 
 &lt;p&gt;Next you&amp;rsquo;ll want to configure the snapshot settings, which tells the camera to upload JPEG snapshots to Sensr.net.  We recommend
-you send an image per second to our servers. (See &lt;a href=&#34;http://blog.sensr.net/2013/10/24/ip-camera-no-firewall-config/&#34;&gt;No Firewall Config&lt;/a&gt; for more deatils
+you send an image per second to our servers. (See &lt;a href=&#34;http://blog.sensr.net/2013/10/24/ip-camera-no-firewall-config/&#34;&gt;No Firewall Config&lt;/a&gt; for more details
 on why we recommend this.) This way we can generate a live Motion JPEG stream (MJPEG) on the Sensr.net site.
 Make sure to select all in the upper left hand corner of the schedule so the camera will always upload.  If you don&amp;rsquo;t want us to
 process images on certain days or certain hours, this is the place to configure that. Make sure to click the Save button at the top. Once you&amp;rsquo;ve done this your Foscam should start uploading to Sensr.net.&lt;/p&gt;
@@ -136,7 +136,7 @@ process images on certain days or certain hours, this is the place to configure 
 &lt;/figure&gt;
 
 
-&lt;p&gt;Congratulations, now you&amp;rsquo;re done with the camera config. Your camera is now on Sensr.net. We&amp;rsquo;œll archive all the motion events, giving you 30
+&lt;p&gt;Congratulations, now you&amp;rsquo;re done with the camera config. Your camera is now on Sensr.net. We&amp;rsquo;ll archive all the motion events, giving you 30
 days of archives, SMS and email alerts, guest access, and a whole lot more.  You can view the live stream on our website or in our apps. No
 firewall configuration is needed. No PC in the basement required.&lt;/p&gt;
 
@@ -151,7 +151,7 @@ them, since we only support JPEG files right now.&lt;/p&gt;
 
 &lt;h1 id=&#34;don-t-set-motion-detection-settings&#34;&gt;Don&amp;rsquo;t Set Motion Detection Settings&lt;/h1&gt;
 
-&lt;p&gt;You also don&amp;rsquo;t need the motion detection settings to work wiht Sensr.net.  We do the motion detection on the server side.
+&lt;p&gt;You also don&amp;rsquo;t need the motion detection settings to work with Sensr.net.  We do the motion detection on the server side.
 See our blog post &lt;a href=&#34;http://blog.sensr.net/2011/07/25/true-meaning-of-motion-detection-off/&#34;&gt;The True Meaning of Motion Detection Off&lt;/a&gt;
 for more details.&lt;/p&gt;
 
