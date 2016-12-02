@@ -2001,9 +2001,11 @@ add_shortcode(&#39;sensr&#39;, &#39;get_sensr&#39;);&lt;/pre&gt;
 &lt;/figure&gt;
 
 
-&lt;p&gt;Congratulations, now you&amp;#8217;re done with the camera config. You&amp;#8217;re camera is now on Sensr.net. We&amp;#8217;ll archive all the motion events, giving you 30 days of archives, SMS and email alerts, guest access, and a whole lot more.  You can view the live stream on our website or in our apps.  No firewall configuration is needed.  No PC in the basement required.&lt;/p&gt;
+&lt;p&gt;Congratulations, now you&amp;rsquo;re done with the camera config. Your camera is now on Sensr.net. We&amp;rsquo;ll archive all the motion events, giving you 30
+days of archives, SMS and email alerts, guest access, and a whole lot more.  You can view the live stream on our website or in our apps. No
+firewall configuration is needed. No PC in the basement required.&lt;/p&gt;
 
-&lt;p&gt;If you have any problems, send email to info @ sensr.net and we&amp;#8217;ll try to help you out!&lt;/p&gt;</description>
+&lt;p&gt;If you have any problems, send email to info @ sensr.net and we&amp;rsquo;ll try to help you out!&lt;/p&gt;</description>
     </item>
     
   </channel>
