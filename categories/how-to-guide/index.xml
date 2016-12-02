@@ -149,7 +149,7 @@ them, since we only support JPEG files right now.&lt;/p&gt;
 
 &lt;p&gt;&lt;img style=&#34;width:100%&#34; src=&#34;http://blog.sensr.net/img/UnsetFoscamScheduledRecording.png&#34; class=&#34;img-rounded&#34; alt=&#34;Foscam Wireless Security Camera 1920TVL&#34; width=&#34;50&#34; &gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;don-t-motion-detection-settings&#34;&gt;Don&amp;rsquo;t Motion Detection Settings&lt;/h1&gt;
+&lt;h1 id=&#34;don-t-set-motion-detection-settings&#34;&gt;Don&amp;rsquo;t Set Motion Detection Settings&lt;/h1&gt;
 
 &lt;p&gt;You also don&amp;rsquo;t need the motion detection settings to work wiht Sensr.net.  We do the motion detection on the server side.
 See our blog post &lt;a href=&#34;http://blog.sensr.net/2011/07/25/true-meaning-of-motion-detection-off/&#34;&gt;The True Meaning of Motion Detection Off&lt;/a&gt;
@@ -173,7 +173,7 @@ Date: Thu, 01 Dec 2016 12:08:20 GMT
 Server: lighttpd/1.4.31
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Scan on shodan.io for the etag finds a few cameras&amp;hellip;&lt;/p&gt;</description>
+&lt;p&gt;Scan on shodan.io for the etag &lt;a href=&#34;https://www.shodan.io/search?query=ETag%3A+%2218210424%22&#34;&gt;finds a few cameras&lt;/a&gt;&amp;hellip;&lt;/p&gt;</description>
     </item>
     
     <item>
