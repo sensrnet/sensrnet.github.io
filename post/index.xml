@@ -17,9 +17,11 @@
       <guid>http://blog.sensr.net/2016/12/alfa-r36-awus036nh-network-scan-not-working/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.alfa.com.tw/download_show.php?combo_0=11&amp;amp;combo_1=R36&amp;amp;combo_2=Firmware&amp;amp;k&#34;&gt;&lt;img style=&#34;width:100%&#34; src=&#34;http://blog.sensr.net/img/R36FirmwareVersions.png&#34; class=&#34;img-rounded&#34; alt=&#34;R36 Firmware Versions&#34; width=&#34;50&#34; &gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Are you having problems with your Alfa R36 not being able to scan for networks?  If the firmware version on your R36 needs
-to be at least 1.2.1.2 or it won&amp;rsquo;t work with the AWUS036NH.  See the screen shot above. At first I didn&amp;rsquo;t realize that I had
-a different version of the AWUS036NH, the version that has an H at the end: AWUS036NH not AWUS036N.  They are different.&lt;/p&gt;
+&lt;p&gt;Are you having problems with your &lt;a href=&#34;https://www.amazon.com/Alfa-R36-Repeater-Extender-AWUS036H/dp/B004ZF0I3U/sensr-20&#34;&gt;Alfa R36&lt;/a&gt; not being able
+to scan for networks? If the firmware version on your R36 needs to be at least 1.2.1.2 or it won&amp;rsquo;t work with the
+&lt;a href=&#34;https://www.amazon.com/Alfa-AWUSO36NH-Wireless-Long-Rang-Network/dp/B0035APGP6/sensr-20&#34;&gt;AWUS036NH&lt;/a&gt;. See the screen shot above. At first I
+didn&amp;rsquo;t realize that I had a different version of the AWUS036NH, the version that has an H at the end: AWUS036NH not AWUS036N. They are
+different.&lt;/p&gt;
 
 &lt;p&gt;After the firmware upgrade everything works great.&lt;/p&gt;
 
@@ -30,7 +32,7 @@ a different version of the AWUS036NH, the version that has an H at the end: AWUS
 &lt;h2 id=&#34;what-is-this-for&#34;&gt;What is this for?&lt;/h2&gt;
 
 &lt;p&gt;&lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/AlfaDevices.jpg&#34; class=&#34;img-rounded&#34; alt=&#34;R36 and AWUS036NH&#34; width=&#34;50&#34; &gt;
- &lt;strong&gt;R36 and AWUS036NH&lt;/strong&gt;&lt;/p&gt;
+ &lt;strong&gt;&lt;a href=&#34;https://www.amazon.com/Alfa-R36-Repeater-Extender-AWUS036H/dp/B004ZF0I3U/sensr-20&#34;&gt;Alfa R36&lt;/a&gt; and &lt;a href=&#34;https://www.amazon.com/Alfa-AWUSO36NH-Wireless-Long-Rang-Network/dp/B0035APGP6/sensr-20&#34;&gt;AWUS036NH&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;You can use the R36 and the AWUS036NH to create your own hotspot out of another wifi network. The AWUS036NH is essentially an antennae.
 The R36 is a router that also creates it&amp;rsquo;s own wifi network. Let&amp;rsquo;s say you have a bunch of devices in your RV or boat.  You can connect
