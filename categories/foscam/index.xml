@@ -45,9 +45,9 @@ camera connected to the network or not.  I&amp;rsquo;m not sure I want the audio
 
 &lt;h1 id=&#34;interesting-features-in-the-foscam-app&#34;&gt;Interesting Features in the Foscam App&lt;/h1&gt;
 
-&lt;p&gt;The app mostly seems to work.  Sure, it&amp;rsquo;s filled with grammatical mistakes.  It let&amp;rsquo;s you share the images on &lt;strong&gt;WeChat&lt;/strong&gt; and
-&lt;strong&gt;WeChat Moments&lt;/strong&gt;, whatever that is. (Ok, it&amp;rsquo;s the Facebook &lt;a href=&#34;https://www.wechat.com/en/&#34;&gt;Messenger of China&lt;/a&gt;, but not really
-very important to the non-Chinese market.)&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://itunes.apple.com/us/app/foscam/id924381688?mt=8&#34;&gt;Foscam app&lt;/a&gt; mostly seems to work. Sure, it&amp;rsquo;s filled with grammatical mistakes.
+It let&amp;rsquo;s you share the images on &lt;strong&gt;WeChat&lt;/strong&gt; and &lt;strong&gt;WeChat Moments&lt;/strong&gt;, whatever that is. (Ok, it&amp;rsquo;s the Facebook &lt;a href=&#34;https://www.wechat.com/en/&#34;&gt;Messenger of
+China&lt;/a&gt;, but not really very important to the non-Chinese market.)&lt;/p&gt;
 
 &lt;p&gt;&lt;img style=&#34;width:30%&#34; src=&#34;http://blog.sensr.net/img/FoscamAmerica.png&#34; class=&#34;img-rounded&#34; alt=&#34;Country selection Foscam Wireless Security Camera 1920TVL&#34; width=&#34;50&#34; &gt;
 &lt;img style=&#34;width:30%&#34; src=&#34;http://blog.sensr.net/img/FoscamWechat.png&#34; class=&#34;img-rounded&#34; alt=&#34;Wechat Foscam Wireless Security Camera 1920TVL&#34; width=&#34;50&#34; &gt;
@@ -90,21 +90,22 @@ Zeros and Os looks alike. Ones and Ls also look alike. It&amp;rsquo;s best to co
 
 &lt;p&gt;&lt;img style=&#34;width:100%&#34; src=&#34;http://blog.sensr.net/img/FoscamFTPSettings.png&#34; class=&#34;img-rounded&#34; alt=&#34;Foscam Wireless Security Camera 1920TVL&#34; width=&#34;50&#34; &gt;&lt;/p&gt;
 
-&lt;p&gt;The FTP server URL shows a dir at the end.  On the Sensr.net side we just ignore this.  You can add it if you wish but it&amp;rsquo;s not needed.
-Your URL should start with FTP though, like this: &lt;code&gt;ftp://fX.sensr.net/&lt;/code&gt;, where X is the server that Sensr.net tells you to use
-for your camera.&lt;/p&gt;
+&lt;p&gt;The FTP server URL shows a dir at the end. On the &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt; side we just ignore this. You can add it if you wish but it&amp;rsquo;s
+not needed. Your URL should start with FTP though, like this: &lt;code&gt;ftp://fX.sensr.net/&lt;/code&gt;, where X is the server that
+&lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt; tells you to use for your camera.&lt;/p&gt;
 
 &lt;h1 id=&#34;configure-snapshot-settings&#34;&gt;Configure Snapshot Settings&lt;/h1&gt;
 
-&lt;p&gt;Next you&amp;rsquo;ll want to configure the snapshot settings, which tells the camera to upload JPEG snapshots to Sensr.net.  We recommend
-you send an image per second to our servers. (See &lt;a href=&#34;http://blog.sensr.net/2013/10/24/ip-camera-no-firewall-config/&#34;&gt;No Firewall Config&lt;/a&gt; for more details
-on why we recommend this.) This way we can generate a live Motion JPEG stream (MJPEG) on the Sensr.net site.
-Make sure to select all in the upper left hand corner of the schedule so the camera will always upload.  If you don&amp;rsquo;t want us to
-process images on certain days or certain hours, this is the place to configure that. Make sure to click the Save button at the top. Once you&amp;rsquo;ve done this your Foscam should start uploading to Sensr.net.&lt;/p&gt;
+&lt;p&gt;Next you&amp;rsquo;ll want to configure the snapshot settings, which tells the camera to upload JPEG snapshots to &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt;. We
+recommend you send an image per second to our servers. (See &lt;a href=&#34;http://blog.sensr.net/2013/10/24/ip-camera-no-firewall-config/&#34;&gt;No Firewall Config&lt;/a&gt; for more details
+on why we recommend this.) This way we can generate a live Motion JPEG stream (MJPEG) on the &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt; site. Make sure to
+select all in the upper left hand corner of the schedule so the camera will always upload. If you don&amp;rsquo;t want us to process images on certain
+days or certain hours, this is the place to configure that. Make sure to click the Save button at the top. Once you&amp;rsquo;ve done this your Foscam
+should start uploading to &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img style=&#34;width:100%&#34; src=&#34;http://blog.sensr.net/img/FoscamSnapshotSettings.png&#34; class=&#34;img-rounded&#34; alt=&#34;Foscam Wireless Security Camera 1920TVL&#34; width=&#34;50&#34; &gt;&lt;/p&gt;
 
-&lt;p&gt;On the Sensr.net side the page should go from this:&lt;/p&gt;
+&lt;p&gt;On the &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt; side the page should go from this:&lt;/p&gt;
 
 
 &lt;figure &gt;
@@ -136,9 +137,9 @@ process images on certain days or certain hours, this is the place to configure 
 &lt;/figure&gt;
 
 
-&lt;p&gt;Congratulations, now you&amp;rsquo;re done with the camera config. Your camera is now on Sensr.net. We&amp;rsquo;ll archive all the motion events, giving you 30
-days of archives, SMS and email alerts, guest access, and a whole lot more.  You can view the live stream on our website or in our apps. No
-firewall configuration is needed. No PC in the basement required.&lt;/p&gt;
+&lt;p&gt;Congratulations, now you&amp;rsquo;re done with the camera config. Your camera is now on &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt;. We&amp;rsquo;ll archive all the motion
+events, giving you 30 days of archives, SMS and email alerts, guest access, and a whole lot more.  You can view the live stream on our website
+or in our apps. No firewall configuration is needed. No PC in the basement required.&lt;/p&gt;
 
 &lt;p&gt;If you have any problems, send email to info @ sensr.net and we&amp;rsquo;ll try to help you out!&lt;/p&gt;
 

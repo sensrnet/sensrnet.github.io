@@ -94,7 +94,7 @@ address.  What if we upgrade or move a server?  It&amp;rsquo;s IP address will c
 
 &lt;p&gt;We use servers at &lt;a href=&#34;https://www.linode.com&#34;&gt;Linode&lt;/a&gt; and we might decide to upgrade and get a bigger server at Linode,
 or maybe move to &lt;a href=&#34;https://aws.amazon.com&#34;&gt;AWS&lt;/a&gt; or even &lt;a href=&#34;https://cloud.google.com/&#34;&gt;Google Cloud&lt;/a&gt;. In that case,
-the IP address that we used to use will get depricated.  This probably means your camera will stop working.  But it could mean that it starts
+the IP address that we used to use will get deprecated.  This probably means your camera will stop working.  But it could mean that it starts
 uploading to a server that isn&amp;rsquo;t part of Sensr.net!  Let&amp;rsquo;s say we drop the server at Linode, it&amp;rsquo;s pretty likely that Linode will re-use that IP
 address for someone else.  That new owner might notice that there are cameras trying to connect to it.  That new owner might also decide to let
 those cameras connect and then they could start collecting images that are uploaded by your cameras.  Hmm, that seems like a bad idea.&lt;/p&gt;
@@ -108,7 +108,7 @@ major change and I expect the IP addresses will change in the next year.&lt;/p&g
 
 &lt;p&gt;Before we change servers and drop the IP addresses for these machines,
 we can move over the DNS names (&lt;code&gt;f0.sensr.net .. f9.sensr.net&lt;/code&gt;) and see what cameras continue to connect. If all the cameras move over (they won&amp;rsquo;t)
-then we don&amp;rsquo;t need to worry.  I&amp;rsquo;m sure there will be cameras left connceting to the old IP addresses.  In this case we can warn our users that they need
+then we don&amp;rsquo;t need to worry.  I&amp;rsquo;m sure there will be cameras left connecting to the old IP addresses.  In this case we can warn our users that they need
 to update their cameras.  We&amp;rsquo;ll probably send out an email and give our users some time to make the change.&lt;/p&gt;
 
 &lt;h2 id=&#34;zombie-cameras&#34;&gt;Zombie cameras&lt;/h2&gt;
@@ -140,16 +140,16 @@ lots of potentially private images.&lt;/p&gt;
 &lt;p&gt;This is just one example of how the IoT world is leading to unintended consequences.  People setup cameras so they can be more secure, but
 through a sequence of perfectly normal events they end up with something they don&amp;rsquo;t expect.&lt;/p&gt;
 
-&lt;p&gt;Maybe we&amp;rsquo;ll ask Linode if they will decommision those IP addresses.  Maybe we&amp;rsquo;ll just keep paying for them.  One thing is for sure, we will
+&lt;p&gt;Maybe we&amp;rsquo;ll ask Linode if they will decommission those IP addresses.  Maybe we&amp;rsquo;ll just keep paying for them.  One thing is for sure, we will
 warn users before we release the IP addresses back into the pool.  We&amp;rsquo;ll keep track of how much upload traffic we get to our deprecated
 servers.  It might lead to another interesting blog post!&lt;/p&gt;
 
-&lt;p&gt;Stay tuned, the Zombie Apocolypse is far from over.&lt;/p&gt;
+&lt;p&gt;Stay tuned, the Zombie Apocalypse is far from over.&lt;/p&gt;
 
 &lt;h2 id=&#34;shameless-plug&#34;&gt;Shameless plug&lt;/h2&gt;
 
 &lt;p&gt;If you&amp;rsquo;re still not afraid of the zombies, we would love to have you as a customer. &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt;Point your IP camera at us&lt;/a&gt; and we&amp;rsquo;ll do some useful stuff with what you send us. We have a free trial, so it won&amp;rsquo;t cost you anything.  If you decide not to stick with us, please
-delete our FTP server from your camera. It will be as satisfiying as shooting a zombie in the head!&lt;/p&gt;</description>
+delete our FTP server from your camera. It will be as satisfying as shooting a zombie in the head!&lt;/p&gt;</description>
     </item>
     
   </channel>
