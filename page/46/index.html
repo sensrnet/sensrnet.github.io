@@ -64,6 +64,30 @@
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
+                                <h1><a href="http://blog.sensr.net/2011/08/01/how-to-upload-images-to-sensr/">How to Upload Images to Sensr.net</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>August 1, 2011</li>
+                                    <li><i class="fa fa-user"></i>Tom Sheffler</li>
+                                </ul>
+                                <p>Sensr.net&#8217;s server architecture is organized into two main parts.  There are &#8220;Front-End&#8221; webservers that handle browser and API requests and a large number of &#8220;Back-End&#8221; Camera processors that are dedicated to receiving images through a variety of mechanisms including</p>
+
+<ul>
+<li>FTP Image Upload,</li>
+<li>HTTP Image Upload, and</li>
+<li>HTTP MJPEG Stream Push.</li>
+</ul>
+
+<p>If you&#8217;re a developer, it may help you to think of <a href="http://sensr.net">Sensr.net</a> as a service that allocates inexpensive FTP accounts optimized for image uploading, with a front-end for viewing, cataloging and sharing these images.</p>
+
+<p><a href="http://blog.sensr.net/wp-content/uploads/2011/07/fx_arch1.png"><img class="size-full wp-image-475" title="fx_arch1" src="http://blog.sensr.net/wp-content/uploads/2011/07/fx_arch1.png" alt="Sensr.net Architecture" width="475" height="285" srcset="/img/2011/07/fx_arch1.png 475w, /img/2011/07/fx_arch1-300x180.png 300w" sizes="(max-width: 475px) 100vw, 475px" /></a></p>
+
+<p>The front-end and back-end implement different authorization mechanisms.  The front-end authenticates a Sensr User with their email and a password.  The back-ends have separate logins for each Camera.  The front-end can allocate and view logins on the back-ends, but not vice-versa.</p>
+                                <a class="btn btn-custom" href="http://blog.sensr.net/2011/08/01/how-to-upload-images-to-sensr/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
                                 <h1><a href="http://blog.sensr.net/2011/07/29/sensr-net-facebook-not-required/">Sensr.net: Facebook not required</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>July 29, 2011</li>
@@ -94,24 +118,6 @@ _Note: Facebook isn&#8217;t gone, you can still link to your Facebook and Twitte
 
 <p>The standard way to add a camera to <a href="http://sensr.net">Sensr.net</a> is to have the camera push images to our servers at a frame per second. On our side, we will then run a motion detection algorithm and save the images when we detect motion.  This means that when you look at the previous days or months, you&#8217;ll see only the images where we save motion.  (Actually, we&#8217;ll save at least one image per hour regardless of motion, so the daily views look nice.)  This also means that if you watch the live view, you&#8217;ll see a live video stream at whatever rate your camera is using to send us frames.If the camera view on Sensr.net is showing lots of images per hour, then it is probably saving too much motion.  You can reduce the sensitivity of the motion detection on the camera settings page and we&#8217;ll save fewer images.  Most cameras work well with a setting between 3 and 5.  If your camera is set to 5 and you&#8217;re seeing too many images per hour, then try lowering it to 3.</p>
                                 <a class="btn btn-custom" href="http://blog.sensr.net/2011/07/25/true-meaning-of-motion-detection-off/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://blog.sensr.net/2011/07/14/usb-cameras-sensr-net-and-fwink/">USB Cameras, Sensr.net, and Fwink</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>July 14, 2011</li>
-                                    <li><i class="fa fa-user"></i>fdegiuli</li>
-                                </ul>
-                                <p><a href="http://sensr.net" title="Sensr.net">Sensr.net is designed to work with IP cameras</a>, but it&#8217;s also possible to set up a USB or built-in camera on the site.  These don&#8217;t generally have FTP capabilities though, so you need some software, such as Fwink, to upload images from your webcam. (Check out Cowboy Frank&#8217;s <a href="http://cowboyfrank.net/webcams/Software.htm" target="_blank">Webcam Software</a> page for a good list of options.)   For those of you not familiar with Fwink, here is a quote from their <a href="http://www.lundie.ca/fwink/">website</a>:</p>
-
-<blockquote>
-<p>&#8220;<strong>Fwink</strong> is a free and open source webcam application for Windows. It takes still images from your camera at timed intervals and puts them on your web site with FTP.&#8221;</p>
-</blockquote>
-
-<p>This is not the Photoshop of the webcam software world.  It doesn&#8217;t have many bells and whistles.  It does, however, upload images from your webcam using FTP, and it&#8217;s free.  The whole thing can be downloaded and installed in under a minute, has a very simple user interface, and limited memory usage.</p>
-                                <a class="btn btn-custom" href="http://blog.sensr.net/2011/07/14/usb-cameras-sensr-net-and-fwink/" role="button">Read More</a>
                             </div>
                         </div>
                     
@@ -156,6 +162,8 @@ _Note: Facebook isn&#8217;t gone, you can still link to your Facebook and Twitte
         <h5>Recent Posts</h5>
         <ul class="list-unstyled posts-recent">
             
+                <li><a href="http://blog.sensr.net/2016/12/alfa-r36-awus036nh-network-scan-not-working/">Alfa R36 AWUS036NH Network Scan Not Working</a></li>
+            
                 <li><a href="http://blog.sensr.net/2016/11/ftp-setup-on-the-foscam-wireless-security-camera-1920tvl/">FTP Setup on the Foscam Wireless Security Camera 1920TVL</a></li>
             
                 <li><a href="http://blog.sensr.net/2016/11/hikvision-ftp-server-ip-address-leads-to-zombie-apocalypse/">Hikvision FTP Server IP address leads to Zombie Apocalypse</a></li>
@@ -163,8 +171,6 @@ _Note: Facebook isn&#8217;t gone, you can still link to your Facebook and Twitte
                 <li><a href="http://blog.sensr.net/2016/10/19/why-no-open-source-iot-firmware/">Why no open source IoT Firmware?</a></li>
             
                 <li><a href="http://blog.sensr.net/2016/10/19/is-your-security-camera-hacking-someone-else/">Is your security camera hacking someone else?</a></li>
-            
-                <li><a href="http://blog.sensr.net/2016/09/27/legally-monitor-your-airbnb-with-cheap-sensr-net-security-cameras/">Legally Monitor your Airbnb with cheap Sensr.net security cameras</a></li>
             
         </ul>
     </div>

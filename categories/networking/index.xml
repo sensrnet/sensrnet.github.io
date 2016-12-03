@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sensr.net Blog | Watch your Stuff!</title>
+    <link>http://blog.sensr.net/categories/networking/index.xml</link>
+    <description>Recent content on Sensr.net Blog | Watch your Stuff!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://blog.sensr.net/categories/networking/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Alfa R36 AWUS036NH Network Scan Not Working</title>
+      <link>http://blog.sensr.net/2016/12/alfa-r36-awus036nh-network-scan-not-working/</link>
+      <pubDate>Sat, 03 Dec 2016 10:13:53 -0400</pubDate>
+      
+      <guid>http://blog.sensr.net/2016/12/alfa-r36-awus036nh-network-scan-not-working/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.alfa.com.tw/download_show.php?combo_0=11&amp;amp;combo_1=R36&amp;amp;combo_2=Firmware&amp;amp;k&#34;&gt;&lt;img style=&#34;width:100%&#34; src=&#34;http://blog.sensr.net/img/R36FirmwareVersions.png&#34; class=&#34;img-rounded&#34; alt=&#34;R36 Firmware Versions&#34; width=&#34;50&#34; &gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Are you having problems with your Alfa R36 not being able to scan for networks?  If the firmware version on your R36 needs
+to be at least 1.2.1.2 or it won&amp;rsquo;t work with the AWUS036NH.  See the screen shot above. At first I didn&amp;rsquo;t realize that I had
+a different version of the AWUS036NH, the version that has an H at the end: AWUS036NH not AWUS036N.  They are different.&lt;/p&gt;
+
+&lt;p&gt;After the firmware upgrade everything works great.&lt;/p&gt;
+
+&lt;p&gt;Get the &lt;a href=&#34;http://www.alfa.com.tw/download_show.php?combo_0=11&amp;amp;combo_1=R36&amp;amp;combo_2=Firmware&amp;amp;k&#34;&gt;firmware here.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;what-is-this-for&#34;&gt;What is this for?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/AlfaDevices.jpg&#34; class=&#34;img-rounded&#34; alt=&#34;R36 and AWUS036NH&#34; width=&#34;50&#34; &gt;
+ &lt;strong&gt;R36 and AWUS036NH&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You can use the R36 and the AWUS036NH to create your own hotspot out of another wifi network. The AWUS036NH is essentially an antennae.
+The R36 is a router that also creates it&amp;rsquo;s own wifi network. Let&amp;rsquo;s say you have a bunch of devices in your RV or boat.  You can connect
+them all to the R36&amp;rsquo;s wifi network.  Then when you park in the Starbucks parking lot, you can tell the R36 to use the Starbucks wifi
+and all of your devices on your local network will connect to the world on over the Starbucks network.  You could have security cameras
+and laptops and wireless printers all connected to your R36.  Thus you&amp;rsquo;ll have to &lt;em&gt;scan for networks&lt;/em&gt; whenever you change locations, but
+at least you won&amp;rsquo;t need to&lt;/p&gt;
+
+&lt;p&gt;Once you have yours working, you might want to check out &lt;a href=&#34;https://store.rokland.com/blogs/news/6547671-how-to-optimize-your-alfa-r36-router&#34;&gt;this article on optimizing your R36&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>View IP Camera Remotely, No Firewall Config</title>
+      <link>http://blog.sensr.net/2013/10/24/ip-camera-no-firewall-config/</link>
+      <pubDate>Thu, 24 Oct 2013 18:49:31 +0000</pubDate>
+      
+      <guid>http://blog.sensr.net/2013/10/24/ip-camera-no-firewall-config/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/fotoempirica/8102187642/&#34; title=&#34;FireWall by Fotoempirica.com, on Flickr&#34;&gt;&lt;img class=&#34;aligncenter&#34; alt=&#34;FireWall&#34; src=&#34;http://farm9.staticflickr.com/8472/8102187642_40e69afedc.jpg&#34; width=&#34;500&#34; height=&#34;334&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;IP cameras like &lt;a href=&#34;http://foscam.us&#34; target=&#34;_blank&#34;&gt;Foscam&lt;/a&gt;, &lt;a href=&#34;http://www.dlink.com/us/en/home-solutions/view/network-cameras&#34; target=&#34;_blank&#34;&gt;D-Link&lt;/a&gt;, &lt;a href=&#34;http://wansview.net/&#34; target=&#34;_blank&#34;&gt;Wansview&lt;/a&gt;, &lt;a href=&#34;http://shop.panasonic.com/shop/cameras-and-camcorders-network-cameras/&#34; target=&#34;_blank&#34;&gt;Panasonic&lt;/a&gt;, &lt;a href=&#34;http://www.y-cam.com&#34; target=&#34;_blank&#34;&gt;Y-Cam&lt;/a&gt;,  &lt;a href=&#34;http://www.loftek.us/&#34; target=&#34;_blank&#34;&gt;Loftek&lt;/a&gt;, &lt;a href=&#34;http://www.easyn.com/&#34; target=&#34;_blank&#34;&gt;EasyN&lt;/a&gt;,  &lt;a href=&#34;http://store.linksys.com/products/linksys-ip-cameras_stcVVcatId554678VVviewcat.htm&#34; target=&#34;_blank&#34;&gt;Linksys&lt;/a&gt;, &lt;a href=&#34;http://www.sharxsecurity.com/&#34; target=&#34;_blank&#34;&gt;Sharx&lt;/a&gt;, &lt;a href=&#34;http://www.trendnet.com/products/products.asp?cat=44&#34; target=&#34;_blank&#34;&gt;Trendnet&lt;/a&gt;, &lt;a href=&#34;http://www.brickcom.com/&#34; target=&#34;_blank&#34;&gt;Brickcom&lt;/a&gt;, &lt;a href=&#34;http://www.swann.com/region/usa/entry/us&#34; target=&#34;_blank&#34;&gt;Swann&lt;/a&gt;, &lt;a href=&#34;http://www.edimax.com/en/product.php&#34; target=&#34;_blank&#34;&gt;Edimax&lt;/a&gt;, &lt;a href=&#34;http://www.axis.com/products/video/camera/&#34; target=&#34;_blank&#34;&gt;Axis&lt;/a&gt;, etc. can be super useful devices.  One of the biggest problems with these cameras is setting up your firewall so you&amp;rsquo;re able to see the cameras remotely.   With &lt;a href=&#34;https://sensr.net&#34; target=&#34;_blank&#34;&gt;Sensr.net&lt;/a&gt; you don&amp;rsquo;t need to touch that firewall or setup any kind of dynamic DNS.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How can I see my camera if it&amp;rsquo;s behind a firewall?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;With &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt; your camera pushes images to our servers and you view the images on the &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt; site under your account.  This simplifies thing greatly.  Your camera can push images to us without the firewall changing at all.  &lt;em&gt;Firewalls block traffic coming into your network, &lt;strong&gt;not&lt;/strong&gt; going out.&lt;/em&gt;  The key here is that we have a bunch of servers dedicated to handling your camera&amp;rsquo;s stream.  (Currently we have about 70 servers handling camera data.)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What if my home IP address changes?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;It doesn&amp;rsquo;t matter because you don&amp;rsquo;t need to connect back to your home network.  With Sensr.net you view your camera on our site.  We grab the stream from your camera and put it in a nice web or mobile view for you.  There is &lt;strong&gt;&lt;em&gt;no need&lt;/em&gt;&lt;/strong&gt; for a service like &lt;a title=&#34;Dynamic IP Service&#34; href=&#34;http://www.dyndns.com&#34; target=&#34;_blank&#34;&gt;DynDNS&lt;/a&gt; or &lt;a href=&#34;http://www.noip.com&#34; target=&#34;_blank&#34;&gt;noip&lt;/a&gt; because it doesn&amp;rsquo;t matter what your home network&amp;rsquo;s IP address changes.  You just need to log in to &lt;a href=&#34;https://sensr.net&#34; target=&#34;_blank&#34;&gt;Sensr.net&lt;/a&gt; with your account and you can see all of your cameras in one place.&lt;/p&gt;
+
+&lt;p&gt;As an added benefit, you can share your camera with folks and it won&amp;rsquo;t impact your home network at all.  If a bunch of guests are viewing the camera, they&amp;rsquo;re all viewing it on &lt;a href=&#34;https://sensr.net&#34; target=&#34;_blank&#34;&gt;Sensr.net&lt;/a&gt;, so it&amp;rsquo;s our bandwidth they are using, not your poor little DSL line.  Ok, maybe you have a beefy internet connection, but you still don&amp;rsquo;t want your HBO Go to buffer when Grandma logs in to watch the cats.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Is this secure?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We believe this is much more secure that opening a hole in your firewall.  Have you ever looked at the logs on your router?  It&amp;rsquo;s scary how many scanners are out there looking for a way to break into your network.  Why give them one more opening?  With Sensr.net you can leave the firewall closed.  You don&amp;rsquo;t have worry that a bug in your camera&amp;rsquo;s firmware will let the &lt;a href=&#34;http://en.wikipedia.org/wiki/Script_kiddie&#34;&gt;script kiddies&lt;/a&gt; onto your home PC.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How do I get started?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Get a free trial account at Sensr.net (no credit card required) and add your camera.  Each camera model is different, but basically we give you FTP credentials for each of your cameras.  You then tell the camera to upload JPEG images at 1 or 2 frames per second to our servers.   We have a bunch of how to guides on our blog,  if you don&amp;rsquo;t see your camera listed or can&amp;rsquo;t get it to work, just send email to us, support@ you know what, and we&amp;rsquo;ll help you get going.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Is it free?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There is a free 1 week trial.  After that, we charge $99 per year (or $9.95 per month) for the  first camera.  Additional cameras are $49 per year or $4.95 per month.  See our &lt;a href=&#34;https://sensr.net/plans&#34; target=&#34;_blank&#34;&gt;pricing page for details&lt;/a&gt;.   Besides firewall free configuration, here are some of the other things you get for your money:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Remote live viewing&lt;/li&gt;
+&lt;li&gt;1 month of archives&lt;/li&gt;
+&lt;li&gt;Unlimited storage for favorite images or &lt;a href=&#34;https://sensr.net/clips&#34; target=&#34;_blank&#34;&gt;clips&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Unlimited SMS and email alerts&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.sensr.net/2012/04/11/guest-access-for-sensr-net-cameras/&#34; target=&#34;_blank&#34;&gt;Guest access&lt;/a&gt; for as many of guests as you want&lt;/li&gt;
+&lt;li&gt;Free mobile apps on &lt;a href=&#34;https://itunes.apple.com/us/app/sensr.net/id564024001&#34; target=&#34;_blank&#34;&gt;iOS&lt;/a&gt; and &lt;a href=&#34;https://play.google.com/store/apps/details?id=net.sensr.SensrNet&#34; target=&#34;_blank&#34;&gt;Android&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Daily summary emails&lt;/li&gt;
+&lt;li&gt;Easily &lt;a href=&#34;http://blog.sensr.net/2011/02/27/embed-your-sensr-net-cameras-live-view/&#34; target=&#34;_blank&#34;&gt;embed a camera&amp;rsquo;s live stream&lt;/a&gt; in your other websites&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Stop messing with those firewall configurations and &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt;give it a try!&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
