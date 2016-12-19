@@ -9,6 +9,94 @@
     <atom:link href="http://blog.sensr.net/categories/technology/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>5 Ways To Minimize IoT Vulnerabilities In Your Smart Home Network</title>
+      <link>http://blog.sensr.net/2016/12/5-ways-to-minimize-iot-vulnerabilities-in-your-smart-home-network/</link>
+      <pubDate>Sun, 18 Dec 2016 16:35:11 -0800</pubDate>
+      
+      <guid>http://blog.sensr.net/2016/12/5-ways-to-minimize-iot-vulnerabilities-in-your-smart-home-network/</guid>
+      <description>
+
+&lt;p&gt;The &lt;a href=&#34;http://blog.sensr.net/2016/10/19/why-no-open-source-iot-firmware/&#34;&gt;Internet of Things&lt;/a&gt; (IoT) is continuing to expand and broaden its own horizons while simultaneously helping to usher people into a
+future, which is brimming with all the possibilities that an interconnected world presents. There are many industries that are working to
+incorporate the Internet of Things into their infrastructure. One of these industries has been the home security industry and there are many
+homeowners who are no proud parents to smart homes.&lt;/p&gt;
+
+&lt;p&gt;The smart home is one greatest aspects of the Internet of Things, just because of the sheer number of actions it allows you to complete through
+simple commands. For instance, some people can program their homes so that their lights come on as soon as they walk through the door. There are
+many benefits to the IoT, from increased efficiency to more comfortable living. However, there are some inherent vulnerabilities in the way the
+Internet of Things works, and it is easy to see why.&lt;/p&gt;
+
+&lt;p&gt;The basis of the IoT is that there are several different devices connected to each other on a network, and all sharing information and relaying
+data. This concept alone hints at the fact that there are multiple entryways for unauthorized users, as well as security concerns simply because
+of the sheer number of interconnected devices. When it comes to homeowners who are using the IoT to power their smart home networks, how can
+they minimize these IoT vulnerabilities? LetÕs take a look at some of the ways they can avert this:&lt;/p&gt;
+
+&lt;h2 id=&#34;1-proper-password-management&#34;&gt;1. Proper Password Management&lt;/h2&gt;
+
+&lt;p&gt;It&amp;rsquo;s always best, to begin with, the basics, and one of the basics of great network security is always making sure that you are properly
+managing the passwords that grant devices access to your network. The first step to proper password management is to ensure that you create
+unique passwords for each of the devices that you have connected to your smart home network. In addition to this, it is best to make sure that
+you change these passwords on a regular basis so that you are consistently reducing the possibility of anyone discovering them. There are many
+homeowners who overlook this simple method, but it goes a long way to help keep your network secure.&lt;/p&gt;
+
+&lt;h2 id=&#34;2-utilize-a-secure-firewall&#34;&gt;2. Utilize a secure Firewall&lt;/h2&gt;
+
+&lt;p&gt;It is important for homeowners to realize how vulnerable their networks can be if they do not provide any form of protection. One of the best
+forms of protection comes in the form of a secure firewall. It is not a smart idea to leave your network protected by a simple router.
+Homeowners should invest in secure firewalls that act as safeguards to every accessible endpoint that exists on their network. Firewalls exist
+to help protect your network from unauthorized access and they greatly reduce the chances of anyone successfully &lt;a href=&#34;http://blog.sensr.net/2016/10/19/is-your-security-camera-hacking-someone-else/&#34;&gt;hacking into your smart home
+network&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;3-security-software-updates&#34;&gt;3. Security Software Updates&lt;/h2&gt;
+
+&lt;p&gt;Managing software updates is quite similar to proper password management. This is because the brunt of the responsibility falls on the homeowner
+to be attentive. It is important that you constantly check to see if there are software updates available for the devices that you have on your
+smart home network. These software updates are an important part of ensuring that your devices continue to run smoothly.&lt;/p&gt;
+
+&lt;p&gt;In some cases, manufacturers might have discovered a flaw in the device and then release a software patch meant to rectify said problem. If the
+user does not take advantage of these software patches, they will most likely end up having severe network flaws and holes that a hacker can
+take advantage of to gain access to their network. One of the best ways to manage security software updates is to set at least 3 monthly
+reminders. That way you never fall into the trap of forgetting that you need to update your security software.&lt;/p&gt;
+
+&lt;h2 id=&#34;4-disable-additional-features&#34;&gt;4. Disable additional features&lt;/h2&gt;
+
+&lt;p&gt;Now, this is something that many homeowners tend to overlook, simply because they do not know this might increase the chances of their network
+being made vulnerable. In most cases, smart devices have additional features that grant them access to the networks at different times without
+necessarily having to go through any security verification or authorization.&lt;/p&gt;
+
+&lt;p&gt;This process makes your entire network extremely vulnerable because it gives hackers the opportunity to exploit these loopholes. When you are
+setting up your smart home network, it is imperative that you identify the additional features that each device might use. If there are any that
+leave your network open and accessible, make sure that you disable these features. Essentially, you want to make it as hard as possible for a
+hacker to gain access to your network. The most efficient way to do this is to plug up all possible access points that could end up being taken
+advantage of.&lt;/p&gt;
+
+&lt;h2 id=&#34;5-private-network&#34;&gt;5. Private Network&lt;/h2&gt;
+
+&lt;p&gt;The Internet of Things is a network of interconnected devices. It is not really a shock that this might seem lucrative to hackers. However, an
+additional way to minimize the flaws of an IoT network in the smart home is to utilize private networks. The use of a private network will add
+an additional layer of security for your IoT devices. Also, it is always best to keep the network that functions with your IoT devices separate
+from other networks so that they do not compromise each other with the amount of data that is being transmitted.&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;The IoT on a smart home network really changes the way a home can operate, and it increases the amount of possible things that any homeowner can
+accomplish. The benefits of the IoT are very likely endless, as we are only just scratching the surface. However, there are some vulnerabilities
+that exist, much like anything else, so it is crucial for homeowners to make sure that they are safe guarding themselves against any of these
+vulnerabilities. You may think that this is a high level of paranoia, but it is important to remember that if someone is able to gain access to
+one device on an IoT network, they will most likely gain access to your entire network simply by piggybacking off of the compromised device.&lt;/p&gt;
+
+&lt;p&gt;The steps mentioned above will help keep your smart home network safe, but do not forget that physical security also plays an important role in
+stemming inherent network vulnerabilities. As a homeowner, make sure that you discuss your home security with a security professional or a
+residential locksmith, they will be able to help you with &lt;a href=&#34;http://united-locksmith.net/home-locksmith/smart-lock-installation&#34;&gt;smart lock installations&lt;/a&gt; as well as help you keep your home safe and secure.&lt;/p&gt;
+
+&lt;h3 id=&#34;author-bio&#34;&gt;Author Bio&lt;/h3&gt;
+
+&lt;p&gt;Ralph Goodman is a professional writer and the resident expert on locks and security over at the &lt;a href=&#34;http://united-locksmith.net/blog&#34;&gt;Lock Blog&lt;/a&gt;. The Lock Blog is a great
+resource to learn about keys, locks and safety. They offer tips, advice and how-to&amp;rsquo;s for consumers, locksmiths, and security professionals.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Why no open source IoT Firmware?</title>
       <link>http://blog.sensr.net/2016/10/19/why-no-open-source-iot-firmware/</link>
       <pubDate>Wed, 19 Oct 2016 20:46:21 +0000</pubDate>

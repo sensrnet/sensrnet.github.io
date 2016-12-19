@@ -9,6 +9,94 @@
     <atom:link href="http://blog.sensr.net/categories/how-to-guide/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>5 Ways To Minimize IoT Vulnerabilities In Your Smart Home Network</title>
+      <link>http://blog.sensr.net/2016/12/5-ways-to-minimize-iot-vulnerabilities-in-your-smart-home-network/</link>
+      <pubDate>Sun, 18 Dec 2016 16:35:11 -0800</pubDate>
+      
+      <guid>http://blog.sensr.net/2016/12/5-ways-to-minimize-iot-vulnerabilities-in-your-smart-home-network/</guid>
+      <description>
+
+&lt;p&gt;The &lt;a href=&#34;http://blog.sensr.net/2016/10/19/why-no-open-source-iot-firmware/&#34;&gt;Internet of Things&lt;/a&gt; (IoT) is continuing to expand and broaden its own horizons while simultaneously helping to usher people into a
+future, which is brimming with all the possibilities that an interconnected world presents. There are many industries that are working to
+incorporate the Internet of Things into their infrastructure. One of these industries has been the home security industry and there are many
+homeowners who are no proud parents to smart homes.&lt;/p&gt;
+
+&lt;p&gt;The smart home is one greatest aspects of the Internet of Things, just because of the sheer number of actions it allows you to complete through
+simple commands. For instance, some people can program their homes so that their lights come on as soon as they walk through the door. There are
+many benefits to the IoT, from increased efficiency to more comfortable living. However, there are some inherent vulnerabilities in the way the
+Internet of Things works, and it is easy to see why.&lt;/p&gt;
+
+&lt;p&gt;The basis of the IoT is that there are several different devices connected to each other on a network, and all sharing information and relaying
+data. This concept alone hints at the fact that there are multiple entryways for unauthorized users, as well as security concerns simply because
+of the sheer number of interconnected devices. When it comes to homeowners who are using the IoT to power their smart home networks, how can
+they minimize these IoT vulnerabilities? LetÕs take a look at some of the ways they can avert this:&lt;/p&gt;
+
+&lt;h2 id=&#34;1-proper-password-management&#34;&gt;1. Proper Password Management&lt;/h2&gt;
+
+&lt;p&gt;It&amp;rsquo;s always best, to begin with, the basics, and one of the basics of great network security is always making sure that you are properly
+managing the passwords that grant devices access to your network. The first step to proper password management is to ensure that you create
+unique passwords for each of the devices that you have connected to your smart home network. In addition to this, it is best to make sure that
+you change these passwords on a regular basis so that you are consistently reducing the possibility of anyone discovering them. There are many
+homeowners who overlook this simple method, but it goes a long way to help keep your network secure.&lt;/p&gt;
+
+&lt;h2 id=&#34;2-utilize-a-secure-firewall&#34;&gt;2. Utilize a secure Firewall&lt;/h2&gt;
+
+&lt;p&gt;It is important for homeowners to realize how vulnerable their networks can be if they do not provide any form of protection. One of the best
+forms of protection comes in the form of a secure firewall. It is not a smart idea to leave your network protected by a simple router.
+Homeowners should invest in secure firewalls that act as safeguards to every accessible endpoint that exists on their network. Firewalls exist
+to help protect your network from unauthorized access and they greatly reduce the chances of anyone successfully &lt;a href=&#34;http://blog.sensr.net/2016/10/19/is-your-security-camera-hacking-someone-else/&#34;&gt;hacking into your smart home
+network&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;3-security-software-updates&#34;&gt;3. Security Software Updates&lt;/h2&gt;
+
+&lt;p&gt;Managing software updates is quite similar to proper password management. This is because the brunt of the responsibility falls on the homeowner
+to be attentive. It is important that you constantly check to see if there are software updates available for the devices that you have on your
+smart home network. These software updates are an important part of ensuring that your devices continue to run smoothly.&lt;/p&gt;
+
+&lt;p&gt;In some cases, manufacturers might have discovered a flaw in the device and then release a software patch meant to rectify said problem. If the
+user does not take advantage of these software patches, they will most likely end up having severe network flaws and holes that a hacker can
+take advantage of to gain access to their network. One of the best ways to manage security software updates is to set at least 3 monthly
+reminders. That way you never fall into the trap of forgetting that you need to update your security software.&lt;/p&gt;
+
+&lt;h2 id=&#34;4-disable-additional-features&#34;&gt;4. Disable additional features&lt;/h2&gt;
+
+&lt;p&gt;Now, this is something that many homeowners tend to overlook, simply because they do not know this might increase the chances of their network
+being made vulnerable. In most cases, smart devices have additional features that grant them access to the networks at different times without
+necessarily having to go through any security verification or authorization.&lt;/p&gt;
+
+&lt;p&gt;This process makes your entire network extremely vulnerable because it gives hackers the opportunity to exploit these loopholes. When you are
+setting up your smart home network, it is imperative that you identify the additional features that each device might use. If there are any that
+leave your network open and accessible, make sure that you disable these features. Essentially, you want to make it as hard as possible for a
+hacker to gain access to your network. The most efficient way to do this is to plug up all possible access points that could end up being taken
+advantage of.&lt;/p&gt;
+
+&lt;h2 id=&#34;5-private-network&#34;&gt;5. Private Network&lt;/h2&gt;
+
+&lt;p&gt;The Internet of Things is a network of interconnected devices. It is not really a shock that this might seem lucrative to hackers. However, an
+additional way to minimize the flaws of an IoT network in the smart home is to utilize private networks. The use of a private network will add
+an additional layer of security for your IoT devices. Also, it is always best to keep the network that functions with your IoT devices separate
+from other networks so that they do not compromise each other with the amount of data that is being transmitted.&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;The IoT on a smart home network really changes the way a home can operate, and it increases the amount of possible things that any homeowner can
+accomplish. The benefits of the IoT are very likely endless, as we are only just scratching the surface. However, there are some vulnerabilities
+that exist, much like anything else, so it is crucial for homeowners to make sure that they are safe guarding themselves against any of these
+vulnerabilities. You may think that this is a high level of paranoia, but it is important to remember that if someone is able to gain access to
+one device on an IoT network, they will most likely gain access to your entire network simply by piggybacking off of the compromised device.&lt;/p&gt;
+
+&lt;p&gt;The steps mentioned above will help keep your smart home network safe, but do not forget that physical security also plays an important role in
+stemming inherent network vulnerabilities. As a homeowner, make sure that you discuss your home security with a security professional or a
+residential locksmith, they will be able to help you with &lt;a href=&#34;http://united-locksmith.net/home-locksmith/smart-lock-installation&#34;&gt;smart lock installations&lt;/a&gt; as well as help you keep your home safe and secure.&lt;/p&gt;
+
+&lt;h3 id=&#34;author-bio&#34;&gt;Author Bio&lt;/h3&gt;
+
+&lt;p&gt;Ralph Goodman is a professional writer and the resident expert on locks and security over at the &lt;a href=&#34;http://united-locksmith.net/blog&#34;&gt;Lock Blog&lt;/a&gt;. The Lock Blog is a great
+resource to learn about keys, locks and safety. They offer tips, advice and how-to&amp;rsquo;s for consumers, locksmiths, and security professionals.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Alfa R36 AWUS036NH Network Scan Not Working</title>
       <link>http://blog.sensr.net/2016/12/alfa-r36-awus036nh-network-scan-not-working/</link>
       <pubDate>Sat, 03 Dec 2016 10:13:53 -0400</pubDate>
@@ -1392,85 +1480,6 @@ Address: 74.207.245.42&lt;/pre&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>How to setup the TRENDnet TV-IP672WI with cloud recording</title>
-      <link>http://blog.sensr.net/2014/07/22/how-to-setup-the-trendnet-tv-ip672wi-with-cloud-recording/</link>
-      <pubDate>Tue, 22 Jul 2014 18:34:25 +0000</pubDate>
-      
-      <guid>http://blog.sensr.net/2014/07/22/how-to-setup-the-trendnet-tv-ip672wi-with-cloud-recording/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://blog.sensr.net/img/2014/07/71rQtG5o6DL._SL1500_.jpg&#34;&gt;&lt;img class=&#34; wp-image-2981 alignleft&#34; src=&#34;http://blog.sensr.net/img/2014/07/71rQtG5o6DL._SL1500_.jpg&#34; alt=&#34;71rQtG5o6DL._SL1500_&#34; width=&#34;366&#34; height=&#34;355&#34; srcset=&#34;http://blog.sensr.net/img/2014/07/71rQtG5o6DL._SL1500_.jpg 1500w, http://blog.sensr.net/img/2014/07/71rQtG5o6DL._SL1500_-300x290.jpg 300w, http://blog.sensr.net/img/2014/07/71rQtG5o6DL._SL1500_-1024x992.jpg 1024w&#34; sizes=&#34;(max-width: 366px) 100vw, 366px&#34; /&gt;&lt;/a&gt;The &lt;a href=&#34;http://www.amazon.com/TRENDnet-Megapixel-Wireless-Surveillance-TV-IP672WI/dp/B007FGH7DK/ref=sr_1_3?s=photo&amp;amp;ie=UTF8&amp;amp;qid=1406050248&amp;amp;sr=1-3&amp;amp;keywords=trendnet/sensr-20&#34;&gt;TRENDnet TV-IP672W &lt;/a&gt; is a nice camera with a whole slew of features. While is doesn&amp;#8217;t have all the features that some other cameras have it is also not outrageously priced. Most importantly though it is compatible with Sensr.net&amp;#8217;s cloud recording. Some users on amazon were actually complaining there was no cloud recording option for the &lt;a href=&#34;http://www.amazon.com/TRENDnet-Megapixel-Wireless-Surveillance-TV-IP672WI/dp/B007FGH7DK/ref=sr_1_3?s=photo&amp;amp;ie=UTF8&amp;amp;qid=1406050248&amp;amp;sr=1-3&amp;amp;keywords=trendnet/sensr-20&#34;&gt;TRENDnet TV-IP672W&lt;/a&gt;; however, they obviously didn&amp;#8217;t know about Senser.net! This tutorial will show you how to configure your &lt;a href=&#34;http://www.amazon.com/TRENDnet-Megapixel-Wireless-Surveillance-TV-IP672WI/dp/B007FGH7DK/ref=sr_1_3?s=photo&amp;amp;ie=UTF8&amp;amp;qid=1406050248&amp;amp;sr=1-3&amp;amp;keywords=trendnet/sensr-20&#34;&gt;TRENDnet TV-IP672W&lt;/a&gt; and how to record to the cloud with Sensr.net&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;There are five steps to this tutorial so if you already know how to do some feel free to skip around.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Setup your hardware and find your camera&amp;#8217;s IP address&lt;/li&gt;
-&lt;li&gt;Go to your camera&amp;#8217;s network access page to control you camera&lt;/li&gt;
-&lt;li&gt;Get FTP credentials from Sensr.net&lt;/li&gt;
-&lt;li&gt;Tell your camera about its new FTP credentials&lt;/li&gt;
-&lt;li&gt;Victory song&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;span style=&#34;color: #000000;&#34;&gt;&lt;b&gt;1. Setup your hardware and find your camera&amp;#8217;s IP address&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Setting up the hardware here is pretty easy. Simply plug you camera into your router and a power outlet. Note that if you plan on having you camera connected to wireless you will need to connect with WPS or, if your router doesn&amp;#8217;t support WPS, setup via a weird connection and then connect to wireless from the network access page. Once you are connected to power and internet you will need to find your camera&amp;#8217;s IP address. I will show you how to do this on a mac (because I am writing from a mac) but it is also very easy to do from a PC (the PC process is outlined in &lt;a href=&#34;http://blogs.computerworld.com/network-security/22777/find-ip-address-your-home-router&#34;&gt;this article&lt;/a&gt;). On my mac it is under system preferences&amp;gt;Network&amp;gt;Advanced…&amp;gt;TCP/IP. The page looks like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2597&#34; src=&#34;http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png&#34; alt=&#34;Router IP address shown on second line&#34; width=&#34;782&#34; height=&#34;694&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png 782w, http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM-300x266.png 300w&#34; sizes=&#34;(max-width: 782px) 100vw, 782px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Once you have the IP address just enter it into your browser and it should bring you to a network access page. Everyone’s looks different depending on the make and model of their browser. Mine, for example, looks like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://blog.sensr.net/img/2013/12/netgear-attached-devices.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2599&#34; src=&#34;http://blog.sensr.net/img/2013/12/netgear-attached-devices.png&#34; alt=&#34;My router&#39;s Network Access portal&#34; width=&#34;932&#34; height=&#34;780&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/netgear-attached-devices.png 932w, http://blog.sensr.net/img/2013/12/netgear-attached-devices-300x251.png 300w&#34; sizes=&#34;(max-width: 932px) 100vw, 932px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;If you aren’t sure which device is new you can always unplug your camera then plug it back in to see which one disappears and comes back.&lt;/p&gt;
-
-&lt;p class=&#34;p1&#34;&gt;
-  &lt;strong&gt;Step 2: Go to your camera&amp;#8217;s network access page to control you camera.&lt;/strong&gt;
-&lt;/p&gt;
-
-&lt;p class=&#34;p1&#34;&gt;
-  Type your camera&amp;#8217;s IP address into your browser and it will bring you to a page asking for a username and password. The defaults are admin and admin. Make sure you change these! You don&amp;#8217;t want someone getting onto your camera without your permission. Once you&amp;#8217;ve entered in the username and password you will get to a page that looks like this:
-&lt;/p&gt;
-
-&lt;p class=&#34;p1&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/07/Screen-Shot-2014-07-22-at-2.14.49-PM.png&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2982&#34; src=&#34;http://blog.sensr.net/img/2014/07/Screen-Shot-2014-07-22-at-2.14.49-PM.png&#34; alt=&#34;Screen Shot 2014-07-22 at 2.14.49 PM&#34; width=&#34;401&#34; height=&#34;296&#34; srcset=&#34;http://blog.sensr.net/img/2014/07/Screen-Shot-2014-07-22-at-2.14.49-PM.png 386w, http://blog.sensr.net/img/2014/07/Screen-Shot-2014-07-22-at-2.14.49-PM-300x221.png 300w&#34; sizes=&#34;(max-width: 401px) 100vw, 401px&#34; /&gt;&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;p class=&#34;p1&#34;&gt;
-  From here you can control all aspects of your camera. Now that you have control over your camera you are ready for the next step.
-&lt;/p&gt;
-
-&lt;p class=&#34;p1&#34;&gt;
-  &lt;strong&gt;Step 3: Get FTP credentials from Sensr.net&lt;/strong&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Now you are ready to setup stuff from the Sensr.net side of things. We will store all your recorded data in the cloud so you can access it from any device, anywhere. We have a number of different plans but the first week is always free so just set it up and give it a try. If you don’t like it you don’t need to continue to a payed plan. Log into your Sensr.net account click the &lt;strong&gt;Add Camera&lt;/strong&gt; button. Once you login you’ll see a page like this: &lt;a style=&#34;color: #888888;&#34; href=&#34;http://blog.sensr.net/img/2014/02/sensr-add-camera.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2714&#34; src=&#34;http://blog.sensr.net/img/2014/02/sensr-add-camera.png&#34; alt=&#34;Add new camera page&#34; width=&#34;1003&#34; height=&#34;339&#34; srcset=&#34;http://blog.sensr.net/img/2014/02/sensr-add-camera.png 1003w, http://blog.sensr.net/img/2014/02/sensr-add-camera-300x101.png 300w&#34; sizes=&#34;(max-width: 1003px) 100vw, 1003px&#34; /&gt;&lt;/a&gt;Next you’ll see a page like this where you can set the timezone for your camera, give it a name, and tell us the model.  Cameras default to private but you can make them public if you want to share them with the world. &lt;a style=&#34;color: #888888;&#34; href=&#34;http://blog.sensr.net/img/2014/02/add-camera-details.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2713&#34; src=&#34;http://blog.sensr.net/img/2014/02/add-camera-details.png&#34; alt=&#34;Note this is for a different device&#34; width=&#34;999&#34; height=&#34;491&#34; srcset=&#34;http://blog.sensr.net/img/2014/02/add-camera-details.png 999w, http://blog.sensr.net/img/2014/02/add-camera-details-300x147.png 300w&#34; sizes=&#34;(max-width: 999px) 100vw, 999px&#34; /&gt;&lt;/a&gt;After that, we’ll generate some FTP credentials for your server. This generates a login for your TRENDnet to where it can upload images via FTP. This tells your camera where to upload the images. The important information here is:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;FTP Server&lt;/li&gt;
-&lt;li&gt;FTP User name&lt;/li&gt;
-&lt;li&gt;FTP Password&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Save these so we can add them to your camera later. &lt;a style=&#34;color: #888888;&#34; href=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2607&#34; src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2.png&#34; alt=&#34;FTP credentials&#34; width=&#34;1141&#34; height=&#34;790&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2.png 1141w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s2-300x207.png 300w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s2-1024x708.png 1024w&#34; sizes=&#34;(max-width: 1141px) 100vw, 1141px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 4: Tell your camera about its new FTP credential&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Go back to the other tab where you have your camera&amp;#8217;s network access window. Click the setup tab on the left panel then go to action, one of the options on the left of the page. Choose video Clip from the drop down menu that appears. There are three sections here Trigger by, Video clip type, and Target. First you want to go to trigger by and choose always, then go to video clip and choose 1 frame per second. Lastly go to target and Choose FTP. Copy the credentials you got from Sensr.net and paste them into their respective sections. Make sure the passive mode box is checked and click apply. Now you are done and you should be uploading to Sensr.net go back to Sensr.net and the page should look like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;size-full wp-image-2612&#34; src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-done.png&#34; alt=&#34;Success!&#34; width=&#34;1141&#34; height=&#34;790&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-done.png 1141w, http://blog.sensr.net/img/2013/12/sensr-add-camera-done-300x207.png 300w, http://blog.sensr.net/img/2013/12/sensr-add-camera-done-1024x708.png 1024w&#34; sizes=&#34;(max-width: 1141px) 100vw, 1141px&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 5: Victory song&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Belt it out because you are done (I suggest We are the champions by Queen).&lt;/p&gt;
-
-&lt;p&gt;Now that you’re on Sensr.net we’ll archive all the motion events, giving you 30 days of archives, SMS and email alerts, guest access, and a whole lot more.  You can view the live stream on our website or in our apps.&lt;/p&gt;
-
-&lt;p&gt;As always let me know if you have any questions. Shoot me an email at info@sensr.net or click the feedback button on the right of the page!&lt;/p&gt;</description>
     </item>
     
   </channel>
