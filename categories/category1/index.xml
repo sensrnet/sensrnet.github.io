@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sensr.net Blog | Watch your Stuff!</title>
+    <link>http://blog.sensr.net/categories/category1/index.xml</link>
+    <description>Recent content on Sensr.net Blog | Watch your Stuff!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://blog.sensr.net/categories/category1/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>foscam outdoor</title>
+      <link>http://blog.sensr.net/2016/12/foscam-outdoor/</link>
+      <pubDate>Sat, 31 Dec 2016 11:44:15 -0800</pubDate>
+      
+      <guid>http://blog.sensr.net/2016/12/foscam-outdoor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>embedding democameras</title>
+      <link>http://blog.sensr.net/2016/12/embedding-democameras/</link>
+      <pubDate>Wed, 07 Dec 2016 09:09:46 -0700</pubDate>
+      
+      <guid>http://blog.sensr.net/2016/12/embedding-democameras/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://foscam.us/forum/showing-secure-methods-using-php-to-display-your-ip-cameras-t8721.html#p42139&#34;&gt;http://foscam.us/forum/showing-secure-methods-using-php-to-display-your-ip-cameras-t8721.html#p42139&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>learning spanish</title>
+      <link>http://blog.sensr.net/2016/12/learning-spanish/</link>
+      <pubDate>Wed, 07 Dec 2016 09:09:08 -0700</pubDate>
+      
+      <guid>http://blog.sensr.net/2016/12/learning-spanish/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.mimicmethod.com/spanish-master-class-dashboard&#34;&gt;https://www.mimicmethod.com/spanish-master-class-dashboard&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;try to lisent to Puerto Rican songs.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.buzzfeed.com/mariasherm/13-songs-that-make-you-proud-to-be-puerto-rican&#34;&gt;https://www.buzzfeed.com/mariasherm/13-songs-that-make-you-proud-to-be-puerto-rican&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>shodan for finding webcams</title>
+      <link>http://blog.sensr.net/2016/11/shodan-for-finding-webcams/</link>
+      <pubDate>Sun, 20 Nov 2016 07:51:07 -0400</pubDate>
+      
+      <guid>http://blog.sensr.net/2016/11/shodan-for-finding-webcams/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://shodan.io&#34;&gt;Shodan&lt;/a&gt; is an IoT search engine.  It randomly connects to IP addresses on the internet and tries to talk to them.
+Most devices will return some kind of response, Shodan calls these &lt;em&gt;banners&lt;/em&gt;. For instance, a web server banner
+looks like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;HTTP/1.1 200 OK
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+Last-Modified: Sat, 19 Nov 2016 12:08:21 GMT
+Access-Control-Allow-Origin: *
+Expires: Sat, 19 Nov 2016 12:18:41 GMT
+Cache-Control: max-age=600
+X-GitHub-Request-Id: 17EB2E25:14B47:5F5B442:583040C9
+Content-Length: 22124
+Accept-Ranges: bytes
+Date: Sat, 19 Nov 2016 12:09:35 GMT
+Via: 1.1 varnish
+Age: 54
+Connection: keep-alive
+X-Served-By: cache-iad2646-IAD
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1479557375.340912,VS0,VE0
+Vary: Accept-Encoding
+X-Fastly-Request-ID: cdb3a353341adec9152ca6822791701da75cfac7
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I got this header by running &lt;code&gt;curl -D head http://blog.sensr.net&lt;/code&gt;, which does an HTTP GET to the given URL and saves
+the headers in a file, in this case named &lt;code&gt;head&lt;/code&gt;.  Since &lt;code&gt;http://blog.sensr.net&lt;/code&gt; is hosted at GitHub, we can see that
+they run their own customer server software.&lt;/p&gt;
+
+&lt;p&gt;How many Github servers are there out there?  The search &lt;code&gt;github&lt;/code&gt; does the trick:&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://blog.sensr.net/img/shodangithub.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Github servers by country&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;&lt;a href=&#34;https://default-password.info/&#34;&gt;https://default-password.info/&lt;/a&gt;
+&lt;a href=&#34;https://cirt.net/passwords&#34;&gt;https://cirt.net/passwords&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;how-does-shodan-get-the-screenshots&#34;&gt;How does Shodan get the screenshots?&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://images.shodan.io/?query=http&#34;&gt;&lt;code&gt;https://images.shodan.io/?query=http&lt;/code&gt;&lt;/a&gt; will return the webcams images that Shodan has stored.  &lt;code&gt;rtsp has_screenshot:true&lt;/code&gt;should also return webcams that have screenshots.  What is the difference
+between the these queries?&lt;/p&gt;
+
+&lt;p&gt;What does the webcam search actualy look for?  It must be something in the header. There isn&amp;rsquo;t a way to
+look for multiple fields, the search is an &amp;lsquo;and&amp;rsquo; right?&lt;/p&gt;
+
+&lt;p&gt;Ah, could look for query=rtsp and then it&amp;rsquo;s probably a camera.&lt;/p&gt;
+
+&lt;p&gt;o Extract image from RTSP&lt;/p&gt;
+
+&lt;p&gt;Build up a databse of banners that are webcams.  Then try to get to the snapshot URL.  Each camera model will
+have different urls.  The ispycconnect.com site has a lot of options for connect urls.  Use their configs to
+try different ones.&lt;/p&gt;
+
+&lt;p&gt;For foscam the snapshot url is something like :  &lt;a href=&#34;http://IP/snapshot.cgi&#34;&gt;http://IP/snapshot.cgi&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Can we use the webcam models that we found in the DB to find cameras on Shodan?&lt;/p&gt;
+
+&lt;p&gt;Can we use Shodan to test out new camera models for Sensr.net?  Find an open camera and then set it up on Sensr.net.&lt;/p&gt;
+
+&lt;p&gt;this finds cameras that they have stored images from.  Needed to subscribe, $45 per year.  Student discounts available.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://images.shodan.io/?query=http&#34;&gt;https://images.shodan.io/?query=http&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I find cameras here but can&amp;rsquo;t seem to connect to them.  Is there a way to use the API to find ones that are actually live?&lt;/p&gt;
+
+&lt;p&gt;o Maybe do a survey of the cameras that are open.  I&amp;rsquo;m seeing images from Dlink and Vivotek only so far. Is vivotek in the
+banner somewhere?&lt;/p&gt;
+
+&lt;p&gt;Maybe look at the snapshot URL?&lt;/p&gt;
+
+&lt;p&gt;o Blog post about snapshot urls&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Vivotek:
+&lt;a href=&#34;http://www.vivotek.com/faq/urlq03.html&#34;&gt;http://www.vivotek.com/faq/urlq03.html&lt;/a&gt;
+You can type URL command http://&lt;IP of your camera&gt;/cgi-bin/video.jpg to get the snapshot.&lt;/p&gt;
+
+&lt;p&gt;If you are using our new 7000 series and 8000 series cameras or video server, you can type another URL command
+http://&lt;IP address of your device&gt;/cgi-bin/viewer/video.jpg to get the snapshot.&lt;/p&gt;
+
+&lt;p&gt;So write a Shodan program that finds vivotek cameras then tries to go to the snapshot url.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://99-57-193-245.lightspeed.knvltn.sbcglobal.net:7547/cgi-bin/video.jpg&#34;&gt;http://99-57-193-245.lightspeed.knvltn.sbcglobal.net:7547/cgi-bin/video.jpg&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Nope&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s mostly parking lots, so maybe write a blog post on how to record your parking lot camera&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Find cameras with rtsp and screenshot.  Currently 771 results.
+rtsp has_screenshot:true&lt;/p&gt;
+
+&lt;p&gt;Lots or UBNT and Hipcam&lt;/p&gt;
+
+&lt;p&gt;good list of username and password&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://null-byte.wonderhowto.com/how-to/hack-like-pro-find-vulnerable-webcams-across-globe-using-shodan-0154830/&#34;&gt;http://null-byte.wonderhowto.com/how-to/hack-like-pro-find-vulnerable-webcams-across-globe-using-shodan-0154830/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;run-host-command&#34;&gt;Run host command&lt;/h1&gt;
+
+&lt;p&gt;Get the IP addresses of all our cameras and then run the host command&lt;/p&gt;
+
+&lt;p&gt;Chad&amp;rsquo;s IP
+69.117.185.59:4567&lt;/p&gt;
+
+&lt;h1 id=&#34;find-foscams&#34;&gt;Find Foscams&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://rampartssecurity.com/docs/Exploiting-Foscam-IP-Cameras.pdf&#34;&gt;http://rampartssecurity.com/docs/Exploiting-Foscam-IP-Cameras.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Additionally, as of firmware 11.37.2.54, the web
+server returned in the header is “Boa/0.94.13” instead of “Netwave IP Camera”.&lt;/p&gt;
+
+&lt;p&gt;Search for Boa/0.94.13 on shodan and find some return a header with DCS-xxx in them&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;netwave IP camera:
+&lt;a href=&#34;http://IP/snapshot.jpg?user=[USERNAME]&amp;amp;pwd=[PASSWORD]&amp;amp;strm=[CHANNEL&#34;&gt;http://IP/snapshot.jpg?user=[USERNAME]&amp;amp;pwd=[PASSWORD]&amp;amp;strm=[CHANNEL&lt;/a&gt;]&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>default passwords ip cameras</title>
+      <link>http://blog.sensr.net/2016/11/default-passwords-ip-cameras/</link>
+      <pubDate>Wed, 16 Nov 2016 18:14:49 -0400</pubDate>
+      
+      <guid>http://blog.sensr.net/2016/11/default-passwords-ip-cameras/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.tecnicgroup.com.au/ip-camera-default-usernames-password-and-ip-addresses/&#34;&gt;https://www.tecnicgroup.com.au/ip-camera-default-usernames-password-and-ip-addresses/&lt;/a&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Brand&lt;/th&gt;
+&lt;th&gt;Model&lt;/th&gt;
+&lt;th&gt;Username&lt;/th&gt;
+&lt;th&gt;Password&lt;/th&gt;
+&lt;th&gt;Default IP&lt;/th&gt;
+&lt;th&gt;Default Port&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3xLogic&lt;/td&gt;
+&lt;td&gt;?&lt;/td&gt;
+&lt;td&gt;admin&lt;/td&gt;
+&lt;td&gt;12345&lt;/td&gt;
+&lt;td&gt;192.0.0.64&lt;/td&gt;
+&lt;td&gt;80&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;ACTi&lt;/td&gt;
+&lt;td&gt;?&lt;/td&gt;
+&lt;td&gt;Admin&lt;/td&gt;
+&lt;td&gt;123456&lt;/td&gt;
+&lt;td&gt;192.168.0.100&lt;/td&gt;
+&lt;td&gt;80&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;ACTi&lt;/td&gt;
+&lt;td&gt;?&lt;/td&gt;
+&lt;td&gt;admin&lt;/td&gt;
+&lt;td&gt;123456&lt;/td&gt;
+&lt;td&gt;192.168.0.100&lt;/td&gt;
+&lt;td&gt;80&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Arecont&lt;/td&gt;
+&lt;td&gt;?&lt;/td&gt;
+&lt;td&gt;admin&lt;/td&gt;
+&lt;td&gt;no set password&lt;/td&gt;
+&lt;td&gt;DHCP&lt;/td&gt;
+&lt;td&gt;80&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Avigilon&lt;/td&gt;
+&lt;td&gt;?&lt;/td&gt;
+&lt;td&gt;admin&lt;/td&gt;
+&lt;td&gt;admin&lt;/td&gt;
+&lt;td&gt;DHCP&lt;/td&gt;
+&lt;td&gt;80&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://ipvm.com/reports/ip-cameras-default-passwords-directory&#34;&gt;https://ipvm.com/reports/ip-cameras-default-passwords-directory&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

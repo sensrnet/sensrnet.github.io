@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sensr.net Blog | Watch your Stuff!</title>
+    <link>http://blog.sensr.net/categories/cloud-dvr/index.xml</link>
+    <description>Recent content on Sensr.net Blog | Watch your Stuff!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://blog.sensr.net/categories/cloud-dvr/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Foscam offline: Why can&#39;t I view my camera live?</title>
+      <link>http://blog.sensr.net/2017/02/foscam-offline-why-cant-i-view-my-camera-live/</link>
+      <pubDate>Fri, 24 Feb 2017 09:59:35 -0400</pubDate>
+      
+      <guid>http://blog.sensr.net/2017/02/foscam-offline-why-cant-i-view-my-camera-live/</guid>
+      <description>&lt;p&gt;&lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/foscloud-failed-to-connect.png&#34; class=&#34;img-rounded&#34; alt=&#34;Foscam Cloud Connection Problems&#34;  &gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve setup two of the recent Foscam camera models, a Foscam FI9900P and the &lt;a href=&#34;http://blog.sensr.net/2016/11/ftp-setup-on-the-foscam-wireless-security-camera-1920tvl/&#34;&gt;Foscam
+1920TVL&lt;/a&gt;. Both support the Foscam cloud and the setup goes
+pretty well. More on that another time. But frequently when I launch the &lt;a href=&#34;https://itunes.apple.com/us/app/foscam/id924381688?mt=8&#34;&gt;Foscam iOS
+app&lt;/a&gt; and the cameras are showing as offline when I know that they are
+online. How do I know that? I&amp;rsquo;ve connected the cameras to Sensr.net and they continue to upload and show live on
+&lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;p&gt;I think the issue here is that Foscam Cloud is a new service and it&amp;rsquo;s buggy. Maybe they aren&amp;rsquo;t keeping their servers up. Maybe
+they aren&amp;rsquo;t monitoring their servers properly? Maybe the great firewall of China is blocking your camera from connecting to
+servers over at Big Red. Building a cloud service and keeping it running can be complex, so I hope they are just having growing
+pains and will get it sorted soon.&lt;/p&gt;
+
+&lt;p&gt;Why would you want to use the Foscam Cloud and &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt; together?  Sensr.net is a pretty simple
+DVR in the cloud.  We have lots of cool features but the one thing we can&amp;rsquo;t support is the pan/tilt/zoom that you get
+in the Foscam app.  Our service is built on having the cameras upload directly to the Sensr.net servers.  This simiplifies
+setup and means you &lt;a href=&#34;http://blog.sensr.net/2013/10/24/ip-camera-no-firewall-config/&#34;&gt;don&amp;rsquo;t need any difficult firewall port forwarding&lt;/a&gt;.&lt;br /&gt;
+But it also means we can&amp;rsquo;t support PTZ.&lt;/p&gt;
+
+&lt;p&gt;We do support live streams though, so if you&amp;rsquo;re running into the &lt;strong&gt;Failed to connect&lt;/strong&gt; issue and can&amp;rsquo;t see your camera, try setting up your camera on Sensr.net and viewing the live view through us!&lt;/p&gt;
+
+&lt;p&gt;We have a &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt;free trial&lt;/a&gt; so you have nothing to loose!&lt;/p&gt;
+
+&lt;p&gt;We would love to hear your experience with Focam Cloud or Sensr.net, so please leave us a comment below.s&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/foscloud-off.png&#34; class=&#34;img-rounded&#34; alt=&#34;Foscam Cloud Connection Problems&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,8 +6,44 @@
     <description>Recent content in Post-rsses on Sensr.net Blog | Watch your Stuff!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Dec 2016 16:35:11 -0800</lastBuildDate>
+    <lastBuildDate>Fri, 24 Feb 2017 09:59:35 -0400</lastBuildDate>
     <atom:link href="http://blog.sensr.net/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Foscam offline: Why can&#39;t I view my camera live?</title>
+      <link>http://blog.sensr.net/2017/02/foscam-offline-why-cant-i-view-my-camera-live/</link>
+      <pubDate>Fri, 24 Feb 2017 09:59:35 -0400</pubDate>
+      
+      <guid>http://blog.sensr.net/2017/02/foscam-offline-why-cant-i-view-my-camera-live/</guid>
+      <description>&lt;p&gt;&lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/foscloud-failed-to-connect.png&#34; class=&#34;img-rounded&#34; alt=&#34;Foscam Cloud Connection Problems&#34;  &gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve setup two of the recent Foscam camera models, a Foscam FI9900P and the &lt;a href=&#34;http://blog.sensr.net/2016/11/ftp-setup-on-the-foscam-wireless-security-camera-1920tvl/&#34;&gt;Foscam
+1920TVL&lt;/a&gt;. Both support the Foscam cloud and the setup goes
+pretty well. More on that another time. But frequently when I launch the &lt;a href=&#34;https://itunes.apple.com/us/app/foscam/id924381688?mt=8&#34;&gt;Foscam iOS
+app&lt;/a&gt; and the cameras are showing as offline when I know that they are
+online. How do I know that? I&amp;rsquo;ve connected the cameras to Sensr.net and they continue to upload and show live on
+&lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;p&gt;I think the issue here is that Foscam Cloud is a new service and it&amp;rsquo;s buggy. Maybe they aren&amp;rsquo;t keeping their servers up. Maybe
+they aren&amp;rsquo;t monitoring their servers properly? Maybe the great firewall of China is blocking your camera from connecting to
+servers over at Big Red. Building a cloud service and keeping it running can be complex, so I hope they are just having growing
+pains and will get it sorted soon.&lt;/p&gt;
+
+&lt;p&gt;Why would you want to use the Foscam Cloud and &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt; together?  Sensr.net is a pretty simple
+DVR in the cloud.  We have lots of cool features but the one thing we can&amp;rsquo;t support is the pan/tilt/zoom that you get
+in the Foscam app.  Our service is built on having the cameras upload directly to the Sensr.net servers.  This simiplifies
+setup and means you &lt;a href=&#34;http://blog.sensr.net/2013/10/24/ip-camera-no-firewall-config/&#34;&gt;don&amp;rsquo;t need any difficult firewall port forwarding&lt;/a&gt;.&lt;br /&gt;
+But it also means we can&amp;rsquo;t support PTZ.&lt;/p&gt;
+
+&lt;p&gt;We do support live streams though, so if you&amp;rsquo;re running into the &lt;strong&gt;Failed to connect&lt;/strong&gt; issue and can&amp;rsquo;t see your camera, try setting up your camera on Sensr.net and viewing the live view through us!&lt;/p&gt;
+
+&lt;p&gt;We have a &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt;free trial&lt;/a&gt; so you have nothing to loose!&lt;/p&gt;
+
+&lt;p&gt;We would love to hear your experience with Focam Cloud or Sensr.net, so please leave us a comment below.s&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/foscloud-off.png&#34; class=&#34;img-rounded&#34; alt=&#34;Foscam Cloud Connection Problems&#34;&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>5 Ways To Minimize IoT Vulnerabilities In Your Smart Home Network</title>
@@ -907,175 +943,6 @@ Mostly we&amp;rsquo;re pretty cavalier about connecting cool new gadgets to our 
 &lt;p&gt;Se tiver alguma dificuldade ou pergunta, clique no botão de Feedback no lado direito de qualquer uma das páginas do Sensr.net e coloque a sua questão. Nós tentaremos responder no prazo máximo de 24h horas.&lt;/p&gt;
 
 &lt;p&gt;Divirta-se!&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Como configurar uma Foscam FI9821W V2 do Mac ou Linux</title>
-      <link>http://blog.sensr.net/2014/09/25/como-configurar-uma-foscam-fi9821w-v2-do-mac-ou-linux/</link>
-      <pubDate>Thu, 25 Sep 2014 07:40:36 +0000</pubDate>
-      
-      <guid>http://blog.sensr.net/2014/09/25/como-configurar-uma-foscam-fi9821w-v2-do-mac-ou-linux/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://blog.sensr.net/img/2013/11/foscamfi9821wv2black.jpg&#34;&gt;&lt;img class=&#34;alignleft wp-image-2577 size-full&#34; src=&#34;http://blog.sensr.net/img/2013/11/foscamfi9821wv2black.jpg&#34; alt=&#34;Foscam FI9821W V2&#34; width=&#34;160&#34; height=&#34;160&#34; srcset=&#34;http://blog.sensr.net/img/2013/11/foscamfi9821wv2black.jpg 160w, http://blog.sensr.net/img/2013/11/foscamfi9821wv2black-150x150.jpg 150w&#34; sizes=&#34;(max-width: 160px) 100vw, 160px&#34; /&gt;&lt;/a&gt;A &lt;a href=&#34;http://www.amazon.com/Foscam-FI9821W-Megapixel-Wireless-Camera/dp/B00F3KWZW8/sensr-20&#34; title=&#34;Foscam FI9821W V2&#34;&gt;Foscam FI9821W V2&lt;/a&gt; é uma das câmeras IP mais populares atualmente. O seu valor ronda os $150 na &lt;a href=&#34;http://www.amazon.com/Foscam-FI9821W-Megapixel-Wireless-Camera/dp/B00F3KWZW8/sensr-20&#34; title=&#34;Compre Foscam FI9821W V2 na Amazon&#34;&gt;Amazon&lt;/a&gt;. As instruções incluem um software de configuração da câmera para Windows e Mac, mas ele não é realmente necessário. Nesse artigo, vou mostrar como configurar a câmera sem o software. &lt;strong&gt;Tenha em atenção que a porta padrão dessa câmera é a 88&lt;/strong&gt;. Perdi 30 minutos para o perceber, e ainda mais tempo para entender o que isso significa.&lt;/p&gt;
-
-&lt;p&gt;Também vou mostrar como enviar imagens para o&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://sensr.net/&#34; title=&#34;Sensr.net&#34;&gt;Sensr.net&lt;/a&gt;, para que você possa tirar partido de todas as nossas funcionalidades, como 30 dias de armanezamento, &lt;a href=&#34;http://sensr.net/blog/2013/10/24/ip-camera-no-firewall-config/&#34; title=&#34;View IP Camera Remotely, No Firewall Config&#34;&gt;sem configuração do firewall&lt;/a&gt;, compartilhamento de vídeos, &lt;a href=&#34;http://sensr.net/blog/2011/02/27/embed-your-sensr-net-cameras-live-view/&#34; title=&#34;Embed your Sensr.net camera’s live view&#34;&gt;streaming incorporável em tempo real&lt;/a&gt;, &lt;a href=&#34;http://sensr.net/blog/2012/04/11/guest-access-for-sensr-net-cameras/&#34; title=&#34;Guest Access for Sensr.net Cameras&#34;&gt;acesso compartilhado com lista de usuários convidados&lt;/a&gt;, etc.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Resumo&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Conecte a câmera ao seu roteador e ligue.&lt;/li&gt;
-&lt;li&gt;No seu roteador, veja qual o endereço IP da câmera.&lt;/li&gt;
-&lt;li&gt;Coloque o endereço IP da câmera no seu navegador e faça a sua configuração.&lt;/li&gt;
-&lt;li&gt;Apresente a sua câmera ao Sensr.net.&lt;/li&gt;
-&lt;li&gt;Apresente Sensr.net à sua câmera.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Detalhes&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Estou assumindo que você conseguiu executar sem problemas o Passo 1.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Passo 2: Encontre o endereço de IP de seu roteador&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Para executar o Passo 2, você necessita de fazer login no seu roteador. Você pode encontrar o endereço IP de seu roteador, consultando as configurações de seu computador. Num Mac você deve aceder a &lt;strong&gt;Network Settings &amp;gt; Advanced &amp;gt; TCP/IP&lt;/strong&gt;. No meu MacBook Pro, com sistema operativo Lion, eu vejo isso:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://blog.sensr.net/img/2014/09/Screen-Shot1-PM.png&#34;&gt;&lt;img class=&#34;alignnone wp-image-3037 size-full&#34; src=&#34;http://blog.sensr.net/img/2014/09/Screen-Shot1-PM.png&#34; alt=&#34;Screen-Shot1-PM&#34; width=&#34;782&#34; height=&#34;694&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/Screen-Shot1-PM.png 782w, http://blog.sensr.net/img/2014/09/Screen-Shot1-PM-300x266.png 300w&#34; sizes=&#34;(max-width: 782px) 100vw, 782px&#34; /&gt;&lt;/a&gt;No Linux, você pode correr o comando &lt;strong&gt;ifconfig&lt;/strong&gt; para obter essa informação. No meu caso, esse comando indica que o meu roteador é 10.1.1.1. Uma configuração mais comum é 192.168.1.1, mas pode ser qualquer outra. Assim que você encontrar essa informação, aceda ao seu roteador inserindo &lt;a href=&#34;http://10.1.1.1&#34;&gt;http://10.1.1.1&lt;/a&gt; na barra de endereços de seu navegador (ou o endereço que você encontrou na sua rede). O mais provável é que você tenha de se conectar ao seu roteador. Os roteadores são muito diferentes entre si, vou mostrar as páginas do meu Netgear WPN824.&lt;/p&gt;
-
-&lt;p&gt;Após efetuar o login no seu roteador, encontre a página que mostra todos os dispositivos conectados. Em baixo mostro a página de meu roteador, selecionei &lt;strong&gt;Attached Devices&lt;/strong&gt;, à esquerda, e obtive essa lista.&lt;/p&gt;
-
-&lt;div id=&#34;attachment_3039&#34; style=&#34;width: 942px&#34; class=&#34;wp-caption alignnone&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/netgear-dispositivos-conectados.png&#34;&gt;&lt;img class=&#34;wp-image-3039 size-full&#34; src=&#34;http://blog.sensr.net/img/2014/09/netgear-dispositivos-conectados.png&#34; alt=&#34;Lista de dispositivos conectados&#34; width=&#34;932&#34; height=&#34;780&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/netgear-dispositivos-conectados.png 932w, http://blog.sensr.net/img/2014/09/netgear-dispositivos-conectados-300x251.png 300w&#34; sizes=&#34;(max-width: 932px) 100vw, 932px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Lista de dispositivos conectados
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Para encontrar a sua câmera IP, você precisa de procurar o endereço MAC de sua câmera. (O endereço MAC está num adesivo na base da câmera). Como o endereço MAC de minha câmera acaba em 97, utilizei a pesquisa Chrome (CMD-F) e busquei por :97. O endereço IP nesse caso foi 10.1.1.26.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Passo 3: Direcione seu navegador para o endereço de IP da câmera e faça sua configuração&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Para chegar à sua câmera, direcione seu navegador para o endereço IP que você encontrou. Nesse caso, &lt;a href=&#34;http://10.1.1.26:88&#34;&gt;http://10.1.1.26:88&lt;/a&gt;. Não se esqueça de incluir a porta :88, como indiquei no início do artigo.&lt;/p&gt;
-
-&lt;p&gt;Descobri que o Chrome, no Mac, não apresenta a página corretamente, mas o Safari consegue fazer um bom trabalho. Existem alguns plugins que você pode utilizar com o Chrome, mas é muito mais fácil usar o Safari.&lt;/p&gt;
-
-&lt;p&gt;Quando você acessa à página de sua câmera, ela terá esse aspeto.&lt;/p&gt;
-
-&lt;div id=&#34;attachment_3040&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption alignnone&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/fi9821wv2-pagina-configuracao.png&#34;&gt;&lt;img class=&#34;wp-image-3040 size-large&#34; src=&#34;http://blog.sensr.net/img/2014/09/fi9821wv2-pagina-configuracao-1024x708.png&#34; alt=&#34;Página de Configuração da FI9821W V2&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/fi9821wv2-pagina-configuracao-1024x708.png 1024w, http://blog.sensr.net/img/2014/09/fi9821wv2-pagina-configuracao-300x207.png 300w, http://blog.sensr.net/img/2014/09/fi9821wv2-pagina-configuracao.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Página de Configuração da FI9821W V2
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;No Safari, você pode clicar no separador de Live Video e ver a sua câmera. A partir dessa página você pode rodar a sua câmera horizontal e verticalmente e assistir ao vídeo por streaming em tempo real a partir de sua rede doméstica. Hoje, algumas árvores estão sendo cortadas lá fora, por isso decidi instalar a câmera para observar o processo. É assim que você vai ver o vídeo:&lt;/p&gt;
-
-&lt;div id=&#34;attachment_3042&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/fi9821wv2-live-video-pagina.png&#34;&gt;&lt;img class=&#34;size-large wp-image-3042&#34; src=&#34;http://blog.sensr.net/img/2014/09/fi9821wv2-live-video-pagina-1024x708.png&#34; alt=&#34;Vídeo em tempo real no Safari&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/fi9821wv2-live-video-pagina-1024x708.png 1024w, http://blog.sensr.net/img/2014/09/fi9821wv2-live-video-pagina-300x207.png 300w, http://blog.sensr.net/img/2014/09/fi9821wv2-live-video-pagina.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Vídeo em tempo real no Safari
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Você pode ver na tela anterior que estou correndo a última versão de firmware, 10.11.1.18.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Atualize o Firmware para a versão 1.11.1.18 ou superior&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;A última versão de firmware é a ideal para que sua câmera trabalhe na perfeição com o &lt;a href=&#34;http://Sensr.net&#34; title=&#34;Sensr.net&#34;&gt;Sensr.net&lt;/a&gt;. (Siga as instruções cuidadosamente. Se ainda não está correndo a versão 1.11.1.16, você precisa de fazer uma atualização para essa versão e só depois atualizar para a última versão 1.11.1.18. A minha câmera tinha a versão 1.11.1.15, por isso tive de fazer uma dupla atualização. A &lt;a href=&#34;http://www.foscam.com/down3.aspx&#34;&gt;última versão de firmware pode ser encontrada aqui&lt;/a&gt; e o &lt;a href=&#34;http://foscam.us/forum/new-firmware-for-fi9821w-v2-released-t7237.html&#34; title=&#34;Comunicado versão 1.11.1.18 &#34;&gt;comunicado pode ser visto aqui&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Passo 4: Apresente a sua câmera ao Sensr.net&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Adicione uma Câmera Nova à sua conta&lt;/strong&gt; &lt;strong&gt;Sensr.net&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Faça o login em sua conta Sensr.net e selecione &lt;strong&gt;Add Camera&lt;/strong&gt;. Sensr.net tem um período de teste gratuito, por isso experimente e veja se é aquilo de que estava à procura. (Criar uma conta no Sensr.net. é gratuito. Após terminar o seu período de teste gratuito, o controlo da câmera custa desde $9.95/mês). Assim que você fizer o login, você vai ver uma página como essa:&lt;/p&gt;
-
-&lt;div id=&#34;attachment_3044&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/sensr-novo-usuario-1024x708.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3044&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-novo-usuario-1024x708.png&#34; alt=&#34;Página para adicionar uma nova câmera&#34; width=&#34;1024&#34; height=&#34;708&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/sensr-novo-usuario-1024x708.png 1024w, http://blog.sensr.net/img/2014/09/sensr-novo-usuario-1024x708-300x207.png 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Página para adicionar uma nova câmera
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;A seguir, você vai ver essa página, onde você pode definir o fuso horário para a sua câmera, atribuir um nome, e indicar-nos o modelo. Todas as câmeras ficam predefinidas como privadas, mas você pode alterar sua privacidade para pública se você quiser compartilhar as filmagens.&lt;/p&gt;
-
-&lt;div id=&#34;attachment_3045&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera2-1024x708.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3045&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera2-1024x708.png&#34; alt=&#34;Passo 1&#34; width=&#34;1024&#34; height=&#34;708&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera2-1024x708.png 1024w, http://blog.sensr.net/img/2014/09/sensr-add-camera2-1024x708-300x207.png 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Passo 1
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Após você realizar esses passos, nós vamos gerar credenciais FTP para a sua câmera. Isso vai gerar um login para a sua FI9821W V2 para onde pode ser feito o upload de imagens por FTP. Esse dado diz à sua câmera para onde deve ser feito o upload. Os dados com mais importância são:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Servidor FTP&lt;/li&gt;
-&lt;li&gt;Nome de usuário FTP&lt;/li&gt;
-&lt;li&gt;Senha FTP&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Guarde esses dados para que possamos incluí-los mais tarde.&lt;/p&gt;
-
-&lt;div id=&#34;attachment_3046&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-ftp-1024x708.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3046&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-ftp-1024x708.png&#34; alt=&#34;Credenciais FTP&#34; width=&#34;1024&#34; height=&#34;708&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-ftp-1024x708.png 1024w, http://blog.sensr.net/img/2014/09/sensr-add-camera-ftp-1024x708-300x207.png 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Credenciais FTP
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Passo 5: Apresente Sensr.net à sua câmera&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Agora é necessário configurar a sua câmera para enviar imagens ao Sensr.net. Volte à página de configuração da câmera usando o endereço de IP que descobrimos anteriormente. Selecione Network e, depois, FTP Settings. A página apresentada será:&lt;/p&gt;
-
-&lt;div id=&#34;attachment_3047&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/fi9821wv2-ftp-pagina-1024x708.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3047&#34; src=&#34;http://blog.sensr.net/img/2014/09/fi9821wv2-ftp-pagina-1024x708.png&#34; alt=&#34;Configurar FTP&#34; width=&#34;1024&#34; height=&#34;708&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/fi9821wv2-ftp-pagina-1024x708.png 1024w, http://blog.sensr.net/img/2014/09/fi9821wv2-ftp-pagina-1024x708-300x207.png 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Configurar FTP
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Introduza no primeiro campo o Servidor FTP da página de configuração do Sensr.net. Vai aparecer dessa forma &lt;a href=&#34;ftp://f9.sensr.net/&#34;&gt;ftp://f9.sensr.net/&lt;/a&gt; ou qualquer outro servidor que o Sensr.net atribuiu à sua câmera. Atualmente os nossos servidores têm designação de f0.sensr.net a f9.sensr.net. Mantenha a porta 21 e o FTP mode como PASV. O nome de usuário é único para a sua câmera, por isso utilize o que foi atribuído pelo Sensr.net. O mesmo se aplica para a senha. O melhor é copiar e colar, para evitar erros no processo. Clique no botão de teste e a FI9821W vai verificar os dados de login. Se aparecer uma mensagem de &lt;strong&gt;Sucesso&lt;/strong&gt;, o processo foi concluído. Caso contrário, verifique se os dados do servidor, nome de usuário e senha estão corretos.&lt;/p&gt;
-
-&lt;p&gt;Sugerimos que configure a câmera para enviar uma imagem por segundo. Assim, você vai conseguir ver a gravação em tempo real a partir do Sensr.net. Para isso, acesse a página Video/Snapshot Settings:&lt;/p&gt;
-
-&lt;div id=&#34;attachment_3048&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/fi9821wv2-snapshot-pagina-1024x708.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3048&#34; src=&#34;http://blog.sensr.net/img/2014/09/fi9821wv2-snapshot-pagina-1024x708.png&#34; alt=&#34;Configuração Vídeo &gt; Snapshots&#34; width=&#34;1024&#34; height=&#34;708&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/fi9821wv2-snapshot-pagina-1024x708.png 1024w, http://blog.sensr.net/img/2014/09/fi9821wv2-snapshot-pagina-1024x708-300x207.png 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Configuração Vídeo &gt; Snapshots
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Aqui você pode adicionar 1 como intervalo para que a câmera faça o upload contínuo de um frame por segundo. Selecione também todos os intervalos de tempo para que a câmera faça o upload 24h por dia, 7 dias por semana. Para salvar as configurações, não se esqueça de clicar no botão Save, no topo. Assim que terminar esses passos, a sua câmera FI9821WV2 começará a fazer o upload para o Sensr.net.&lt;/p&gt;
-
-&lt;p&gt;No Sensr.net a página deve passar desse aspeto:&lt;/p&gt;
-
-&lt;div id=&#34;attachment_3049&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera3-1024x708.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3049&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera3-1024x708.png&#34; alt=&#34;A aguardar o upload&#34; width=&#34;1024&#34; height=&#34;708&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera3-1024x708.png 1024w, http://blog.sensr.net/img/2014/09/sensr-add-camera3-1024x708-300x207.png 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    A aguardar o upload
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Para uma página que mostra a imagem que sua câmera enviou. Algo como:&lt;/p&gt;
-
-&lt;div id=&#34;attachment_3050&#34; style=&#34;width: 997px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-successo.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3050&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-successo.png&#34; alt=&#34;Sucesso!&#34; width=&#34;987&#34; height=&#34;793&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-successo.png 987w, http://blog.sensr.net/img/2014/09/sensr-add-camera-successo-300x241.png 300w&#34; sizes=&#34;(max-width: 987px) 100vw, 987px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Sucesso!
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Muitos parabéns, acabou a configuração de sua câmera. A sua câmera está agora ligada ao Sensr.net. Vamos arquivar todos os movimentos, disponibilizando 30 dias de arquivos, SMS e alertas de email, acesso livre à sua lista de convidados e muito mais. Você pode assistir em tempo real ao streaming de vídeo a partir de nosso site ou dos nossos aplicativos. Não é necessário configurar um firewall, nem ter um PC na cave para observar as imagens de sua câmera.&lt;/p&gt;
-
-&lt;p&gt;Se surgir alguma dificuldade, envie um email para info @ sensr.net e nós vamos tentar ajudar você!&lt;/p&gt;</description>
     </item>
     
   </channel>
