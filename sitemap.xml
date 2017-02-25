@@ -2,11 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.sensr.net/</loc>
-    <lastmod>2017-02-24T09:59:35-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://blog.sensr.net/2017/02/foscam-offline-why-cant-i-view-my-camera-live/</loc>
     <lastmod>2017-02-24T09:59:35-04:00</lastmod>
   </url>
@@ -857,7 +852,970 @@
   </url>
   
   <url>
+    <loc>http://blog.sensr.net/tags/airlink101/</loc>
+    <lastmod>2011-02-19T17:12:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/android/</loc>
+    <lastmod>2011-06-01T21:48:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/animals/</loc>
+    <lastmod>2014-01-29T09:56:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/animals/</loc>
+    <lastmod>2014-01-31T01:19:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/api/</loc>
+    <lastmod>2011-08-01T18:40:21+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/api/</loc>
+    <lastmod>2014-07-08T16:21:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.sensr.net/archives/</loc>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/axis-m1011/</loc>
+    <lastmod>2011-06-24T18:39:08+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/bitcoin/</loc>
+    <lastmod>2014-12-26T16:16:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/boat/</loc>
+    <lastmod>2013-10-10T02:10:58+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/burglary/</loc>
+    <lastmod>2014-01-24T23:01:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/caemra/</loc>
+    <lastmod>2014-02-17T05:31:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/camera/</loc>
+    <lastmod>2014-07-16T17:37:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/camera-setup/</loc>
+    <lastmod>2014-08-13T16:39:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/camera-wireless/</loc>
+    <lastmod>2014-10-03T16:49:59+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/cat/</loc>
+    <lastmod>2013-10-10T02:10:58+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/cctv/</loc>
+    <lastmod>2014-06-26T17:43:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/chickencam/</loc>
+    <lastmod>2014-01-29T09:56:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/cloud-dvr/</loc>
+    <lastmod>2017-02-24T09:59:35-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/cloud-recording/</loc>
+    <lastmod>2016-10-19T18:47:58+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/coinbase/</loc>
+    <lastmod>2014-12-26T16:16:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/comedy/</loc>
+    <lastmod>2014-02-14T02:03:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/community/</loc>
+    <lastmod>2014-06-27T17:11:50+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/c%C3%A2mera-de-seguran%C3%A7a/</loc>
+    <lastmod>2014-10-03T16:49:59+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/c%C3%A2meras-em-rede/</loc>
+    <lastmod>2014-10-03T16:49:59+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/d-link/</loc>
+    <lastmod>2014-09-26T19:22:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/d-link/</loc>
+    <lastmod>2014-10-03T16:49:59+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/dcs-5010l/</loc>
+    <lastmod>2014-10-03T16:49:59+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/dcs-5020l/</loc>
+    <lastmod>2014-09-26T19:22:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/dcs-5222l/</loc>
+    <lastmod>2014-06-26T17:21:57+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/dcs-932l/</loc>
+    <lastmod>2011-04-16T01:31:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/dinosaur/</loc>
+    <lastmod>2014-01-31T01:19:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/diy/</loc>
+    <lastmod>2014-01-19T19:00:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/dlink/</loc>
+    <lastmod>2014-10-03T16:49:59+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/download/</loc>
+    <lastmod>2014-07-08T16:21:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/embed/</loc>
+    <lastmod>2014-02-17T05:31:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/feathers/</loc>
+    <lastmod>2014-01-31T01:19:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/ffmpeg/</loc>
+    <lastmod>2011-08-01T18:40:21+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/fi8905w/</loc>
+    <lastmod>2011-02-20T02:59:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/fi9821w/</loc>
+    <lastmod>2014-09-25T07:40:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/fi9821wv2/</loc>
+    <lastmod>2014-09-25T07:40:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/fi9827w/</loc>
+    <lastmod>2014-05-02T00:33:25+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/firewall/</loc>
+    <lastmod>2014-05-02T00:33:25+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/fl9821w/</loc>
+    <lastmod>2014-09-25T07:40:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/foscam/</loc>
+    <lastmod>2014-09-25T07:40:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/foscam/</loc>
+    <lastmod>2017-02-24T09:59:35-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/foscam-fi8919w/</loc>
+    <lastmod>2014-07-23T18:24:08+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/ftp/</loc>
+    <lastmod>2014-09-26T19:22:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/great-pacific-ocean-race/</loc>
+    <lastmod>2014-06-24T15:40:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/growth-hacking/</loc>
+    <lastmod>2015-04-04T20:03:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/hack/</loc>
+    <lastmod>2014-07-11T19:29:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/hacking/</loc>
+    <lastmod>2016-10-19T18:47:58+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/hikvision/</loc>
+    <lastmod>2014-07-16T17:37:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/hikvision/</loc>
+    <lastmod>2016-11-21T21:59:35-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/hootoo/</loc>
+    <lastmod>2014-07-30T18:00:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/hootoo/</loc>
+    <lastmod>2014-07-30T18:00:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/hootoo-ht-ip006n/</loc>
+    <lastmod>2014-07-30T18:00:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/hootoo-ht-ip210f/</loc>
+    <lastmod>2014-07-28T20:28:39+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/how-to/</loc>
+    <lastmod>2014-08-13T16:39:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/how-to-guide/</loc>
+    <lastmod>2016-12-18T16:35:11-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/howto/</loc>
+    <lastmod>2014-06-17T18:13:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/http/</loc>
+    <lastmod>2011-08-01T18:40:21+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/images/</loc>
+    <lastmod>2014-07-08T16:21:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/ip/</loc>
+    <lastmod>2014-06-27T18:47:39+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/ip-camera/</loc>
+    <lastmod>2016-10-19T18:47:58+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/ip-cameras/</loc>
+    <lastmod>2017-02-24T09:59:35-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/ipad/</loc>
+    <lastmod>2011-02-16T19:19:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/iphone/</loc>
+    <lastmod>2011-02-16T19:19:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/javascript/</loc>
+    <lastmod>2011-03-08T14:53:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/jpeg/</loc>
+    <lastmod>2014-06-17T18:13:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/json/</loc>
+    <lastmod>2011-08-01T18:40:21+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/juravenator/</loc>
+    <lastmod>2014-01-31T01:19:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/linksys/</loc>
+    <lastmod>2014-07-31T19:16:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/linksys-wireless-n/</loc>
+    <lastmod>2014-07-31T19:16:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/linux/</loc>
+    <lastmod>2014-09-25T07:40:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/live/</loc>
+    <lastmod>2014-02-17T05:31:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/live-view/</loc>
+    <lastmod>2014-01-29T09:56:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/mac/</loc>
+    <lastmod>2014-09-25T07:40:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/macos/</loc>
+    <lastmod>2014-09-25T07:40:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/manual/</loc>
+    <lastmod>2014-07-23T18:24:08+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/mjpeg/</loc>
+    <lastmod>2011-08-01T18:40:21+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/mobile/</loc>
+    <lastmod>2011-02-16T19:19:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/motion-detection/</loc>
+    <lastmod>2016-09-28T01:36:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/mrr/</loc>
+    <lastmod>2015-04-04T20:03:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/mydlink/</loc>
+    <lastmod>2014-10-03T16:49:59+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/nest/</loc>
+    <lastmod>2013-10-10T02:10:58+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/network-camera/</loc>
+    <lastmod>2014-08-13T16:39:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/network-camera-review/</loc>
+    <lastmod>2012-02-07T19:25:49+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/network-camera-sales/</loc>
+    <lastmod>2013-11-30T13:27:23+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/network-cameras/</loc>
+    <lastmod>2014-07-08T16:21:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/network-cameras/</loc>
+    <lastmod>2014-09-25T07:40:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/networking/</loc>
+    <lastmod>2016-12-03T10:13:53-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/open-source/</loc>
+    <lastmod>2014-07-08T16:21:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/panasonic/</loc>
+    <lastmod>2014-08-13T16:39:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/panasonic/</loc>
+    <lastmod>2014-08-13T16:39:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/panasonic-bl-c30a/</loc>
+    <lastmod>2014-08-13T16:39:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/police/</loc>
+    <lastmod>2014-01-27T09:14:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/post/</loc>
+    <lastmod>2017-02-24T09:59:35-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/programming/</loc>
+    <lastmod>2011-08-01T18:40:21+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/pt7136/</loc>
+    <lastmod>2014-06-23T19:22:47+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/public-camera/</loc>
+    <lastmod>2014-01-27T09:14:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/raspberry-pi/</loc>
+    <lastmod>2014-01-19T19:00:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/recodring/</loc>
+    <lastmod>2014-06-17T18:13:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/reddit/</loc>
+    <lastmod>2014-06-27T17:11:50+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/revenue/</loc>
+    <lastmod>2015-04-04T20:03:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/reverse-dns/</loc>
+    <lastmod>2014-01-24T23:01:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/security/</loc>
+    <lastmod>2014-07-11T19:29:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/security-camera/</loc>
+    <lastmod>2014-07-08T16:21:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/sensr/</loc>
+    <lastmod>2011-06-24T18:39:08+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/sensr/index.net/</loc>
+    <lastmod>2014-10-03T16:49:59+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/sensr/index.net/</loc>
+    <lastmod>2016-09-28T01:36:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/sensr/index.net-app/</loc>
+    <lastmod>2011-06-01T21:48:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/sensr/index.net-app/</loc>
+    <lastmod>2011-06-20T23:33:39+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/sensr/index.net-mobile/</loc>
+    <lastmod>2012-08-23T02:48:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/sensr/index.net-press/</loc>
+    <lastmod>2012-03-30T02:17:47+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/</loc>
+    <lastmod>2017-02-24T09:59:35-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/set-up/</loc>
+    <lastmod>2014-07-01T18:18:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/setup/</loc>
+    <lastmod>2014-08-13T16:39:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/share/</loc>
+    <lastmod>2014-06-24T15:40:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/share/</loc>
+    <lastmod>2014-06-24T15:40:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/singles/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/snapshot/</loc>
+    <lastmod>2014-06-17T18:13:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/social-networks/</loc>
+    <lastmod>2014-06-24T15:40:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/social-networks/</loc>
+    <lastmod>2014-06-27T17:11:50+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/spycamera/</loc>
+    <lastmod>2014-02-25T06:05:58+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/stripe/</loc>
+    <lastmod>2014-12-26T16:16:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/subreddit/</loc>
+    <lastmod>2014-06-27T17:11:50+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/support/</loc>
+    <lastmod>2016-02-29T13:26:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/swann/</loc>
+    <lastmod>2014-06-30T18:30:38+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/technology/</loc>
+    <lastmod>2016-12-18T16:35:11-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/tenvis/</loc>
+    <lastmod>2014-07-03T17:22:11+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/thebestdinosaur/</loc>
+    <lastmod>2014-01-31T01:19:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/timelapse/</loc>
+    <lastmod>2013-12-05T21:03:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/touch/</loc>
+    <lastmod>2011-02-16T19:19:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/trendnet/</loc>
+    <lastmod>2014-07-25T17:57:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/trendnet/</loc>
+    <lastmod>2014-08-07T16:55:56+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/trendnet-tv-ip311pi/</loc>
+    <lastmod>2014-08-07T16:55:56+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/trendnet-tv-ip672w/</loc>
+    <lastmod>2014-07-22T18:34:25+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/trendnet-tv-ip672wi/</loc>
+    <lastmod>2014-07-22T18:34:25+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/trendnet-tv-ip851wc/</loc>
+    <lastmod>2014-07-25T17:57:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/tv-ip310pi/</loc>
+    <lastmod>2014-06-17T18:13:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/tv-ip311pi/</loc>
+    <lastmod>2014-08-07T16:55:56+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/uncategorized/</loc>
+    <lastmod>2014-06-30T18:30:38+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/upgrade/</loc>
+    <lastmod>2014-06-26T17:43:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/user-stories/</loc>
+    <lastmod>2014-06-24T15:40:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/video/</loc>
+    <lastmod>2014-10-03T16:49:59+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/vivotek/</loc>
+    <lastmod>2014-06-23T19:22:47+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/wansview/</loc>
+    <lastmod>2014-07-17T20:39:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/webcam/</loc>
+    <lastmod>2014-10-03T16:49:59+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/webcam-recording/</loc>
+    <lastmod>2014-02-25T06:05:58+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/website/</loc>
+    <lastmod>2014-02-17T05:31:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/widget/</loc>
+    <lastmod>2011-03-08T14:53:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/wireless-camera/</loc>
+    <lastmod>2014-02-05T00:12:17+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/wireless-n/</loc>
+    <lastmod>2014-07-31T19:16:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/wordpress/</loc>
+    <lastmod>2014-02-17T05:31:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/wordpress/</loc>
+    <lastmod>2014-02-17T05:31:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/y-cam/</loc>
+    <lastmod>2014-07-14T16:52:22+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/y-cam/</loc>
+    <lastmod>2014-07-14T16:52:22+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/youtube/</loc>
+    <lastmod>2011-04-07T12:34:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/zombies/</loc>
+    <lastmod>2016-11-21T21:59:35-04:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

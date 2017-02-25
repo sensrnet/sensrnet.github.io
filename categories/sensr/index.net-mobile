@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.18.1" />
+    <title>Sensr.Net Mobile</title>
+    
+    
+    
+    <meta name="description" content="Sensr.net is a cloud DVR for your security cameras." />
+    <meta name="keywords" content='default,keywords,if,no,front,matter' />
+    
+    
+    <link href="http://blog.sensr.net/categories/sensr.net-mobile/index.xml" rel="alternate" type="application/rss+xml" title="Sensr.net Blog | Watch your Stuff!" />
+    <link rel="stylesheet" href="http://blog.sensr.net/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="http://blog.sensr.net/css/highlightjs-themes/androidstudio.css" />
+    <link rel="stylesheet" href="http://blog.sensr.net/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="http://blog.sensr.net/css/phlat.css" />
+    
+        
+    
+	
+	<script>
+	!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+	n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+	document,'script','https://connect.facebook.net/en_US/fbevents.js');
+	fbq('init', '327298684323772');
+	fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+	src="https://www.facebook.com/tr?id=327298684323772&ev=PageView&noscript=1"
+	/></noscript>
+	
+	
+</head>
+
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Sensr.net Blog | Watch your Stuff!</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+
+        <div id="top" class="container">
+            <div class="row" id="content-main">
+                <div class="col-md-8">
+                    
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://blog.sensr.net/2012/08/22/sensr-net-supported-sms-carriers/">Sensr.net Supported SMS Carriers</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>August 23, 2012</li>
+                                    <li><i class="fa fa-user"></i>Adam Beguelin</li>
+                                </ul>
+                                We use a package called SMS Fu to send SMS alerts. Basically this lets us send emails which get converted to SMS messages. Here&#8217;s the current list of carriers we support. If you know any other email to SMS gateways you would like us to add, just let us know.
+ Alltel Ameritech AT&amp;T Bell Atlantic Bellsouth Mobility BlueSkyFrog Boost Mobile Cellular South Comcast PCS Cricket kajeet Metro PCS Powertel PSC Wireless Qwest Southern Link Sprint PCS Suncom T-Mobile Tracfone Telus Mobility Virgin Mobile Verizon Wireless Beeline BPL Mobile Claro (Brazil) Claro (Nicaragua) Du E-Plus Etisalat Fido Kyivstar (contract) Kyivstar (prepaid) Mobinil Mobitel Movistar o2 (Germany) o2 (UK) Orange (Netherlands) Orange (UK) Rogers Wireless T-Mobile (Austria) T-Mobile (Germany) T-Mobile (UK) Telefonica US Cellular Virgin Canada Vodafone (Germany) Vodafone (Egypt) Vodafone (UK) Vodafone (Italy) Vodafone (Japan &#8211; Chuugoku) Vodafone (Japan &#8211; Hokkaido) Vodafone (Japan &#8211; Hokuriko) Vodafone (Japan &#8211; Kansai) Vodafone (Japan &#8211; Osaka) Vodafone (Japan &#8211; Kanto) Vodafone (Japan &#8211; Koushin) Vodafone (Japan &#8211; Tokyo) Vodafone (Japan &#8211; Kyuushu) Vodafone (Japan &#8211; Okinawa) Vodafone (Japan &#8211; Shikoku) Vodafone (Japan &#8211; Touhoku) Vodafone (Japan &#8211; Niigata) Vodafone (Japan &#8211; Toukai) Vodafone (Japan &#8211; Spain)  
+                                <a class="btn btn-custom" href="http://blog.sensr.net/2012/08/22/sensr-net-supported-sms-carriers/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://blog.sensr.net/2011/06/01/sensr-netcam-android-app-configuration-and-use/">Sensr Netcam Android App Configuration and Use</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>June 1, 2011</li>
+                                    <li><i class="fa fa-user"></i>Tom Sheffler</li>
+                                </ul>
+                                <p><a href="http://www.amazon.com/gp/product/B0050E3OPO/ref=as_li_ss_tl?ie=UTF8&tag=sensr-20&linkCode=as2&camp=217153&creative=399701&creativeASIN=B0050E3OPO" target="_blank"><img class="size-full wp-image-204 alignleft" title="Sensr Netcam App for Android" src="http://blog.sensr.net/wp-content/uploads/2011/06/netcam_amazon.png" alt="Sensr Netcam App for Android devices turns your mobile device into a wireless surveillance camera." width="117" height="205" /></a><a title="Sensr Netcam App for Android" href="http://www.amazon.com/gp/product/B0050E3OPO/ref=as_li_ss_tl?ie=UTF8&tag=sensr-20&linkCode=as2&camp=217153&creative=399701&creativeASIN=B0050E3OPO" target="_blank">Sensr Netcam</a> is a simple App that turns your Android device into a wireless surveillance camera.  With it you can use an Android phone as a portable &#8220;Nanny-cam&#8221; or &#8220;<a href="http://sensr.net/users/288/cameras/beecam" target="_blank">Pet-cam</a>&#8221; or to monitor your hotel room while you&#8217;re traveling.  Android devices are dropping in price, and we should see $100 Android tablets incorporating cameras in the very near future.  Sensr Netcam takes advantage of the economies of scale of the Android hardware market to provide you with a high-quality network camera incorporating the rock-solid WiFi implementation already used in millions of Android devices.</p>
+
+<p>Sensr Netcam continuously sends JPEG images from your Android device to <a href="http://sensr.net" target="_blank">Sensr.net</a> at rates of up to one frame per second. Once on Sensr.net, your images are processed, cataloged and stored where they can be viewed or shared with friends.</p>
+
+<p></p>
+                                <a class="btn btn-custom" href="http://blog.sensr.net/2011/06/01/sensr-netcam-android-app-configuration-and-use/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://blog.sensr.net/2011/02/16/sensr-on-your-touch-device-iphone-ipad-android/">Sensr.net on your Touch Device: iPhone, iPad, Android</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>February 16, 2011</li>
+                                    <li><i class="fa fa-user"></i>Tom Sheffler</li>
+                                </ul>
+                                <div style="text-align: left;" dir="ltr">
+  <div style="text-align: left;" dir="ltr">
+    <p>
+      This week, Sensr released a Touch interface for iPhone, iPad and Android. Now you can Watch Your Stuff on your mobile device over 3G or WiFi no matter where you are.  Sensr Touch allows you to browse cameras, and to view the images from a camera by hour, day or month.
+    </p>
+    
+    <p>
+      <img class="alignleft" title="Sensr.net on iPhone, iPad, Android" src="http://3.bp.blogspot.com/-xayg79fcf30/TVskWhNjesI/AAAAAAAAAAk/0jFObTRqVwc/s1600/iPhoneHome.png" alt="How to configure Sensr.net on iPhone, iPad, Android" width="222" height="333" />
+    </p>
+    
+    <p>
+      This article will show you how to install the icon for Sensr Touch on your iPhone or Android. That way you can launch Sensr Touch directly from your home screen. We will also give you a little overview of some of the Sensr Touch App functionality to get you started.
+    </p>
+    
+    <p>
+      Some background information first: the Sensr Touch App is HTML5 and Javascript. It is optimized for WebKit browsers and uses Touch gestures available on mobile devices. The home URL for the Sensr Touch App is:
+    </p>
+    
+    <p>
+      <a href="http://sensr.net/touch/webapp">http://sensr.net/touch/webapp</a>
+    </p>
+    
+    <p>
+      No software installation is required.
+    </p>
+    
+    <p>
+      
+    </p>
+                                <a class="btn btn-custom" href="http://blog.sensr.net/2011/02/16/sensr-on-your-touch-device-iphone-ipad-android/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                    
+
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+    <div class="col-md-11 col-md-offset-1 card">
+        <h5>Search</h5>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+            <div class="input-group">
+                <input class="form-control" type="search" name="q" />
+                <span class="input-group-btn">
+                    <button class="btn btn-custom" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+            </div>
+            <input type="hidden" name="q" value="site:http://blog.sensr.net/">
+        </form>
+    </div>
+</div>
+
+                    <div class="row">
+    <div class="col-md-11 col-md-offset-1 card">
+        <h5>Recent Posts</h5>
+        <ul class="list-unstyled posts-recent">
+            
+                <li><a href="http://blog.sensr.net/2017/02/foscam-offline-why-cant-i-view-my-camera-live/">Foscam offline: Why can&#39;t I view my camera live?</a></li>
+            
+                <li><a href="http://blog.sensr.net/2016/12/5-ways-to-minimize-iot-vulnerabilities-in-your-smart-home-network/">5 Ways To Minimize IoT Vulnerabilities In Your Smart Home Network</a></li>
+            
+                <li><a href="http://blog.sensr.net/2016/12/alfa-r36-awus036nh-network-scan-not-working/">Alfa R36 AWUS036NH Network Scan Not Working</a></li>
+            
+                <li><a href="http://blog.sensr.net/2016/11/ftp-setup-on-the-foscam-wireless-security-camera-1920tvl/">FTP Setup on the Foscam Wireless Security Camera 1920TVL</a></li>
+            
+                <li><a href="http://blog.sensr.net/2016/11/hikvision-ftp-server-ip-address-leads-to-zombie-apocalypse/">Hikvision FTP Server IP address leads to Zombie Apocalypse</a></li>
+            
+        </ul>
+    </div>
+</div>
+
+                    
+    
+
+
+                    
+    
+
+    
+        <div class="row">
+            <div class="col-md-11 col-md-offset-1 card">
+                <h5>categories</h5>
+                <ul class="list-unstyled posts-recent">
+                    
+                        <li><a href="http://blog.sensr.net/categories/sensr.net">sensr.net</a></li>
+                    
+                        <li><a href="http://blog.sensr.net/categories/how-to-guide">how-to-guide</a></li>
+                    
+                        <li><a href="http://blog.sensr.net/categories/network-cameras">network-cameras</a></li>
+                    
+                        <li><a href="http://blog.sensr.net/categories/camera-setup">camera-setup</a></li>
+                    
+                        <li><a href="http://blog.sensr.net/categories/social-networks">social-networks</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    
+
+    
+
+
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-xs-6">
+    <ul class="list-inline links">
+        
+    </ul>
+</div>
+
+            <div class="col-md-4 col-xs-6">
+    <ul class="list-inline social-media">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>
+						<em>Sensr.net, Inc. © 2009-2016</em>
+						Follow us on <a id="icon-twitter" href="http://www.twitter.com/sensr" target="_blank" title="Follow Sensr on Twitter" name="icon-twitter">Twitter</a> 
+						<a id="icon-facebook" href="http://www.facebook.com/sensrnet" target="_blank" title="Like Sensr on Facebook" name="icon-facebook">Facebook</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        <div id="back-to-top" class="hidden">
+    <a href="#top" class="well well-sm" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+        <i class="glyphicon glyphicon-chevron-up"></i> Back to Top
+    </a>
+</div>
+<script src="http://blog.sensr.net/js/jquery-2.2.1.min.js"></script>
+<script src="http://blog.sensr.net/js/bootstrap.min.js"></script>
+<script src="http://blog.sensr.net/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script>
+    if(($(window).height() + 100) < $(document).height()) {
+        $('#back-to-top').removeClass('hidden').affix({
+            offset: {
+                top: 100
+            }
+        });
+    }
+</script>
+
+    
+
+
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-7220796-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+
+
+
+    </body>
+</html>

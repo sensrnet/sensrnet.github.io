@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sensr.net Blog | Watch your Stuff!</title>
+    <title>Foscam on Sensr.net Blog | Watch your Stuff!</title>
     <link>http://blog.sensr.net/categories/foscam/index.xml</link>
-    <description>Recent content on Sensr.net Blog | Watch your Stuff!</description>
+    <description>Recent content in Foscam on Sensr.net Blog | Watch your Stuff!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="http://blog.sensr.net/categories/foscam/index.xml" rel="self" type="application/rss+xml" />
@@ -21,7 +21,15 @@
 pretty well. More on that another time. But frequently when I launch the &lt;a href=&#34;https://itunes.apple.com/us/app/foscam/id924381688?mt=8&#34;&gt;Foscam iOS
 app&lt;/a&gt; and the cameras are showing as offline when I know that they are
 online. How do I know that? I&amp;rsquo;ve connected the cameras to Sensr.net and they continue to upload and show live on
-&lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt;.
+&lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;div style=&#34;text-align: center&#34;&gt;
+&lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt;
+&lt;button style=&#34;background-color:#a4d61e;margin-top:6px;margin-bottom:16px;border-radius:4px;font-size:1.6em;padding:8px 20px;    font-family: &#34;GibsonSemibold&#34;, &#34;Helvetica Neue&#34;, Helvetica, Arial, sans-serif;float:none !important;text-shadow:0 1px 1px rgba(0,0,0,0.2)&#34;&gt;
+Sign up for free!
+&lt;/button&gt;
+&lt;/a&gt;
+&lt;/div&gt;
 &lt;/p&gt;
 
 &lt;p&gt;I think the issue here is that Foscam Cloud is a new service and it&amp;rsquo;s buggy. Maybe they aren&amp;rsquo;t keeping their servers up. Maybe
@@ -35,11 +43,11 @@ in the Foscam app.  Our service is built on having the cameras upload directly t
 setup and means you &lt;a href=&#34;http://blog.sensr.net/2013/10/24/ip-camera-no-firewall-config/&#34;&gt;don&amp;rsquo;t need any difficult firewall port forwarding&lt;/a&gt;.&lt;br /&gt;
 But it also means we can&amp;rsquo;t support PTZ.&lt;/p&gt;
 
-&lt;p&gt;We do support live streams though, so if you&amp;rsquo;re running into the &lt;strong&gt;Failed to connect&lt;/strong&gt; issue and can&amp;rsquo;t see your camera, try setting up your camera on Sensr.net and viewing the live view through us!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;We do support live streams though, so if you&amp;rsquo;re running into the &lt;em&gt;Failed to connect&lt;/em&gt; issue and can&amp;rsquo;t see your camera, try setting up your camera on Sensr.net and viewing the live view through us!&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;We have a &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt;free trial&lt;/a&gt; so you have nothing to loose!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt;&lt;strong&gt;We have a free trial so you have nothing to loose!&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;We would love to hear your experience with Focam Cloud or Sensr.net, so please leave us a comment below.s&lt;/p&gt;
+&lt;p&gt;We would love to hear your experience with Focam Cloud or Sensr.net, so please leave us a comment below.&lt;/p&gt;
 
 &lt;p&gt;&lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/foscloud-off.png&#34; class=&#34;img-rounded&#34; alt=&#34;Foscam Cloud Connection Problems&#34;&gt;&lt;/p&gt;</description>
     </item>
