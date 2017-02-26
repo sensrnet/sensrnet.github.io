@@ -1527,6 +1527,10 @@ add_shortcode(&#39;sensr&#39;, &#39;get_sensr&#39;);&lt;/pre&gt;
 
 &lt;p&gt;The &lt;a href=&#34;http://www.dlink.com/us/en/home-solutions/view/network-cameras/dcs-5010l-pan-tilt-day-night-network-camera&#34; title=&#34;DCS-5010L&#34;&gt;D-Link DCS 5010L&lt;/a&gt; is one of their most popular camera models with night vision, pan and tilt, WiFi and it works with the mydlink service.  &lt;a href=&#34;http://www.amazon.com/D-Link-Wireless-Surveillance-mydlink-Enabled-DCS-5010L/dp/B00CR0JAT8/sensr-20&#34; title=&#34;DCS 5010L on Amazon&#34;&gt;The DCS 5010L is also very affordable at around $75&lt;/a&gt; on Amazon these days. This camera compares to the DCS-5020L at almost twice the price.&lt;/p&gt;
 
+&lt;p&gt;I&amp;rsquo;ll also show you how to push images to &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt; so you can take advantage of all of our cool features, like SMS and email alerts, 30 days archiving, &lt;a href=&#34;http://blog.sensr.net/2013/10/24/ip-camera-no-firewall-config/&#34;&gt;no firewall config&lt;/a&gt;, clip sharing, &lt;a href=&#34;http://blog.sensr.net/2011/02/27/embed-your-sensr-net-cameras-live-view/&#34;&gt;embedable live streams&lt;/a&gt;, &lt;a href=&#34;http://blog.sensr.net/2012/04/11/guest-access-for-sensr-net-cameras/&#34;&gt;guest access&lt;/a&gt;, etc.&lt;/p&gt;
+
+&lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;
+
 &lt;p&gt;&lt;strong&gt;Recording Needed&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;While the &lt;a href=&#34;http://www.mydlink.com&#34; title=&#34;My D-Link Camera Portal&#34;&gt;MyDlink&lt;/a&gt; service will let you view this camera remotely, it doesn&amp;#8217;t support any kind of recording or saving of images. That&amp;#8217;s where Sensr.net comes in.  We&amp;#8217;ll save up to a month of archives automatically.  This blog post will show you how to setup the DCS-5010L so you can see what happened while you weren&amp;#8217;t looking!&lt;/p&gt;
