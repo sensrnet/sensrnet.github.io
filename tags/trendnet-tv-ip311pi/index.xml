@@ -31,9 +31,11 @@
   The &lt;a href=&#34;http://www.amazon.com/TRENDnet-Outdoor-Network-Surveillance-TV-IP311PI/dp/B00I3GKMC4/sensr-20&#34;&gt;TRENDnet TV-IP311PI&lt;/a&gt; network camera is a nice solution if you want an outdoor camera that supports Power Over Ethernet (POE). To get started with this camera on &lt;a style=&#34;color: #888888;&#34; title=&#34;Cloud recording on Sensr.net&#34; href=&#34;https://sensr.net/&#34;&gt;Sensr.net&lt;/a&gt;, just plug it into a POE router and it will grab an IP address via DHCP. To find the IP address, you can use the included software or just look at the attached devices on your router’s admin page. Look for the MAC address of the camera in the list and you’ll be good to go. In my case the camera was using 10.1.1.113.
 &lt;/p&gt;
 
-&lt;p style=&#34;text-align: left;&#34;&gt;
-  
-&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll also show you how to push images to &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt; so you can take advantage of all of our cool features, like SMS and email alerts, 30 days archiving, &lt;a href=&#34;http://blog.sensr.net/2013/10/24/ip-camera-no-firewall-config/&#34;&gt;no firewall config&lt;/a&gt;, clip sharing, &lt;a href=&#34;http://blog.sensr.net/2011/02/27/embed-your-sensr-net-cameras-live-view/&#34;&gt;embedable live streams&lt;/a&gt;, &lt;a href=&#34;http://blog.sensr.net/2012/04/11/guest-access-for-sensr-net-cameras/&#34;&gt;guest access&lt;/a&gt;, etc.&lt;/p&gt;
+
+&lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p style=&#34;text-align: left;&#34;&gt;
   Next point your browser at that IP address and it will ask you to login. &lt;strong&gt;The default login and password for the&lt;a href=&#34;http://www.amazon.com/TRENDnet-Outdoor-Network-Surveillance-TV-IP311PI/dp/B00I3GKMC4/sensr-20&#34;&gt; TV-IP311PI&lt;/a&gt;  is admin and admin&lt;/strong&gt;.  You’ll probably want to change that.
