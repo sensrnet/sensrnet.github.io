@@ -61,6 +61,8 @@ at least you won&amp;rsquo;t need to&lt;/p&gt;
 
 &lt;p&gt;With &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt; your camera pushes images to our servers and you view the images on the &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt; site under your account.  This simplifies thing greatly.  Your camera can push images to us without the firewall changing at all.  &lt;em&gt;Firewalls block traffic coming into your network, &lt;strong&gt;not&lt;/strong&gt; going out.&lt;/em&gt;  The key here is that we have a bunch of servers dedicated to handling your camera&amp;rsquo;s stream.  (Currently we have about 70 servers handling camera data.)&lt;/p&gt;
 
+&lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;
+
 &lt;p&gt;&lt;strong&gt;What if my home IP address changes?&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;It doesn&amp;rsquo;t matter because you don&amp;rsquo;t need to connect back to your home network.  With Sensr.net you view your camera on our site.  We grab the stream from your camera and put it in a nice web or mobile view for you.  There is &lt;strong&gt;&lt;em&gt;no need&lt;/em&gt;&lt;/strong&gt; for a service like &lt;a title=&#34;Dynamic IP Service&#34; href=&#34;http://www.dyndns.com&#34; target=&#34;_blank&#34;&gt;DynDNS&lt;/a&gt; or &lt;a href=&#34;http://www.noip.com&#34; target=&#34;_blank&#34;&gt;noip&lt;/a&gt; because it doesn&amp;rsquo;t matter what your home network&amp;rsquo;s IP address changes.  You just need to log in to &lt;a href=&#34;https://sensr.net&#34; target=&#34;_blank&#34;&gt;Sensr.net&lt;/a&gt; with your account and you can see all of your cameras in one place.&lt;/p&gt;
@@ -90,7 +92,9 @@ at least you won&amp;rsquo;t need to&lt;/p&gt;
 &lt;li&gt;Easily &lt;a href=&#34;http://blog.sensr.net/2011/02/27/embed-your-sensr-net-cameras-live-view/&#34; target=&#34;_blank&#34;&gt;embed a camera&amp;rsquo;s live stream&lt;/a&gt; in your other websites&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Stop messing with those firewall configurations and &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt;give it a try!&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;Stop messing with those firewall configurations and &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt;give it a try!&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;</description>
     </item>
     
   </channel>
