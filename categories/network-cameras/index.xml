@@ -994,6 +994,10 @@ firewall configuration is needed. No PC in the basement required.&lt;/p&gt;
       <guid>http://blog.sensr.net/2011/10/17/simple-guide-to-setting-up-loftek-cxs-2200/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://blog.sensr.net/wp-content/uploads/2011/10/LOFTEKCXS2200-FTP-Setup.png&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1064&#34; title=&#34;LOFTEKCXS2200 FTP Setup&#34; src=&#34;http://blog.sensr.net/wp-content/uploads/2011/10/LOFTEKCXS2200-FTP-Setup.png&#34; alt=&#34;LOFTEK CXS 2200 FTP Setup for Mac and Linux&#34; width=&#34;481&#34; height=&#34;213&#34; srcset=&#34;http://blog.sensr.net/img/2011/10/LOFTEKCXS2200-FTP-Setup.png 481w, http://blog.sensr.net/img/2011/10/LOFTEKCXS2200-FTP-Setup-300x132.png 300w&#34; sizes=&#34;(max-width: 481px) 100vw, 481px&#34; /&gt;&lt;/a&gt;Last week I wrote a &lt;a href=&#34;http://blog.sensr.net/2011/10/06/loftek-cxs-2200-by-a-noob-ftp-setup-on-a-mac-how-to/&#34;&gt;not-so-simple guide to setting up the LOFTEK CXS 2200&lt;/a&gt;, which really just turned into a long rant about my lack of common sense. So I figured it may be helpful to write a more straightforward guide with real steps rather than pictures of Gregory House, M.D.&lt;/p&gt;
 
+&lt;p&gt;I&amp;rsquo;ll also show you how to push images to &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt; so you can take advantage of all of our cool features, like SMS and email alerts, 30 days archiving, &lt;a href=&#34;http://blog.sensr.net/2013/10/24/ip-camera-no-firewall-config/&#34;&gt;no firewall config&lt;/a&gt;, clip sharing, &lt;a href=&#34;http://blog.sensr.net/2011/02/27/embed-your-sensr-net-cameras-live-view/&#34;&gt;embedable live streams&lt;/a&gt;, &lt;a href=&#34;http://blog.sensr.net/2012/04/11/guest-access-for-sensr-net-cameras/&#34;&gt;guest access&lt;/a&gt;, etc.&lt;/p&gt;
+
+&lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;
+
 &lt;p&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ol&gt;
