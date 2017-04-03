@@ -34,7 +34,9 @@
       <pubDate>Wed, 01 Jun 2011 21:48:15 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2011/06/01/sensr-netcam-android-app-configuration-and-use/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.amazon.com/gp/product/B0050E3OPO/ref=as_li_ss_tl?ie=UTF8&amp;tag=sensr-20&amp;linkCode=as2&amp;camp=217153&amp;creative=399701&amp;creativeASIN=B0050E3OPO&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;size-full wp-image-204 alignleft&#34; title=&#34;Sensr Netcam App for Android&#34; src=&#34;http://blog.sensr.net/wp-content/uploads/2011/06/netcam_amazon.png&#34; alt=&#34;Sensr Netcam App for Android devices turns your mobile device into a wireless surveillance camera.&#34; width=&#34;117&#34; height=&#34;205&#34; /&gt;&lt;/a&gt;&lt;a title=&#34;Sensr Netcam App for Android&#34; href=&#34;http://www.amazon.com/gp/product/B0050E3OPO/ref=as_li_ss_tl?ie=UTF8&amp;tag=sensr-20&amp;linkCode=as2&amp;camp=217153&amp;creative=399701&amp;creativeASIN=B0050E3OPO&#34; target=&#34;_blank&#34;&gt;Sensr Netcam&lt;/a&gt; is a simple App that turns your Android device into a wireless surveillance camera.  With it you can use an Android phone as a portable &amp;#8220;Nanny-cam&amp;#8221; or &amp;#8220;&lt;a href=&#34;http://sensr.net/users/288/cameras/beecam&#34; target=&#34;_blank&#34;&gt;Pet-cam&lt;/a&gt;&amp;#8221; or to monitor your hotel room while you&amp;#8217;re traveling.  Android devices are dropping in price, and we should see $100 Android tablets incorporating cameras in the very near future.  Sensr Netcam takes advantage of the economies of scale of the Android hardware market to provide you with a high-quality network camera incorporating the rock-solid WiFi implementation already used in millions of Android devices.&lt;/p&gt;
+      <description>&lt;h1 id=&#34;update-the-sensr-netcam-is-no-longer-available&#34;&gt;&lt;em&gt;Update: The Sensr Netcam is no longer available.&lt;/em&gt;&lt;/h1&gt;
+
+&lt;p&gt;Sensr Netcam is a simple App that turns your Android device into a wireless surveillance camera.  With it you can use an Android phone as a portable &amp;#8220;Nanny-cam&amp;#8221; or &amp;#8220;&lt;a href=&#34;http://sensr.net/users/288/cameras/beecam&#34; target=&#34;_blank&#34;&gt;Pet-cam&lt;/a&gt;&amp;#8221; or to monitor your hotel room while you&amp;#8217;re traveling.  Android devices are dropping in price, and we should see $100 Android tablets incorporating cameras in the very near future.  Sensr Netcam takes advantage of the economies of scale of the Android hardware market to provide you with a high-quality network camera incorporating the rock-solid WiFi implementation already used in millions of Android devices.&lt;/p&gt;
 
 &lt;p&gt;Sensr Netcam continuously sends JPEG images from your Android device to &lt;a href=&#34;http://sensr.net&#34; target=&#34;_blank&#34;&gt;Sensr.net&lt;/a&gt; at rates of up to one frame per second. Once on Sensr.net, your images are processed, cataloged and stored where they can be viewed or shared with friends.&lt;/p&gt;
 
@@ -223,19 +225,16 @@
     &lt;/p&gt;
     
     &lt;p&gt;
-      &lt;img class=&#34;alignleft&#34; title=&#34;Sensr.net on iPhone, iPad, Android&#34; src=&#34;http://3.bp.blogspot.com/-xayg79fcf30/TVskWhNjesI/AAAAAAAAAAk/0jFObTRqVwc/s1600/iPhoneHome.png&#34; alt=&#34;How to configure Sensr.net on iPhone, iPad, Android&#34; width=&#34;222&#34; height=&#34;333&#34; /&gt;
-    &lt;/p&gt;
-    
-    &lt;p&gt;
       This article will show you how to install the icon for Sensr Touch on your iPhone or Android. That way you can launch Sensr Touch directly from your home screen. We will also give you a little overview of some of the Sensr Touch App functionality to get you started.
     &lt;/p&gt;
     
     &lt;p&gt;
-      Some background information first: the Sensr Touch App is HTML5 and Javascript. It is optimized for WebKit browsers and uses Touch gestures available on mobile devices. The home URL for the Sensr Touch App is:
+      Some background information first: the Sensr Touch App is HTML5 and Javascript. It is optimized for WebKit browsers and uses Touch gestures available on mobile devices. Basically you just go to our website on your mobile device and we automatically serve 
+      the mobile version of Sensr.net.
     &lt;/p&gt;
     
     &lt;p&gt;
-      &lt;a href=&#34;http://sensr.net/touch/webapp&#34;&gt;http://sensr.net/touch/webapp&lt;/a&gt;
+      &lt;a href=&#34;http://sensr.net/&#34;&gt;https://sensr.net/&lt;/a&gt;
     &lt;/p&gt;
     
     &lt;p&gt;
@@ -271,7 +270,7 @@
     &lt;/p&gt;
     
     &lt;p&gt;
-      &lt;a href=&#34;http://sensr.net/touch/webapp&#34;&gt;http://sensr.net/touch/webapp&lt;/a&gt;
+      &lt;a href=&#34;https://sensr.net/&#34;&gt;https://sensr.net/&lt;/a&gt;
     &lt;/p&gt;
     
     &lt;p&gt;
@@ -303,88 +302,86 @@
     &lt;/div&gt;
     
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;
-  &amp;lt;span style=&amp;quot;font-size: large;&amp;quot;&amp;gt;&amp;lt;strong&amp;gt; &amp;lt;/strong&amp;gt;&amp;lt;/span&amp;gt;The Sensr Touch app is similar to the main Sensr web site.  You can list cameras, and you can show the images for a particular camera by hour, or summarized for a day or an entire month.
-&amp;lt;/p&amp;gt;
+&lt;p&gt;
+  The Sensr Touch app is similar to the main Sensr web site.  You can list cameras, and you can show the images for a particular camera by hour, or summarized for a day or an entire month.
 
-&amp;lt;p&amp;gt;
-  The front page for Sensr Touch is a list of public cameras.  The &amp;amp;#8220;Browse&amp;amp;#8221; button exposes &amp;amp;#8220;public&amp;amp;#8221;, &amp;amp;#8220;friend&amp;amp;#8221; and &amp;amp;#8220;my cameras&amp;amp;#8221; categories.  Select &amp;amp;#8220;my cameras&amp;amp;#8221; to find your own cameras, or &amp;amp;#8220;friend&amp;amp;#8221; to see the cameras belonging to your Facebook friends.  You can see more pages of cameras by selecting the &amp;amp;#8220;Next Page&amp;amp;#8221; link at the bottom of the page.
-&amp;lt;/p&amp;gt;
+  The front page for Sensr Touch is a list of public cameras.  The &amp;#8220;Browse&amp;#8221; button exposes &amp;#8220;public&amp;#8221;, &amp;#8220;friend&amp;#8221; and &amp;#8220;my cameras&amp;#8221; categories.  Select &amp;#8220;my cameras&amp;#8221; to find your own cameras, or &amp;#8220;friend&amp;#8221; to see the cameras belonging to your Facebook friends.  You can see more pages of cameras by selecting the &amp;#8220;Next Page&amp;#8221; link at the bottom of the page.
+&lt;/p&gt;
+    
 
-&amp;lt;p&amp;gt;
-  &amp;amp;nbsp;
-&amp;lt;/p&amp;gt;
+&lt;p&gt;
+  &amp;nbsp;
+&lt;/p&gt;
 
-&amp;lt;p&amp;gt;
-  &amp;amp;nbsp;
-&amp;lt;/p&amp;gt;
+&lt;p&gt;
+  &amp;nbsp;
+&lt;/p&gt;
 
-&amp;lt;p&amp;gt;
-  &amp;amp;nbsp;
-&amp;lt;/p&amp;gt;
+&lt;p&gt;
+  &amp;nbsp;
+&lt;/p&gt;
 
-&amp;lt;p&amp;gt;
-  &amp;amp;nbsp;
-&amp;lt;/p&amp;gt;
+&lt;p&gt;
+  &amp;nbsp;
+&lt;/p&gt;
 
-&amp;lt;p&amp;gt;
-  &amp;amp;nbsp;
-&amp;lt;/p&amp;gt;
+&lt;p&gt;
+  &amp;nbsp;
+&lt;/p&gt;
 
-&amp;lt;div style=&amp;quot;width: 268px&amp;quot; class=&amp;quot;wp-caption alignleft&amp;quot;&amp;gt;
-  &amp;lt;img class=&amp;quot; &amp;quot; title=&amp;quot;Sensr.net on iPhone&amp;quot; src=&amp;quot;http://3.bp.blogspot.com/-GGBlU9Edsew/TVvXlZjFWqI/AAAAAAAAAA0/4sWE0XWLnx0/s1600/iPhoneMansfield.png&amp;quot; alt=&amp;quot;Sensr.net on iPhone&amp;quot; width=&amp;quot;258&amp;quot; height=&amp;quot;386&amp;quot; /&amp;gt;
+&lt;div style=&#34;width: 268px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+  &lt;img class=&#34; &#34; title=&#34;Sensr.net on iPhone&#34; src=&#34;http://3.bp.blogspot.com/-GGBlU9Edsew/TVvXlZjFWqI/AAAAAAAAAA0/4sWE0XWLnx0/s1600/iPhoneMansfield.png&#34; alt=&#34;Sensr.net on iPhone&#34; width=&#34;258&#34; height=&#34;386&#34; /&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Hour View &#34;Scrub&#34; Control
+  &lt;/p&gt;
+&lt;/div&gt;
+    
 
-  &amp;lt;p class=&amp;quot;wp-caption-text&amp;quot;&amp;gt;
-    Hour View &amp;quot;Scrub&amp;quot; Control
-  &amp;lt;/p&amp;gt;
-&amp;lt;/div&amp;gt;
+&lt;p&gt;
+  Selecting a camera takes you to the viewer controls where you can scroll through the images of the current hour.  Press the &amp;#8220;Play&amp;#8221; button at the bottom to animate the view of the images.
+&lt;/p&gt;
 
-&amp;lt;p&amp;gt;
-  Selecting a camera takes you to the viewer controls where you can scroll through the images of the current hour.  Press the &amp;amp;#8220;Play&amp;amp;#8221; button at the bottom to animate the view of the images.
-&amp;lt;/p&amp;gt;
+&lt;p&gt;
+  Drag your finger over the image to invoke the &amp;#8220;scrub&amp;#8221; control to move forward or backward rapidly through the images.
+&lt;/p&gt;
 
-&amp;lt;p&amp;gt;
-  Drag your finger over the image to invoke the &amp;amp;#8220;scrub&amp;amp;#8221; control to move forward or backward rapidly through the images.
-&amp;lt;/p&amp;gt;
+&lt;p&gt;
+  Choose the &amp;#8220;day&amp;#8221; or &amp;#8220;month&amp;#8221; views to show a grid view of the hours of the day or the days of the month.  Use the &amp;#8220;&lt;&amp;#8221; and &amp;#8220;&gt;&amp;#8221; buttons to move to the next or previous day, month, or hour.
+&lt;/p&gt;
 
-&amp;lt;p&amp;gt;
-  Choose the &amp;amp;#8220;day&amp;amp;#8221; or &amp;amp;#8220;month&amp;amp;#8221; views to show a grid view of the hours of the day or the days of the month.  Use the &amp;amp;#8220;&amp;lt;&amp;amp;#8221; and &amp;amp;#8220;&amp;gt;&amp;amp;#8221; buttons to move to the next or previous day, month, or hour.
-&amp;lt;/p&amp;gt;
+&lt;p&gt;
+  The &amp;#8220;now&amp;#8221; button takes you to the most recent hour to show you the most recent activity on your camera.
+&lt;/p&gt;
 
-&amp;lt;p&amp;gt;
-  The &amp;amp;#8220;now&amp;amp;#8221; button takes you to the most recent hour to show you the most recent activity on your camera.
-&amp;lt;/p&amp;gt;
+&lt;p&gt;
+  &amp;nbsp;
+&lt;/p&gt;
 
-&amp;lt;p&amp;gt;
-  &amp;amp;nbsp;
-&amp;lt;/p&amp;gt;
+&lt;p&gt;
+  &amp;nbsp;
+&lt;/p&gt;
 
-&amp;lt;p&amp;gt;
-  &amp;amp;nbsp;
-&amp;lt;/p&amp;gt;
+&lt;p&gt;
+  &amp;nbsp;
+&lt;/p&gt;
 
-&amp;lt;p&amp;gt;
-  &amp;amp;nbsp;
-&amp;lt;/p&amp;gt;
+&lt;p&gt;
+  &lt;span style=&#34;font-size: large;&#34;&gt;&lt;strong&gt;What&amp;#8217;s Next?&lt;/strong&gt;&lt;/span&gt;
+&lt;/p&gt;
 
-&amp;lt;p&amp;gt;
-  &amp;lt;span style=&amp;quot;font-size: large;&amp;quot;&amp;gt;&amp;lt;strong&amp;gt;What&amp;amp;#8217;s Next?&amp;lt;/strong&amp;gt;&amp;lt;/span&amp;gt;
-&amp;lt;/p&amp;gt;
-
-&amp;lt;p&amp;gt;
-  Sensr Touch lets you take access to camera feeds with you anywhere you go.  In its current form, it is an App focused on viewing content.  In coming months we&amp;amp;#8217;ll be adding features for sharing images and scenes through Facebook, Twitter and Youtube.  HTML5 is the future of the web, and Touch devices are becoming preferred  for consuming and sharing web content.  Sensr Touch leverages these technologies to make your Sensr experience truly portable.
-&amp;lt;/p&amp;gt;
-
-&amp;lt;p&amp;gt;
-  &amp;amp;nbsp;
-&amp;lt;/p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;
+  Sensr Touch lets you take access to camera feeds with you anywhere you go.  In its current form, it is an App focused on viewing content.  In coming months we&amp;#8217;ll be adding features for sharing images and scenes through Facebook, Twitter and Youtube.  HTML5 is the future of the web, and Touch devices are becoming preferred  for consuming and sharing web content.  Sensr Touch leverages these technologies to make your Sensr experience truly portable.
+&lt;/p&gt;
 
 &lt;p&gt;&lt;p&gt;
-    &amp;nbsp;
-  &lt;/p&gt;
+  &amp;nbsp;
+&lt;/p&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;
+&amp;nbsp;
+&lt;/p&gt;
 &lt;/div&gt;&lt;/p&gt;</description>
     </item>
     
