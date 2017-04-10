@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Port Forwarding on Sensr.net Blog | Watch your Stuff!</title>
+    <link>http://blog.sensr.net/categories/port-forwarding/index.xml</link>
+    <description>Recent content in Port Forwarding on Sensr.net Blog | Watch your Stuff!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://blog.sensr.net/categories/port-forwarding/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to do port forwarding with eero</title>
+      <link>http://blog.sensr.net/2017/04/how-to-do-port-forwarding-with-eero/</link>
+      <pubDate>Mon, 10 Apr 2017 10:06:56 -0400</pubDate>
+      
+      <guid>http://blog.sensr.net/2017/04/how-to-do-port-forwarding-with-eero/</guid>
+      <description>&lt;figure &gt;
+    
+        &lt;img src=&#34;http://blog.sensr.net/img/eero-home.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;eero wifi system&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;&lt;a href=&#34;https://www.amazon.com/eero-Home-WiFi-System-Pack/dp/B00XEW3YD6/sensr-20&#34;&gt;The eero wifi system&lt;/a&gt; is
+really an amazing system. It lets you blanket your home in wifi and manage it
+with the eero app.&lt;/p&gt;
+
+&lt;p&gt;Normally to do port forwarding to your IP camera, you need to configure the camera
+to have a specific IP address, then go to the router and add tell it to forward external
+ports to the internal ports on that IP address.  eero takes a different approach.  Here&amp;rsquo;s how it works.&lt;/p&gt;
+
+&lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;In the eero app, go to&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Network Settings &amp;gt; Advanced Settings &amp;gt; Reservations &amp;amp; Port Forwarding&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You&amp;rsquo;ll see a page that lets you add a reservation for your devices. Select
+the &lt;strong&gt;+ Add a reservation&lt;/strong&gt; menu.  This will let you choose any of the devices
+currently connected to your network.  In my case it was the &lt;em&gt;Balcony Tenvis Camera&lt;/em&gt;
+which I wanted to expose on my network.&lt;/p&gt;
+
+&lt;p&gt;Once you make a reservation, you can then add port forwarding for that device. In my case
+I wanted to forward port 8080 on the outside to port 80 on my camera. This was so a friend
+of mine could experiment with my camera remotely. I also forwarded 554 and 660 and you can
+see in the screenshot below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:40%&#34; src=&#34;http://blog.sensr.net/img/eero-add-reservation.png&#34; class=&#34;img-rounded&#34; alt=&#34;eero app add reservation&#34; width=&#34;50&#34; &gt;
+&lt;img style=&#34;width:40%&#34; src=&#34;http://blog.sensr.net/img/eero-ip-reservation.png&#34; class=&#34;img-rounded&#34; alt=&#34;eero wifi system add port forward&#34; width=&#34;50&#34; &gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;why-do-port-forwarding&#34;&gt;Why do port forwarding?&lt;/h2&gt;
+
+&lt;p&gt;Generally you don&amp;rsquo;t wnat to do port forwarding if you don&amp;rsquo;t have to.  If you want
+to see your camera outisde of your network, most cameras now come with apps that
+will allow you to view and configure your camera remotely without port forwarding.
+These cameras and apps are advertised as P2P enabled.&lt;/p&gt;
+
+&lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;
+
+&lt;p&gt;Of course you could also use &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt; which doesn&amp;rsquo;t require any port
+forwarding or special firewall configuration. You simply have the cameras push images to
+us. You can use Sensr.net &lt;a href=&#34;http://blog.sensr.net/2013/10/24/ip-camera-no-firewall-config/&#34;&gt;without any firewall configuration at
+all.&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

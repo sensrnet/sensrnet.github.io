@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.sensr.net/2017/04/how-to-do-port-forwarding-with-eero/</loc>
+    <lastmod>2017-04-10T10:06:56-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.sensr.net/2017/02/foscam-offline-why-cant-i-view-my-camera-live/</loc>
     <lastmod>2017-02-24T09:59:35+04:00</lastmod>
   </url>
@@ -1210,7 +1215,7 @@
   
   <url>
     <loc>http://blog.sensr.net/categories/how-to-guide/</loc>
-    <lastmod>2016-12-18T16:35:11-08:00</lastmod>
+    <lastmod>2017-04-10T10:06:56-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1402,7 +1407,7 @@
   
   <url>
     <loc>http://blog.sensr.net/categories/networking/</loc>
-    <lastmod>2016-12-03T10:13:53-04:00</lastmod>
+    <lastmod>2017-04-10T10:06:56-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1437,8 +1442,14 @@
   </url>
   
   <url>
+    <loc>http://blog.sensr.net/categories/port-forwarding/</loc>
+    <lastmod>2017-04-10T10:06:56-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.sensr.net/post/</loc>
-    <lastmod>2017-02-24T09:59:35+04:00</lastmod>
+    <lastmod>2017-04-10T10:06:56-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1546,7 +1557,7 @@
   
   <url>
     <loc>http://blog.sensr.net/</loc>
-    <lastmod>2017-02-24T09:59:35+04:00</lastmod>
+    <lastmod>2017-04-10T10:06:56-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1767,6 +1778,12 @@
   <url>
     <loc>http://blog.sensr.net/tags/widget/</loc>
     <lastmod>2011-03-08T14:53:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/wifi-systems/</loc>
+    <lastmod>2017-04-10T10:06:56-04:00</lastmod>
     <priority>0</priority>
   </url>
   
