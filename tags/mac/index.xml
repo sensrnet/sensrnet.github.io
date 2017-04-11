@@ -9,6 +9,217 @@
     <atom:link href="http://blog.sensr.net/tags/mac/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>How to configure a Foscam FI9900P Outdoor Camera from Mac or Linux</title>
+      <link>http://blog.sensr.net/2017/04/how-to-configure-a-foscam-fi9900p-outdoor-camera-from-mac-or-linux/</link>
+      <pubDate>Tue, 11 Apr 2017 09:59:35 +0400</pubDate>
+      
+      <guid>http://blog.sensr.net/2017/04/how-to-configure-a-foscam-fi9900p-outdoor-camera-from-mac-or-linux/</guid>
+      <description>&lt;figure &gt;
+    &lt;a href=&#34;http://blog.sensr.net/2017/04/how-to-configure-a-foscam-fi9900p-outdoor-camera-from-mac-or-linux/&#34;&gt;
+        &lt;img src=&#34;http://blog.sensr.net/img/FI9900P.jpg&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Foscam FI9900P Outdoor HD Camera&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;The &lt;a href=&#34;https://www.amazon.com/Foscam-FI9900P-Outdoor-Wireless-Camera/dp/B011US2ADK/sensr-20&#34;&gt;Foscam FI9900P Outdoor HD Wireless Security Camera&lt;/a&gt;
+is a recent compact outdoor model from Foscam.  It&amp;rsquo;s currently listing for around $125
+on Amazon.&lt;/p&gt;
+
+&lt;p&gt;My biggest gripe with this camera is the mounting hardware.  The camera can
+only be pointed forward and tilted up and down.  There is no left or right articulation.
+In my case I was mounting the camera near the wall my garage.  I had to put a little shim
+under one side of the mounting brack to get it to angle off to the side.  See the image
+below for the final orientation.  If I had mounted it straight ahead, I would have
+ended up with half the frame taken up by the left wall.&lt;/p&gt;
+
+
+&lt;figure &gt;
+    &lt;a href=&#34;http://blog.sensr.net/img/fi9900p-garage.jpg&#34;&gt;
+        &lt;img src=&#34;http://blog.sensr.net/img/fi9900p-garage.jpg&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Had to angle camera manually to get a more centered image.  The image quality is quite good though.&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;The camera works well with Sensr.net, so you can use our cloud DVR service with the Foscam.  We have a free trial, so sign up and follow the instructions below on how to get it working with Sensr.net.&lt;/p&gt;
+
+&lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;The camera is easy to setup using the Foscam app.  The setup for this camera is
+pretty much the same as the &lt;a href=&#34;http://blog.sensr.net/2016/11/ftp-setup-on-the-foscam-wireless-security-camera-1920tvl/&#34;&gt;Foscam R2 aka 1920tvl&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;interesting-features-in-the-foscam-app&#34;&gt;Interesting Features in the Foscam App&lt;/h1&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://itunes.apple.com/us/app/foscam/id924381688?mt=8&#34;&gt;Foscam app&lt;/a&gt; seems to work. Sure, it&amp;rsquo;s filled with grammatical mistakes, but they will fix those over time.
+It let&amp;rsquo;s you share the images on &lt;strong&gt;WeChat&lt;/strong&gt; and &lt;strong&gt;WeChat Moments&lt;/strong&gt;, whatever that is. (Ok, it&amp;rsquo;s the Facebook &lt;a href=&#34;https://www.wechat.com/en/&#34;&gt;Messenger of
+China&lt;/a&gt;, but not really very important to the non-Chinese market.)&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:30%&#34; src=&#34;http://blog.sensr.net/img/FoscamAmerica.png&#34; class=&#34;img-rounded&#34; alt=&#34;Country selection Foscam Wireless Security Camera 1920TVL&#34; width=&#34;50&#34; &gt;
+&lt;img style=&#34;width:30%&#34; src=&#34;http://blog.sensr.net/img/FoscamWechat.png&#34; class=&#34;img-rounded&#34; alt=&#34;Wechat Foscam Wireless Security Camera 1920TVL&#34; width=&#34;50&#34; &gt;
+&lt;img style=&#34;width:30%&#34; src=&#34;http://blog.sensr.net/img/FoscamFirmware.png&#34; class=&#34;img-rounded&#34; alt=&#34;Firware upgrade Foscam Wireless Security Camera 1920TVL&#34; width=&#34;50&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;It doesn&amp;rsquo;t have a selection for United States but you can select &lt;em&gt;America&lt;/em&gt;, which is kind
+of the same thing.&lt;/p&gt;
+
+&lt;p&gt;Maybe the best new feature is that you can upgrade the firmware in the app! Excellent! Now when
+there is a security issue in the firmware, the app will make it simple to perform the upgrade.&lt;/p&gt;
+
+&lt;h1 id=&#34;what-s-missing&#34;&gt;What&amp;rsquo;s missing?&lt;/h1&gt;
+
+&lt;p&gt;It has a lot of controls but it doesn&amp;rsquo;t have the local IP address for the camera. If you&amp;rsquo;re
+going to setup this camera for FTP you&amp;rsquo;ll need to find it&amp;rsquo;s IP address. Normally I would
+recommend connecting to your router and looking for the device with a matching MAC address. This
+will work if you&amp;rsquo;re using the wired connection. The MAC address is printed on the bottom of the
+camera. However, the wireless MAC address is not. It would be nice if the app would tell you the
+URL to connect to the web interface. If you&amp;rsquo;ve already put your amera on wifi, you can still
+find it but you may have to try connecting to a bunch of different IP addresses.&lt;/p&gt;
+
+&lt;h1 id=&#34;port-88&#34;&gt;Port 88!&lt;/h1&gt;
+
+&lt;p&gt;If you&amp;rsquo;re trying to connect to the camera, make sure to use port 88. For some reason the default
+port for Foscam is 88. That means you&amp;rsquo;ll have to go to &lt;code&gt;http://IP:88/&lt;/code&gt; to get to the web
+interface. For example, if your camera&amp;rsquo;s IP is &lt;code&gt;172.16.20.73&lt;/code&gt; you&amp;rsquo;ll need to go to
+&lt;code&gt;http://172.16.20.73:88/&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h1 id=&#34;safari-plugins&#34;&gt;Safari Plugins!&lt;/h1&gt;
+
+&lt;p&gt;If you&amp;rsquo;re using a Mac, you&amp;rsquo;ll need to install plugins. I really wish these camera manufacturers
+would just use web standards instead of making us install software. I tried configuring the
+camera without the plugins, but it really seems to enforce this. Maybe future versions of the
+app will support FTP configuration so we can skip the browser all together.&lt;/p&gt;
+
+&lt;h1 id=&#34;configure-the-ftp-server&#34;&gt;Configure the FTP Server&lt;/h1&gt;
+
+&lt;p&gt;Log on to your account at &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt; and click the add camera button. This
+will give you the three pieces of information you need to configure your camera: server,
+username, and password. Our server names are &lt;code&gt;f0.sensr.net&lt;/code&gt; through &lt;code&gt;f9.sensr.net&lt;/code&gt;. The
+usernames are &lt;code&gt;camNNN&lt;/code&gt; where &lt;code&gt;NNN&lt;/code&gt; is an integer. The password is generated randomly. Be careful
+since in a password some characters can be confused. Zeros and Os looks alike. Ones and Ls also
+look alike. It&amp;rsquo;s best to copy and paste the passwords.&lt;/p&gt;
+
+&lt;p&gt;Once you have these, you can then go to the FTP sever page on the camera, which looks like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:100%&#34; src=&#34;http://blog.sensr.net/img/FoscamFTPSettings.png&#34; class=&#34;img-rounded&#34; alt=&#34;Foscam Wireless Security Camera 1920TVL&#34; width=&#34;50&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;The FTP server URL shows a dir at the end. On the &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt; side we just
+ignore this. You can add it if you wish but it&amp;rsquo;s not needed. Your URL should start with FTP
+though, like this: &lt;code&gt;ftp://fX.sensr.net/&lt;/code&gt;, where X is the server that
+&lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt; tells you to use for your camera.&lt;/p&gt;
+
+&lt;h1 id=&#34;configure-snapshot-settings&#34;&gt;Configure Snapshot Settings&lt;/h1&gt;
+
+&lt;p&gt;Next you&amp;rsquo;ll want to configure the snapshot settings, which tells the camera to upload JPEG
+snapshots to &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt;. We recommend you send an image per second to our
+servers. (See &lt;a href=&#34;http://blog.sensr.net/2013/10/24/ip-camera-no-firewall-config/&#34;&gt;No Firewall Config&lt;/a&gt; for more details
+on why we recommend this.) This way we can generate a live Motion JPEG stream (MJPEG) on the
+&lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt; site. Make sure to select all in the upper left hand corner of
+the schedule so the camera will always upload. If you don&amp;rsquo;t want us to process images on certain
+days or certain hours, this is the place to configure that. Make sure to click the Save button
+at the top. Once you&amp;rsquo;ve done this your Foscam should start uploading to
+&lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:100%&#34; src=&#34;http://blog.sensr.net/img/FoscamSnapshotSettings.png&#34; class=&#34;img-rounded&#34; alt=&#34;Foscam Wireless Security Camera 1920TVL&#34; width=&#34;50&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;On the &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt; side the page should go from this:&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s3.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt; Waiting for upload&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;To a page that shows the image your camera uploaded.  Something like this:&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-success.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Success!&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Congratulations, now you&amp;rsquo;re done with the camera config. Your camera is now on &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt;. We&amp;rsquo;ll archive all the motion
+events, giving you 30 days of archives, SMS and email alerts, guest access, and a whole lot more.  You can view the live stream on our website
+or in our apps. No firewall configuration is needed. No PC in the basement required.&lt;/p&gt;
+
+&lt;p&gt;If you have any problems, send email to info @ sensr.net and we&amp;rsquo;ll try to help you out!&lt;/p&gt;
+
+&lt;h1 id=&#34;don-t-set-scheduled-recording&#34;&gt;Don&amp;rsquo;t Set Scheduled Recording&lt;/h1&gt;
+
+&lt;p&gt;You might be tempted to set the Scheduled Recording.  This is for MKV video files.  If you upload those to Sensr.net we&amp;rsquo;ll just remove
+them, since we only support JPEG files right now.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:100%&#34; src=&#34;http://blog.sensr.net/img/UnsetFoscamScheduledRecording.png&#34; class=&#34;img-rounded&#34; alt=&#34;Foscam Wireless Security Camera 1920TVL&#34; width=&#34;50&#34; &gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;don-t-set-motion-detection-settings&#34;&gt;Don&amp;rsquo;t Set Motion Detection Settings&lt;/h1&gt;
+
+&lt;p&gt;You also don&amp;rsquo;t need the motion detection settings to work with Sensr.net.  We do the motion detection on the server side.
+See our blog post &lt;a href=&#34;http://blog.sensr.net/2011/07/25/true-meaning-of-motion-detection-off/&#34;&gt;The True Meaning of Motion Detection Off&lt;/a&gt;
+for more details.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:100%&#34; src=&#34;http://blog.sensr.net/img/FoscamMotionDetectionSettings.png&#34; class=&#34;img-rounded&#34; alt=&#34;Foscam Wireless Security Camera 1920TVL&#34; width=&#34;50&#34; &gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
+
+&lt;p&gt;Generally I&amp;rsquo;m pretty happy with this camera. I didn&amp;rsquo;t put it outside but I think it would work
+well outdoors if you can get it connected to power. There is another more expensive model, the
+&lt;a href=&#34;https://www.amazon.com/Foscam-FI9901EP-Weatherproof-Detection-One-Click/dp/B01LXWLK3N/
+sensr-20&#34;&gt;FI9901EP&lt;/a&gt; which supports POE (power over ethernet) so you can run just a single wire to the
+camera.&lt;/p&gt;
+
+&lt;p&gt;The good:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pretty cheap at $125&lt;/li&gt;
+&lt;li&gt;Good image quality&lt;/li&gt;
+&lt;li&gt;Easy to setup&lt;/li&gt;
+&lt;li&gt;Works well with &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The Bad:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Difficult to aim&lt;/li&gt;
+&lt;li&gt;Live view &lt;a href=&#34;http://blog.sensr.net/2017/02/foscam-offline-why-cant-i-view-my-camera-live/&#34;&gt;often fails&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Missing IP address in app&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you want to learn more, check out this YouTube video that walks through the setup.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/WNTnvJkeRT0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>Como configurar uma Foscam FI9821W V2 do Mac ou Linux</title>
       <link>http://blog.sensr.net/2014/09/25/como-configurar-uma-foscam-fi9821w-v2-do-mac-ou-linux/</link>
       <pubDate>Thu, 25 Sep 2014 07:40:36 +0000</pubDate>

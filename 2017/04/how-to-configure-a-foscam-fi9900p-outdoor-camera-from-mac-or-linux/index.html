@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.18.1" />
+    <title>How to configure a Foscam FI9900P Outdoor Camera from Mac or Linux</title> 
+    
+    
+    
+    <meta name="description" content="How to setup a Foscam FI9900P camera" />
+    <meta name="keywords" content='FI9900P,FI9900,fl9900,fl9900p,FI9901EP,Foscam,FTP,Linux,Mac,MacOS,security camera,webcam' />
+    
+        <meta name="author" content="Adam Beguelin" />
+    
+    
+    <link href="" rel="alternate" type="application/rss+xml" title="Sensr.net Blog | Watch your Stuff!" />
+    <link rel="stylesheet" href="http://blog.sensr.net/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="http://blog.sensr.net/css/highlightjs-themes/androidstudio.css" />
+    <link rel="stylesheet" href="http://blog.sensr.net/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="http://blog.sensr.net/css/phlat.css" />
+    <link rel="stylesheet" href="http://blog.sensr.net/css/cta.css" />
+    
+        
+    
+	
+	<script>
+	!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+	n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+	document,'script','https://connect.facebook.net/en_US/fbevents.js');
+	fbq('init', '327298684323772');
+	fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+	src="https://www.facebook.com/tr?id=327298684323772&ev=PageView&noscript=1"
+	/></noscript>
+	
+	
+</head>
+
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+				<img src="/img/logo-1-4-12.png" alt="Sensr.net Cloud DVR for your Security camera"/>
+			</a>
+        </div>
+		
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a href="/archives/">
+                            Archives
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://sensr.net/cameras/public">
+                            Public Cameras
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://sensr.net/auth/users/sign_up">
+                            Try Sensr.net Free
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+
+        <div id="top" class="container">
+            <div class="row" id="content-main">
+                <div class="col-md-8">
+                    <div class="row">
+    <div class="col-md-12 content-card">
+        <h1>How to configure a Foscam FI9900P Outdoor Camera from Mac or Linux</h1>
+        
+            
+            <ul class="list-inline meta">
+                <li><i class="fa fa-calendar"></i>April 11, 2017</li>
+                <li><i class="fa fa-user"></i>Adam Beguelin</li>
+                
+                    
+                    <li><i class="fa fa-folder"></i><a href="http://blog.sensr.net/categories/foscam">Foscam</a>, <a href="http://blog.sensr.net/categories/how-to-guide">How To Guide</a>, <a href="http://blog.sensr.net/categories/network-cameras">Network Cameras</a>, <a href="http://blog.sensr.net/categories/reviews">Reviews</a></li>
+                
+            </ul>
+        
+        
+    <ul class="list-inline share" style="margin-top: 15px; margin-left: 0px">
+        <li class="facebook-share"><a target="_blank" href="http://www.facebook.com/sharer.php?u=http%3a%2f%2fblog.sensr.net%2f2017%2f04%2fhow-to-configure-a-foscam-fi9900p-outdoor-camera-from-mac-or-linux%2f"><i class="fa fa-facebook fa-lg"></i>Facebook</a></li>
+        <li class="googleplus-share"><a target="_blank" href="https://plus.google.com/share?url=http%3a%2f%2fblog.sensr.net%2f2017%2f04%2fhow-to-configure-a-foscam-fi9900p-outdoor-camera-from-mac-or-linux%2f"><i class="fa fa-google-plus fa-lg"></i>Google+</a></li>
+        <li class="twitter-share"><a target="_blank" href="https://twitter.com/share?url=http%3a%2f%2fblog.sensr.net%2f2017%2f04%2fhow-to-configure-a-foscam-fi9900p-outdoor-camera-from-mac-or-linux%2f&amp;text=How%20to%20configure%20a%20Foscam%20FI9900P%20Outdoor%20Camera%20from%20Mac%20or%20Linux"><i class="fa fa-twitter fa-lg"></i>Twitter</a></li>
+        <li class="reddit-share"><a target="_blank" href="http://reddit.com/submit?url=http%3a%2f%2fblog.sensr.net%2f2017%2f04%2fhow-to-configure-a-foscam-fi9900p-outdoor-camera-from-mac-or-linux%2f&amp;title=How%20to%20configure%20a%20Foscam%20FI9900P%20Outdoor%20Camera%20from%20Mac%20or%20Linux"><i class="fa fa-reddit fa-lg"></i>Reddit</a></li>
+        <li class="linkedin-share"><a target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fblog.sensr.net%2f2017%2f04%2fhow-to-configure-a-foscam-fi9900p-outdoor-camera-from-mac-or-linux%2f"><i class="fa fa-linkedin fa-lg"></i>LinkedIn</a></li>
+        <li class="stumbleupon-share"><a target="_blank" href="http://www.stumbleupon.com/submit?url=http%3a%2f%2fblog.sensr.net%2f2017%2f04%2fhow-to-configure-a-foscam-fi9900p-outdoor-camera-from-mac-or-linux%2f&amp;title=How%20to%20configure%20a%20Foscam%20FI9900P%20Outdoor%20Camera%20from%20Mac%20or%20Linux"><i class="fa fa-stumbleupon fa-lg"></i>StumbleUpon</a></li>
+    </ul>
+
+
+        <figure >
+    <a href="/2017/04/how-to-configure-a-foscam-fi9900p-outdoor-camera-from-mac-or-linux/">
+        <img src="/img/FI9900P.jpg" />
+    </a>
+    
+    <figcaption>
+        <h4>Foscam FI9900P Outdoor HD Camera</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>The <a href="https://www.amazon.com/Foscam-FI9900P-Outdoor-Wireless-Camera/dp/B011US2ADK/sensr-20">Foscam FI9900P Outdoor HD Wireless Security Camera</a>
+is a recent compact outdoor model from Foscam.  It&rsquo;s currently listing for around $125
+on Amazon.</p>
+
+<p>My biggest gripe with this camera is the mounting hardware.  The camera can
+only be pointed forward and tilted up and down.  There is no left or right articulation.
+In my case I was mounting the camera near the wall my garage.  I had to put a little shim
+under one side of the mounting brack to get it to angle off to the side.  See the image
+below for the final orientation.  If I had mounted it straight ahead, I would have
+ended up with half the frame taken up by the left wall.</p>
+
+
+<figure >
+    <a href="/img/fi9900p-garage.jpg">
+        <img src="/img/fi9900p-garage.jpg" />
+    </a>
+    
+    <figcaption>
+        <h4>Had to angle camera manually to get a more centered image.  The image quality is quite good though.</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>The camera works well with Sensr.net, so you can use our cloud DVR service with the Foscam.  We have a free trial, so sign up and follow the instructions below on how to get it working with Sensr.net.</p>
+
+<div class="cta"> <a href="https://sensr.net/auth/users/sign_up"> <button> Sign up for free! </button> </a> </div>
+
+<p></p>
+
+<p>The camera is easy to setup using the Foscam app.  The setup for this camera is
+pretty much the same as the <a href="/2016/11/ftp-setup-on-the-foscam-wireless-security-camera-1920tvl/">Foscam R2 aka 1920tvl</a></p>
+
+<h1 id="interesting-features-in-the-foscam-app">Interesting Features in the Foscam App</h1>
+
+<p>The <a href="https://itunes.apple.com/us/app/foscam/id924381688?mt=8">Foscam app</a> seems to work. Sure, it&rsquo;s filled with grammatical mistakes, but they will fix those over time.
+It let&rsquo;s you share the images on <strong>WeChat</strong> and <strong>WeChat Moments</strong>, whatever that is. (Ok, it&rsquo;s the Facebook <a href="https://www.wechat.com/en/">Messenger of
+China</a>, but not really very important to the non-Chinese market.)</p>
+
+<p><img style="width:30%" src="/img/FoscamAmerica.png" class="img-rounded" alt="Country selection Foscam Wireless Security Camera 1920TVL" width="50" >
+<img style="width:30%" src="/img/FoscamWechat.png" class="img-rounded" alt="Wechat Foscam Wireless Security Camera 1920TVL" width="50" >
+<img style="width:30%" src="/img/FoscamFirmware.png" class="img-rounded" alt="Firware upgrade Foscam Wireless Security Camera 1920TVL" width="50" ></p>
+
+<p>It doesn&rsquo;t have a selection for United States but you can select <em>America</em>, which is kind
+of the same thing.</p>
+
+<p>Maybe the best new feature is that you can upgrade the firmware in the app! Excellent! Now when
+there is a security issue in the firmware, the app will make it simple to perform the upgrade.</p>
+
+<h1 id="what-s-missing">What&rsquo;s missing?</h1>
+
+<p>It has a lot of controls but it doesn&rsquo;t have the local IP address for the camera. If you&rsquo;re
+going to setup this camera for FTP you&rsquo;ll need to find it&rsquo;s IP address. Normally I would
+recommend connecting to your router and looking for the device with a matching MAC address. This
+will work if you&rsquo;re using the wired connection. The MAC address is printed on the bottom of the
+camera. However, the wireless MAC address is not. It would be nice if the app would tell you the
+URL to connect to the web interface. If you&rsquo;ve already put your amera on wifi, you can still
+find it but you may have to try connecting to a bunch of different IP addresses.</p>
+
+<h1 id="port-88">Port 88!</h1>
+
+<p>If you&rsquo;re trying to connect to the camera, make sure to use port 88. For some reason the default
+port for Foscam is 88. That means you&rsquo;ll have to go to <code>http://IP:88/</code> to get to the web
+interface. For example, if your camera&rsquo;s IP is <code>172.16.20.73</code> you&rsquo;ll need to go to
+<code>http://172.16.20.73:88/</code>.</p>
+
+<h1 id="safari-plugins">Safari Plugins!</h1>
+
+<p>If you&rsquo;re using a Mac, you&rsquo;ll need to install plugins. I really wish these camera manufacturers
+would just use web standards instead of making us install software. I tried configuring the
+camera without the plugins, but it really seems to enforce this. Maybe future versions of the
+app will support FTP configuration so we can skip the browser all together.</p>
+
+<h1 id="configure-the-ftp-server">Configure the FTP Server</h1>
+
+<p>Log on to your account at <a href="https://sensr.net">Sensr.net</a> and click the add camera button. This
+will give you the three pieces of information you need to configure your camera: server,
+username, and password. Our server names are <code>f0.sensr.net</code> through <code>f9.sensr.net</code>. The
+usernames are <code>camNNN</code> where <code>NNN</code> is an integer. The password is generated randomly. Be careful
+since in a password some characters can be confused. Zeros and Os looks alike. Ones and Ls also
+look alike. It&rsquo;s best to copy and paste the passwords.</p>
+
+<p>Once you have these, you can then go to the FTP sever page on the camera, which looks like this:</p>
+
+<p><img style="width:100%" src="/img/FoscamFTPSettings.png" class="img-rounded" alt="Foscam Wireless Security Camera 1920TVL" width="50" ></p>
+
+<p>The FTP server URL shows a dir at the end. On the <a href="https://sensr.net">Sensr.net</a> side we just
+ignore this. You can add it if you wish but it&rsquo;s not needed. Your URL should start with FTP
+though, like this: <code>ftp://fX.sensr.net/</code>, where X is the server that
+<a href="https://sensr.net">Sensr.net</a> tells you to use for your camera.</p>
+
+<h1 id="configure-snapshot-settings">Configure Snapshot Settings</h1>
+
+<p>Next you&rsquo;ll want to configure the snapshot settings, which tells the camera to upload JPEG
+snapshots to <a href="https://sensr.net">Sensr.net</a>. We recommend you send an image per second to our
+servers. (See <a href="/2013/10/24/ip-camera-no-firewall-config/">No Firewall Config</a> for more details
+on why we recommend this.) This way we can generate a live Motion JPEG stream (MJPEG) on the
+<a href="https://sensr.net">Sensr.net</a> site. Make sure to select all in the upper left hand corner of
+the schedule so the camera will always upload. If you don&rsquo;t want us to process images on certain
+days or certain hours, this is the place to configure that. Make sure to click the Save button
+at the top. Once you&rsquo;ve done this your Foscam should start uploading to
+<a href="https://sensr.net">Sensr.net</a>.</p>
+
+<p><img style="width:100%" src="/img/FoscamSnapshotSettings.png" class="img-rounded" alt="Foscam Wireless Security Camera 1920TVL" width="50" ></p>
+
+<p>On the <a href="https://sensr.net">Sensr.net</a> side the page should go from this:</p>
+
+
+<figure >
+    
+        <img src="/img/2013/12/sensr-add-camera-s3.png" />
+    
+    
+    <figcaption>
+        <h4> Waiting for upload</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>To a page that shows the image your camera uploaded.  Something like this:</p>
+
+
+<figure >
+    
+        <img src="/img/2013/12/sensr-add-camera-success.png" />
+    
+    
+    <figcaption>
+        <h4>Success!</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>Congratulations, now you&rsquo;re done with the camera config. Your camera is now on <a href="https://sensr.net">Sensr.net</a>. We&rsquo;ll archive all the motion
+events, giving you 30 days of archives, SMS and email alerts, guest access, and a whole lot more.  You can view the live stream on our website
+or in our apps. No firewall configuration is needed. No PC in the basement required.</p>
+
+<p>If you have any problems, send email to info @ sensr.net and we&rsquo;ll try to help you out!</p>
+
+<h1 id="don-t-set-scheduled-recording">Don&rsquo;t Set Scheduled Recording</h1>
+
+<p>You might be tempted to set the Scheduled Recording.  This is for MKV video files.  If you upload those to Sensr.net we&rsquo;ll just remove
+them, since we only support JPEG files right now.</p>
+
+<p><img style="width:100%" src="/img/UnsetFoscamScheduledRecording.png" class="img-rounded" alt="Foscam Wireless Security Camera 1920TVL" width="50" ></p>
+
+<h1 id="don-t-set-motion-detection-settings">Don&rsquo;t Set Motion Detection Settings</h1>
+
+<p>You also don&rsquo;t need the motion detection settings to work with Sensr.net.  We do the motion detection on the server side.
+See our blog post <a href="/2011/07/25/true-meaning-of-motion-detection-off/">The True Meaning of Motion Detection Off</a>
+for more details.</p>
+
+<p><img style="width:100%" src="/img/FoscamMotionDetectionSettings.png" class="img-rounded" alt="Foscam Wireless Security Camera 1920TVL" width="50" ></p>
+
+<h1 id="summary">Summary</h1>
+
+<p>Generally I&rsquo;m pretty happy with this camera. I didn&rsquo;t put it outside but I think it would work
+well outdoors if you can get it connected to power. There is another more expensive model, the
+<a href="https://www.amazon.com/Foscam-FI9901EP-Weatherproof-Detection-One-Click/dp/B01LXWLK3N/
+sensr-20">FI9901EP</a> which supports POE (power over ethernet) so you can run just a single wire to the
+camera.</p>
+
+<p>The good:</p>
+
+<ul>
+<li>Pretty cheap at $125</li>
+<li>Good image quality</li>
+<li>Easy to setup</li>
+<li>Works well with <a href="https://sensr.net">Sensr.net</a></li>
+</ul>
+
+<p>The Bad:</p>
+
+<ul>
+<li>Difficult to aim</li>
+<li>Live view <a href="/2017/02/foscam-offline-why-cant-i-view-my-camera-live/">often fails</a></li>
+<li>Missing IP address in app</li>
+</ul>
+
+<p>If you want to learn more, check out this YouTube video that walks through the setup.</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/WNTnvJkeRT0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
+ </div>
+        
+    <ul class="list-inline tags" style="margin-top: 15px; margin-left: 0px">
+        
+            <li style=""><a href="http://blog.sensr.net/tags/fi9900p">FI9900P</a></li>
+        
+            <li style=""><a href="http://blog.sensr.net/tags/fi9900">FI9900</a></li>
+        
+            <li style=""><a href="http://blog.sensr.net/tags/fl9900">fl9900</a></li>
+        
+            <li style=""><a href="http://blog.sensr.net/tags/fl9900p">fl9900p</a></li>
+        
+            <li style=""><a href="http://blog.sensr.net/tags/fi9901ep">FI9901EP</a></li>
+        
+            <li style=""><a href="http://blog.sensr.net/tags/foscam">Foscam</a></li>
+        
+            <li style=""><a href="http://blog.sensr.net/tags/ftp">FTP</a></li>
+        
+            <li style=""><a href="http://blog.sensr.net/tags/linux">Linux</a></li>
+        
+            <li style=""><a href="http://blog.sensr.net/tags/mac">Mac</a></li>
+        
+            <li style=""><a href="http://blog.sensr.net/tags/macos">MacOS</a></li>
+        
+            <li style=""><a href="http://blog.sensr.net/tags/security-camera">security camera</a></li>
+        
+            <li style=""><a href="http://blog.sensr.net/tags/webcam">webcam</a></li>
+        
+    </ul>
+
+
+    </div>
+</div>
+
+                    
+    
+        <div class="row">
+            <div class="col-md-12 content-card">
+                <div id="disqus_thread"></div>
+                <script>
+                    (function() {
+                        if (window.location.hostname == "localhost") {
+                            document.write("Disqus comments are unavailable while serving on localhost or 127.0.0.1");
+                            return;
+                        }
+                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                        var disqus_shortname = 'sensr';
+                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+            </div>
+        </div>
+    
+
+
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+    <div class="col-md-11 col-md-offset-1 card">
+        <h5>Search</h5>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+            <div class="input-group">
+                <input class="form-control" type="search" name="q" />
+                <span class="input-group-btn">
+                    <button class="btn btn-custom" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+            </div>
+            <input type="hidden" name="q" value="site:http://blog.sensr.net/">
+        </form>
+    </div>
+</div>
+
+                    <div class="row">
+    <div class="col-md-11 col-md-offset-1 card">
+        <h5>Recent Posts</h5>
+        <ul class="list-unstyled posts-recent">
+            
+                <li><a href="http://blog.sensr.net/2017/04/how-to-configure-a-foscam-fi9900p-outdoor-camera-from-mac-or-linux/">How to configure a Foscam FI9900P Outdoor Camera from Mac or Linux</a></li>
+            
+                <li><a href="http://blog.sensr.net/2017/04/how-to-do-port-forwarding-with-eero/">How to do port forwarding with eero</a></li>
+            
+                <li><a href="http://blog.sensr.net/2017/02/foscam-offline-why-cant-i-view-my-camera-live/">Foscam offline, Why can&#39;t I view my camera live?</a></li>
+            
+                <li><a href="http://blog.sensr.net/2016/12/5-ways-to-minimize-iot-vulnerabilities-in-your-smart-home-network/">5 Ways To Minimize IoT Vulnerabilities In Your Smart Home Network</a></li>
+            
+                <li><a href="http://blog.sensr.net/2016/12/alfa-r36-awus036nh-network-scan-not-working/">Alfa R36 AWUS036NH Network Scan Not Working</a></li>
+            
+        </ul>
+    </div>
+</div>
+
+                    
+    
+
+    
+        <div class="row">
+            <div class="col-md-11 col-md-offset-1 card">
+                <h5>categories</h5>
+                <ul class="list-unstyled posts-recent">
+                    
+                        <li><a href="http://blog.sensr.net/categories/sensr.net">sensr.net</a></li>
+                    
+                        <li><a href="http://blog.sensr.net/categories/how-to-guide">how-to-guide</a></li>
+                    
+                        <li><a href="http://blog.sensr.net/categories/network-cameras">network-cameras</a></li>
+                    
+                        <li><a href="http://blog.sensr.net/categories/camera-setup">camera-setup</a></li>
+                    
+                        <li><a href="http://blog.sensr.net/categories/social-networks">social-networks</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    
+
+    
+
+
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+
+	
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-8 col-xs-6">
+    <ul class="list-inline links">
+        
+    </ul>
+</div>
+
+            <div class="col-md-4 col-xs-6">
+    <ul class="list-inline social-media">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>
+
+						<em>Sensr.net, Inc. © 2009-2016</em>
+						Follow us on <a id="icon-twitter" href="http://www.twitter.com/sensr" target="_blank" title="Follow Sensr on Twitter" name="icon-twitter">Twitter</a> 
+						<a id="icon-facebook" href="http://www.facebook.com/sensrnet" target="_blank" title="Like Sensr on Facebook" name="icon-facebook">Facebook</a>
+			<img src="/img/logo-1-4-12.png">
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        <div id="back-to-top" class="hidden">
+    <a href="#top" class="well well-sm" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+        <i class="glyphicon glyphicon-chevron-up"></i> Back to Top
+    </a>
+</div>
+<script src="http://blog.sensr.net/js/jquery-2.2.1.min.js"></script>
+<script src="http://blog.sensr.net/js/bootstrap.min.js"></script>
+<script src="http://blog.sensr.net/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script>
+    if(($(window).height() + 100) < $(document).height()) {
+        $('#back-to-top').removeClass('hidden').affix({
+            offset: {
+                top: 100
+            }
+        });
+    }
+</script>
+
+    
+
+
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-7220796-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+
+
+
+    </body>
+</html>
