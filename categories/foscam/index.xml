@@ -315,7 +315,7 @@ app will make it simple to perform the upgrade.&lt;/p&gt;
 
 &lt;h1 id=&#34;what-s-missing&#34;&gt;What&amp;rsquo;s missing?&lt;/h1&gt;
 
-&lt;p&gt;It has a lot of controls but it doesn&amp;rsquo;t have the local IP address for the camera. If you&amp;rsquo;re going to setup this camera for FTP you&amp;rsquo;ll need to
+&lt;p&gt;The Foscam R2 2MP 1080P HD Wireless Security Camera has a lot of controls but it doesn&amp;rsquo;t have the local IP address for the camera. If you&amp;rsquo;re going to setup this camera for FTP you&amp;rsquo;ll need to
 find it&amp;rsquo;s IP address. Normally I would recommend connecting to your router and looking for the device with a matching MAC address. This will
 work if you&amp;rsquo;re using the wired connection. The MAC address is printed on the bottom of the camera. However, the wireless MAC address is not.
 It would be nice if the app would tell you the URL to connect to the web interface. If you&amp;rsquo;ve already put your amera on wifi, you can still
