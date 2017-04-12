@@ -880,26 +880,26 @@
   </url>
   
   <url>
-    <loc>http://blog.sensr.net/categories/animals/</loc>
-    <lastmod>2014-01-31T01:19:53+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.sensr.net/tags/animals/</loc>
     <lastmod>2014-01-29T09:56:29+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.sensr.net/categories/api/</loc>
-    <lastmod>2014-07-08T16:21:14+00:00</lastmod>
+    <loc>http://blog.sensr.net/categories/animals/</loc>
+    <lastmod>2014-01-31T01:19:53+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blog.sensr.net/tags/api/</loc>
     <lastmod>2011-08-01T18:40:21+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/api/</loc>
+    <lastmod>2014-07-08T16:21:14+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1021,14 +1021,14 @@
   </url>
   
   <url>
-    <loc>http://blog.sensr.net/categories/d-link/</loc>
-    <lastmod>2014-10-03T16:49:59+00:00</lastmod>
+    <loc>http://blog.sensr.net/tags/d-link/</loc>
+    <lastmod>2014-09-26T19:22:20+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.sensr.net/tags/d-link/</loc>
-    <lastmod>2014-09-26T19:22:20+00:00</lastmod>
+    <loc>http://blog.sensr.net/categories/d-link/</loc>
+    <lastmod>2014-10-03T16:49:59+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1093,6 +1093,18 @@
   </url>
   
   <url>
+    <loc>http://blog.sensr.net/tags/f18910/</loc>
+    <lastmod>2012-03-01T01:49:49+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/f18910w/</loc>
+    <lastmod>2012-03-01T01:49:49+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.sensr.net/tags/f19821/</loc>
     <lastmod>2013-12-10T23:02:16+00:00</lastmod>
     <priority>0</priority>
@@ -1131,6 +1143,18 @@
   <url>
     <loc>http://blog.sensr.net/tags/fi8905w/</loc>
     <lastmod>2011-02-20T02:59:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/fi8910/</loc>
+    <lastmod>2012-03-01T01:49:49+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/fi8910w/</loc>
+    <lastmod>2012-03-01T01:49:49+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1177,6 +1201,18 @@
   </url>
   
   <url>
+    <loc>http://blog.sensr.net/tags/fl8910/</loc>
+    <lastmod>2012-03-01T01:49:49+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/fl8910w/</loc>
+    <lastmod>2012-03-01T01:49:49+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.sensr.net/tags/fl9821w/</loc>
     <lastmod>2014-09-25T07:40:36+00:00</lastmod>
     <priority>0</priority>
@@ -1195,13 +1231,13 @@
   </url>
   
   <url>
-    <loc>http://blog.sensr.net/categories/foscam/</loc>
+    <loc>http://blog.sensr.net/tags/foscam/</loc>
     <lastmod>2017-04-11T09:59:35+04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.sensr.net/tags/foscam/</loc>
+    <loc>http://blog.sensr.net/categories/foscam/</loc>
     <lastmod>2017-04-11T09:59:35+04:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1243,25 +1279,25 @@
   </url>
   
   <url>
-    <loc>http://blog.sensr.net/categories/hikvision/</loc>
-    <lastmod>2016-11-21T21:59:35-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.sensr.net/tags/hikvision/</loc>
     <lastmod>2014-07-16T17:37:24+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.sensr.net/categories/hootoo/</loc>
-    <lastmod>2014-07-30T18:00:37+00:00</lastmod>
+    <loc>http://blog.sensr.net/categories/hikvision/</loc>
+    <lastmod>2016-11-21T21:59:35-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blog.sensr.net/tags/hootoo/</loc>
+    <lastmod>2014-07-30T18:00:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/hootoo/</loc>
     <lastmod>2014-07-30T18:00:37+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1465,25 +1501,25 @@
   </url>
   
   <url>
-    <loc>http://blog.sensr.net/categories/network-cameras/</loc>
-    <lastmod>2017-04-11T09:59:35+04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.sensr.net/tags/network-cameras/</loc>
     <lastmod>2014-07-08T16:21:14+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.sensr.net/categories/networking/</loc>
-    <lastmod>2017-04-10T10:06:56-04:00</lastmod>
+    <loc>http://blog.sensr.net/categories/network-cameras/</loc>
+    <lastmod>2017-04-11T09:59:35+04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blog.sensr.net/tags/networking/</loc>
+    <lastmod>2017-04-10T10:06:56-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/networking/</loc>
     <lastmod>2017-04-10T10:06:56-04:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1495,13 +1531,13 @@
   </url>
   
   <url>
-    <loc>http://blog.sensr.net/categories/panasonic/</loc>
+    <loc>http://blog.sensr.net/tags/panasonic/</loc>
     <lastmod>2014-08-13T16:39:02+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.sensr.net/tags/panasonic/</loc>
+    <loc>http://blog.sensr.net/categories/panasonic/</loc>
     <lastmod>2014-08-13T16:39:02+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1519,13 +1555,13 @@
   </url>
   
   <url>
-    <loc>http://blog.sensr.net/categories/port-forwarding/</loc>
+    <loc>http://blog.sensr.net/tags/port-forwarding/</loc>
     <lastmod>2017-04-10T10:06:56-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.sensr.net/tags/port-forwarding/</loc>
+    <loc>http://blog.sensr.net/categories/port-forwarding/</loc>
     <lastmod>2017-04-10T10:06:56-04:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1615,26 +1651,26 @@
   </url>
   
   <url>
-    <loc>http://blog.sensr.net/categories/sensr/index.net/</loc>
-    <lastmod>2016-09-28T01:36:45+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.sensr.net/tags/sensr/index.net/</loc>
     <lastmod>2014-10-03T16:49:59+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.sensr.net/categories/sensr/index.net-app/</loc>
-    <lastmod>2011-06-20T23:33:39+00:00</lastmod>
+    <loc>http://blog.sensr.net/categories/sensr/index.net/</loc>
+    <lastmod>2016-09-28T01:36:45+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blog.sensr.net/tags/sensr/index.net-app/</loc>
     <lastmod>2011-06-01T21:48:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/sensr/index.net-app/</loc>
+    <lastmod>2011-06-20T23:33:39+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1669,13 +1705,13 @@
   </url>
   
   <url>
-    <loc>http://blog.sensr.net/categories/share/</loc>
+    <loc>http://blog.sensr.net/tags/share/</loc>
     <lastmod>2014-06-24T15:40:32+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.sensr.net/tags/share/</loc>
+    <loc>http://blog.sensr.net/categories/share/</loc>
     <lastmod>2014-06-24T15:40:32+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1692,14 +1728,14 @@
   </url>
   
   <url>
-    <loc>http://blog.sensr.net/categories/social-networks/</loc>
-    <lastmod>2014-06-27T17:11:50+00:00</lastmod>
+    <loc>http://blog.sensr.net/tags/social-networks/</loc>
+    <lastmod>2014-06-24T15:40:32+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.sensr.net/tags/social-networks/</loc>
-    <lastmod>2014-06-24T15:40:32+00:00</lastmod>
+    <loc>http://blog.sensr.net/categories/social-networks/</loc>
+    <lastmod>2014-06-27T17:11:50+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1769,14 +1805,14 @@
   </url>
   
   <url>
-    <loc>http://blog.sensr.net/categories/trendnet/</loc>
-    <lastmod>2014-08-07T16:55:56+00:00</lastmod>
+    <loc>http://blog.sensr.net/tags/trendnet/</loc>
+    <lastmod>2014-07-25T17:57:46+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.sensr.net/tags/trendnet/</loc>
-    <lastmod>2014-07-25T17:57:46+00:00</lastmod>
+    <loc>http://blog.sensr.net/categories/trendnet/</loc>
+    <lastmod>2014-08-07T16:55:56+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1901,25 +1937,25 @@
   </url>
   
   <url>
-    <loc>http://blog.sensr.net/categories/wordpress/</loc>
-    <lastmod>2014-02-17T05:31:36+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.sensr.net/tags/wordpress/</loc>
     <lastmod>2014-02-17T05:31:36+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.sensr.net/categories/y-cam/</loc>
-    <lastmod>2014-07-14T16:52:22+00:00</lastmod>
+    <loc>http://blog.sensr.net/categories/wordpress/</loc>
+    <lastmod>2014-02-17T05:31:36+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blog.sensr.net/tags/y-cam/</loc>
+    <lastmod>2014-07-14T16:52:22+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/y-cam/</loc>
     <lastmod>2014-07-14T16:52:22+00:00</lastmod>
     <priority>0</priority>
   </url>

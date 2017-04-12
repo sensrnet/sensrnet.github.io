@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>F18910 on Sensr.net Blog | Watch your Stuff!</title>
+    <link>http://blog.sensr.net/tags/f18910/index.xml</link>
+    <description>Recent content in F18910 on Sensr.net Blog | Watch your Stuff!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://blog.sensr.net/tags/f18910/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Tuning Foscam FI8910W FTP Settings</title>
+      <link>http://blog.sensr.net/2012/02/29/tuning-foscam-fi8910w-ftp-settings/</link>
+      <pubDate>Thu, 01 Mar 2012 01:49:49 +0000</pubDate>
+      
+      <guid>http://blog.sensr.net/2012/02/29/tuning-foscam-fi8910w-ftp-settings/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://sensr.net/clips/1315&#34;&gt;&lt;img class=&#34;aligncenter&#34; title=&#34;Testing Foscam FI8910W&#34; src=&#34;https://s3.amazonaws.com/sensrnet-cams/e0c7f165bd7f1a92dd2479b9e5829a4d7ce30106.jpg&#34; alt=&#34;&#34; width=&#34;640&#34; height=&#34;480&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;http://www.amazon.com/Foscam-FI8910W-Wireless-Network-Camera/dp/B006ZP8UOW/sensr-20&#34; title=&#34;FI8910W on Amazon&#34;&gt;Foscam FI8910W&lt;/a&gt; is the new model from Foscam with an IR Cut so the color of the daytime images are true to life. This is a nice improvement over the previous Foscam night vision models like the &lt;a href=&#34;https://sensr.net/foscam-fi8918w&#34; target=&#34;_blank&#34;&gt;FI8918W&lt;/a&gt;. (BTW, why does the newer model have a lower model number?)&lt;/p&gt;
+
+&lt;p&gt;To use this camera with Sensr.net we recommend that you set the camera to upload jpegs at 1 frame per second. Navigate to the FTP Service Settings page on your FI8910W, which looks like this:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2054&#34; style=&#34;width: 810px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://blog.sensr.net/wp-content/uploads/2012/02/Screen-Shot-2012-09-19-at-1.43.02-PM.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2054&#34; title=&#34;Foscam FI8910W FTP Settings&#34; src=&#34;http://blog.sensr.net/wp-content/uploads/2012/02/Screen-Shot-2012-09-19-at-1.43.02-PM.png&#34; alt=&#34;Foscam FI8910W FTP Settings&#34; width=&#34;800&#34; height=&#34;675&#34; srcset=&#34;http://blog.sensr.net/img/2012/02/Screen-Shot-2012-09-19-at-1.43.02-PM.png 800w, http://blog.sensr.net/img/2012/02/Screen-Shot-2012-09-19-at-1.43.02-PM-300x253.png 300w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Note the 1 second interval
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Fill in the &lt;strong&gt;FTP Server&lt;/strong&gt;, &lt;strong&gt;FTP User&lt;/strong&gt;, and &lt;strong&gt;FTP Password&lt;/strong&gt; with the values you get when adding your camera to Sensr.net.  The default values for &lt;strong&gt;FTP Upload Folder&lt;/strong&gt; and &lt;strong&gt;FTP Mode&lt;/strong&gt; are fine.  Make sure to select &lt;strong&gt;Upload Image Now&lt;/strong&gt; and use 1 for the &lt;strong&gt;Upload Interval&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;With these settings, your camera will send Sensr.net a frame per second.  This will allow you to see a live view on the Sensr.net site without having to configure your firewall at all.  We&amp;#8217;ll also store images when we detect motion.  This will allow you to go back in time to see what happened earlier in the day, last week or earlier in the month.&lt;/p&gt;
+
+&lt;p&gt;By having the motion detection enabled on the Sensr.net side, we&amp;#8217;ll still only store the interesting bits.  &lt;a href=&#34;https://sensr.net/clips/1315&#34;&gt;This clip shows me walking around&lt;/a&gt; at about one pace per second and the Foscam settings are set as shown above.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Other Tips&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Set DNS Server&lt;/strong&gt; if you&amp;#8217;re using a static IP address for your camera, make sure you set the DNS Server in the Basic Network Settings page.  Here&amp;#8217;s an example where the DNS Server is set to 75.75.75.75, which is the DNS Server for our Comcast Broadband connection.  If you don&amp;#8217;t know your DNS server, you can use &lt;a href=&#34;https://developers.google.com/speed/public-dns/&#34;&gt;Google&amp;#8217;s Public DNS Service&lt;/a&gt; by putting in 8.8.8.8 or use 208.67.222.222 which is provided by &lt;a href=&#34;http://www.opendns.com/&#34; title=&#34;Open DNS&#34;&gt;OpenDNS&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2055&#34; style=&#34;width: 810px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://blog.sensr.net/wp-content/uploads/2012/02/Screen-Shot-2012-09-19-at-2.20.29-PM.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2055&#34; title=&#34;Foscam FI8910W Basic Network Settings&#34; src=&#34;http://blog.sensr.net/wp-content/uploads/2012/02/Screen-Shot-2012-09-19-at-2.20.29-PM.png&#34; alt=&#34;Foscam FI8910W Basic Network Settings&#34; width=&#34;800&#34; height=&#34;675&#34; srcset=&#34;http://blog.sensr.net/img/2012/02/Screen-Shot-2012-09-19-at-2.20.29-PM.png 800w, http://blog.sensr.net/img/2012/02/Screen-Shot-2012-09-19-at-2.20.29-PM-300x253.png 300w&#34; sizes=&#34;(max-width: 800px) 100vw, 800px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Foscam FI8910W Basic Network Settings
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Don&amp;#8217;t Arm Motion Detection&lt;/strong&gt; on the camera.  This conflicts with the upload per second we&amp;#8217;re recommending above.   If you&amp;#8217;re using the recommended settings, your Alarm Service Settings should look like this:&lt;/p&gt;
+
+&lt;div id=&#34;attachment_2056&#34; style=&#34;width: 724px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://blog.sensr.net/wp-content/uploads/2012/02/Screen-Shot-2012-09-19-at-2.26.56-PM.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2056&#34; title=&#34;Foscam FI8910W Alarm Service Settings&#34; src=&#34;http://blog.sensr.net/wp-content/uploads/2012/02/Screen-Shot-2012-09-19-at-2.26.56-PM.png&#34; alt=&#34;Foscam FI8910W Alarm Service Settings&#34; width=&#34;714&#34; height=&#34;591&#34; srcset=&#34;http://blog.sensr.net/img/2012/02/Screen-Shot-2012-09-19-at-2.26.56-PM.png 714w, http://blog.sensr.net/img/2012/02/Screen-Shot-2012-09-19-at-2.26.56-PM-300x248.png 300w&#34; sizes=&#34;(max-width: 714px) 100vw, 714px&#34; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&#34;wp-caption-text&#34;&gt;
+    Foscam FI8910W Alarm Service Settings
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If you have problems getting your Foscam FI8910W working on Sensr.net, send us email, info at sensr.net, and we&amp;rsquo;ll give you a hand.&lt;/p&gt;
+
+&lt;p&gt;Note that Foscam model numbers are kind of confusing.  I found this called the FI8910W, but
+other variations are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;FI8910&lt;/li&gt;
+&lt;li&gt;F18910W&lt;/li&gt;
+&lt;li&gt;F18910&lt;/li&gt;
+&lt;li&gt;Fl8910W&lt;/li&gt;
+&lt;li&gt;Fl8910&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
