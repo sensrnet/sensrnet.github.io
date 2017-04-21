@@ -6,8 +6,92 @@
     <description>Recent content in Posts on Sensr.net Blog | Watch your Stuff!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Apr 2017 09:59:35 +0400</lastBuildDate>
+    <lastBuildDate>Fri, 21 Apr 2017 08:58:34 -0400</lastBuildDate>
     <atom:link href="http://blog.sensr.net/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Google Wifi hack: Connecting to old static IPs</title>
+      <link>http://blog.sensr.net/2017/04/google-wifi-hack-connecting-to-old-static-ips/</link>
+      <pubDate>Fri, 21 Apr 2017 08:58:34 -0400</pubDate>
+      
+      <guid>http://blog.sensr.net/2017/04/google-wifi-hack-connecting-to-old-static-ips/</guid>
+      <description>&lt;figure &gt;
+    &lt;a href=&#34;http://blog.sensr.net/2017/04/google-wifi-hack-connecting-to-old-static-ips/&#34;&gt;
+        &lt;img src=&#34;http://blog.sensr.net/img/gwifi.png&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Google Wifi Router&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Are you setting up a new Wifi router and have a bunch of devices with static IPs? When converting to the Gogle Wifi
+router, I discovered a cool hack to get to your devices with their old IP addresses even though the router is using
+a new subnet or IP range.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://madeby.google.com/wifi/&#34;&gt;Google Wifi&lt;/a&gt; is a cool way to blanket your home with wifi. Place multiple
+nodes around your home and the create a mesh network among the nodes. Each node has multiple ethernet jacks. Only
+the primary node needs to be plugged into your router. On the secondary nodes, the ethernet jacks allow you to
+connect ethernet devices to the network directly. Essentially the nodes act as if they are wired. You can plug a
+printer or camera or desktop computer into the nodes. One drawback to the Google Wifi is that you &lt;em&gt;can&amp;rsquo;t&lt;/em&gt; connect
+them using a wired network. This is contrast to the competing &lt;a href=&#34;https://eero.com&#34;&gt;eero&lt;/a&gt; system which allows the nodes
+to be connected via a wired network as well as using the mesh network.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-about-those-static-ips&#34;&gt;What about those static IPs?&lt;/h2&gt;
+
+&lt;p&gt;One of the challenges to using the Google Wifi is you need to convert all of your devices to the new network. In my
+case I was using the private subnet 10.1.1.x. If you&amp;rsquo;re using DCHP this isn&amp;rsquo;t a big deal, but in my case I had a
+bunch of cameras with fixed IP addreses like 10.1.1.60 so I could connect to them directly and also setup port
+forwarding for external access. My main reason for doing this was so I could easily connect to the cameras directly.
+If you use DHCP, the IP addresses of the cameras will change over time and if you want to connect to them, you need
+to &lt;em&gt;rediscover&lt;/em&gt; the camera&amp;rsquo;s IP address, which can be a pain.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;However, with the Google Wifi, finding the IP addresses of devices on the network is now very easy. The accompaning
+Google Wifi app will let you see all the devices connected to your network. You can give them nicknames, and so you
+can easily find the device when the IP address changes.&lt;/p&gt;
+
+&lt;p&gt;For most devices the switchover is easy, once the Google Wifi is up with the same SSID and password as your old
+network, the cameras will switch over. However, if a camera is setup using a fixed (static) IP address, you&amp;rsquo;re
+stuck. You can do a factory reset on the camera and set it up on the new subnet, but you&amp;rsquo;ll have to change all the
+settings again to get it back into the state it was in before. For instance if you use
+&lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt;, you&amp;rsquo;ll have to reconfigure the FTP uploading, which is a hassle. You can connect to
+the camera directly using ethernet and reset the IP address or change it to DHCP, but if the camera is already
+using a static IP, I thought there would be no way to get to it with the new Google Wifi router, but I was wrong.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s say you have a camera with a fixed IP but you&amp;rsquo;ve switched over to Google Wifi. Now you can&amp;rsquo;t get to the device
+since it&amp;rsquo;s using a different IP range, say 10.1.1.x. There is a way to connect directly to the camera even if it&amp;rsquo;s
+using a different IP range than what is being used on the wifi.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-camera-is-the-router&#34;&gt;The camera is the router&lt;/h2&gt;
+
+&lt;p&gt;The trick that worked for me was to use the IP address of the camera as the router address for my laptop. In my
+case I was able to connect to my camera over the Google WIFI network even though the old camera didn&amp;rsquo;t have an IP
+address on the Google Wifi subnet. My old network had the router IP of 10.1.1.1 and my camera had the IP of
+10.1.1.244. I could connect to 10.1.1.244 by setting the IP address of my laptop manually to 10.1.1.48 (48 is just
+random here, anything but 244 would work I think) and then setting the router IP on my laptop to 10.1.1.244. Since
+10.1.1.244 is the IP of the camera my laptop was sending packets to the camera directly. This seems like a neat
+trick that could save you a lot of hassle. In my case, cameras were mounted up high and I would need to get out a
+ladder to reach them.&lt;/p&gt;
+
+&lt;p&gt;Once I connected to the IP camera on 10.1.1.244 I then changed it&amp;rsquo;s network settings to use dhcp and now I can
+connect to it directly without having to mess with changing my IP.  Now everything is happy and running on the
+new Google Wifi network.&lt;/p&gt;
+
+&lt;p&gt;I haven&amp;rsquo;t tried this with other wifi routers, but I&amp;rsquo;m guessing it would work.&lt;/p&gt;
+
+&lt;h2 id=&#34;try-sensr-net-for-free&#34;&gt;Try Sensr.net for free&lt;/h2&gt;
+
+&lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;
+
+&lt;p&gt;If you do have an IP camera and want to record it in the cloud, give
+&lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt;Sensr.net&lt;/a&gt; a try. We work with most off the shelf cameras. As long as your
+camera can FTP JPEGs (and most can) then you can use our service.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>How to configure a Foscam FI9900P Outdoor Camera from Mac or Linux</title>
@@ -981,131 +1065,6 @@ Mostly we&amp;rsquo;re pretty cavalier about connecting cool new gadgets to our 
 &lt;p&gt;If you&amp;rsquo;re interested in paying your Sensr.net bill using Bitcoin, just let us know. If you already have a Sensr.net account, just pay us in Bitcoin and we&amp;rsquo;ll add the credit to your account.&lt;/p&gt;
 
 &lt;p&gt;If you have any questions on this, just drop us an email to billing at Sensr.net.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Como Configurar a Gravação da D-Link DCS-5010L com FTP</title>
-      <link>http://blog.sensr.net/2014/10/03/como-configurar-a-gravacao-da-d-link-dcs-5010l-com-ftp/</link>
-      <pubDate>Fri, 03 Oct 2014 16:49:59 +0000</pubDate>
-      
-      <guid>http://blog.sensr.net/2014/10/03/como-configurar-a-gravacao-da-d-link-dcs-5010l-com-ftp/</guid>
-      <description>&lt;div id=&#34;attachment_3076&#34; style=&#34;width: 386px&#34; class=&#34;wp-caption alignleft&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/uploads/2014/09/DCS-5010L-BR.jpg&#34;&gt;&lt;img class=&#34;wp-image-3076 size-full&#34; src=&#34;http://blog.sensr.net/img/2014/09/DCS-5010L-BR.jpg&#34; alt=&#34;D-Link 5010L&#34; width=&#34;376&#34; height=&#34;450&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/DCS-5010L-BR.jpg 376w, http://blog.sensr.net/img/2014/09/DCS-5010L-BR-250x300.jpg 250w&#34; sizes=&#34;(max-width: 376px) 100vw, 376px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    D-Link 5010L
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;A câmera &lt;a href=&#34;http://us.dlink.com/products/home-solutions/pan-tilt-daynight-network-camera-2/&#34; title=&#34;DCS 5010L&#34;&gt;D-Link DCS 5010L&lt;/a&gt; é um dos modelos mais populares da D-Link com visão noturna, rotação horizontal e vertical, WiFi e funciona com o serviço MyDlink. O valor da DCS-5010L é também muito acessível: atualmente ela &lt;a href=&#34;https://www.google.com/webhp?sourceid=chrome-instant&amp;amp;ion=1&amp;amp;espv=2&amp;amp;ie=UTF-8#q=dlink+brasil+DCS-5010L&amp;amp;start=10&#34; title=&#34;DCS-5010L na Amazon&#34;&gt;custa $75 na Amazon&lt;/a&gt;. Esta câmera é muito parecida com a DCS-5020L, mas custa quase metade do preço.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Necessidade de Gravação&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Apesar do serviço &lt;a href=&#34;https://www.mydlink.com/entrance&#34; title=&#34;Site MyDlink&#34;&gt;MyDlink&lt;/a&gt; permitir que você veja essa câmera remotamente, ele não suporta nenhum tipo de gravação ou armazenamento de imagens. É aqui que o Sensr.net entra. Nosso serviço permite armazenar automaticamente as imagens captadas no último mês. Este artigo vai ajudar você a configurar sua câmera DCS-5010L para que você veja tudo o que se passa com as suas coisas enquanto você não está olhando!&lt;/p&gt;
-
-&lt;p&gt;Também vou mostrar como configurar a câmera para enviar imagens para o site do &lt;a href=&#34;https://sensr.net/&#34; title=&#34;Sensr.net&#34;&gt;Sensr.net&lt;/a&gt;, para que você tire partido de todas as funcionalidades do nosso serviço, como o armazenamento, o compartilhamento, e os alertas.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Resumo&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Configure o seu serviço &lt;a href=&#34;https://www.mydlink.com/entrance&#34; title=&#34;Serviço MyDlink&#34;&gt;MyDlink&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Apresente sua câmera ao Sensr.net&lt;/li&gt;
-&lt;li&gt;Apresente o Sensr.net à sua câmera&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Detalhes&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Passo 1:&lt;/strong&gt; Para configurar a câmera, utilize o CD e as instruções disponibilizados em conjunto com a câmera. Tudo o que você precisa de fazer é conectar a câmera ao seu roteador e correr o software do CD. Você vai acabar por criar uma conta no site do MyDlink que vai dar acesso à sua câmera a partir do site ou dos aplicativos MyDlink. Após este passo, você conseguirá acessar sua câmera e alterar suas configurações. A página de configuração de sua câmera vai ter mais ou menos esse aspeto:&lt;/p&gt;
-
-&lt;div id=&#34;attachment_3077&#34; style=&#34;width: 410px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/DCS-5010L-Admin-br.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3077&#34; src=&#34;http://blog.sensr.net/img/2014/09/DCS-5010L-Admin-br.png&#34; alt=&#34;Página Admin DCS-5010L&#34; width=&#34;400&#34; height=&#34;289&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/DCS-5010L-Admin-br.png 400w, http://blog.sensr.net/img/2014/09/DCS-5010L-Admin-br-300x216.png 300w&#34; sizes=&#34;(max-width: 400px) 100vw, 400px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Página Admin DCS-5010L
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Agora você já consegue fazer alterações às configurações da câmera através do seu navegador. Se o que você pretende é assistir às filmagens em tempo real a partir de sua casa ou através do site MyDlink, então não será necessário fazer mais nada. (Existem outras configurações, como conexão sem fios e tamanho da imagem, que você pode alterar diretamente na interface, mas que eu não vou abordar nesse artigo.)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Adicione uma nova câmera à sua conta Sensr.net&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Passo 2:&lt;/strong&gt; Faça o login no Sensr.net, utilizando o seu email e a sua senha. Se ainda não possui uma conta, você pode &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34; title=&#34;Cadastro gratuito no Sensr.net&#34;&gt;criar uma gratuitamente na página de inscrição&lt;/a&gt;. Depois de fazer login, clique no botão verde &lt;strong&gt;Add Camera&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;div id=&#34;attachment_3061&#34; style=&#34;width: 1013px&#34; class=&#34;wp-caption alignnone&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camerabr.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3061&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camerabr.png&#34; alt=&#34;Clique no botão verde&#34; width=&#34;1003&#34; height=&#34;339&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camerabr.png 1003w, http://blog.sensr.net/img/2014/09/sensr-add-camerabr-300x101.png 300w&#34; sizes=&#34;(max-width: 1003px) 100vw, 1003px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Clique no botão verde
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Na página seguinte, você vai poder escolher o título (ou nome) da câmera, o fuso horário, a privacidade e o modelo. O título deve descrever o que a câmera está filmando. O título mais popular no Sensr.net é &lt;strong&gt;Porta da Frente&lt;/strong&gt;, que nos dá uma ideia de como os usuários utilizam o nosso site. Apesar de nós gerarmos um nome genérico para sua câmera baseado no login, você pode dar qualquer nome à sua câmera. O fuso horário é muito importante. Ele é utilizado para determinar a vista diária dos arquivos. Por padrão, as câmeras são privadas, o que significa que apenas você tem acesso a elas. Se quiser que sua câmera seja pública, você pode alterar essa configuração aqui. O modelo da câmera apenas indica qual o modelo que está sendo configurado. Nesse caso, o modelo é DCS-5010L.&lt;/p&gt;
-
-&lt;div id=&#34;attachment_3062&#34; style=&#34;width: 1009px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/add-camera-detailsbr.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3062&#34; src=&#34;http://blog.sensr.net/img/2014/09/add-camera-detailsbr.png&#34; alt=&#34;Dê um nome à sua câmera e partilhe alguns detalhes&#34; width=&#34;999&#34; height=&#34;491&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/add-camera-detailsbr.png 999w, http://blog.sensr.net/img/2014/09/add-camera-detailsbr-300x147.png 300w&#34; sizes=&#34;(max-width: 999px) 100vw, 999px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Dê um nome à sua câmera e compartilhe alguns detalhes
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Depois de preencher todos os detalhes e clicar no link &lt;strong&gt;Next Step&lt;/strong&gt;, nós vamos criar algumas credenciais FTP para você. Será necessário introduzir esses dados na sua câmera no próximo passo. Os dados com mais importância são:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Servidor FTP&lt;/li&gt;
-&lt;li&gt;Nome de usuário&lt;/li&gt;
-&lt;li&gt;Senha&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Mantenha essa janela aberta ou copie os dados, uma vez que você vai precisar deles em breve. Você pode recuperar esses dados, a qualquer momento, na página de detalhes da câmera.&lt;/p&gt;
-
-&lt;div id=&#34;attachment_3046&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-ftp-1024x708.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3046&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-ftp-1024x708.png&#34; alt=&#34;Credenciais FTP&#34; width=&#34;1024&#34; height=&#34;708&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-ftp-1024x708.png 1024w, http://blog.sensr.net/img/2014/09/sensr-add-camera-ftp-1024x708-300x207.png 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Credenciais FTP
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Apresente sua câmera ao Sensr.net&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Passo 3:&lt;/strong&gt; Agora é necessário configurar sua câmera para enviar imagens para o Sensr.net. Volte à página da DCS-5010L, fazendo o login no site MyDlink e clicando no link de configuração. Clique em “SETUP” no menu superior e, depois, em “FTP”, na lateral. Você vai ser encaminhado para essa página:&lt;/p&gt;
-
-&lt;div id=&#34;attachment_3078&#34; style=&#34;width: 330px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/FTP-DCS-5010L-BR.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3078&#34; src=&#34;http://blog.sensr.net/img/2014/09/FTP-DCS-5010L-BR.png&#34; alt=&#34;Página Configuração FTP DCS-5010L&#34; width=&#34;320&#34; height=&#34;298&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/FTP-DCS-5010L-BR.png 320w, http://blog.sensr.net/img/2014/09/FTP-DCS-5010L-BR-300x279.png 300w&#34; sizes=&#34;(max-width: 320px) 100vw, 320px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Página Configuração FTP DCS-5010L
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;As setas vermelhas mostram os parâmetros que devem ser configurados. No campo Host Name, introduza o servidor FTP que fornecemos na página “Add Camera” no Sensr.net. Copie também o usuário e a senha. Escolha “Passive Mode”, uma vez que o Sensr.net suporta apenas o modo FTP passivo.&lt;/p&gt;
-
-&lt;p&gt;É também necessário configurar sua câmera para enviar imagens para o Sensr.net periodicamente. Para isso, selecione “Enable uploading to the FTP server” e confirme que “Always” e “1 Frames/Second” estão também selecionados. Estas são as configurações padrão e funcionam bem com o Sensr.net. As configurações padrão para o nome do ficheiro também são bem suportadas pelo serviço, por isso não existe necessidade de alterar.&lt;/p&gt;
-
-&lt;p&gt;Não se esqueça de clicar no botão “Save Settings” localizado no topo da página. Após realizar este passo, a sua câmera DCS-5010L já estará enviando imagens para o Sensr.net.&lt;/p&gt;
-
-&lt;p&gt;Agora a configuração está terminada. Pode fechar a janela do navegador que mostra as configurações de sua câmera e voltar para o Sensr.net. Clique no botão &lt;strong&gt;Next Step&lt;/strong&gt; para ver as imagens enviadas pela sua câmera. Você verá uma página assim:&lt;/p&gt;
-
-&lt;div id=&#34;attachment_3050&#34; style=&#34;width: 997px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-successo.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3050&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-successo.png&#34; alt=&#34;Sucesso!&#34; width=&#34;987&#34; height=&#34;793&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-successo.png 987w, http://blog.sensr.net/img/2014/09/sensr-add-camera-successo-300x241.png 300w&#34; sizes=&#34;(max-width: 987px) 100vw, 987px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Sucesso!
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Agora que a sua câmera já está configurada, existem outras coisas que você pode fazer:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Adicionar alertas de movimento por SMS ou email&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://sensr.net/blog/2012/04/11/guest-access-for-sensr-net-cameras/&#34; title=&#34;Acesso de outros usuários a uma câmera privada&#34;&gt;Convidar outros usuários para ver a sua câmera&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://sensr.net/blog/2011/02/27/embed-your-sensr-net-cameras-live-view/&#34; title=&#34;Incorporar o streaming de vídeo em tempo real&#34;&gt;Incorporar o streaming de vídeo em tempo real no seu blog ou outro site&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Criar um clipe de vídeo e compartilhar no Facebook, Twitter ou YouTube&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Se tiver alguma dificuldade ou pergunta, clique no botão de Feedback no lado direito de qualquer uma das páginas do Sensr.net e coloque a sua questão. Geralmente, nós nos esforçamos por responder no prazo máximo de 24h horas.&lt;/p&gt;
-</description>
     </item>
     
   </channel>

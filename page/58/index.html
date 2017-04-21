@@ -3,8 +3,8 @@
     <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="Hugo 0.17" />
-    <title>Sensr.net Blog | Watch your Stuff!</title>
+    <meta name="generator" content="Hugo 0.18.1" />
+    <title>Sensr.net Blog | Watch your Stuff!</title> 
     
     
     
@@ -12,11 +12,11 @@
     <meta name="keywords" content='default,keywords,if,no,front,matter' />
     
     
-    <link href="http://blog.sensr.net/index.xml" rel="alternate" type="application/rss+xml" title="Sensr.net Blog | Watch your Stuff!" />
     <link rel="stylesheet" href="http://blog.sensr.net/css/bootstrap.min.css" />
     <link rel="stylesheet" href="http://blog.sensr.net/css/highlightjs-themes/androidstudio.css" />
     <link rel="stylesheet" href="http://blog.sensr.net/css/font-awesome.min.css" />
     <link rel="stylesheet" href="http://blog.sensr.net/css/phlat.css" />
+    <link rel="stylesheet" href="http://blog.sensr.net/css/cta.css" />
     
         
     
@@ -47,10 +47,37 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">Sensr.net Blog | Watch your Stuff!</a>
+            <a class="navbar-brand" href="/">
+				<img src="/img/logo-1-4-12.png" alt="Sensr.net Cloud DVR for your Security camera"/>
+			</a>
         </div>
+		
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a href="/archives/">
+                            Archives
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://sensr.net/cameras/public">
+                            Public Cameras
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://sensr.net/auth/users/sign_up">
+                            Try Sensr.net Free
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://sensr.net/contact">
+                            Contact
+                        </a>
+                    </li>
                 
             </ul>
         </div>
@@ -64,57 +91,22 @@
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://blog.sensr.net/2011/01/24/panasonic-bl-c230a-on-sensr/">Panasonic BL-C230A Network Camera on Sensr.net</a></h1>
+                                <h1><a href="http://blog.sensr.net/2011/01/20/setting-up-sensr-to-monitor-a-trendnet-tv-ip110w/">Setting up Sensr.net to monitor a Trendnet TV-IP110W</a></h1>
                                 <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>January 25, 2011</li>
-                                    <li><i class="fa fa-user"></i>Adam Beguelin</li>
-                                </ul>
-                                <div class="separator" style="clear: both; text-align: center;">
-  <a style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" href="http://www.amazon.com/gp/product/B002JM5JSU?ie=UTF8&tag=sensr-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B002JM5JSU"><img class="alignleft" style="border: 0pt none;" title="Panasonic BL-C230A" src="http://4.bp.blogspot.com/_yVvkcbKGc_g/TT2gF-Jl26I/AAAAAAAACUU/xFgwwubDq2E/s320/41s9dNw85QL._SL160_.jpg" border="0" alt="Panasonic BL-C230A on Sensr.net" width="139" height="160" /></a>
-</div>
-
-<p>The <a href="http://www.amazon.com/gp/product/B002JM5JSU?ie=UTF8&amp;tag=sensr-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B002JM5JSU">Panasonic BL-C230A Wireless Internet Security Camera</a> <img style="border: medium none ! important; margin: 0px ! important;" src="http://www.assoc-amazon.com/e/ir?t=sensr-20&l=as2&o=1&a=B002JM5JSU" border="0" alt="" width="1" height="1" />is a cute little PTZ (pan/tilt/zoom) camera. It works in wired and wireless mode. One feature that some of our users like is the <strong>Privacy</strong> button on top. It looks a bit like a snooze button on an alarm clock. When you push this button the camera&#8217;s LED turns from green to red. Indicating the camera has stopped sending images. Hit the button again, and the camera&#8217;s light turns green and images are once again being captured.</p>
-                                <a class="btn btn-custom" href="http://blog.sensr.net/2011/01/24/panasonic-bl-c230a-on-sensr/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://blog.sensr.net/2011/01/22/ftp-pasv-versus-port/">FTP: PASV versus PORT</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>January 23, 2011</li>
-                                    <li><i class="fa fa-user"></i>Adam Beguelin</li>
-                                </ul>
-                                <p><strong>Short Answer</strong></p>
-
-<p>Use PASV when possible.  PASV tells the server to passively accept data connections from the client.</p>
-
-<p><strong>The Details</strong></p>
-
-<p>FTP is one of those ancient protocols that still gets a decent amount of usage these days.    At <a href="http://sensr.net/">sensr.net</a> we support FTP uploads from IP cameras.   The camera interfaces all give you the option to set PASV or PORT mode.  Typically there is a check box that says something like <span class="Apple-style-span" style="font-family: 'Courier New', Courier, monospace;"><strong>Passive FTP</strong></span>.</p>
-                                <a class="btn btn-custom" href="http://blog.sensr.net/2011/01/22/ftp-pasv-versus-port/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://blog.sensr.net/2011/01/21/setting-up-an-axis-p1344-camera-on-sensr/">Setting up an Axis P1344 Camera on Sensr</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>January 22, 2011</li>
-                                    <li><i class="fa fa-user"></i>Adam Beguelin</li>
+                                    <li><i class="fa fa-calendar"></i>January 20, 2011</li>
+                                    <li><i class="fa fa-user"></i>yacin</li>
                                 </ul>
                                 <div style="text-align: left;" dir="ltr">
-  <a href="http://sensr.net/">Sensr.net</a> makes it easy to Watch Your Stuff with an Internet-enabled camera.<br /> The <a href="http://www.amazon.com/gp/product/B002XRUCAQ?ie=UTF8&tag=sensr-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B002XRUCAQ">AXIS P1344 Network Camera</a><img style="border: medium none ! important; margin: 0px ! important;" src="http://www.assoc-amazon.com/e/ir?t=sensr-20&l=as2&o=1&a=B002XRUCAQ" border="0" alt="" width="1" height="1" /> is an excellent high end camera available for just over $800 one such camera on Amazon ($809 in January 2011). This article takes you through the steps to add a new camera to your Sensr account and program your Axis P1344 to send its images there. Many other brands of Network Cameras (both wired and wireless) have FTP-upload capabilities too. If you have one of them, you may find this article helpful in setting it up.&nbsp;</p> 
+  <a href="http://sensr.net/">Sensr.net</a> makes it easy to Watch Your Stuff with an Internet-enabled Wireless camera. The <a href="http://www.amazon.com/gp/product/B00125KR1E?ie=UTF8&tag=sensr-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=B00125KR1E">Trendnet TV-IP110W</a> is one such camera that is often available on Amazon for a good price ($67 in January 2011). This article takes you through the steps to add a new camera to your Sensr account and program your Trendnet TV-IP110W to send its images there. Many other brands of Network Cameras (both wired and wireless) have FTP-upload capabilities too. If you have one of them, you may find this article helpful in setting it up.&nbsp;</p> 
   
   <div class="separator" style="clear: both; text-align: center;">
-    <a style="margin-left: 1em; margin-right: 1em;" href="http://www.amazon.com/gp/product/B002XRUCAQ?ie=UTF8&tag=sensr-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B002XRUCAQ"><img src="http://3.bp.blogspot.com/_yVvkcbKGc_g/TTkyc-0zBkI/AAAAAAAACS8/yzBUTK4z98w/s400/axis+p1344.png" border="0" alt="" width="400" height="129" /></a>
+    <a style="margin-left: 1em; margin-right: 1em;" href="http://www.amazon.com/gp/product/B00125KR1E?ie=UTF8&tag=sensr-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=B00125KR1E"><img class="aligncenter" style="border: 0pt none;" src="http://3.bp.blogspot.com/_VV305OOlwYw/TTh1OKB0S5I/AAAAAAAAANc/Pa2u7cQTtfc/s320/trendnet-tvip110w.jpg" border="0" alt="" width="320" height="320" /></a>
   </div>
   
 
-<p><p>
-    
-  </p>
-                                <a class="btn btn-custom" href="http://blog.sensr.net/2011/01/21/setting-up-an-axis-p1344-camera-on-sensr/" role="button">Read More</a>
+<p><div style="margin: 0px; text-align: left;">
+    <strong> </strong><br /> <strong></p>
+                                <a class="btn btn-custom" href="http://blog.sensr.net/2011/01/20/setting-up-sensr-to-monitor-a-trendnet-tv-ip110w/" role="button">Read More</a>
                             </div>
                         </div>
                     
@@ -128,8 +120,6 @@
                     
                 </div>
                 <div class="col-md-4 col-md-offset-4" style="text-align: right; padding-right: 0px">
-                    
-                        <a class="btn btn-default" href="/page/59/" role="button" style="border-radius: 0px; display: block">Older</a>
                     
                 </div>
             </div>
@@ -159,15 +149,15 @@
         <h5>Recent Posts</h5>
         <ul class="list-unstyled posts-recent">
             
-                <li><a href="http://blog.sensr.net/2016/12/foscam-outdoor/">foscam outdoor</a></li>
+                <li><a href="http://blog.sensr.net/2017/04/google-wifi-hack-connecting-to-old-static-ips/">Google Wifi hack: Connecting to old static IPs</a></li>
+            
+                <li><a href="http://blog.sensr.net/2017/04/how-to-configure-a-foscam-fi9900p-outdoor-camera-from-mac-or-linux/">How to configure a Foscam FI9900P Outdoor Camera from Mac or Linux</a></li>
+            
+                <li><a href="http://blog.sensr.net/2017/04/how-to-do-port-forwarding-with-eero/">How to do port forwarding with eero</a></li>
+            
+                <li><a href="http://blog.sensr.net/2017/02/foscam-offline-why-cant-i-view-my-camera-live/">Foscam offline, Why can&#39;t I view my camera live?</a></li>
             
                 <li><a href="http://blog.sensr.net/2016/12/5-ways-to-minimize-iot-vulnerabilities-in-your-smart-home-network/">5 Ways To Minimize IoT Vulnerabilities In Your Smart Home Network</a></li>
-            
-                <li><a href="http://blog.sensr.net/2016/12/embedding-democameras/">embedding democameras</a></li>
-            
-                <li><a href="http://blog.sensr.net/2016/12/learning-spanish/">learning spanish</a></li>
-            
-                <li><a href="http://blog.sensr.net/2016/12/alfa-r36-awus036nh-network-scan-not-working/">Alfa R36 AWUS036NH Network Scan Not Working</a></li>
             
         </ul>
     </div>
@@ -204,8 +194,11 @@
             </div>
         </div>
         <footer class="footer">
+
+	
     <div class="container">
         <div class="row">
+
             <div class="col-md-8 col-xs-6">
     <ul class="list-inline links">
         
@@ -232,9 +225,11 @@
         <div class="row">
             <div class="col-md-12">
                 <p>
+
 						<em>Sensr.net, Inc. © 2009-2016</em>
 						Follow us on <a id="icon-twitter" href="http://www.twitter.com/sensr" target="_blank" title="Follow Sensr on Twitter" name="icon-twitter">Twitter</a> 
 						<a id="icon-facebook" href="http://www.facebook.com/sensrnet" target="_blank" title="Like Sensr on Facebook" name="icon-facebook">Facebook</a>
+			<a href='https://sensr.net/'> <img src="/img/logo-1-4-12.png"></a>
                 </p>
             </div>
         </div>

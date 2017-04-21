@@ -91,6 +91,52 @@
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
+                                <h1><a href="http://blog.sensr.net/2017/04/google-wifi-hack-connecting-to-old-static-ips/">Google Wifi hack: Connecting to old static IPs</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 21, 2017</li>
+                                    <li><i class="fa fa-user"></i>Adam Beguelin</li>
+                                </ul>
+                                <figure >
+    <a href="/2017/04/google-wifi-hack-connecting-to-old-static-ips/">
+        <img src="/img/gwifi.png" />
+    </a>
+    
+    <figcaption>
+        <h4>Google Wifi Router</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>Are you setting up a new Wifi router and have a bunch of devices with static IPs? When converting to the Gogle Wifi
+router, I discovered a cool hack to get to your devices with their old IP addresses even though the router is using
+a new subnet or IP range.</p>
+
+<p>The <a href="https://madeby.google.com/wifi/">Google Wifi</a> is a cool way to blanket your home with wifi. Place multiple
+nodes around your home and the create a mesh network among the nodes. Each node has multiple ethernet jacks. Only
+the primary node needs to be plugged into your router. On the secondary nodes, the ethernet jacks allow you to
+connect ethernet devices to the network directly. Essentially the nodes act as if they are wired. You can plug a
+printer or camera or desktop computer into the nodes. One drawback to the Google Wifi is that you <em>can&rsquo;t</em> connect
+them using a wired network. This is contrast to the competing <a href="https://eero.com">eero</a> system which allows the nodes
+to be connected via a wired network as well as using the mesh network.</p>
+
+<h2 id="what-about-those-static-ips">What about those static IPs?</h2>
+
+<p>One of the challenges to using the Google Wifi is you need to convert all of your devices to the new network. In my
+case I was using the private subnet 10.1.1.x. If you&rsquo;re using DCHP this isn&rsquo;t a big deal, but in my case I had a
+bunch of cameras with fixed IP addreses like 10.1.1.60 so I could connect to them directly and also setup port
+forwarding for external access. My main reason for doing this was so I could easily connect to the cameras directly.
+If you use DHCP, the IP addresses of the cameras will change over time and if you want to connect to them, you need
+to <em>rediscover</em> the camera&rsquo;s IP address, which can be a pain.</p>
+
+<p></p>
+                                <a class="btn btn-custom" href="http://blog.sensr.net/2017/04/google-wifi-hack-connecting-to-old-static-ips/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
                                 <h1><a href="http://blog.sensr.net/2017/04/how-to-configure-a-foscam-fi9900p-outdoor-camera-from-mac-or-linux/">How to configure a Foscam FI9900P Outdoor Camera from Mac or Linux</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>April 11, 2017</li>
@@ -185,31 +231,6 @@ works with eero:</p>
                             </div>
                         </div>
                     
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://blog.sensr.net/2017/02/foscam-offline-why-cant-i-view-my-camera-live/">Foscam offline, Why can&#39;t I view my camera live?</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>February 24, 2017</li>
-                                    <li><i class="fa fa-user"></i>Adam Beguelin</li>
-                                </ul>
-                                <p><img style="width:50%" src="/img/foscloud-failed-to-connect.png" class="img-rounded" alt="Foscam Cloud Connection Problems"  ></p>
-
-<p>I&rsquo;ve setup two of the recent Foscam camera models, a Foscam FI9900P and the <a href="/2016/11/ftp-setup-on-the-foscam-wireless-security-camera-1920tvl/">Foscam
-1920TVL</a>. Both support the Foscam cloud and the setup goes
-pretty well. More on that another time. But frequently when I launch the <a href="https://itunes.apple.com/us/app/foscam/id924381688?mt=8">Foscam iOS
-app</a> and the cameras are showing as offline when I know that they are
-online. How do I know that? I&rsquo;ve connected the cameras to Sensr.net and they continue to upload and show live on
-<a href="https://sensr.net">Sensr.net</a>.</p>
-
-<p><strong>We do support live streams though, so if you&rsquo;re running into the <em>Failed to connect</em> issue and can&rsquo;t see your camera, try setting up your camera on Sensr.net and viewing the live view through us!</strong></p>
-
-<div class="cta"> <a href="https://sensr.net/auth/users/sign_up"> <button> Sign up for free! </button> </a> </div>
-
-<p></p>
-                                <a class="btn btn-custom" href="http://blog.sensr.net/2017/02/foscam-offline-why-cant-i-view-my-camera-live/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
                     
     <div class="row">
         <div class="col-md-12">
@@ -249,6 +270,8 @@ online. How do I know that? I&rsquo;ve connected the cameras to Sensr.net and th
         <h5>Recent Posts</h5>
         <ul class="list-unstyled posts-recent">
             
+                <li><a href="http://blog.sensr.net/2017/04/google-wifi-hack-connecting-to-old-static-ips/">Google Wifi hack: Connecting to old static IPs</a></li>
+            
                 <li><a href="http://blog.sensr.net/2017/04/how-to-configure-a-foscam-fi9900p-outdoor-camera-from-mac-or-linux/">How to configure a Foscam FI9900P Outdoor Camera from Mac or Linux</a></li>
             
                 <li><a href="http://blog.sensr.net/2017/04/how-to-do-port-forwarding-with-eero/">How to do port forwarding with eero</a></li>
@@ -256,8 +279,6 @@ online. How do I know that? I&rsquo;ve connected the cameras to Sensr.net and th
                 <li><a href="http://blog.sensr.net/2017/02/foscam-offline-why-cant-i-view-my-camera-live/">Foscam offline, Why can&#39;t I view my camera live?</a></li>
             
                 <li><a href="http://blog.sensr.net/2016/12/5-ways-to-minimize-iot-vulnerabilities-in-your-smart-home-network/">5 Ways To Minimize IoT Vulnerabilities In Your Smart Home Network</a></li>
-            
-                <li><a href="http://blog.sensr.net/2016/12/alfa-r36-awus036nh-network-scan-not-working/">Alfa R36 AWUS036NH Network Scan Not Working</a></li>
             
         </ul>
     </div>

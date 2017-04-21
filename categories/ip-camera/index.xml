@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ip Camera on Sensr.net Blog | Watch your Stuff!</title>
+    <link>http://blog.sensr.net/categories/ip-camera/index.xml</link>
+    <description>Recent content in Ip Camera on Sensr.net Blog | Watch your Stuff!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://blog.sensr.net/categories/ip-camera/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Google Wifi hack: Connecting to old static IPs</title>
+      <link>http://blog.sensr.net/2017/04/google-wifi-hack-connecting-to-old-static-ips/</link>
+      <pubDate>Fri, 21 Apr 2017 08:58:34 -0400</pubDate>
+      
+      <guid>http://blog.sensr.net/2017/04/google-wifi-hack-connecting-to-old-static-ips/</guid>
+      <description>&lt;figure &gt;
+    &lt;a href=&#34;http://blog.sensr.net/2017/04/google-wifi-hack-connecting-to-old-static-ips/&#34;&gt;
+        &lt;img src=&#34;http://blog.sensr.net/img/gwifi.png&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Google Wifi Router&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Are you setting up a new Wifi router and have a bunch of devices with static IPs? When converting to the Gogle Wifi
+router, I discovered a cool hack to get to your devices with their old IP addresses even though the router is using
+a new subnet or IP range.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://madeby.google.com/wifi/&#34;&gt;Google Wifi&lt;/a&gt; is a cool way to blanket your home with wifi. Place multiple
+nodes around your home and the create a mesh network among the nodes. Each node has multiple ethernet jacks. Only
+the primary node needs to be plugged into your router. On the secondary nodes, the ethernet jacks allow you to
+connect ethernet devices to the network directly. Essentially the nodes act as if they are wired. You can plug a
+printer or camera or desktop computer into the nodes. One drawback to the Google Wifi is that you &lt;em&gt;can&amp;rsquo;t&lt;/em&gt; connect
+them using a wired network. This is contrast to the competing &lt;a href=&#34;https://eero.com&#34;&gt;eero&lt;/a&gt; system which allows the nodes
+to be connected via a wired network as well as using the mesh network.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-about-those-static-ips&#34;&gt;What about those static IPs?&lt;/h2&gt;
+
+&lt;p&gt;One of the challenges to using the Google Wifi is you need to convert all of your devices to the new network. In my
+case I was using the private subnet 10.1.1.x. If you&amp;rsquo;re using DCHP this isn&amp;rsquo;t a big deal, but in my case I had a
+bunch of cameras with fixed IP addreses like 10.1.1.60 so I could connect to them directly and also setup port
+forwarding for external access. My main reason for doing this was so I could easily connect to the cameras directly.
+If you use DHCP, the IP addresses of the cameras will change over time and if you want to connect to them, you need
+to &lt;em&gt;rediscover&lt;/em&gt; the camera&amp;rsquo;s IP address, which can be a pain.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;However, with the Google Wifi, finding the IP addresses of devices on the network is now very easy. The accompaning
+Google Wifi app will let you see all the devices connected to your network. You can give them nicknames, and so you
+can easily find the device when the IP address changes.&lt;/p&gt;
+
+&lt;p&gt;For most devices the switchover is easy, once the Google Wifi is up with the same SSID and password as your old
+network, the cameras will switch over. However, if a camera is setup using a fixed (static) IP address, you&amp;rsquo;re
+stuck. You can do a factory reset on the camera and set it up on the new subnet, but you&amp;rsquo;ll have to change all the
+settings again to get it back into the state it was in before. For instance if you use
+&lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt;, you&amp;rsquo;ll have to reconfigure the FTP uploading, which is a hassle. You can connect to
+the camera directly using ethernet and reset the IP address or change it to DHCP, but if the camera is already
+using a static IP, I thought there would be no way to get to it with the new Google Wifi router, but I was wrong.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s say you have a camera with a fixed IP but you&amp;rsquo;ve switched over to Google Wifi. Now you can&amp;rsquo;t get to the device
+since it&amp;rsquo;s using a different IP range, say 10.1.1.x. There is a way to connect directly to the camera even if it&amp;rsquo;s
+using a different IP range than what is being used on the wifi.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-camera-is-the-router&#34;&gt;The camera is the router&lt;/h2&gt;
+
+&lt;p&gt;The trick that worked for me was to use the IP address of the camera as the router address for my laptop. In my
+case I was able to connect to my camera over the Google WIFI network even though the old camera didn&amp;rsquo;t have an IP
+address on the Google Wifi subnet. My old network had the router IP of 10.1.1.1 and my camera had the IP of
+10.1.1.244. I could connect to 10.1.1.244 by setting the IP address of my laptop manually to 10.1.1.48 (48 is just
+random here, anything but 244 would work I think) and then setting the router IP on my laptop to 10.1.1.244. Since
+10.1.1.244 is the IP of the camera my laptop was sending packets to the camera directly. This seems like a neat
+trick that could save you a lot of hassle. In my case, cameras were mounted up high and I would need to get out a
+ladder to reach them.&lt;/p&gt;
+
+&lt;p&gt;Once I connected to the IP camera on 10.1.1.244 I then changed it&amp;rsquo;s network settings to use dhcp and now I can
+connect to it directly without having to mess with changing my IP.  Now everything is happy and running on the
+new Google Wifi network.&lt;/p&gt;
+
+&lt;p&gt;I haven&amp;rsquo;t tried this with other wifi routers, but I&amp;rsquo;m guessing it would work.&lt;/p&gt;
+
+&lt;h2 id=&#34;try-sensr-net-for-free&#34;&gt;Try Sensr.net for free&lt;/h2&gt;
+
+&lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;
+
+&lt;p&gt;If you do have an IP camera and want to record it in the cloud, give
+&lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt;Sensr.net&lt;/a&gt; a try. We work with most off the shelf cameras. As long as your
+camera can FTP JPEGs (and most can) then you can use our service.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
