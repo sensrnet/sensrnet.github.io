@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.sensr.net/2017/05/ouvis-zv1-camera-not-ready-for-prime-time/</loc>
+    <lastmod>2017-05-10T10:49:15-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.sensr.net/2017/04/google-wifi-hack-connecting-to-old-static-ips/</loc>
     <lastmod>2017-04-21T08:58:34-04:00</lastmod>
   </url>
@@ -1261,7 +1266,7 @@
   
   <url>
     <loc>http://blog.sensr.net/tags/ftp/</loc>
-    <lastmod>2017-04-11T09:59:35+04:00</lastmod>
+    <lastmod>2017-05-10T10:49:15-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1339,7 +1344,7 @@
   
   <url>
     <loc>http://blog.sensr.net/categories/how-to-guide/</loc>
-    <lastmod>2017-04-11T09:59:35+04:00</lastmod>
+    <lastmod>2017-05-10T10:49:15-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1435,7 +1440,7 @@
   
   <url>
     <loc>http://blog.sensr.net/tags/linux/</loc>
-    <lastmod>2017-04-11T09:59:35+04:00</lastmod>
+    <lastmod>2017-05-10T10:49:15-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1453,13 +1458,13 @@
   
   <url>
     <loc>http://blog.sensr.net/tags/mac/</loc>
-    <lastmod>2017-04-11T09:59:35+04:00</lastmod>
+    <lastmod>2017-05-10T10:49:15-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blog.sensr.net/tags/macos/</loc>
-    <lastmod>2017-04-11T09:59:35+04:00</lastmod>
+    <lastmod>2017-05-10T10:49:15-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1531,7 +1536,7 @@
   
   <url>
     <loc>http://blog.sensr.net/categories/network-cameras/</loc>
-    <lastmod>2017-04-11T09:59:35+04:00</lastmod>
+    <lastmod>2017-05-10T10:49:15-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1550,6 +1555,24 @@
   <url>
     <loc>http://blog.sensr.net/tags/open-source/</loc>
     <lastmod>2014-07-08T16:21:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/ouvis/</loc>
+    <lastmod>2017-05-10T10:49:15-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/categories/ouvis/</loc>
+    <lastmod>2017-05-10T10:49:15-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/ouvis-zv1/</loc>
+    <lastmod>2017-05-10T10:49:15-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1591,7 +1614,7 @@
   
   <url>
     <loc>http://blog.sensr.net/post/</loc>
-    <lastmod>2017-04-21T08:58:34-04:00</lastmod>
+    <lastmod>2017-05-10T10:49:15-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1651,7 +1674,7 @@
   
   <url>
     <loc>http://blog.sensr.net/categories/reviews/</loc>
-    <lastmod>2017-04-11T09:59:35+04:00</lastmod>
+    <lastmod>2017-05-10T10:49:15-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1675,7 +1698,7 @@
   
   <url>
     <loc>http://blog.sensr.net/tags/security-camera/</loc>
-    <lastmod>2017-04-11T09:59:35+04:00</lastmod>
+    <lastmod>2017-05-10T10:49:15-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1723,7 +1746,7 @@
   
   <url>
     <loc>http://blog.sensr.net/</loc>
-    <lastmod>2017-04-21T08:58:34-04:00</lastmod>
+    <lastmod>2017-05-10T10:49:15-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1925,7 +1948,7 @@
   
   <url>
     <loc>http://blog.sensr.net/tags/webcam/</loc>
-    <lastmod>2017-04-11T09:59:35+04:00</lastmod>
+    <lastmod>2017-05-10T10:49:15-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2010,6 +2033,12 @@
   <url>
     <loc>http://blog.sensr.net/categories/zombies/</loc>
     <lastmod>2016-11-21T21:59:35-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/zv1/</loc>
+    <lastmod>2017-05-10T10:49:15-04:00</lastmod>
     <priority>0</priority>
   </url>
   

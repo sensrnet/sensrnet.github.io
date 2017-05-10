@@ -9,6 +9,59 @@
     <atom:link href="http://blog.sensr.net/tags/mac/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Ouvis ZV1 Camera Not Ready for Prime Time</title>
+      <link>http://blog.sensr.net/2017/05/ouvis-zv1-camera-not-ready-for-prime-time/</link>
+      <pubDate>Wed, 10 May 2017 10:49:15 -0400</pubDate>
+      
+      <guid>http://blog.sensr.net/2017/05/ouvis-zv1-camera-not-ready-for-prime-time/</guid>
+      <description>&lt;figure &gt;
+    &lt;a href=&#34;https://www.amazon.com/veezon-Wireless-Camera-Android-iPhone/dp/B00WZOF9LE/sensr-20&#34;&gt;
+        &lt;img src=&#34;http://blog.sensr.net/img/ouvis-zv1.jpg&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Useless Ouvis ZV1&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;The Ouvis ZV1 camera is not ready for prime time. The only thing it&amp;rsquo;s good for is viewing the camera on your local
+network. You can&amp;rsquo;t view it remotely (no P2P viewing) and the FTP uploads don&amp;rsquo;t work so you can&amp;rsquo;t use it with
+&lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt;Sensr.net&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;
+
+&lt;p&gt;The only thing good about this camera is that it&amp;rsquo;s pretty easy to setup. If you have the app, you can get the camera
+going pretty easily. You do need to plug it into an ethernet jack on the same network as your phone&amp;rsquo;s wifi, but once
+you do that, the Ouvis app can find the camera and configure it.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;useless-ftp-config&#34;&gt;Useless FTP Config&lt;/h2&gt;
+
+&lt;p&gt;Unlike other cameras like the Tenvis or the Foscam, there is no P2P functionality.  This means you can&amp;rsquo;t watch
+the camera remotely unless you do some port forwarding magic.   Here at Sensr.net we don&amp;rsquo;t like to do port forwarding, we prefer to have our cameras push rather than have to &lt;a href=&#34;http://blog.sensr.net/2013/10/24/ip-camera-no-firewall-config/&#34;&gt;opening holes in a firewall.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Unfortunately the Ouvis ZV1 FTP doesn&amp;rsquo;t work.  You can configure it but you can&amp;rsquo;t test it or use it.  I have no idea what the FTP configuration does, maybe it sends the info back to China where they keep it for future use.  Who knows.  What they don&amp;rsquo;t do is allow you to upload images or videos to your own FTP server.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:30%&#34; src=&#34;http://blog.sensr.net/img/OuvisAddCamera.png&#34; class=&#34;img-rounded&#34; alt=&#34;Country selection Foscam Wireless Security Camera 1920TVL&#34; width=&#34;50&#34; &gt;
+&lt;img style=&#34;width:30%&#34; src=&#34;http://blog.sensr.net/img/OuvisFTP.png&#34; class=&#34;img-rounded&#34; alt=&#34;Country selection Foscam Wireless Security Camera 1920TVL&#34; width=&#34;50&#34; &gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;doesn-t-work-with-sensr-net&#34;&gt;Doesn&amp;rsquo;t work with Sensr.net&lt;/h2&gt;
+
+&lt;p&gt;To use Sensr.net you need to be able to FTP Jpeg images.  Thus the Ouvis is useless when it comes to using
+&lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt;Sensr.net&lt;/a&gt; or even viewing the camera remotely.&lt;/p&gt;
+
+&lt;h2 id=&#34;give-tenvis-a-try&#34;&gt;Give Tenvis a Try&lt;/h2&gt;
+
+&lt;p&gt;Intead of the Ouvis I would recommend &lt;a href=&#34;http://blog.sensr.net/2014/07/03/how-to-setup-the-tenvis-iprobot3-with-cloud-recording/&#34;&gt;trying the
+Tenvis&lt;/a&gt;. The setup is easy, it supports P2P
+viewing, and it works with &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt;Sensr.net&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>How to configure a Foscam FI9900P Outdoor Camera from Mac or Linux</title>
       <link>http://blog.sensr.net/2017/04/how-to-configure-a-foscam-fi9900p-outdoor-camera-from-mac-or-linux/</link>
       <pubDate>Tue, 11 Apr 2017 09:59:35 +0400</pubDate>

@@ -91,6 +91,44 @@
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
+                                <h1><a href="http://blog.sensr.net/2014/01/30/setup-d-link-dcs-5020l-recording-with-ftp-uploads-howto/">Setup D-Link DCS-5020L Recording with FTP Uploads HOWTO</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>January 31, 2014</li>
+                                    <li><i class="fa fa-user"></i>Adam Beguelin</li>
+                                </ul>
+                                <div id="attachment_2669" style="width: 385px" class="wp-caption alignleft">
+  <a href="/img/2014/01/DCS-5020L.jpg"><img class="size-full wp-image-2669" alt="DCS-5020L from D-Link" src="/img/2014/01/DCS-5020L.jpg" width="375" height="450" srcset="/img/2014/01/DCS-5020L.jpg 375w, /img/2014/01/DCS-5020L-250x300.jpg 250w" sizes="(max-width: 375px) 100vw, 375px" /></a>
+  
+  <p class="wp-caption-text">
+    DCS-5020L from D-Link
+  </p>
+</div>
+
+<p>The <a href="http://www.dlink.com/us/en/home-solutions/view/network-cameras/dcs-5020l-pan-tilt-day-night-network-camera" title="DCS-5020L">D-Link DCS 5020L</a> is one of their more popular models of camera.  It has night vision, pan and tilt, WiFi and it works with the mydlink service.  <a href="http://www.amazon.com/D-Link-Wireless-Surveillance-mydlink-Enabled-DCS-5020L/dp/B00CL8F98W/sensr-20" title="DCS 5020L on Amazon">The DCS 5020L is also pretty affordable at around $135</a> on Amazon these days.</p>
+
+<p><strong>Recording Needed</strong></p>
+
+<p>While the MyDlink service will let you view this camera remotely, it doesn&#8217;t support any kind of recording or saving of images. That&#8217;s where Sensr.net comes in.  We&#8217;ll save up to a month of archives automatically.  This blog post will show you how to setup the DCS-5020L so you can see what happened while you weren&#8217;t looking!</p>
+
+<p>I&rsquo;ll also show you how to push images to <a href="https://sensr.net">Sensr.net</a> so you can take advantage of all of our cool features, SMS and email alerts, 30 days of archiving, <a href="/2013/10/24/ip-camera-no-firewall-config/">no firewall config</a>, clip sharing, <a href="/2011/02/27/embed-your-sensr-net-cameras-live-view/">embedable live streams</a>, <a href="/2012/04/11/guest-access-for-sensr-net-cameras/">guest access</a>, etc.</p>
+
+<div class="cta"> <a href="https://sensr.net/auth/users/sign_up"> <button> Sign up for free! </button> </a> </div>
+
+<p><strong>Overview</strong></p>
+
+<ol>
+<li>Setup your <a href="http://www.mydlink.com" title="MyDlink Service">MyDlink</a> Service</li>
+<li>Tell Sensr.net about your camera</li>
+<li>Tell your camera about Sensr.net</li>
+</ol>
+
+<p></p>
+                                <a class="btn btn-custom" href="http://blog.sensr.net/2014/01/30/setup-d-link-dcs-5020l-recording-with-ftp-uploads-howto/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
                                 <h1><a href="http://blog.sensr.net/2014/01/27/share-your-camera-with-the-police/">Share Your Camera with the Police?</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>January 27, 2014</li>
@@ -112,47 +150,6 @@
                                 Our friend Bob Coggeshall wrote a nice post on how to use a webcam and a Raspberry Pi to create a Sensr.net backed security camera. Who doesn&#8217;t have an old webcam laying around? Now you can put it to good use.
 Thanks Bob!
                                 <a class="btn btn-custom" href="http://blog.sensr.net/2014/01/19/build-a-raspberry-pi-security-camera/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://blog.sensr.net/2013/12/10/how-to-configure-a-foscam-fi9821w-v2-from-mac-or-linux/">How to configure a Foscam FI9821W V2 from Mac or Linux</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>December 10, 2013</li>
-                                    <li><i class="fa fa-user"></i>Adam Beguelin</li>
-                                </ul>
-                                <figure >
-    <a href="https://www.amazon.com/Foscam-FI9821W-Megapixel-Wireless-Camera/dp/B01EVMF3I6/sensr-20">
-        <img src="/img/fi9821w-v2.jpg" />
-    </a>
-    
-    <figcaption>
-        <h4>Foscam FI9821W V2</h4>
-        
-    </figcaption>
-    
-</figure>
-
-
-<p>The <a href="http://www.amazon.com/Foscam-FI9821W-Megapixel-Wireless-Camera/dp/B00F3KWZW8/sensr-20" title="Foscam FI9821W V2">Foscam FI9821W V2 IP camera</a> is super popular these days. It&#8217;s about $150 on <a href="http://www.amazon.com/Foscam-FI9821W-Megapixel-Wireless-Camera/dp/B00F3KWZW8/sensr-20" title="Buy FI9821W V2 on Amazon">Amazon right now</a>. The instructions come with Windows and Mac setup software, but you really don&#8217;t need it. In this post I&#8217;ll show you how to configure the webcam without the software. _<strong>Be aware that the camera&#8217;s default port is 88.</strong>_ I wasted 30 minutes figuring this out, more on what this means later.</p>
-
-<p>I&rsquo;ll also show you how to push images to <a href="https://sensr.net">Sensr.net</a> so you can take advantage of all of our cool features, like SMS and email alerts, 30 days archiving, <a href="/2013/10/24/ip-camera-no-firewall-config/">no firewall config</a>, clip sharing, <a href="/2011/02/27/embed-your-sensr-net-cameras-live-view/">embedable live streams</a>, <a href="/2012/04/11/guest-access-for-sensr-net-cameras/">guest access</a>, etc.</p>
-
-<div class="cta"> <a href="https://sensr.net/auth/users/sign_up"> <button> Sign up for free! </button> </a> </div>
-
-<p><strong>Overview</strong></p>
-
-<ol>
-<li><span style="line-height: 16px;">Connect camera to your router and power it up</span></li>
-<li>Go to your router and find the camera&#8217;s IP address</li>
-<li>Point your browser at the camera&#8217;s IP address and configure it</li>
-<li>Tell Sensr.net about your camera</li>
-<li>Tell your camera about Sensr.net</li>
-</ol>
-
-<p></p>
-                                <a class="btn btn-custom" href="http://blog.sensr.net/2013/12/10/how-to-configure-a-foscam-fi9821w-v2-from-mac-or-linux/" role="button">Read More</a>
                             </div>
                         </div>
                     
@@ -197,6 +194,8 @@ Thanks Bob!
         <h5>Recent Posts</h5>
         <ul class="list-unstyled posts-recent">
             
+                <li><a href="http://blog.sensr.net/2017/05/ouvis-zv1-camera-not-ready-for-prime-time/">Ouvis ZV1 Camera Not Ready for Prime Time</a></li>
+            
                 <li><a href="http://blog.sensr.net/2017/04/google-wifi-hack-connecting-to-old-static-ips/">Google Wifi hack: Connecting to old static IPs</a></li>
             
                 <li><a href="http://blog.sensr.net/2017/04/how-to-configure-a-foscam-fi9900p-outdoor-camera-from-mac-or-linux/">How to configure a Foscam FI9900P Outdoor Camera from Mac or Linux</a></li>
@@ -204,8 +203,6 @@ Thanks Bob!
                 <li><a href="http://blog.sensr.net/2017/04/how-to-do-port-forwarding-with-eero/">How to do port forwarding with eero</a></li>
             
                 <li><a href="http://blog.sensr.net/2017/02/foscam-offline-why-cant-i-view-my-camera-live/">Foscam offline, Why can&#39;t I view my camera live?</a></li>
-            
-                <li><a href="http://blog.sensr.net/2016/12/5-ways-to-minimize-iot-vulnerabilities-in-your-smart-home-network/">5 Ways To Minimize IoT Vulnerabilities In Your Smart Home Network</a></li>
             
         </ul>
     </div>
