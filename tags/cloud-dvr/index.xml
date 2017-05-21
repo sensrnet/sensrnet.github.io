@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud Dvr on Sensr.net Blog | Watch your Stuff!</title>
+    <link>http://blog.sensr.net/tags/cloud-dvr/index.xml</link>
+    <description>Recent content in Cloud Dvr on Sensr.net Blog | Watch your Stuff!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://blog.sensr.net/tags/cloud-dvr/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>An Alternative to Nest Cam</title>
+      <link>http://blog.sensr.net/2017/05/an-alternative-to-nest-cam/</link>
+      <pubDate>Sun, 21 May 2017 09:00:05 -0400</pubDate>
+      
+      <guid>http://blog.sensr.net/2017/05/an-alternative-to-nest-cam/</guid>
+      <description>&lt;figure &gt;
+    
+        &lt;img src=&#34;http://blog.sensr.net/img/nest-cam.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Nest Cam Indoor HD Camera&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;No doubt about it, Nest Cam is easy to setup and use.  But there are a number of drawbacks to using Nest Cam
+that might entice you to try an alternative like &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt;.  Here are some reasons that you
+might want to try an alternative to Nest Cam.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Can&amp;rsquo;t use your own camera&lt;/li&gt;
+&lt;li&gt;Can&amp;rsquo;t mix and match camera models&lt;/li&gt;
+&lt;li&gt;The service is expensive&lt;/li&gt;
+&lt;li&gt;No APIs for accessing your footage&lt;/li&gt;
+&lt;li&gt;Locked in to one vendor&lt;/li&gt;
+&lt;li&gt;Limited video clips&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you&amp;rsquo;re interested in using Sensr.net as an alternative to using Nest Cam, give us a try.  We have a
+free trial of course.  Any you can use almost any camera with our service.&lt;/p&gt;
+
+&lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Now let&amp;rsquo;s go into the details of why you might want an alternative to Nest Cam.&lt;/p&gt;
+
+&lt;h1 id=&#34;flexible-camera-choice&#34;&gt;Flexible camera choice&lt;/h1&gt;
+
+&lt;p&gt;For a long time with Nest Cam you had only one choice, an indoor camera. Now Nest Cam comes in two flavors, indoor
+and outdoor. But what if you don&amp;rsquo;t like these solutions? Besides being expensive, the form factor just might not fit
+your needs. What if you want a dome camera? Or a camera that you can pan, tilt, and zoom? PTZ (pan, tilt, zoom)
+cameras are very common but Nest doesn&amp;rsquo;t have one. What if you want a telephoto lens or a spy camera? Sorry, but
+with Nest Cam you&amp;rsquo;re out of luck.&lt;/p&gt;
+
+&lt;p&gt;You can get HD security cameras on Amazon for under $40. Nest Cam starts at $199. If you&amp;rsquo;re technically savvy and
+don&amp;rsquo;t mind doing a little work in setting up the camera, you can use a service like
+&lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt;Sensr.net&lt;/a&gt; for your Cloud DVR with your $40 camera and save a lot of money.&lt;/p&gt;
+
+&lt;p&gt;With Sensr.net you can even use cameras from different manufacturers.  You don&amp;rsquo;t need to be stuck to one brand.&lt;/p&gt;
+
+&lt;h1 id=&#34;limited-video-clips&#34;&gt;Limited Video Clips&lt;/h1&gt;
+
+&lt;p&gt;With Nest Cam you&amp;rsquo;re limited to 3 hours of clips. On Sensr.net we don&amp;rsquo;t limit the number of &lt;a href=&#34;http://blog.sensr.net/2014/04/29/making-clips-on-sensr-net/&#34;&gt;clips you
+make&lt;/a&gt;. We store them on our servers as long as you have a valid account. We
+also email you a link to download the clip every time you make one. You&amp;rsquo;ll have your own copy and can do anything
+you want with it. Give it to the police, stick it in your Dropbox folder for future reference, etc.&lt;/p&gt;
+
+&lt;h1 id=&#34;flexible-and-programmatic-access&#34;&gt;Flexible and Programmatic access&lt;/h1&gt;
+
+&lt;p&gt;With Sensr.net you can use &lt;a href=&#34;http://blog.sensr.net/2013/02/07/new-sensr-net-api-v3/&#34;&gt;our APIs&lt;/a&gt; to write code to access your camera data
+that is stored in the cloud. Don&amp;rsquo;t like how we generate clips? Write your own code to do a better job. Sure, this is
+not a feature that most users will want, but we think it&amp;rsquo;s kind of cool.&lt;/p&gt;
+
+&lt;h1 id=&#34;limited-storage&#34;&gt;Limited storage&lt;/h1&gt;
+
+&lt;p&gt;Nest Cam will give you 10 days of storage for $10. For the same price with Sensr.net you get a month of storage. We
+also give you unlimited storage of favorites images and clips. Check out &lt;a href=&#34;https://sensr.net/plans&#34;&gt;our pricing&lt;/a&gt; for
+more details. We have annual plans that save you even more.&lt;/p&gt;
+
+&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
+
+&lt;p&gt;If you like the idea of using a Cloud DVR for your security cameras, but don&amp;rsquo;t want to be locked in to one
+camera brand, make sure you explore other alternatives and give Sensr.net a try.&lt;/p&gt;
+
+&lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

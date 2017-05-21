@@ -9,6 +9,88 @@
     <atom:link href="http://blog.sensr.net/categories/network-cameras/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>An Alternative to Nest Cam</title>
+      <link>http://blog.sensr.net/2017/05/an-alternative-to-nest-cam/</link>
+      <pubDate>Sun, 21 May 2017 09:00:05 -0400</pubDate>
+      
+      <guid>http://blog.sensr.net/2017/05/an-alternative-to-nest-cam/</guid>
+      <description>&lt;figure &gt;
+    
+        &lt;img src=&#34;http://blog.sensr.net/img/nest-cam.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Nest Cam Indoor HD Camera&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;No doubt about it, Nest Cam is easy to setup and use.  But there are a number of drawbacks to using Nest Cam
+that might entice you to try an alternative like &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt;.  Here are some reasons that you
+might want to try an alternative to Nest Cam.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Can&amp;rsquo;t use your own camera&lt;/li&gt;
+&lt;li&gt;Can&amp;rsquo;t mix and match camera models&lt;/li&gt;
+&lt;li&gt;The service is expensive&lt;/li&gt;
+&lt;li&gt;No APIs for accessing your footage&lt;/li&gt;
+&lt;li&gt;Locked in to one vendor&lt;/li&gt;
+&lt;li&gt;Limited video clips&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you&amp;rsquo;re interested in using Sensr.net as an alternative to using Nest Cam, give us a try.  We have a
+free trial of course.  Any you can use almost any camera with our service.&lt;/p&gt;
+
+&lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Now let&amp;rsquo;s go into the details of why you might want an alternative to Nest Cam.&lt;/p&gt;
+
+&lt;h1 id=&#34;flexible-camera-choice&#34;&gt;Flexible camera choice&lt;/h1&gt;
+
+&lt;p&gt;For a long time with Nest Cam you had only one choice, an indoor camera. Now Nest Cam comes in two flavors, indoor
+and outdoor. But what if you don&amp;rsquo;t like these solutions? Besides being expensive, the form factor just might not fit
+your needs. What if you want a dome camera? Or a camera that you can pan, tilt, and zoom? PTZ (pan, tilt, zoom)
+cameras are very common but Nest doesn&amp;rsquo;t have one. What if you want a telephoto lens or a spy camera? Sorry, but
+with Nest Cam you&amp;rsquo;re out of luck.&lt;/p&gt;
+
+&lt;p&gt;You can get HD security cameras on Amazon for under $40. Nest Cam starts at $199. If you&amp;rsquo;re technically savvy and
+don&amp;rsquo;t mind doing a little work in setting up the camera, you can use a service like
+&lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt;Sensr.net&lt;/a&gt; for your Cloud DVR with your $40 camera and save a lot of money.&lt;/p&gt;
+
+&lt;p&gt;With Sensr.net you can even use cameras from different manufacturers.  You don&amp;rsquo;t need to be stuck to one brand.&lt;/p&gt;
+
+&lt;h1 id=&#34;limited-video-clips&#34;&gt;Limited Video Clips&lt;/h1&gt;
+
+&lt;p&gt;With Nest Cam you&amp;rsquo;re limited to 3 hours of clips. On Sensr.net we don&amp;rsquo;t limit the number of &lt;a href=&#34;http://blog.sensr.net/2014/04/29/making-clips-on-sensr-net/&#34;&gt;clips you
+make&lt;/a&gt;. We store them on our servers as long as you have a valid account. We
+also email you a link to download the clip every time you make one. You&amp;rsquo;ll have your own copy and can do anything
+you want with it. Give it to the police, stick it in your Dropbox folder for future reference, etc.&lt;/p&gt;
+
+&lt;h1 id=&#34;flexible-and-programmatic-access&#34;&gt;Flexible and Programmatic access&lt;/h1&gt;
+
+&lt;p&gt;With Sensr.net you can use &lt;a href=&#34;http://blog.sensr.net/2013/02/07/new-sensr-net-api-v3/&#34;&gt;our APIs&lt;/a&gt; to write code to access your camera data
+that is stored in the cloud. Don&amp;rsquo;t like how we generate clips? Write your own code to do a better job. Sure, this is
+not a feature that most users will want, but we think it&amp;rsquo;s kind of cool.&lt;/p&gt;
+
+&lt;h1 id=&#34;limited-storage&#34;&gt;Limited storage&lt;/h1&gt;
+
+&lt;p&gt;Nest Cam will give you 10 days of storage for $10. For the same price with Sensr.net you get a month of storage. We
+also give you unlimited storage of favorites images and clips. Check out &lt;a href=&#34;https://sensr.net/plans&#34;&gt;our pricing&lt;/a&gt; for
+more details. We have annual plans that save you even more.&lt;/p&gt;
+
+&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
+
+&lt;p&gt;If you like the idea of using a Cloud DVR for your security cameras, but don&amp;rsquo;t want to be locked in to one
+camera brand, make sure you explore other alternatives and give Sensr.net a try.&lt;/p&gt;
+
+&lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>Ouvis ZV1 Camera Not Ready for Prime Time</title>
       <link>http://blog.sensr.net/2017/05/ouvis-zv1-camera-not-ready-for-prime-time/</link>
       <pubDate>Wed, 10 May 2017 10:49:15 -0400</pubDate>
@@ -1250,109 +1332,6 @@ firewall configuration is needed. No PC in the basement required.&lt;/p&gt;
       <guid>http://blog.sensr.net/2011/11/28/more-chances-to-win-a-free-network-camera-from-sensr-net/</guid>
       <description>&lt;p&gt;Still want to win a camera?  &lt;a href=&#34;http://sensr.us2.list-manage.com/track/click?u=180d5f24fadceaa24de070d6f&amp;amp;id=bb8ab9ac8b&amp;amp;e=05197abe81&#34;&gt;Follow us on Twitter&lt;/a&gt; for a chance to win a &lt;a href=&#34;http://blog.sensr.net/2011/04/15/dcs-932l-works-great-on-sensr-net/&#34;&gt;DCS-932L&lt;/a&gt;.  &lt;a href=&#34;http://sensr.us2.list-manage1.com/track/click?u=180d5f24fadceaa24de070d6f&amp;amp;id=4bb9c14f66&amp;amp;e=05197abe81&#34;&gt;Like us on Facebook&lt;/a&gt; and you&amp;#8217;ll have a chance to win a &lt;a href=&#34;http://blog.sensr.net/2011/02/08/configure-your-foscam-fi8918w-for-ftp/&#34;&gt;Foscam FI8918W&lt;/a&gt;.  The odds are pretty good here, 1 in 500.  So be one of our first 500 Twitter followers and/or one of our first 500 Facebook fans and you could be in the club with Patrick.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Simple Guide to Setting up a LOFTEK CXS 2200</title>
-      <link>http://blog.sensr.net/2011/10/17/simple-guide-to-setting-up-loftek-cxs-2200/</link>
-      <pubDate>Mon, 17 Oct 2011 19:18:39 +0000</pubDate>
-      
-      <guid>http://blog.sensr.net/2011/10/17/simple-guide-to-setting-up-loftek-cxs-2200/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://blog.sensr.net/wp-content/uploads/2011/10/LOFTEKCXS2200-FTP-Setup.png&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1064&#34; title=&#34;LOFTEKCXS2200 FTP Setup&#34; src=&#34;http://blog.sensr.net/wp-content/uploads/2011/10/LOFTEKCXS2200-FTP-Setup.png&#34; alt=&#34;LOFTEK CXS 2200 FTP Setup for Mac and Linux&#34; width=&#34;481&#34; height=&#34;213&#34; srcset=&#34;http://blog.sensr.net/img/2011/10/LOFTEKCXS2200-FTP-Setup.png 481w, http://blog.sensr.net/img/2011/10/LOFTEKCXS2200-FTP-Setup-300x132.png 300w&#34; sizes=&#34;(max-width: 481px) 100vw, 481px&#34; /&gt;&lt;/a&gt;Last week I wrote a &lt;a href=&#34;http://blog.sensr.net/2011/10/06/loftek-cxs-2200-by-a-noob-ftp-setup-on-a-mac-how-to/&#34;&gt;not-so-simple guide to setting up the LOFTEK CXS 2200&lt;/a&gt;, which really just turned into a long rant about my lack of common sense. So I figured it may be helpful to write a more straightforward guide with real steps rather than pictures of Gregory House, M.D.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ll also show you how to push images to &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt; so you can take advantage of all of our cool features, like SMS and email alerts, 30 days archiving, &lt;a href=&#34;http://blog.sensr.net/2013/10/24/ip-camera-no-firewall-config/&#34;&gt;no firewall config&lt;/a&gt;, clip sharing, &lt;a href=&#34;http://blog.sensr.net/2011/02/27/embed-your-sensr-net-cameras-live-view/&#34;&gt;embedable live streams&lt;/a&gt;, &lt;a href=&#34;http://blog.sensr.net/2012/04/11/guest-access-for-sensr-net-cameras/&#34;&gt;guest access&lt;/a&gt;, etc.&lt;/p&gt;
-
-&lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt; Connect LOFTEK CXS 2200 to router via ethernet&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Determine your router&amp;#8217;s IP address &amp;#8211; &lt;em&gt;&lt;strong&gt;important&lt;/strong&gt;.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Browse to the camera&amp;#8217;s IP address (&lt;em&gt;default: 192.168.0.178)&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Tell Sensr.net about your camera&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Tell your camera about Sensr.net via FTP settings&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Though the LOFTEK CXS 2200 is a wireless network camera, you have to plug it in via ethernet in order to configure its wifi settings. Make sure the camera&amp;#8217;s connected to a power source, too. Duh.&lt;/p&gt;
-
-&lt;p&gt;For &lt;strong&gt;Step 1&lt;/strong&gt;, plug your camera directly into your router with an ethernet cable. The camera&amp;#8217;s green light should start blinking, signaling its found your network. Woohoo!&lt;/p&gt;
-
-&lt;p&gt;For &lt;strong&gt;Step 2,&lt;/strong&gt; you&amp;#8217;ll need to be able to figure out your router&amp;#8217;s IP address. On a Mac, you can do this by going to &lt;em&gt;System Preferences -&amp;gt; Network -&amp;gt; Advanced -&amp;gt; TCP/IP&lt;/em&gt;, which will look like:&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/wp-content/uploads/2011/10/HowToFindRouterIPonMac.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1072&#34; title=&#34;HowToFindRouterIPonMac&#34; src=&#34;http://blog.sensr.net/wp-content/uploads/2011/10/HowToFindRouterIPonMac.jpg&#34; alt=&#34;How to find your router&#39;s IP address on a Mac&#34; width=&#34;398&#34; height=&#34;334&#34; srcset=&#34;http://blog.sensr.net/img/2011/10/HowToFindRouterIPonMac.jpg 664w, http://blog.sensr.net/img/2011/10/HowToFindRouterIPonMac-300x251.jpg 300w&#34; sizes=&#34;(max-width: 398px) 100vw, 398px&#34; /&gt;&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: left;&#34;&gt;
-  My router&amp;#8217;s IP address is 192.168.0.1. Your router&amp;#8217;s IP may be 192.168.1.1, or something entirely different. Ordinarily at this point you would log into your router&amp;#8217;s configuration settings and find the network camera&amp;#8217;s IP address. But the LOFTEK CXS 2200&amp;#8217;s IP address is a static 192.168.0.178, making that step unnecessary if your router&amp;#8217;s IP is already in the 0.x range. This means your IP must end in 0.x, so 192.168.0.1 would work, but 192.168.1.1 will not.
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: left;&#34;&gt;
-  &lt;strong&gt;If your router&amp;#8217;s IP doesn&amp;#8217;t end in .0.x &lt;/strong&gt;you&amp;#8217;ll need to change it. Enter http://yourrouter&amp;#8217;sIPaddress into a browser &amp;#8212; so for me it&amp;#8217;s http://192.168.0.1. It varies from router to router, but you can typically change its IP address in the LAN Settings. (&lt;strong&gt;&lt;em&gt;WARNING: BEFORE DOING THIS, PLEASE BACK UP YOUR ROUTER&amp;#8217;S SETTINGS) &lt;/em&gt;&lt;/strong&gt;Once your router&amp;#8217;s IP has been changed, you should be able to browse to the LOFTEK&amp;#8217;s default http://192.168.0.178.
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: left;&#34;&gt;
-  &lt;strong&gt;If your router&amp;#8217;s IP address DOES end in .0.x,&lt;/strong&gt; you can already browse to the LOFTEK&amp;#8217;s default http://192.168.0.178 &amp;#8211; you should see this screen after logging in:
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/wp-content/uploads/2011/10/LOFTEKCXS2200Login.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-large wp-image-1078&#34; title=&#34;LOFTEKCXS2200Login&#34; src=&#34;http://blog.sensr.net/wp-content/uploads/2011/10/LOFTEKCXS2200Login-1024x449.jpg&#34; alt=&#34;LOFTEK CXS 2200 Login Screen&#34; width=&#34;384&#34; height=&#34;168&#34; srcset=&#34;http://blog.sensr.net/img/2011/10/LOFTEKCXS2200Login-1024x449.jpg 1024w, http://blog.sensr.net/img/2011/10/LOFTEKCXS2200Login-300x131.jpg 300w, http://blog.sensr.net/img/2011/10/LOFTEKCXS2200Login.jpg 1261w&#34; sizes=&#34;(max-width: 384px) 100vw, 384px&#34; /&gt;&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: left;&#34;&gt;
-  Click &amp;#8220;&lt;em&gt;Mode 2 to view (For Firefox, Safari, Browser, etc.)&lt;/em&gt;&amp;#8221; and you should be able to see your camera:
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/wp-content/uploads/2011/10/LOFTEKCXS2200CameraView.jpg&#34;&gt;&lt;img class=&#34;aligncenter size-full wp-image-1079&#34; title=&#34;LOFTEKCXS2200CameraView&#34; src=&#34;http://blog.sensr.net/wp-content/uploads/2011/10/LOFTEKCXS2200CameraView.jpg&#34; alt=&#34;LOFTEK CXS 2200 Camera View&#34; width=&#34;409&#34; height=&#34;308&#34; srcset=&#34;http://blog.sensr.net/img/2011/10/LOFTEKCXS2200CameraView.jpg 853w, http://blog.sensr.net/img/2011/10/LOFTEKCXS2200CameraView-300x225.jpg 300w&#34; sizes=&#34;(max-width: 409px) 100vw, 409px&#34; /&gt;&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: left;&#34;&gt;
-  Hooray, your network camera is setup! Now it&amp;#8217;s time to add it to &lt;a href=&#34;sensr.net&#34;&gt;Sensr.net&lt;/a&gt;.
-&lt;/p&gt;
-
-&lt;p&gt;For &lt;strong&gt;Step 4&lt;/strong&gt;, log into into Sensr.net and go to “My Cameras,” as seen below.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://blog.sensr.net/wp-content/uploads/2011/10/Add-LOFTEK-CXS-2200-1.png&#34;&gt;&lt;img class=&#34;aligncenter&#34; title=&#34;Add LOFTEK CXS 2200 1&#34; src=&#34;http://blog.sensr.net/wp-content/uploads/2011/10/Add-LOFTEK-CXS-2200-1-300x129.png&#34; alt=&#34;Add LOFTEK CXS 2200 to Sensr.net&#34; width=&#34;300&#34; height=&#34;129&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Click “&lt;em&gt;Add A Camera&lt;/em&gt;&amp;#8221;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://blog.sensr.net/wp-content/uploads/2011/10/Add-a-Camera-on-Sensr.net_.png&#34;&gt;&lt;img class=&#34;aligncenter&#34; title=&#34;Add a Camera on Sensr.net&#34; src=&#34;http://blog.sensr.net/wp-content/uploads/2011/10/Add-a-Camera-on-Sensr.net_-300x154.png&#34; alt=&#34;Add a Camera on Sensr.net&#34; width=&#34;300&#34; height=&#34;154&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Now you&amp;#8217;ll see a page with your camera’s FTP login credentials, which looks like:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://blog.sensr.net/wp-content/uploads/2011/10/Camera-Creds1.png&#34;&gt;&lt;img class=&#34;aligncenter&#34; title=&#34;Camera Credentials&#34; src=&#34;http://blog.sensr.net/wp-content/uploads/2011/10/Camera-Creds1-300x151.png&#34; alt=&#34;LOFTEK CXS 2200 Camera Credentials o Sensr.net for FTP&#34; width=&#34;300&#34; height=&#34;151&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Now you&amp;#8217;ve got to tell your camera about Sensr.net. For &lt;strong&gt;Step 5&lt;/strong&gt;, go to the &amp;#8220;&lt;em&gt;Alarm&lt;/em&gt;&amp;#8221; tab. From here, go to &amp;#8220;&lt;em&gt;FTP Settings&lt;/em&gt;&amp;#8221; on the right. Now just plug in all of the info from the Sensr.net FTP login credentials.  Make sure &lt;em&gt;FTP Mode&lt;/em&gt; is set to &lt;em&gt;PASV&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://blog.sensr.net/wp-content/uploads/2011/10/LOFTEK-CXS-2200-Setup-on-Sensr.net_.png&#34;&gt;&lt;img class=&#34;aligncenter&#34; title=&#34;LOFTEK CXS 2200 Setup on Sensr.net&#34; src=&#34;http://blog.sensr.net/wp-content/uploads/2011/10/LOFTEK-CXS-2200-Setup-on-Sensr.net_-300x227.png&#34; alt=&#34;LOFTEK CXS 2200 FTP Setup on Sensr.net&#34; width=&#34;300&#34; height=&#34;227&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p style=&#34;text-align: left;&#34;&gt;
-  Now set the Upload Interval to 1 second, and hit submit. Go back to the Sensr.net page, and you should start seeing images from your camera, and a sweet, sweet Success! notification like this:
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: left;&#34;&gt;
-  &lt;a href=&#34;http://3.bp.blogspot.com/_yVvkcbKGc_g/TVGid4uibnI/AAAAAAAACXg/wo1AJ7gfaCs/s1600/sensrsuccess.png&#34;&gt;&lt;img class=&#34;aligncenter&#34; title=&#34;Foscam successfully added to Sensr.net&#34; src=&#34;http://3.bp.blogspot.com/_yVvkcbKGc_g/TVGid4uibnI/AAAAAAAACXg/wo1AJ7gfaCs/s1600/sensrsuccess.png&#34; alt=&#34;Foscam successfully added to Sensr.net&#34; width=&#34;522&#34; height=&#34;428&#34; /&gt;&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: left;&#34;&gt;
-  You&amp;#8217;re done! Now you can start sharing your LOFTEK CXS 2200 on Sensr.net with your friends on Facebook, Twitter, and YouTube.
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: left;&#34;&gt;
-  Have fun!
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: left;&#34;&gt;
-  &lt;em&gt;Have more questions, or still having trouble getting the LOFTEK CXS 2200 setup? Let us know in the comments and we&amp;#8217;ll try and get it working. &lt;/em&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;</description>
     </item>
     
   </channel>

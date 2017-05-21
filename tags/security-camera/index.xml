@@ -9,6 +9,88 @@
     <atom:link href="http://blog.sensr.net/tags/security-camera/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>An Alternative to Nest Cam</title>
+      <link>http://blog.sensr.net/2017/05/an-alternative-to-nest-cam/</link>
+      <pubDate>Sun, 21 May 2017 09:00:05 -0400</pubDate>
+      
+      <guid>http://blog.sensr.net/2017/05/an-alternative-to-nest-cam/</guid>
+      <description>&lt;figure &gt;
+    
+        &lt;img src=&#34;http://blog.sensr.net/img/nest-cam.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Nest Cam Indoor HD Camera&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;No doubt about it, Nest Cam is easy to setup and use.  But there are a number of drawbacks to using Nest Cam
+that might entice you to try an alternative like &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt;.  Here are some reasons that you
+might want to try an alternative to Nest Cam.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Can&amp;rsquo;t use your own camera&lt;/li&gt;
+&lt;li&gt;Can&amp;rsquo;t mix and match camera models&lt;/li&gt;
+&lt;li&gt;The service is expensive&lt;/li&gt;
+&lt;li&gt;No APIs for accessing your footage&lt;/li&gt;
+&lt;li&gt;Locked in to one vendor&lt;/li&gt;
+&lt;li&gt;Limited video clips&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you&amp;rsquo;re interested in using Sensr.net as an alternative to using Nest Cam, give us a try.  We have a
+free trial of course.  Any you can use almost any camera with our service.&lt;/p&gt;
+
+&lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Now let&amp;rsquo;s go into the details of why you might want an alternative to Nest Cam.&lt;/p&gt;
+
+&lt;h1 id=&#34;flexible-camera-choice&#34;&gt;Flexible camera choice&lt;/h1&gt;
+
+&lt;p&gt;For a long time with Nest Cam you had only one choice, an indoor camera. Now Nest Cam comes in two flavors, indoor
+and outdoor. But what if you don&amp;rsquo;t like these solutions? Besides being expensive, the form factor just might not fit
+your needs. What if you want a dome camera? Or a camera that you can pan, tilt, and zoom? PTZ (pan, tilt, zoom)
+cameras are very common but Nest doesn&amp;rsquo;t have one. What if you want a telephoto lens or a spy camera? Sorry, but
+with Nest Cam you&amp;rsquo;re out of luck.&lt;/p&gt;
+
+&lt;p&gt;You can get HD security cameras on Amazon for under $40. Nest Cam starts at $199. If you&amp;rsquo;re technically savvy and
+don&amp;rsquo;t mind doing a little work in setting up the camera, you can use a service like
+&lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt;Sensr.net&lt;/a&gt; for your Cloud DVR with your $40 camera and save a lot of money.&lt;/p&gt;
+
+&lt;p&gt;With Sensr.net you can even use cameras from different manufacturers.  You don&amp;rsquo;t need to be stuck to one brand.&lt;/p&gt;
+
+&lt;h1 id=&#34;limited-video-clips&#34;&gt;Limited Video Clips&lt;/h1&gt;
+
+&lt;p&gt;With Nest Cam you&amp;rsquo;re limited to 3 hours of clips. On Sensr.net we don&amp;rsquo;t limit the number of &lt;a href=&#34;http://blog.sensr.net/2014/04/29/making-clips-on-sensr-net/&#34;&gt;clips you
+make&lt;/a&gt;. We store them on our servers as long as you have a valid account. We
+also email you a link to download the clip every time you make one. You&amp;rsquo;ll have your own copy and can do anything
+you want with it. Give it to the police, stick it in your Dropbox folder for future reference, etc.&lt;/p&gt;
+
+&lt;h1 id=&#34;flexible-and-programmatic-access&#34;&gt;Flexible and Programmatic access&lt;/h1&gt;
+
+&lt;p&gt;With Sensr.net you can use &lt;a href=&#34;http://blog.sensr.net/2013/02/07/new-sensr-net-api-v3/&#34;&gt;our APIs&lt;/a&gt; to write code to access your camera data
+that is stored in the cloud. Don&amp;rsquo;t like how we generate clips? Write your own code to do a better job. Sure, this is
+not a feature that most users will want, but we think it&amp;rsquo;s kind of cool.&lt;/p&gt;
+
+&lt;h1 id=&#34;limited-storage&#34;&gt;Limited storage&lt;/h1&gt;
+
+&lt;p&gt;Nest Cam will give you 10 days of storage for $10. For the same price with Sensr.net you get a month of storage. We
+also give you unlimited storage of favorites images and clips. Check out &lt;a href=&#34;https://sensr.net/plans&#34;&gt;our pricing&lt;/a&gt; for
+more details. We have annual plans that save you even more.&lt;/p&gt;
+
+&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
+
+&lt;p&gt;If you like the idea of using a Cloud DVR for your security cameras, but don&amp;rsquo;t want to be locked in to one
+camera brand, make sure you explore other alternatives and give Sensr.net a try.&lt;/p&gt;
+
+&lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>Ouvis ZV1 Camera Not Ready for Prime Time</title>
       <link>http://blog.sensr.net/2017/05/ouvis-zv1-camera-not-ready-for-prime-time/</link>
       <pubDate>Wed, 10 May 2017 10:49:15 -0400</pubDate>
@@ -2014,222 +2096,6 @@ add_shortcode(&#39;sensr&#39;, &#39;get_sensr&#39;);&lt;/pre&gt;
 
 &lt;p&gt;Thanks Bob!&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>How to configure a Foscam FI9821W V2 from Mac or Linux</title>
-      <link>http://blog.sensr.net/2013/12/10/how-to-configure-a-foscam-fi9821w-v2-from-mac-or-linux/</link>
-      <pubDate>Tue, 10 Dec 2013 23:02:16 +0000</pubDate>
-      
-      <guid>http://blog.sensr.net/2013/12/10/how-to-configure-a-foscam-fi9821w-v2-from-mac-or-linux/</guid>
-      <description>&lt;figure &gt;
-    &lt;a href=&#34;https://www.amazon.com/Foscam-FI9821W-Megapixel-Wireless-Camera/dp/B01EVMF3I6/sensr-20&#34;&gt;
-        &lt;img src=&#34;http://blog.sensr.net/img/fi9821w-v2.jpg&#34; /&gt;
-    &lt;/a&gt;
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Foscam FI9821W V2&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;The &lt;a href=&#34;http://www.amazon.com/Foscam-FI9821W-Megapixel-Wireless-Camera/dp/B00F3KWZW8/sensr-20&#34; title=&#34;Foscam FI9821W V2&#34;&gt;Foscam FI9821W V2 IP camera&lt;/a&gt; is super popular these days. It&amp;#8217;s about $150 on &lt;a href=&#34;http://www.amazon.com/Foscam-FI9821W-Megapixel-Wireless-Camera/dp/B00F3KWZW8/sensr-20&#34; title=&#34;Buy FI9821W V2 on Amazon&#34;&gt;Amazon right now&lt;/a&gt;. The instructions come with Windows and Mac setup software, but you really don&amp;#8217;t need it. In this post I&amp;#8217;ll show you how to configure the webcam without the software. _&lt;strong&gt;Be aware that the camera&amp;#8217;s default port is 88.&lt;/strong&gt;_ I wasted 30 minutes figuring this out, more on what this means later.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ll also show you how to push images to &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.net&lt;/a&gt; so you can take advantage of all of our cool features, like SMS and email alerts, 30 days archiving, &lt;a href=&#34;http://blog.sensr.net/2013/10/24/ip-camera-no-firewall-config/&#34;&gt;no firewall config&lt;/a&gt;, clip sharing, &lt;a href=&#34;http://blog.sensr.net/2011/02/27/embed-your-sensr-net-cameras-live-view/&#34;&gt;embedable live streams&lt;/a&gt;, &lt;a href=&#34;http://blog.sensr.net/2012/04/11/guest-access-for-sensr-net-cameras/&#34;&gt;guest access&lt;/a&gt;, etc.&lt;/p&gt;
-
-&lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;span style=&#34;line-height: 16px;&#34;&gt;Connect camera to your router and power it up&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;Go to your router and find the camera&amp;#8217;s IP address&lt;/li&gt;
-&lt;li&gt;Point your browser at the camera&amp;#8217;s IP address and configure it&lt;/li&gt;
-&lt;li&gt;Tell Sensr.net about your camera&lt;/li&gt;
-&lt;li&gt;Tell your camera about Sensr.net&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Details&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;****I&amp;#8217;ll assume you can figure out how to do Step 1.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 2: Find your router&amp;#8217;s IP address&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;For Step 2 you need to log into your router. You can find your router&amp;#8217;s IP address by going to your computer settings. On a Mac you go to &lt;strong&gt;Network Settings &amp;gt; Advanced &amp;gt; TCP/IP&lt;/strong&gt;. For my MacBook Pro running Lion, it looks like this:&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-2597&#34; alt=&#34;Screen Shot 2013-12-09 at 6.02.37 PM&#34; src=&#34;http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png&#34; width=&#34;626&#34; height=&#34;555&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png 782w, http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM-300x266.png 300w&#34; sizes=&#34;(max-width: 626px) 100vw, 626px&#34; /&gt;&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;p&gt;On  Linux you can run the &lt;strong&gt;ifconfig&lt;/strong&gt; command to get this information. This is telling you that the router is 10.1.1.1 in my case. A more common setting is 192.168.1.1 but it could be almost anything. Once you find this, log into your router by pointing your browser to &lt;a href=&#34;http://10.1.1.1&#34;&gt;http://10.1.1.1&lt;/a&gt; (or whatever address you found on your network). You will probably need to log into your router.  Routers vary widely, I&amp;#8217;ll show you the pages for my Netgear WPN824.&lt;/p&gt;
-
-&lt;p&gt;Once you log in, find the page that shows the attached devices. Here&amp;#8217;s the page from my router, I clicked A&lt;strong&gt;ttached Devices&lt;/strong&gt; on the left and got this list.&lt;/p&gt;
-
-&lt;div id=&#34;attachment_2599&#34; style=&#34;width: 607px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/netgear-attached-devices.png&#34;&gt;&lt;img class=&#34; wp-image-2599 &#34; alt=&#34;netgear-attached-devices&#34; src=&#34;http://blog.sensr.net/img/2013/12/netgear-attached-devices.png&#34; width=&#34;597&#34; height=&#34;499&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/netgear-attached-devices.png 932w, http://blog.sensr.net/img/2013/12/netgear-attached-devices-300x251.png 300w&#34; sizes=&#34;(max-width: 597px) 100vw, 597px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Attached devices page
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;To find your IP camera, you need to look through the list for the MAC address for your camera. (The MAC address is on the sticker on the bottom of the camera.) Mine ends in 97 so I used Chrome&amp;#8217;s search (CMD-F) and searched for :97.  The IP address in this case was 10.1.1.26.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 3:  Point your browser at the camera&amp;#8217;s IP address and configure it&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;To get to your camera, you point your browser to the IP address you found. In this case, &lt;a href=&#34;http://10.1.1.26:88&#34;&gt;http://10.1.1.26:88&lt;/a&gt;. Don&amp;#8217;t forget to add the :88, this is because the FI9821W listens on port 88.&lt;/p&gt;
-
-&lt;p&gt;I also found that Chrome on the Mac won&amp;#8217;t render the camera&amp;#8217;s page correctly but Safari does a good job of it.  There are some plugins you can use for Chrome, but it&amp;#8217;s easier to just use Safari.&lt;/p&gt;
-
-&lt;p&gt;When you go to your camera&amp;#8217;s page, it will look something like this.&lt;/p&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-settings-page.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;FI9821W V2 Settings Page&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;In Safari you can click on the Live Video tab and watch your camera. From that page you can pan and tilt the camera and watch a live video stream from within your home network. We have some guys removing trees today so I setup the camera outside to watch. It will look like this:&lt;/p&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-live-video-page.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Safari Live Video FI9821W V2&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;You can see from the preceding screen shot that I&amp;#8217;m running  the latest firmware, 10.11.1.18.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Upgrade Firmware to 1.11.1.18 or better&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The latest firmware upgrade makes this camera work great with &lt;a href=&#34;https://sensr.net&#34;&gt;Sensr.ne&lt;/a&gt;t.   (Make sure you follow the instructions. If you&amp;#8217;re not running 1.11.1.16 you&amp;#8217;ll need to upgrade to that first, then upgrade to the lastest, 1.11.1.18. My camera was running 1.11.1.15 so I had to double upgrade.)  The &lt;a href=&#34;http://www.foscam.com/down3.aspx&#34;&gt;latest firmware can be found here&lt;/a&gt; and the announcement can be &lt;a href=&#34;http://foscam.us/forum/new-firmware-for-fi9821w-v2-released-t7237.html&#34; title=&#34;Firmware 1.11.1.18 announcement&#34;&gt;found here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 4:  Tell Sensr.net about your camera&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Add a New Camera to your Sensr.net account&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Simply log into your Sensr.net account click the &lt;strong&gt;Add Camera&lt;/strong&gt; button. Sensr.net has a free one week trial, so give it a go and see if it works for you.  (It&amp;#8217;s free to setup an account with Sensr.net. Camera monitoring starts at $9.95/month after your free trial is up.)  Once you login you&amp;#8217;ll see a page like this:&lt;/p&gt;
-
-&lt;div id=&#34;attachment_2603&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/sensr-new-user.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2603&#34; alt=&#34;Add new camera page&#34; src=&#34;http://blog.sensr.net/img/2013/12/sensr-new-user-1024x708.png&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/sensr-new-user-1024x708.png 1024w, http://blog.sensr.net/img/2013/12/sensr-new-user-300x207.png 300w, http://blog.sensr.net/img/2013/12/sensr-new-user.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Add new camera page
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Next you&amp;#8217;ll see a page like this where you can set the timezone for your camera, give it a name, and tell us the model.  Cameras default to private but you can make them public if you want to share them with the world.&lt;/p&gt;
-
-&lt;div id=&#34;attachment_2606&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s1.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2606&#34; alt=&#34;Step 1&#34; src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s1-1024x708.png&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s1-1024x708.png 1024w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s1-300x207.png 300w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s1.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Step 1
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;After that, we&amp;#8217;ll generate some FTP credentials for your camera. This generates a login for your FI9821W V2 to where it can upload images via FTP. This tells your camera where to upload the images. The important information here is:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;FTP Server&lt;/li&gt;
-&lt;li&gt;FTP User name&lt;/li&gt;
-&lt;li&gt;FTP Password&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Save these so we can add them to your camera later.&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;div id=&#34;attachment_2607&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2607&#34; alt=&#34;FTP credentials&#34; src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2-1024x708.png&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2-1024x708.png 1024w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s2-300x207.png 300w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s2.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    FTP credentials
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 5:  Tell your camera about Sensr.net&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Now you need to configure your camera so it will upload images to Sensr.net. Go back to the camera config page using the IP address we discovered above. Click on Network, then FTP Settings. It will look like this:&lt;/p&gt;
-
-&lt;div id=&#34;attachment_2609&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-ftp-page.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2609&#34; alt=&#34;Configure FTP Settings&#34; src=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-ftp-page-1024x708.png&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-ftp-page-1024x708.png 1024w, http://blog.sensr.net/img/2013/12/fi9821wv2-ftp-page-300x207.png 300w, http://blog.sensr.net/img/2013/12/fi9821wv2-ftp-page.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Configure FTP Settings
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Put the FTP server from the Sensr.net config page into the first slot.  It will look like &lt;a href=&#34;ftp://f9.sensr.net/&#34;&gt;ftp://f9.sensr.net/&lt;/a&gt; or whatever server Sensr.net assigned for your camera. Currently our servers are named f0.sensr.net through f9.sensr.net. The port should stay 21, and the leave the FTP mode as PASV. The username is unique to your camera so use whatever you got from Sensr.net&amp;#8217;s add camera flow. Ditto for the password. Best to copy and paste it so you don&amp;#8217;t make a mistake. Click the test button and the FI9821W will test the login to make sure it works. If you see &lt;strong&gt;Success&lt;/strong&gt; then you&amp;#8217;re good to go. If not, double check the server, login, and password settings.&lt;/p&gt;
-
-&lt;p&gt;We recommend that you have the camera upload one image per second.  This way you get a live view when viewing your camera on Sensr.net.  To do this go to the Video/Snapshot Settings page:&lt;/p&gt;
-
-&lt;div id=&#34;attachment_2610&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-snapshot-page.png&#34;&gt;&lt;img class=&#34;size-large wp-image-2610&#34; alt=&#34;Video &gt; Snapshot Settings&#34; src=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-snapshot-page-1024x708.png&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/fi9821wv2-snapshot-page-1024x708.png 1024w, http://blog.sensr.net/img/2013/12/fi9821wv2-snapshot-page-300x207.png 300w, http://blog.sensr.net/img/2013/12/fi9821wv2-snapshot-page.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Video &gt; Snapshot Settings
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Here you add 1 as the interval so the camera will continually upload 1 frame per second. Also select all the timeslots so the camera will do this 24 x 7. Make sure to click the Save button at the top. Once you&amp;#8217;ve done this your FI9821WV2 should start uploading to Sensr.net.&lt;/p&gt;
-
-&lt;p&gt;On the Sensr.net side the page should go from this:&lt;/p&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s3.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt; Waiting for upload&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;To a page that shows the image your camera uploaded.  Something like this:&lt;/p&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-success.png&#34; /&gt;
-    
-    
-    &lt;figcaption&gt;
-        &lt;h4&gt;Success!&lt;/h4&gt;
-        
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;Congratulations, now you&amp;rsquo;re done with the camera config. Your camera is now on Sensr.net. We&amp;rsquo;ll archive all the motion events, giving you 30
-days of archives, SMS and email alerts, guest access, and a whole lot more.  You can view the live stream on our website or in our apps. No
-firewall configuration is needed. No PC in the basement required.&lt;/p&gt;
-
-&lt;p&gt;If you have any problems, send email to info @ sensr.net and we&amp;rsquo;ll try to help you out!&lt;/p&gt;</description>
     </item>
     
   </channel>

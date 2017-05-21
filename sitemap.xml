@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.sensr.net/2017/05/an-alternative-to-nest-cam/</loc>
+    <lastmod>2017-05-21T09:00:05-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.sensr.net/2017/05/ouvis-zv1-camera-not-ready-for-prime-time/</loc>
     <lastmod>2017-05-10T10:49:15-04:00</lastmod>
   </url>
@@ -884,6 +889,12 @@
   </url>
   
   <url>
+    <loc>http://blog.sensr.net/categories/alternatives/</loc>
+    <lastmod>2017-05-21T09:00:05-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.sensr.net/tags/android/</loc>
     <lastmod>2011-06-01T21:48:15+00:00</lastmod>
     <priority>0</priority>
@@ -989,6 +1000,12 @@
   </url>
   
   <url>
+    <loc>http://blog.sensr.net/tags/cloud-dvr/</loc>
+    <lastmod>2017-05-21T09:00:05-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.sensr.net/categories/cloud-dvr/</loc>
     <lastmod>2017-02-24T09:59:35+04:00</lastmod>
     <priority>0</priority>
@@ -1087,6 +1104,12 @@
   <url>
     <loc>http://blog.sensr.net/tags/download/</loc>
     <lastmod>2014-07-08T16:21:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/dropcam/</loc>
+    <lastmod>2017-05-21T09:00:05-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1511,6 +1534,18 @@
   </url>
   
   <url>
+    <loc>http://blog.sensr.net/tags/nest-cam/</loc>
+    <lastmod>2017-05-21T09:00:05-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.sensr.net/tags/nestcam/</loc>
+    <lastmod>2017-05-21T09:00:05-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.sensr.net/tags/network-camera/</loc>
     <lastmod>2014-08-13T16:39:02+00:00</lastmod>
     <priority>0</priority>
@@ -1536,7 +1571,7 @@
   
   <url>
     <loc>http://blog.sensr.net/categories/network-cameras/</loc>
-    <lastmod>2017-05-10T10:49:15-04:00</lastmod>
+    <lastmod>2017-05-21T09:00:05-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1614,7 +1649,7 @@
   
   <url>
     <loc>http://blog.sensr.net/post/</loc>
-    <lastmod>2017-05-10T10:49:15-04:00</lastmod>
+    <lastmod>2017-05-21T09:00:05-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1698,7 +1733,7 @@
   
   <url>
     <loc>http://blog.sensr.net/tags/security-camera/</loc>
-    <lastmod>2017-05-10T10:49:15-04:00</lastmod>
+    <lastmod>2017-05-21T09:00:05-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1746,7 +1781,7 @@
   
   <url>
     <loc>http://blog.sensr.net/</loc>
-    <lastmod>2017-05-10T10:49:15-04:00</lastmod>
+    <lastmod>2017-05-21T09:00:05-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1948,7 +1983,7 @@
   
   <url>
     <loc>http://blog.sensr.net/tags/webcam/</loc>
-    <lastmod>2017-05-10T10:49:15-04:00</lastmod>
+    <lastmod>2017-05-21T09:00:05-04:00</lastmod>
     <priority>0</priority>
   </url>
   
