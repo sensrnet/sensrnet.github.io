@@ -9,6 +9,120 @@
     <atom:link href="http://blog.sensr.net/tags/webcam/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>An Alternative to Blink Security Cam</title>
+      <link>http://blog.sensr.net/2017/05/an-alternative-to-blink-security-cam/</link>
+      <pubDate>Sun, 21 May 2017 09:00:05 -0400</pubDate>
+      
+      <guid>http://blog.sensr.net/2017/05/an-alternative-to-blink-security-cam/</guid>
+      <description>&lt;figure &gt;
+    
+        &lt;img src=&#34;http://blog.sensr.net/img/BlinkCamera.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Blink 	Indoor HD Camera&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;While Blink may be easy to setup and use, there are a number of drawbacks to using Blink’s service that might tempt you to try
+an alternative like Sensr.net. Here are some reasons that you might want to try Sensr.net instead of Blink.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Cheaper Cameras&lt;/li&gt;
+&lt;li&gt;Not exclusively battery power&lt;/li&gt;
+&lt;li&gt;More cloud storage&lt;/li&gt;
+&lt;li&gt;More than 2 types of cameras available&lt;/li&gt;
+&lt;li&gt;APIs for accessing your footage&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you’re interested in using Sensr.net as an alternative to using Blink, give us a try. We have a free trial of course.&lt;/p&gt;
+
+&lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;device-cost&#34;&gt;Device Cost&lt;/h1&gt;
+
+&lt;p&gt;The cheapest bundle that Blink offers is their &lt;a href=&#34;https://blinkforhome.com/collections/blink-security-camera&#34;&gt;indoor package&lt;/a&gt;,
+which starts at $99. If you opt for their &lt;a href=&#34;https://blinkforhome.com/pages/blink-xt-outdoor-cameras&#34;&gt;weatherproof package&lt;/a&gt;
+instead, you’ll have to pay $129. Sensr.net’s cloud service is compatible with nearly all IP cameras, some of which come as
+&lt;a href=&#34;https://www.amazon.com/DIGOO-Security-Surveillance-115-Wide-Angle-Detection/dp/B06X3R1H5M/sensr-20&#34;&gt;cheap as $25&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&#34;power-options&#34;&gt;Power Options&lt;/h1&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://blog.sensr.net/img/Electric_batteries.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Blink Batteries&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Blink’s cameras exclusively use battery power. Battery powered cameras can be placed almost anywhere, since they don’t have to
+be plugged into an outlet. However, these batteries must be replaced every so often, or the camera will turn off. But what if
+you’re out of town or on vacation when your cameras run out of battery? Or what if the stores near you don’t carry the &lt;a href=&#34;http://support.blinkforhome.com/customer/en/portal/articles/2150051-what-kind-of-batteries-does-blink-use-are-they-eas
+y-to-replace-&#34;&gt;specific
+lithium
+batteries&lt;/a&gt; Blink cameras need to function properly? With Sensr.net, you’re given the freedom to choose from thousands of
+cameras. So no matter if you want a camera that draws power from a battery, an electrical outlet, or even &lt;a href=&#34;https://www.amazon.com/Waterproof-Wireless-ONVIF2-1-Surveillance-Security/dp/B018QA5X70/sensr-20&#34;&gt;the
+sun&lt;/a&gt;, Sensr.net has you
+covered.&lt;/p&gt;
+
+&lt;h1 id=&#34;storage&#34;&gt;Storage&lt;/h1&gt;
+
+&lt;p&gt;Blink’s cloud storage service is free once you purchase one of their cameras. This sounds great, until you realize that you’re limited to storing only two hours of video. That’s not even a full day of surveillance! On top of that, Blink doesn’t even give you the option to pay for more storage, so no matter what you’re stuck with a mere 120 minutes of storage. Sensr.net, on the other hand, offers a full month of cloud storage for only $9. That’s nearly 365 times more.&lt;/p&gt;
+
+&lt;h1 id=&#34;camera&#34;&gt;Camera&lt;/h1&gt;
+
+&lt;p&gt;If you decide to use Blink’s service, you only have two bundles to choose from; The Blink indoor system and the upgraded Blink
+XT system. The XT camera has motion detection, infrared night vision, temperature sensing, is weatherproof, and the bundle
+includes two hours of cloud video storage, all for $129. Sounds reasonable, right? Well, with those 129 dollars, you could
+instead get &lt;a href=&#34;https://www.amazon.com/ieGeek-Wireless-Security-Outdoor-Surveillance/dp/B01JLZKSD8/sensr-20&#34;&gt;this $45 camera&lt;/a&gt; which
+has the same features as the XT camera (minus temperature sensing), a whole 8 months of Sensr.net service with 30 days of cloud
+video storage, and even after all that, you’d still have $4.40 left over. You could save even more if you opted for our yearly
+subscription plan.&lt;/p&gt;
+
+&lt;h1 id=&#34;api&#34;&gt;API&lt;/h1&gt;
+
+&lt;p&gt;Sensr.net also allows advanced users to build their own programs using our SDK. Using our API, enthusiasts can write their own
+code that can access camera data from Sensr’s cloud. Want to build your own iPhone app? Write in facial recognition? Go for it.
+While it’s not exactly something that the everyday user would want, it’s still there for anyone who needs it.&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://blog.sensr.net/img/SensrBlinkChart.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Sensr vs Blink comparison Chart&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;The great news is that we offer free trials to all who are interested. If you like what you see, and we are sure you will, you can sign up for your own account and regain the control of your Wi-Fi security cameras.&lt;/p&gt;
+
+&lt;h1 id=&#34;wrap-up&#34;&gt;Wrap up&lt;/h1&gt;
+
+&lt;p&gt;At Sensr.net, we seek to be the best nest cam alternative available that is both user friendly and flexible in the modern world.&lt;/p&gt;
+
+&lt;p&gt;Try us today for free!&lt;/p&gt;
+
+&lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>An Alternative to Nest Cam</title>
       <link>http://blog.sensr.net/2017/05/an-alternative-to-nest-cam/</link>
       <pubDate>Sun, 21 May 2017 09:00:05 -0400</pubDate>
@@ -2409,22 +2523,6 @@ add_shortcode(&#39;sensr&#39;, &#39;get_sensr&#39;);&lt;/pre&gt;
 &lt;p&gt;If you have any problems or questions, just click the Feedback button on the right side of every Sensr.net page and ask us a question.  We usually respond quickly and try hard to get back within 24 hours at the latest.&lt;/p&gt;
 
 &lt;p&gt;Have fun!&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Share Your Camera with the Police?</title>
-      <link>http://blog.sensr.net/2014/01/27/share-your-camera-with-the-police/</link>
-      <pubDate>Mon, 27 Jan 2014 09:14:15 +0000</pubDate>
-      
-      <guid>http://blog.sensr.net/2014/01/27/share-your-camera-with-the-police/</guid>
-      <description>&lt;p&gt;[&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;alignleft&#34; style=&#34;border: solid 2px #000000;&#34; alt=&#34;&#34; src=&#34;http://extras.mnginteractive.com/live/media/site568/2014/0113/20140113_051656_arsonlist.jpg&#34; width=&#34;300&#34; /&gt;]&lt;a href=&#34;http://www.mercurynews.com/portlet/article/html/imageDisplay.jsp?contentItemRelationshipId=5682131&#34;&gt;1&lt;/a&gt;The &lt;a href=&#34;http://www.mercurynews.com/crime-courts/ci_24979753/san-jose-police-would-tap-into-residents-private#&#34;&gt;San Jose police are interested in getting access to security cameras&lt;/a&gt; from citizens who volunteer access, according to the San Jose Mercury News. I have a couple driveway cameras that I wouldn&amp;#8217;t mind sharing with the police. In fact, I&amp;#8217;ve considered making them public cameras. The cameras don&amp;#8217;t show anything that you couldn&amp;#8217;t see by driving by my house on a public street. Of course having archives is a more powerful thing than simply a live stream.&lt;/p&gt;
-
-&lt;p&gt;With Sensr.net cameras are private by default, but you can make your cameras public and anyone can see them. (Here&amp;#8217;s a list of &lt;a href=&#34;https://sensr.net/cameras/public&#34; title=&#34;Sensr.net Public Cameras&#34;&gt;all our public cameras&lt;/a&gt;.) We also have a guest access feature, where you can give specific users access to the camera. This might be a good option for the &lt;a href=&#34;http://www.sjpd.org/&#34; title=&#34;San Jose Police Department&#34;&gt;SJPD&lt;/a&gt;. Users could add guest access to the an account for the police department, allowing them to view the cameras but also keeping the cameras hidden from the public. We&amp;#8217;ve had the &lt;a href=&#34;http://sensr.net/blog/2012/04/11/guest-access-for-sensr-net-cameras/&#34; title=&#34;Sensr.net Guest Access&#34;&gt;guest access feature&lt;/a&gt; for quite some time.&lt;/p&gt;
-
-&lt;p&gt;Maybe it&amp;#8217;s time to contact the police!&lt;/p&gt;
-</description>
     </item>
     
   </channel>
