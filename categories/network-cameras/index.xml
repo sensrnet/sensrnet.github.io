@@ -9,6 +9,71 @@
     <atom:link href="http://blog.sensr.net/categories/network-cameras/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>How to configure a Wansview Full HD Waterproof Camera NCM751GA</title>
+      <link>http://blog.sensr.net/2017/07/how-to-configure-a-wansview-full-hd-waterproof-camera-ncm751ga/</link>
+      <pubDate>Mon, 24 Jul 2017 09:00:05 -0400</pubDate>
+      
+      <guid>http://blog.sensr.net/2017/07/how-to-configure-a-wansview-full-hd-waterproof-camera-ncm751ga/</guid>
+      <description>
+
+&lt;h1 id=&#34;how-to-configure-a-wansview-full-hd-waterproof-camera-ncm751ga&#34;&gt;How to configure a Wansview Full HD Waterproof Camera NCM751GA&lt;/h1&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:100%&#34; src=&#34;http://blog.sensr.net/img/WanCam.png&#34; title=&#34;Wansview Full HD Waterproof Camera NCM751GA&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;The Wansview NCM751GA is an outdoor HD camera licensed by Wansview and manufactured by Shenzhen Smarteye Digital Electronics. It’s listed on &lt;a href=&#34;https://www.amazon.com/Wansview-Outdoor-Wireless-Security-Waterproof/dp/B01AC5DI8I/ref=sr_1_3?s=electronics&amp;amp;ie=UTF8&amp;amp;qid=1500314310&amp;amp;sr=1-3&amp;amp;keywords=wansview+pro+hd&#34;&gt;Amazon for about $75&lt;/a&gt;.
+One of the biggest problems with this camera is that it’ll only send images through FTP when either motion is detected or one of the sensors is tripped. This means that when you configure it with Sensr.net, it will only upload images when the aforementioned conditions are met. &lt;a href=&#34;http://blog.sensr.net/2011/07/25/true-meaning-of-motion-detection-off/&#34;&gt;Turning off Sensr’s motion detection&lt;/a&gt; when using this camera is recommended .&lt;/p&gt;
+
+&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/WansviewPluggedIn.JPG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;Before you start, you’ll want to plug your camera into an outlet. The red light on the power brick tells you that power is going to the camera.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/iSVPApp.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;Then, use your phone to download the free iSmartviewPro app. If you’re not using an iPhone, the app is available for Android as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/MainMenu.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;Once the app is finished installing, go ahead and open it. You should see a menu that looks like this. Make sure your camera is in arm’s reach and press the Add Camera button.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/AddCam.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;You’ll be brought to this screen. Tap the “Add cameras via WiFi configuration guide” button&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/QRScan.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;, &lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/QRSticker.JPG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;The app will then ask you to scan the camera’s QR code. On the bottom of your camera, there’s a sticker with this QR code. Make sure you have your phone ready before pressing the blue button. This will open your phone’s camera; use it to focus on the QR code and the app will automatically scan it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/GiveCamName.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;Next, name your camera and login with the default Username and Password. The default username is “admin” and the default password is “123456”. For security, you should change these after you’re done setting up your camera.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/WifiPassEmpty.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;Enter your wifi name and password and press next. Ensure you don’t have any headphones or bluetooth devices connected to your phone.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/CamConfig.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;Make sure your phone is close to your camera and the volume is on. The app will play a sound. Wait until you’re brought back to the main screen of the app.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/Finished2.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;Your camera is now set up with the iSmartviewPro app! If you don’t want to connect this camera to Sensr, then at this point you’re finished.&lt;/p&gt;
+
+&lt;h2 id=&#34;connecting-to-sensr-net&#34;&gt;Connecting to Sensr.net&lt;/h2&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/EditCamera.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt; &lt;img style=&#34;width:49%&#34; src=&#34;http://blog.sensr.net/img/AdvSettings.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;From the home screen, tap the little arrow left of the camera you just set up. You’ll be brought to a screen similar to the one above (left). You can change the username/password from here. Press the Advanced Settings button, and you should see a screen that looks like the image above (right).&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:49%&#34; src=&#34;http://blog.sensr.net/img/AlarmSettings.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt; &lt;img style=&#34;width:49%&#34; src=&#34;http://blog.sensr.net/img/FTPSettings.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;Go into Alarm Settings and ensure that Motion Detect is armed and that Save Picture on the FTP is enabled. On a computer, log into your Sensr.net account and click the add camera button. You’ll be given a server name, username, and password. These are your FTP credentials. On your phone, navigate to Advanced Settings in the iSmartviewpro app, then tap FTP Setting. Copy your Sensr.net FTP credentials into the app, then hit done. Once you’ve done that, your camera should be connected with Sensr.net! Remember that this model only uploads images when motion detection is tripped, so if you see that the camera isn’t uploading images to Sensr.net, wave your hand in front of the lens a couple of times.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>An Alternative to Blink Security Cam</title>
       <link>http://blog.sensr.net/2017/05/an-alternative-to-blink-security-cam/</link>
       <pubDate>Sun, 21 May 2017 09:00:05 -0400</pubDate>
@@ -1467,80 +1532,6 @@ firewall configuration is needed. No PC in the basement required.&lt;/p&gt;
 
 &lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Top 3 Outdoor Network Cameras for Home &amp; Business</title>
-      <link>http://blog.sensr.net/2012/06/18/top-3-outdoor-network-cameras-for-home-business/</link>
-      <pubDate>Mon, 18 Jun 2012 19:18:13 +0000</pubDate>
-      
-      <guid>http://blog.sensr.net/2012/06/18/top-3-outdoor-network-cameras-for-home-business/</guid>
-      <description>&lt;h2 id=&#34;1-y-cam-bullet-hd-450-on-sale&#34;&gt;&lt;strong&gt;1. Y-Cam Bullet HD- ~$450 (on sale)&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://www.y-cam.com/y-cam-bullet-hd/&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;wp-image-1823 aligncenter&#34; title=&#34;y-cam bullet HD&#34; src=&#34;http://blog.sensr.net/wp-content/uploads/2012/06/y-cam-bullet-HD-1024x766.jpg&#34; alt=&#34;Y-Cam Bullet HD on Sensr.net&#34; width=&#34;512&#34; height=&#34;382&#34; srcset=&#34;http://blog.sensr.net/img/2012/06/y-cam-bullet-HD-1024x766.jpg 1024w, http://blog.sensr.net/img/2012/06/y-cam-bullet-HD-300x224.jpg 300w, http://blog.sensr.net/img/2012/06/y-cam-bullet-HD.jpg 1301w&#34; sizes=&#34;(max-width: 512px) 100vw, 512px&#34; /&gt;&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;https://sensr.net/ycam-bullet&#34; target=&#34;_blank&#34;&gt;Y-Cam Bullet Info&lt;/a&gt; &lt;em&gt;(non HD version)&lt;/em&gt;
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: left;&#34;&gt;
-  &lt;span style=&#34;text-align: left;&#34;&gt;&lt;a href=&#34;http://www.y-cam.com/y-cam-bullet-hd/&#34; target=&#34;_blank&#34;&gt;Y-Cam&amp;#8217;s Bullet HD&lt;/a&gt; doesn&amp;#8217;t come cheap, but it&amp;#8217;s packed with some pretty incredible features, showing how far IP camera technology has come in that it&amp;#8217;s affordable for consumers at all. Most impressive, the Bullet HD captures 720p video at 30 frames per second. There&amp;#8217;s nothing like seeing your neighbor&amp;#8217;s dog poop on your lawn in 30 fps hi-def, right? It also has H.264 compression and AAC audio for efficient image processing, and direct audio/video connections to all your iDevices.&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: left;&#34;&gt;
-  &lt;img class=&#34;alignleft  wp-image-1899&#34; title=&#34;successkid&#34; src=&#34;http://blog.sensr.net/wp-content/uploads/2012/06/successkid-300x300.jpg&#34; alt=&#34;Sensr.net Dog Proof&#34; width=&#34;240&#34; height=&#34;240&#34; srcset=&#34;http://blog.sensr.net/img/2012/06/successkid-300x300.jpg 300w, http://blog.sensr.net/img/2012/06/successkid-150x150.jpg 150w, http://blog.sensr.net/img/2012/06/successkid.jpg 400w&#34; sizes=&#34;(max-width: 240px) 100vw, 240px&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: left;&#34;&gt;
-  Of course, this is about outdoor network cameras, so I should mention that the Bullet HD is completely weatherproof with shielded cables to ensure smooth operations in all weathers. IR night vision is another key feature for any outdoor network camera, and the Bullet HD has an infrared cut filter to produce as to not sacrifice any daytime color. The camera has all the standard features too &amp;#8212; wifi, motion detection, microSD recording, PC/Mac compatible, and more.
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: left;&#34;&gt;
-  Overall, if you&amp;#8217;ve got $450-$550 in the budget for a new network camera, the Bullet HD is a great purchase. Whether you want merely to discover the critter guilty of eating your expensive and lovely flower bowls at your vacation home, or catch teenagers spray-painting vulgar objects on your business sign, the Bullet HD will let you see it all in great color and high definition. And with &lt;a href=&#34;https://sensr.net&#34; target=&#34;_blank&#34;&gt;Sensr.net&lt;/a&gt;, you&amp;#8217;ll be able to shame those punks, immortalizing their vile crimes on the interwebs, archived forever and ever! If you&amp;#8217;re feeling vindictive, I guess. Otherwise you could just take pride in knowing who(or what)dunit.
-&lt;/p&gt;
-
-&lt;h2 id=&#34;2-panasonic-bl-c140a-8211-175&#34;&gt;&lt;strong&gt;2. Panasonic BL-C140A &amp;#8211; ~$175&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://www.amazon.com/Panasonic-BL-C140A-Outdoor-MPEG-4-Network/dp/B001BBR546&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-1837&#34; title=&#34;BL-C160A-1_700&#34; src=&#34;http://blog.sensr.net/wp-content/uploads/2012/06/BL-C160A-1_700.jpg&#34; alt=&#34;Panasonic BL-C140A on Sensr.net&#34; width=&#34;403&#34; height=&#34;302&#34; srcset=&#34;http://blog.sensr.net/img/2012/06/BL-C160A-1_700.jpg 700w, http://blog.sensr.net/img/2012/06/BL-C160A-1_700-300x225.jpg 300w&#34; sizes=&#34;(max-width: 403px) 100vw, 403px&#34; /&gt;&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/2011/08/25/panasonic-bl-c140a-outdoor-poe-network-camera-on-sale-amazon/&#34; target=&#34;_blank&#34;&gt;How to Setup Panasonic BL-C140A &lt;/a&gt;
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: left;&#34;&gt;
-  If you don&amp;#8217;t want to shell out quite as much cash, the Panasonic BL-C140A is available for a more affordable $175, and still has many good features. It&amp;#8217;s outdoor ready, splash proof, and equipped to handle low temperatures. It has most of the standard features &amp;#8212; motion detection, night vision, etc. It also has a 10x zoom!  The image quality isn&amp;#8217;t bad, either &amp;#8212; though it&amp;#8217;s certainly not high definition. There are a few other unfortunate cons with this camera:
-&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The POE adapter doesn&amp;#8217;t work with standard POE switches. You may find yourself still using the power block. Boo.&lt;/li&gt;
-&lt;li&gt;It&amp;#8217;s a pain to setup on anything but Windows.&lt;/li&gt;
-&lt;li&gt;It&amp;#8217;s not fully &amp;#8220;weatherproof&amp;#8221; &amp;#8211; just splash proof. It needs to be under an eve, or something that keeps it from being completely exposed. (Or you can check out our guide on &lt;a href=&#34;http://blog.sensr.net/2011/05/26/howto-make-cheap-network-camera-enclosure/&#34; target=&#34;_blank&#34;&gt;how to create a cheap network camera enclosure&lt;/a&gt;.)&lt;/li&gt;
-&lt;li&gt;The night vision isn&amp;#8217;t great, but it works.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p style=&#34;text-align: left;&#34;&gt;
-  That said, the Panasonic BL-C140A is still a bargain for an outdoor network camera. If night vision is of extreme importance but you&amp;#8217;re on a budget, you can always get the BL-C140A and pair it with a &lt;a href=&#34;http://www.amazon.com/Clover-Electronics-IR010-Vision-30-Feet/dp/B0009IB8RM/ref=sr_1_3?ie=UTF8&amp;qid=1340047511&amp;sr=8-3&amp;keywords=infrared+illuminator&#34; target=&#34;_blank&#34;&gt;higher quality IR illuminator&lt;/a&gt;.
-&lt;/p&gt;
-
-&lt;h2 id=&#34;3-foscam-fi8905w-8211-100&#34;&gt;&lt;strong&gt;3. Foscam FI8905W &amp;#8211; ~$100&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://www.amazon.com/Foscam-FI8905W-Outdoor-Wireless-Viewing/dp/B003YUEF0E/ref=sr_1_1?s=electronics&amp;ie=UTF8&amp;qid=1340047645&amp;sr=1-1&amp;keywords=foscam+fi8905w&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-1858&#34; title=&#34;foscamfi8905w&#34; src=&#34;http://blog.sensr.net/wp-content/uploads/2012/06/foscamfi8905w.jpg&#34; alt=&#34;Foscam FI8905W on Sensr.net&#34; width=&#34;279&#34; height=&#34;279&#34; srcset=&#34;http://blog.sensr.net/img/2012/06/foscamfi8905w.jpg 399w, http://blog.sensr.net/img/2012/06/foscamfi8905w-150x150.jpg 150w, http://blog.sensr.net/img/2012/06/foscamfi8905w-300x300.jpg 300w&#34; sizes=&#34;(max-width: 279px) 100vw, 279px&#34; /&gt;&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/2011/02/19/configure-foscam-fi8905w-for-sensr-net-ftp/&#34; target=&#34;_blank&#34;&gt;How to Setup Foscam FI8905W&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Foscam&amp;#8217;s FI8905W is the most affordable of the bunch, available for almost any budget at around $100. Unlike the Panasonic, this camera isn&amp;#8217;t just splash proof; it&amp;#8217;s fully waterproof. The FI8905W is also loaded with night vision up to 30 meters (about 98 feet), wifi, and motion detection. Frankly, it&amp;#8217;s pretty impressive that a waterproof, wifi, and night vision equipped IP camera is available for such a low price.&lt;/p&gt;
-
-&lt;p&gt;The images may not be hi-def, but hey, it&amp;#8217;s $100. And if you&amp;#8217;re looking to increase the video quality, a few Amazon reviews say you can upgrade the FI8905W&amp;#8217;s lens for a pretty low price. Still, the FI8905W is great for something like a traffic cam or an over-the-front-door camera to watch for deliveries, but not so effective for serious home/business surveillance.&lt;/p&gt;
-
-&lt;p&gt;Have fun, and get your outdoor network cameras setup on &lt;a href=&#34;https://sensr.net&#34; target=&#34;_blank&#34;&gt;Sensr.net&lt;/a&gt;!&lt;/p&gt;</description>
     </item>
     
   </channel>
