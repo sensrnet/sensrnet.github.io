@@ -14,15 +14,22 @@
       <pubDate>Fri, 03 Oct 2014 16:49:59 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/10/03/como-configurar-a-gravacao-da-d-link-dcs-5010l-com-ftp/</guid>
-      <description>&lt;div id=&#34;attachment_3076&#34; style=&#34;width: 386px&#34; class=&#34;wp-caption alignleft&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/uploads/2014/09/DCS-5010L-BR.jpg&#34;&gt;&lt;img class=&#34;wp-image-3076 size-full&#34; src=&#34;http://blog.sensr.net/img/2014/09/DCS-5010L-BR.jpg&#34; alt=&#34;D-Link 5010L&#34; width=&#34;376&#34; height=&#34;450&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/DCS-5010L-BR.jpg 376w, http://blog.sensr.net/img/2014/09/DCS-5010L-BR-250x300.jpg 250w&#34; sizes=&#34;(max-width: 376px) 100vw, 376px&#34; /&gt;&lt;/a&gt;
+      <description>&lt;div id=&#34;attachment_3076&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img style=&#34;width:30%&#34; src=&#34;http://blog.sensr.net/img/2014/09/DCS-5010L-BR.jpg&#34; title=&#34;DCS-5010L-BR&#34; class=&#34;img-rounded&#34; alt=&#34;DCS-5010L-BR&#34; align=&#34;middle&#34; &gt;
+
   
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    D-Link 5010L
   &lt;/p&gt;
 &lt;/div&gt;
 
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;D-Link 5010L&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
 &lt;p&gt;A câmera &lt;a href=&#34;http://us.dlink.com/products/home-solutions/pan-tilt-daynight-network-camera-2/&#34; title=&#34;DCS 5010L&#34;&gt;D-Link DCS 5010L&lt;/a&gt; é um dos modelos mais populares da D-Link com visão noturna, rotação horizontal e vertical, WiFi e funciona com o serviço MyDlink. O valor da DCS-5010L é também muito acessível: atualmente ela &lt;a href=&#34;https://www.google.com/webhp?sourceid=chrome-instant&amp;amp;ion=1&amp;amp;espv=2&amp;amp;ie=UTF-8#q=dlink+brasil+DCS-5010L&amp;amp;start=10&#34; title=&#34;DCS-5010L na Amazon&#34;&gt;custa $75 na Amazon&lt;/a&gt;. Esta câmera é muito parecida com a DCS-5020L, mas custa quase metade do preço.&lt;/p&gt;
+
+&lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Necessidade de Gravação&lt;/strong&gt;&lt;/p&gt;
 
@@ -42,13 +49,14 @@
 
 &lt;p&gt;&lt;strong&gt;Passo 1:&lt;/strong&gt; Para configurar a câmera, utilize o CD e as instruções disponibilizados em conjunto com a câmera. Tudo o que você precisa de fazer é conectar a câmera ao seu roteador e correr o software do CD. Você vai acabar por criar uma conta no site do MyDlink que vai dar acesso à sua câmera a partir do site ou dos aplicativos MyDlink. Após este passo, você conseguirá acessar sua câmera e alterar suas configurações. A página de configuração de sua câmera vai ter mais ou menos esse aspeto:&lt;/p&gt;
 
-&lt;div id=&#34;attachment_3077&#34; style=&#34;width: 410px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/DCS-5010L-Admin-br.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3077&#34; src=&#34;http://blog.sensr.net/img/2014/09/DCS-5010L-Admin-br.png&#34; alt=&#34;Página Admin DCS-5010L&#34; width=&#34;400&#34; height=&#34;289&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/DCS-5010L-Admin-br.png 400w, http://blog.sensr.net/img/2014/09/DCS-5010L-Admin-br-300x216.png 300w&#34; sizes=&#34;(max-width: 400px) 100vw, 400px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Página Admin DCS-5010L
-  &lt;/p&gt;
+&lt;div id=&#34;attachment_3077&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption alignright&#34;&gt;
+
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img style=&#34;width:60%&#34; src=&#34;http://blog.sensr.net/img/2014/09/DCS-5010L-Admin-br.png&#34; title=&#34;DCS-5010L-Admin-br&#34; class=&#34;img-rounded&#34; alt=&#34;DCS-5010L-Admin-br&#34; align=&#34;middle&#34; &gt;
+&lt;/p&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Página Admin DCS-5010L&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Agora você já consegue fazer alterações às configurações da câmera através do seu navegador. Se o que você pretende é assistir às filmagens em tempo real a partir de sua casa ou através do site MyDlink, então não será necessário fazer mais nada. (Existem outras configurações, como conexão sem fios e tamanho da imagem, que você pode alterar diretamente na interface, mas que eu não vou abordar nesse artigo.)&lt;/p&gt;
 
@@ -56,23 +64,27 @@
 
 &lt;p&gt;&lt;strong&gt;Passo 2:&lt;/strong&gt; Faça o login no Sensr.net, utilizando o seu email e a sua senha. Se ainda não possui uma conta, você pode &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34; title=&#34;Cadastro gratuito no Sensr.net&#34;&gt;criar uma gratuitamente na página de inscrição&lt;/a&gt;. Depois de fazer login, clique no botão verde &lt;strong&gt;Add Camera&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;div id=&#34;attachment_3061&#34; style=&#34;width: 1013px&#34; class=&#34;wp-caption alignnone&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camerabr.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3061&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camerabr.png&#34; alt=&#34;Clique no botão verde&#34; width=&#34;1003&#34; height=&#34;339&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camerabr.png 1003w, http://blog.sensr.net/img/2014/09/sensr-add-camerabr-300x101.png 300w&#34; sizes=&#34;(max-width: 1003px) 100vw, 1003px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Clique no botão verde
+&lt;div id=&#34;attachment_3061&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img style=&#34;width:100%&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camerabr.png&#34; title=&#34;DCS-5010L-Admin-br&#34; class=&#34;img-rounded&#34; alt=&#34;DCS-5010L-Admin-br&#34; align=&#34;middle&#34; &gt;
+ 
   &lt;/p&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Clique no botão verde&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Na página seguinte, você vai poder escolher o título (ou nome) da câmera, o fuso horário, a privacidade e o modelo. O título deve descrever o que a câmera está filmando. O título mais popular no Sensr.net é &lt;strong&gt;Porta da Frente&lt;/strong&gt;, que nos dá uma ideia de como os usuários utilizam o nosso site. Apesar de nós gerarmos um nome genérico para sua câmera baseado no login, você pode dar qualquer nome à sua câmera. O fuso horário é muito importante. Ele é utilizado para determinar a vista diária dos arquivos. Por padrão, as câmeras são privadas, o que significa que apenas você tem acesso a elas. Se quiser que sua câmera seja pública, você pode alterar essa configuração aqui. O modelo da câmera apenas indica qual o modelo que está sendo configurado. Nesse caso, o modelo é DCS-5010L.&lt;/p&gt;
 
-&lt;div id=&#34;attachment_3062&#34; style=&#34;width: 1009px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/add-camera-detailsbr.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3062&#34; src=&#34;http://blog.sensr.net/img/2014/09/add-camera-detailsbr.png&#34; alt=&#34;Dê um nome à sua câmera e partilhe alguns detalhes&#34; width=&#34;999&#34; height=&#34;491&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/add-camera-detailsbr.png 999w, http://blog.sensr.net/img/2014/09/add-camera-detailsbr-300x147.png 300w&#34; sizes=&#34;(max-width: 999px) 100vw, 999px&#34; /&gt;&lt;/a&gt;
+&lt;div id=&#34;attachment_3062&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+ 
+&lt;p align=&#34;top&#34;&gt;
+    &lt;img style=&#34;width:100%&#34; src=&#34;http://blog.sensr.net/img/2014/09/add-camera-detailsbr.png&#34; title=&#34;DCS-5010L-Admin-br&#34; class=&#34;img-rounded&#34; alt=&#34;DCS-5010L-Admin-br&#34; align=&#34;middle&#34; &gt;
   
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Dê um nome à sua câmera e compartilhe alguns detalhes
   &lt;/p&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Dê um nome à sua câmera e compartilhe alguns detalhes&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Depois de preencher todos os detalhes e clicar no link &lt;strong&gt;Next Step&lt;/strong&gt;, nós vamos criar algumas credenciais FTP para você. Será necessário introduzir esses dados na sua câmera no próximo passo. Os dados com mais importância são:&lt;/p&gt;
 
@@ -84,25 +96,30 @@
 
 &lt;p&gt;Mantenha essa janela aberta ou copie os dados, uma vez que você vai precisar deles em breve. Você pode recuperar esses dados, a qualquer momento, na página de detalhes da câmera.&lt;/p&gt;
 
-&lt;div id=&#34;attachment_3046&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-ftp-1024x708.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3046&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-ftp-1024x708.png&#34; alt=&#34;Credenciais FTP&#34; width=&#34;1024&#34; height=&#34;708&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-ftp-1024x708.png 1024w, http://blog.sensr.net/img/2014/09/sensr-add-camera-ftp-1024x708-300x207.png 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;
+&lt;div id=&#34;attachment_3046&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
   
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Credenciais FTP
+&lt;p align=&#34;top&#34;&gt;
+    &lt;img style=&#34;width:100%&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-ftp-1024x708.png&#34; title=&#34;DCS-5010L-Admin-br&#34; class=&#34;img-rounded&#34; alt=&#34;DCS-5010L-Admin-br&#34; align=&#34;middle&#34; &gt;
+  
+
   &lt;/p&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Credenciais FTP&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Apresente sua câmera ao Sensr.net&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Passo 3:&lt;/strong&gt; Agora é necessário configurar sua câmera para enviar imagens para o Sensr.net. Volte à página da DCS-5010L, fazendo o login no site MyDlink e clicando no link de configuração. Clique em “SETUP” no menu superior e, depois, em “FTP”, na lateral. Você vai ser encaminhado para essa página:&lt;/p&gt;
 
-&lt;div id=&#34;attachment_3078&#34; style=&#34;width: 330px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/FTP-DCS-5010L-BR.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3078&#34; src=&#34;http://blog.sensr.net/img/2014/09/FTP-DCS-5010L-BR.png&#34; alt=&#34;Página Configuração FTP DCS-5010L&#34; width=&#34;320&#34; height=&#34;298&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/FTP-DCS-5010L-BR.png 320w, http://blog.sensr.net/img/2014/09/FTP-DCS-5010L-BR-300x279.png 300w&#34; sizes=&#34;(max-width: 320px) 100vw, 320px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Página Configuração FTP DCS-5010L
+&lt;div id=&#34;attachment_3078&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption alignmiddle&#34;&gt;
+ 
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img style=&#34;width:60%&#34; src=&#34;http://blog.sensr.net/img/2014/09/FTP-DCS-5010L-BR.png&#34; title=&#34;DCS-5010L-Admin-br&#34; class=&#34;img-rounded&#34; alt=&#34;DCS-5010L-Admin-br&#34; align=&#34;middle&#34; &gt;
+
   &lt;/p&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Página Configuração FTP DCS-5010L&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;As setas vermelhas mostram os parâmetros que devem ser configurados. No campo Host Name, introduza o servidor FTP que fornecemos na página “Add Camera” no Sensr.net. Copie também o usuário e a senha. Escolha “Passive Mode”, uma vez que o Sensr.net suporta apenas o modo FTP passivo.&lt;/p&gt;
 
@@ -112,8 +129,10 @@
 
 &lt;p&gt;Agora a configuração está terminada. Pode fechar a janela do navegador que mostra as configurações de sua câmera e voltar para o Sensr.net. Clique no botão &lt;strong&gt;Next Step&lt;/strong&gt; para ver as imagens enviadas pela sua câmera. Você verá uma página assim:&lt;/p&gt;
 
-&lt;div id=&#34;attachment_3050&#34; style=&#34;width: 997px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-successo.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3050&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-successo.png&#34; alt=&#34;Sucesso!&#34; width=&#34;987&#34; height=&#34;793&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-successo.png 987w, http://blog.sensr.net/img/2014/09/sensr-add-camera-successo-300x241.png 300w&#34; sizes=&#34;(max-width: 987px) 100vw, 987px&#34; /&gt;&lt;/a&gt;
+&lt;div id=&#34;attachment_3050&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  
+&lt;p align=&#34;left&#34;&gt;
+    &lt;img style=&#34;width:100%&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-successo.png&#34; title=&#34;DCS-5010L-Admin-br&#34; class=&#34;img-rounded&#34; alt=&#34;DCS-5010L-Admin-br&#34; align=&#34;middle&#34; &gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Sucesso!
@@ -130,7 +149,8 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Se tiver alguma dificuldade ou pergunta, clique no botão de Feedback no lado direito de qualquer uma das páginas do Sensr.net e coloque a sua questão. Geralmente, nós nos esforçamos por responder no prazo máximo de 24h horas.&lt;/p&gt;
-</description>
+
+&lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;</description>
     </item>
     
     <item>

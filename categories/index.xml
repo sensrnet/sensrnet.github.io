@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Sensr.net Blog | Watch your Stuff!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Jan 2014 01:19:53 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 May 2017 09:00:05 -0400</lastBuildDate>
     
 	<atom:link href="http://blog.sensr.net/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Alternatives</title>
+      <link>http://blog.sensr.net/categories/alternatives/</link>
+      <pubDate>Sun, 21 May 2017 09:00:05 -0400</pubDate>
+      
+      <guid>http://blog.sensr.net/categories/alternatives/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Animals</title>
@@ -66,6 +75,15 @@
     </item>
     
     <item>
+      <title>Firewalls</title>
+      <link>http://blog.sensr.net/categories/firewalls/</link>
+      <pubDate>Fri, 21 Apr 2017 08:58:34 -0400</pubDate>
+      
+      <guid>http://blog.sensr.net/categories/firewalls/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Foscam</title>
       <link>http://blog.sensr.net/categories/foscam/</link>
       <pubDate>Tue, 11 Apr 2017 09:59:35 +0400</pubDate>
@@ -95,9 +113,18 @@
     <item>
       <title>How To Guide</title>
       <link>http://blog.sensr.net/categories/how-to-guide/</link>
-      <pubDate>Tue, 11 Apr 2017 09:59:35 +0400</pubDate>
+      <pubDate>Wed, 10 May 2017 10:49:15 -0400</pubDate>
       
       <guid>http://blog.sensr.net/categories/how-to-guide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ip Camera</title>
+      <link>http://blog.sensr.net/categories/ip-camera/</link>
+      <pubDate>Fri, 21 Apr 2017 08:58:34 -0400</pubDate>
+      
+      <guid>http://blog.sensr.net/categories/ip-camera/</guid>
       <description></description>
     </item>
     
@@ -140,7 +167,7 @@
     <item>
       <title>Network Cameras</title>
       <link>http://blog.sensr.net/categories/network-cameras/</link>
-      <pubDate>Tue, 11 Apr 2017 09:59:35 +0400</pubDate>
+      <pubDate>Mon, 24 Jul 2017 09:00:05 -0400</pubDate>
       
       <guid>http://blog.sensr.net/categories/network-cameras/</guid>
       <description></description>
@@ -152,6 +179,15 @@
       <pubDate>Mon, 10 Apr 2017 10:06:56 -0400</pubDate>
       
       <guid>http://blog.sensr.net/categories/networking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ouvis</title>
+      <link>http://blog.sensr.net/categories/ouvis/</link>
+      <pubDate>Wed, 10 May 2017 10:49:15 -0400</pubDate>
+      
+      <guid>http://blog.sensr.net/categories/ouvis/</guid>
       <description></description>
     </item>
     
@@ -194,9 +230,18 @@
     <item>
       <title>Reviews</title>
       <link>http://blog.sensr.net/categories/reviews/</link>
-      <pubDate>Tue, 11 Apr 2017 09:59:35 +0400</pubDate>
+      <pubDate>Wed, 10 May 2017 10:49:15 -0400</pubDate>
       
       <guid>http://blog.sensr.net/categories/reviews/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Router</title>
+      <link>http://blog.sensr.net/categories/router/</link>
+      <pubDate>Fri, 21 Apr 2017 08:58:34 -0400</pubDate>
+      
+      <guid>http://blog.sensr.net/categories/router/</guid>
       <description></description>
     </item>
     
@@ -233,6 +278,15 @@
       <pubDate>Fri, 30 Mar 2012 02:17:47 +0000</pubDate>
       
       <guid>http://blog.sensr.net/categories/sensr.net-press/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Setup</title>
+      <link>http://blog.sensr.net/categories/setup/</link>
+      <pubDate>Mon, 24 Jul 2017 09:00:05 -0400</pubDate>
+      
+      <guid>http://blog.sensr.net/categories/setup/</guid>
       <description></description>
     </item>
     
@@ -305,6 +359,15 @@
       <pubDate>Tue, 24 Jun 2014 15:40:32 +0000</pubDate>
       
       <guid>http://blog.sensr.net/categories/user-stories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wifi Networks</title>
+      <link>http://blog.sensr.net/categories/wifi-networks/</link>
+      <pubDate>Fri, 21 Apr 2017 08:58:34 -0400</pubDate>
+      
+      <guid>http://blog.sensr.net/categories/wifi-networks/</guid>
       <description></description>
     </item>
     

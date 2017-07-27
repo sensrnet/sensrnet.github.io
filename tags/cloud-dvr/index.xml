@@ -17,6 +17,8 @@
       <description>&lt;p&gt;&lt;p align=&#34;center&#34;&gt;
     &lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/WanCam.png&#34; title=&#34;Wansview Full HD Waterproof Camera NCM751GA&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
 
+&lt;h4 id=&#34;wansview-ncm751ga&#34;&gt;Wansview NCM751GA&lt;/h4&gt;
+
 &lt;p&gt;The Wansview NCM751GA is an outdoor HD camera licensed by Wansview and manufactured by Shenzhen Smarteye Digital Electronics. It’s listed on &lt;a href=&#34;https://www.amazon.com/Wansview-Outdoor-Wireless-Security-Waterproof/dp/B01AC5DI8I/sensr-20&#34;&gt;Amazon for about $75&lt;/a&gt;.
  One of the biggest problems with this camera is that it’ll only send images through FTP when either motion is detected or one of the sensors is
 tripped. This means that when you configure it with Sensr.net, it will only upload images when the aforementioned conditions are met. &lt;a href=&#34;http://blog.sensr.net/2011/07/25/true-meaning-of-motion-detection-off/&#34;&gt;Turning
@@ -26,62 +28,119 @@ off Sensr’s motion detection&lt;/a&gt; when using this camera is recommended .
 
 &lt;p&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;This article will help you set up your Wansview NCM751GA camera so you can watch your stuff while you&amp;rsquo;re away.
+I&amp;rsquo;ll also show you how to set up the camera to send images to the Sensr.net website, so you can take advantage of all the features of our service, such as storage, sharing, and alerts.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; Setting up your camera with Wansview&amp;rsquo;s iSmartViewPro app&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; Configuring your camera to work with Sensr.net&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Step 3:&lt;/strong&gt; Connecting your camera to Sensr.net&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;step-1-ismartviewpro-setup&#34;&gt;Step 1: iSmartViewPro Setup&lt;/h2&gt;
+
+&lt;p&gt;Before we can use this camera with Sensr.net, we have to configure it through Wansview&amp;rsquo;s own application, iSmartViewPro. While you can use the  iSmartViewPro app on its own, it&amp;rsquo;s clunky, not very secure, and incompatible with third party cameras. Using Sensr.net is recommended.&lt;/p&gt;
 
 &lt;p&gt;&lt;p align=&#34;center&#34;&gt;
-    &lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/WansviewPluggedIn.JPG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
+    &lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/WansviewPluggedIn.JPG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;strong&gt;&lt;em&gt;NCM751GA plugged into a power strip&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Before you start, you’ll want to plug your camera into an outlet. The red light on the power brick tells you that power is going to the camera.&lt;/p&gt;
+&lt;p&gt;Before you start, you’ll want to plug your camera into an outlet. The red light on the power brick tells you that power is going to the camera. This part is not optional. If you manage to get your camera set up without this step, you should probably start calling potential investors. Or a priest.&lt;/p&gt;
 
 &lt;p&gt;&lt;p align=&#34;center&#34;&gt;
     &lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/iSVPApp.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
 
-&lt;p&gt;Then, use your phone to download the free iSmartviewPro app. If you’re not using an iPhone, the app is available for Android as well.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;iSmartViewPro app on the iOS Appstore&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Then, use your phone to download the free iSmartViewPro app. Search it on the Appstore, or scan the QR code on the box your camera came in. If you’re not using an iPhone, the app is available for Android on Google Play as well.&lt;/p&gt;
 
 &lt;p&gt;&lt;p align=&#34;center&#34;&gt;
     &lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/MainMenu.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Main page on the iSmartViewPro app&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Once the app is finished installing, go ahead and open it. You should see a menu that looks like this. Make sure your camera is in arm’s reach and press the Add Camera button.&lt;/p&gt;
 
 &lt;p&gt;&lt;p align=&#34;center&#34;&gt;
     &lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/AddCam.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Add Camera page&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
 &lt;p&gt;You’ll be brought to this screen. Tap the “Add cameras via WiFi configuration guide” button&lt;/p&gt;
 
 &lt;p&gt;&lt;p align=&#34;center&#34;&gt;
     &lt;img style=&#34;width:25%&#34; src=&#34;http://blog.sensr.net/img/QRScan.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt; &lt;img style=&#34;width:59%&#34; src=&#34;http://blog.sensr.net/img/QRSticker.JPG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Wifi configuration guide (Left), QR code sticker on the NCM751GA (Right)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;The app will then ask you to scan the camera’s QR code. On the bottom of your camera, there’s a sticker with this QR code. Make sure you have your phone ready before pressing the blue button. This will open your phone’s camera; use it to focus on the QR code and the app will automatically scan it.&lt;/p&gt;
 
 &lt;p&gt;&lt;p align=&#34;center&#34;&gt;
     &lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/GiveCamName.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Camera name and login screen&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
 &lt;p&gt;Next, name your camera and login with the default Username and Password. The default username is “admin” and the default password is “123456”. For security, you should change these after you’re done setting up your camera.&lt;/p&gt;
 
 &lt;p&gt;&lt;p align=&#34;center&#34;&gt;
     &lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/WifiPassEmpty.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;WiFi sign in screen&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Enter your wifi name and password and press next. Ensure you don’t have any headphones or bluetooth devices connected to your phone.&lt;/p&gt;
 
 &lt;p&gt;&lt;p align=&#34;center&#34;&gt;
     &lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/CamConfig.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Calibration Screen&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
 &lt;p&gt;Make sure your phone is close to your camera and the volume is on. The app will play a sound. Wait until you’re brought back to the main screen of the app.&lt;/p&gt;
 
 &lt;p&gt;&lt;p align=&#34;center&#34;&gt;
     &lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/Finished2.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Main page on the iSmartViewPro app&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
 &lt;p&gt;Your camera is now set up with the iSmartviewPro app! If you don’t want to connect this camera to Sensr, then at this point you’re finished.&lt;/p&gt;
 
-&lt;h2 id=&#34;connecting-to-sensr-net&#34;&gt;Connecting to Sensr.net&lt;/h2&gt;
+&lt;h2 id=&#34;step-2-configuring-your-camera-to-work-with-sensr-net&#34;&gt;Step 2: Configuring your camera to work with Sensr.net&lt;/h2&gt;
 
 &lt;p&gt;&lt;img style=&#34;width:49%&#34; src=&#34;http://blog.sensr.net/img/EditCamera.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt; &lt;img style=&#34;width:49%&#34; src=&#34;http://blog.sensr.net/img/AdvSettings.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Edit Camera screen (Left), Advanced Settings screen(Right)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
 &lt;p&gt;From the home screen, tap the little arrow left of the camera you just set up. You’ll be brought to a screen similar to the one above (left). You can change the username/password from here. Press the Advanced Settings button, and you should see a screen that looks like the image above (right).&lt;/p&gt;
 
-&lt;p&gt;&lt;img style=&#34;width:49%&#34; src=&#34;http://blog.sensr.net/img/AlarmSettings.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt; &lt;img style=&#34;width:49%&#34; src=&#34;http://blog.sensr.net/img/FTPSettings.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
+&lt;p&gt;&lt;p align=&#34;center&#34;&gt;
+    &lt;img style=&#34;width:49%&#34; src=&#34;http://blog.sensr.net/img/AlarmSettings.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
 
-&lt;p&gt;Go into Alarm Settings and ensure that Motion Detect is armed and that Save Picture on the FTP is enabled. On a computer, log into your Sensr.net account and click the add camera button. You’ll be given a server name, username, and password. These are your FTP credentials. On your phone, navigate to Advanced Settings in the iSmartviewpro app, then tap FTP Setting. Copy your Sensr.net FTP credentials into the app, then hit done. Once you’ve done that, your camera should be connected with Sensr.net! Remember that this model only uploads images when motion detection is tripped, so if you see that the camera isn’t uploading images to Sensr.net, wave your hand in front of the lens a couple of times.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Alarm Settings&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Go into Alarm Settings and ensure that Motion Detect is armed and that Save Picture on the FTP is enabled.&lt;/p&gt;
+
+&lt;h2 id=&#34;step-3-connecting-your-camera-to-sensr-net&#34;&gt;Step 3: Connecting your camera to Sensr.net&lt;/h2&gt;
+
+&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://blog.sensr.net/img/2014/02/sensr-add-camera.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2714&#34; src=&#34;http://blog.sensr.net/img/2014/02/sensr-add-camera.png&#34; alt=&#34;Add new camera page&#34; style=&#34;width:685px;height:230px;&#34; width=&#34;1003&#34; height=&#34;250&#34; srcset=&#34;http://blog.sensr.net/img/2014/02/sensr-add-camera.png 1003w, http://blog.sensr.net/img/2014/02/sensr-add-camera-300x101.png 300w&#34; sizes=&#34;(max-width: 9000px) 100vw, 1003px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Click the big green button!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;On a computer, log into your Sensr.net account and click the add camera button.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2607&#34; src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2.png&#34; alt=&#34;FTP credentials&#34; style=&#34;width:685px;height:474px;&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2.png 2000w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s2-300x207.png 20000w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s2-1024x708.png 1024w&#34; sizes=&#34;(max-width: 2000px) 100vw, 2000px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Sensr FTP credentials menu&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You’ll be given a server name, username, and password. These are your FTP credentials.&lt;/p&gt;
+
+&lt;p&gt;&lt;p align=&#34;center&#34;&gt;
+    &lt;img style=&#34;width:49%&#34; src=&#34;http://blog.sensr.net/img/FTPSettings.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;FTP Settings menus in the iSmartViewPro app&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;On your phone, navigate to Advanced Settings in the iSmartviewpro app, then tap FTP Setting. Copy your Sensr.net FTP credentials into the app, then hit done. Once you’ve done that, your camera should be connected with Sensr.net! Remember that this model only uploads images when motion detection is tripped, so if you see that the camera isn’t uploading images to Sensr.net, wave your hand in front of the lens a couple of times.&lt;/p&gt;
 
 &lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;</description>
     </item>

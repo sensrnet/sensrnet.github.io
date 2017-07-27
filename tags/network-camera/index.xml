@@ -14,13 +14,17 @@
       <pubDate>Wed, 13 Aug 2014 16:39:02 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/08/13/how-to-setup-the-panasonic-bl-c30a-network-cam-with-cloud-recording/</guid>
-      <description>&lt;p&gt;&lt;img class=&#34;alignleft wp-image-3022&#34; src=&#34;http://blog.sensr.net/img/2014/08/41BE0QTS8KL1.jpg&#34; alt=&#34;41BE0QTS8KL&#34; width=&#34;345&#34; height=&#34;345&#34; srcset=&#34;http://blog.sensr.net/img/2014/08/41BE0QTS8KL1.jpg 500w, http://blog.sensr.net/img/2014/08/41BE0QTS8KL1-150x150.jpg 150w, http://blog.sensr.net/img/2014/08/41BE0QTS8KL1-300x300.jpg 300w&#34; sizes=&#34;(max-width: 345px) 100vw, 345px&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p align=&#34;center&#34;&gt;
+    &lt;img style=&#34;width:300px;height:300px;&#34; src=&#34;http://blog.sensr.net/img/2014/08/41BE0QTS8KL1.jpg&#34; title=&#34;Wansview Full HD Waterproof Camera NCM751GA&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;center&#34; 
+&lt;/p&gt;
+    
 
 &lt;p style=&#34;text-align: left;&#34;&gt;
   Despite looking like it belongs in the 90s the &lt;a href=&#34;http://www.amazon.com/Panasonic-Wireless-802-11-Network-BL-C30A/dp/B0002GS4ZA/ref=sr_1_12?ie=UTF8&amp;qid=1407868581&amp;sr=8-12&amp;keywords=Network+cameras/sensr-20&#34;&gt;Panasonic BL-C30A&lt;/a&gt; actually boasts some great reviews. It is easy to setup and provides a pretty high quality video. It might not be the most sleek or attractive camera on the market but it will get the job done and its built by a very large and reputable company which is a plus for a lot of people. In this tutorial I will show you how to get this bad boy setup and streaming to the cloud with Sensr.net so you can watch your stuff from anywhere at anytime.
 &lt;/p&gt;
 
 &lt;p style=&#34;text-align: left;&#34;&gt;
+    &lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;
   
 &lt;/p&gt;
 
@@ -47,18 +51,19 @@
 
 &lt;p&gt;I will show you how to do this on a mac (because I am writing from a mac) but it is also very easy to do from a PC (the PC process is outlined in &lt;a style=&#34;color: #888888;&#34; href=&#34;http://blogs.computerworld.com/network-security/22777/find-ip-address-your-home-router&#34;&gt;this article&lt;/a&gt;). On my mac it is under system preferences&amp;gt;Network&amp;gt;Advanced…&amp;gt;TCP/IP. The page looks like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2597&#34; src=&#34;http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png&#34; alt=&#34;Router IP address shown on second line&#34; width=&#34;782&#34; height=&#34;694&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png 782w, http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM-300x266.png 300w&#34; sizes=&#34;(max-width: 782px) 100vw, 782px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2597&#34; src=&#34;http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png&#34; alt=&#34;Router IP address shown on second line&#34; style=&#34;width:685px;height:607px;&#34; width=&#34;782&#34; height=&#34;694&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM.png 782w, http://blog.sensr.net/img/2013/12/Screen-Shot-2013-12-09-at-6.02.37-PM-300x266.png 300w&#34; sizes=&#34;(max-width: 782px) 100vw, 782px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Once you have the IP address just enter it into your browser and it should bring you to a network access page. Everyone’s looks different depending on the make and model of their browser. Mine, for example, looks like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://blog.sensr.net/img/2013/12/netgear-attached-devices.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2599&#34; src=&#34;http://blog.sensr.net/img/2013/12/netgear-attached-devices.png&#34; alt=&#34;My router&#39;s Network Access portal&#34; width=&#34;932&#34; height=&#34;780&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/netgear-attached-devices.png 932w, http://blog.sensr.net/img/2013/12/netgear-attached-devices-300x251.png 300w&#34; sizes=&#34;(max-width: 932px) 100vw, 932px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://blog.sensr.net/img/2013/12/netgear-attached-devices.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2599&#34; src=&#34;http://blog.sensr.net/img/2013/12/netgear-attached-devices.png&#34; alt=&#34;My router&#39;s Network Access portal&#34; style=&#34;width:685px;height:573px;&#34; width=&#34;932&#34; height=&#34;780&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/netgear-attached-devices.png 932w, http://blog.sensr.net/img/2013/12/netgear-attached-devices-300x251.png 300w&#34; sizes=&#34;(max-width: 932px) 100vw, 932px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;If you aren’t sure which device is new you can always unplug your camera then plug it back in to see which one disappears and comes back.&lt;/p&gt;
 
 &lt;p&gt;Now that you&amp;#8217;ve got the camera&amp;#8217;s IP address just type it into your browser. There will be an authentication window with the username and password already. SAVE THOSE.  Now you should come to a page that looks like this:&lt;/p&gt;
 
-&lt;div id=&#34;attachment_3024&#34; style=&#34;width: 441px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/08/Screen-Shot-2014-08-13-at-12.26.13-PM.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3024&#34; src=&#34;http://blog.sensr.net/img/2014/08/Screen-Shot-2014-08-13-at-12.26.13-PM.png&#34; alt=&#34;First time on network access page&#34; width=&#34;431&#34; height=&#34;171&#34; srcset=&#34;http://blog.sensr.net/img/2014/08/Screen-Shot-2014-08-13-at-12.26.13-PM.png 431w, http://blog.sensr.net/img/2014/08/Screen-Shot-2014-08-13-at-12.26.13-PM-300x119.png 300w&#34; sizes=&#34;(max-width: 431px) 100vw, 431px&#34; /&gt;&lt;/a&gt;
+&lt;div id=&#34;attachment_3024&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+    &lt;p style=&#34;text-align: center;&#34;&gt;
+        &lt;a href=&#34;http://blog.sensr.net/img/2014/08/Screen-Shot-2014-08-13-at-12.26.13-PM.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3024&#34; src=&#34;http://blog.sensr.net/img/2014/08/Screen-Shot-2014-08-13-at-12.26.13-PM.png&#34; alt=&#34;First time on network access page&#34; style=&#34;width:342px;height:136px;&#34; width=&#34;431&#34; height=&#34;171&#34; srcset=&#34;http://blog.sensr.net/img/2014/08/Screen-Shot-2014-08-13-at-12.26.13-PM.png 431w, http://blog.sensr.net/img/2014/08/Screen-Shot-2014-08-13-at-12.26.13-PM-300x119.png 300w&#34; align=&#34;middle&#34; sizes=&#34;(max-width: 431px) 100vw, 431px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     First time on network access page
@@ -69,7 +74,7 @@
 
 &lt;p&gt;&lt;strong&gt;Step three: Go to Sensr.net and get FTP credentials.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Now you are ready to setup stuff from the Sensr.net side of things. We will store all your recorded data in the cloud so you can access it from any device, anywhere. We have a number of different plans but the first week is always free so just set it up and give it a try. If you don’t like it you don’t need to continue to a payed plan. Log into your Sensr.net account click the &lt;strong&gt;Add Camera&lt;/strong&gt; button. Once you login you’ll see a page like this: &lt;a style=&#34;color: #888888;&#34; href=&#34;http://blog.sensr.net/img/2014/02/sensr-add-camera.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2714&#34; src=&#34;http://blog.sensr.net/img/2014/02/sensr-add-camera.png&#34; alt=&#34;Add new camera page&#34; width=&#34;1003&#34; height=&#34;339&#34; srcset=&#34;http://blog.sensr.net/img/2014/02/sensr-add-camera.png 1003w, http://blog.sensr.net/img/2014/02/sensr-add-camera-300x101.png 300w&#34; sizes=&#34;(max-width: 1003px) 100vw, 1003px&#34; /&gt;&lt;/a&gt;Next you’ll see a page like this where you can set the timezone for your camera, give it a name, and tell us the model.  Cameras default to private but you can make them public if you want to share them with the world. &lt;a style=&#34;color: #888888;&#34; href=&#34;http://blog.sensr.net/img/2014/02/add-camera-details.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2713&#34; src=&#34;http://blog.sensr.net/img/2014/02/add-camera-details.png&#34; alt=&#34;Note this is for a different device&#34; width=&#34;999&#34; height=&#34;491&#34; srcset=&#34;http://blog.sensr.net/img/2014/02/add-camera-details.png 999w, http://blog.sensr.net/img/2014/02/add-camera-details-300x147.png 300w&#34; sizes=&#34;(max-width: 999px) 100vw, 999px&#34; /&gt;&lt;/a&gt;After that, we’ll generate some FTP credentials for your server. This generates a login for your  Panasonic to where it can upload images via FTP. This tells your camera where to upload the images. The important information here is:&lt;/p&gt;
+&lt;p&gt;Now you are ready to setup stuff from the Sensr.net side of things. We will store all your recorded data in the cloud so you can access it from any device, anywhere. We have a number of different plans but the first week is always free so just set it up and give it a try. If you don’t like it you don’t need to continue to a payed plan. Log into your Sensr.net account click the &lt;strong&gt;Add Camera&lt;/strong&gt; button. Once you login you’ll see a page like this: &lt;a style=&#34;color: #888888;&#34; href=&#34;http://blog.sensr.net/img/2014/02/sensr-add-camera.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2714&#34; src=&#34;http://blog.sensr.net/img/2014/02/sensr-add-camera.png&#34; alt=&#34;Add new camera page&#34; style=&#34;width:685px;height:230px;&#34; width=&#34;1003&#34; height=&#34;250&#34; srcset=&#34;http://blog.sensr.net/img/2014/02/sensr-add-camera.png 1003w, http://blog.sensr.net/img/2014/02/sensr-add-camera-300x101.png 300w&#34; sizes=&#34;(max-width: 9000px) 100vw, 1003px&#34; /&gt;&lt;/a&gt;Next you’ll see a page like this where you can set the timezone for your camera, give it a name, and tell us the model.  Cameras default to private but you can make them public if you want to share them with the world. &lt;a style=&#34;color: #888888;&#34; href=&#34;http://blog.sensr.net/img/2014/02/add-camera-details.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2713&#34; src=&#34;http://blog.sensr.net/img/2014/02/add-camera-details.png&#34; alt=&#34;Note this is for a different device&#34; style=&#34;width:685px;height:336px;&#34; width=&#34;999&#34; height=&#34;390&#34; srcset=&#34;http://blog.sensr.net/img/2014/02/add-camera-details.png 999w, http://blog.sensr.net/img/2014/02/add-camera-details-300x147.png 300w&#34; sizes=&#34;(max-width: 999px) 100vw, 999px&#34; /&gt;&lt;/a&gt;After that, we’ll generate some FTP credentials for your server. This generates a login for your  Panasonic to where it can upload images via FTP. This tells your camera where to upload the images. The important information here is:&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;FTP Server&lt;/li&gt;
@@ -77,7 +82,7 @@
 &lt;li&gt;FTP Password&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Save these so we can add them to your camera later. &lt;a style=&#34;color: #888888;&#34; href=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2607&#34; src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2.png&#34; alt=&#34;FTP credentials&#34; width=&#34;1141&#34; height=&#34;790&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2.png 1141w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s2-300x207.png 300w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s2-1024x708.png 1024w&#34; sizes=&#34;(max-width: 1141px) 100vw, 1141px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Save these so we can add them to your camera later. &lt;a style=&#34;color: #888888;&#34; href=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2607&#34; src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2.png&#34; alt=&#34;FTP credentials&#34; style=&#34;width:685px;height:474px;&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2.png 2000w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s2-300x207.png 20000w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s2-1024x708.png 1024w&#34; sizes=&#34;(max-width: 2000px) 100vw, 2000px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Now the last step&amp;#8230;&lt;/p&gt;
 
@@ -93,8 +98,8 @@
   Go back to the Sensr.net tab and it should look like this:
 &lt;/p&gt;
 
-&lt;div id=&#34;attachment_2618&#34; style=&#34;width: 997px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-success.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2618&#34; src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-success.png&#34; alt=&#34;Success!&#34; width=&#34;987&#34; height=&#34;793&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-success.png 987w, http://blog.sensr.net/img/2013/12/sensr-add-camera-success-300x241.png 300w&#34; sizes=&#34;(max-width: 987px) 100vw, 987px&#34; /&gt;&lt;/a&gt;
+&lt;div id=&#34;attachment_2618&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-success.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2618&#34; src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-success.png&#34; alt=&#34;Success!&#34; style=&#34;width:685px;height:550px;&#34; width=&#34;987&#34; height=&#34;600&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-success.png 987w, http://blog.sensr.net/img/2013/12/sensr-add-camera-success-300x241.png 300w&#34; sizes=&#34;(max-width: 987px) 100vw, 987px&#34; /&gt;&lt;/a&gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Success!
@@ -103,7 +108,9 @@
 
 &lt;p&gt;Congratulations, now you’re done with the camera config. You’re camera is now on Sensr.net. We’ll archive all the motion events, giving you 30 days of archives, SMS and email alerts, guest access, and a whole lot more.  You can view the live stream on our website or in our apps.  No firewall configuration is needed.  No PC in the basement required.&lt;/p&gt;
 
-&lt;p&gt;If you have any problems, send email to info @ sensr.net and we’ll try to help you out!&lt;/p&gt;</description>
+&lt;p&gt;If you have any problems, send email to info @ sensr.net and we’ll try to help you out!&lt;/p&gt;
+
+&lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;</description>
     </item>
     
     <item>

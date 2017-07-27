@@ -17,6 +17,8 @@
       <description>&lt;p&gt;&lt;p align=&#34;center&#34;&gt;
     &lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/WanCam.png&#34; title=&#34;Wansview Full HD Waterproof Camera NCM751GA&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
 
+&lt;h4 id=&#34;wansview-ncm751ga&#34;&gt;Wansview NCM751GA&lt;/h4&gt;
+
 &lt;p&gt;The Wansview NCM751GA is an outdoor HD camera licensed by Wansview and manufactured by Shenzhen Smarteye Digital Electronics. It’s listed on &lt;a href=&#34;https://www.amazon.com/Wansview-Outdoor-Wireless-Security-Waterproof/dp/B01AC5DI8I/sensr-20&#34;&gt;Amazon for about $75&lt;/a&gt;.
  One of the biggest problems with this camera is that it’ll only send images through FTP when either motion is detected or one of the sensors is
 tripped. This means that when you configure it with Sensr.net, it will only upload images when the aforementioned conditions are met. &lt;a href=&#34;http://blog.sensr.net/2011/07/25/true-meaning-of-motion-detection-off/&#34;&gt;Turning
@@ -26,62 +28,119 @@ off Sensr’s motion detection&lt;/a&gt; when using this camera is recommended .
 
 &lt;p&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;This article will help you set up your Wansview NCM751GA camera so you can watch your stuff while you&amp;rsquo;re away.
+I&amp;rsquo;ll also show you how to set up the camera to send images to the Sensr.net website, so you can take advantage of all the features of our service, such as storage, sharing, and alerts.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; Setting up your camera with Wansview&amp;rsquo;s iSmartViewPro app&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; Configuring your camera to work with Sensr.net&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Step 3:&lt;/strong&gt; Connecting your camera to Sensr.net&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;step-1-ismartviewpro-setup&#34;&gt;Step 1: iSmartViewPro Setup&lt;/h2&gt;
+
+&lt;p&gt;Before we can use this camera with Sensr.net, we have to configure it through Wansview&amp;rsquo;s own application, iSmartViewPro. While you can use the  iSmartViewPro app on its own, it&amp;rsquo;s clunky, not very secure, and incompatible with third party cameras. Using Sensr.net is recommended.&lt;/p&gt;
 
 &lt;p&gt;&lt;p align=&#34;center&#34;&gt;
-    &lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/WansviewPluggedIn.JPG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
+    &lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/WansviewPluggedIn.JPG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;strong&gt;&lt;em&gt;NCM751GA plugged into a power strip&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Before you start, you’ll want to plug your camera into an outlet. The red light on the power brick tells you that power is going to the camera.&lt;/p&gt;
+&lt;p&gt;Before you start, you’ll want to plug your camera into an outlet. The red light on the power brick tells you that power is going to the camera. This part is not optional. If you manage to get your camera set up without this step, you should probably start calling potential investors. Or a priest.&lt;/p&gt;
 
 &lt;p&gt;&lt;p align=&#34;center&#34;&gt;
     &lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/iSVPApp.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
 
-&lt;p&gt;Then, use your phone to download the free iSmartviewPro app. If you’re not using an iPhone, the app is available for Android as well.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;iSmartViewPro app on the iOS Appstore&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Then, use your phone to download the free iSmartViewPro app. Search it on the Appstore, or scan the QR code on the box your camera came in. If you’re not using an iPhone, the app is available for Android on Google Play as well.&lt;/p&gt;
 
 &lt;p&gt;&lt;p align=&#34;center&#34;&gt;
     &lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/MainMenu.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Main page on the iSmartViewPro app&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Once the app is finished installing, go ahead and open it. You should see a menu that looks like this. Make sure your camera is in arm’s reach and press the Add Camera button.&lt;/p&gt;
 
 &lt;p&gt;&lt;p align=&#34;center&#34;&gt;
     &lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/AddCam.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Add Camera page&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
 &lt;p&gt;You’ll be brought to this screen. Tap the “Add cameras via WiFi configuration guide” button&lt;/p&gt;
 
 &lt;p&gt;&lt;p align=&#34;center&#34;&gt;
     &lt;img style=&#34;width:25%&#34; src=&#34;http://blog.sensr.net/img/QRScan.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt; &lt;img style=&#34;width:59%&#34; src=&#34;http://blog.sensr.net/img/QRSticker.JPG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Wifi configuration guide (Left), QR code sticker on the NCM751GA (Right)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;The app will then ask you to scan the camera’s QR code. On the bottom of your camera, there’s a sticker with this QR code. Make sure you have your phone ready before pressing the blue button. This will open your phone’s camera; use it to focus on the QR code and the app will automatically scan it.&lt;/p&gt;
 
 &lt;p&gt;&lt;p align=&#34;center&#34;&gt;
     &lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/GiveCamName.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Camera name and login screen&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
 &lt;p&gt;Next, name your camera and login with the default Username and Password. The default username is “admin” and the default password is “123456”. For security, you should change these after you’re done setting up your camera.&lt;/p&gt;
 
 &lt;p&gt;&lt;p align=&#34;center&#34;&gt;
     &lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/WifiPassEmpty.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;WiFi sign in screen&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Enter your wifi name and password and press next. Ensure you don’t have any headphones or bluetooth devices connected to your phone.&lt;/p&gt;
 
 &lt;p&gt;&lt;p align=&#34;center&#34;&gt;
     &lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/CamConfig.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Calibration Screen&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
 &lt;p&gt;Make sure your phone is close to your camera and the volume is on. The app will play a sound. Wait until you’re brought back to the main screen of the app.&lt;/p&gt;
 
 &lt;p&gt;&lt;p align=&#34;center&#34;&gt;
     &lt;img style=&#34;width:50%&#34; src=&#34;http://blog.sensr.net/img/Finished2.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Main page on the iSmartViewPro app&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
 &lt;p&gt;Your camera is now set up with the iSmartviewPro app! If you don’t want to connect this camera to Sensr, then at this point you’re finished.&lt;/p&gt;
 
-&lt;h2 id=&#34;connecting-to-sensr-net&#34;&gt;Connecting to Sensr.net&lt;/h2&gt;
+&lt;h2 id=&#34;step-2-configuring-your-camera-to-work-with-sensr-net&#34;&gt;Step 2: Configuring your camera to work with Sensr.net&lt;/h2&gt;
 
 &lt;p&gt;&lt;img style=&#34;width:49%&#34; src=&#34;http://blog.sensr.net/img/EditCamera.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt; &lt;img style=&#34;width:49%&#34; src=&#34;http://blog.sensr.net/img/AdvSettings.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Edit Camera screen (Left), Advanced Settings screen(Right)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
 &lt;p&gt;From the home screen, tap the little arrow left of the camera you just set up. You’ll be brought to a screen similar to the one above (left). You can change the username/password from here. Press the Advanced Settings button, and you should see a screen that looks like the image above (right).&lt;/p&gt;
 
-&lt;p&gt;&lt;img style=&#34;width:49%&#34; src=&#34;http://blog.sensr.net/img/AlarmSettings.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt; &lt;img style=&#34;width:49%&#34; src=&#34;http://blog.sensr.net/img/FTPSettings.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
+&lt;p&gt;&lt;p align=&#34;center&#34;&gt;
+    &lt;img style=&#34;width:49%&#34; src=&#34;http://blog.sensr.net/img/AlarmSettings.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
 
-&lt;p&gt;Go into Alarm Settings and ensure that Motion Detect is armed and that Save Picture on the FTP is enabled. On a computer, log into your Sensr.net account and click the add camera button. You’ll be given a server name, username, and password. These are your FTP credentials. On your phone, navigate to Advanced Settings in the iSmartviewpro app, then tap FTP Setting. Copy your Sensr.net FTP credentials into the app, then hit done. Once you’ve done that, your camera should be connected with Sensr.net! Remember that this model only uploads images when motion detection is tripped, so if you see that the camera isn’t uploading images to Sensr.net, wave your hand in front of the lens a couple of times.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Alarm Settings&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Go into Alarm Settings and ensure that Motion Detect is armed and that Save Picture on the FTP is enabled.&lt;/p&gt;
+
+&lt;h2 id=&#34;step-3-connecting-your-camera-to-sensr-net&#34;&gt;Step 3: Connecting your camera to Sensr.net&lt;/h2&gt;
+
+&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://blog.sensr.net/img/2014/02/sensr-add-camera.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2714&#34; src=&#34;http://blog.sensr.net/img/2014/02/sensr-add-camera.png&#34; alt=&#34;Add new camera page&#34; style=&#34;width:685px;height:230px;&#34; width=&#34;1003&#34; height=&#34;250&#34; srcset=&#34;http://blog.sensr.net/img/2014/02/sensr-add-camera.png 1003w, http://blog.sensr.net/img/2014/02/sensr-add-camera-300x101.png 300w&#34; sizes=&#34;(max-width: 9000px) 100vw, 1003px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Click the big green button!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;On a computer, log into your Sensr.net account and click the add camera button.&lt;/p&gt;
+
+&lt;p&gt;&lt;a style=&#34;color: #888888;&#34; href=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2.png&#34;&gt;&lt;img class=&#34;size-full wp-image-2607&#34; src=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2.png&#34; alt=&#34;FTP credentials&#34; style=&#34;width:685px;height:474px;&#34; srcset=&#34;http://blog.sensr.net/img/2013/12/sensr-add-camera-s2.png 2000w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s2-300x207.png 20000w, http://blog.sensr.net/img/2013/12/sensr-add-camera-s2-1024x708.png 1024w&#34; sizes=&#34;(max-width: 2000px) 100vw, 2000px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Sensr FTP credentials menu&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You’ll be given a server name, username, and password. These are your FTP credentials.&lt;/p&gt;
+
+&lt;p&gt;&lt;p align=&#34;center&#34;&gt;
+    &lt;img style=&#34;width:49%&#34; src=&#34;http://blog.sensr.net/img/FTPSettings.PNG&#34; class=&#34;img-rounded&#34; alt=&#34;Wansview Plugged In&#34; align=&#34;middle&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;FTP Settings menus in the iSmartViewPro app&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;On your phone, navigate to Advanced Settings in the iSmartviewpro app, then tap FTP Setting. Copy your Sensr.net FTP credentials into the app, then hit done. Once you’ve done that, your camera should be connected with Sensr.net! Remember that this model only uploads images when motion detection is tripped, so if you see that the camera isn’t uploading images to Sensr.net, wave your hand in front of the lens a couple of times.&lt;/p&gt;
 
 &lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;</description>
     </item>
@@ -832,15 +891,22 @@ Server: lighttpd/1.4.31
       <pubDate>Fri, 03 Oct 2014 16:49:59 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/10/03/como-configurar-a-gravacao-da-d-link-dcs-5010l-com-ftp/</guid>
-      <description>&lt;div id=&#34;attachment_3076&#34; style=&#34;width: 386px&#34; class=&#34;wp-caption alignleft&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/uploads/2014/09/DCS-5010L-BR.jpg&#34;&gt;&lt;img class=&#34;wp-image-3076 size-full&#34; src=&#34;http://blog.sensr.net/img/2014/09/DCS-5010L-BR.jpg&#34; alt=&#34;D-Link 5010L&#34; width=&#34;376&#34; height=&#34;450&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/DCS-5010L-BR.jpg 376w, http://blog.sensr.net/img/2014/09/DCS-5010L-BR-250x300.jpg 250w&#34; sizes=&#34;(max-width: 376px) 100vw, 376px&#34; /&gt;&lt;/a&gt;
+      <description>&lt;div id=&#34;attachment_3076&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img style=&#34;width:30%&#34; src=&#34;http://blog.sensr.net/img/2014/09/DCS-5010L-BR.jpg&#34; title=&#34;DCS-5010L-BR&#34; class=&#34;img-rounded&#34; alt=&#34;DCS-5010L-BR&#34; align=&#34;middle&#34; &gt;
+
   
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    D-Link 5010L
   &lt;/p&gt;
 &lt;/div&gt;
 
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;D-Link 5010L&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
 &lt;p&gt;A câmera &lt;a href=&#34;http://us.dlink.com/products/home-solutions/pan-tilt-daynight-network-camera-2/&#34; title=&#34;DCS 5010L&#34;&gt;D-Link DCS 5010L&lt;/a&gt; é um dos modelos mais populares da D-Link com visão noturna, rotação horizontal e vertical, WiFi e funciona com o serviço MyDlink. O valor da DCS-5010L é também muito acessível: atualmente ela &lt;a href=&#34;https://www.google.com/webhp?sourceid=chrome-instant&amp;amp;ion=1&amp;amp;espv=2&amp;amp;ie=UTF-8#q=dlink+brasil+DCS-5010L&amp;amp;start=10&#34; title=&#34;DCS-5010L na Amazon&#34;&gt;custa $75 na Amazon&lt;/a&gt;. Esta câmera é muito parecida com a DCS-5020L, mas custa quase metade do preço.&lt;/p&gt;
+
+&lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Necessidade de Gravação&lt;/strong&gt;&lt;/p&gt;
 
@@ -860,13 +926,14 @@ Server: lighttpd/1.4.31
 
 &lt;p&gt;&lt;strong&gt;Passo 1:&lt;/strong&gt; Para configurar a câmera, utilize o CD e as instruções disponibilizados em conjunto com a câmera. Tudo o que você precisa de fazer é conectar a câmera ao seu roteador e correr o software do CD. Você vai acabar por criar uma conta no site do MyDlink que vai dar acesso à sua câmera a partir do site ou dos aplicativos MyDlink. Após este passo, você conseguirá acessar sua câmera e alterar suas configurações. A página de configuração de sua câmera vai ter mais ou menos esse aspeto:&lt;/p&gt;
 
-&lt;div id=&#34;attachment_3077&#34; style=&#34;width: 410px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/DCS-5010L-Admin-br.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3077&#34; src=&#34;http://blog.sensr.net/img/2014/09/DCS-5010L-Admin-br.png&#34; alt=&#34;Página Admin DCS-5010L&#34; width=&#34;400&#34; height=&#34;289&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/DCS-5010L-Admin-br.png 400w, http://blog.sensr.net/img/2014/09/DCS-5010L-Admin-br-300x216.png 300w&#34; sizes=&#34;(max-width: 400px) 100vw, 400px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Página Admin DCS-5010L
-  &lt;/p&gt;
+&lt;div id=&#34;attachment_3077&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption alignright&#34;&gt;
+
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img style=&#34;width:60%&#34; src=&#34;http://blog.sensr.net/img/2014/09/DCS-5010L-Admin-br.png&#34; title=&#34;DCS-5010L-Admin-br&#34; class=&#34;img-rounded&#34; alt=&#34;DCS-5010L-Admin-br&#34; align=&#34;middle&#34; &gt;
+&lt;/p&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Página Admin DCS-5010L&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Agora você já consegue fazer alterações às configurações da câmera através do seu navegador. Se o que você pretende é assistir às filmagens em tempo real a partir de sua casa ou através do site MyDlink, então não será necessário fazer mais nada. (Existem outras configurações, como conexão sem fios e tamanho da imagem, que você pode alterar diretamente na interface, mas que eu não vou abordar nesse artigo.)&lt;/p&gt;
 
@@ -874,23 +941,27 @@ Server: lighttpd/1.4.31
 
 &lt;p&gt;&lt;strong&gt;Passo 2:&lt;/strong&gt; Faça o login no Sensr.net, utilizando o seu email e a sua senha. Se ainda não possui uma conta, você pode &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34; title=&#34;Cadastro gratuito no Sensr.net&#34;&gt;criar uma gratuitamente na página de inscrição&lt;/a&gt;. Depois de fazer login, clique no botão verde &lt;strong&gt;Add Camera&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;div id=&#34;attachment_3061&#34; style=&#34;width: 1013px&#34; class=&#34;wp-caption alignnone&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camerabr.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3061&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camerabr.png&#34; alt=&#34;Clique no botão verde&#34; width=&#34;1003&#34; height=&#34;339&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camerabr.png 1003w, http://blog.sensr.net/img/2014/09/sensr-add-camerabr-300x101.png 300w&#34; sizes=&#34;(max-width: 1003px) 100vw, 1003px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Clique no botão verde
+&lt;div id=&#34;attachment_3061&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption alignleft&#34;&gt;
+
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img style=&#34;width:100%&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camerabr.png&#34; title=&#34;DCS-5010L-Admin-br&#34; class=&#34;img-rounded&#34; alt=&#34;DCS-5010L-Admin-br&#34; align=&#34;middle&#34; &gt;
+ 
   &lt;/p&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Clique no botão verde&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Na página seguinte, você vai poder escolher o título (ou nome) da câmera, o fuso horário, a privacidade e o modelo. O título deve descrever o que a câmera está filmando. O título mais popular no Sensr.net é &lt;strong&gt;Porta da Frente&lt;/strong&gt;, que nos dá uma ideia de como os usuários utilizam o nosso site. Apesar de nós gerarmos um nome genérico para sua câmera baseado no login, você pode dar qualquer nome à sua câmera. O fuso horário é muito importante. Ele é utilizado para determinar a vista diária dos arquivos. Por padrão, as câmeras são privadas, o que significa que apenas você tem acesso a elas. Se quiser que sua câmera seja pública, você pode alterar essa configuração aqui. O modelo da câmera apenas indica qual o modelo que está sendo configurado. Nesse caso, o modelo é DCS-5010L.&lt;/p&gt;
 
-&lt;div id=&#34;attachment_3062&#34; style=&#34;width: 1009px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/add-camera-detailsbr.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3062&#34; src=&#34;http://blog.sensr.net/img/2014/09/add-camera-detailsbr.png&#34; alt=&#34;Dê um nome à sua câmera e partilhe alguns detalhes&#34; width=&#34;999&#34; height=&#34;491&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/add-camera-detailsbr.png 999w, http://blog.sensr.net/img/2014/09/add-camera-detailsbr-300x147.png 300w&#34; sizes=&#34;(max-width: 999px) 100vw, 999px&#34; /&gt;&lt;/a&gt;
+&lt;div id=&#34;attachment_3062&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+ 
+&lt;p align=&#34;top&#34;&gt;
+    &lt;img style=&#34;width:100%&#34; src=&#34;http://blog.sensr.net/img/2014/09/add-camera-detailsbr.png&#34; title=&#34;DCS-5010L-Admin-br&#34; class=&#34;img-rounded&#34; alt=&#34;DCS-5010L-Admin-br&#34; align=&#34;middle&#34; &gt;
   
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Dê um nome à sua câmera e compartilhe alguns detalhes
   &lt;/p&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Dê um nome à sua câmera e compartilhe alguns detalhes&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Depois de preencher todos os detalhes e clicar no link &lt;strong&gt;Next Step&lt;/strong&gt;, nós vamos criar algumas credenciais FTP para você. Será necessário introduzir esses dados na sua câmera no próximo passo. Os dados com mais importância são:&lt;/p&gt;
 
@@ -902,25 +973,30 @@ Server: lighttpd/1.4.31
 
 &lt;p&gt;Mantenha essa janela aberta ou copie os dados, uma vez que você vai precisar deles em breve. Você pode recuperar esses dados, a qualquer momento, na página de detalhes da câmera.&lt;/p&gt;
 
-&lt;div id=&#34;attachment_3046&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-ftp-1024x708.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3046&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-ftp-1024x708.png&#34; alt=&#34;Credenciais FTP&#34; width=&#34;1024&#34; height=&#34;708&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-ftp-1024x708.png 1024w, http://blog.sensr.net/img/2014/09/sensr-add-camera-ftp-1024x708-300x207.png 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;
+&lt;div id=&#34;attachment_3046&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
   
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Credenciais FTP
+&lt;p align=&#34;top&#34;&gt;
+    &lt;img style=&#34;width:100%&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-ftp-1024x708.png&#34; title=&#34;DCS-5010L-Admin-br&#34; class=&#34;img-rounded&#34; alt=&#34;DCS-5010L-Admin-br&#34; align=&#34;middle&#34; &gt;
+  
+
   &lt;/p&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Credenciais FTP&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Apresente sua câmera ao Sensr.net&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Passo 3:&lt;/strong&gt; Agora é necessário configurar sua câmera para enviar imagens para o Sensr.net. Volte à página da DCS-5010L, fazendo o login no site MyDlink e clicando no link de configuração. Clique em “SETUP” no menu superior e, depois, em “FTP”, na lateral. Você vai ser encaminhado para essa página:&lt;/p&gt;
 
-&lt;div id=&#34;attachment_3078&#34; style=&#34;width: 330px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/FTP-DCS-5010L-BR.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3078&#34; src=&#34;http://blog.sensr.net/img/2014/09/FTP-DCS-5010L-BR.png&#34; alt=&#34;Página Configuração FTP DCS-5010L&#34; width=&#34;320&#34; height=&#34;298&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/FTP-DCS-5010L-BR.png 320w, http://blog.sensr.net/img/2014/09/FTP-DCS-5010L-BR-300x279.png 300w&#34; sizes=&#34;(max-width: 320px) 100vw, 320px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Página Configuração FTP DCS-5010L
+&lt;div id=&#34;attachment_3078&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption alignmiddle&#34;&gt;
+ 
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img style=&#34;width:60%&#34; src=&#34;http://blog.sensr.net/img/2014/09/FTP-DCS-5010L-BR.png&#34; title=&#34;DCS-5010L-Admin-br&#34; class=&#34;img-rounded&#34; alt=&#34;DCS-5010L-Admin-br&#34; align=&#34;middle&#34; &gt;
+
   &lt;/p&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Página Configuração FTP DCS-5010L&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;As setas vermelhas mostram os parâmetros que devem ser configurados. No campo Host Name, introduza o servidor FTP que fornecemos na página “Add Camera” no Sensr.net. Copie também o usuário e a senha. Escolha “Passive Mode”, uma vez que o Sensr.net suporta apenas o modo FTP passivo.&lt;/p&gt;
 
@@ -930,8 +1006,10 @@ Server: lighttpd/1.4.31
 
 &lt;p&gt;Agora a configuração está terminada. Pode fechar a janela do navegador que mostra as configurações de sua câmera e voltar para o Sensr.net. Clique no botão &lt;strong&gt;Next Step&lt;/strong&gt; para ver as imagens enviadas pela sua câmera. Você verá uma página assim:&lt;/p&gt;
 
-&lt;div id=&#34;attachment_3050&#34; style=&#34;width: 997px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-successo.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3050&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-successo.png&#34; alt=&#34;Sucesso!&#34; width=&#34;987&#34; height=&#34;793&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-successo.png 987w, http://blog.sensr.net/img/2014/09/sensr-add-camera-successo-300x241.png 300w&#34; sizes=&#34;(max-width: 987px) 100vw, 987px&#34; /&gt;&lt;/a&gt;
+&lt;div id=&#34;attachment_3050&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  
+&lt;p align=&#34;left&#34;&gt;
+    &lt;img style=&#34;width:100%&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-successo.png&#34; title=&#34;DCS-5010L-Admin-br&#34; class=&#34;img-rounded&#34; alt=&#34;DCS-5010L-Admin-br&#34; align=&#34;middle&#34; &gt;
   
   &lt;p class=&#34;wp-caption-text&#34;&gt;
     Sucesso!
@@ -948,7 +1026,8 @@ Server: lighttpd/1.4.31
 &lt;/ul&gt;
 
 &lt;p&gt;Se tiver alguma dificuldade ou pergunta, clique no botão de Feedback no lado direito de qualquer uma das páginas do Sensr.net e coloque a sua questão. Geralmente, nós nos esforçamos por responder no prazo máximo de 24h horas.&lt;/p&gt;
-</description>
+
+&lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;</description>
     </item>
     
     <item>
@@ -957,21 +1036,28 @@ Server: lighttpd/1.4.31
       <pubDate>Fri, 26 Sep 2014 19:22:20 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/09/26/como-configurar-a-gravacao-da-d-link-dcs-5020l-com-uploads-ftp/</guid>
-      <description>&lt;div id=&#34;attachment_3058&#34; style=&#34;width: 385px&#34; class=&#34;wp-caption alignleft&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/DCS-5020L-Dlink.jpg&#34;&gt;&lt;img class=&#34;wp-image-3058 size-full&#34; src=&#34;http://blog.sensr.net/img/2014/09/DCS-5020L-Dlink.jpg&#34; alt=&#34;DCS-5020L da D-Link&#34; width=&#34;375&#34; height=&#34;450&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/DCS-5020L-Dlink.jpg 375w, http://blog.sensr.net/img/2014/09/DCS-5020L-Dlink-250x300.jpg 250w&#34; sizes=&#34;(max-width: 375px) 100vw, 375px&#34; /&gt;&lt;/a&gt;
+      <description>&lt;div id=&#34;attachment_3058&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img style=&#34;width:25%&#34; src=&#34;http://blog.sensr.net/img/2014/09/DCS-5020L-Dlink.jpg&#34; title=&#34;DCS-5020L da D-Link&#34; class=&#34;img-rounded&#34; alt=&#34;DCS-5020L da D-Link&#34; align=&#34;middle&#34; &gt;
   
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    DCS-5020L da D-Link
+  
   &lt;/p&gt;
 &lt;/div&gt;
 
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;DCS-5020L da D-Link&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
 &lt;p&gt;A câmera &lt;a href=&#34;http://us.dlink.com/products/connected-home/pan-tilt-daynight-network-camera/&#34; title=&#34;DCS 5020L&#34;&gt;D-Link DCS 5020L&lt;/a&gt; é um dos modelos mais populares da D-Link. Ela dispõe de visão noturna, rotação horizontal e vertical, WiFi e funciona com o serviço MyDlink. O valor da DCS 5020L é também muito acessível: atualmente &lt;a href=&#34;http://www.amazon.com/D-Link-Wireless-Surveillance-mydlink-Enabled-DCS-5020L/dp/B00CL8F98W/sensr-20&#34; title=&#34;DCS 5020L na Amazon&#34;&gt;ela custa $135 na Amazon&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Necessidade de Gravação&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Apesar do serviço MyDlink permitir que você assista às filmagens da câmera remotamente, ele não suporta nenhum tipo de gravação ou armazenamento de imagens. É aqui que o Sensr.net entra. Nosso serviço permite armazenar automaticamente as imagens captadas no último mês. Este artigo vai ajudar você a configurar sua câmera DCS-5020L para que você veja tudo o que se passa com as suas coisas enquanto você não está olhando!&lt;/p&gt;
 
-&lt;p&gt;Também vou mostrar como configurar a câmera para enviar imagens para o site do&lt;/p&gt;
+&lt;p&gt;&lt;!--more--&gt;Também vou mostrar como configurar a câmera para enviar imagens para o site do&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://sensr.net/&#34; title=&#34;Sensr.net&#34;&gt;Sensr.net&lt;/a&gt;, para que você tire partido de todas as funcionalidades do nosso serviço, como o armazenamento, o compartilhamento, e os alertas.&lt;/p&gt;
 
@@ -987,13 +1073,14 @@ Server: lighttpd/1.4.31
 
 &lt;p&gt;&lt;strong&gt;Passo 1:&lt;/strong&gt; Para configurar a câmera, utilize o CD e as instruções disponibilizados em conjunto com o aparelho. Tudo o que você precisa de fazer é conectar a câmera ao seu roteador e correr o software do CD. Você vai acabar por criar uma conta no site do MyDlink que vai dar acesso à sua câmera a partir do site ou dos aplicativos MyDlink. Após este passo, você conseguirá acessar sua câmera e alterar suas configurações. A página de configuração de sua câmera vai ter mais ou menos esse aspeto:&lt;/p&gt;
 
-&lt;div id=&#34;attachment_3060&#34; style=&#34;width: 410px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/DCS-930L-AdminPage.png&#34;&gt;&lt;img class=&#34;wp-image-3060 size-full&#34; src=&#34;http://blog.sensr.net/img/2014/09/DCS-930L-AdminPage.png&#34; alt=&#34;Página de Admin da DCS-930L &#34; width=&#34;400&#34; height=&#34;289&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/DCS-930L-AdminPage.png 400w, http://blog.sensr.net/img/2014/09/DCS-930L-AdminPage-300x216.png 300w&#34; sizes=&#34;(max-width: 400px) 100vw, 400px&#34; /&gt;&lt;/a&gt;
+&lt;div id=&#34;attachment_3060&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+    &lt;p style=&#34;text-align: center;&#34;&gt;
+        &lt;a href=&#34;http://blog.sensr.net/img/2014/09/DCS-930L-AdminPage.png&#34;&gt;&lt;img class=&#34;wp-image-3060 size-full&#34; src=&#34;http://blog.sensr.net/img/2014/09/DCS-930L-AdminPage.png&#34; alt=&#34;Página de Admin da DCS-930L &#34; style=&#34;width:513px;height:445px;&#34; width=&#34;400&#34; height=&#34;289&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/DCS-930L-AdminPage.png 400w, http://blog.sensr.net/img/2014/09/DCS-930L-AdminPage-300x216.png 300w&#34; sizes=&#34;(max-width: 400px) 100vw, 400px&#34; /&gt;&lt;/a&gt;
   
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Página de Admin da DCS-930L
   &lt;/p&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Página de Admin da DCS-930L&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Agora você já consegue fazer alterações às configurações da câmera através do seu navegador. Se o que você pretende é assistir às filmagens em tempo real a partir de sua casa ou através do site MyDlink, então não será necessário fazer mais nada. (Existem outras configurações, como conexão sem fios e tamanho da imagem, que você pode alterar diretamente na interface, mas que eu não vou abordar nesse artigo.)&lt;/p&gt;
 
@@ -1001,23 +1088,28 @@ Server: lighttpd/1.4.31
 
 &lt;p&gt;&lt;strong&gt;Passo 2:&lt;/strong&gt; Faça o login no Sensr.net, utilizando o seu email e a sua senha. Se ainda não possui uma conta, você pode &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34; title=&#34;Cadastro gratuito no Sensr.net  &#34;&gt;criar uma gratuitamente na página de inscrição&lt;/a&gt;. Depois de fazer login, clique no botão verde &lt;strong&gt;Add Camera&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;div id=&#34;attachment_3061&#34; style=&#34;width: 1013px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camerabr.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3061&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camerabr.png&#34; alt=&#34;Clique no botão verde&#34; width=&#34;1003&#34; height=&#34;339&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camerabr.png 1003w, http://blog.sensr.net/img/2014/09/sensr-add-camerabr-300x101.png 300w&#34; sizes=&#34;(max-width: 1003px) 100vw, 1003px&#34; /&gt;&lt;/a&gt;
+&lt;div id=&#34;attachment_3061&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img style=&#34;width:100%&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camerabr.png&#34; title=&#34;sensr-add-camerabr&#34; class=&#34;img-rounded&#34; alt=&#34;sensr-add-camerabr&#34; align=&#34;middle&#34; &gt;
   
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Clique no botão verde
   &lt;/p&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Clique no botão verde&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Na página seguinte, você vai poder escolher o título (ou nome) da câmera, o fuso horário, a privacidade e o modelo. O título deve descrever o que a câmera está filmando. O título mais popular no Sensr.net é &lt;strong&gt;Porta da Frente&lt;/strong&gt;, que nos dá uma ideia de como os usuários utilizam o nosso site. Apesar de nós gerarmos um nome genérico para sua câmera baseado no login, você pode dar qualquer nome à sua câmera. O fuso horário é muito importante. Ele é utilizado para determinar a vista diária dos arquivos. Por padrão, as câmeras são privadas, o que significa que apenas você tem acesso a elas. Se quiser que sua câmera seja pública, você pode alterar essa configuração aqui. O modelo da câmera apenas indica qual o modelo que está sendo configurado. Nesse caso, o modelo é DCS-5020L.&lt;/p&gt;
 
-&lt;div id=&#34;attachment_3062&#34; style=&#34;width: 1009px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/add-camera-detailsbr.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3062&#34; src=&#34;http://blog.sensr.net/img/2014/09/add-camera-detailsbr.png&#34; alt=&#34;Dê um nome à sua câmera e partilhe alguns detalhes&#34; width=&#34;999&#34; height=&#34;491&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/add-camera-detailsbr.png 999w, http://blog.sensr.net/img/2014/09/add-camera-detailsbr-300x147.png 300w&#34; sizes=&#34;(max-width: 999px) 100vw, 999px&#34; /&gt;&lt;/a&gt;
+&lt;div id=&#34;attachment_3062&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+    
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img style=&#34;width:100%&#34; src=&#34;http://blog.sensr.net/img/2014/09/add-camera-detailsbr.png&#34; title=&#34;add-camera-detailsbr&#34; class=&#34;img-rounded&#34; alt=&#34;add-camera-detailsbr&#34; align=&#34;middle&#34; &gt;
   
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Dê um nome à sua câmera e compartilhe alguns detalhes
+
   &lt;/p&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Dê um nome à sua câmera e compartilhe alguns detalhes&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Depois de preencher todos os detalhes e clicar no link &lt;strong&gt;Next Step&lt;/strong&gt;, nós vamos criar algumas credenciais FTP para você. Será necessário introduzir esses dados na sua câmera no próximo passo. Os dados com mais importância são:&lt;/p&gt;
 
@@ -1029,25 +1121,33 @@ Server: lighttpd/1.4.31
 
 &lt;p&gt;Mantenha essa janela aberta ou copie os dados, uma vez que você vai precisar deles em breve. Você pode recuperar esses dados, a qualquer momento, na página de detalhes da câmera.&lt;/p&gt;
 
-&lt;div id=&#34;attachment_3046&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-ftp-1024x708.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3046&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-ftp-1024x708.png&#34; alt=&#34;Credenciais FTP&#34; width=&#34;1024&#34; height=&#34;708&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-ftp-1024x708.png 1024w, http://blog.sensr.net/img/2014/09/sensr-add-camera-ftp-1024x708-300x207.png 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;
+&lt;div id=&#34;attachment_3046&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+    
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img style=&#34;width:100%&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-ftp-1024x708.png&#34; title=&#34;sensr-add-camera-ftp-1024x708&#34; class=&#34;img-rounded&#34; alt=&#34;sensr-add-camera-ftp-1024x708&#34; align=&#34;middle&#34; &gt;
   
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Credenciais FTP
+
   &lt;/p&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Credenciais FTP&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Apresente sua câmera ao Sensr.net&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Passo 3:&lt;/strong&gt; Agora é necessário configurar sua câmera para enviar imagens para o Sensr.net. Volte à página da DCS-5020L, fazendo o login no site MyDlink e clicando no link de configuração. Clique em “SETUP” no menu superior e, depois, em “FTP”, na lateral. Você vai ser encaminhado para essa página:&lt;/p&gt;
 
-&lt;div id=&#34;attachment_3064&#34; style=&#34;width: 330px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/dcs930ftpbr.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3064&#34; src=&#34;http://blog.sensr.net/img/2014/09/dcs930ftpbr.png&#34; alt=&#34;DCS-5020L Página de configuração FTP &#34; width=&#34;320&#34; height=&#34;298&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/dcs930ftpbr.png 320w, http://blog.sensr.net/img/2014/09/dcs930ftpbr-300x279.png 300w&#34; sizes=&#34;(max-width: 320px) 100vw, 320px&#34; /&gt;&lt;/a&gt;
+&lt;div id=&#34;attachment_3064&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+    
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img style=&#34;width:75%&#34; src=&#34;http://blog.sensr.net/img/2014/09/dcs930ftpbr.png&#34; title=&#34;dcs930ftpbr&#34; class=&#34;img-rounded&#34; alt=&#34;sdcs930ftpbr&#34; align=&#34;middle&#34; &gt;
   
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    DCS-5020L Página de configuração FTP
+
+  
+
   &lt;/p&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;DCS-5020L Página de configuração FTP&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;As setas vermelhas mostram os parâmetros que devem ser configurados. No campo Host Name, introduza o servidor FTP que fornecemos na página “Add Camera” no Sensr.net. Copie também o usuário e a senha. Escolha “Passive Mode”, uma vez que o Sensr.net suporta apenas o modo FTP passivo.&lt;/p&gt;
 
@@ -1057,13 +1157,14 @@ Server: lighttpd/1.4.31
 
 &lt;p&gt;Agora a configuração está terminada. Pode fechar a janela do navegador que mostra as configurações de sua câmera e voltar para o Sensr.net. Clique no botão &lt;strong&gt;Next Step&lt;/strong&gt; para ver as imagens enviadas pela sua câmera. Você verá uma página assim:&lt;/p&gt;
 
-&lt;div id=&#34;attachment_3050&#34; style=&#34;width: 997px&#34; class=&#34;wp-caption alignnone&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-successo.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3050&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-successo.png&#34; alt=&#34;Sucesso!&#34; width=&#34;987&#34; height=&#34;793&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-successo.png 987w, http://blog.sensr.net/img/2014/09/sensr-add-camera-successo-300x241.png 300w&#34; sizes=&#34;(max-width: 987px) 100vw, 987px&#34; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Sucesso!
+&lt;div id=&#34;attachment_3050&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption alignnone&#34;&gt;
+ &lt;p align=&#34;center&#34;&gt;
+    &lt;img style=&#34;width:100%&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-successo.png&#34; title=&#34;sensr-add-camera-successo&#34; class=&#34;img-rounded&#34; alt=&#34;sensr-add-camera-successo&#34; align=&#34;middle&#34; &gt;
+
   &lt;/p&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Sucesso!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Agora que a sua câmera já está configurada, existem outras coisas que você pode fazer:&lt;/p&gt;
 
@@ -1076,7 +1177,9 @@ Server: lighttpd/1.4.31
 
 &lt;p&gt;Se tiver alguma dificuldade ou pergunta, clique no botão de Feedback no lado direito de qualquer uma das páginas do Sensr.net e coloque a sua questão. Nós tentaremos responder no prazo máximo de 24h horas.&lt;/p&gt;
 
-&lt;p&gt;Divirta-se!&lt;/p&gt;</description>
+&lt;p&gt;Divirta-se!&lt;/p&gt;
+
+&lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;</description>
     </item>
     
     <item>
@@ -1085,11 +1188,17 @@ Server: lighttpd/1.4.31
       <pubDate>Thu, 25 Sep 2014 07:40:36 +0000</pubDate>
       
       <guid>http://blog.sensr.net/2014/09/25/como-configurar-uma-foscam-fi9821w-v2-do-mac-ou-linux/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://blog.sensr.net/img/2013/11/foscamfi9821wv2black.jpg&#34;&gt;&lt;img class=&#34;alignleft wp-image-2577 size-full&#34; src=&#34;http://blog.sensr.net/img/2013/11/foscamfi9821wv2black.jpg&#34; alt=&#34;Foscam FI9821W V2&#34; width=&#34;160&#34; height=&#34;160&#34; srcset=&#34;http://blog.sensr.net/img/2013/11/foscamfi9821wv2black.jpg 160w, http://blog.sensr.net/img/2013/11/foscamfi9821wv2black-150x150.jpg 150w&#34; sizes=&#34;(max-width: 160px) 100vw, 160px&#34; /&gt;&lt;/a&gt;A &lt;a href=&#34;http://www.amazon.com/Foscam-FI9821W-Megapixel-Wireless-Camera/dp/B00F3KWZW8/sensr-20&#34; title=&#34;Foscam FI9821W V2&#34;&gt;Foscam FI9821W V2&lt;/a&gt; é uma das câmeras IP mais populares atualmente. O seu valor ronda os $150 na &lt;a href=&#34;http://www.amazon.com/Foscam-FI9821W-Megapixel-Wireless-Camera/dp/B00F3KWZW8/sensr-20&#34; title=&#34;Compre Foscam FI9821W V2 na Amazon&#34;&gt;Amazon&lt;/a&gt;. As instruções incluem um software de configuração da câmera para Windows e Mac, mas ele não é realmente necessário. Nesse artigo, vou mostrar como configurar a câmera sem o software. &lt;strong&gt;Tenha em atenção que a porta padrão dessa câmera é a 88&lt;/strong&gt;. Perdi 30 minutos para o perceber, e ainda mais tempo para entender o que isso significa.&lt;/p&gt;
+      <description>&lt;p style=&#34;text-align: center;&#34;&gt;
+    &lt;img class=&#34;alignleft wp-image-2577 size-full&#34; style=&#34;width:200px;height:200px;&#34; src=&#34;http://blog.sensr.net/img/2013/11/foscamfi9821wv2black.jpg&#34; alt=&#34;Foscam FI9821W V2&#34; width=&#34;160&#34; height=&#34;160&#34; align=&#34;middle&#34; srcset=&#34;http://blog.sensr.net/img/2013/11/foscamfi9821wv2black.jpg 160w, http://blog.sensr.net/img/2013/11/foscamfi9821wv2black-150x150.jpg 150w&#34; sizes=&#34;(max-width: 160px) 100vw, 160px&#34; /&gt;
+&lt;/p&gt;
 
-&lt;p&gt;Também vou mostrar como enviar imagens para o&lt;/p&gt;
+&lt;p&gt;A &lt;a href=&#34;http://www.amazon.com/Foscam-FI9821W-Megapixel-Wireless-Camera/dp/B00F3KWZW8/sensr-20&#34; title=&#34;Foscam FI9821W V2&#34;&gt;Foscam FI9821W V2&lt;/a&gt; é uma das câmeras IP mais populares atualmente. O seu valor ronda os $150 na &lt;a href=&#34;http://www.amazon.com/Foscam-FI9821W-Megapixel-Wireless-Camera/dp/B00F3KWZW8/sensr-20&#34; title=&#34;Compre Foscam FI9821W V2 na Amazon&#34;&gt;Amazon&lt;/a&gt;. As instruções incluem um software de configuração da câmera para Windows e Mac, mas ele não é realmente necessário. Nesse artigo, vou mostrar como configurar a câmera sem o software. &lt;strong&gt;Tenha em atenção que a porta padrão dessa câmera é a 88&lt;/strong&gt;. Perdi 30 minutos para o perceber, e ainda mais tempo para entender o que isso significa.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://sensr.net/&#34; title=&#34;Sensr.net&#34;&gt;Sensr.net&lt;/a&gt;, para que você possa tirar partido de todas as nossas funcionalidades, como 30 dias de armanezamento, &lt;a href=&#34;http://sensr.net/blog/2013/10/24/ip-camera-no-firewall-config/&#34; title=&#34;View IP Camera Remotely, No Firewall Config&#34;&gt;sem configuração do firewall&lt;/a&gt;, compartilhamento de vídeos, &lt;a href=&#34;http://sensr.net/blog/2011/02/27/embed-your-sensr-net-cameras-live-view/&#34; title=&#34;Embed your Sensr.net camera’s live view&#34;&gt;streaming incorporável em tempo real&lt;/a&gt;, &lt;a href=&#34;http://sensr.net/blog/2012/04/11/guest-access-for-sensr-net-cameras/&#34; title=&#34;Guest Access for Sensr.net Cameras&#34;&gt;acesso compartilhado com lista de usuários convidados&lt;/a&gt;, etc.&lt;/p&gt;
+&lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Também vou mostrar como enviar imagens para o &lt;a href=&#34;https://sensr.net/&#34; title=&#34;Sensr.net&#34;&gt;Sensr.net&lt;/a&gt;, para que você possa tirar partido de todas as nossas funcionalidades, como 30 dias de armanezamento, &lt;a href=&#34;http://sensr.net/blog/2013/10/24/ip-camera-no-firewall-config/&#34; title=&#34;View IP Camera Remotely, No Firewall Config&#34;&gt;sem configuração do firewall&lt;/a&gt;, compartilhamento de vídeos, &lt;a href=&#34;http://sensr.net/blog/2011/02/27/embed-your-sensr-net-cameras-live-view/&#34; title=&#34;Embed your Sensr.net camera’s live view&#34;&gt;streaming incorporável em tempo real&lt;/a&gt;, &lt;a href=&#34;http://sensr.net/blog/2012/04/11/guest-access-for-sensr-net-cameras/&#34; title=&#34;Guest Access for Sensr.net Cameras&#34;&gt;acesso compartilhado com lista de usuários convidados&lt;/a&gt;, etc.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Resumo&lt;/strong&gt;&lt;/p&gt;
 
@@ -1113,13 +1222,14 @@ Server: lighttpd/1.4.31
 
 &lt;p&gt;Após efetuar o login no seu roteador, encontre a página que mostra todos os dispositivos conectados. Em baixo mostro a página de meu roteador, selecionei &lt;strong&gt;Attached Devices&lt;/strong&gt;, à esquerda, e obtive essa lista.&lt;/p&gt;
 
-&lt;div id=&#34;attachment_3039&#34; style=&#34;width: 942px&#34; class=&#34;wp-caption alignnone&#34;&gt;
+&lt;div id=&#34;attachment_3039&#34; style=&#34;width:685px&#34; class=&#34;wp-caption alignnone&#34;&gt;
   &lt;a href=&#34;http://blog.sensr.net/img/2014/09/netgear-dispositivos-conectados.png&#34;&gt;&lt;img class=&#34;wp-image-3039 size-full&#34; src=&#34;http://blog.sensr.net/img/2014/09/netgear-dispositivos-conectados.png&#34; alt=&#34;Lista de dispositivos conectados&#34; width=&#34;932&#34; height=&#34;780&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/netgear-dispositivos-conectados.png 932w, http://blog.sensr.net/img/2014/09/netgear-dispositivos-conectados-300x251.png 300w&#34; sizes=&#34;(max-width: 932px) 100vw, 932px&#34; /&gt;&lt;/a&gt;
   
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Lista de dispositivos conectados
+
   &lt;/p&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Lista de dispositivos conectados&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Para encontrar a sua câmera IP, você precisa de procurar o endereço MAC de sua câmera. (O endereço MAC está num adesivo na base da câmera). Como o endereço MAC de minha câmera acaba em 97, utilizei a pesquisa Chrome (CMD-F) e busquei por :97. O endereço IP nesse caso foi 10.1.1.26.&lt;/p&gt;
 
@@ -1131,23 +1241,24 @@ Server: lighttpd/1.4.31
 
 &lt;p&gt;Quando você acessa à página de sua câmera, ela terá esse aspeto.&lt;/p&gt;
 
-&lt;div id=&#34;attachment_3040&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption alignnone&#34;&gt;
+&lt;div id=&#34;attachment_3040&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption alignnone&#34;&gt;
   &lt;a href=&#34;http://blog.sensr.net/img/2014/09/fi9821wv2-pagina-configuracao.png&#34;&gt;&lt;img class=&#34;wp-image-3040 size-large&#34; src=&#34;http://blog.sensr.net/img/2014/09/fi9821wv2-pagina-configuracao-1024x708.png&#34; alt=&#34;Página de Configuração da FI9821W V2&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/fi9821wv2-pagina-configuracao-1024x708.png 1024w, http://blog.sensr.net/img/2014/09/fi9821wv2-pagina-configuracao-300x207.png 300w, http://blog.sensr.net/img/2014/09/fi9821wv2-pagina-configuracao.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
   
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Página de Configuração da FI9821W V2
   &lt;/p&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Página de Configuração da FI9821W V2&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;No Safari, você pode clicar no separador de Live Video e ver a sua câmera. A partir dessa página você pode rodar a sua câmera horizontal e verticalmente e assistir ao vídeo por streaming em tempo real a partir de sua rede doméstica. Hoje, algumas árvores estão sendo cortadas lá fora, por isso decidi instalar a câmera para observar o processo. É assim que você vai ver o vídeo:&lt;/p&gt;
 
-&lt;div id=&#34;attachment_3042&#34; style=&#34;width: 650px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+&lt;div id=&#34;attachment_3042&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
   &lt;a href=&#34;http://blog.sensr.net/img/2014/09/fi9821wv2-live-video-pagina.png&#34;&gt;&lt;img class=&#34;size-large wp-image-3042&#34; src=&#34;http://blog.sensr.net/img/2014/09/fi9821wv2-live-video-pagina-1024x708.png&#34; alt=&#34;Vídeo em tempo real no Safari&#34; width=&#34;640&#34; height=&#34;442&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/fi9821wv2-live-video-pagina-1024x708.png 1024w, http://blog.sensr.net/img/2014/09/fi9821wv2-live-video-pagina-300x207.png 300w, http://blog.sensr.net/img/2014/09/fi9821wv2-live-video-pagina.png 1141w&#34; sizes=&#34;(max-width: 640px) 100vw, 640px&#34; /&gt;&lt;/a&gt;
   
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Vídeo em tempo real no Safari
+
   &lt;/p&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Vídeo em tempo real no Safari&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Você pode ver na tela anterior que estou correndo a última versão de firmware, 10.11.1.18.&lt;/p&gt;
 
@@ -1161,23 +1272,25 @@ Server: lighttpd/1.4.31
 
 &lt;p&gt;Faça o login em sua conta Sensr.net e selecione &lt;strong&gt;Add Camera&lt;/strong&gt;. Sensr.net tem um período de teste gratuito, por isso experimente e veja se é aquilo de que estava à procura. (Criar uma conta no Sensr.net. é gratuito. Após terminar o seu período de teste gratuito, o controlo da câmera custa desde $9.95/mês). Assim que você fizer o login, você vai ver uma página como essa:&lt;/p&gt;
 
-&lt;div id=&#34;attachment_3044&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/sensr-novo-usuario-1024x708.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3044&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-novo-usuario-1024x708.png&#34; alt=&#34;Página para adicionar uma nova câmera&#34; width=&#34;1024&#34; height=&#34;708&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/sensr-novo-usuario-1024x708.png 1024w, http://blog.sensr.net/img/2014/09/sensr-novo-usuario-1024x708-300x207.png 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;
+&lt;div id=&#34;attachment_3044&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/sensr-novo-usuario-1024x708.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3044&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-novo-usuario-1024x708.png&#34; alt=&#34;Página para adicionar uma nova câmera&#34; style=&#34;width:685px;height:473px;&#34; width=&#34;1024&#34; height=&#34;708&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/sensr-novo-usuario-1024x708.png 1024w, http://blog.sensr.net/img/2014/09/sensr-novo-usuario-1024x708-300x207.png 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;
   
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Página para adicionar uma nova câmera
+
   &lt;/p&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Página para adicionar uma nova câmera&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;A seguir, você vai ver essa página, onde você pode definir o fuso horário para a sua câmera, atribuir um nome, e indicar-nos o modelo. Todas as câmeras ficam predefinidas como privadas, mas você pode alterar sua privacidade para pública se você quiser compartilhar as filmagens.&lt;/p&gt;
 
-&lt;div id=&#34;attachment_3045&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera2-1024x708.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3045&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera2-1024x708.png&#34; alt=&#34;Passo 1&#34; width=&#34;1024&#34; height=&#34;708&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera2-1024x708.png 1024w, http://blog.sensr.net/img/2014/09/sensr-add-camera2-1024x708-300x207.png 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;
+&lt;div id=&#34;attachment_3045&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera2-1024x708.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3045&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera2-1024x708.png&#34; alt=&#34;Passo 1&#34; style=&#34;width:685px;height:473px;&#34; width=&#34;1024&#34; height=&#34;708&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera2-1024x708.png 1024w, http://blog.sensr.net/img/2014/09/sensr-add-camera2-1024x708-300x207.png 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;
   
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Passo 1
+
   &lt;/p&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Passo 1&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Após você realizar esses passos, nós vamos gerar credenciais FTP para a sua câmera. Isso vai gerar um login para a sua FI9821W V2 para onde pode ser feito o upload de imagens por FTP. Esse dado diz à sua câmera para onde deve ser feito o upload. Os dados com mais importância são:&lt;/p&gt;
 
@@ -1189,63 +1302,68 @@ Server: lighttpd/1.4.31
 
 &lt;p&gt;Guarde esses dados para que possamos incluí-los mais tarde.&lt;/p&gt;
 
-&lt;div id=&#34;attachment_3046&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-ftp-1024x708.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3046&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-ftp-1024x708.png&#34; alt=&#34;Credenciais FTP&#34; width=&#34;1024&#34; height=&#34;708&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-ftp-1024x708.png 1024w, http://blog.sensr.net/img/2014/09/sensr-add-camera-ftp-1024x708-300x207.png 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;
+&lt;div id=&#34;attachment_3046&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-ftp-1024x708.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3046&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-ftp-1024x708.png&#34; alt=&#34;Credenciais FTP&#34; style=&#34;width:685px;height:473px;&#34; width=&#34;1024&#34; height=&#34;708&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-ftp-1024x708.png 1024w, http://blog.sensr.net/img/2014/09/sensr-add-camera-ftp-1024x708-300x207.png 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;
   
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Credenciais FTP
   &lt;/p&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Credenciais FTP&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Passo 5: Apresente Sensr.net à sua câmera&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Agora é necessário configurar a sua câmera para enviar imagens ao Sensr.net. Volte à página de configuração da câmera usando o endereço de IP que descobrimos anteriormente. Selecione Network e, depois, FTP Settings. A página apresentada será:&lt;/p&gt;
 
-&lt;div id=&#34;attachment_3047&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/fi9821wv2-ftp-pagina-1024x708.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3047&#34; src=&#34;http://blog.sensr.net/img/2014/09/fi9821wv2-ftp-pagina-1024x708.png&#34; alt=&#34;Configurar FTP&#34; width=&#34;1024&#34; height=&#34;708&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/fi9821wv2-ftp-pagina-1024x708.png 1024w, http://blog.sensr.net/img/2014/09/fi9821wv2-ftp-pagina-1024x708-300x207.png 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;
+&lt;div id=&#34;attachment_3047&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/fi9821wv2-ftp-pagina-1024x708.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3047&#34; src=&#34;http://blog.sensr.net/img/2014/09/fi9821wv2-ftp-pagina-1024x708.png&#34; alt=&#34;Configurar FTP&#34; style=&#34;width:685px;height:473px;&#34; width=&#34;1024&#34; height=&#34;708&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/fi9821wv2-ftp-pagina-1024x708.png 1024w, http://blog.sensr.net/img/2014/09/fi9821wv2-ftp-pagina-1024x708-300x207.png 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;
   
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Configurar FTP
+
   &lt;/p&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Configurar FTP&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Introduza no primeiro campo o Servidor FTP da página de configuração do Sensr.net. Vai aparecer dessa forma &lt;a href=&#34;ftp://f9.sensr.net/&#34;&gt;ftp://f9.sensr.net/&lt;/a&gt; ou qualquer outro servidor que o Sensr.net atribuiu à sua câmera. Atualmente os nossos servidores têm designação de f0.sensr.net a f9.sensr.net. Mantenha a porta 21 e o FTP mode como PASV. O nome de usuário é único para a sua câmera, por isso utilize o que foi atribuído pelo Sensr.net. O mesmo se aplica para a senha. O melhor é copiar e colar, para evitar erros no processo. Clique no botão de teste e a FI9821W vai verificar os dados de login. Se aparecer uma mensagem de &lt;strong&gt;Sucesso&lt;/strong&gt;, o processo foi concluído. Caso contrário, verifique se os dados do servidor, nome de usuário e senha estão corretos.&lt;/p&gt;
 
 &lt;p&gt;Sugerimos que configure a câmera para enviar uma imagem por segundo. Assim, você vai conseguir ver a gravação em tempo real a partir do Sensr.net. Para isso, acesse a página Video/Snapshot Settings:&lt;/p&gt;
 
-&lt;div id=&#34;attachment_3048&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/fi9821wv2-snapshot-pagina-1024x708.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3048&#34; src=&#34;http://blog.sensr.net/img/2014/09/fi9821wv2-snapshot-pagina-1024x708.png&#34; alt=&#34;Configuração Vídeo &gt; Snapshots&#34; width=&#34;1024&#34; height=&#34;708&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/fi9821wv2-snapshot-pagina-1024x708.png 1024w, http://blog.sensr.net/img/2014/09/fi9821wv2-snapshot-pagina-1024x708-300x207.png 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;
+&lt;div id=&#34;attachment_3048&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/fi9821wv2-snapshot-pagina-1024x708.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3048&#34; src=&#34;http://blog.sensr.net/img/2014/09/fi9821wv2-snapshot-pagina-1024x708.png&#34; alt=&#34;Configuração Vídeo &gt; Snapshots&#34; style=&#34;width:685px;height:473px;&#34; width=&#34;1024&#34; height=&#34;708&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/fi9821wv2-snapshot-pagina-1024x708.png 1024w, http://blog.sensr.net/img/2014/09/fi9821wv2-snapshot-pagina-1024x708-300x207.png 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;
   
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Configuração Vídeo &gt; Snapshots
+
   &lt;/p&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Configuração Vídeo &amp;gt; Snapshots&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Aqui você pode adicionar 1 como intervalo para que a câmera faça o upload contínuo de um frame por segundo. Selecione também todos os intervalos de tempo para que a câmera faça o upload 24h por dia, 7 dias por semana. Para salvar as configurações, não se esqueça de clicar no botão Save, no topo. Assim que terminar esses passos, a sua câmera FI9821WV2 começará a fazer o upload para o Sensr.net.&lt;/p&gt;
 
 &lt;p&gt;No Sensr.net a página deve passar desse aspeto:&lt;/p&gt;
 
-&lt;div id=&#34;attachment_3049&#34; style=&#34;width: 1034px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera3-1024x708.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3049&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera3-1024x708.png&#34; alt=&#34;A aguardar o upload&#34; width=&#34;1024&#34; height=&#34;708&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera3-1024x708.png 1024w, http://blog.sensr.net/img/2014/09/sensr-add-camera3-1024x708-300x207.png 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;
+&lt;div id=&#34;attachment_3049&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera3-1024x708.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3049&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera3-1024x708.png&#34; alt=&#34;A aguardar o upload&#34; style=&#34;width:685px;height:473px;&#34; width=&#34;1024&#34; height=&#34;708&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera3-1024x708.png 1024w, http://blog.sensr.net/img/2014/09/sensr-add-camera3-1024x708-300x207.png 300w&#34; sizes=&#34;(max-width: 1024px) 100vw, 1024px&#34; /&gt;&lt;/a&gt;
   
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    A aguardar o upload
   &lt;/p&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Configuração Vídeo &amp;gt; Snapshots&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Para uma página que mostra a imagem que sua câmera enviou. Algo como:&lt;/p&gt;
 
-&lt;div id=&#34;attachment_3050&#34; style=&#34;width: 997px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
-  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-successo.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3050&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-successo.png&#34; alt=&#34;Sucesso!&#34; width=&#34;987&#34; height=&#34;793&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-successo.png 987w, http://blog.sensr.net/img/2014/09/sensr-add-camera-successo-300x241.png 300w&#34; sizes=&#34;(max-width: 987px) 100vw, 987px&#34; /&gt;&lt;/a&gt;
+&lt;div id=&#34;attachment_3050&#34; style=&#34;width: 685px&#34; class=&#34;wp-caption aligncenter&#34;&gt;
+  &lt;a href=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-successo.png&#34;&gt;&lt;img class=&#34;size-full wp-image-3050&#34; src=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-successo.png&#34; alt=&#34;Sucesso!&#34; style=&#34;width:685px;height:550px;&#34; width=&#34;987&#34; height=&#34;793&#34; srcset=&#34;http://blog.sensr.net/img/2014/09/sensr-add-camera-successo.png 987w, http://blog.sensr.net/img/2014/09/sensr-add-camera-successo-300x241.png 300w&#34; sizes=&#34;(max-width: 987px) 100vw, 987px&#34; /&gt;&lt;/a&gt;
   
-  &lt;p class=&#34;wp-caption-text&#34;&gt;
-    Sucesso!
+
   &lt;/p&gt;
 &lt;/div&gt;
 
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Sucesso!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
 &lt;p&gt;Muitos parabéns, acabou a configuração de sua câmera. A sua câmera está agora ligada ao Sensr.net. Vamos arquivar todos os movimentos, disponibilizando 30 dias de arquivos, SMS e alertas de email, acesso livre à sua lista de convidados e muito mais. Você pode assistir em tempo real ao streaming de vídeo a partir de nosso site ou dos nossos aplicativos. Não é necessário configurar um firewall, nem ter um PC na cave para observar as imagens de sua câmera.&lt;/p&gt;
 
-&lt;p&gt;Se surgir alguma dificuldade, envie um email para info @ sensr.net e nós vamos tentar ajudar você!&lt;/p&gt;</description>
+&lt;p&gt;Se surgir alguma dificuldade, envie um email para info @ sensr.net e nós vamos tentar ajudar você!&lt;/p&gt;
+
+&lt;div class=&#34;cta&#34;&gt; &lt;a href=&#34;https://sensr.net/auth/users/sign_up&#34;&gt; &lt;button&gt; Sign up for free! &lt;/button&gt; &lt;/a&gt; &lt;/div&gt;</description>
     </item>
     
     <item>
